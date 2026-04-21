@@ -24,6 +24,7 @@
   const sidebar = document.getElementById('leaderboard-sidebar');
 
   let revealRunning = false;
+  let leaderboardHandling = false;
 
   // NEU: Duplikate / Reconnect-Resends abfangen, um Audio-"Haker" zu vermeiden
   let lastBoardKey = null;
@@ -593,9 +594,11 @@
     const key = data.generated_at || JSON.stringify(data.players_ranked);
     if (key === lastBoardKey) return;
 
-    // NEU: wenn Reveal/Audios laufen, nicht hart neu starten -> verhindert "Abhacken"
-    if (revealRunning) return;
+    // Verhindert Race Condition: zweites Event während await planAndPrebuffer läuft
+    // würde sonst das DOM leeren und dann startRevealSequence wegen revealRunning=true überspringen
+    if (revealRunning || leaderboardHandling) return;
 
+    leaderboardHandling = true;
     lastBoardKey = key;
 
     // NEU: Background-Music starten, sobald das Leaderboard wirklich angezeigt wird
@@ -609,6 +612,7 @@
       plannedRun = null;
     }
 
+    leaderboardHandling = false;
     renderLeaderboard(data.players_ranked);
   });
 

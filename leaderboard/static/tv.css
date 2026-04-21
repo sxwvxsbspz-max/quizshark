@@ -147,9 +147,15 @@ html, body {
 .ps__playerName,
 .ps__playerScore{
   font-family: "Nunito", Arial, sans-serif;
-  font-size: 4.5rem;   
-  font-weight: 500;     
+  font-size: 4.5rem;
+  font-weight: 500;
   color: rgba(255,255,255,0.95);
+}
+
+.ps__playerName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .ps__playerScore{

@@ -37,6 +37,7 @@ class PunktesammlerQuestionSource:
         self.questions_path = questions_path
         self.base_dir = os.path.dirname(os.path.abspath(self.questions_path))
         self.cleanup_log_path = os.path.join(self.base_dir, "audio_cleanup_log.txt")
+        self.play_log_path = os.path.join(self.base_dir, "play_log.txt")
 
     # -----------------------------
     # Logging
@@ -44,6 +45,19 @@ class PunktesammlerQuestionSource:
 
     def _utc_iso(self) -> str:
         return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    def _append_play_log(self, *, q: dict, status: str, reason: str = "") -> None:
+        try:
+            qid = q.get("id", "?")
+            artist = q.get("artist") or ""
+            title = q.get("title") or ""
+            year = q.get("year") or ""
+            detail = f" ({reason})" if reason else ""
+            line = f"[{self._utc_iso()}] {status:<8} id={qid}  {year}  {artist} – {title}{detail}\n"
+            with open(self.play_log_path, "a", encoding="utf-8") as f:
+                f.write(line)
+        except Exception:
+            pass
 
     def _append_cleanup_log(self, *, q: dict, provider: str, reason: str) -> None:
         """
@@ -99,8 +113,14 @@ class PunktesammlerQuestionSource:
 
         for _ in range(max_tries):
             # Auswahl-Logik: zufällig aus den X am längsten nicht gespielten
-            questions.sort(key=lambda q: (lastplayed_ts(q), int(q.get("id", 0) or 0)))
-            pool = questions[:5] if len(questions) > 5 else questions
+            # Wenn mehr als 5 Songs noch nie gespielt wurden: zufällige Auswahl statt ID-Tiebreaker
+            unplayed = [q for q in questions if not q.get("lastplayed")]
+            if len(unplayed) > 5:
+                random.shuffle(unplayed)
+                pool = unplayed[:5]
+            else:
+                questions.sort(key=lambda q: (lastplayed_ts(q), int(q.get("id", 0) or 0)))
+                pool = questions[:5] if len(questions) > 5 else questions
 
             # In der Retry-Schleife möglichst nicht ständig dieselbe Frage ziehen
             pool2 = [qq for qq in pool if qq.get("id") not in tried_ids]
@@ -139,6 +159,7 @@ class PunktesammlerQuestionSource:
                 if provider == "itunes" and reason in self.APPLE_HARD_DELETE_REASONS:
                     # Protokoll
                     self._append_cleanup_log(q=q, provider=provider, reason=reason)
+                    self._append_play_log(q=q, status="DELETED", reason=reason)
 
                     # Eintrag löschen
                     qid = q.get("id")
@@ -149,6 +170,8 @@ class PunktesammlerQuestionSource:
 
                     # Nicht nochmal versuchen
                     tried_ids.add(qid)
+                else:
+                    self._append_play_log(q=q, status="ERROR", reason=reason)
 
                 # In jedem Fall: nächste Frage
                 continue
@@ -156,6 +179,7 @@ class PunktesammlerQuestionSource:
             # Erst JETZT als gespielt markieren + speichern (nur wenn Audio wirklich spielbar ist)
             q["lastplayed"] = now_iso_utc()
             save_json_questions(self.questions_path, questions)
+            self._append_play_log(q=q, status="OK")
 
             audio_url_or_path = resolved.url
 
