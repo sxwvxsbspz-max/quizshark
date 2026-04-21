@@ -1,0 +1,46 @@
+=== Category Statistics (Punktesammler) ===
+Zeit (UTC): 2026-02-08T17:08:30Z
+Quelle: /home/aleranzer/blitzquiz/punktesammler/questions.json
+
+Gesamtanzahl Fragen: 526
+
+Kategorie | Anzahl | Anteil
+------------------------------------------------------------
+Wissenschaft | 111 |  21.10%
+Geografie | 82 |  15.59%
+Geschichte | 53 |  10.08%
+Politik & Zeitgeschehen | 44 |   8.37%
+Film & Fernsehen | 24 |   4.56%
+Technik & Digitales | 23 |   4.37%
+Kunst | 22 |   4.18%
+Musik | 20 |   3.80%
+Wirtschaft & Marken | 20 |   3.80%
+Sport | 19 |   3.61%
+Literatur | 14 |   2.66%
+Sprache & Etymologie | 14 |   2.66%
+Tiere | 13 |   2.47%
+Essen & Trinken | 11 |   2.09%
+Logik & Rätsel | 5 |   0.95%
+Lifestyle, Mode & Design | 4 |   0.76%
+Naturwissenschaften | 4 |   0.76%
+Popkultur | 4 |   0.76%
+Sonstiges (falls keine einordnung möglich) | 4 |   0.76%
+Astronomie | 3 |   0.57%
+Natur | 3 |   0.57%
+Rätsel | 3 |   0.57%
+Architektur | 2 |   0.38%
+Biologie | 2 |   0.38%
+Der Mensch | 2 |   0.38%
+Lifestyle & Kulinarik | 2 |   0.38%
+Mensch & Körper | 2 |   0.38%
+Natur & Tierwelt | 2 |   0.38%
+Promis & Boulevard | 2 |   0.38%
+Recht | 2 |   0.38%
+Religion & Mythologie | 2 |   0.38%
+Unnützes Wissen | 2 |   0.38%
+Alltagswissen | 1 |   0.19%
+Lifestyle | 1 |   0.19%
+Medien | 1 |   0.19%
+Nautik | 1 |   0.19%
+Reisen & Tourismus | 1 |   0.19%
+Sonstiges | 1 |   0.19%

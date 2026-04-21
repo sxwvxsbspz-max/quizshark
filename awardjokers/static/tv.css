@@ -1,0 +1,286 @@
+/* --- FILE: ./awardjokers/static/tv.css --- */
+
+/* =========================================================
+   BASIS – SKALIERUNG & RESET
+   ========================================================= */
+
+html {
+  font-size: 0.4vw;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ps, .ps * {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #00167a;
+  --white16: rgba(255,255,255,0.16);
+  --white95: rgba(255,255,255,0.95);
+  --rankBoxBg: #000000;
+}
+
+/* =========================================================
+   ROOT
+   ========================================================= */
+
+.ps {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Nunito", Arial, sans-serif;
+  color: #fff;
+  background-color: var(--bg);
+  background-image: url("/awardjokers/media/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* =========================================================
+   WRAP / LAYOUT
+   ========================================================= */
+
+.ps__wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 0.6vw;
+  padding: 2.1vw;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+/* =========================================================
+   RIGHT SIDEBAR
+   ========================================================= */
+
+.ps__sidebar {
+  /* 2 × 21.61vw + 0.6vw Gap */
+  max-width: 43.82vw;
+  height: calc(100vh - 4.2vw);
+  display: flex;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* =========================================================
+   PLAYERS – AUTOMATISCHER UMBRUCH
+   ========================================================= */
+
+.ps__players {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+
+  column-gap: 0.6vw;
+  row-gap: 0.5vw;
+}
+
+/* =========================================================
+   PLAYER ROW
+   ========================================================= */
+
+.ps__player {
+  width: 21.61vw;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ps__playerCard {
+  width: 100%;
+  height: 3.6vw;
+  padding-left: 1.0vw;
+  padding-right: 0.6vw;
+  border-radius: 1.0vw;
+  background: var(--white16);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0.2vw 0.5vw rgba(0,0,0,0.2);
+
+  --jokerSize: 2.6vw;
+}
+
+/* =========================================================
+   NAME
+   ========================================================= */
+
+.ps__playerName {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: var(--white95);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+/* =========================================================
+   RIGHT BLOCK
+   ========================================================= */
+
+.ps__playerRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5vw;
+  flex: 0 0 auto;
+}
+
+/* =========================================================
+   JOKER SLOTS
+   ========================================================= */
+
+.ps__jokerSlots {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.2vw;
+  width: 5.4vw;
+  flex: 0 0 auto;
+
+  /* NEU: Overlay über beide Slots */
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.8vw; /* gemeinsamer abgerundeter Block */
+}
+
+.ps__jokerOverlay{
+  position: absolute;
+  inset: 0;
+  border-radius: 0.8vw;
+  z-index: 10;
+
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      rgb(235,238,242) 0px,
+      rgb(235,238,242) 8px,
+      rgb(190,198,210) 8px,
+      rgb(190,198,210) 16px
+    );
+
+  pointer-events: none;
+
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25);
+
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+  will-change: transform;
+}
+
+.ps__player[data-revealed="1"] .ps__jokerOverlay{
+  transform: translateX(110%);
+}
+
+.ps__jokerSlot {
+  position: relative;
+  width: var(--jokerSize);
+  height: var(--jokerSize);
+  flex: 0 0 var(--jokerSize);
+
+  z-index: 1; /* unter Overlay */
+}
+
+.ps__joker {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Joker Anzeige-Logik (Grundzustand: anhand Slot-Type) */
+.ps__jokerSlot[data-type="gold"]  .ps__joker--gold  { opacity: 1; }
+.ps__jokerSlot[data-type="white"] .ps__joker--white { opacity: 1; }
+
+/* NEU: Nojoker (nur rechts benutzt) */
+.ps__jokerSlot[data-type="no"] .ps__joker--no { opacity: 0.55; }
+
+.ps__jokerSlot[data-type="empty"],
+.ps__jokerSlot[data-type="none"] {
+  visibility: hidden;
+}
+
+/* =========================================================
+   REVEAL-GATING (TV-JS steuert per data-revealed am Player)
+   - Wir nutzen jetzt das Overlay, daher KEIN opacity-gating mehr
+   ========================================================= */
+
+/* (bewusst entfernt: .ps__player[data-revealed="0"] .ps__joker { opacity: 0 !important; }) */
+
+.ps__player[data-revealed="0"] .ps__jokerSlot[data-type="empty"],
+.ps__player[data-revealed="0"] .ps__jokerSlot[data-type="none"] {
+  visibility: hidden;
+}
+
+/* =========================================================
+   RANK BOX
+   ========================================================= */
+
+.ps__playerRankBox {
+  border: 0.0vw solid #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 2.275rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.6vw;
+  height: 2.6vw;
+
+  border-radius: 0.6vw;
+  padding: 0;
+
+  flex: 0 0 auto;
+}
+
+.ps__scoreText {
+  font-size: 2.4rem; 
+  font-weight: 500;
+  line-height: 1;
+  display: block;
+}

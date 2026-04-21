@@ -1,0 +1,35 @@
+SORTQUESTIONS PROTOKOLL
+Zeitpunkt: 2026-03-13T17:32:55Z
+Script: sortquestions.py
+Questions: /home/aleranzer/quizshark/customquiz/questions.json
+Audio-Ordner: /home/aleranzer/quizshark/customquiz/media/audio
+
+=== VORPRÜFUNG ===
+[OK] Vorprüfung erfolgreich. Keine Inkonsistenzen gefunden.
+
+=== BACKUP ===
+[OK] Backup erstellt: /home/aleranzer/quizshark/customquiz/questions.backup.json
+
+=== UMBENENNUNGSPLAN ===
+[PLAN] alt ID 3 -> neu ID 0001 | question-3.mp3 -> question-1.mp3 | Frage: Welches Gas macht den Hauptteil unserer Atemluft aus?
+[PLAN] alt ID 2 -> neu ID 0002 | question-2.mp3 -> question-2.mp3 | Frage: Welches Bauwerk ist auf der Rückseite des 50-Euro-Scheins abgebildet?
+[PLAN] alt ID 1 -> neu ID 0003 | question-1.mp3 -> question-3.mp3 | Frage: Wie heißt der höchste Berg der Erde?
+
+=== PHASE 1: TEMP-RENAME ===
+[OK] TEMP question-3.mp3 -> __tmp__sortquestions__oldid_3__question-3.mp3
+[OK] TEMP question-2.mp3 -> __tmp__sortquestions__oldid_2__question-2.mp3
+[OK] TEMP question-1.mp3 -> __tmp__sortquestions__oldid_1__question-1.mp3
+
+=== PHASE 2: FINAL-RENAME ===
+[OK] FINAL __tmp__sortquestions__oldid_3__question-3.mp3 -> question-1.mp3
+[OK] FINAL __tmp__sortquestions__oldid_2__question-2.mp3 -> question-2.mp3
+[OK] FINAL __tmp__sortquestions__oldid_1__question-1.mp3 -> question-3.mp3
+
+=== JSON SPEICHERN ===
+[OK] questions.json gespeichert: /home/aleranzer/quizshark/customquiz/questions.json
+
+=== NACHPRÜFUNG ===
+[OK] Nachprüfung erfolgreich. JSON und Audio-Dateien sind konsistent.
+
+=== ABSCHLUSS ===
+[OK] Sortierung, Umbenennung und Prüfungen erfolgreich abgeschlossen.

@@ -1,0 +1,502 @@
+<!-- --- FILE: ./pause/tv.html --- -->
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="ps pause-tv">
+
+  <!-- VIDEO LAYER -->
+  <div id="video-layer" class="pause-tv__videoLayer">
+    <video id="phase-video" autoplay class="pause-tv__video">
+      <source src="/pause/media/intro.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- COUNTDOWN LAYER -->
+  <div id="game-layer" class="pause-tv__gameLayer" style="display:none;">
+
+    <!-- BACKGROUND SVG -->
+    <div class="lobby-bg" aria-hidden="true">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%"
+        viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="bg">
+            <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+            <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+            <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+          </linearGradient>
+          <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+  s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+        </defs>
+        <g>
+          <use xlink:href="#wave" opacity=".3">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="10s"
+              calcMode="spline"
+              values="270 230; -334 180; 270 230"
+              keyTimes="0; .5; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#wave" opacity=".6">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="8s"
+              calcMode="spline"
+              values="-270 230;243 220;-270 230"
+              keyTimes="0; .6; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#wave" opacity=".9">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="6s"
+              calcMode="spline"
+              values="0 230;-140 200;0 230"
+              keyTimes="0; .4; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+        </g>
+      </svg>
+    </div>
+
+    <div class="ps__wrap pause-tv__wrap">
+
+      <audio
+        id="bgm"
+        src="/pause/media/backgroundmusic.mp3"
+        preload="auto"
+        loop
+      ></audio>
+
+      <div class="pause-tv__center">
+
+        <img
+          class="pause-tv__logo"
+          src="/pre_lobby/media/quizshark.png"
+          alt="QuizShark"
+        />
+
+        <div
+          class="pause-tv__infobox"
+          id="pause-infobox"
+          aria-live="polite"
+        >
+          <div class="pause-tv__infoboxLayer">
+            <div class="pause-tv__headline">PAUSE</div>
+            <div id="pause-time" class="pause-tv__time">05:00</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pause-tv__sharkWrap" aria-hidden="true">
+        <img
+          class="pause-tv__shark"
+          src="/pause/media/sleepingshark.png"
+          alt=""
+        />
+        <div class="pause-tv__zzz">
+          <span class="pause-tv__z pause-tv__z--1">z</span>
+          <span class="pause-tv__z pause-tv__z--2">z</span>
+          <span class="pause-tv__z pause-tv__z--3">z</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<style>
+  html {
+    font-size: 0.4vw;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .ps, .ps * {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+    font-weight: 900;
+  }
+
+  :root {
+    --bg: #00167a;
+    --white16: rgba(255,255,255,0.16);
+    --white95: rgba(255,255,255,0.95);
+  }
+
+  .ps.pause-tv {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: "Nunito", Arial, sans-serif;
+    color: #fff;
+    background: var(--bg);
+  }
+
+  .pause-tv__videoLayer,
+  .pause-tv__gameLayer {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .pause-tv__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .lobby-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .lobby-bg svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #08263c;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(14, 65, 102, 0.86),
+      #0e4166
+    );
+  }
+
+  .pause-tv__wrap {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 6rem;
+    padding-top: 10rem;
+    overflow: visible;
+  }
+
+  .pause-tv__center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    text-align: center;
+    max-width: 120rem;
+    margin-top: -2rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .pause-tv__logo {
+    width: min(63rem, 63.75vw);
+    height: auto;
+    display: block;
+  }
+
+  .pause-tv__infobox {
+    position: relative;
+    width: min(110rem, 100%);
+    min-height: 8vw;
+    margin: 0 auto;
+    padding: 1.2vw 1.6vw;
+    border-radius: 1.6vw;
+    background: var(--white16);
+    border: 0.25vw solid rgba(255,255,255,0.18);
+    box-shadow: 0 1.8vw 4vw rgba(0,0,0,0.35);
+    overflow: hidden;
+  }
+
+  .pause-tv__infoboxLayer {
+    width: 100%;
+    min-height: calc(8vw - 2.4vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+    text-align: center;
+  }
+
+  .pause-tv__headline {
+    width: 100%;
+    margin: 0;
+    font-size: 7.5rem;
+    line-height: 1;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+
+  .pause-tv__time {
+    width: 100%;
+    margin: 0;
+    font-size: 11rem;
+    line-height: 0.95;
+    font-weight: 900;
+    color: #ffffff;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .pause-tv__sharkWrap {
+    position: absolute;
+    right: 2.8rem;
+    bottom: 1.8rem;
+    width: min(61vw, 99rem);
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  .pause-tv__shark {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .pause-tv__zzz {
+    position: absolute;
+    left: 70%;
+    top: -10%;
+    width: 14rem;
+    height: 20rem;
+  }
+
+  .pause-tv__z {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 5.5rem;
+    font-weight: 900;
+    line-height: 1;
+    color: rgba(255,255,255,0.92);
+    text-shadow: 0 0.3rem 1rem rgba(0,0,0,0.22);
+    opacity: 0;
+    animation: pauseZFloat 3.6s ease-in-out infinite;
+  }
+
+  .pause-tv__z--1 {
+    animation-delay: 0s;
+  }
+
+  .pause-tv__z--2 {
+    animation-delay: 1.2s;
+  }
+
+  .pause-tv__z--3 {
+    animation-delay: 2.4s;
+  }
+
+  @keyframes pauseZFloat {
+    0% {
+      transform: translate(0, 0) scale(0.75) rotate(-8deg);
+      opacity: 0;
+    }
+    18% {
+      opacity: 0.95;
+    }
+    45% {
+      transform: translate(0.6rem, -4rem) scale(0.95) rotate(5deg);
+      opacity: 0.9;
+    }
+    72% {
+      transform: translate(-0.5rem, -8rem) scale(1.08) rotate(-4deg);
+      opacity: 0.55;
+    }
+    100% {
+      transform: translate(0.8rem, -12rem) scale(1.22) rotate(6deg);
+      opacity: 0;
+    }
+  }
+</style>
+
+<script>
+  socket.emit('register_tv');
+  socket.on('connect', () => {
+    socket.emit('register_tv');
+  });
+
+  const videoLayer = document.getElementById('video-layer');
+  const gameLayer = document.getElementById('game-layer');
+  const videoEl = document.getElementById('phase-video');
+  const timeEl = document.getElementById('pause-time');
+  const bgm = document.getElementById('bgm');
+
+  let serverOffsetMs = 0;
+  let pauseEndsAtMs = null;
+  let timerInterval = null;
+let bgmStarted = false;
+let fadeStarted = false;
+
+  function nowSyncedMs() {
+    return Date.now() + serverOffsetMs;
+  }
+
+  function parseIsoToMs(iso) {
+    const ms = Date.parse(iso);
+    return Number.isFinite(ms) ? ms : null;
+  }
+
+  function formatRemaining(msLeft) {
+    const totalSeconds = Math.max(0, Math.ceil(msLeft / 1000));
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    return String(minutes).padStart(2, '0') + ':' + String(seconds).padStart(2, '0');
+  }
+
+  function showIntro() {
+    if (videoLayer) videoLayer.style.display = '';
+    if (gameLayer) gameLayer.style.display = 'none';
+  }
+
+  function showCountdown() {
+    if (videoLayer) videoLayer.style.display = 'none';
+    if (gameLayer) gameLayer.style.display = '';
+  }
+
+function startBgm() {
+  if (!bgm || bgmStarted) return;
+  bgmStarted = true;
+
+  try {
+    fadeStarted = false;
+    bgm.volume = 0.4;
+    bgm.currentTime = 0;
+    const p = bgm.play();
+      if (p && typeof p.catch === 'function') {
+        p.catch(err => {
+          console.log('pause bgm autoplay blocked', err);
+          bgmStarted = false;
+        });
+      }
+    } catch (e) {
+      console.log('pause bgm error', e);
+      bgmStarted = false;
+    }
+  }
+
+  function stopBgm() {
+    if (!bgm) return;
+    try {
+      bgm.pause();
+      bgm.currentTime = 0;
+    } catch (e) {
+      console.log('pause bgm stop error', e);
+    }
+    bgmStarted = false;
+  }
+
+function renderTime() {
+  if (!timeEl || pauseEndsAtMs === null) return;
+
+  const msLeft = Math.max(0, pauseEndsAtMs - nowSyncedMs());
+  timeEl.textContent = formatRemaining(msLeft);
+
+  // Fade ab letzten 2 Sekunden
+  if (bgm && bgmStarted) {
+    if (msLeft <= 2000 && msLeft > 0) {
+      fadeStarted = true;
+      bgm.volume = 0.4 * (msLeft / 2000);
+    } else if (msLeft > 2000 && !fadeStarted) {
+      bgm.volume = 0.4;
+    }
+  }
+
+  if (msLeft <= 0) {
+    if (bgm) bgm.volume = 0;
+
+    if (timerInterval) {
+      clearInterval(timerInterval);
+      timerInterval = null;
+    }
+  }
+}
+
+  socket.on('server_time', (data) => {
+    const serverNow = Number(data && data.server_now);
+    if (!Number.isFinite(serverNow)) return;
+    serverOffsetMs = serverNow - Date.now();
+    renderTime();
+  });
+
+  socket.on('pause_intro', () => {
+    stopBgm();
+    showIntro();
+
+    if (!videoEl) return;
+
+    videoEl.onended = function() {
+      socket.emit('module_event', {
+        scope: 'system',
+        action: 'video_finished',
+        payload: { at: Date.now() }
+      });
+    };
+
+    try {
+      videoEl.currentTime = 0;
+      videoEl.play().catch(err => {
+        console.log('pause intro autoplay blocked', err);
+      });
+    } catch (e) {
+      console.log('pause intro error', e);
+    }
+  });
+
+  socket.on('pause_countdown', (data) => {
+    pauseEndsAtMs = parseIsoToMs(data && data.ends_at);
+
+    showCountdown();
+    startBgm();
+    renderTime();
+
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = setInterval(renderTime, 250);
+  });
+
+  window.addEventListener('beforeunload', () => {
+    stopBgm();
+  });
+</script>
+{% endblock %}

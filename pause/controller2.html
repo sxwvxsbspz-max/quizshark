@@ -1,0 +1,206 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="ps-controller">
+
+  <!-- TITLE SCREEN -->
+  <div
+    id="title-screen"
+    class="screen"
+    style="
+      background-image: url('/pause/media/controllerbackground.svg');
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <div class="pause-controller-titleWrap">
+      <div class="pause-controller-title">Pause</div>
+      <div class="pause-controller-subtitle">Gleich geht’s weiter</div>
+    </div>
+  </div>
+
+  <!-- COUNTDOWN SCREEN -->
+  <div
+    id="countdown-screen"
+    class="screen screen--qa"
+    style="
+      display:none;
+      background-image: url('/pause/media/controllerbackground.svg');
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <div class="qa-inner pause-controller-inner">
+      <div class="pause-controller-card">
+        <div class="pause-controller-headline">Pause</div>
+        <div id="pause-seconds" class="pause-controller-seconds">300</div>
+        <div class="pause-controller-secondsLabel">Sekunden</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .pause-controller-titleWrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .pause-controller-title {
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 900;
+    text-shadow: 0 4px 14px rgba(0,0,0,0.35);
+  }
+
+  .pause-controller-subtitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+    opacity: 0.92;
+  }
+
+  .pause-controller-inner {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pause-controller-card {
+    width: min(86vw, 420px);
+    border-radius: 28px;
+    padding: 28px 22px;
+    text-align: center;
+    background: rgba(8, 18, 45, 0.55);
+    box-shadow: 0 18px 48px rgba(0,0,0,0.28);
+    backdrop-filter: blur(6px);
+  }
+
+  .pause-controller-headline {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .pause-controller-seconds {
+    margin-top: 12px;
+    font-size: 5.4rem;
+    line-height: 1;
+    font-weight: 900;
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .pause-controller-secondsLabel {
+    margin-top: 10px;
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: rgba(255,255,255,0.9);
+    letter-spacing: 0.03em;
+  }
+</style>
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/punktesammler/static/controller.css">
+
+<script>
+  function getSelfPlayerId(){
+    return (
+      localStorage.getItem('blitzquiz_player_id') ||
+      localStorage.getItem('player_id') ||
+      localStorage.getItem('playerId') ||
+      sessionStorage.getItem('blitzquiz_player_id') ||
+      sessionStorage.getItem('player_id') ||
+      sessionStorage.getItem('playerId') ||
+      null
+    );
+  }
+
+  function getSelfRunId(){
+    return (
+      localStorage.getItem('blitzquiz_run_id') ||
+      sessionStorage.getItem('blitzquiz_run_id') ||
+      null
+    );
+  }
+
+  function registerController(){
+    socket.emit('register_controller', {
+      player_id: getSelfPlayerId() || "",
+      run_id: getSelfRunId() || ""
+    });
+  }
+
+  registerController();
+  socket.on('connect', () => registerController());
+
+  const titleScreen = document.getElementById('title-screen');
+  const countdownScreen = document.getElementById('countdown-screen');
+  const secondsEl = document.getElementById('pause-seconds');
+
+  let serverOffsetMs = 0;
+  let pauseEndsAtMs = null;
+  let timerInterval = null;
+
+  function nowSyncedMs() {
+    return Date.now() + serverOffsetMs;
+  }
+
+  function parseIsoToMs(iso) {
+    const ms = Date.parse(iso);
+    return Number.isFinite(ms) ? ms : null;
+  }
+
+  function showIntro() {
+    if (titleScreen) titleScreen.style.display = '';
+    if (countdownScreen) countdownScreen.style.display = 'none';
+  }
+
+  function showCountdown() {
+    if (titleScreen) titleScreen.style.display = 'none';
+    if (countdownScreen) countdownScreen.style.display = '';
+  }
+
+  function renderSeconds() {
+    if (!secondsEl || pauseEndsAtMs === null) return;
+
+    const msLeft = Math.max(0, pauseEndsAtMs - nowSyncedMs());
+    const secLeft = Math.max(0, Math.ceil(msLeft / 1000));
+    secondsEl.textContent = String(secLeft);
+
+    if (msLeft <= 0 && timerInterval) {
+      clearInterval(timerInterval);
+      timerInterval = null;
+    }
+  }
+
+  socket.on('server_time', (data) => {
+    const serverNow = Number(data && data.server_now);
+    if (!Number.isFinite(serverNow)) return;
+    serverOffsetMs = serverNow - Date.now();
+    renderSeconds();
+  });
+
+  socket.on('pause_intro', () => {
+    showIntro();
+  });
+
+  socket.on('pause_countdown', (data) => {
+    pauseEndsAtMs = parseIsoToMs(data && data.ends_at);
+    showCountdown();
+    renderSeconds();
+
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = setInterval(renderSeconds, 250);
+  });
+</script>
+{% endblock %}

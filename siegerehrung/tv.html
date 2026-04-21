@@ -1,0 +1,644 @@
+<!-- --- FILE: ./siegerehrung/tv.html --- -->
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="ps siegerehrung">
+  <div class="ps__wrap siegerehrung__wrap">
+    <div class="ps__sidebar siegerehrung__sidebar">
+      <div id="siegerehrung-sidebar" class="ps__players">
+        <!-- Spieler per JS -->
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/siegerehrung/static/tv.css">
+
+<script>
+  socket.emit('register_tv');
+  socket.on('connect', () => socket.emit('register_tv'));
+
+  const MAX_TV_PLAYERS = 18;
+  const sidebar = document.getElementById('siegerehrung-sidebar');
+
+  let revealRunning = false;
+
+  // NEU: Duplikate / Reconnect-Resends abfangen, um Audio-"Haker" zu vermeiden
+  let lastBoardKey = null;
+
+  function preloadAudio(src){
+    const a = new Audio(src);
+    a.preload = 'auto';
+    return a;
+  }
+
+  // =====================================================
+  // BACKGROUND MUSIC (50% Volume) + Fade-Out vor Phasenende
+  // =====================================================
+  const BG_MUSIC_SRC = '/siegerehrung/media/backgroundmusic.mp3';
+  let bgMusic = null;
+  let bgStarted = false;
+
+  function ensureBgMusicStarted(){
+    if (bgStarted) return;
+    bgStarted = true;
+
+    bgMusic = new Audio(BG_MUSIC_SRC);
+    bgMusic.preload = 'auto';
+    bgMusic.loop = true;
+    bgMusic.volume = 0.5;
+
+    // NEU: erst laden/puffern, dann starten (verhindert "Hakeln" beim Start)
+    try { bgMusic.load(); } catch(_) {}
+
+    const tryStart = () => {
+      if (!bgMusic) return;
+      bgMusic.play().catch(() => {
+        // Autoplay-Restriktionen: ignorieren (SFX werden ohnehin gestartet)
+      });
+    };
+
+    // sobald genug gepuffert ist -> starten
+    bgMusic.addEventListener('canplaythrough', tryStart, { once: true });
+
+    // Fallback: falls canplaythrough nicht feuert, sobald minimal spielbar -> starten
+    bgMusic.addEventListener('canplay', tryStart, { once: true });
+
+    // letzter Fallback: dennoch einmal direkt versuchen
+    tryStart();
+  }
+
+  // NEU: Background-Music direkt beim Laden der Seite starten (nicht erst beim Event)
+  ensureBgMusicStarted();
+
+  function fadeAudioTo(audio, targetVolume, durationMs){
+    return new Promise(res => {
+      if (!audio) return res();
+
+      const startVol = Number(audio.volume || 0);
+      const endVol = Math.max(0, Math.min(1, Number(targetVolume)));
+      const dur = Math.max(0, Number(durationMs || 0));
+
+      if (dur === 0 || startVol === endVol) {
+        audio.volume = endVol;
+        return res();
+      }
+
+      const start = performance.now();
+
+      function step(now){
+        const t = Math.min(1, (now - start) / dur);
+        audio.volume = startVol + (endVol - startVol) * t;
+
+        if (t < 1) {
+          requestAnimationFrame(step);
+        } else {
+          audio.volume = endVol;
+          res();
+        }
+      }
+
+      requestAnimationFrame(step);
+    });
+  }
+
+  // =====================================================
+  // SOUND CONFIG (nur hier pflegen)
+  // -> einfach neue Zeilen/Dateien ergänzen
+  // =====================================================
+  const SOUND_BASE = '/siegerehrung/media/sounds/';
+
+  const SOUND_FILES = {
+    intro: [
+      'siegerehrung1.mp3',
+      'siegerehrung2.mp3',
+    ],
+    r3: [
+      '3rdrank1.mp3',
+      '3rdrank2.mp3',
+    ],
+    r2: [
+      '2ndrank1.mp3',
+      '2ndrank2.mp3',
+    ],
+    r1: [
+      '1strank1.mp3',
+      '1strank2.mp3',
+    ],
+        end: [
+      'end1.mp3',
+      'end2.mp3',
+      'end3.mp3',
+    ],
+    unveil: [
+      'unveil.mp3'
+    ]
+  };
+
+  // NEU: alle Varianten preloaden (URLs werden automatisch gebaut)
+  const sounds = {
+    intro:  (SOUND_FILES.intro  || []).map(f => preloadAudio(SOUND_BASE + f)),
+    r3:     (SOUND_FILES.r3     || []).map(f => preloadAudio(SOUND_BASE + f)),
+    r2:     (SOUND_FILES.r2     || []).map(f => preloadAudio(SOUND_BASE + f)),
+    r1:     (SOUND_FILES.r1     || []).map(f => preloadAudio(SOUND_BASE + f)),
+    unveil: preloadAudio(SOUND_BASE + (SOUND_FILES.unveil && SOUND_FILES.unveil[0] ? SOUND_FILES.unveil[0] : 'unveil.mp3'))
+  };
+
+  // =====================================================
+  // PLAYER-SOUNDS (Name -> mp3), Fallback: unveil bleibt wie jetzt
+  // Root Ordner: /playerdata/playersounds/
+  // Mapping Datei: /playerdata/playersounds/map.json
+  // =====================================================
+  const PLAYER_SOUND_BASE = '/playerdata/playersounds/';
+  const PLAYER_SOUND_MAP_URL = PLAYER_SOUND_BASE + 'map.json';
+
+  let playerSoundMap = {};
+  const playerSoundCache = new Map(); // filename -> Audio
+
+  async function loadPlayerSoundMap(){
+    try{
+      const res = await fetch(PLAYER_SOUND_MAP_URL, { cache: 'no-cache' });
+      if (!res.ok) return {};
+      const json = await res.json();
+      return (json && typeof json === 'object') ? json : {};
+    }catch(_){
+      return {};
+    }
+  }
+
+  // fire-and-forget: wenn es nicht rechtzeitig da ist -> fallback unveil
+  loadPlayerSoundMap().then(m => { playerSoundMap = m || {}; });
+
+  // =====================================================
+  // NEU: gezieltes Vorpuffern nur der wirklich benötigten Dateien
+  // =====================================================
+  let playerSoundMapPromise = null;
+
+  function ensurePlayerSoundMapLoaded(){
+    if (!playerSoundMapPromise) {
+      playerSoundMapPromise = loadPlayerSoundMap().then(m => {
+        playerSoundMap = m || {};
+        return playerSoundMap;
+      }).catch(() => {
+        playerSoundMap = playerSoundMap || {};
+        return playerSoundMap;
+      });
+    }
+    return playerSoundMapPromise;
+  }
+
+  function normalizeName(name){
+    let s = String(name || '').trim().toLowerCase();
+
+    // NUR erstes Wort nehmen (alles nach dem ersten Leerzeichen weg)
+    if (s.includes(' ')) {
+      s = s.split(' ')[0];
+    }
+
+    // Umlaute explizit: ä->ae, ö->oe, ü->ue
+    s = s
+      .replace(/ä/g, 'ae')
+      .replace(/ö/g, 'oe')
+      .replace(/ü/g, 'ue')
+      .replace(/ß/g, 'ss');
+
+    // andere Diakritika entfernen (z.B. é -> e)
+    s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+    // nur a-z0-9 behalten
+    s = s.replace(/[^a-z0-9]/g, '');
+
+    return s;
+  }
+
+  function getCachedAudioForFile(filename){
+    const file = String(filename || '').trim();
+    if (!file) return null;
+
+    if (playerSoundCache.has(file)) return playerSoundCache.get(file);
+
+    const a = new Audio(PLAYER_SOUND_BASE + file);
+    a.preload = 'auto';
+    playerSoundCache.set(file, a);
+    return a;
+  }
+
+  // Ties: immer unveil (Fallback bleibt unveil)
+  async function resolveUnveilAudioFor(rankElements){
+    const arr = Array.isArray(rankElements) ? rankElements : [];
+    if (arr.length !== 1) return sounds.unveil;
+
+    const name = arr[0].dataset.name || '';
+    const key = normalizeName(name);
+    const mapped = playerSoundMap && key ? playerSoundMap[key] : null;
+
+    const audio = mapped ? getCachedAudioForFile(mapped) : null;
+    return audio || sounds.unveil;
+  }
+
+  // NEU: pro Key nicht zweimal hintereinander dieselbe Variante
+  const lastPickIndex = { intro: -1, r3: -1, r2: -1, r1: -1, end: -1 };
+
+
+  function pickRandom(list, key){
+    if (!Array.isArray(list) || list.length === 0) return null;
+    if (list.length === 1) return list[0];
+
+    let idx = Math.floor(Math.random() * list.length);
+
+    if (key && lastPickIndex[key] === idx) {
+      idx = (idx + 1) % list.length;
+    }
+
+    if (key) lastPickIndex[key] = idx;
+    return list[idx];
+  }
+
+  // =====================================================
+  // NEU: Audio-Plan pro Siegerehrung-Run + Vorpuffern NUR dieser Files
+  // =====================================================
+  let plannedRun = null;
+
+  function pickRandomFile(files, key){
+    const arr = Array.isArray(files) ? files : [];
+    if (arr.length === 0) return null;
+    if (arr.length === 1) return arr[0];
+
+    let idx = Math.floor(Math.random() * arr.length);
+    if (key && lastPickIndex[key] === idx) idx = (idx + 1) % arr.length;
+    if (key) lastPickIndex[key] = idx;
+    return arr[idx];
+  }
+
+  function urlForSfxFile(file){
+    const f = String(file || '').trim();
+    if (!f) return null;
+    return SOUND_BASE + f;
+  }
+
+  function urlForPlayerFile(file){
+    const f = String(file || '').trim();
+    if (!f) return null;
+    return PLAYER_SOUND_BASE + f;
+  }
+
+  function resolveUnveilFileForRankPlayers(rankPlayers){
+    const arr = Array.isArray(rankPlayers) ? rankPlayers : [];
+    // keine Spieler -> kein Unveil in diesem Rank
+    if (arr.length === 0) return null;
+    // Tie -> immer standard unveil
+    if (arr.length !== 1) return (SOUND_FILES.unveil && SOUND_FILES.unveil[0]) ? SOUND_FILES.unveil[0] : 'unveil.mp3';
+
+    const name = (arr[0].name || '').trim();
+    const key = normalizeName(name);
+    const mapped = playerSoundMap && key ? playerSoundMap[key] : null;
+
+    return mapped || ((SOUND_FILES.unveil && SOUND_FILES.unveil[0]) ? SOUND_FILES.unveil[0] : 'unveil.mp3');
+  }
+
+  function collectNeededUrlsFromPlan(plan){
+    const urls = [];
+
+    // intro / rank sfx (genau 1 pro Abschnitt, falls existiert)
+    if (plan && plan.sfx && plan.sfx.intro) urls.push(urlForSfxFile(plan.sfx.intro));
+    if (plan && plan.sfx && plan.sfx.r3)    urls.push(urlForSfxFile(plan.sfx.r3));
+    if (plan && plan.sfx && plan.sfx.r2)    urls.push(urlForSfxFile(plan.sfx.r2));
+    if (plan && plan.sfx && plan.sfx.r1)    urls.push(urlForSfxFile(plan.sfx.r1));
+    if (plan && plan.sfx && plan.sfx.end)   urls.push(urlForSfxFile(plan.sfx.end));
+
+
+    // unveil pro rank (kann playerfile ODER unveil sein)
+    if (plan && plan.unveil && plan.unveil.r3) {
+      const f = plan.unveil.r3;
+      const stdUnveil = (SOUND_FILES.unveil && SOUND_FILES.unveil[0]) ? SOUND_FILES.unveil[0] : 'unveil.mp3';
+      if (String(f) === String(stdUnveil)) urls.push(urlForSfxFile(f));
+      else urls.push(urlForPlayerFile(f));
+    }
+    if (plan && plan.unveil && plan.unveil.r2) {
+      const f = plan.unveil.r2;
+      const stdUnveil = (SOUND_FILES.unveil && SOUND_FILES.unveil[0]) ? SOUND_FILES.unveil[0] : 'unveil.mp3';
+      if (String(f) === String(stdUnveil)) urls.push(urlForSfxFile(f));
+      else urls.push(urlForPlayerFile(f));
+    }
+    if (plan && plan.unveil && plan.unveil.r1) {
+      const f = plan.unveil.r1;
+      const stdUnveil = (SOUND_FILES.unveil && SOUND_FILES.unveil[0]) ? SOUND_FILES.unveil[0] : 'unveil.mp3';
+      if (String(f) === String(stdUnveil)) urls.push(urlForSfxFile(f));
+      else urls.push(urlForPlayerFile(f));
+    }
+
+    // Duplikate raus
+    return Array.from(new Set(urls.filter(Boolean)));
+  }
+
+  function prebufferUrls(urls){
+    // Ziel: Browser dazu bringen, genau diese Files zu holen und zu cachen.
+    // Wir legen Audio-Objekte an; bei Playerfiles nutzen wir zusätzlich den bestehenden Cache.
+    const list = Array.isArray(urls) ? urls : [];
+    list.forEach(u => {
+      try{
+        if (!u) return;
+
+        // Playerfile? dann auch in playerSoundCache ablegen (damit resolveUnveilAudioFor sofort das gleiche Objekt nutzt)
+        if (String(u).startsWith(String(PLAYER_SOUND_BASE))) {
+          const file = String(u).slice(String(PLAYER_SOUND_BASE).length);
+          if (file && !playerSoundCache.has(file)) {
+            const a = new Audio(u);
+            a.preload = 'auto';
+            playerSoundCache.set(file, a);
+          }
+          return;
+        }
+
+        // SFX: einfach Audio anlegen (kein separater Cache nötig, Browser cache reicht)
+        const a = new Audio(u);
+        a.preload = 'auto';
+      }catch(_){
+        // ignorieren
+      }
+    });
+  }
+
+  async function planAndPrebufferForSiegerehrung(playersRanked){
+    // map.json sicher geladen, damit Name->File sauber entschieden werden kann
+    await ensurePlayerSoundMapLoaded();
+
+    const list = (playersRanked || []).slice(0, MAX_TV_PLAYERS);
+
+    const rank1Players = list.filter(p => Number(p.rank) === 1);
+    const rank2Players = list.filter(p => Number(p.rank) === 2);
+    const rank3Players = list.filter(p => Number(p.rank) === 3);
+
+    const plan = {
+        sfx: {
+    intro: pickRandomFile(SOUND_FILES.intro, 'intro'),
+    r3: rank3Players.length ? pickRandomFile(SOUND_FILES.r3, 'r3') : null,
+    r2: rank2Players.length ? pickRandomFile(SOUND_FILES.r2, 'r2') : null,
+    r1: rank1Players.length ? pickRandomFile(SOUND_FILES.r1, 'r1') : null,
+    end: rank1Players.length ? pickRandomFile(SOUND_FILES.end, 'end') : null,
+  },
+
+      unveil: {
+        r3: resolveUnveilFileForRankPlayers(rank3Players),
+        r2: resolveUnveilFileForRankPlayers(rank2Players),
+        r1: resolveUnveilFileForRankPlayers(rank1Players),
+      }
+    };
+
+    // Vorpuffern nur der wirklich benötigten URLs
+    const needed = collectNeededUrlsFromPlan(plan);
+    prebufferUrls(needed);
+
+    plannedRun = plan;
+  }
+
+  function wait(ms){
+    return new Promise(res => setTimeout(res, ms));
+  }
+
+  function playAudio(audio){
+    return new Promise(res => {
+      if (!audio) return res();
+
+      audio.currentTime = 0;
+      audio.play().catch(() => res());
+
+      audio.onended = () => res();
+      audio.onerror = () => res();
+    });
+  }
+
+  function renderSiegerehrung(playersRanked) {
+    if (!sidebar) return;
+    sidebar.innerHTML = '';
+
+    const list = (playersRanked || []).slice(0, MAX_TV_PLAYERS);
+
+    if (list.length > 9) {
+      sidebar.classList.add('lb--twoCols');
+    } else {
+      sidebar.classList.remove('lb--twoCols');
+    }
+
+    list.forEach(p => {
+      const row = document.createElement('div');
+      row.className = 'ps__player';
+      row.dataset.rank = p.rank;
+      row.dataset.playerId = p.player_id;
+      row.dataset.name = (p.name || '');
+
+      if (p.rank === 1) row.classList.add('lb--rank1');
+      if (p.rank === 2) row.classList.add('lb--rank2');
+      if (p.rank === 3) row.classList.add('lb--rank3');
+
+      row.style.opacity = '0';
+
+  row.innerHTML = `
+    <div class="ps__playerCard">
+     <div class="ps__playerName">
+       <span class="lb__namePrefix">${p.rank}.</span>${(p.name || '')}
+     </div>
+     </div>
+`;
+      sidebar.appendChild(row);
+    });
+
+    startRevealSequence();
+  }
+
+  // NEU: Hold + Fade komplett im Frontend (Option B)
+  // -> Hold startet NACH dem letzten Unveil-Audio.
+  // -> Fade startet 3s vor Ende der 7s (also nach 4s), Dauer 3s.
+  // -> Danach EINMAL "module_finished" ans Backend (system scope).
+  let finishScheduled = false;
+  function scheduleFinishAfterHold(){
+    if (finishScheduled) return;
+    finishScheduled = true;
+
+    setTimeout(() => {
+      fadeAudioTo(bgMusic, 0, 3000);
+    }, 4000);
+
+    setTimeout(() => {
+      socket.emit('module_event', {
+        scope: 'system',
+        action: 'module_finished',
+        payload: { at: Date.now() }
+      });
+    }, 30000);
+  }
+
+  async function startRevealSequence(){
+    if (revealRunning) return;
+    revealRunning = true;
+    finishScheduled = false;
+
+    const players = Array.from(sidebar.querySelectorAll('.ps__player'));
+
+    const byRankDesc = [...players].sort((a,b) => {
+      return Number(b.dataset.rank) - Number(a.dataset.rank);
+    });
+
+    const bottom = byRankDesc.filter(p => Number(p.dataset.rank) > 3);
+    const rank3  = players.filter(p => Number(p.dataset.rank) === 3);
+    const rank2  = players.filter(p => Number(p.dataset.rank) === 2);
+    const rank1  = players.filter(p => Number(p.dataset.rank) === 1);
+
+    await wait(2500);
+
+    // NEU: wenn geplant, nutze die geplante Intro-Datei (genau 1 Variante pro Run)
+    if (plannedRun && plannedRun.sfx && plannedRun.sfx.intro) {
+      await playAudio(preloadAudio(urlForSfxFile(plannedRun.sfx.intro)));
+    } else {
+      await playAudio(pickRandom(sounds.intro, 'intro'));
+    }
+
+    // Alle hinteren Ränge: schnell nacheinander einblenden, OHNE unveil-sound
+    for (let p of bottom) {
+      p.style.opacity = '1';
+      await wait(80);
+    }
+
+    // NEU: Pause zwischen Rang >3 und Rang 3
+await wait(1000); // Zeit in ms, z.B. 500 / 1000 / 2000
+
+    if (rank3.length) {
+      await wait(500);
+
+      // NEU: geplante r3-Datei nutzen
+      if (plannedRun && plannedRun.sfx && plannedRun.sfx.r3) {
+        await playAudio(preloadAudio(urlForSfxFile(plannedRun.sfx.r3)));
+      } else {
+        await playAudio(pickRandom(sounds.r3, 'r3'));
+      }
+
+      await wait(500);
+      rank3.forEach(p => p.style.opacity = '1');
+
+      // NEU: geplantes Unveil für r3 (Name oder fallback unveil) nutzen
+      if (plannedRun && plannedRun.unveil && plannedRun.unveil.r3) {
+        const f = plannedRun.unveil.r3;
+        const stdUnveil = (SOUND_FILES.unveil && SOUND_FILES.unveil[0]) ? SOUND_FILES.unveil[0] : 'unveil.mp3';
+        if (String(f) === String(stdUnveil)) {
+          await playAudio(preloadAudio(urlForSfxFile(f)));
+        } else {
+          await playAudio(getCachedAudioForFile(f) || preloadAudio(urlForPlayerFile(f)));
+        }
+      } else {
+        await playAudio(await resolveUnveilAudioFor(rank3));
+      }
+
+      // Option B: Hold startet NACH dem letzten Unveil-Audio (falls das hier das Ende ist)
+      if (!rank2.length && !rank1.length) scheduleFinishAfterHold();
+    }
+
+    if (rank2.length) {
+      await wait(500);
+
+      // NEU: geplante r2-Datei nutzen
+      if (plannedRun && plannedRun.sfx && plannedRun.sfx.r2) {
+        await playAudio(preloadAudio(urlForSfxFile(plannedRun.sfx.r2)));
+      } else {
+        await playAudio(pickRandom(sounds.r2, 'r2'));
+      }
+
+      await wait(500);
+      rank2.forEach(p => p.style.opacity = '1');
+
+      // NEU: geplantes Unveil für r2 nutzen
+      if (plannedRun && plannedRun.unveil && plannedRun.unveil.r2) {
+        const f = plannedRun.unveil.r2;
+        const stdUnveil = (SOUND_FILES.unveil && SOUND_FILES.unveil[0]) ? SOUND_FILES.unveil[0] : 'unveil.mp3';
+        if (String(f) === String(stdUnveil)) {
+          await playAudio(preloadAudio(urlForSfxFile(f)));
+        } else {
+          await playAudio(getCachedAudioForFile(f) || preloadAudio(urlForPlayerFile(f)));
+        }
+      } else {
+        await playAudio(await resolveUnveilAudioFor(rank2));
+      }
+
+      // Option B: Hold startet NACH dem letzten Unveil-Audio (falls das hier das Ende ist)
+      if (!rank1.length) scheduleFinishAfterHold();
+    }
+
+    if (rank1.length) {
+      await wait(500);
+
+      // NEU: geplante r1-Datei nutzen
+      if (plannedRun && plannedRun.sfx && plannedRun.sfx.r1) {
+        await playAudio(preloadAudio(urlForSfxFile(plannedRun.sfx.r1)));
+      } else {
+        await playAudio(pickRandom(sounds.r1, 'r1'));
+      }
+
+      await wait(500);
+      rank1.forEach(p => p.style.opacity = '1');
+
+            // NEU: geplantes Unveil für r1 nutzen
+      if (plannedRun && plannedRun.unveil && plannedRun.unveil.r1) {
+        const f = plannedRun.unveil.r1;
+        const stdUnveil = (SOUND_FILES.unveil && SOUND_FILES.unveil[0]) ? SOUND_FILES.unveil[0] : 'unveil.mp3';
+        if (String(f) === String(stdUnveil)) {
+          await playAudio(preloadAudio(urlForSfxFile(f)));
+        } else {
+          await playAudio(getCachedAudioForFile(f) || preloadAudio(urlForPlayerFile(f)));
+        }
+      } else {
+        await playAudio(await resolveUnveilAudioFor(rank1));
+      }
+
+      // NEU: kurze Pause zwischen letztem Spielernamen und End-Sound
+await wait(500); // <- Pause in ms (z.B. 500, 1500, 2000)
+
+// NEU: End-Sound nach Platz 1 (zufällig) und ERST DANN Hold/Finish
+if (plannedRun && plannedRun.sfx && plannedRun.sfx.end) {
+  await playAudio(preloadAudio(urlForSfxFile(plannedRun.sfx.end)));
+} else if (SOUND_FILES.end && SOUND_FILES.end.length) {
+  await playAudio(preloadAudio(urlForSfxFile(pickRandomFile(SOUND_FILES.end, 'end'))));
+}
+
+
+      // Option B: Hold startet NACH dem End-Sound
+      scheduleFinishAfterHold();
+
+    }
+
+    revealRunning = false;
+  }
+
+  socket.on('show_siegerehrung', async (data) => {
+    if (!data || !Array.isArray(data.players_ranked)) return;
+
+    // NEU: identische Payloads ignorieren (z.B. durch Reconnect-Sync)
+    const key = data.generated_at || JSON.stringify(data.players_ranked);
+    if (key === lastBoardKey) return;
+
+    // NEU: wenn Reveal/Audios laufen, nicht hart neu starten -> verhindert "Abhacken"
+    if (revealRunning) return;
+
+    lastBoardKey = key;
+
+    // NEU: Background-Music starten, sobald das Siegerehrung wirklich angezeigt wird
+    ensureBgMusicStarted();
+
+    // NEU: Audio-Plan erstellen + nur benötigte Files vorpuffern (ohne sonstigen Ablauf zu ändern)
+    try{
+      await planAndPrebufferForSiegerehrung(data.players_ranked);
+    }catch(_){
+      // falls irgendwas schiefgeht: geplante Run-Daten verwerfen, normal weiter
+      plannedRun = null;
+    }
+
+    renderSiegerehrung(data.players_ranked);
+  });
+
+  // Backend signalisiert: zurück zur Lobby
+  socket.on('game_finished', () => {
+    try { if (bgMusic) { bgMusic.pause(); bgMusic.currentTime = 0; } } catch(_) {}
+    window.location.href = '/tv';
+  });
+</script>
+{% endblock %}

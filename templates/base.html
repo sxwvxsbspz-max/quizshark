@@ -1,0 +1,149 @@
+<!-- --- FILE: ./templates/base.html --- -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlitzQuiz</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        {% block content %}{% endblock %}
+    </div>
+
+    <div
+        id="too-late-overlay"
+        style="
+            display:none;
+            position:fixed;
+            inset:0;
+            z-index:99999;
+            background:#000;
+            color:#fff;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            padding:40px;
+        "
+    >
+        <div style="max-width:520px;">
+            <h2 style="margin:0 0 12px 0; font-size:2rem; font-weight:900;">
+                Zu spät :(
+            </h2>
+            <p style="margin:0; font-size:1.2rem; opacity:0.9;">
+                Quiz läuft bereits.
+            </p>
+        </div>
+    </div>
+
+    <!-- NEU: Sofortpause Overlay -->
+   <div
+    id="sofortpause-overlay"
+    style="
+        display:none;
+        position:fixed;
+        inset:0;
+        z-index:99998;
+        background:#172244;
+        color:#fff;
+        align-items:stretch;
+        justify-content:stretch;
+        text-align:center;
+        padding:0;
+    "
+>
+
+    >
+  {% include "templates/sofortpause.html" %}
+
+
+    </div>
+
+    {% if request.path.endswith('/tv') %}
+    <audio
+        id="audio-keepalive"
+        autoplay
+        loop
+        playsinline
+        preload="auto"
+        style="display:none;"
+    >
+        <source src="/static/audio/silence.mp3" type="audio/mpeg">
+    </audio>
+    {% endif %}
+
+    <script>
+        const socket = io();
+
+        const isTvPage = window.location.pathname.endsWith('/tv');
+        let keepAlive = null;
+
+        function startKeepAlive() {
+            if (!isTvPage) return;
+
+            keepAlive = document.getElementById('audio-keepalive');
+            if (!keepAlive) return;
+
+            keepAlive.volume = 0.01;
+
+            const p = keepAlive.play();
+            if (p && typeof p.catch === 'function') {
+                p.catch(err => {
+                    console.log('keepalive blocked', err);
+                });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', startKeepAlive);
+
+        document.addEventListener('visibilitychange', function() {
+            if (!document.hidden) {
+                startKeepAlive();
+            }
+        });
+
+        socket.on('connect', function() {
+            startKeepAlive();
+        });
+
+        // Der globale Listener bleibt einfach
+        socket.on('switch_phase', function(data) {
+            console.log("Phase gewechselt -> reload (URL bleibt gleich)");
+            window.location.reload();
+        });
+
+        socket.on('too_late', function(data) {
+            const ov = document.getElementById('too-late-overlay');
+            if (ov) {
+                ov.style.display = 'flex';
+            }
+        });
+
+        // NEU: Sofortpause global
+        socket.on('show_pause', function(data) {
+            const ov = document.getElementById('sofortpause-overlay');
+            if (ov) {
+                ov.style.display = 'flex';
+            }
+        });
+
+        socket.on('hide_pause', function(data) {
+            const ov = document.getElementById('sofortpause-overlay');
+            if (ov) {
+                ov.style.display = 'none';
+            }
+        });
+
+        // NEU: Admin-State für Admin-UI (optional; Admin.html hört darauf)
+        // Falls du später noch mehr globale Admin-Overlays willst, kann das hier bleiben.
+        socket.on('admin_state', function(data) {
+            // absichtlich leer: handled die admin.html selbst.
+            // (Event wird dennoch global empfangen, falls andere Seiten es nutzen wollen.)
+        });
+    </script>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>

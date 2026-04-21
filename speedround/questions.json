@@ -1,0 +1,4244 @@
+[
+    {
+        "id": 277,
+        "category": "Kunst",
+        "question": "Wie nennt man eine Ausstellung, bei der Kunstwerke in einem Museum gezeigt werden?",
+        "correct": "Ausstellung",
+        "wrong": [
+            "Symphonie",
+            "Premiere",
+            "Kongress"
+        ],
+        "image": null,
+        "lastplayed": null,
+        "audio": "0277.mp3"
+    },
+    {
+        "id": 1,
+        "category": "Naturwissenschaften",
+        "question": "Welches Gas macht den Hauptteil unserer Atemluft aus?",
+        "correct": "Stickstoff",
+        "wrong": [
+            "Sauerstoff",
+            "Kohlenstoffdioxid",
+            "Argon"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-24T13:11:15Z",
+        "audio": "0001.mp3"
+    },
+    {
+        "id": 82,
+        "category": "Mathematik",
+        "question": "Wie heißt das Verfahren, mit dem man aus Datenpunkten eine Gerade nach dem Kriterium minimaler Quadratsumme bestimmt?",
+        "correct": "Methode der kleinsten Quadrate",
+        "wrong": [
+            "Monte-Carlo-Methode",
+            "Fourier-Transformation",
+            "Newton-Verfahren"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-25T15:51:16Z",
+        "audio": "0082.mp3"
+    },
+    {
+        "id": 75,
+        "category": "Politik",
+        "question": "Wie nennt man das System, in dem ein Staat aus Gliedstaaten besteht, die eigene Kompetenzen haben?",
+        "correct": "Föderalismus",
+        "wrong": [
+            "Unitärer Staat",
+            "Absolutismus",
+            "Oligarchie"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-25T15:59:41Z",
+        "audio": "0075.mp3"
+    },
+    {
+        "id": 33,
+        "category": "Literatur",
+        "question": "Wer ist der Autor von „Faust“?",
+        "correct": "Johann Wolfgang von Goethe",
+        "wrong": [
+            "Friedrich Schiller",
+            "Gotthold Ephraim Lessing",
+            "Heinrich Heine"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-25T16:06:51Z",
+        "audio": "0033.mp3"
+    },
+    {
+        "id": 74,
+        "category": "Naturwissenschaften",
+        "question": "Wie heißt der Prozess, bei dem Gestein durch Wind, Wasser oder Eis abgetragen wird?",
+        "correct": "Erosion",
+        "wrong": [
+            "Sedimentation",
+            "Metamorphose",
+            "Sublimation"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-25T16:11:10Z",
+        "audio": "0074.mp3"
+    },
+    {
+        "id": 22,
+        "category": "Literatur",
+        "question": "Wer schrieb den Roman „Der Prozess“?",
+        "correct": "Franz Kafka",
+        "wrong": [
+            "Thomas Mann",
+            "Hermann Hesse",
+            "Bertolt Brecht"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-25T16:12:38Z",
+        "audio": "0022.mp3"
+    },
+    {
+        "id": 12,
+        "category": "Geografie",
+        "question": "Wie heißt die Hauptstadt von Kanada?",
+        "correct": "Ottawa",
+        "wrong": [
+            "Toronto",
+            "Montreal",
+            "Vancouver"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-25T16:21:10Z",
+        "audio": "0012.mp3"
+    },
+    {
+        "id": 113,
+        "category": "Geschichte",
+        "question": "Wie heißt die Epoche der europäischen „Wiedergeburt“ der Antike (ca. 14.–16. Jh.)?",
+        "correct": "Renaissance",
+        "wrong": [
+            "Romantik",
+            "Barock",
+            "Aufklärung"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T19:43:27Z",
+        "audio": "0113.mp3"
+    },
+    {
+        "id": 124,
+        "category": "Kunst",
+        "question": "Wie nennt man die Kunstform, bei der aus Stein, Holz oder Metall dreidimensionale Werke entstehen?",
+        "correct": "Skulptur",
+        "wrong": [
+            "Radierung",
+            "Aquarell",
+            "Mosaik"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T19:44:50Z",
+        "audio": "0124.mp3"
+    },
+    {
+        "id": 54,
+        "category": "Politik",
+        "question": "Wie heißt das EU-Gremium, in dem die Fachminister der Mitgliedstaaten Gesetzgebung beraten und beschließen?",
+        "correct": "Rat der Europäischen Union",
+        "wrong": [
+            "Europäischer Rat",
+            "Europäische Kommission",
+            "Europäischer Gerichtshof"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T19:48:35Z",
+        "audio": "0054.mp3"
+    },
+    {
+        "id": 112,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man den Wechsel von flüssig zu gasförmig?",
+        "correct": "Verdampfen",
+        "wrong": [
+            "Kondensieren",
+            "Schmelzen",
+            "Gefrieren"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T19:51:13Z",
+        "audio": "0112.mp3"
+    },
+    {
+        "id": 104,
+        "category": "Physik",
+        "question": "Wie heißt die Kraft, die Körper zur Erde hinzieht?",
+        "correct": "Gravitation",
+        "wrong": [
+            "Magnetismus",
+            "Reibung",
+            "Auftrieb"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T19:52:32Z",
+        "audio": "0104.mp3"
+    },
+    {
+        "id": 126,
+        "category": "Geografie",
+        "question": "Wie heißt der höchste Berg Europas (nach gängiger Einordnung im Kaukasus)?",
+        "correct": "Elbrus",
+        "wrong": [
+            "Mont Blanc",
+            "Matterhorn",
+            "Zugspitze"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T19:53:18Z",
+        "audio": "0126.mp3"
+    },
+    {
+        "id": 72,
+        "category": "Kunst",
+        "question": "Welche Technik ist typisch für Freskenmalerei?",
+        "correct": "Malen auf frischem, feuchtem Putz",
+        "wrong": [
+            "Malen auf Leinwand mit Ölfarben",
+            "Ritzen in Steinplatten",
+            "Collage aus Papier und Stoff"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T19:56:32Z",
+        "audio": "0072.mp3"
+    },
+    {
+        "id": 152,
+        "category": "Literatur",
+        "question": "Wer schrieb „Die Verwandlung“?",
+        "correct": "Franz Kafka",
+        "wrong": [
+            "Hermann Hesse",
+            "Thomas Mann",
+            "Bertolt Brecht"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T20:44:19Z",
+        "audio": "0152.mp3"
+    },
+    {
+        "id": 106,
+        "category": "Mathematik",
+        "question": "Wie viele Seiten hat ein regelmäßiges Sechseck?",
+        "correct": "6",
+        "wrong": [
+            "5",
+            "7",
+            "8"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T20:45:27Z",
+        "audio": "0106.mp3"
+    },
+    {
+        "id": 52,
+        "category": "Literatur",
+        "question": "Wer schrieb „1984“?",
+        "correct": "George Orwell",
+        "wrong": [
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "Jules Verne"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T20:45:51Z",
+        "audio": "0052.mp3"
+    },
+    {
+        "id": 148,
+        "category": "Technik",
+        "question": "Wie nennt man die Umwandlung von Wechselspannung in Gleichspannung?",
+        "correct": "Gleichrichtung",
+        "wrong": [
+            "Induktion",
+            "Isolierung",
+            "Resonanz"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T20:46:45Z",
+        "audio": "0148.mp3"
+    },
+    {
+        "id": 157,
+        "category": "Geografie",
+        "question": "Welche Insel ist die größte im Mittelmeer?",
+        "correct": "Sizilien",
+        "wrong": [
+            "Kreta",
+            "Sardinien",
+            "Mallorca"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T22:15:59Z",
+        "audio": "0157.mp3"
+    },
+    {
+        "id": 131,
+        "category": "Mathematik",
+        "question": "Wie viele Minuten hat eine Stunde?",
+        "correct": "60",
+        "wrong": [
+            "50",
+            "90",
+            "100"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T19:31:42Z",
+        "audio": "0131.mp3"
+    },
+    {
+        "id": 182,
+        "category": "Literatur",
+        "question": "Wer schrieb „Romeo und Julia“?",
+        "correct": "William Shakespeare",
+        "wrong": [
+            "Charles Dickens",
+            "Oscar Wilde",
+            "Jane Austen"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T22:37:00Z",
+        "audio": "0182.mp3"
+    },
+    {
+        "id": 44,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man den Zinssatz, zu dem Geschäftsbanken sich kurzfristig Zentralbankgeld leihen können (Deutschland/Euro-Raum)?",
+        "correct": "Leitzins",
+        "wrong": [
+            "Wechselkurs",
+            "Inflationsziel",
+            "Rendite"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T22:37:23Z",
+        "audio": "0044.mp3"
+    },
+    {
+        "id": 166,
+        "category": "Geschichte",
+        "question": "Wie hieß der letzte König von Frankreich vor der Französischen Revolution?",
+        "correct": "Ludwig XVI.",
+        "wrong": [
+            "Napoleon I.",
+            "Karl der Große",
+            "Ludwig XIV."
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T22:38:09Z",
+        "audio": "0166.mp3"
+    },
+    {
+        "id": 189,
+        "category": "Physik",
+        "question": "Wie heißt die Einheit für Druck im SI-System?",
+        "correct": "Pascal",
+        "wrong": [
+            "Joule",
+            "Tesla",
+            "Watt"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T22:51:08Z",
+        "audio": "0189.mp3"
+    },
+    {
+        "id": 137,
+        "category": "Kunst",
+        "question": "Welche Kunstrichtung ist typisch für Salvador Dalí?",
+        "correct": "Surrealismus",
+        "wrong": [
+            "Impressionismus",
+            "Kubismus",
+            "Barock"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T23:09:12Z",
+        "audio": "0137.mp3"
+    },
+    {
+        "id": 187,
+        "category": "Geografie",
+        "question": "Welche Meeresströmung beeinflusst das Klima Westeuropas besonders stark?",
+        "correct": "Golfstrom",
+        "wrong": [
+            "Humboldtstrom",
+            "Labradorstrom",
+            "Kuroshio"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T23:09:27Z",
+        "audio": "0187.mp3"
+    },
+    {
+        "id": 155,
+        "category": "Musik",
+        "question": "Wie nennt man das Tempo in der Musik, das „langsam“ bedeutet?",
+        "correct": "Adagio",
+        "wrong": [
+            "Allegro",
+            "Presto",
+            "Vivace"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-26T23:09:44Z",
+        "audio": "0155.mp3"
+    },
+    {
+        "id": 176,
+        "category": "Mathematik",
+        "question": "Wie heißt die geometrische Form eines Balls?",
+        "correct": "Kugel",
+        "wrong": [
+            "Zylinder",
+            "Kegel",
+            "Würfel"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T07:24:01Z",
+        "audio": "0176.mp3"
+    },
+    {
+        "id": 190,
+        "category": "Chemie",
+        "question": "Wie nennt man eine chemische Reaktion, bei der ein Stoff mit Sauerstoff reagiert (im Alltag oft „Rosten“)?",
+        "correct": "Oxidation",
+        "wrong": [
+            "Reduktion",
+            "Polymerisation",
+            "Neutralisation"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T07:24:31Z",
+        "audio": "0190.mp3"
+    },
+    {
+        "id": 71,
+        "category": "Philosophie",
+        "question": "Welche Ethik-Theorie beurteilt Handlungen primär nach ihren Folgen und dem größtmöglichen Nutzen?",
+        "correct": "Utilitarismus",
+        "wrong": [
+            "Deontologie",
+            "Tugendethik",
+            "Skeptizismus"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T07:25:26Z",
+        "audio": "0071.mp3"
+    },
+    {
+        "id": 156,
+        "category": "Sport",
+        "question": "Wie heißt der Wettbewerb, bei dem alle vier Jahre die besten Sommer-Sportarten international antreten?",
+        "correct": "Olympische Sommerspiele",
+        "wrong": [
+            "Weltmeisterschaft der Leichtathletik",
+            "Tour de France",
+            "Super Bowl"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T07:25:45Z",
+        "audio": "0156.mp3"
+    },
+    {
+        "id": 188,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man den Teil eines Atoms, der negativ geladen ist?",
+        "correct": "Elektron",
+        "wrong": [
+            "Proton",
+            "Neutron",
+            "Nukleus"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T11:57:05Z",
+        "audio": "0188.mp3"
+    },
+    {
+        "id": 185,
+        "category": "Musik",
+        "question": "Wie heißt das Symbol, das eine Erhöhung um einen Halbton anzeigt?",
+        "correct": "Kreuz",
+        "wrong": [
+            "B",
+            "Punkt",
+            "Pausenzeichen"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T11:57:27Z",
+        "audio": "0185.mp3"
+    },
+    {
+        "id": 108,
+        "category": "Literatur",
+        "question": "Wer schrieb „Der Herr der Ringe“?",
+        "correct": "J.R.R. Tolkien",
+        "wrong": [
+            "C.S. Lewis",
+            "J.K. Rowling",
+            "George R.R. Martin"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T11:58:24Z",
+        "audio": "0108.mp3"
+    },
+    {
+        "id": 192,
+        "category": "Mathematik",
+        "question": "Wie nennt man den Abstand zweier Punkte in der Ebene, gemessen entlang einer Geraden?",
+        "correct": "Strecke",
+        "wrong": [
+            "Winkel",
+            "Fläche",
+            "Volumen"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T11:58:43Z",
+        "audio": "0192.mp3"
+    },
+    {
+        "id": 207,
+        "category": "Sprache",
+        "question": "Wie nennt man das Gegenteil (z. B. „heiß“/„kalt“) in der Sprachwissenschaft?",
+        "correct": "Antonym",
+        "wrong": [
+            "Synonym",
+            "Homophon",
+            "Neologismus"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T11:59:05Z",
+        "audio": "0207.mp3"
+    },
+    {
+        "id": 127,
+        "category": "Geschichte",
+        "question": "Wie heißt das antike Bauwerk in Rom, das für Gladiatorenkämpfe bekannt ist?",
+        "correct": "Kolosseum",
+        "wrong": [
+            "Pantheon",
+            "Forum Romanum",
+            "Circus Maximus"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T11:59:54Z",
+        "audio": "0127.mp3"
+    },
+    {
+        "id": 107,
+        "category": "Sprache",
+        "question": "Wie nennt man die Mehrzahl (Plural) von „Kaktus“ im Deutschen standardsprachlich?",
+        "correct": "Kakteen",
+        "wrong": [
+            "Kaktusse",
+            "Kaktusen",
+            "Kaktis"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T12:00:16Z",
+        "audio": "0107.mp3"
+    },
+    {
+        "id": 102,
+        "category": "Geschichte",
+        "question": "Welches Ereignis gilt traditionell als Beginn der Französischen Revolution (1789)?",
+        "correct": "Sturm auf die Bastille",
+        "wrong": [
+            "Schlacht von Waterloo",
+            "Wiener Kongress",
+            "Prager Fenstersturz"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T12:01:03Z",
+        "audio": "0102.mp3"
+    },
+    {
+        "id": 180,
+        "category": "Geografie",
+        "question": "Wie heißt die Hauptstadt von Norwegen?",
+        "correct": "Oslo",
+        "wrong": [
+            "Stockholm",
+            "Helsinki",
+            "Kopenhagen"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T12:01:21Z",
+        "audio": "0180.mp3"
+    },
+    {
+        "id": 199,
+        "category": "Sprache",
+        "question": "Wie nennt man die Endung „-ung“ in „Bildung“ (sprachwissenschaftlich als Wortbildungselement)?",
+        "correct": "Suffix",
+        "wrong": [
+            "Präfix",
+            "Stamm",
+            "Artikel"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T12:01:51Z",
+        "audio": "0199.mp3"
+    },
+    {
+        "id": 193,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man den Handel mit Waren über Ländergrenzen hinweg?",
+        "correct": "Außenhandel",
+        "wrong": [
+            "Binnenhandel",
+            "Tauschhandel",
+            "Schwarzarbeit"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T12:02:15Z",
+        "audio": "0193.mp3"
+    },
+    {
+        "id": 181,
+        "category": "Geschichte",
+        "question": "Wie heißt die antike ägyptische Schrift mit Bildzeichen?",
+        "correct": "Hieroglyphen",
+        "wrong": [
+            "Keilschrift",
+            "Runen",
+            "Brailleschrift"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:05:47Z",
+        "audio": "0181.mp3"
+    },
+    {
+        "id": 191,
+        "category": "Biologie",
+        "question": "Wie nennt man den Blutkreislauf, der Blut zwischen Herz und Lunge transportiert?",
+        "correct": "Lungenkreislauf",
+        "wrong": [
+            "Körperkreislauf",
+            "Pfortaderkreislauf",
+            "Lymphkreislauf"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:06:13Z",
+        "audio": "0191.mp3"
+    },
+    {
+        "id": 219,
+        "category": "Biologie",
+        "question": "Wie nennt man die Sinneszellen im Auge, die Farben wahrnehmen?",
+        "correct": "Zapfen",
+        "wrong": [
+            "Stäbchen",
+            "Neuronen",
+            "Erythrozyten"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:06:33Z",
+        "audio": "0219.mp3"
+    },
+    {
+        "id": 5,
+        "category": "Biologie",
+        "question": "Welches Tier ist das größte lebende Landtier?",
+        "correct": "Afrikanischer Elefant",
+        "wrong": [
+            "Giraffe",
+            "Nashorn",
+            "Flusspferd"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:14:27Z",
+        "audio": "0005.mp3"
+    },
+    {
+        "id": 179,
+        "category": "Informatik",
+        "question": "Wie nennt man die Darstellung von Daten in Zeilen und Spalten in einer Datenbank?",
+        "correct": "Tabelle",
+        "wrong": [
+            "Hash",
+            "Thread",
+            "Cache"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:14:49Z",
+        "audio": "0179.mp3"
+    },
+    {
+        "id": 208,
+        "category": "Literatur",
+        "question": "Wer schrieb „Die unendliche Geschichte“?",
+        "correct": "Michael Ende",
+        "wrong": [
+            "Astrid Lindgren",
+            "Erich Kästner",
+            "Cornelia Funke"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:15:10Z",
+        "audio": "0208.mp3"
+    },
+    {
+        "id": 167,
+        "category": "Literatur",
+        "question": "Wer schrieb „Der kleine Prinz“?",
+        "correct": "Antoine de Saint-Exupéry",
+        "wrong": [
+            "Victor Hugo",
+            "Albert Camus",
+            "Marcel Proust"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:19:41Z",
+        "audio": "0167.mp3"
+    },
+    {
+        "id": 154,
+        "category": "Kunst",
+        "question": "Welche Technik verbindet man besonders mit dem Druckverfahren aus Holzplatten?",
+        "correct": "Holzschnitt",
+        "wrong": [
+            "Fresko",
+            "Gouache",
+            "Sgraffito"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:20:01Z",
+        "audio": "0154.mp3"
+    },
+    {
+        "id": 81,
+        "category": "Physik",
+        "question": "Welches Teilchen vermittelt in der Quantenfeldtheorie die elektromagnetische Wechselwirkung?",
+        "correct": "Photon",
+        "wrong": [
+            "Gluon",
+            "Z-Boson",
+            "Higgs-Boson"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:20:22Z",
+        "audio": "0081.mp3"
+    },
+    {
+        "id": 220,
+        "category": "Mathematik",
+        "question": "Wie viel ist 12 + 15?",
+        "correct": "27",
+        "wrong": [
+            "25",
+            "28",
+            "30"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:20:37Z",
+        "audio": "0220.mp3"
+    },
+    {
+        "id": 186,
+        "category": "Sport",
+        "question": "Wie nennt man beim Tennis den Spielstand 40:40?",
+        "correct": "Einstand",
+        "wrong": [
+            "Vorteil",
+            "Satzball",
+            "Tie-Break"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:20:54Z",
+        "audio": "0186.mp3"
+    },
+    {
+        "id": 202,
+        "category": "Geschichte",
+        "question": "Wie nennt man den Mauerfall in Berlin (Jahr 1989) im Kern?",
+        "correct": "Fall der Berliner Mauer",
+        "wrong": [
+            "Wiener Kongress",
+            "Reichsgründung",
+            "Hambacher Fest"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:29:05Z",
+        "audio": "0202.mp3"
+    },
+    {
+        "id": 226,
+        "category": "Geschichte",
+        "question": "Wie heißt die Epoche der griechischen Antike, in der Athen seine Blütezeit erlebte (5. Jh. v. Chr.)?",
+        "correct": "Klassik",
+        "wrong": [
+            "Hellenismus",
+            "Restauration",
+            "Romantik"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:30:42Z",
+        "audio": "0226.mp3"
+    },
+    {
+        "id": 123,
+        "category": "Literatur",
+        "question": "Wer schrieb „Die Odyssee“ (zugeschrieben)?",
+        "correct": "Homer",
+        "wrong": [
+            "Sophokles",
+            "Vergil",
+            "Ovid"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:31:02Z",
+        "audio": "0123.mp3"
+    },
+    {
+        "id": 223,
+        "category": "Kunst",
+        "question": "Wie nennt man die Technik, bei der Licht und Schatten stark kontrastiert werden (z. B. bei Caravaggio)?",
+        "correct": "Chiaroscuro",
+        "wrong": [
+            "Pointillismus",
+            "Fresko",
+            "Kubismus"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-27T18:32:22Z",
+        "audio": "0223.mp3"
+    },
+    {
+        "id": 216,
+        "category": "Geografie",
+        "question": "Wie heißt der längste Fluss Afrikas?",
+        "correct": "Nil",
+        "wrong": [
+            "Kongo",
+            "Niger",
+            "Sambesi"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:15:34Z",
+        "audio": "0216.mp3"
+    },
+    {
+        "id": 218,
+        "category": "Chemie",
+        "question": "Wie heißt die chemische Formel von Kohlendioxid?",
+        "correct": "CO2",
+        "wrong": [
+            "CO",
+            "O2",
+            "H2O"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:15:53Z",
+        "audio": "0218.mp3"
+    },
+    {
+        "id": 98,
+        "category": "Sprache",
+        "question": "Wie nennt man die Stilfigur, bei der Wörter mit gleicher Anfangslautfolge wiederholt werden (z. B. „Milch macht müde Männer munter“)?",
+        "correct": "Alliteration",
+        "wrong": [
+            "Metapher",
+            "Ironie",
+            "Hyperbel"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:16:12Z",
+        "audio": "0098.mp3"
+    },
+    {
+        "id": 177,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man Geldentwertung, bei der Preise allgemein steigen?",
+        "correct": "Inflation",
+        "wrong": [
+            "Deflation",
+            "Stagnation",
+            "Arbitrage"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:16:36Z",
+        "audio": "0177.mp3"
+    },
+    {
+        "id": 196,
+        "category": "Geografie",
+        "question": "Welches Land hat die Hauptstadt „Wellington“?",
+        "correct": "Neuseeland",
+        "wrong": [
+            "Australien",
+            "Südafrika",
+            "Kanada"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:16:53Z",
+        "audio": "0196.mp3"
+    },
+    {
+        "id": 140,
+        "category": "Geschichte",
+        "question": "Wie nennt man die Epoche der „Aufklärung“ im 18. Jahrhundert im Kern?",
+        "correct": "Aufklärung",
+        "wrong": [
+            "Mittelalter",
+            "Romantik",
+            "Expressionismus"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:17:09Z",
+        "audio": "0140.mp3"
+    },
+    {
+        "id": 53,
+        "category": "Kunst",
+        "question": "Zu welcher Kunstepoche zählt man Claude Monet typischerweise?",
+        "correct": "Impressionismus",
+        "wrong": [
+            "Expressionismus",
+            "Kubismus",
+            "Barock"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:19:14Z",
+        "audio": "0053.mp3"
+    },
+    {
+        "id": 224,
+        "category": "Sport",
+        "question": "Wie viele Minuten dauert ein Basketballspiel in der NBA regulär (ohne Verlängerung)?",
+        "correct": "48",
+        "wrong": [
+            "40",
+            "60",
+            "45"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:19:29Z",
+        "audio": "0224.mp3"
+    },
+    {
+        "id": 215,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man die Einnahmen eines Unternehmens aus Verkäufen ohne Abzug von Kosten?",
+        "correct": "Umsatz",
+        "wrong": [
+            "Gewinn",
+            "Dividende",
+            "Budget"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:19:43Z",
+        "audio": "0215.mp3"
+    },
+    {
+        "id": 221,
+        "category": "Sprache",
+        "question": "Wie nennt man ein Wort, das aus den Anfangsbuchstaben mehrerer Wörter gebildet wird (z. B. „Laser“)?",
+        "correct": "Akronym",
+        "wrong": [
+            "Synonym",
+            "Homophon",
+            "Metapher"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:21:52Z",
+        "audio": "0221.mp3"
+    },
+    {
+        "id": 240,
+        "category": "Geschichte",
+        "question": "Wie heißt der Friedensvertrag, der 1919 den Ersten Weltkrieg für Deutschland beendete?",
+        "correct": "Vertrag von Versailles",
+        "wrong": [
+            "Vertrag von Tordesillas",
+            "Westfälischer Frieden",
+            "Vertrag von Maastricht"
+        ],
+        "image": null,
+        "lastplayed": "2025-12-28T11:22:15Z",
+        "audio": "0240.mp3"
+    },
+    {
+        "id": 200,
+        "category": "Kunst",
+        "question": "Wie nennt man eine Darstellung einer Person in der Kunst (z. B. gemalt oder fotografiert)?",
+        "correct": "Porträt",
+        "wrong": [
+            "Stillleben",
+            "Panorama",
+            "Karikatur"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-08T12:45:18Z",
+        "audio": "0200.mp3"
+    },
+    {
+        "id": 130,
+        "category": "Chemie",
+        "question": "Wie nennt man die Reaktion, bei der aus zwei Stoffen ein neuer Stoff entsteht und Energie frei wird (z. B. Brennen)?",
+        "correct": "Verbrennung",
+        "wrong": [
+            "Destillation",
+            "Filtration",
+            "Sublimation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-08T12:45:47Z",
+        "audio": "0130.mp3"
+    },
+    {
+        "id": 198,
+        "category": "Literatur",
+        "question": "Wer schrieb „Don Quijote“?",
+        "correct": "Miguel de Cervantes",
+        "wrong": [
+            "Gabriel García Márquez",
+            "Pablo Neruda",
+            "Jorge Luis Borges"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-08T12:46:17Z",
+        "audio": "0198.mp3"
+    },
+    {
+        "id": 174,
+        "category": "Chemie",
+        "question": "Wie nennt man die Stoffklasse, die aus langen Ketten wiederholter Bausteine besteht (z. B. Plastik)?",
+        "correct": "Polymere",
+        "wrong": [
+            "Isotope",
+            "Enzyme",
+            "Metalle"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-08T12:46:39Z",
+        "audio": "0174.mp3"
+    },
+    {
+        "id": 163,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man den Zusammenschluss von Arbeitnehmern zur Vertretung ihrer Interessen?",
+        "correct": "Gewerkschaft",
+        "wrong": [
+            "Verband",
+            "Kommune",
+            "Konzern"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-08T12:47:05Z",
+        "audio": "0163.mp3"
+    },
+    {
+        "id": 178,
+        "category": "Technik",
+        "question": "Wie nennt man das Bauteil, das in vielen Geräten für kurzzeitige Energiespeicherung sorgt?",
+        "correct": "Kondensator",
+        "wrong": [
+            "Ventil",
+            "Getriebe",
+            "Schalter"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-08T16:15:15Z",
+        "audio": "0178.mp3"
+    },
+    {
+        "id": 229,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man das Verhältnis von Gewinn zu Umsatz (vereinfacht)?",
+        "correct": "Gewinnmarge",
+        "wrong": [
+            "Inflationsrate",
+            "Leitzins",
+            "Steuersatz"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-08T16:15:43Z",
+        "audio": "0229.mp3"
+    },
+    {
+        "id": 203,
+        "category": "Biologie",
+        "question": "Wie heißt das Organ, das Blut durch den Körper pumpt?",
+        "correct": "Herz",
+        "wrong": [
+            "Leber",
+            "Lunge",
+            "Niere"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-08T16:18:43Z",
+        "audio": "0203.mp3"
+    },
+    {
+        "id": 247,
+        "category": "Chemie",
+        "question": "Wie nennt man den Stoff, der in einer Lösung in geringerer Menge gelöst ist?",
+        "correct": "Gelöster Stoff",
+        "wrong": [
+            "Lösungsmittel",
+            "Katalysator",
+            "Indikator"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T15:45:24Z",
+        "audio": "0247.mp3"
+    },
+    {
+        "id": 241,
+        "category": "Naturwissenschaften",
+        "question": "Wie heißt die Schicht der Erdatmosphäre, in der das Wetter stattfindet?",
+        "correct": "Troposphäre",
+        "wrong": [
+            "Stratosphäre",
+            "Mesosphäre",
+            "Thermosphäre"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T15:45:51Z",
+        "audio": "0241.mp3"
+    },
+    {
+        "id": 230,
+        "category": "Mathematik",
+        "question": "Wie heißt das Ergebnis einer Division?",
+        "correct": "Quotient",
+        "wrong": [
+            "Produkt",
+            "Summe",
+            "Wurzel"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T15:46:16Z",
+        "audio": "0230.mp3"
+    },
+    {
+        "id": 245,
+        "category": "Geografie",
+        "question": "Wie heißt die Hauptstadt von Portugal?",
+        "correct": "Lissabon",
+        "wrong": [
+            "Porto",
+            "Madrid",
+            "Valencia"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T15:46:42Z",
+        "audio": "0245.mp3"
+    },
+    {
+        "id": 212,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man den Vorgang, bei dem Wasser zu Eis wird?",
+        "correct": "Gefrieren",
+        "wrong": [
+            "Verdampfen",
+            "Kondensieren",
+            "Sublimieren"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T15:47:10Z",
+        "audio": "0212.mp3"
+    },
+    {
+        "id": 214,
+        "category": "Technik",
+        "question": "Wie nennt man die Maßeinheit für Speicherkapazität, die etwa 1.000.000 Byte entspricht (dezimal)?",
+        "correct": "Megabyte",
+        "wrong": [
+            "Kilobyte",
+            "Gigabyte",
+            "Terabyte"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T16:14:53Z",
+        "audio": "0214.mp3"
+    },
+    {
+        "id": 172,
+        "category": "Geografie",
+        "question": "Welches Land ist bekannt als „Land der aufgehenden Sonne“?",
+        "correct": "Japan",
+        "wrong": [
+            "China",
+            "Südkorea",
+            "Thailand"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T16:27:07Z",
+        "audio": "0172.mp3"
+    },
+    {
+        "id": 255,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man die Gesamtheit aller Sterne, die ein System bilden (z. B. die Milchstraße)?",
+        "correct": "Galaxie",
+        "wrong": [
+            "Planet",
+            "Komet",
+            "Asteroid"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T16:28:13Z",
+        "audio": "0255.mp3"
+    },
+    {
+        "id": 222,
+        "category": "Literatur",
+        "question": "Wer schrieb „Der Name der Rose“?",
+        "correct": "Umberto Eco",
+        "wrong": [
+            "Italo Calvino",
+            "Günter Grass",
+            "Gabriel García Márquez"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T16:32:53Z",
+        "audio": "0222.mp3"
+    },
+    {
+        "id": 183,
+        "category": "Sprache",
+        "question": "Wie nennt man die Satzart, die eine Frage ausdrückt?",
+        "correct": "Fragesatz",
+        "wrong": [
+            "Ausrufesatz",
+            "Hauptsatz",
+            "Nebensatz"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T16:34:34Z",
+        "audio": "0183.mp3"
+    },
+    {
+        "id": 242,
+        "category": "Technik",
+        "question": "Wie nennt man die Energiequelle, die elektrische Energie aus Sonnenlicht erzeugt?",
+        "correct": "Solarzelle",
+        "wrong": [
+            "Windrad",
+            "Generator",
+            "Transformator"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T16:40:04Z",
+        "audio": "0242.mp3"
+    },
+    {
+        "id": 236,
+        "category": "Sprache",
+        "question": "Wie nennt man ein Wort, das aus zwei anderen Wörtern zusammengesetzt ist (z. B. „Handschuh“)?",
+        "correct": "Kompositum",
+        "wrong": [
+            "Homonym",
+            "Onomatopoesie",
+            "Ellipse"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T16:49:34Z",
+        "audio": "0236.mp3"
+    },
+    {
+        "id": 164,
+        "category": "Informatik",
+        "question": "Wie nennt man eine Datei, die Einstellungen oder Parameter für ein Programm enthält?",
+        "correct": "Konfigurationsdatei",
+        "wrong": [
+            "Bilddatei",
+            "Audiodatei",
+            "Zwischenspeicherdatei"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T16:55:20Z",
+        "audio": "0164.mp3"
+    },
+    {
+        "id": 256,
+        "category": "Technik",
+        "question": "Wie nennt man den Schutzmechanismus in Stromkreisen, der bei Überlast auslöst?",
+        "correct": "Sicherung",
+        "wrong": [
+            "Relais",
+            "Kondensator",
+            "Widerstand"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T19:18:56Z",
+        "audio": "0256.mp3"
+    },
+    {
+        "id": 238,
+        "category": "Sport",
+        "question": "Wie viele Sätze muss man im Tennis bei den Herren in einem Grand-Slam-Finale gewinnen?",
+        "correct": "3",
+        "wrong": [
+            "2",
+            "4",
+            "5"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T19:21:03Z",
+        "audio": "0238.mp3"
+    },
+    {
+        "id": 243,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man den Preis für die Nutzung von geliehenem Geld?",
+        "correct": "Zins",
+        "wrong": [
+            "Dividende",
+            "Rabatt",
+            "Provision"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T19:23:56Z",
+        "audio": "0243.mp3"
+    },
+    {
+        "id": 261,
+        "category": "Biologie",
+        "question": "Wie nennt man den Teil der Zelle, der die Erbinformation enthält?",
+        "correct": "Zellkern",
+        "wrong": [
+            "Zellwand",
+            "Ribosom",
+            "Vakuole"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T19:25:38Z",
+        "audio": "0261.mp3"
+    },
+    {
+        "id": 162,
+        "category": "Mathematik",
+        "question": "Wie nennt man eine Zahl, die nur durch 1 und sich selbst teilbar ist?",
+        "correct": "Primzahl",
+        "wrong": [
+            "Gerade Zahl",
+            "Irrationale Zahl",
+            "Negative Zahl"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T19:26:40Z",
+        "audio": "0162.mp3"
+    },
+    {
+        "id": 265,
+        "category": "Sport",
+        "question": "Wie nennt man im Fußball einen Treffer direkt aus einer Ecke?",
+        "correct": "Olympisches Tor",
+        "wrong": [
+            "Abseits-Tor",
+            "Dropkick",
+            "Elfmeter"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T19:28:07Z",
+        "audio": "0265.mp3"
+    },
+    {
+        "id": 37,
+        "category": "Chemie",
+        "question": "Wie heißt die Reaktion, bei der ein Stoff Elektronen abgibt?",
+        "correct": "Oxidation",
+        "wrong": [
+            "Reduktion",
+            "Hydrolyse",
+            "Isomerisierung"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T19:30:13Z",
+        "audio": "0037.mp3"
+    },
+    {
+        "id": 259,
+        "category": "Physik",
+        "question": "Wie nennt man die Energie, die ein Körper aufgrund seiner Bewegung besitzt?",
+        "correct": "Kinetische Energie",
+        "wrong": [
+            "Potenzielle Energie",
+            "Chemische Energie",
+            "Kernenergie"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T19:46:02Z",
+        "audio": "0259.mp3"
+    },
+    {
+        "id": 246,
+        "category": "Physik",
+        "question": "Wie nennt man die Anzahl der Schwingungen pro Sekunde?",
+        "correct": "Frequenz",
+        "wrong": [
+            "Spannung",
+            "Druck",
+            "Energie"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-11T20:20:25Z",
+        "audio": "0246.mp3"
+    },
+    {
+        "id": 239,
+        "category": "Geografie",
+        "question": "Welches Land hat die größte Bevölkerung in Südamerika?",
+        "correct": "Brasilien",
+        "wrong": [
+            "Argentinien",
+            "Kolumbien",
+            "Peru"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T07:22:50Z",
+        "audio": "0239.mp3"
+    },
+    {
+        "id": 204,
+        "category": "Physik",
+        "question": "Wie nennt man die Einheit der Stromstärke?",
+        "correct": "Ampere",
+        "wrong": [
+            "Volt",
+            "Ohm",
+            "Watt"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T07:24:22Z",
+        "audio": "0204.mp3"
+    },
+    {
+        "id": 197,
+        "category": "Geschichte",
+        "question": "Wie heißt das Bündnis der griechischen Poleis gegen Persien, das Athen dominierte (klassische Zeit)?",
+        "correct": "Attischer Seebund",
+        "wrong": [
+            "Hanse",
+            "Delphi-Orakel",
+            "Heiliger Bund"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T07:56:53Z",
+        "audio": "0197.mp3"
+    },
+    {
+        "id": 206,
+        "category": "Mathematik",
+        "question": "Wie viel ist 7 · 8?",
+        "correct": "56",
+        "wrong": [
+            "48",
+            "54",
+            "64"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T07:59:35Z",
+        "audio": "0206.mp3"
+    },
+    {
+        "id": 232,
+        "category": "Physik",
+        "question": "Wie heißt das Gesetz, das den Zusammenhang zwischen Spannung, Stromstärke und Widerstand beschreibt?",
+        "correct": "Ohmsches Gesetz",
+        "wrong": [
+            "Hookesches Gesetz",
+            "Boyle-Mariotte-Gesetz",
+            "Keplersches Gesetz"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T08:00:43Z",
+        "audio": "0232.mp3"
+    },
+    {
+        "id": 225,
+        "category": "Geografie",
+        "question": "Welches Land hat die Hauptstadt „Reykjavík“?",
+        "correct": "Island",
+        "wrong": [
+            "Norwegen",
+            "Irland",
+            "Finnland"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T08:03:52Z",
+        "audio": "0225.mp3"
+    },
+    {
+        "id": 252,
+        "category": "Sport",
+        "question": "Wie viele Spieler stehen pro Team beim Handball gleichzeitig auf dem Feld?",
+        "correct": "7",
+        "wrong": [
+            "6",
+            "8",
+            "11"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T09:57:00Z",
+        "audio": "0252.mp3"
+    },
+    {
+        "id": 244,
+        "category": "Mathematik",
+        "question": "Wie nennt man die Zahl, mit der man multipliziert, um eine Verkleinerung/Vergrößerung zu beschreiben?",
+        "correct": "Faktor",
+        "wrong": [
+            "Nenner",
+            "Winkel",
+            "Radius"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T11:06:32Z",
+        "audio": "0244.mp3"
+    },
+    {
+        "id": 275,
+        "category": "Literatur",
+        "question": "Wer schrieb „Moby-Dick“?",
+        "correct": "Herman Melville",
+        "wrong": [
+            "Ernest Hemingway",
+            "Mark Twain",
+            "Jack London"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T11:10:42Z",
+        "audio": "0275.mp3"
+    },
+    {
+        "id": 278,
+        "category": "Sport",
+        "question": "Wie viele Punkte gibt ein Dreipunktewurf im Basketball?",
+        "correct": "3",
+        "wrong": [
+            "2",
+            "1",
+            "4"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T11:12:11Z",
+        "audio": "0278.mp3"
+    },
+    {
+        "id": 270,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man die Kosten, die unabhängig von der Produktionsmenge anfallen?",
+        "correct": "Fixkosten",
+        "wrong": [
+            "Variable Kosten",
+            "Grenzkosten",
+            "Opportunitätskosten"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T11:17:45Z",
+        "audio": "0270.mp3"
+    },
+    {
+        "id": 254,
+        "category": "Geschichte",
+        "question": "Wie heißt das antike Reich, das von Rom aus das Mittelmeer beherrschte?",
+        "correct": "Römisches Reich",
+        "wrong": [
+            "Persisches Reich",
+            "Mongolenreich",
+            "Osmanisches Reich"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T11:18:35Z",
+        "audio": "0254.mp3"
+    },
+    {
+        "id": 283,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man die Geldmenge, die eine Zentralbank in Umlauf bringt, um die Wirtschaft zu steuern?",
+        "correct": "Geldpolitik",
+        "wrong": [
+            "Sozialpolitik",
+            "Handelspolitik",
+            "Bildungspolitik"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T11:20:50Z",
+        "audio": "0283.mp3"
+    },
+    {
+        "id": 227,
+        "category": "Naturwissenschaften",
+        "question": "Wie heißt die Kraft, die einen Körper im Wasser nach oben drückt?",
+        "correct": "Auftrieb",
+        "wrong": [
+            "Reibung",
+            "Trägheit",
+            "Gravitation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T12:48:25Z",
+        "audio": "0227.mp3"
+    },
+    {
+        "id": 40,
+        "category": "Geografie",
+        "question": "Welches Land hat die längste Küstenlinie der Welt?",
+        "correct": "Kanada",
+        "wrong": [
+            "Russland",
+            "Australien",
+            "Indonesien"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T14:10:42Z",
+        "audio": "0040.mp3"
+    },
+    {
+        "id": 237,
+        "category": "Kunst",
+        "question": "Welche Kunstepoche ist typischerweise mit gotischen Kathedralen verbunden?",
+        "correct": "Gotik",
+        "wrong": [
+            "Rokoko",
+            "Klassizismus",
+            "Impressionismus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T15:20:56Z",
+        "audio": "0237.mp3"
+    },
+    {
+        "id": 235,
+        "category": "Literatur",
+        "question": "Wer schrieb „Die Buddenbrooks“?",
+        "correct": "Thomas Mann",
+        "wrong": [
+            "Heinrich Mann",
+            "Hermann Hesse",
+            "Theodor Fontane"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T15:31:00Z",
+        "audio": "0235.mp3"
+    },
+    {
+        "id": 273,
+        "category": "Chemie",
+        "question": "Wie nennt man die Stoffklasse, die aus Kohlenstoff und Wasserstoff besteht (z. B. Methan)?",
+        "correct": "Kohlenwasserstoffe",
+        "wrong": [
+            "Salze",
+            "Metalle",
+            "Oxide"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T15:37:25Z",
+        "audio": "0273.mp3"
+    },
+    {
+        "id": 210,
+        "category": "Musik",
+        "question": "Wie nennt man die Tonleiter mit den weißen Tasten am Klavier von C bis C?",
+        "correct": "C-Dur",
+        "wrong": [
+            "a-Moll",
+            "G-Dur",
+            "F-Dur"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T15:40:20Z",
+        "audio": "0210.mp3"
+    },
+    {
+        "id": 228,
+        "category": "Technik",
+        "question": "Wie nennt man den Vorgang, bei dem Daten drahtlos über kurze Distanz zwischen Geräten übertragen werden (Standard)?",
+        "correct": "Bluetooth",
+        "wrong": [
+            "NFC",
+            "GPS",
+            "LAN"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T15:46:29Z",
+        "audio": "0228.mp3"
+    },
+    {
+        "id": 249,
+        "category": "Literatur",
+        "question": "Wer schrieb „Die Göttliche Komödie“?",
+        "correct": "Dante Alighieri",
+        "wrong": [
+            "Giovanni Boccaccio",
+            "Niccolò Machiavelli",
+            "Umberto Eco"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-12T15:46:53Z",
+        "audio": "0249.mp3"
+    },
+    {
+        "id": 292,
+        "category": "Geografie",
+        "question": "Welches Land hat die Hauptstadt „Helsinki“?",
+        "correct": "Finnland",
+        "wrong": [
+            "Schweden",
+            "Norwegen",
+            "Island"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:51:21Z",
+        "audio": "0292.mp3"
+    },
+    {
+        "id": 173,
+        "category": "Physik",
+        "question": "Wie nennt man die Umlenkung von Licht beim Übergang in ein anderes Medium?",
+        "correct": "Brechung",
+        "wrong": [
+            "Reflexion",
+            "Interferenz",
+            "Polarisation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:52:24Z",
+        "audio": "0173.mp3"
+    },
+    {
+        "id": 233,
+        "category": "Chemie",
+        "question": "Wie nennt man den pH-Bereich einer sauren Lösung?",
+        "correct": "Kleiner als 7",
+        "wrong": [
+            "Genau 7",
+            "Größer als 7",
+            "Genau 14"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:54:20Z",
+        "audio": "0233.mp3"
+    },
+    {
+        "id": 274,
+        "category": "Biologie",
+        "question": "Wie nennt man den Vorgang, bei dem Zellen Wasser durch eine semipermeable Membran aufnehmen/abgeben?",
+        "correct": "Osmose",
+        "wrong": [
+            "Mitose",
+            "Sublimation",
+            "Oxidation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:54:48Z",
+        "audio": "0274.mp3"
+    },
+    {
+        "id": 264,
+        "category": "Kunst",
+        "question": "Welche Epoche verbindet man typischerweise mit üppigem Dekor und geschwungenen Formen in der Innenarchitektur?",
+        "correct": "Rokoko",
+        "wrong": [
+            "Romanik",
+            "Bauhaus",
+            "Futurismus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:55:16Z",
+        "audio": "0264.mp3"
+    },
+    {
+        "id": 171,
+        "category": "Sport",
+        "question": "Wie viele Ringe hat das olympische Symbol?",
+        "correct": "5",
+        "wrong": [
+            "4",
+            "6",
+            "7"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:55:44Z",
+        "audio": "0171.mp3"
+    },
+    {
+        "id": 139,
+        "category": "Sport",
+        "question": "Wie viele Punkte zählt ein Touchdown im American Football (ohne Zusatzkick)?",
+        "correct": "6",
+        "wrong": [
+            "3",
+            "7",
+            "9"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:56:15Z",
+        "audio": "0139.mp3"
+    },
+    {
+        "id": 250,
+        "category": "Sprache",
+        "question": "Wie nennt man ein Wort, das ein Geräusch nachahmt (z. B. „kikeriki“)?",
+        "correct": "Onomatopoesie",
+        "wrong": [
+            "Alliteration",
+            "Metapher",
+            "Ironie"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:57:18Z",
+        "audio": "0250.mp3"
+    },
+    {
+        "id": 257,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man den Zusammenschluss von Personen zur gemeinsamen wirtschaftlichen Förderung (z. B. Wohnungsbau)?",
+        "correct": "Genossenschaft",
+        "wrong": [
+            "Kartell",
+            "Monopol",
+            "Stiftung"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T06:57:49Z",
+        "audio": "0257.mp3"
+    },
+    {
+        "id": 158,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man den Vorgang, bei dem Pflanzen Wasser über ihre Blätter abgeben?",
+        "correct": "Transpiration",
+        "wrong": [
+            "Assimilation",
+            "Gärung",
+            "Sedimentation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:12:49Z",
+        "audio": "0158.mp3"
+    },
+    {
+        "id": 268,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man die Verwandlung von Insektenlarven in erwachsene Tiere (z. B. Raupe zu Schmetterling)?",
+        "correct": "Metamorphose",
+        "wrong": [
+            "Osmose",
+            "Erosion",
+            "Kondensation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:13:17Z",
+        "audio": "0268.mp3"
+    },
+    {
+        "id": 18,
+        "category": "Biologie",
+        "question": "Welche Zellorganelle ist hauptsächlich für die Energiegewinnung zuständig?",
+        "correct": "Mitochondrien",
+        "wrong": [
+            "Ribosomen",
+            "Golgi-Apparat",
+            "Lysosomen"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:29:03Z",
+        "audio": "0018.mp3"
+    },
+    {
+        "id": 263,
+        "category": "Sprache",
+        "question": "Wie nennt man die Zeitform, die Vergangenes beschreibt (z. B. „ich ging“)?",
+        "correct": "Präteritum",
+        "wrong": [
+            "Futur",
+            "Plusquamperfekt",
+            "Konjunktiv II"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:29:30Z",
+        "audio": "0263.mp3"
+    },
+    {
+        "id": 296,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man den Zustand, in dem die Nachfrage nach Arbeitskräften die Zahl der Jobs unterschreitet?",
+        "correct": "Arbeitslosigkeit",
+        "wrong": [
+            "Inflation",
+            "Rezession",
+            "Diversifikation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:30:02Z",
+        "audio": "0296.mp3"
+    },
+    {
+        "id": 262,
+        "category": "Literatur",
+        "question": "Wer schrieb „Die Räuber“?",
+        "correct": "Friedrich Schiller",
+        "wrong": [
+            "Johann Wolfgang von Goethe",
+            "Gotthold Ephraim Lessing",
+            "Heinrich Heine"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:30:21Z",
+        "audio": "0262.mp3"
+    },
+    {
+        "id": 231,
+        "category": "Geografie",
+        "question": "Welche Hauptstadt liegt an der Spree?",
+        "correct": "Berlin",
+        "wrong": [
+            "Wien",
+            "Prag",
+            "Bern"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:30:49Z",
+        "audio": "0231.mp3"
+    },
+    {
+        "id": 26,
+        "category": "Geschichte",
+        "question": "Welche Schlacht gilt als Wendepunkt im Zweiten Weltkrieg an der Ostfront (1942/43)?",
+        "correct": "Schlacht von Stalingrad",
+        "wrong": [
+            "Schlacht um Kursk",
+            "Schlacht um Moskau",
+            "Schlacht von El Alamein"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:33:37Z",
+        "audio": "0026.mp3"
+    },
+    {
+        "id": 248,
+        "category": "Biologie",
+        "question": "Wie heißt der Teil des Nervensystems, der Signale vom Körper zum Gehirn leitet?",
+        "correct": "Sensorische Nerven",
+        "wrong": [
+            "Motorische Nerven",
+            "Hormondrüsen",
+            "Lymphgefäße"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:34:05Z",
+        "audio": "0248.mp3"
+    },
+    {
+        "id": 209,
+        "category": "Kunst",
+        "question": "Wie nennt man die Kunstrichtung mit geometrischen Formen, die besonders mit Piet Mondrian verbunden ist?",
+        "correct": "Neoplastizismus",
+        "wrong": [
+            "Barock",
+            "Impressionismus",
+            "Romantik"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:34:34Z",
+        "audio": "0209.mp3"
+    },
+    {
+        "id": 50,
+        "category": "Geografie",
+        "question": "Welche Wüste ist flächenmäßig die größte der Erde (inkl. Kältewüsten)?",
+        "correct": "Antarktis",
+        "wrong": [
+            "Sahara",
+            "Arabische Wüste",
+            "Gobi"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:35:02Z",
+        "audio": "0050.mp3"
+    },
+    {
+        "id": 284,
+        "category": "Mathematik",
+        "question": "Wie heißt ein Dreieck mit drei gleich langen Seiten?",
+        "correct": "Gleichseitiges Dreieck",
+        "wrong": [
+            "Rechtwinkliges Dreieck",
+            "Gleichschenkliges Dreieck",
+            "Stumpfwinkliges Dreieck"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:35:29Z",
+        "audio": "0284.mp3"
+    },
+    {
+        "id": 269,
+        "category": "Technik",
+        "question": "Wie heißt die Anzeigeeinheit bei Bildschirmen, die die Auflösung beschreibt (z. B. 1920×1080)?",
+        "correct": "Pixel",
+        "wrong": [
+            "Volt",
+            "Byte",
+            "Zoll"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:35:45Z",
+        "audio": "0269.mp3"
+    },
+    {
+        "id": 61,
+        "category": "Mathematik",
+        "question": "Wie heißt die Zahl e in der Mathematik am häufigsten?",
+        "correct": "Eulersche Zahl",
+        "wrong": [
+            "Goldener Schnitt",
+            "Gaußsche Zahl",
+            "Avogadro-Zahl"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:36:11Z",
+        "audio": "0061.mp3"
+    },
+    {
+        "id": 285,
+        "category": "Physik",
+        "question": "Wie nennt man die Strahlung, die man als Wärme wahrnimmt und die jenseits von Rot liegt?",
+        "correct": "Infrarot",
+        "wrong": [
+            "Ultraviolett",
+            "Röntgenstrahlung",
+            "Gamma-Strahlung"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:37:23Z",
+        "audio": "0285.mp3"
+    },
+    {
+        "id": 70,
+        "category": "Geografie",
+        "question": "Welcher Fluss fließt durch Wien?",
+        "correct": "Donau",
+        "wrong": [
+            "Rhein",
+            "Elbe",
+            "Oder"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:37:51Z",
+        "audio": "0070.mp3"
+    },
+    {
+        "id": 286,
+        "category": "Chemie",
+        "question": "Wie heißt das Element mit dem Symbol „Na“?",
+        "correct": "Natrium",
+        "wrong": [
+            "Neon",
+            "Nickel",
+            "Stickstoff"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:38:12Z",
+        "audio": "0286.mp3"
+    },
+    {
+        "id": 288,
+        "category": "Literatur",
+        "question": "Wer schrieb „Der Steppenwolf“?",
+        "correct": "Hermann Hesse",
+        "wrong": [
+            "Franz Kafka",
+            "Thomas Mann",
+            "Günter Grass"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:38:32Z",
+        "audio": "0288.mp3"
+    },
+    {
+        "id": 290,
+        "category": "Kunst",
+        "question": "Welche Stilrichtung verbindet man typischerweise mit Andy Warhol?",
+        "correct": "Pop Art",
+        "wrong": [
+            "Barock",
+            "Gotik",
+            "Klassizismus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:38:54Z",
+        "audio": "0290.mp3"
+    },
+    {
+        "id": 295,
+        "category": "Technik",
+        "question": "Wie nennt man die Einheit, in der die Bildwiederholrate eines Monitors gemessen wird?",
+        "correct": "Hertz",
+        "wrong": [
+            "Watt",
+            "Joule",
+            "Newton"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:40:01Z",
+        "audio": "0295.mp3"
+    },
+    {
+        "id": 67,
+        "category": "Chemie",
+        "question": "Welche Bindungsart entsteht durch die gemeinsame Nutzung von Elektronenpaaren?",
+        "correct": "Kovalente Bindung",
+        "wrong": [
+            "Ionenbindung",
+            "Metallbindung",
+            "Wasserstoffbrückenbindung"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:40:27Z",
+        "audio": "0067.mp3"
+    },
+    {
+        "id": 287,
+        "category": "Biologie",
+        "question": "Wie nennt man die Blutkörperchen, die für den Sauerstofftransport zuständig sind?",
+        "correct": "Erythrozyten",
+        "wrong": [
+            "Leukozyten",
+            "Thrombozyten",
+            "Plasmazellen"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:40:55Z",
+        "audio": "0287.mp3"
+    },
+    {
+        "id": 217,
+        "category": "Physik",
+        "question": "Wie nennt man den Widerstand, der durch Bewegung in einem Fluid (Luft/Wasser) entsteht?",
+        "correct": "Luftwiderstand",
+        "wrong": [
+            "Magnetkraft",
+            "Zentripetalkraft",
+            "Normalkraft"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:41:11Z",
+        "audio": "0217.mp3"
+    },
+    {
+        "id": 6,
+        "category": "Physik",
+        "question": "In welcher Einheit wird elektrische Spannung gemessen?",
+        "correct": "Volt",
+        "wrong": [
+            "Ampere",
+            "Ohm",
+            "Watt"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T07:41:37Z",
+        "audio": "0006.mp3"
+    },
+    {
+        "id": 280,
+        "category": "Geschichte",
+        "question": "Wie heißt das Reich, das im Mittelalter große Teile Anatoliens und Südosteuropas beherrschte?",
+        "correct": "Osmanisches Reich",
+        "wrong": [
+            "Römisches Reich",
+            "Byzantinisches Reich",
+            "Fränkisches Reich"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:39:52Z",
+        "audio": "0280.mp3"
+    },
+    {
+        "id": 42,
+        "category": "Astronomie",
+        "question": "Wie nennt man den Punkt einer Umlaufbahn, der der Sonne am nächsten ist?",
+        "correct": "Perihel",
+        "wrong": [
+            "Aphel",
+            "Zenit",
+            "Ekliptik"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:40:20Z",
+        "audio": "0042.mp3"
+    },
+    {
+        "id": 80,
+        "category": "Chemie",
+        "question": "Wie nennt man den pH-Wert, bei dem eine Lösung neutral ist (bei 25 °C)?",
+        "correct": "7",
+        "wrong": [
+            "0",
+            "1",
+            "14"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:40:40Z",
+        "audio": "0080.mp3"
+    },
+    {
+        "id": 195,
+        "category": "Informatik",
+        "question": "Wie nennt man das System, das Webseiten über eine Adresse wie example.com auffindbar macht (Namensauflösung)?",
+        "correct": "DNS",
+        "wrong": [
+            "HTML",
+            "FTP",
+            "VPN"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:41:02Z",
+        "audio": "0195.mp3"
+    },
+    {
+        "id": 294,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man die Wissenschaft vom Wetter?",
+        "correct": "Meteorologie",
+        "wrong": [
+            "Geologie",
+            "Astronomie",
+            "Ökologie"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:41:33Z",
+        "audio": "0294.mp3"
+    },
+    {
+        "id": 298,
+        "category": "Physik",
+        "question": "Wie nennt man die Eigenschaft eines Materials, elektrischen Strom zu leiten?",
+        "correct": "Leitfähigkeit",
+        "wrong": [
+            "Dichte",
+            "Härte",
+            "Viskosität"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:54:41Z",
+        "audio": "0298.mp3"
+    },
+    {
+        "id": 3,
+        "category": "Astronomie",
+        "question": "Welcher Planet ist der Sonne am nächsten?",
+        "correct": "Merkur",
+        "wrong": [
+            "Venus",
+            "Erde",
+            "Mars"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:55:03Z",
+        "audio": "0003.mp3"
+    },
+    {
+        "id": 271,
+        "category": "Mathematik",
+        "question": "Wie viele Tage hat ein Schaltjahr?",
+        "correct": "366",
+        "wrong": [
+            "365",
+            "364",
+            "360"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:55:35Z",
+        "audio": "0271.mp3"
+    },
+    {
+        "id": 165,
+        "category": "Geografie",
+        "question": "Welche Hauptstadt liegt an der Themse?",
+        "correct": "London",
+        "wrong": [
+            "Dublin",
+            "Edinburgh",
+            "Cardiff"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:55:56Z",
+        "audio": "0165.mp3"
+    },
+    {
+        "id": 258,
+        "category": "Mathematik",
+        "question": "Wie viel ist 9 · 9?",
+        "correct": "81",
+        "wrong": [
+            "72",
+            "90",
+            "99"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T10:56:28Z",
+        "audio": "0258.mp3"
+    },
+    {
+        "id": 136,
+        "category": "Sprache",
+        "question": "Wie nennt man den Teil eines Wortes, der seine Grundbedeutung trägt (z. B. „fahr-“ in „Fahrer“)?",
+        "correct": "Wortstamm",
+        "wrong": [
+            "Präfix",
+            "Suffix",
+            "Konjunktion"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:10:20Z",
+        "audio": "0136.mp3"
+    },
+    {
+        "id": 94,
+        "category": "Mathematik",
+        "question": "Wie heißt die Konstante π näherungsweise auf zwei Dezimalstellen?",
+        "correct": "3,14",
+        "wrong": [
+            "3,41",
+            "2,14",
+            "3,04"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:10:42Z",
+        "audio": "0094.mp3"
+    },
+    {
+        "id": 46,
+        "category": "Geschichte",
+        "question": "Welche antike Kultur schrieb in Keilschrift auf Tontafeln in Mesopotamien?",
+        "correct": "Sumerer",
+        "wrong": [
+            "Phönizier",
+            "Minoer",
+            "Etrusker"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:11:13Z",
+        "audio": "0046.mp3"
+    },
+    {
+        "id": 297,
+        "category": "Mathematik",
+        "question": "Wie nennt man die Zahl oben in einem Bruch (z. B. 3 in 3/4)?",
+        "correct": "Zähler",
+        "wrong": [
+            "Nenner",
+            "Faktor",
+            "Produkt"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:11:30Z",
+        "audio": "0297.mp3"
+    },
+    {
+        "id": 279,
+        "category": "Geografie",
+        "question": "Welche Stadt ist die Hauptstadt von Ägypten?",
+        "correct": "Kairo",
+        "wrong": [
+            "Alexandria",
+            "Gizeh",
+            "Luxor"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:11:58Z",
+        "audio": "0279.mp3"
+    },
+    {
+        "id": 89,
+        "category": "Politik",
+        "question": "Wie heißt die deutsche Verfassung seit 1949?",
+        "correct": "Grundgesetz",
+        "wrong": [
+            "Weimarer Verfassung",
+            "Reichsverfassung",
+            "Bundesakte"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:31:07Z",
+        "audio": "0089.mp3"
+    },
+    {
+        "id": 62,
+        "category": "Literatur",
+        "question": "Wer schrieb „Der alte Mann und das Meer“?",
+        "correct": "Ernest Hemingway",
+        "wrong": [
+            "John Steinbeck",
+            "F. Scott Fitzgerald",
+            "Mark Twain"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:46:27Z",
+        "audio": "0062.mp3"
+    },
+    {
+        "id": 23,
+        "category": "Geschichte",
+        "question": "Welche Stadt gilt als Wiege der Demokratie?",
+        "correct": "Athen",
+        "wrong": [
+            "Rom",
+            "Sparta",
+            "Alexandria"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:46:53Z",
+        "audio": "0023.mp3"
+    },
+    {
+        "id": 55,
+        "category": "Biologie",
+        "question": "Wie heißt der Prozess der Zellteilung, bei dem genetisch identische Tochterzellen entstehen?",
+        "correct": "Mitose",
+        "wrong": [
+            "Meiose",
+            "Osmose",
+            "Glykolyse"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:47:25Z",
+        "audio": "0055.mp3"
+    },
+    {
+        "id": 8,
+        "category": "Geschichte",
+        "question": "Welches Bauwerk ist auf der Rückseite des 50-Euro-Scheins abgebildet?",
+        "correct": "Brücke im Renaissance-Stil",
+        "wrong": [
+            "Eiffelturm",
+            "Kolosseum",
+            "Brandenburger Tor"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:47:46Z",
+        "audio": "0008.mp3"
+    },
+    {
+        "id": 97,
+        "category": "Astronomie",
+        "question": "Wie nennt man das scheinbare Band der Sonne am Himmel, entlang dessen sich die Planeten bewegen?",
+        "correct": "Ekliptik",
+        "wrong": [
+            "Äquator",
+            "Meridian",
+            "Zenit"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:55:18Z",
+        "audio": "0097.mp3"
+    },
+    {
+        "id": 14,
+        "category": "Sprache",
+        "question": "Wie nennt man die Lehre von den Sprachlauten?",
+        "correct": "Phonetik",
+        "wrong": [
+            "Syntax",
+            "Semantik",
+            "Pragmatik"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:55:41Z",
+        "audio": "0014.mp3"
+    },
+    {
+        "id": 281,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man den „Stoff“ in der Luft, der für die Atmung notwendig ist?",
+        "correct": "Sauerstoff",
+        "wrong": [
+            "Helium",
+            "Argon",
+            "Neon"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T11:56:01Z",
+        "audio": "0281.mp3"
+    },
+    {
+        "id": 48,
+        "category": "Physik",
+        "question": "Welche SI-Einheit hat die elektrische Ladung?",
+        "correct": "Coulomb",
+        "wrong": [
+            "Tesla",
+            "Joule",
+            "Newton"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T12:11:25Z",
+        "audio": "0048.mp3"
+    },
+    {
+        "id": 267,
+        "category": "Geschichte",
+        "question": "Wie heißt die deutsche Teilung von 1949 bis 1990 (zwei Staaten) allgemein?",
+        "correct": "Teilung Deutschlands",
+        "wrong": [
+            "Restauration",
+            "Reichsgründung",
+            "Völkerbundzeit"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T12:11:47Z",
+        "audio": "0267.mp3"
+    },
+    {
+        "id": 16,
+        "category": "Physik",
+        "question": "Was misst man in der Einheit Hertz (Hz)?",
+        "correct": "Frequenz",
+        "wrong": [
+            "Spannung",
+            "Leistung",
+            "Widerstand"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T12:12:05Z",
+        "audio": "0016.mp3"
+    },
+    {
+        "id": 276,
+        "category": "Sprache",
+        "question": "Wie nennt man ein Wort, das mehrere Bedeutungen hat (z. B. „Bank“)?",
+        "correct": "Polysem",
+        "wrong": [
+            "Homophon",
+            "Synonym",
+            "Alliteration"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T14:25:22Z",
+        "audio": "0276.mp3"
+    },
+    {
+        "id": 291,
+        "category": "Sport",
+        "question": "Wie nennt man im Marathon die Standarddistanz?",
+        "correct": "42,195 km",
+        "wrong": [
+            "21,097 km",
+            "10 km",
+            "50 km"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T14:25:54Z",
+        "audio": "0291.mp3"
+    },
+    {
+        "id": 222,
+        "category": "Literatur",
+        "question": "Wer schrieb „Der Name der Rose“?",
+        "correct": "Umberto Eco",
+        "wrong": [
+            "Italo Calvino",
+            "Günter Grass",
+            "Gabriel García Márquez"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T14:26:23Z",
+        "audio": "0222.mp3"
+    },
+    {
+        "id": 24,
+        "category": "Naturwissenschaften",
+        "question": "In welcher Atmosphärenschicht befindet sich die Ozonschicht?",
+        "correct": "Stratosphäre",
+        "wrong": [
+            "Troposphäre",
+            "Mesosphäre",
+            "Thermosphäre"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T14:26:57Z",
+        "audio": "0024.mp3"
+    },
+    {
+        "id": 73,
+        "category": "Mathematik",
+        "question": "Wie nennt man eine Funktion, deren Wertemenge nur zwei Werte (z. B. 0 und 1) annimmt?",
+        "correct": "Boolesche Funktion",
+        "wrong": [
+            "Trigonometrische Funktion",
+            "Exponentialfunktion",
+            "Stetige Funktion"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T14:27:14Z",
+        "audio": "0073.mp3"
+    },
+    {
+        "id": 293,
+        "category": "Geschichte",
+        "question": "Wie heißt die Epoche der großen Entdeckungsreisen (Kolumbus & Co.) im 15./16. Jahrhundert?",
+        "correct": "Zeitalter der Entdeckungen",
+        "wrong": [
+            "Biedermeier",
+            "Völkerwanderung",
+            "Restauration"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T17:56:05Z",
+        "audio": "0293.mp3"
+    },
+    {
+        "id": 234,
+        "category": "Biologie",
+        "question": "Wie nennt man die Vererbungseinheit, die Merkmale bestimmt?",
+        "correct": "Gen",
+        "wrong": [
+            "Enzym",
+            "Hormon",
+            "Organ"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T17:56:32Z",
+        "audio": "0234.mp3"
+    },
+    {
+        "id": 59,
+        "category": "Geografie",
+        "question": "Welche Meerenge trennt Europa von Afrika?",
+        "correct": "Straße von Gibraltar",
+        "wrong": [
+            "Beringstraße",
+            "Bosporus",
+            "Dardanellen"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T17:57:05Z",
+        "audio": "0059.mp3"
+    },
+    {
+        "id": 31,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man eine allgemeine und anhaltende Preissteigerung über viele Güter hinweg?",
+        "correct": "Inflation",
+        "wrong": [
+            "Deflation",
+            "Rezession",
+            "Subvention"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T17:57:31Z",
+        "audio": "0031.mp3"
+    },
+    {
+        "id": 289,
+        "category": "Sprache",
+        "question": "Wie nennt man die Betonung einer Silbe in einem Wort (z. B. in „BAH-nhof“)?",
+        "correct": "Wortakzent",
+        "wrong": [
+            "Syntax",
+            "Semantik",
+            "Flexion"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T17:57:47Z",
+        "audio": "0289.mp3"
+    },
+    {
+        "id": 64,
+        "category": "Sprache",
+        "question": "Wie nennt man die Grundform eines Verbs im Deutschen?",
+        "correct": "Infinitiv",
+        "wrong": [
+            "Partizip",
+            "Konjunktiv",
+            "Dativ"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T18:24:43Z",
+        "audio": "0064.mp3"
+    },
+    {
+        "id": 91,
+        "category": "Biologie",
+        "question": "Wie heißt der Teil des Auges, der die Lichtmenge durch Öffnen/Schließen reguliert?",
+        "correct": "Iris",
+        "wrong": [
+            "Netzhaut",
+            "Linse",
+            "Sehnerv"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T18:25:15Z",
+        "audio": "0091.mp3"
+    },
+    {
+        "id": 77,
+        "category": "Literatur",
+        "question": "Wer schrieb „Die Leiden des jungen Werthers“?",
+        "correct": "Johann Wolfgang von Goethe",
+        "wrong": [
+            "Friedrich Schiller",
+            "E.T.A. Hoffmann",
+            "Theodor Fontane"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T18:30:33Z",
+        "audio": "0077.mp3"
+    },
+    {
+        "id": 87,
+        "category": "Kunst",
+        "question": "Wie nennt man die Stilrichtung, die mit Pablo Picasso besonders verbunden ist?",
+        "correct": "Kubismus",
+        "wrong": [
+            "Surrealismus",
+            "Impressionismus",
+            "Rokoko"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T18:30:55Z",
+        "audio": "0087.mp3"
+    },
+    {
+        "id": 69,
+        "category": "Geschichte",
+        "question": "Wie hieß der erste römische Kaiser?",
+        "correct": "Augustus",
+        "wrong": [
+            "Julius Caesar",
+            "Nero",
+            "Trajan"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T18:31:45Z",
+        "audio": "0069.mp3"
+    },
+    {
+        "id": 279,
+        "category": "Geografie",
+        "question": "Welche Stadt ist die Hauptstadt von Ägypten?",
+        "correct": "Kairo",
+        "wrong": [
+            "Alexandria",
+            "Gizeh",
+            "Luxor"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T18:32:06Z",
+        "audio": "0279.mp3"
+    },
+    {
+        "id": 88,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man die Situation, in der wenige Anbieter einen Markt dominieren?",
+        "correct": "Oligopol",
+        "wrong": [
+            "Monopol",
+            "Polypol",
+            "Kartellverbot"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T19:33:20Z",
+        "audio": "0088.mp3"
+    },
+    {
+        "id": 79,
+        "category": "Biologie",
+        "question": "Welche Blutgruppe gilt im AB0-System als Universalempfänger?",
+        "correct": "AB",
+        "wrong": [
+            "0",
+            "A",
+            "B"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T19:33:39Z",
+        "audio": "0079.mp3"
+    },
+    {
+        "id": 299,
+        "category": "Chemie",
+        "question": "Wie nennt man eine Reaktion, bei der Säure und Base zu Salz und Wasser reagieren?",
+        "correct": "Neutralisation",
+        "wrong": [
+            "Oxidation",
+            "Polymerisation",
+            "Sublimation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T19:34:00Z",
+        "audio": "0299.mp3"
+    },
+    {
+        "id": 83,
+        "category": "Geschichte",
+        "question": "Wie nennt man die politische und kulturelle Erneuerungsbewegung in China, die 1966 begann?",
+        "correct": "Kulturrevolution",
+        "wrong": [
+            "Großer Sprung nach vorn",
+            "Boxeraufstand",
+            "Xinhai-Revolution"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T19:34:21Z",
+        "audio": "0083.mp3"
+    },
+    {
+        "id": 34,
+        "category": "Philosophie",
+        "question": "Welche Philosophie-Strömung verbindet man klassisch mit Epikur?",
+        "correct": "Epikureismus",
+        "wrong": [
+            "Stoizismus",
+            "Skeptizismus",
+            "Idealismus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T19:34:41Z",
+        "audio": "0034.mp3"
+    },
+    {
+        "id": 253,
+        "category": "Geografie",
+        "question": "Welches Land hat die Hauptstadt „Prag“?",
+        "correct": "Tschechien",
+        "wrong": [
+            "Polen",
+            "Slowakei",
+            "Ungarn"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T19:57:18Z",
+        "audio": "0253.mp3"
+    },
+    {
+        "id": 266,
+        "category": "Geografie",
+        "question": "Wie heißt die Hauptstadt von Griechenland?",
+        "correct": "Athen",
+        "wrong": [
+            "Thessaloniki",
+            "Sparta",
+            "Patras"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T19:59:45Z",
+        "audio": "0266.mp3"
+    },
+    {
+        "id": 27,
+        "category": "Chemie",
+        "question": "Wie heißt die chemische Verbindung NaCl?",
+        "correct": "Natriumchlorid",
+        "wrong": [
+            "Natriumcarbonat",
+            "Kaliumchlorid",
+            "Calciumchlorid"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:00:13Z",
+        "audio": "0027.mp3"
+    },
+    {
+        "id": 99,
+        "category": "Philosophie",
+        "question": "Wie nennt man die Lehre, dass Wissen ausschließlich aus Erfahrung stammt?",
+        "correct": "Empirismus",
+        "wrong": [
+            "Rationalismus",
+            "Nihilismus",
+            "Determinismus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:00:29Z",
+        "audio": "0099.mp3"
+    },
+    {
+        "id": 175,
+        "category": "Biologie",
+        "question": "Wie nennt man Tiere, die ihre Körpertemperatur weitgehend konstant halten?",
+        "correct": "Gleichwarm",
+        "wrong": [
+            "Wechselwarm",
+            "Kaltblütig",
+            "Amphibisch"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:00:44Z",
+        "audio": "0175.mp3"
+    },
+    {
+        "id": 29,
+        "category": "Biologie",
+        "question": "Wie heißt der Prozess, bei dem Pflanzen Lichtenergie in chemische Energie umwandeln?",
+        "correct": "Photosynthese",
+        "wrong": [
+            "Gärung",
+            "Zellatmung",
+            "Diffusion"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:01:07Z",
+        "audio": "0029.mp3"
+    },
+    {
+        "id": 95,
+        "category": "Geografie",
+        "question": "Welche Hauptstadt liegt am Fluss Seine?",
+        "correct": "Paris",
+        "wrong": [
+            "Brüssel",
+            "Lyon",
+            "Genf"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:08:31Z",
+        "audio": "0095.mp3"
+    },
+    {
+        "id": 144,
+        "category": "Chemie",
+        "question": "Wie heißt die chemische Formel von Wasser?",
+        "correct": "H2O",
+        "wrong": [
+            "CO2",
+            "NaCl",
+            "O2"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:08:48Z",
+        "audio": "0144.mp3"
+    },
+    {
+        "id": 15,
+        "category": "Geschichte",
+        "question": "Welche Epoche folgt in Europa direkt auf das Mittelalter?",
+        "correct": "Renaissance",
+        "wrong": [
+            "Barock",
+            "Romantik",
+            "Klassizismus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:09:10Z",
+        "audio": "0015.mp3"
+    },
+    {
+        "id": 85,
+        "category": "Philosophie",
+        "question": "Wie heißt Kants zentrale Erkenntnistheorie, die Wissen als Ergebnis von Anschauung und Verstandesformen versteht?",
+        "correct": "Transzendentalphilosophie",
+        "wrong": [
+            "Materialismus",
+            "Pragmatismus",
+            "Empirismus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:12:41Z",
+        "audio": "0085.mp3"
+    },
+    {
+        "id": 272,
+        "category": "Physik",
+        "question": "Wie nennt man den Übergang eines Stoffes von fest zu flüssig?",
+        "correct": "Schmelzen",
+        "wrong": [
+            "Gefrieren",
+            "Sublimieren",
+            "Kondensieren"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:13:00Z",
+        "audio": "0272.mp3"
+    },
+    {
+        "id": 121,
+        "category": "Mathematik",
+        "question": "Wie nennt man das Ergebnis einer Multiplikation?",
+        "correct": "Produkt",
+        "wrong": [
+            "Summe",
+            "Differenz",
+            "Quotient"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:13:15Z",
+        "audio": "0121.mp3"
+    },
+    {
+        "id": 21,
+        "category": "Mathematik",
+        "question": "Wie lautet der Satz des Pythagoras in Worten?",
+        "correct": "Die Summe der Quadrate der Katheten ist gleich dem Quadrat der Hypotenuse",
+        "wrong": [
+            "Das Produkt der Katheten ist gleich der Hypotenuse",
+            "Die Summe der Katheten ist gleich der Hypotenuse",
+            "Das Quadrat der Hypotenuse ist gleich dem Quadrat einer Kathete"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:13:35Z",
+        "audio": "0021.mp3"
+    },
+    {
+        "id": 251,
+        "category": "Kunst",
+        "question": "Wie nennt man Kunstwerke, die direkt in öffentlichen Räumen dauerhaft installiert sind?",
+        "correct": "Kunst im öffentlichen Raum",
+        "wrong": [
+            "Stillleben",
+            "Miniaturmalerei",
+            "Ikonografie"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T20:13:54Z",
+        "audio": "0251.mp3"
+    },
+    {
+        "id": 300,
+        "category": "Biologie",
+        "question": "Wie heißt der Vorgang, bei dem sich das Erbgut vor der Zellteilung verdoppelt?",
+        "correct": "DNA-Replikation",
+        "wrong": [
+            "Translation",
+            "Fermentation",
+            "Diffusion"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T21:00:15Z",
+        "audio": "0300.mp3"
+    },
+    {
+        "id": 45,
+        "category": "Naturwissenschaften",
+        "question": "Wie heißt das Maß für den Salzgehalt eines Gewässers?",
+        "correct": "Salinität",
+        "wrong": [
+            "Viskosität",
+            "Turbidität",
+            "Alkalinität"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T21:00:35Z",
+        "audio": "0045.mp3"
+    },
+    {
+        "id": 92,
+        "category": "Chemie",
+        "question": "Wie nennt man eine Lösung, die Elektrizität durch frei bewegliche Ionen leitet?",
+        "correct": "Elektrolyt",
+        "wrong": [
+            "Katalysator",
+            "Isomer",
+            "Destillat"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T21:00:54Z",
+        "audio": "0092.mp3"
+    },
+    {
+        "id": 63,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man die Gesamtheit aller in einem Jahr produzierten Waren und Dienstleistungen eines Landes (Marktwert)?",
+        "correct": "Bruttoinlandsprodukt",
+        "wrong": [
+            "Bruttonationaleinkommen",
+            "Handelsbilanz",
+            "Staatsquote"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T21:01:12Z",
+        "audio": "0063.mp3"
+    },
+    {
+        "id": 116,
+        "category": "Wirtschaft",
+        "question": "Wie heißt die Steuer auf den Verkauf von Waren und Dienstleistungen in Deutschland?",
+        "correct": "Mehrwertsteuer",
+        "wrong": [
+            "Körperschaftsteuer",
+            "Grunderwerbsteuer",
+            "Gewerbesteuer"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-13T21:01:41Z",
+        "audio": "0116.mp3"
+    },
+    {
+        "id": 36,
+        "category": "Physik",
+        "question": "Welche Lichtfarbe hat im sichtbaren Spektrum die kürzeste Wellenlänge?",
+        "correct": "Violett",
+        "wrong": [
+            "Rot",
+            "Gelb",
+            "Grün"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:01:38Z",
+        "audio": "0036.mp3"
+    },
+    {
+        "id": 78,
+        "category": "Astronomie",
+        "question": "Wie nennt man Sterne, die am Ende ihres Lebens in einer extrem dichten Form zurückbleiben und überwiegend aus Neutronen bestehen?",
+        "correct": "Neutronensterne",
+        "wrong": [
+            "Rote Riesen",
+            "Braune Zwerge",
+            "Weiße Zwerge"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:02:02Z",
+        "audio": "0078.mp3"
+    },
+    {
+        "id": 60,
+        "category": "Geschichte",
+        "question": "Wie heißt die Reformbewegung des 16. Jahrhunderts, die u. a. Martin Luther auslöste?",
+        "correct": "Reformation",
+        "wrong": [
+            "Aufklärung",
+            "Restauration",
+            "Renaissance"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:02:23Z",
+        "audio": "0060.mp3"
+    },
+    {
+        "id": 278,
+        "category": "Sport",
+        "question": "Wie viele Punkte gibt ein Dreipunktewurf im Basketball?",
+        "correct": "3",
+        "wrong": [
+            "2",
+            "1",
+            "4"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:02:46Z",
+        "audio": "0278.mp3"
+    },
+    {
+        "id": 96,
+        "category": "Geschichte",
+        "question": "Wie heißt das Zeitalter, in dem Dampfmaschine und Fabriksystem die Produktion stark veränderten?",
+        "correct": "Industrialisierung",
+        "wrong": [
+            "Restauration",
+            "Barock",
+            "Antike"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:03:06Z",
+        "audio": "0096.mp3"
+    },
+    {
+        "id": 13,
+        "category": "Chemie",
+        "question": "Welches Element hat die Ordnungszahl 8?",
+        "correct": "Sauerstoff",
+        "wrong": [
+            "Stickstoff",
+            "Kohlenstoff",
+            "Neon"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:25:53Z",
+        "audio": "0013.mp3"
+    },
+    {
+        "id": 128,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man die Einheit, aus der alle Lebewesen aufgebaut sind?",
+        "correct": "Zelle",
+        "wrong": [
+            "Atom",
+            "Kristall",
+            "Organ"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:30:45Z",
+        "audio": "0128.mp3"
+    },
+    {
+        "id": 35,
+        "category": "Kunst",
+        "question": "Wer malte die „Mona Lisa“?",
+        "correct": "Leonardo da Vinci",
+        "wrong": [
+            "Michelangelo",
+            "Raffael",
+            "Caravaggio"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:31:10Z",
+        "audio": "0035.mp3"
+    },
+    {
+        "id": 68,
+        "category": "Physik",
+        "question": "Welche Größe beschreibt die Fähigkeit eines Körpers, der Änderung seines Bewegungszustands zu widerstehen?",
+        "correct": "Trägheit",
+        "wrong": [
+            "Reibung",
+            "Dichte",
+            "Spannung"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:31:30Z",
+        "audio": "0068.mp3"
+    },
+    {
+        "id": 58,
+        "category": "Physik",
+        "question": "Wie heißt das Naturgesetz, das die Entropie in abgeschlossenen Systemen beschreibt?",
+        "correct": "Zweiter Hauptsatz der Thermodynamik",
+        "wrong": [
+            "Erster Hauptsatz der Thermodynamik",
+            "Ohmsches Gesetz",
+            "Coulombsches Gesetz"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:39:36Z",
+        "audio": "0058.mp3"
+    },
+    {
+        "id": 17,
+        "category": "Geografie",
+        "question": "Welches Land ist flächenmäßig das größte der Erde?",
+        "correct": "Russland",
+        "wrong": [
+            "Kanada",
+            "China",
+            "USA"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:40:08Z",
+        "audio": "0017.mp3"
+    },
+    {
+        "id": 101,
+        "category": "Geografie",
+        "question": "Wie heißt die Hauptstadt von Australien?",
+        "correct": "Canberra",
+        "wrong": [
+            "Sydney",
+            "Melbourne",
+            "Perth"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:40:30Z",
+        "audio": "0101.mp3"
+    },
+    {
+        "id": 51,
+        "category": "Philosophie",
+        "question": "Welcher Philosoph prägte den Satz „Ich denke, also bin ich“?",
+        "correct": "René Descartes",
+        "wrong": [
+            "Immanuel Kant",
+            "Aristoteles",
+            "David Hume"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:44:05Z",
+        "audio": "0051.mp3"
+    },
+    {
+        "id": 129,
+        "category": "Physik",
+        "question": "Wie heißt das Gerät, das elektrische Spannung erzeugt, indem es chemische Energie umwandelt?",
+        "correct": "Batterie",
+        "wrong": [
+            "Transformator",
+            "Widerstand",
+            "Kondensator"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:44:30Z",
+        "audio": "0129.mp3"
+    },
+    {
+        "id": 135,
+        "category": "Literatur",
+        "question": "Wer schrieb „Harry Potter“?",
+        "correct": "J.K. Rowling",
+        "wrong": [
+            "Stephen King",
+            "Suzanne Collins",
+            "Cornelia Funke"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:44:55Z",
+        "audio": "0135.mp3"
+    },
+    {
+        "id": 39,
+        "category": "Geschichte",
+        "question": "Wie hieß der Vertrag, der 1957 die EWG gründete?",
+        "correct": "Römische Verträge",
+        "wrong": [
+            "Vertrag von Maastricht",
+            "Vertrag von Lissabon",
+            "Pariser Vertrag"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:55:29Z",
+        "audio": "0039.mp3"
+    },
+    {
+        "id": 10,
+        "category": "Chemie",
+        "question": "Welches Symbol steht chemisch für Gold?",
+        "correct": "Au",
+        "wrong": [
+            "Ag",
+            "Fe",
+            "Gd"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:56:04Z",
+        "audio": "0010.mp3"
+    },
+    {
+        "id": 132,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man den Zusammenschluss von Unternehmen zur Preisabsprache (rechtlich verboten)?",
+        "correct": "Kartell",
+        "wrong": [
+            "Konsortium",
+            "Holding",
+            "Genossenschaft"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T09:56:35Z",
+        "audio": "0132.mp3"
+    },
+    {
+        "id": 4,
+        "category": "Geografie",
+        "question": "Wie viele Kontinente gibt es auf der Erde?",
+        "correct": "7",
+        "wrong": [
+            "5",
+            "6",
+            "8"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:02:52Z",
+        "audio": "0004.mp3"
+    },
+    {
+        "id": 11,
+        "category": "Sprache",
+        "question": "Welche Sprache hat weltweit die meisten Muttersprachler?",
+        "correct": "Mandarin-Chinesisch",
+        "wrong": [
+            "Englisch",
+            "Spanisch",
+            "Hindi"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:03:16Z",
+        "audio": "0011.mp3"
+    },
+    {
+        "id": 84,
+        "category": "Geografie",
+        "question": "Welches ist das bevölkerungsreichste Land Afrikas?",
+        "correct": "Nigeria",
+        "wrong": [
+            "Äthiopien",
+            "Ägypten",
+            "Südafrika"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:04:17Z",
+        "audio": "0084.mp3"
+    },
+    {
+        "id": 49,
+        "category": "Mathematik",
+        "question": "Was ist die Ableitung von f(x)=x^2?",
+        "correct": "2x",
+        "wrong": [
+            "x",
+            "x^3",
+            "2"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:08:40Z",
+        "audio": "0049.mp3"
+    },
+    {
+        "id": 118,
+        "category": "Physik",
+        "question": "Welche Einheit hat der elektrische Widerstand?",
+        "correct": "Ohm",
+        "wrong": [
+            "Volt",
+            "Ampere",
+            "Watt"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:09:07Z",
+        "audio": "0118.mp3"
+    },
+    {
+        "id": 260,
+        "category": "Chemie",
+        "question": "Wie heißt das Element mit dem Symbol „Fe“?",
+        "correct": "Eisen",
+        "wrong": [
+            "Fluor",
+            "Fermium",
+            "Kupfer"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:09:41Z",
+        "audio": "0260.mp3"
+    },
+    {
+        "id": 65,
+        "category": "Astronomie",
+        "question": "Wie heißt unsere Heimatgalaxie?",
+        "correct": "Milchstraße",
+        "wrong": [
+            "Andromedagalaxie",
+            "Sombrerogalaxie",
+            "Triangulum-Galaxie"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:17:31Z",
+        "audio": "0065.mp3"
+    },
+    {
+        "id": 56,
+        "category": "Naturwissenschaften",
+        "question": "Wie heißt die Skala, die die Härte von Mineralen (z. B. Quarz, Diamant) einteilt?",
+        "correct": "Mohs-Skala",
+        "wrong": [
+            "Beaufort-Skala",
+            "Richterskala",
+            "Kelvin-Skala"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:18:21Z",
+        "audio": "0056.mp3"
+    },
+    {
+        "id": 133,
+        "category": "Informatik",
+        "question": "Wie nennt man die eindeutige Adresse, mit der ein Gerät im Internet erreicht werden kann?",
+        "correct": "IP-Adresse",
+        "wrong": [
+            "MAC-Code",
+            "URL-Name",
+            "HTML-Tag"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:49:05Z",
+        "audio": "0133.mp3"
+    },
+    {
+        "id": 160,
+        "category": "Chemie",
+        "question": "Wie nennt man eine Mischung, bei der ein Stoff vollständig im anderen gelöst ist?",
+        "correct": "Lösung",
+        "wrong": [
+            "Suspension",
+            "Emulsion",
+            "Aerosol"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:49:28Z",
+        "audio": "0160.mp3"
+    },
+    {
+        "id": 213,
+        "category": "Geschichte",
+        "question": "Wie heißt die Epoche, in der in Europa viele Nationalstaaten entstanden und Industrialisierung stark zunahm (19. Jh.)?",
+        "correct": "Industriezeitalter",
+        "wrong": [
+            "Antike",
+            "Mittelalter",
+            "Barock"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:56:59Z",
+        "audio": "0213.mp3"
+    },
+    {
+        "id": 41,
+        "category": "Biologie",
+        "question": "Welches Molekül trägt primär den genetischen Code in Zellen?",
+        "correct": "DNA",
+        "wrong": [
+            "ATP",
+            "RNA",
+            "Protein"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T10:57:26Z",
+        "audio": "0041.mp3"
+    },
+    {
+        "id": 30,
+        "category": "Geografie",
+        "question": "Welcher Ozean ist flächenmäßig der größte?",
+        "correct": "Pazifischer Ozean",
+        "wrong": [
+            "Atlantischer Ozean",
+            "Indischer Ozean",
+            "Arktischer Ozean"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T11:05:46Z",
+        "audio": "0030.mp3"
+    },
+    {
+        "id": 47,
+        "category": "Chemie",
+        "question": "Wie lautet die Summenformel von Schwefelsäure?",
+        "correct": "H2SO4",
+        "wrong": [
+            "HNO3",
+            "HCl",
+            "H3PO4"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T11:06:07Z",
+        "audio": "0047.mp3"
+    },
+    {
+        "id": 100,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man den Markt, auf dem bereits ausgegebene Wertpapiere zwischen Investoren gehandelt werden?",
+        "correct": "Sekundärmarkt",
+        "wrong": [
+            "Primärmarkt",
+            "Geldmarkt",
+            "Arbeitsmarkt"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T11:15:47Z",
+        "audio": "0100.mp3"
+    },
+    {
+        "id": 122,
+        "category": "Sprache",
+        "question": "Wie nennt man die Wortart, die Tätigkeiten oder Zustände ausdrückt?",
+        "correct": "Verb",
+        "wrong": [
+            "Nomen",
+            "Artikel",
+            "Präposition"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T11:16:11Z",
+        "audio": "0122.mp3"
+    },
+    {
+        "id": 93,
+        "category": "Physik",
+        "question": "Welche Einheit hat die Leistung im SI-System?",
+        "correct": "Watt",
+        "wrong": [
+            "Volt",
+            "Ohm",
+            "Joule"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T11:43:05Z",
+        "audio": "0093.mp3"
+    },
+    {
+        "id": 103,
+        "category": "Biologie",
+        "question": "Wie heißt der Farbstoff, der Pflanzen grün macht und Licht für die Photosynthese einfängt?",
+        "correct": "Chlorophyll",
+        "wrong": [
+            "Keratin",
+            "Hämoglobin",
+            "Melanin"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T11:43:23Z",
+        "audio": "0103.mp3"
+    },
+    {
+        "id": 119,
+        "category": "Chemie",
+        "question": "Wie heißt die kleinste Einheit eines chemischen Elements?",
+        "correct": "Atom",
+        "wrong": [
+            "Molekül",
+            "Zelle",
+            "Kristall"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T11:49:28Z",
+        "audio": "0119.mp3"
+    },
+    {
+        "id": 114,
+        "category": "Technik",
+        "question": "Wofür steht die Abkürzung „USB“?",
+        "correct": "Universal Serial Bus",
+        "wrong": [
+            "Unified System Backup",
+            "Ultra Speed Bridge",
+            "Universal Signal Base"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T11:49:45Z",
+        "audio": "0114.mp3"
+    },
+    {
+        "id": 134,
+        "category": "Geografie",
+        "question": "Welcher Fluss fließt durch Budapest?",
+        "correct": "Donau",
+        "wrong": [
+            "Po",
+            "Themse",
+            "Loire"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T12:38:55Z",
+        "audio": "0134.mp3"
+    },
+    {
+        "id": 7,
+        "category": "Kunst",
+        "question": "Welche Farbe entsteht aus der Mischung von Blau und Gelb?",
+        "correct": "Grün",
+        "wrong": [
+            "Türkis",
+            "Braun",
+            "Lila"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T14:38:32Z",
+        "audio": "0007.mp3"
+    },
+    {
+        "id": 109,
+        "category": "Kunst",
+        "question": "Wie heißt die berühmte Deckenmalerei Michelangelos in Rom?",
+        "correct": "Sixtinische Kapelle",
+        "wrong": [
+            "Petersdom-Kuppel",
+            "Vatikanische Museen",
+            "Spanische Treppe"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T19:07:30Z",
+        "audio": "0109.mp3"
+    },
+    {
+        "id": 117,
+        "category": "Geografie",
+        "question": "Welches Gebirge bildet eine natürliche Grenze zwischen Europa und Asien?",
+        "correct": "Ural",
+        "wrong": [
+            "Anden",
+            "Alpen",
+            "Atlas"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T19:07:59Z",
+        "audio": "0117.mp3"
+    },
+    {
+        "id": 57,
+        "category": "Chemie",
+        "question": "Wie nennt man Moleküle mit gleicher Summenformel, aber unterschiedlicher Struktur?",
+        "correct": "Isomere",
+        "wrong": [
+            "Ionen",
+            "Radikale",
+            "Polymere"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T19:12:27Z",
+        "audio": "0057.mp3"
+    },
+    {
+        "id": 19,
+        "category": "Mathematik",
+        "question": "Welche der folgenden Zahlen ist eine Primzahl?",
+        "correct": "97",
+        "wrong": [
+            "91",
+            "99",
+            "95"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T19:24:42Z",
+        "audio": "0019.mp3"
+    },
+    {
+        "id": 146,
+        "category": "Mathematik",
+        "question": "Wie nennt man eine Zahl, die ohne Rest durch 2 teilbar ist?",
+        "correct": "Gerade Zahl",
+        "wrong": [
+            "Ungerade Zahl",
+            "Primzahl",
+            "Rationale Zahl"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T20:08:28Z",
+        "audio": "0146.mp3"
+    },
+    {
+        "id": 161,
+        "category": "Biologie",
+        "question": "Wie heißt der Prozess, bei dem der Körper aus Nahrung Energie gewinnt (vereinfacht)?",
+        "correct": "Stoffwechsel",
+        "wrong": [
+            "Fotosynthese",
+            "Osmose",
+            "Mutation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T20:26:20Z",
+        "audio": "0161.mp3"
+    },
+    {
+        "id": 43,
+        "category": "Sprache",
+        "question": "Wie nennt man ein Wort, das gleich klingt, aber unterschiedliche Bedeutung hat (z. B. „Seite“/„Saite“)?",
+        "correct": "Homophon",
+        "wrong": [
+            "Synonym",
+            "Antonym",
+            "Neologismus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T20:30:12Z",
+        "audio": "0043.mp3"
+    },
+    {
+        "id": 147,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man die Differenz zwischen Einnahmen und Ausgaben?",
+        "correct": "Gewinn",
+        "wrong": [
+            "Umsatz",
+            "Bilanz",
+            "Liquidität"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-14T20:42:55Z",
+        "audio": "0147.mp3"
+    },
+    {
+        "id": 149,
+        "category": "Informatik",
+        "question": "Wie nennt man eine Abfolge von Schritten zur Lösung eines Problems in der Informatik?",
+        "correct": "Algorithmus",
+        "wrong": [
+            "Protokoll",
+            "Interface",
+            "Treiber"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-15T05:45:22Z",
+        "audio": "0149.mp3"
+    },
+    {
+        "id": 159,
+        "category": "Physik",
+        "question": "Wie heißt die Einheit der Energie im SI-System?",
+        "correct": "Joule",
+        "wrong": [
+            "Newton",
+            "Pascal",
+            "Ohm"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-15T05:46:54Z",
+        "audio": "0159.mp3"
+    },
+    {
+        "id": 168,
+        "category": "Sprache",
+        "question": "Wie nennt man Wörter, die in der Bedeutung ähnlich sind (z. B. „schnell“/„rasch“)?",
+        "correct": "Synonyme",
+        "wrong": [
+            "Antonyme",
+            "Homonyme",
+            "Anagramme"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-15T05:47:47Z",
+        "audio": "0168.mp3"
+    },
+    {
+        "id": 9,
+        "category": "Geografie",
+        "question": "Wie heißt der höchste Berg der Erde?",
+        "correct": "Mount Everest",
+        "wrong": [
+            "K2",
+            "Kilimandscharo",
+            "Mont Blanc"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-15T05:48:39Z",
+        "audio": "0009.mp3"
+    },
+    {
+        "id": 115,
+        "category": "Informatik",
+        "question": "Wie nennt man ein Programm, das schädliche Software erkennt und entfernt?",
+        "correct": "Antivirenprogramm",
+        "wrong": [
+            "Compiler",
+            "Router",
+            "Texteditor"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-15T06:13:32Z",
+        "audio": "0115.mp3"
+    },
+    {
+        "id": 76,
+        "category": "Wirtschaft",
+        "question": "Wie nennt man die Aufteilung von Risiko auf viele Anlagen, um Schwankungen zu reduzieren?",
+        "correct": "Diversifikation",
+        "wrong": [
+            "Arbitrage",
+            "Monopolisierung",
+            "Deflationierung"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-15T06:18:20Z",
+        "audio": "0076.mp3"
+    },
+    {
+        "id": 150,
+        "category": "Geografie",
+        "question": "Welches Gebirge liegt überwiegend in der Schweiz und Norditalien?",
+        "correct": "Alpen",
+        "wrong": [
+            "Pyrenäen",
+            "Karpaten",
+            "Rocky Mountains"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-15T11:56:07Z",
+        "audio": "0150.mp3"
+    },
+    {
+        "id": 90,
+        "category": "Naturwissenschaften",
+        "question": "Wie heißt der Prozess, bei dem Wasser direkt von fest zu gasförmig übergeht?",
+        "correct": "Sublimation",
+        "wrong": [
+            "Kondensation",
+            "Schmelzen",
+            "Verdampfen"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-16T11:28:18Z",
+        "audio": "0090.mp3"
+    },
+    {
+        "id": 2,
+        "category": "Musik",
+        "question": "Wie viele Saiten hat eine klassische Gitarre?",
+        "correct": "6",
+        "wrong": [
+            "4",
+            "5",
+            "12"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-16T11:32:21Z",
+        "audio": "0002.mp3"
+    },
+    {
+        "id": 125,
+        "category": "Sport",
+        "question": "Wie viele Spieler stehen pro Team beim Fußball gleichzeitig auf dem Feld?",
+        "correct": "11",
+        "wrong": [
+            "9",
+            "10",
+            "12"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-16T11:36:11Z",
+        "audio": "0125.mp3"
+    },
+    {
+        "id": 282,
+        "category": "Technik",
+        "question": "Wie nennt man das Gerät, das Papier digitalisiert und als Bilddatei speichert?",
+        "correct": "Scanner",
+        "wrong": [
+            "Router",
+            "Switch",
+            "Beamer"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-16T11:43:45Z",
+        "audio": "0282.mp3"
+    },
+    {
+        "id": 20,
+        "category": "Geografie",
+        "question": "Welches Meer liegt zwischen Italien und dem Balkan?",
+        "correct": "Adriatisches Meer",
+        "wrong": [
+            "Ägäisches Meer",
+            "Tyrrhenisches Meer",
+            "Schwarzes Meer"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-16T11:46:53Z",
+        "audio": "0020.mp3"
+    },
+    {
+        "id": 151,
+        "category": "Geschichte",
+        "question": "Wie heißt das berühmte Schiff, mit dem Charles Darwin seine Reise unternahm?",
+        "correct": "HMS Beagle",
+        "wrong": [
+            "Santa Maria",
+            "Endeavour",
+            "Mayflower"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-16T14:28:11Z",
+        "audio": "0151.mp3"
+    },
+    {
+        "id": 169,
+        "category": "Kunst",
+        "question": "Welches Material ist typisch für klassische Marmor-Skulpturen?",
+        "correct": "Marmor",
+        "wrong": [
+            "Kunststoff",
+            "Papier",
+            "Gipskarton"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-16T14:29:17Z",
+        "audio": "0169.mp3"
+    },
+    {
+        "id": 105,
+        "category": "Chemie",
+        "question": "Wie nennt man Stoffe, die in Wasser H+-Ionen abgeben können?",
+        "correct": "Säuren",
+        "wrong": [
+            "Basen",
+            "Salze",
+            "Metalle"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T14:53:19Z",
+        "audio": "0105.mp3"
+    },
+    {
+        "id": 184,
+        "category": "Kunst",
+        "question": "Wie nennt man ein Bild, das mit Wasserfarben auf Papier gemalt wird?",
+        "correct": "Aquarell",
+        "wrong": [
+            "Fresko",
+            "Relief",
+            "Tapisserie"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:08:52Z",
+        "audio": "0184.mp3"
+    },
+    {
+        "id": 170,
+        "category": "Musik",
+        "question": "Wie nennt man die Notenschrift, die die Tonhöhe auf Linien und Zwischenräumen darstellt?",
+        "correct": "Notensystem",
+        "wrong": [
+            "Akkordkreis",
+            "Taktgeber",
+            "Tonleiter"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:16:05Z",
+        "audio": "0170.mp3"
+    },
+    {
+        "id": 28,
+        "category": "Physik",
+        "question": "Welche Größe ist definiert als Kraft pro Fläche?",
+        "correct": "Druck",
+        "wrong": [
+            "Leistung",
+            "Energie",
+            "Impuls"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:20:51Z",
+        "audio": "0028.mp3"
+    },
+    {
+        "id": 120,
+        "category": "Biologie",
+        "question": "Wie heißt der Fachbegriff für den Herzmuskel?",
+        "correct": "Myokard",
+        "wrong": [
+            "Alveole",
+            "Synapse",
+            "Dermis"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:24:01Z",
+        "audio": "0120.mp3"
+    },
+    {
+        "id": 86,
+        "category": "Literatur",
+        "question": "Welcher Autor schrieb „Krieg und Frieden“?",
+        "correct": "Leo Tolstoi",
+        "wrong": [
+            "Fjodor Dostojewski",
+            "Iwan Turgenjew",
+            "Alexander Puschkin"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:30:31Z",
+        "audio": "0086.mp3"
+    },
+    {
+        "id": 153,
+        "category": "Sprache",
+        "question": "Wie nennt man den Satzteil, der angibt, was jemand tut oder was geschieht?",
+        "correct": "Prädikat",
+        "wrong": [
+            "Subjekt",
+            "Objekt",
+            "Attribut"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:41:13Z",
+        "audio": "0153.mp3"
+    },
+    {
+        "id": 145,
+        "category": "Biologie",
+        "question": "Wie nennt man den Vorgang, bei dem der Körper Krankheitserreger gezielt abwehrt?",
+        "correct": "Immunreaktion",
+        "wrong": [
+            "Photosynthese",
+            "Osmose",
+            "Fermentation"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:52:41Z",
+        "audio": "0145.mp3"
+    },
+    {
+        "id": 66,
+        "category": "Biologie",
+        "question": "Wie heißt der größte Teil des menschlichen Gehirns, der u. a. für Bewusstsein und Denken zuständig ist?",
+        "correct": "Großhirn",
+        "wrong": [
+            "Kleinhirn",
+            "Hirnstamm",
+            "Thalamus"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:55:11Z",
+        "audio": "0066.mp3"
+    },
+    {
+        "id": 38,
+        "category": "Mathematik",
+        "question": "Wie viele Grad hat die Innenwinkelsumme eines Dreiecks?",
+        "correct": "180",
+        "wrong": [
+            "90",
+            "270",
+            "360"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T15:57:25Z",
+        "audio": "0038.mp3"
+    },
+    {
+        "id": 32,
+        "category": "Politik",
+        "question": "Wie heißt das Prinzip der Gewaltenteilung in Legislative, Exekutive und Judikative?",
+        "correct": "Gewaltenteilungsprinzip",
+        "wrong": [
+            "Subsidiaritätsprinzip",
+            "Mehrheitsprinzip",
+            "Föderalismusprinzip"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T17:07:37Z",
+        "audio": "0032.mp3"
+    },
+    {
+        "id": 142,
+        "category": "Naturwissenschaften",
+        "question": "Wie nennt man Tiere, die sowohl pflanzliche als auch tierische Nahrung fressen?",
+        "correct": "Allesfresser",
+        "wrong": [
+            "Pflanzenfresser",
+            "Fleischfresser",
+            "Aasfresser"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T17:16:36Z",
+        "audio": "0142.mp3"
+    },
+    {
+        "id": 201,
+        "category": "Geografie",
+        "question": "Wie heißt die Hauptstadt von Argentinien?",
+        "correct": "Buenos Aires",
+        "wrong": [
+            "Santiago de Chile",
+            "Montevideo",
+            "Lima"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T17:29:25Z",
+        "audio": "0201.mp3"
+    },
+    {
+        "id": 205,
+        "category": "Chemie",
+        "question": "Wie heißt das Gas, das Pflanzen bei der Photosynthese abgeben?",
+        "correct": "Sauerstoff",
+        "wrong": [
+            "Stickstoff",
+            "Kohlenstoffdioxid",
+            "Argon"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T17:38:20Z",
+        "audio": "0205.mp3"
+    },
+    {
+        "id": 110,
+        "category": "Musik",
+        "question": "Wie nennt man ein Musikstück für zwei Spieler oder zwei Stimmen?",
+        "correct": "Duett",
+        "wrong": [
+            "Quartett",
+            "Sonate",
+            "Oratorium"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T17:54:41Z",
+        "audio": "0110.mp3"
+    },
+    {
+        "id": 143,
+        "category": "Physik",
+        "question": "Wie nennt man die Strecke, die ein Körper pro Zeit zurücklegt?",
+        "correct": "Geschwindigkeit",
+        "wrong": [
+            "Masse",
+            "Dichte",
+            "Temperatur"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T18:00:53Z",
+        "audio": "0143.mp3"
+    },
+    {
+        "id": 25,
+        "category": "Geografie",
+        "question": "Wie heißt der längste Fluss Südamerikas?",
+        "correct": "Amazonas",
+        "wrong": [
+            "Orinoco",
+            "Paraná",
+            "Madeira"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T18:19:52Z",
+        "audio": "0025.mp3"
+    },
+    {
+        "id": 111,
+        "category": "Geografie",
+        "question": "Welcher Ozean liegt zwischen Afrika und Australien?",
+        "correct": "Indischer Ozean",
+        "wrong": [
+            "Atlantischer Ozean",
+            "Pazifischer Ozean",
+            "Arktischer Ozean"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T18:31:10Z",
+        "audio": "0111.mp3"
+    },
+    {
+        "id": 194,
+        "category": "Technik",
+        "question": "Wie nennt man ein Gerät, das Daten in einem Netzwerk verteilt und Geräte verbindet?",
+        "correct": "Switch",
+        "wrong": [
+            "Monitor",
+            "Drucker",
+            "Scanner"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T18:59:01Z",
+        "audio": "0194.mp3"
+    },
+    {
+        "id": 211,
+        "category": "Geografie",
+        "question": "Welche Stadt ist die Hauptstadt von Schweden?",
+        "correct": "Stockholm",
+        "wrong": [
+            "Oslo",
+            "Kopenhagen",
+            "Helsinki"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T19:05:36Z",
+        "audio": "0211.mp3"
+    },
+    {
+        "id": 138,
+        "category": "Musik",
+        "question": "Welches Instrument hat typischerweise 88 Tasten?",
+        "correct": "Klavier",
+        "wrong": [
+            "Violine",
+            "Flöte",
+            "Trompete"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T19:12:37Z",
+        "audio": "0138.mp3"
+    },
+    {
+        "id": 141,
+        "category": "Geografie",
+        "question": "Welche Stadt ist die Hauptstadt von Brasilien?",
+        "correct": "Brasília",
+        "wrong": [
+            "Rio de Janeiro",
+            "São Paulo",
+            "Salvador"
+        ],
+        "image": null,
+        "lastplayed": "2026-01-17T19:19:38Z",
+        "audio": "0141.mp3"
+    }
+]

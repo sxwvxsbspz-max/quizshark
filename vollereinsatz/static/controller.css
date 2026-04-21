@@ -1,0 +1,570 @@
+/* --- FILE: ./vollereinsatz/static/controller.css --- */
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("../../static/fonts/OpenDyslexic-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Global Reset */
+.ps-controller, .ps-controller * { box-sizing: border-box; }
+
+/* FIX für Formular-Elemente: Erzwingt Vererbung der Font */
+button {
+  font-family: inherit;
+}
+
+:root{
+  --bg: #00167a;
+  --white20: rgba(255,255,255,0.20);
+
+  --yellow: #FFF500;
+  --blue:   #1F80FF;
+  --green:  #9EFF1F99;
+  --orange: #FFA51F99;
+
+  --yellowFill: #FFF50099;
+  --blueFill:   #1F80FF99;
+  --greenFill:  #9EFF1F99;
+  --orangeFill: #FFA51F99;
+
+  /* Farben für Feedback (identisch mit Fragenbox) */
+  --correctGreen: rgb(46,204,113);
+  --wrongRed: rgb(231,76,60);
+
+  /* Timer-Bar */
+  --barBg: rgba(255,255,255,0.18);
+  --barFill: rgba(255,255,255,0.92);
+}
+
+/* =========================================================
+   ROOT / SCREENS
+   ========================================================= */
+
+.ps-controller{
+  width:100vw;
+  height:100vh;
+  /* HINTERGRUND-BILD HIER EINGEFÜGT */
+  background: var(--bg) url("/vollereinsatz/media/controllerbackground.svg") no-repeat center center;
+  background-size: cover;
+  color:#fff;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 500; /* Standard für alles */
+}
+
+.screen{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: transparent; /* TRANSPARENT GEMACHT */
+}
+
+.ps-controller__video{
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+  display:block;
+}
+
+/* Round Screen */
+.screen--round{
+  background-image: url("/vollereinsatz/media/controllerquestionbackground.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.round-label{
+  /* Layout */
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  /* Typo – wie PunkteRegen */
+  font-family: "OpenDyslexic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: clamp(66px, 10vw, 110px);
+  line-height: 1.1;
+  letter-spacing: -0.1em;
+
+  color:#fff;
+  text-transform: none;
+
+  text-shadow: none;
+}
+
+
+.round-label::before{
+  content: "";
+  display: block;
+  width: min(50vw, 900px);
+  max-height: 40vh;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 40px;
+  background: url("/vollereinsatz/media/question.svg") no-repeat center center;
+  background-size: contain;
+  opacity: 0.95;
+  filter: none;
+}
+
+
+
+/* QA Screen */
+.screen--qa{
+  background: transparent; /* TRANSPARENT GEMACHT */
+  align-items: stretch;
+}
+
+.qa-inner{
+  width:100%;
+  height:100%;
+  padding: 18px 16px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap: 12px;
+}
+
+/* =========================================================
+   META-BOX (500)
+   ========================================================= */
+
+/* TOP META ROW: Player-Box + Wager-Box */
+.psc__topMetaRow{
+  width:min(600px, 96vw);
+  display:flex;
+  gap: 6px;
+  align-items: stretch;
+
+  /* FIX: gewünschte Höhe */
+  height: 60px;
+}
+
+
+
+
+/* Player Meta-Box bleibt optisch gleich, wird aber flex */
+.psc__metaBox{
+  flex: 1 1 auto;
+  width: auto;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.16);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.35);
+  padding: 12px 16px;
+
+  /* FIX: Inhalt vertikal mittig in der fixen Zeilenhöhe */
+  display:flex;
+  align-items:center;
+}
+
+
+/* Wager-Box: quadratisch, Höhe = Meta-Box-Höhe */
+.psc__wagerBox{
+  flex: 0 0 auto;
+
+  /* FIX: 60x60 */
+  width: 60px;
+  height: 60px;
+
+  border-radius: 18px;
+
+  background: rgba(255,255,255,0.16);
+  border: 2px solid rgba(255,255,255,0.0);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.35);
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1.225rem;
+  font-weight: 700;
+  line-height: 1;
+
+  color: rgba(255,255,255,0.95);
+}
+
+
+
+/* leer/blass wie TV */
+.psc__wagerBox.is-empty{
+  opacity: 0.25;
+}
+
+/* gesetzt: sichtbar, aber Rahmen erstmal neutral */
+.psc__wagerBox.is-set{
+  opacity: 1;
+  border-color: rgba(255,255,255,0.0);
+}
+
+/* WAGER "eingeloggt" (locked) -> weißer Rahmen */
+.psc__wagerBox.is-locked{
+  border-color: rgba(255,255,255,0.95);
+}
+
+/* Ergebnisfarben -> Rahmen wie Frage */
+.psc__wagerBox.is-correct{
+  border-color: var(--correctGreen);
+}
+
+.psc__wagerBox.is-wrong{
+  border-color: var(--wrongRed);
+}
+
+
+
+.psc__playerMeta{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  gap: 14px;
+
+  /* FIX: nimmt die volle MetaBox-Höhe ein, damit align-items:center wirklich greift */
+  width: 100%;
+}
+
+
+
+.psc__metaRow{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap: 14px;
+}
+
+.psc__metaValue{
+  flex: 0 0 auto;
+
+  display:flex;
+  align-items:baseline;
+  justify-content:flex-end;
+  gap: 10px;
+
+  text-align:right;
+  white-space: nowrap;
+
+  font-size: 1.75rem;
+  font-weight: 500;
+
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+
+
+  color: rgba(255,255,255,0.95);
+
+}
+
+
+.psc__scorePopInline{
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.psc__scorePopInline.is-plus{
+  color: rgb(46,204,113);
+  text-shadow: 0 0 14px rgba(46,204,113,0.55);
+}
+
+.psc__scorePopInline.is-minus{
+  color: rgb(231,76,60);
+  text-shadow: 0 0 14px rgba(231,76,60,0.55);
+}
+
+
+/* =========================================================
+   NAME IN META-BOX (shrink + ellipsis)
+   ========================================================= */
+
+.psc__metaName{
+  flex: 1 1 auto;
+  min-width: 0;
+
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 0; /* WICHTIG: gleich wie Score */
+  color: rgba(255,255,255,0.95);
+
+  font-size: 1.75rem;
+
+  line-height: 1.1;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+/* =========================================================
+   FRAGE (700) + TIMER
+   ========================================================= */
+
+.psc__questionBlock{
+  width:min(600px, 96vw);
+  display:flex;
+  flex-direction:column;
+  gap: 8px;
+  align-items:stretch;
+}
+
+.question{
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.14);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+  text-align:center;
+  font-family: "Nunito", sans-serif; /* Explizit gesetzt */
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.16;
+  color: rgba(255,255,255,0.95);
+  transition: background 180ms ease, box-shadow 180ms ease;
+}
+
+.question.is-correct{
+  background: var(--correctGreen);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+}
+
+.question.is-wrong{
+  background: var(--wrongRed);
+}
+
+.psc__timebar{
+  width: min(600px, 96vw);
+  height: 10px;
+  border-radius: 999px;
+  background: var(--barBg);
+  overflow:hidden;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+}
+
+.psc__timebarFill{
+  height: 100%;
+  width: var(--p, 0%);
+  background: var(--barFill);
+  border-radius: 999px;
+  transition: width 90ms linear;
+}
+
+/* =========================================================
+   BILD-SLOT
+   ========================================================= */
+
+.question-image-wrap{
+  width:min(600px, 96vw);
+  height: clamp(180px, 26vh, 340px);
+  border-radius: 18px;
+  overflow:hidden;
+  background: rgba(255,255,255,0.10);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+}
+
+.question-image{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+  opacity:0.95;
+}
+
+.question-image-wrap.is-hidden{
+  display:none !important;
+}
+
+/* =========================================================
+   ANSWERS (700)
+   ========================================================= */
+
+.options{
+  width:min(600px, 96vw);
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.options.is-invisible{
+  visibility:hidden;
+  opacity:0;
+  pointer-events:none;
+}
+
+.opt{
+  padding: 16px 14px;
+  border-radius: 18px;
+  font-family: "Nunito", sans-serif; /* HIER ERZWUNGEN */
+  font-size: 1.18rem;
+  font-weight: 700; 
+  line-height: 1.12;
+  text-align:center;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  min-height: 108px;
+  word-break: break-word;
+  hyphens: auto;
+
+  color:#fff;
+  border: 2px solid rgba(255,255,255,0.35);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+
+  opacity:0;
+  transform: translateY(10px);
+  transition:
+    opacity 260ms ease,
+    transform 260ms ease,
+    background 180ms ease,
+    box-shadow 200ms ease,
+    border-color 200ms ease;
+  user-select:none;
+  touch-action: manipulation;
+}
+
+.options:not(.is-invisible) .opt{
+  opacity:1;
+  transform:none;
+}
+
+.options:not(.is-invisible) .opt:nth-child(1){ transition-delay:0s; }
+.options:not(.is-invisible) .opt:nth-child(2){ transition-delay:.15s; }
+.options:not(.is-invisible) .opt:nth-child(3){ transition-delay:.30s; }
+.options:not(.is-invisible) .opt:nth-child(4){ transition-delay:.45s; }
+
+.opt-0{ border-color: var(--orange); background: var(--orangeFill); }
+.opt-1{ border-color: var(--blue);   background: var(--blueFill); }
+.opt-2{ border-color: var(--green);  background: var(--greenFill); }
+.opt-3{ border-color: var(--yellow); background: var(--yellowFill); }
+
+.is-locked{ pointer-events:none; }
+
+/* EINHEITLICHER DIM: immer 0.45 (verhindert "doppeltes" dimmen) */
+.is-dim{ opacity:0.45 !important; }
+
+/* NUR DER RAHMEN WIRD WEISS */
+.is-selected{
+  border-color: rgba(255,255,255,1.0) !important;
+}
+
+/* FEEDBACK STATUS */
+.opt.is-correct{
+  background: var(--correctGreen) !important;
+  opacity: 1 !important;
+}
+
+.opt.is-wrong{
+  background: var(--wrongRed) !important;
+  opacity: 1 !important;
+}
+
+/* EINHEITLICHER DIM AUCH IM RESOLUTION-MOMENT */
+.opt.is-faded{
+  opacity:0.45 !important;
+}
+
+/* RESOLUTION OVERRIDE: 
+   Entfernt Delays und Animationen nur für den Moment der Auflösung 
+*/
+.opt.is-correct, 
+.opt.is-wrong, 
+.opt.is-faded {
+  transition-delay: 0s !important;
+  transition: background 0s, opacity 0s, transform 0s !important;
+}
+
+/* =========================================================
+   TITLE SCREEN (900)
+   ========================================================= */
+
+.sr-title-wordmark{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  max-height:75vh;
+  width: min(90vw, 900px);
+  overflow: visible; /* <- NICHT abschneiden */
+}
+
+
+
+.sr-title-speedy,
+.sr-title-brain{
+  font-family: "OpenDyslexic", Arial, sans-serif;
+  font-weight: 400;
+  color:#fff;
+  text-shadow: none;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+
+.kern-p,
+.kern-r{
+  display: inline-block;
+  margin-right: -0.12em;
+}
+
+
+.sr-title-speedy{
+  margin-top: 12px;  
+  font-size: clamp(66px, 10vw, 110px);
+  letter-spacing: -0.1em;
+  transform: translateX(-20px);
+}
+
+.sr-title-brain{
+  margin-top: -2px;
+  font-size: clamp(66px, 10vw, 110px);
+  letter-spacing: -0.1em;
+  transform: translateX(20px);
+}
+
+
+
+.sr-title-logo{
+  width: min(50vw, 900px);
+  height: auto;
+  max-height: 40vh;
+  object-fit: contain;
+  margin-bottom: 18px;
+  display: block;
+  filter: none;
+}

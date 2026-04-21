@@ -1,0 +1,191 @@
+/* --- FILE: ./leaderboard/static/controller.css --- */
+
+.ps, .ps * { box-sizing: border-box; }
+
+:root{
+  --bg: #00167a;
+
+  --text: rgba(255,255,255,0.95);
+
+  /* Medal */
+  --gold1: #f7d27a;
+  --gold2: #e8b84e;
+  --gold3: #c98a1f;
+
+  /* Ring + Rank-Farbe */
+  --coinRingDark: rgba(0,0,0,0.28);
+
+  /* Ribbon (nur rot) */
+  --ribbonRed: #b3473f;
+  --ribbonRed2:#a13b34;
+}
+
+.ps{
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  font-family: Calibri, Arial, sans-serif;
+  color:#fff;
+
+  background:
+    url("/leaderboard/media/controllerbackground.svg") center center / cover no-repeat,
+    var(--bg);
+}
+
+/* Voll zentriert */
+.ps__wrap{
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:34px;
+}
+
+/* Bühne */
+.ps__stage{
+  width:min(520px, 92vw);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* Card-Inhalt */
+.lbSelf{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+  text-align:center;
+}
+
+/* =========================
+   MEDAL
+   ========================= */
+
+.lbMedal{
+  position:relative;
+  width:min(320px, 68vw);
+  aspect-ratio: 1 / 1.15;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+}
+
+/* Ribbon – oben breiter, startet am oberen Rand, endet zentriert hinter Coin (bis Medaillenmitte) */
+.lbMedal__ribbon{
+  position:absolute;
+  top:calc(-50vh);
+  left:50%;
+  transform:translateX(-50%);
+  width:92%;
+  height:calc(50vh + 74%);
+
+  background:
+    linear-gradient(90deg,
+      var(--ribbonRed) 0%,
+      var(--ribbonRed) 48%,
+      var(--ribbonRed2) 52%,
+      var(--ribbonRed2) 100%);
+
+  clip-path: polygon(
+    4% 0%,
+    44% 0%,
+    50% 62%,
+    56% 0%,
+    96% 0%,
+    58% 100%,
+    50% 86%,
+    42% 100%
+  );
+
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.25));
+  border-radius: 12px;
+
+  z-index: 1; /* hinter Coin */
+}
+
+/* Coin */
+.lbMedal__coin{
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:64%;
+  aspect-ratio:1/1;
+  border-radius:999px;
+
+  background:
+    radial-gradient(circle at 30% 25%, rgba(255,255,255,0.55), rgba(255,255,255,0) 45%),
+    linear-gradient(180deg, var(--gold1), var(--gold2) 55%, var(--gold3));
+
+  box-shadow:
+    0 18px 28px rgba(0,0,0,0.28),
+    inset 0 4px 10px rgba(255,255,255,0.25),
+    inset 0 -10px 18px rgba(0,0,0,0.18);
+
+  z-index: 3;
+}
+
+/* Innenring */
+.lbMedal__coin::before{
+  content:"";
+  position:absolute;
+  inset:10%;
+  border-radius:999px;
+  border: 6px solid var(--coinRingDark);
+  box-shadow: inset 0 2px 6px rgba(255,255,255,0.15);
+}
+
+/* =========================
+   Rank
+   ========================= */
+
+.lbMedal__rank{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-weight:900;
+  font-size: clamp(64px, 8.2vw, 112px);
+  letter-spacing: 0.5px;
+
+  background:none;
+  -webkit-text-stroke:0;
+
+  color: var(--coinRingDark);
+  text-shadow:
+    0 2px 0 rgba(255,255,255,0.22),
+    0 10px 18px rgba(0,0,0,0.22);
+}
+
+/* Ghost */
+.lbMedal--ghost{
+  opacity:0.65;
+  filter: grayscale(0.2);
+}
+
+/* =========================
+   Name + Score
+   ========================= */
+
+.lbName{
+  font-size: clamp(56px, 7.2vw, 92px);
+  font-weight: 900;
+  color: var(--text);
+  line-height: 1.05;
+  margin-top: 16px;
+}
+
+.lbScore{
+  font-size: clamp(26px, 3.8vw, 42px);
+  font-weight: 700;
+  color: rgba(255,255,255,0.98);
+  line-height: 1.0;
+  letter-spacing: 0.5px;
+  text-shadow: 0 10px 22px rgba(0,0,0,0.28);
+}

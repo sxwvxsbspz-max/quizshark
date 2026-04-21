@@ -1,0 +1,532 @@
+/* --- FILE: ./lobby/static/tv.css --- */
+
+/* =========================================================
+   BASIS
+   ========================================================= */
+
+html {
+  font-size: 0.4vw;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ps, .ps * {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+
+:root {
+  --bg: #00167a;
+
+  --white16: rgba(255,255,255,0.16);
+  --white30: rgba(255,255,255,0.30);
+  --white95: rgba(255,255,255,0.95);
+
+  --red: #f14734;
+  --green: #50ff56;
+
+  --qrGlowColor: #ffd727;
+
+
+
+
+  --colGap: 1.5vw;
+  --rowGap: 0.5vw;
+
+  --qrGap: 1.5vw;
+
+
+  --cardW: 14vw;
+  --cardH: 3.6vw;
+  --cardRadius: 1.0vw;
+
+  --maxCols: 3;
+  --sidebarW: calc(
+    (var(--maxCols) * var(--cardW)) +
+    ((var(--maxCols) - 1) * var(--colGap))
+  );
+
+  --qrCardMax: 18vw;
+}
+
+/* =========================================================
+   ROOT
+   ========================================================= */
+
+.ps.lobby {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nunito", Arial, sans-serif;
+  color: #fff;
+  background: var(--bg);
+  position: relative;
+}
+
+/* =========================================================
+   BACKGROUND SVG
+   ========================================================= */
+
+.lobby-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.lobby-bg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #08263c;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(14, 65, 102, 0.86),
+    #0e4166
+  );
+}
+
+/* =========================================================
+   WRAP
+   ========================================================= */
+
+.ps__wrap.lobby__wrap {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 2.1vw;
+  gap: 0.6vw;
+}
+
+/* =========================================================
+   LEFT BLOCK
+   ========================================================= */
+
+.lobby-left {
+  flex: 1 1 0;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  height: calc(100vh - 4.2vw);
+  overflow: visible;       /* damit Shadows nicht geclippt werden */
+  padding-bottom: 2.5vw;   /* bisschen Luft für den unteren Shadow */
+}
+
+
+
+/* =========================================================
+   QR SECTION (Referenzbreite)
+   ========================================================= */
+
+.qr-section {
+  width: calc((2 * var(--qrCardMax)) + var(--qrGap));
+
+  max-width: 100%;
+  max-height: 100%;
+
+    margin-left: 4vw;   /* <<< NEU: Abstand vom linken Rand */
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+
+  
+
+  transform-origin: top center;
+}
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.lobby-logo {
+  width: min(30vw, 640px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* =========================================================
+   INFO BOX (SLIDE + FADE)
+   ========================================================= */
+
+.lobby-infobox {
+  position: relative;
+
+  width: 100%;
+  height: auto;           /* <-- FIX */
+  min-height: 8vw;        /* <-- Basis-Höhe */
+
+  padding: 1.2vw 1.6vw;
+
+  border-radius: 1.6vw;
+  background: var(--white16);
+  border: 0.25vw solid rgba(255,255,255,0.18);
+  box-shadow: 0 1.8vw 4.0vw rgba(0,0,0,0.35);
+
+  overflow: hidden;
+  transition: height 380ms ease;
+}
+
+
+/* Text-Layer */
+.lobby-infobox__layer {
+  position: absolute;
+  left: 1.6vw;
+  right: 1.6vw;
+  top: 50%;
+
+  transform: translateY(40%);
+  opacity: 0;
+
+  font-size: 5.0rem;        /* FIX: bewusst größer */
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--white95);
+
+  white-space: pre-line;
+  pointer-events: none;
+
+  transition:
+    transform 380ms ease,
+    opacity   380ms ease;
+}
+
+/* sichtbar */
+.lobby-infobox__layer.is-active {
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+/* raus nach oben */
+.lobby-infobox__layer.is-exit {
+  transform: translateY(-120%);
+  opacity: 0;
+}
+
+/* rein von unten */
+.lobby-infobox__layer.is-enter {
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+/* =========================================================
+   QR GRID
+   ========================================================= */
+
+.qr-grid {
+  width: 100%;
+  display: flex;
+  gap: var(--qrGap);
+}
+
+.qr-tile {
+  flex: 1 1 0;
+  max-width: var(--qrCardMax);
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8vw;
+
+  transition: filter 380ms ease;
+  will-change: filter;
+}
+
+
+
+
+
+
+.qr-tile:not(.is-glow) {
+  filter: none;
+}
+
+
+
+.qr-tile.is-glow .qr-card {
+  border-color: color-mix(in srgb, var(--qrGlowColor) 85%, transparent);
+
+  /* normaler Schatten wirklich weg (hart überschreiben) */
+  box-shadow: none !important;
+
+  /* Glow kräftiger (mehr Farbe, weniger transparent) */
+  filter: drop-shadow(0 0 0.33vw color-mix(in srgb, var(--qrGlowColor) 95%, transparent))
+          drop-shadow(0 0 0.83vw color-mix(in srgb, var(--qrGlowColor) 75%, transparent))
+          drop-shadow(0 0 1.65vw color-mix(in srgb, var(--qrGlowColor) 55%, transparent));
+}
+
+
+
+
+
+/* =========================================================
+   QR CARD
+   ========================================================= */
+
+.qr-card {
+  width: 100%;
+
+  background: #fff;
+  border-radius: 1.6vw;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+
+  box-shadow: 0 1.8vw 4.0vw rgba(0,0,0,0.45);
+
+  /* dünner Rahmen (default: transparent, damit es nicht dauernd sichtbar ist) */
+  border: 0.14vw solid color-mix(in srgb, var(--qrGlowColor) 0%, transparent);
+
+
+transition: border-color 380ms ease;
+
+}
+
+
+.qr-codeArea {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#qr-wifi,
+#qr-url {
+  width: 88%;
+  height: 88%;
+}
+
+#qr-wifi canvas,
+#qr-wifi img,
+#qr-url canvas,
+#qr-url img {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+
+/* =========================================================
+   QR TEXT
+   ========================================================= */
+
+.qr-captionBox {
+  width: 100%;
+  min-height: 4.3vw;
+
+  display: flex;
+  align-items: center;       /* ← Text wieder vertikal zentriert */
+  gap: 0.8vw;
+
+  padding-top: 0.15vw;       /* ← steuert Abstand nach oben */
+  padding-right: 1.0vw;
+  padding-bottom: 1vw;
+  padding-left: 1.0vw;
+
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+
+
+/* linke kleine Box mit 1. / 2. */
+.qr-captionStep {
+  flex: 0 0 auto;
+
+  width: 3.6vw;
+  height: 3.6vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.9vw;
+  background: #000;
+  border: 0;
+
+  font-size: 3.0rem;
+  font-weight: 900;
+  color: #fff;
+
+  line-height: 1;
+  text-align: center;
+}
+
+
+/* rechter Textbereich */
+.qr-captionText {
+  flex: 1 1 auto;
+
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #000;   /* SOLID schwarz */
+
+  line-height: 1.15;
+  text-align: left;
+
+  padding-right: 0.6vw;
+}
+
+
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+.ps__sidebar.lobby__sidebar {
+  width: var(--sidebarW);
+  height: calc(100vh - 4.2vw);
+
+  display: flex;
+  justify-content: flex-end;
+
+  flex: 0 0 var(--sidebarW);
+  overflow: hidden;
+}
+
+/* =========================================================
+   PLAYERS
+   ========================================================= */
+
+.ps__players {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--colGap);
+}
+
+.ps__col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--rowGap);
+}
+
+/* =========================================================
+   PLAYER CARD
+   ========================================================= */
+
+.ps__player {
+  width: var(--cardW);
+}
+
+.ps__playerCard {
+  height: var(--cardH);
+  padding: 0 1.0vw;
+
+  display: flex;
+  align-items: center;
+
+  background: var(--white16);
+  border-radius: var(--cardRadius);
+  border: 0.25vw solid rgba(255,255,255,0.18);
+
+  box-shadow: 0 0.2vw 0.5vw rgba(0,0,0,0.2);
+}
+
+.ps__player.is-ready .ps__playerCard {
+  border-color: var(--green);
+}
+
+.ps__player.is-not-ready .ps__playerCard {
+  border-color: var(--red);
+}
+
+.ps__playerName {
+  width: 100%;
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: var(--white95);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =========================================================
+   +X WEITERE
+   ========================================================= */
+
+.ps__player--more .ps__playerCard {
+  background: var(--white30);
+}
+
+.ps__player--more .ps__playerName {
+  font-weight: 900;
+  text-align: center;
+}
+
+/* =========================================================
+   DEBUG FRAMES
+   ========================================================= 
+
+.ps__wrap.lobby__wrap,
+.lobby-left,
+.qr-section,
+.lobby-logo,
+.lobby-infobox,
+.qr-grid,
+.qr-tile,
+.qr-card,
+.qr-caption,
+.ps__sidebar.lobby__sidebar,
+.ps__players,
+.ps__col,
+.ps__player,
+.ps__playerCard {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+*/

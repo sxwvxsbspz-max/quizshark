@@ -1,0 +1,573 @@
+<!-- --- FILE: ./awardjokers/tv.html --- -->
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="ps awardjokers">
+  <div class="ps__wrap awardjokers__wrap">
+    <div class="ps__sidebar awardjokers__sidebar">
+      <div id="awardjokers-sidebar" class="ps__players">
+        <!-- Spieler per JS -->
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/awardjokers/static/tv.css">
+
+<script>
+  socket.emit('register_tv');
+  socket.on('connect', () => socket.emit('register_tv'));
+
+  const MAX_TV_PLAYERS = 18;
+  const sidebar = document.getElementById('awardjokers-sidebar');
+
+  // Duplikate / Reconnect-Resends abfangen
+  let lastBoardKey = null;
+
+  // Damit die Sequenz nicht mehrfach startet (Reconnect/Resend)
+  let sequenceStartedForKey = null;
+  let lastRenderedList = [];
+
+  // =====================================================
+  // BACKGROUND MUSIC (50% Volume)
+  // =====================================================
+  const BG_MUSIC_SRC = '/awardjokers/media/backgroundmusic.mp3';
+  let bgMusic = null;
+  let bgStarted = false;
+
+  function ensureBgMusicStarted(){
+    if (bgStarted) return;
+    bgStarted = true;
+
+    bgMusic = new Audio(BG_MUSIC_SRC);
+    bgMusic.preload = 'auto';
+    bgMusic.loop = true;
+    bgMusic.volume = 0.5;
+
+    try { bgMusic.load(); } catch(_) {}
+
+    const tryStart = () => {
+      if (!bgMusic) return;
+      bgMusic.play().catch(() => {
+        // Autoplay-Restriktionen: ignorieren
+      });
+    };
+
+    bgMusic.addEventListener('canplaythrough', tryStart, { once: true });
+    bgMusic.addEventListener('canplay', tryStart, { once: true });
+
+    tryStart();
+  }
+
+  // Background-Music direkt beim Laden der Seite starten
+  ensureBgMusicStarted();
+
+  // =====================================================
+  // REVEAL AUDIO
+  // - Pack-Ansagen bleiben wie gehabt
+  // - NEU: Nojokers vor White1
+  // - NEU: Goodluck nach Gold2, dann 4s Wait, dann Finale
+  // - Unveil: /media/unveil.mp3 (Root Media)
+  // - Wenn Pack nur 1 Spieler hat: Name-Audio statt unveil (wie leaderboard)
+  // =====================================================
+  const AWARD_AUDIO = {
+    intro:   '/awardjokers/media/jokers_intro.mp3',
+    nojoker: '/awardjokers/media/nojokers.mp3',
+    white1:  '/awardjokers/media/jokers_white1.mp3',
+    white2:  '/awardjokers/media/jokers_white2.mp3',
+    mixed:   '/awardjokers/media/jokers_mixed.mp3',
+    gold2:   '/awardjokers/media/jokers_gold2.mp3',
+    goodluck:'/awardjokers/media/goodluck.mp3'
+  };
+
+  const UNVEIL_AUDIO_SRC = '/media/unveil.mp3';
+
+  // =====================================================
+  // NEU: Sequenz-Pausen (einstellbar)
+  // - nach Intro, nach jeder Pack-Ansage, nach Reveal/Name
+  // =====================================================
+  const WAIT_AFTER_INTRO_MS = 1000;
+  const WAIT_AFTER_PACK_MS  = 1000;
+  const WAIT_AFTER_REVEAL_MS = 1000;
+
+  // =====================================================
+  // CSS-Overrides (nur Reveal-Logik, Layout bleibt komplett unangetastet)
+  // - Joker-Icons sind von Anfang an korrekt (data-type bleibt final)
+  // - Statt "opacity gating" liegt ein Overlay über BEIDEN Slots
+  // - Overlay fährt beim Reveal raus
+  // - Nojoker: nur rechts (Slot 2) mit Transparenz wie Controller
+  // =====================================================
+  (function injectRevealCSS(){
+    const css = `
+      /* JokerSlots als abgerundeter Block + Overlay über beide Slots */
+      .ps.awardjokers .ps__jokerSlots{
+        position: relative !important;
+        overflow: hidden !important;
+        border-radius: 0.8vw !important; /* gemeinsamer abgerundeter Block */
+      }
+
+      .ps.awardjokers .ps__jokerOverlay{
+        position: absolute;
+        inset: 0;
+        border-radius: 0.8vw;
+        z-index: 10;
+
+        background:
+          repeating-linear-gradient(
+            -45deg,
+            rgb(235,238,242) 0px,
+            rgb(235,238,242) 8px,
+            rgb(190,198,210) 8px,
+            rgb(190,198,210) 16px
+          );
+
+        pointer-events: none;
+        box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25);
+
+        transform: translateX(0);
+        transition: transform 300ms ease-in-out;
+        will-change: transform;
+      }
+
+      /* Slots/Icons unter dem Overlay */
+      .ps.awardjokers .ps__jokerSlot{
+        position: relative;
+        z-index: 1;
+      }
+
+      /* Wichtig: falls tv.css noch "opacity gating" nutzt -> hier neutralisieren.
+         Sichtbarkeit kommt jetzt über Overlay (und Slot data-type). */
+      .ps.awardjokers .ps__player[data-revealed="0"] .ps__joker{
+        opacity: 1 !important;
+        transform: translate(-50%, -50%) !important;
+        transition: none !important;
+      }
+
+      /* Beim Reveal: Overlay fährt raus */
+      .ps.awardjokers .ps__player[data-revealed="1"] .ps__jokerOverlay{
+        transform: translateX(110%);
+      }
+
+      /* Nojoker nur rechts (Slot 2) sichtbar und semi-transparent */
+      .ps.awardjokers .ps__jokerSlot[data-type="no"] .ps__joker--no{
+        opacity: 0.55 !important;
+      }
+    `;
+    const style = document.createElement('style');
+    style.setAttribute('data-awardjokers-reveal', '1');
+    style.textContent = css;
+    document.head.appendChild(style);
+  })();
+
+  // =====================================================
+  // Helper: Modul-Events ans Backend schicken
+  // WICHTIG: awardjokers_reveal ist ein System-Event -> scope: 'system'
+  // =====================================================
+  function emitModuleEvent(action, payload = {}) {
+    socket.emit('module_event', { scope: 'system', action, payload });
+  }
+
+  function clampJokers(n){
+    const x = Number(n || 0) || 0;
+    return Math.max(0, Math.min(2, x));
+  }
+
+  function computeJokerSlots(jokersWhite, jokersGold){
+    const w = clampJokers(jokersWhite);
+    const g = clampJokers(jokersGold);
+
+    let slot1 = 'none';
+    let slot2 = 'none';
+
+    const total = Math.min(2, w + g);
+
+    if (total === 0) {
+      // NEU: Nojoker nur rechts anzeigen
+      slot1 = 'none';
+      slot2 = 'no';
+    } else if (total === 1) {
+      // 1 Joker immer rechts, links empty (damit Slot2 nicht "rutscht")
+      slot1 = 'empty';
+      slot2 = (g === 1) ? 'gold' : 'white';
+    } else {
+      if (g === 2) {
+        slot1 = 'gold';
+        slot2 = 'gold';
+      } else if (w === 2) {
+        slot1 = 'white';
+        slot2 = 'white';
+      } else {
+        slot1 = 'white';
+        slot2 = 'gold';
+      }
+    }
+
+    return { slot1, slot2 };
+  }
+
+  function getMaxVisiblePlayersTwoCols(){
+    if (!sidebar) return MAX_TV_PLAYERS;
+
+    const availH = sidebar.getBoundingClientRect().height;
+    if (!availH || availH < 10) return MAX_TV_PLAYERS;
+
+    const cs = window.getComputedStyle(sidebar);
+    const rowGap = parseFloat(cs.rowGap || cs.gap || "0") || 0;
+
+    // Probe-Row messen, ohne Layout zu beeinflussen
+    const probe = document.createElement('div');
+    probe.className = 'ps__player';
+    probe.style.position = 'absolute';
+    probe.style.left = '0';
+    probe.style.top = '0';
+    probe.style.visibility = 'hidden';
+    probe.style.pointerEvents = 'none';
+    probe.innerHTML = `
+      <div class="ps__playerCard">
+        <div class="ps__playerName">Probe</div>
+        <div class="ps__playerRight">
+          <div class="ps__jokerSlots">
+            <div class="ps__jokerOverlay" aria-hidden="true"></div>
+            <div class="ps__jokerSlot" data-slot="1" data-type="empty"></div>
+            <div class="ps__jokerSlot" data-slot="2" data-type="empty"></div>
+          </div>
+          <div class="ps__playerRankBox"><span class="ps__scoreText">0</span></div>
+        </div>
+      </div>
+    `;
+    sidebar.appendChild(probe);
+    const rowH = probe.getBoundingClientRect().height;
+    sidebar.removeChild(probe);
+
+    if (!rowH || rowH < 5) return MAX_TV_PLAYERS;
+
+    const rowsPerCol = Math.max(1, Math.floor((availH + rowGap) / (rowH + rowGap)));
+    return rowsPerCol * 2; // exakt 2 Spalten
+  }
+
+  function renderAwardJokers(playersRanked) {
+    if (!sidebar) return;
+    sidebar.innerHTML = '';
+
+    const maxVisible = getMaxVisiblePlayersTwoCols();
+    const list = (playersRanked || []).slice(0, maxVisible);
+    lastRenderedList = list;
+
+    if (list.length > 2) {
+      sidebar.classList.add('aj--twoCols');
+    } else {
+      sidebar.classList.remove('aj--twoCols');
+    }
+
+    list.forEach(p => {
+      const row = document.createElement('div');
+      row.className = 'ps__player';
+      row.dataset.rank = p.rank;
+      row.dataset.playerId = p.player_id;
+      row.dataset.name = (p.name || '');
+
+      // Reveal-Flag (Overlay fährt weg)
+      row.dataset.revealed = "0";
+
+      const jokersWhite = p.jokers_white;
+      const jokersGold  = p.jokers_gold;
+
+      const { slot1, slot2 } = computeJokerSlots(jokersWhite, jokersGold);
+
+      row.innerHTML = `
+        <div class="ps__playerCard">
+          <div class="ps__playerName">
+            ${(p.name || '')}
+          </div>
+
+          <div class="ps__playerRight">
+            <div class="ps__jokerSlots">
+              <div class="ps__jokerOverlay" aria-hidden="true"></div>
+
+              <div class="ps__jokerSlot" data-slot="1" data-type="${slot1}">
+                <img src="/awardjokers/media/joker_gold.svg" class="ps__joker ps__joker--gold">
+                <img src="/awardjokers/media/joker_white.svg" class="ps__joker ps__joker--white">
+              </div>
+
+              <div class="ps__jokerSlot" data-slot="2" data-type="${slot2}">
+                <img src="/awardjokers/media/joker_gold.svg" class="ps__joker ps__joker--gold">
+                <img src="/awardjokers/media/joker_white.svg" class="ps__joker ps__joker--white">
+                <img src="/awardjokers/media/nojoker.svg" class="ps__joker ps__joker--no">
+              </div>
+            </div>
+
+            <div class="ps__playerRankBox">
+              <span class="ps__scoreText">${p.score}</span>
+            </div>
+          </div>
+        </div>
+      `;
+
+      sidebar.appendChild(row);
+    });
+  }
+
+  // -----------------------------------------------------
+  // Packs aus der gerenderten Liste bilden
+  // -----------------------------------------------------
+  function packOfPlayer(p){
+    const w = clampJokers(p.jokers_white);
+    const g = clampJokers(p.jokers_gold);
+
+    if (w === 0 && g === 0) return 'nojoker';
+    if (w === 1 && g === 0) return 'white1';
+    if (w === 2 && g === 0) return 'white2';
+    if (w === 1 && g === 1) return 'mixed';
+    if (w === 0 && g === 2) return 'gold2';
+
+    return 'nojoker';
+  }
+
+  function buildGroups(list){
+    const groups = { nojoker: [], white1: [], white2: [], mixed: [], gold2: [] };
+    (list || []).forEach(p => {
+      const pack = packOfPlayer(p);
+      if (pack === 'nojoker') groups.nojoker.push(p);
+      else if (pack === 'white1') groups.white1.push(p);
+      else if (pack === 'white2') groups.white2.push(p);
+      else if (pack === 'mixed') groups.mixed.push(p);
+      else if (pack === 'gold2') groups.gold2.push(p);
+    });
+    return groups;
+  }
+
+  // -----------------------------------------------------
+  // Reveal im DOM
+  // - setzt data-revealed="1" (Overlay fährt weg)
+  // -----------------------------------------------------
+  function revealPlayerJokers(playerId){
+    const row = sidebar?.querySelector(`.ps__player[data-player-id="${playerId}"]`);
+    if (!row) return;
+    row.dataset.revealed = "1";
+  }
+
+  function revealPack(pack, list){
+    (list || []).forEach(p => revealPlayerJokers(p.player_id));
+  }
+
+  // -----------------------------------------------------
+  // Audio Helper
+  // -----------------------------------------------------
+  function playOnce(src){
+    return new Promise((resolve) => {
+      if (!src) return resolve();
+
+      const a = new Audio(src);
+      a.preload = 'auto';
+      a.volume = 1.0;
+
+      const done = () => resolve();
+
+      a.addEventListener('ended', done, { once: true });
+      a.addEventListener('error', done, { once: true });
+
+      try { a.load(); } catch(_) {}
+
+      a.play().catch(() => {
+        // Autoplay block / Fehler: einfach weiter
+        resolve();
+      });
+    });
+  }
+
+  function sleep(ms){
+    return new Promise(r => setTimeout(r, ms));
+  }
+
+  // =====================================================
+  // PLAYER-SOUNDS (Name -> mp3) wie leaderboard
+  // =====================================================
+  const PLAYER_SOUND_BASE = '/playerdata/playersounds/';
+  const PLAYER_SOUND_MAP_URL = PLAYER_SOUND_BASE + 'map.json';
+
+  let playerSoundMap = {};
+  const playerSoundCache = new Map(); // filename -> Audio
+
+  async function loadPlayerSoundMap(){
+    try{
+      const res = await fetch(PLAYER_SOUND_MAP_URL, { cache: 'no-cache' });
+      if (!res.ok) return {};
+      const json = await res.json();
+      return (json && typeof json === 'object') ? json : {};
+    }catch(_){
+      return {};
+    }
+  }
+
+  let playerSoundMapPromise = null;
+  function ensurePlayerSoundMapLoaded(){
+    if (!playerSoundMapPromise) {
+      playerSoundMapPromise = loadPlayerSoundMap().then(m => {
+        playerSoundMap = m || {};
+        return playerSoundMap;
+      }).catch(() => {
+        playerSoundMap = playerSoundMap || {};
+        return playerSoundMap;
+      });
+    }
+    return playerSoundMapPromise;
+  }
+
+  function normalizeName(name){
+    let s = String(name || '').trim().toLowerCase();
+
+    // NUR erstes Wort nehmen (alles nach dem ersten Leerzeichen weg)
+    if (s.includes(' ')) {
+      s = s.split(' ')[0];
+    }
+
+    s = s
+      .replace(/ä/g, 'ae')
+      .replace(/ö/g, 'oe')
+      .replace(/ü/g, 'ue')
+      .replace(/ß/g, 'ss');
+
+    s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    s = s.replace(/[^a-z0-9]/g, '');
+
+    return s;
+  }
+
+  function getCachedAudioForFile(filename){
+    const file = String(filename || '').trim();
+    if (!file) return null;
+
+    if (playerSoundCache.has(file)) return playerSoundCache.get(file);
+
+    const a = new Audio(PLAYER_SOUND_BASE + file);
+    a.preload = 'auto';
+    playerSoundCache.set(file, a);
+    return a;
+  }
+
+  // Wenn genau 1 Spieler: Name-Audio (falls verfügbar), sonst unveil
+  async function playUnveilOrNameForPlayers(players){
+    const arr = Array.isArray(players) ? players : [];
+    if (arr.length !== 1) {
+      await playOnce(UNVEIL_AUDIO_SRC);
+      return;
+    }
+
+    await ensurePlayerSoundMapLoaded();
+
+    const name = (arr[0] && (arr[0].name || '')) || '';
+    const key = normalizeName(name);
+    const mapped = playerSoundMap && key ? playerSoundMap[key] : null;
+
+    if (mapped) {
+      const a = getCachedAudioForFile(mapped);
+      if (a) {
+        await new Promise(res => {
+          a.currentTime = 0;
+          a.play().catch(() => res());
+          a.onended = () => res();
+          a.onerror = () => res();
+        });
+        return;
+      }
+    }
+
+    await playOnce(UNVEIL_AUDIO_SRC);
+  }
+
+  // -----------------------------------------------------
+  // Sequenz (TV ist Master)
+  // -----------------------------------------------------
+  async function runAwardSequence(){
+    const groups = buildGroups(lastRenderedList);
+
+    // Intro
+    await playOnce(AWARD_AUDIO.intro);
+    await sleep(WAIT_AFTER_INTRO_MS);
+
+    // Reihenfolge: nojoker -> white1 -> white2 -> mixed -> gold2
+    const steps = [
+      { pack: 'nojoker', audio: AWARD_AUDIO.nojoker, players: groups.nojoker },
+      { pack: 'white1',  audio: AWARD_AUDIO.white1,  players: groups.white1 },
+      { pack: 'white2',  audio: AWARD_AUDIO.white2,  players: groups.white2 },
+      { pack: 'mixed',   audio: AWARD_AUDIO.mixed,   players: groups.mixed  },
+      { pack: 'gold2',   audio: AWARD_AUDIO.gold2,   players: groups.gold2  }
+    ];
+
+    for (const s of steps) {
+      if (!s.players || s.players.length === 0) continue;
+
+      // 1) Pack-Ansage (SEQUENZIELL)
+      await playOnce(s.audio);
+
+      // 2) Pause nach Pack-Ansage
+      await sleep(WAIT_AFTER_PACK_MS);
+
+      // 3) Reveal + Name/Unveil PARALLEL
+      revealPack(s.pack, s.players);
+      emitModuleEvent('awardjokers_reveal', { pack: s.pack });
+
+      await playUnveilOrNameForPlayers(s.players);
+
+      // 4) Pause nach Reveal/Name
+      await sleep(WAIT_AFTER_REVEAL_MS);
+    }
+
+    // 11) wait 1000 ms
+    await sleep(1000);
+
+    // 12) goodluck.mp3
+    await playOnce(AWARD_AUDIO.goodluck);
+
+    // 13) wait 4000 ms
+    await sleep(4000);
+
+    // Ende der Phase
+    emitModuleEvent('module_finished', {});
+  }
+
+  socket.on('show_awardjokers', (data) => {
+    if (!data || !Array.isArray(data.players_ranked)) return;
+
+    const key = data.generated_at || JSON.stringify(data.players_ranked);
+    if (key === lastBoardKey) return;
+    lastBoardKey = key;
+
+    ensureBgMusicStarted();
+
+    renderAwardJokers(data.players_ranked);
+
+    // NEU: Controller sofort revealen, wenn Pack global existiert,
+    //      aber im TV-Anzeigebereich (lastRenderedList) NICHT vorkommt.
+    const groupsGlobal  = buildGroups(data.players_ranked);
+    const groupsVisible = buildGroups(lastRenderedList);
+    const packs = ['nojoker', 'white1', 'white2', 'mixed', 'gold2'];
+    for (const pack of packs) {
+      const gCount = (groupsGlobal[pack]  && groupsGlobal[pack].length)  ? groupsGlobal[pack].length  : 0;
+      const vCount = (groupsVisible[pack] && groupsVisible[pack].length) ? groupsVisible[pack].length : 0;
+      if (gCount > 0 && vCount === 0) {
+        emitModuleEvent('awardjokers_reveal', { pack, pre: true });
+
+      }
+    }
+
+    // Sequenz pro Board-Key nur einmal starten
+    if (sequenceStartedForKey === key) return;
+    sequenceStartedForKey = key;
+
+    runAwardSequence().catch(() => {
+      // Fallback: wenn irgendwas schiefgeht, wenigstens beenden
+      emitModuleEvent('module_finished', {});
+    });
+  });
+
+  // Backend signalisiert: zurück zur Lobby
+  socket.on('game_finished', () => {
+    try { if (bgMusic) { bgMusic.pause(); bgMusic.currentTime = 0; } } catch(_) {}
+    window.location.href = '/tv';
+  });
+</script>
+
+{% endblock %}

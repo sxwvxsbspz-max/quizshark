@@ -1,0 +1,105 @@
+<!-- --- FILE: ./vollereinsatz/controller.html --- -->
+{% extends "templates/base.html" %}
+
+{% block content %}
+
+<div class="ps-controller">
+
+  <!-- TITLE SCREEN -->
+  <div
+    id="title-screen"
+    class="screen"
+    style="
+      background-image: url('/vollereinsatz/media/controllerbackground.svg');
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <div class="sr-title-wordmark">
+      <img class="sr-title-logo" src="/vollereinsatz/media/roundlogo.svg" alt="" aria-hidden="true">
+<div class="sr-title-speedy"><span class="kern-p">V</span>oller</div>
+<div class="sr-title-brain"><span class="kern-r">E</span>insatz</div>
+
+    </div>
+  </div>
+
+  <!-- ROUND SCREEN -->
+  <div id="round-screen" class="screen screen--round" style="display:none;">
+    <div class="round-label" id="round-label">Frage 1</div>
+  </div>
+
+  <!-- QUESTION / ANSWERS SCREEN -->
+  <div id="qa-screen" class="screen screen--qa" style="display:none;">
+
+    <div class="qa-inner">
+      
+<!-- META-ROW: Player-Box + Wager-Box nebeneinander -->
+<div class="psc__topMetaRow">
+
+  <!-- META-BOX (Name + Punktestand) -->
+  <div class="psc__metaBox">
+    <div class="psc__playerMeta">
+
+      <!-- Name links -->
+      <div class="psc__metaName" id="player-name">—</div>
+
+      <!-- Score rechts -->
+      <div class="psc__metaRow">
+        <div class="psc__metaValue" id="player-score">
+          <span class="psc__scorePopInline" style="display:none;">+0</span>
+          <span class="psc__scoreValue">—</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WAGER-BOX (quadratisch, rechts) -->
+  <div class="psc__wagerBox is-empty" id="wager-box"> </div>
+
+</div>
+
+
+
+      <!-- Timer-Bar (läuft während open_answers) -->
+      <div class="psc__timebar" aria-hidden="true">
+        <div class="psc__timebarFill" id="timebar-fill"></div>
+      </div>
+
+
+      <!-- FRAGE -->
+      <div class="psc__questionBlock">
+        <div class="question" id="question-text">
+          Lade Frage …
+        </div>
+      </div>
+
+      <!-- OPTIONAL IMAGE -->
+      <div id="question-image-wrap" class="question-image-wrap is-hidden">
+        <img
+          id="question-image"
+          class="question-image"
+          src="/vollereinsatz/media/dummy.png"
+          alt=""
+        >
+      </div>
+
+      <!-- ANSWERS -->
+      <div id="options-grid" class="options is-invisible">
+        <button class="opt opt-0 is-locked" data-index="0">A</button>
+        <button class="opt opt-1 is-locked" data-index="1">B</button>
+        <button class="opt opt-2 is-locked" data-index="2">C</button>
+        <button class="opt opt-3 is-locked" data-index="3">D</button>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/vollereinsatz/static/controller.css">
+<script src="/vollereinsatz/static/controller.js"></script>
+{% endblock %}

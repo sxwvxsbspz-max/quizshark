@@ -1,0 +1,2610 @@
+
+============================================================
+[2026-01-21 19:27:08] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/blitzquiz/imagememory/media/audio
+Questions:     /home/aleranzer/blitzquiz/imagememory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[JSON] image_id=img_0004 id=1 audio gesetzt -> question-img_0004-1.mp3
+[GEN ] image_id=img_0004 id=1 -> question-img_0004-1.mp3
+[OK  ] image_id=img_0004 id=1 -> erzeugt
+[JSON] image_id=img_0004 id=2 audio gesetzt -> question-img_0004-2.mp3
+[GEN ] image_id=img_0004 id=2 -> question-img_0004-2.mp3
+[OK  ] image_id=img_0004 id=2 -> erzeugt
+[JSON] image_id=img_0004 id=3 audio gesetzt -> question-img_0004-3.mp3
+[GEN ] image_id=img_0004 id=3 -> question-img_0004-3.mp3
+[OK  ] image_id=img_0004 id=3 -> erzeugt
+[JSON] image_id=img_0004 id=4 audio gesetzt -> question-img_0004-4.mp3
+[GEN ] image_id=img_0004 id=4 -> question-img_0004-4.mp3
+[OK  ] image_id=img_0004 id=4 -> erzeugt
+[JSON] image_id=img_0004 id=5 audio gesetzt -> question-img_0004-5.mp3
+[GEN ] image_id=img_0004 id=5 -> question-img_0004-5.mp3
+[OK  ] image_id=img_0004 id=5 -> erzeugt
+[JSON] image_id=img_0004 id=6 audio gesetzt -> question-img_0004-6.mp3
+[GEN ] image_id=img_0004 id=6 -> question-img_0004-6.mp3
+[OK  ] image_id=img_0004 id=6 -> erzeugt
+[JSON] image_id=img_0004 id=7 audio gesetzt -> question-img_0004-7.mp3
+[GEN ] image_id=img_0004 id=7 -> question-img_0004-7.mp3
+[OK  ] image_id=img_0004 id=7 -> erzeugt
+[JSON] image_id=img_0004 id=8 audio gesetzt -> question-img_0004-8.mp3
+[GEN ] image_id=img_0004 id=8 -> question-img_0004-8.mp3
+[OK  ] image_id=img_0004 id=8 -> erzeugt
+[JSON] image_id=img_0004 id=9 audio gesetzt -> question-img_0004-9.mp3
+[GEN ] image_id=img_0004 id=9 -> question-img_0004-9.mp3
+[OK  ] image_id=img_0004 id=9 -> erzeugt
+[JSON] image_id=img_0004 id=10 audio gesetzt -> question-img_0004-10.mp3
+[GEN ] image_id=img_0004 id=10 -> question-img_0004-10.mp3
+[OK  ] image_id=img_0004 id=10 -> erzeugt
+[JSON] image_id=img_0004 id=11 audio gesetzt -> question-img_0004-11.mp3
+[GEN ] image_id=img_0004 id=11 -> question-img_0004-11.mp3
+[OK  ] image_id=img_0004 id=11 -> erzeugt
+[JSON] image_id=img_0004 id=12 audio gesetzt -> question-img_0004-12.mp3
+[GEN ] image_id=img_0004 id=12 -> question-img_0004-12.mp3
+[OK  ] image_id=img_0004 id=12 -> erzeugt
+[JSON] image_id=img_0004 id=13 audio gesetzt -> question-img_0004-13.mp3
+[GEN ] image_id=img_0004 id=13 -> question-img_0004-13.mp3
+[OK  ] image_id=img_0004 id=13 -> erzeugt
+[JSON] image_id=img_0004 id=14 audio gesetzt -> question-img_0004-14.mp3
+[GEN ] image_id=img_0004 id=14 -> question-img_0004-14.mp3
+[OK  ] image_id=img_0004 id=14 -> erzeugt
+[JSON] image_id=img_0004 id=15 audio gesetzt -> question-img_0004-15.mp3
+[GEN ] image_id=img_0004 id=15 -> question-img_0004-15.mp3
+[OK  ] image_id=img_0004 id=15 -> erzeugt
+[JSON] image_id=img_0008 id=1 audio gesetzt -> question-img_0008-1.mp3
+[GEN ] image_id=img_0008 id=1 -> question-img_0008-1.mp3
+[OK  ] image_id=img_0008 id=1 -> erzeugt
+[JSON] image_id=img_0008 id=2 audio gesetzt -> question-img_0008-2.mp3
+[GEN ] image_id=img_0008 id=2 -> question-img_0008-2.mp3
+[OK  ] image_id=img_0008 id=2 -> erzeugt
+[JSON] image_id=img_0008 id=3 audio gesetzt -> question-img_0008-3.mp3
+[GEN ] image_id=img_0008 id=3 -> question-img_0008-3.mp3
+[OK  ] image_id=img_0008 id=3 -> erzeugt
+[JSON] image_id=img_0008 id=4 audio gesetzt -> question-img_0008-4.mp3
+[GEN ] image_id=img_0008 id=4 -> question-img_0008-4.mp3
+[OK  ] image_id=img_0008 id=4 -> erzeugt
+[JSON] image_id=img_0008 id=5 audio gesetzt -> question-img_0008-5.mp3
+[GEN ] image_id=img_0008 id=5 -> question-img_0008-5.mp3
+[OK  ] image_id=img_0008 id=5 -> erzeugt
+[JSON] image_id=img_0008 id=6 audio gesetzt -> question-img_0008-6.mp3
+[GEN ] image_id=img_0008 id=6 -> question-img_0008-6.mp3
+[OK  ] image_id=img_0008 id=6 -> erzeugt
+[JSON] image_id=img_0008 id=7 audio gesetzt -> question-img_0008-7.mp3
+[GEN ] image_id=img_0008 id=7 -> question-img_0008-7.mp3
+[OK  ] image_id=img_0008 id=7 -> erzeugt
+[JSON] image_id=img_0008 id=8 audio gesetzt -> question-img_0008-8.mp3
+[GEN ] image_id=img_0008 id=8 -> question-img_0008-8.mp3
+[OK  ] image_id=img_0008 id=8 -> erzeugt
+[JSON] image_id=img_0008 id=9 audio gesetzt -> question-img_0008-9.mp3
+[GEN ] image_id=img_0008 id=9 -> question-img_0008-9.mp3
+[OK  ] image_id=img_0008 id=9 -> erzeugt
+[JSON] image_id=img_0008 id=10 audio gesetzt -> question-img_0008-10.mp3
+[GEN ] image_id=img_0008 id=10 -> question-img_0008-10.mp3
+[OK  ] image_id=img_0008 id=10 -> erzeugt
+[JSON] image_id=img_0008 id=11 audio gesetzt -> question-img_0008-11.mp3
+[GEN ] image_id=img_0008 id=11 -> question-img_0008-11.mp3
+[OK  ] image_id=img_0008 id=11 -> erzeugt
+[JSON] image_id=img_0008 id=12 audio gesetzt -> question-img_0008-12.mp3
+[GEN ] image_id=img_0008 id=12 -> question-img_0008-12.mp3
+[OK  ] image_id=img_0008 id=12 -> erzeugt
+[JSON] image_id=img_0008 id=13 audio gesetzt -> question-img_0008-13.mp3
+[GEN ] image_id=img_0008 id=13 -> question-img_0008-13.mp3
+[OK  ] image_id=img_0008 id=13 -> erzeugt
+------------------------------------------------------------
+[2026-01-21 19:28:12] ENDE
+fragen gesehen: 28
+produziert:    28
+übersprungen:  0
+fehler:        0
+json-updates:  28
+mp3 im Ordner: 28
+============================================================
+
+============================================================
+[2026-01-24 10:23:05] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/blitzquiz/imagememory/media/audio
+Questions:     /home/aleranzer/blitzquiz/imagememory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[JSON] image_id=img_0004 id=1 audio gesetzt -> question-img_0004-1.mp3
+[SKIP] image_id=img_0004 id=1 -> existiert bereits (question-img_0004-1.mp3)
+[JSON] image_id=img_0004 id=2 audio gesetzt -> question-img_0004-2.mp3
+[SKIP] image_id=img_0004 id=2 -> existiert bereits (question-img_0004-2.mp3)
+[JSON] image_id=img_0004 id=3 audio gesetzt -> question-img_0004-3.mp3
+[SKIP] image_id=img_0004 id=3 -> existiert bereits (question-img_0004-3.mp3)
+[JSON] image_id=img_0004 id=4 audio gesetzt -> question-img_0004-4.mp3
+[SKIP] image_id=img_0004 id=4 -> existiert bereits (question-img_0004-4.mp3)
+[JSON] image_id=img_0004 id=5 audio gesetzt -> question-img_0004-5.mp3
+[SKIP] image_id=img_0004 id=5 -> existiert bereits (question-img_0004-5.mp3)
+[JSON] image_id=img_0004 id=6 audio gesetzt -> question-img_0004-6.mp3
+[SKIP] image_id=img_0004 id=6 -> existiert bereits (question-img_0004-6.mp3)
+[JSON] image_id=img_0004 id=7 audio gesetzt -> question-img_0004-7.mp3
+[SKIP] image_id=img_0004 id=7 -> existiert bereits (question-img_0004-7.mp3)
+[JSON] image_id=img_0004 id=8 audio gesetzt -> question-img_0004-8.mp3
+[SKIP] image_id=img_0004 id=8 -> existiert bereits (question-img_0004-8.mp3)
+[JSON] image_id=img_0004 id=9 audio gesetzt -> question-img_0004-9.mp3
+[SKIP] image_id=img_0004 id=9 -> existiert bereits (question-img_0004-9.mp3)
+[JSON] image_id=img_0004 id=10 audio gesetzt -> question-img_0004-10.mp3
+[SKIP] image_id=img_0004 id=10 -> existiert bereits (question-img_0004-10.mp3)
+[JSON] image_id=img_0004 id=11 audio gesetzt -> question-img_0004-11.mp3
+[SKIP] image_id=img_0004 id=11 -> existiert bereits (question-img_0004-11.mp3)
+[JSON] image_id=img_0004 id=12 audio gesetzt -> question-img_0004-12.mp3
+[SKIP] image_id=img_0004 id=12 -> existiert bereits (question-img_0004-12.mp3)
+[JSON] image_id=img_0004 id=13 audio gesetzt -> question-img_0004-13.mp3
+[SKIP] image_id=img_0004 id=13 -> existiert bereits (question-img_0004-13.mp3)
+[JSON] image_id=img_0004 id=14 audio gesetzt -> question-img_0004-14.mp3
+[SKIP] image_id=img_0004 id=14 -> existiert bereits (question-img_0004-14.mp3)
+[JSON] image_id=img_0004 id=15 audio gesetzt -> question-img_0004-15.mp3
+[SKIP] image_id=img_0004 id=15 -> existiert bereits (question-img_0004-15.mp3)
+[JSON] image_id=img_0005 id=1 audio gesetzt -> question-img_0005-1.mp3
+[GEN ] image_id=img_0005 id=1 -> question-img_0005-1.mp3
+[OK  ] image_id=img_0005 id=1 -> erzeugt
+[JSON] image_id=img_0005 id=2 audio gesetzt -> question-img_0005-2.mp3
+[GEN ] image_id=img_0005 id=2 -> question-img_0005-2.mp3
+[OK  ] image_id=img_0005 id=2 -> erzeugt
+[JSON] image_id=img_0005 id=3 audio gesetzt -> question-img_0005-3.mp3
+[GEN ] image_id=img_0005 id=3 -> question-img_0005-3.mp3
+[OK  ] image_id=img_0005 id=3 -> erzeugt
+[JSON] image_id=img_0005 id=4 audio gesetzt -> question-img_0005-4.mp3
+[GEN ] image_id=img_0005 id=4 -> question-img_0005-4.mp3
+[OK  ] image_id=img_0005 id=4 -> erzeugt
+[JSON] image_id=img_0005 id=5 audio gesetzt -> question-img_0005-5.mp3
+[GEN ] image_id=img_0005 id=5 -> question-img_0005-5.mp3
+[OK  ] image_id=img_0005 id=5 -> erzeugt
+[JSON] image_id=img_0005 id=6 audio gesetzt -> question-img_0005-6.mp3
+[GEN ] image_id=img_0005 id=6 -> question-img_0005-6.mp3
+[OK  ] image_id=img_0005 id=6 -> erzeugt
+[JSON] image_id=img_0005 id=7 audio gesetzt -> question-img_0005-7.mp3
+[GEN ] image_id=img_0005 id=7 -> question-img_0005-7.mp3
+[OK  ] image_id=img_0005 id=7 -> erzeugt
+[JSON] image_id=img_0005 id=8 audio gesetzt -> question-img_0005-8.mp3
+[GEN ] image_id=img_0005 id=8 -> question-img_0005-8.mp3
+[OK  ] image_id=img_0005 id=8 -> erzeugt
+[JSON] image_id=img_0005 id=9 audio gesetzt -> question-img_0005-9.mp3
+[GEN ] image_id=img_0005 id=9 -> question-img_0005-9.mp3
+[OK  ] image_id=img_0005 id=9 -> erzeugt
+[JSON] image_id=img_0005 id=10 audio gesetzt -> question-img_0005-10.mp3
+[GEN ] image_id=img_0005 id=10 -> question-img_0005-10.mp3
+[OK  ] image_id=img_0005 id=10 -> erzeugt
+[JSON] image_id=img_0005 id=11 audio gesetzt -> question-img_0005-11.mp3
+[GEN ] image_id=img_0005 id=11 -> question-img_0005-11.mp3
+[OK  ] image_id=img_0005 id=11 -> erzeugt
+[JSON] image_id=img_0005 id=12 audio gesetzt -> question-img_0005-12.mp3
+[GEN ] image_id=img_0005 id=12 -> question-img_0005-12.mp3
+[OK  ] image_id=img_0005 id=12 -> erzeugt
+[JSON] image_id=img_0005 id=13 audio gesetzt -> question-img_0005-13.mp3
+[GEN ] image_id=img_0005 id=13 -> question-img_0005-13.mp3
+[OK  ] image_id=img_0005 id=13 -> erzeugt
+[JSON] image_id=img_0005 id=14 audio gesetzt -> question-img_0005-14.mp3
+[GEN ] image_id=img_0005 id=14 -> question-img_0005-14.mp3
+[OK  ] image_id=img_0005 id=14 -> erzeugt
+[JSON] image_id=img_0005 id=15 audio gesetzt -> question-img_0005-15.mp3
+[GEN ] image_id=img_0005 id=15 -> question-img_0005-15.mp3
+[OK  ] image_id=img_0005 id=15 -> erzeugt
+[JSON] image_id=img_0007 id=1 audio gesetzt -> question-img_0007-1.mp3
+[GEN ] image_id=img_0007 id=1 -> question-img_0007-1.mp3
+[OK  ] image_id=img_0007 id=1 -> erzeugt
+[JSON] image_id=img_0007 id=2 audio gesetzt -> question-img_0007-2.mp3
+[GEN ] image_id=img_0007 id=2 -> question-img_0007-2.mp3
+[OK  ] image_id=img_0007 id=2 -> erzeugt
+[JSON] image_id=img_0007 id=3 audio gesetzt -> question-img_0007-3.mp3
+[GEN ] image_id=img_0007 id=3 -> question-img_0007-3.mp3
+[OK  ] image_id=img_0007 id=3 -> erzeugt
+[JSON] image_id=img_0007 id=4 audio gesetzt -> question-img_0007-4.mp3
+[GEN ] image_id=img_0007 id=4 -> question-img_0007-4.mp3
+[OK  ] image_id=img_0007 id=4 -> erzeugt
+[JSON] image_id=img_0007 id=5 audio gesetzt -> question-img_0007-5.mp3
+[GEN ] image_id=img_0007 id=5 -> question-img_0007-5.mp3
+[OK  ] image_id=img_0007 id=5 -> erzeugt
+[JSON] image_id=img_0007 id=6 audio gesetzt -> question-img_0007-6.mp3
+[GEN ] image_id=img_0007 id=6 -> question-img_0007-6.mp3
+[OK  ] image_id=img_0007 id=6 -> erzeugt
+[JSON] image_id=img_0007 id=7 audio gesetzt -> question-img_0007-7.mp3
+[GEN ] image_id=img_0007 id=7 -> question-img_0007-7.mp3
+[OK  ] image_id=img_0007 id=7 -> erzeugt
+[JSON] image_id=img_0007 id=8 audio gesetzt -> question-img_0007-8.mp3
+[GEN ] image_id=img_0007 id=8 -> question-img_0007-8.mp3
+[OK  ] image_id=img_0007 id=8 -> erzeugt
+[JSON] image_id=img_0007 id=9 audio gesetzt -> question-img_0007-9.mp3
+[GEN ] image_id=img_0007 id=9 -> question-img_0007-9.mp3
+[OK  ] image_id=img_0007 id=9 -> erzeugt
+[JSON] image_id=img_0007 id=10 audio gesetzt -> question-img_0007-10.mp3
+[GEN ] image_id=img_0007 id=10 -> question-img_0007-10.mp3
+[OK  ] image_id=img_0007 id=10 -> erzeugt
+[JSON] image_id=img_0007 id=11 audio gesetzt -> question-img_0007-11.mp3
+[GEN ] image_id=img_0007 id=11 -> question-img_0007-11.mp3
+[OK  ] image_id=img_0007 id=11 -> erzeugt
+[JSON] image_id=img_0007 id=12 audio gesetzt -> question-img_0007-12.mp3
+[GEN ] image_id=img_0007 id=12 -> question-img_0007-12.mp3
+[OK  ] image_id=img_0007 id=12 -> erzeugt
+[JSON] image_id=img_0007 id=13 audio gesetzt -> question-img_0007-13.mp3
+[GEN ] image_id=img_0007 id=13 -> question-img_0007-13.mp3
+[OK  ] image_id=img_0007 id=13 -> erzeugt
+[JSON] image_id=img_0007 id=14 audio gesetzt -> question-img_0007-14.mp3
+[GEN ] image_id=img_0007 id=14 -> question-img_0007-14.mp3
+[OK  ] image_id=img_0007 id=14 -> erzeugt
+[JSON] image_id=img_0007 id=15 audio gesetzt -> question-img_0007-15.mp3
+[GEN ] image_id=img_0007 id=15 -> question-img_0007-15.mp3
+[OK  ] image_id=img_0007 id=15 -> erzeugt
+[JSON] image_id=img_0009 id=1 audio gesetzt -> question-img_0009-1.mp3
+[GEN ] image_id=img_0009 id=1 -> question-img_0009-1.mp3
+[OK  ] image_id=img_0009 id=1 -> erzeugt
+[JSON] image_id=img_0009 id=2 audio gesetzt -> question-img_0009-2.mp3
+[GEN ] image_id=img_0009 id=2 -> question-img_0009-2.mp3
+[OK  ] image_id=img_0009 id=2 -> erzeugt
+[JSON] image_id=img_0009 id=3 audio gesetzt -> question-img_0009-3.mp3
+[GEN ] image_id=img_0009 id=3 -> question-img_0009-3.mp3
+[OK  ] image_id=img_0009 id=3 -> erzeugt
+[JSON] image_id=img_0009 id=4 audio gesetzt -> question-img_0009-4.mp3
+[GEN ] image_id=img_0009 id=4 -> question-img_0009-4.mp3
+[OK  ] image_id=img_0009 id=4 -> erzeugt
+[JSON] image_id=img_0009 id=5 audio gesetzt -> question-img_0009-5.mp3
+[GEN ] image_id=img_0009 id=5 -> question-img_0009-5.mp3
+[OK  ] image_id=img_0009 id=5 -> erzeugt
+[JSON] image_id=img_0009 id=6 audio gesetzt -> question-img_0009-6.mp3
+[GEN ] image_id=img_0009 id=6 -> question-img_0009-6.mp3
+[OK  ] image_id=img_0009 id=6 -> erzeugt
+[JSON] image_id=img_0009 id=7 audio gesetzt -> question-img_0009-7.mp3
+[GEN ] image_id=img_0009 id=7 -> question-img_0009-7.mp3
+[OK  ] image_id=img_0009 id=7 -> erzeugt
+[JSON] image_id=img_0009 id=8 audio gesetzt -> question-img_0009-8.mp3
+[GEN ] image_id=img_0009 id=8 -> question-img_0009-8.mp3
+[OK  ] image_id=img_0009 id=8 -> erzeugt
+[JSON] image_id=img_0009 id=9 audio gesetzt -> question-img_0009-9.mp3
+[GEN ] image_id=img_0009 id=9 -> question-img_0009-9.mp3
+[OK  ] image_id=img_0009 id=9 -> erzeugt
+[JSON] image_id=img_0009 id=10 audio gesetzt -> question-img_0009-10.mp3
+[GEN ] image_id=img_0009 id=10 -> question-img_0009-10.mp3
+[OK  ] image_id=img_0009 id=10 -> erzeugt
+[JSON] image_id=img_0009 id=11 audio gesetzt -> question-img_0009-11.mp3
+[GEN ] image_id=img_0009 id=11 -> question-img_0009-11.mp3
+[OK  ] image_id=img_0009 id=11 -> erzeugt
+[JSON] image_id=img_0009 id=12 audio gesetzt -> question-img_0009-12.mp3
+[GEN ] image_id=img_0009 id=12 -> question-img_0009-12.mp3
+[OK  ] image_id=img_0009 id=12 -> erzeugt
+[JSON] image_id=img_0009 id=13 audio gesetzt -> question-img_0009-13.mp3
+[GEN ] image_id=img_0009 id=13 -> question-img_0009-13.mp3
+[OK  ] image_id=img_0009 id=13 -> erzeugt
+[JSON] image_id=img_0010 id=1 audio gesetzt -> question-img_0010-1.mp3
+[GEN ] image_id=img_0010 id=1 -> question-img_0010-1.mp3
+[OK  ] image_id=img_0010 id=1 -> erzeugt
+[JSON] image_id=img_0010 id=2 audio gesetzt -> question-img_0010-2.mp3
+[GEN ] image_id=img_0010 id=2 -> question-img_0010-2.mp3
+[OK  ] image_id=img_0010 id=2 -> erzeugt
+[JSON] image_id=img_0010 id=3 audio gesetzt -> question-img_0010-3.mp3
+[GEN ] image_id=img_0010 id=3 -> question-img_0010-3.mp3
+[OK  ] image_id=img_0010 id=3 -> erzeugt
+[JSON] image_id=img_0010 id=4 audio gesetzt -> question-img_0010-4.mp3
+[GEN ] image_id=img_0010 id=4 -> question-img_0010-4.mp3
+[OK  ] image_id=img_0010 id=4 -> erzeugt
+[JSON] image_id=img_0010 id=5 audio gesetzt -> question-img_0010-5.mp3
+[GEN ] image_id=img_0010 id=5 -> question-img_0010-5.mp3
+[OK  ] image_id=img_0010 id=5 -> erzeugt
+[JSON] image_id=img_0010 id=6 audio gesetzt -> question-img_0010-6.mp3
+[GEN ] image_id=img_0010 id=6 -> question-img_0010-6.mp3
+[OK  ] image_id=img_0010 id=6 -> erzeugt
+[JSON] image_id=img_0010 id=7 audio gesetzt -> question-img_0010-7.mp3
+[GEN ] image_id=img_0010 id=7 -> question-img_0010-7.mp3
+[OK  ] image_id=img_0010 id=7 -> erzeugt
+[JSON] image_id=img_0010 id=8 audio gesetzt -> question-img_0010-8.mp3
+[GEN ] image_id=img_0010 id=8 -> question-img_0010-8.mp3
+[OK  ] image_id=img_0010 id=8 -> erzeugt
+[JSON] image_id=img_0010 id=9 audio gesetzt -> question-img_0010-9.mp3
+[GEN ] image_id=img_0010 id=9 -> question-img_0010-9.mp3
+[OK  ] image_id=img_0010 id=9 -> erzeugt
+[JSON] image_id=img_0010 id=10 audio gesetzt -> question-img_0010-10.mp3
+[GEN ] image_id=img_0010 id=10 -> question-img_0010-10.mp3
+[OK  ] image_id=img_0010 id=10 -> erzeugt
+[JSON] image_id=img_0010 id=11 audio gesetzt -> question-img_0010-11.mp3
+[GEN ] image_id=img_0010 id=11 -> question-img_0010-11.mp3
+[OK  ] image_id=img_0010 id=11 -> erzeugt
+[JSON] image_id=img_0010 id=12 audio gesetzt -> question-img_0010-12.mp3
+[GEN ] image_id=img_0010 id=12 -> question-img_0010-12.mp3
+[OK  ] image_id=img_0010 id=12 -> erzeugt
+[JSON] image_id=img_0011 id=1 audio gesetzt -> question-img_0011-1.mp3
+[GEN ] image_id=img_0011 id=1 -> question-img_0011-1.mp3
+[OK  ] image_id=img_0011 id=1 -> erzeugt
+[JSON] image_id=img_0011 id=2 audio gesetzt -> question-img_0011-2.mp3
+[GEN ] image_id=img_0011 id=2 -> question-img_0011-2.mp3
+[OK  ] image_id=img_0011 id=2 -> erzeugt
+[JSON] image_id=img_0011 id=3 audio gesetzt -> question-img_0011-3.mp3
+[GEN ] image_id=img_0011 id=3 -> question-img_0011-3.mp3
+[OK  ] image_id=img_0011 id=3 -> erzeugt
+[JSON] image_id=img_0011 id=4 audio gesetzt -> question-img_0011-4.mp3
+[GEN ] image_id=img_0011 id=4 -> question-img_0011-4.mp3
+[OK  ] image_id=img_0011 id=4 -> erzeugt
+[JSON] image_id=img_0011 id=5 audio gesetzt -> question-img_0011-5.mp3
+[GEN ] image_id=img_0011 id=5 -> question-img_0011-5.mp3
+[OK  ] image_id=img_0011 id=5 -> erzeugt
+[JSON] image_id=img_0011 id=6 audio gesetzt -> question-img_0011-6.mp3
+[GEN ] image_id=img_0011 id=6 -> question-img_0011-6.mp3
+[OK  ] image_id=img_0011 id=6 -> erzeugt
+[JSON] image_id=img_0011 id=7 audio gesetzt -> question-img_0011-7.mp3
+[GEN ] image_id=img_0011 id=7 -> question-img_0011-7.mp3
+[OK  ] image_id=img_0011 id=7 -> erzeugt
+[JSON] image_id=img_0011 id=8 audio gesetzt -> question-img_0011-8.mp3
+[GEN ] image_id=img_0011 id=8 -> question-img_0011-8.mp3
+[OK  ] image_id=img_0011 id=8 -> erzeugt
+[JSON] image_id=img_0011 id=9 audio gesetzt -> question-img_0011-9.mp3
+[GEN ] image_id=img_0011 id=9 -> question-img_0011-9.mp3
+[OK  ] image_id=img_0011 id=9 -> erzeugt
+[JSON] image_id=img_0011 id=10 audio gesetzt -> question-img_0011-10.mp3
+[GEN ] image_id=img_0011 id=10 -> question-img_0011-10.mp3
+[OK  ] image_id=img_0011 id=10 -> erzeugt
+[JSON] image_id=img_0011 id=11 audio gesetzt -> question-img_0011-11.mp3
+[GEN ] image_id=img_0011 id=11 -> question-img_0011-11.mp3
+[OK  ] image_id=img_0011 id=11 -> erzeugt
+[JSON] image_id=img_0011 id=12 audio gesetzt -> question-img_0011-12.mp3
+[GEN ] image_id=img_0011 id=12 -> question-img_0011-12.mp3
+[OK  ] image_id=img_0011 id=12 -> erzeugt
+[JSON] image_id=img_0011 id=13 audio gesetzt -> question-img_0011-13.mp3
+[GEN ] image_id=img_0011 id=13 -> question-img_0011-13.mp3
+[OK  ] image_id=img_0011 id=13 -> erzeugt
+[JSON] image_id=img_0011 id=14 audio gesetzt -> question-img_0011-14.mp3
+[GEN ] image_id=img_0011 id=14 -> question-img_0011-14.mp3
+[OK  ] image_id=img_0011 id=14 -> erzeugt
+[JSON] image_id=img_0011 id=15 audio gesetzt -> question-img_0011-15.mp3
+[GEN ] image_id=img_0011 id=15 -> question-img_0011-15.mp3
+[OK  ] image_id=img_0011 id=15 -> erzeugt
+[JSON] image_id=img_0011 id=16 audio gesetzt -> question-img_0011-16.mp3
+[GEN ] image_id=img_0011 id=16 -> question-img_0011-16.mp3
+[OK  ] image_id=img_0011 id=16 -> erzeugt
+[JSON] image_id=img_0011 id=17 audio gesetzt -> question-img_0011-17.mp3
+[GEN ] image_id=img_0011 id=17 -> question-img_0011-17.mp3
+[OK  ] image_id=img_0011 id=17 -> erzeugt
+[JSON] image_id=img_0011 id=18 audio gesetzt -> question-img_0011-18.mp3
+[GEN ] image_id=img_0011 id=18 -> question-img_0011-18.mp3
+[OK  ] image_id=img_0011 id=18 -> erzeugt
+[JSON] image_id=img_0011 id=19 audio gesetzt -> question-img_0011-19.mp3
+[GEN ] image_id=img_0011 id=19 -> question-img_0011-19.mp3
+[OK  ] image_id=img_0011 id=19 -> erzeugt
+[JSON] image_id=img_0011 id=20 audio gesetzt -> question-img_0011-20.mp3
+[GEN ] image_id=img_0011 id=20 -> question-img_0011-20.mp3
+[OK  ] image_id=img_0011 id=20 -> erzeugt
+[JSON] image_id=img_0012 id=1 audio gesetzt -> question-img_0012-1.mp3
+[GEN ] image_id=img_0012 id=1 -> question-img_0012-1.mp3
+[OK  ] image_id=img_0012 id=1 -> erzeugt
+[JSON] image_id=img_0012 id=2 audio gesetzt -> question-img_0012-2.mp3
+[GEN ] image_id=img_0012 id=2 -> question-img_0012-2.mp3
+[OK  ] image_id=img_0012 id=2 -> erzeugt
+[JSON] image_id=img_0012 id=3 audio gesetzt -> question-img_0012-3.mp3
+[GEN ] image_id=img_0012 id=3 -> question-img_0012-3.mp3
+[OK  ] image_id=img_0012 id=3 -> erzeugt
+[JSON] image_id=img_0012 id=4 audio gesetzt -> question-img_0012-4.mp3
+[GEN ] image_id=img_0012 id=4 -> question-img_0012-4.mp3
+[OK  ] image_id=img_0012 id=4 -> erzeugt
+[JSON] image_id=img_0012 id=5 audio gesetzt -> question-img_0012-5.mp3
+[GEN ] image_id=img_0012 id=5 -> question-img_0012-5.mp3
+[OK  ] image_id=img_0012 id=5 -> erzeugt
+[JSON] image_id=img_0012 id=6 audio gesetzt -> question-img_0012-6.mp3
+[GEN ] image_id=img_0012 id=6 -> question-img_0012-6.mp3
+[OK  ] image_id=img_0012 id=6 -> erzeugt
+[JSON] image_id=img_0012 id=7 audio gesetzt -> question-img_0012-7.mp3
+[GEN ] image_id=img_0012 id=7 -> question-img_0012-7.mp3
+[OK  ] image_id=img_0012 id=7 -> erzeugt
+[JSON] image_id=img_0012 id=8 audio gesetzt -> question-img_0012-8.mp3
+[GEN ] image_id=img_0012 id=8 -> question-img_0012-8.mp3
+[OK  ] image_id=img_0012 id=8 -> erzeugt
+[JSON] image_id=img_0012 id=9 audio gesetzt -> question-img_0012-9.mp3
+[GEN ] image_id=img_0012 id=9 -> question-img_0012-9.mp3
+[OK  ] image_id=img_0012 id=9 -> erzeugt
+[JSON] image_id=img_0012 id=10 audio gesetzt -> question-img_0012-10.mp3
+[GEN ] image_id=img_0012 id=10 -> question-img_0012-10.mp3
+[OK  ] image_id=img_0012 id=10 -> erzeugt
+[JSON] image_id=img_0012 id=11 audio gesetzt -> question-img_0012-11.mp3
+[GEN ] image_id=img_0012 id=11 -> question-img_0012-11.mp3
+[OK  ] image_id=img_0012 id=11 -> erzeugt
+[JSON] image_id=img_0012 id=12 audio gesetzt -> question-img_0012-12.mp3
+[GEN ] image_id=img_0012 id=12 -> question-img_0012-12.mp3
+[OK  ] image_id=img_0012 id=12 -> erzeugt
+[JSON] image_id=img_0012 id=13 audio gesetzt -> question-img_0012-13.mp3
+[GEN ] image_id=img_0012 id=13 -> question-img_0012-13.mp3
+[OK  ] image_id=img_0012 id=13 -> erzeugt
+[JSON] image_id=img_0012 id=14 audio gesetzt -> question-img_0012-14.mp3
+[GEN ] image_id=img_0012 id=14 -> question-img_0012-14.mp3
+[OK  ] image_id=img_0012 id=14 -> erzeugt
+[JSON] image_id=img_0013 id=1 audio gesetzt -> question-img_0013-1.mp3
+[GEN ] image_id=img_0013 id=1 -> question-img_0013-1.mp3
+[OK  ] image_id=img_0013 id=1 -> erzeugt
+[JSON] image_id=img_0013 id=2 audio gesetzt -> question-img_0013-2.mp3
+[GEN ] image_id=img_0013 id=2 -> question-img_0013-2.mp3
+[OK  ] image_id=img_0013 id=2 -> erzeugt
+[JSON] image_id=img_0013 id=3 audio gesetzt -> question-img_0013-3.mp3
+[GEN ] image_id=img_0013 id=3 -> question-img_0013-3.mp3
+[OK  ] image_id=img_0013 id=3 -> erzeugt
+[JSON] image_id=img_0013 id=4 audio gesetzt -> question-img_0013-4.mp3
+[GEN ] image_id=img_0013 id=4 -> question-img_0013-4.mp3
+[OK  ] image_id=img_0013 id=4 -> erzeugt
+[JSON] image_id=img_0013 id=5 audio gesetzt -> question-img_0013-5.mp3
+[GEN ] image_id=img_0013 id=5 -> question-img_0013-5.mp3
+[OK  ] image_id=img_0013 id=5 -> erzeugt
+[JSON] image_id=img_0013 id=6 audio gesetzt -> question-img_0013-6.mp3
+[GEN ] image_id=img_0013 id=6 -> question-img_0013-6.mp3
+[OK  ] image_id=img_0013 id=6 -> erzeugt
+[JSON] image_id=img_0013 id=7 audio gesetzt -> question-img_0013-7.mp3
+[GEN ] image_id=img_0013 id=7 -> question-img_0013-7.mp3
+[OK  ] image_id=img_0013 id=7 -> erzeugt
+[JSON] image_id=img_0013 id=8 audio gesetzt -> question-img_0013-8.mp3
+[GEN ] image_id=img_0013 id=8 -> question-img_0013-8.mp3
+[OK  ] image_id=img_0013 id=8 -> erzeugt
+[JSON] image_id=img_0013 id=9 audio gesetzt -> question-img_0013-9.mp3
+[GEN ] image_id=img_0013 id=9 -> question-img_0013-9.mp3
+[OK  ] image_id=img_0013 id=9 -> erzeugt
+[JSON] image_id=img_0013 id=10 audio gesetzt -> question-img_0013-10.mp3
+[GEN ] image_id=img_0013 id=10 -> question-img_0013-10.mp3
+[OK  ] image_id=img_0013 id=10 -> erzeugt
+[JSON] image_id=img_0013 id=11 audio gesetzt -> question-img_0013-11.mp3
+[GEN ] image_id=img_0013 id=11 -> question-img_0013-11.mp3
+[OK  ] image_id=img_0013 id=11 -> erzeugt
+[JSON] image_id=img_0013 id=12 audio gesetzt -> question-img_0013-12.mp3
+[GEN ] image_id=img_0013 id=12 -> question-img_0013-12.mp3
+[OK  ] image_id=img_0013 id=12 -> erzeugt
+[JSON] image_id=img_0013 id=13 audio gesetzt -> question-img_0013-13.mp3
+[GEN ] image_id=img_0013 id=13 -> question-img_0013-13.mp3
+[OK  ] image_id=img_0013 id=13 -> erzeugt
+[JSON] image_id=img_0014 id=1 audio gesetzt -> question-img_0014-1.mp3
+[GEN ] image_id=img_0014 id=1 -> question-img_0014-1.mp3
+[OK  ] image_id=img_0014 id=1 -> erzeugt
+[JSON] image_id=img_0014 id=2 audio gesetzt -> question-img_0014-2.mp3
+[GEN ] image_id=img_0014 id=2 -> question-img_0014-2.mp3
+[OK  ] image_id=img_0014 id=2 -> erzeugt
+[JSON] image_id=img_0014 id=3 audio gesetzt -> question-img_0014-3.mp3
+[GEN ] image_id=img_0014 id=3 -> question-img_0014-3.mp3
+[OK  ] image_id=img_0014 id=3 -> erzeugt
+[JSON] image_id=img_0014 id=4 audio gesetzt -> question-img_0014-4.mp3
+[GEN ] image_id=img_0014 id=4 -> question-img_0014-4.mp3
+[OK  ] image_id=img_0014 id=4 -> erzeugt
+[JSON] image_id=img_0014 id=5 audio gesetzt -> question-img_0014-5.mp3
+[GEN ] image_id=img_0014 id=5 -> question-img_0014-5.mp3
+[OK  ] image_id=img_0014 id=5 -> erzeugt
+[JSON] image_id=img_0014 id=6 audio gesetzt -> question-img_0014-6.mp3
+[GEN ] image_id=img_0014 id=6 -> question-img_0014-6.mp3
+[OK  ] image_id=img_0014 id=6 -> erzeugt
+[JSON] image_id=img_0014 id=7 audio gesetzt -> question-img_0014-7.mp3
+[GEN ] image_id=img_0014 id=7 -> question-img_0014-7.mp3
+[OK  ] image_id=img_0014 id=7 -> erzeugt
+[JSON] image_id=img_0014 id=8 audio gesetzt -> question-img_0014-8.mp3
+[GEN ] image_id=img_0014 id=8 -> question-img_0014-8.mp3
+[OK  ] image_id=img_0014 id=8 -> erzeugt
+[JSON] image_id=img_0014 id=9 audio gesetzt -> question-img_0014-9.mp3
+[GEN ] image_id=img_0014 id=9 -> question-img_0014-9.mp3
+[OK  ] image_id=img_0014 id=9 -> erzeugt
+[JSON] image_id=img_0014 id=10 audio gesetzt -> question-img_0014-10.mp3
+[GEN ] image_id=img_0014 id=10 -> question-img_0014-10.mp3
+[OK  ] image_id=img_0014 id=10 -> erzeugt
+[JSON] image_id=img_0014 id=11 audio gesetzt -> question-img_0014-11.mp3
+[GEN ] image_id=img_0014 id=11 -> question-img_0014-11.mp3
+[OK  ] image_id=img_0014 id=11 -> erzeugt
+[JSON] image_id=img_0014 id=12 audio gesetzt -> question-img_0014-12.mp3
+[GEN ] image_id=img_0014 id=12 -> question-img_0014-12.mp3
+[OK  ] image_id=img_0014 id=12 -> erzeugt
+[JSON] image_id=img_0014 id=13 audio gesetzt -> question-img_0014-13.mp3
+[GEN ] image_id=img_0014 id=13 -> question-img_0014-13.mp3
+[OK  ] image_id=img_0014 id=13 -> erzeugt
+[JSON] image_id=img_0014 id=14 audio gesetzt -> question-img_0014-14.mp3
+[GEN ] image_id=img_0014 id=14 -> question-img_0014-14.mp3
+[OK  ] image_id=img_0014 id=14 -> erzeugt
+[JSON] image_id=img_0015 id=1 audio gesetzt -> question-img_0015-1.mp3
+[GEN ] image_id=img_0015 id=1 -> question-img_0015-1.mp3
+[OK  ] image_id=img_0015 id=1 -> erzeugt
+[JSON] image_id=img_0015 id=2 audio gesetzt -> question-img_0015-2.mp3
+[GEN ] image_id=img_0015 id=2 -> question-img_0015-2.mp3
+[OK  ] image_id=img_0015 id=2 -> erzeugt
+[JSON] image_id=img_0015 id=3 audio gesetzt -> question-img_0015-3.mp3
+[GEN ] image_id=img_0015 id=3 -> question-img_0015-3.mp3
+[OK  ] image_id=img_0015 id=3 -> erzeugt
+[JSON] image_id=img_0015 id=4 audio gesetzt -> question-img_0015-4.mp3
+[GEN ] image_id=img_0015 id=4 -> question-img_0015-4.mp3
+[OK  ] image_id=img_0015 id=4 -> erzeugt
+[JSON] image_id=img_0015 id=5 audio gesetzt -> question-img_0015-5.mp3
+[GEN ] image_id=img_0015 id=5 -> question-img_0015-5.mp3
+[OK  ] image_id=img_0015 id=5 -> erzeugt
+[JSON] image_id=img_0015 id=6 audio gesetzt -> question-img_0015-6.mp3
+[GEN ] image_id=img_0015 id=6 -> question-img_0015-6.mp3
+[OK  ] image_id=img_0015 id=6 -> erzeugt
+[JSON] image_id=img_0015 id=7 audio gesetzt -> question-img_0015-7.mp3
+[GEN ] image_id=img_0015 id=7 -> question-img_0015-7.mp3
+[OK  ] image_id=img_0015 id=7 -> erzeugt
+[JSON] image_id=img_0015 id=8 audio gesetzt -> question-img_0015-8.mp3
+[GEN ] image_id=img_0015 id=8 -> question-img_0015-8.mp3
+[OK  ] image_id=img_0015 id=8 -> erzeugt
+[JSON] image_id=img_0015 id=9 audio gesetzt -> question-img_0015-9.mp3
+[GEN ] image_id=img_0015 id=9 -> question-img_0015-9.mp3
+[OK  ] image_id=img_0015 id=9 -> erzeugt
+[JSON] image_id=img_0015 id=10 audio gesetzt -> question-img_0015-10.mp3
+[GEN ] image_id=img_0015 id=10 -> question-img_0015-10.mp3
+[OK  ] image_id=img_0015 id=10 -> erzeugt
+[JSON] image_id=img_0015 id=11 audio gesetzt -> question-img_0015-11.mp3
+[GEN ] image_id=img_0015 id=11 -> question-img_0015-11.mp3
+[OK  ] image_id=img_0015 id=11 -> erzeugt
+[JSON] image_id=img_0015 id=12 audio gesetzt -> question-img_0015-12.mp3
+[GEN ] image_id=img_0015 id=12 -> question-img_0015-12.mp3
+[OK  ] image_id=img_0015 id=12 -> erzeugt
+[JSON] image_id=img_0015 id=13 audio gesetzt -> question-img_0015-13.mp3
+[GEN ] image_id=img_0015 id=13 -> question-img_0015-13.mp3
+[OK  ] image_id=img_0015 id=13 -> erzeugt
+[JSON] image_id=img_0016 id=1 audio gesetzt -> question-img_0016-1.mp3
+[GEN ] image_id=img_0016 id=1 -> question-img_0016-1.mp3
+[OK  ] image_id=img_0016 id=1 -> erzeugt
+[JSON] image_id=img_0016 id=2 audio gesetzt -> question-img_0016-2.mp3
+[GEN ] image_id=img_0016 id=2 -> question-img_0016-2.mp3
+[OK  ] image_id=img_0016 id=2 -> erzeugt
+[JSON] image_id=img_0016 id=3 audio gesetzt -> question-img_0016-3.mp3
+[GEN ] image_id=img_0016 id=3 -> question-img_0016-3.mp3
+[OK  ] image_id=img_0016 id=3 -> erzeugt
+[JSON] image_id=img_0016 id=4 audio gesetzt -> question-img_0016-4.mp3
+[GEN ] image_id=img_0016 id=4 -> question-img_0016-4.mp3
+[OK  ] image_id=img_0016 id=4 -> erzeugt
+[JSON] image_id=img_0016 id=5 audio gesetzt -> question-img_0016-5.mp3
+[GEN ] image_id=img_0016 id=5 -> question-img_0016-5.mp3
+[OK  ] image_id=img_0016 id=5 -> erzeugt
+[JSON] image_id=img_0016 id=6 audio gesetzt -> question-img_0016-6.mp3
+[GEN ] image_id=img_0016 id=6 -> question-img_0016-6.mp3
+[OK  ] image_id=img_0016 id=6 -> erzeugt
+[JSON] image_id=img_0016 id=7 audio gesetzt -> question-img_0016-7.mp3
+[GEN ] image_id=img_0016 id=7 -> question-img_0016-7.mp3
+[OK  ] image_id=img_0016 id=7 -> erzeugt
+[JSON] image_id=img_0016 id=8 audio gesetzt -> question-img_0016-8.mp3
+[GEN ] image_id=img_0016 id=8 -> question-img_0016-8.mp3
+[OK  ] image_id=img_0016 id=8 -> erzeugt
+[JSON] image_id=img_0016 id=9 audio gesetzt -> question-img_0016-9.mp3
+[GEN ] image_id=img_0016 id=9 -> question-img_0016-9.mp3
+[OK  ] image_id=img_0016 id=9 -> erzeugt
+[JSON] image_id=img_0016 id=10 audio gesetzt -> question-img_0016-10.mp3
+[GEN ] image_id=img_0016 id=10 -> question-img_0016-10.mp3
+[OK  ] image_id=img_0016 id=10 -> erzeugt
+[JSON] image_id=img_0016 id=11 audio gesetzt -> question-img_0016-11.mp3
+[GEN ] image_id=img_0016 id=11 -> question-img_0016-11.mp3
+[OK  ] image_id=img_0016 id=11 -> erzeugt
+[JSON] image_id=img_0016 id=12 audio gesetzt -> question-img_0016-12.mp3
+[GEN ] image_id=img_0016 id=12 -> question-img_0016-12.mp3
+[OK  ] image_id=img_0016 id=12 -> erzeugt
+[JSON] image_id=img_0016 id=13 audio gesetzt -> question-img_0016-13.mp3
+[GEN ] image_id=img_0016 id=13 -> question-img_0016-13.mp3
+[OK  ] image_id=img_0016 id=13 -> erzeugt
+[JSON] image_id=img_0017 id=1 audio gesetzt -> question-img_0017-1.mp3
+[GEN ] image_id=img_0017 id=1 -> question-img_0017-1.mp3
+[OK  ] image_id=img_0017 id=1 -> erzeugt
+[JSON] image_id=img_0017 id=2 audio gesetzt -> question-img_0017-2.mp3
+[GEN ] image_id=img_0017 id=2 -> question-img_0017-2.mp3
+[OK  ] image_id=img_0017 id=2 -> erzeugt
+[JSON] image_id=img_0017 id=3 audio gesetzt -> question-img_0017-3.mp3
+[GEN ] image_id=img_0017 id=3 -> question-img_0017-3.mp3
+[OK  ] image_id=img_0017 id=3 -> erzeugt
+[JSON] image_id=img_0017 id=4 audio gesetzt -> question-img_0017-4.mp3
+[GEN ] image_id=img_0017 id=4 -> question-img_0017-4.mp3
+[OK  ] image_id=img_0017 id=4 -> erzeugt
+[JSON] image_id=img_0017 id=5 audio gesetzt -> question-img_0017-5.mp3
+[GEN ] image_id=img_0017 id=5 -> question-img_0017-5.mp3
+[OK  ] image_id=img_0017 id=5 -> erzeugt
+[JSON] image_id=img_0017 id=6 audio gesetzt -> question-img_0017-6.mp3
+[GEN ] image_id=img_0017 id=6 -> question-img_0017-6.mp3
+[OK  ] image_id=img_0017 id=6 -> erzeugt
+[JSON] image_id=img_0017 id=7 audio gesetzt -> question-img_0017-7.mp3
+[GEN ] image_id=img_0017 id=7 -> question-img_0017-7.mp3
+[OK  ] image_id=img_0017 id=7 -> erzeugt
+[JSON] image_id=img_0017 id=8 audio gesetzt -> question-img_0017-8.mp3
+[GEN ] image_id=img_0017 id=8 -> question-img_0017-8.mp3
+[OK  ] image_id=img_0017 id=8 -> erzeugt
+[JSON] image_id=img_0017 id=9 audio gesetzt -> question-img_0017-9.mp3
+[GEN ] image_id=img_0017 id=9 -> question-img_0017-9.mp3
+[OK  ] image_id=img_0017 id=9 -> erzeugt
+[JSON] image_id=img_0018 id=1 audio gesetzt -> question-img_0018-1.mp3
+[GEN ] image_id=img_0018 id=1 -> question-img_0018-1.mp3
+[OK  ] image_id=img_0018 id=1 -> erzeugt
+[JSON] image_id=img_0018 id=2 audio gesetzt -> question-img_0018-2.mp3
+[GEN ] image_id=img_0018 id=2 -> question-img_0018-2.mp3
+[OK  ] image_id=img_0018 id=2 -> erzeugt
+[JSON] image_id=img_0018 id=3 audio gesetzt -> question-img_0018-3.mp3
+[GEN ] image_id=img_0018 id=3 -> question-img_0018-3.mp3
+[OK  ] image_id=img_0018 id=3 -> erzeugt
+[JSON] image_id=img_0018 id=4 audio gesetzt -> question-img_0018-4.mp3
+[GEN ] image_id=img_0018 id=4 -> question-img_0018-4.mp3
+[OK  ] image_id=img_0018 id=4 -> erzeugt
+[JSON] image_id=img_0018 id=5 audio gesetzt -> question-img_0018-5.mp3
+[GEN ] image_id=img_0018 id=5 -> question-img_0018-5.mp3
+[OK  ] image_id=img_0018 id=5 -> erzeugt
+[JSON] image_id=img_0018 id=6 audio gesetzt -> question-img_0018-6.mp3
+[GEN ] image_id=img_0018 id=6 -> question-img_0018-6.mp3
+[OK  ] image_id=img_0018 id=6 -> erzeugt
+[JSON] image_id=img_0018 id=7 audio gesetzt -> question-img_0018-7.mp3
+[GEN ] image_id=img_0018 id=7 -> question-img_0018-7.mp3
+[OK  ] image_id=img_0018 id=7 -> erzeugt
+[JSON] image_id=img_0018 id=8 audio gesetzt -> question-img_0018-8.mp3
+[GEN ] image_id=img_0018 id=8 -> question-img_0018-8.mp3
+[OK  ] image_id=img_0018 id=8 -> erzeugt
+[JSON] image_id=img_0018 id=9 audio gesetzt -> question-img_0018-9.mp3
+[GEN ] image_id=img_0018 id=9 -> question-img_0018-9.mp3
+[OK  ] image_id=img_0018 id=9 -> erzeugt
+[JSON] image_id=img_0018 id=10 audio gesetzt -> question-img_0018-10.mp3
+[GEN ] image_id=img_0018 id=10 -> question-img_0018-10.mp3
+[OK  ] image_id=img_0018 id=10 -> erzeugt
+[JSON] image_id=img_0018 id=11 audio gesetzt -> question-img_0018-11.mp3
+[GEN ] image_id=img_0018 id=11 -> question-img_0018-11.mp3
+[OK  ] image_id=img_0018 id=11 -> erzeugt
+[JSON] image_id=img_0018 id=12 audio gesetzt -> question-img_0018-12.mp3
+[GEN ] image_id=img_0018 id=12 -> question-img_0018-12.mp3
+[OK  ] image_id=img_0018 id=12 -> erzeugt
+[JSON] image_id=img_0019 id=1 audio gesetzt -> question-img_0019-1.mp3
+[GEN ] image_id=img_0019 id=1 -> question-img_0019-1.mp3
+[OK  ] image_id=img_0019 id=1 -> erzeugt
+[JSON] image_id=img_0019 id=2 audio gesetzt -> question-img_0019-2.mp3
+[GEN ] image_id=img_0019 id=2 -> question-img_0019-2.mp3
+[OK  ] image_id=img_0019 id=2 -> erzeugt
+[JSON] image_id=img_0019 id=3 audio gesetzt -> question-img_0019-3.mp3
+[GEN ] image_id=img_0019 id=3 -> question-img_0019-3.mp3
+[OK  ] image_id=img_0019 id=3 -> erzeugt
+[JSON] image_id=img_0019 id=4 audio gesetzt -> question-img_0019-4.mp3
+[GEN ] image_id=img_0019 id=4 -> question-img_0019-4.mp3
+[OK  ] image_id=img_0019 id=4 -> erzeugt
+[JSON] image_id=img_0019 id=5 audio gesetzt -> question-img_0019-5.mp3
+[GEN ] image_id=img_0019 id=5 -> question-img_0019-5.mp3
+[OK  ] image_id=img_0019 id=5 -> erzeugt
+[JSON] image_id=img_0019 id=6 audio gesetzt -> question-img_0019-6.mp3
+[GEN ] image_id=img_0019 id=6 -> question-img_0019-6.mp3
+[OK  ] image_id=img_0019 id=6 -> erzeugt
+[JSON] image_id=img_0019 id=7 audio gesetzt -> question-img_0019-7.mp3
+[GEN ] image_id=img_0019 id=7 -> question-img_0019-7.mp3
+[OK  ] image_id=img_0019 id=7 -> erzeugt
+[JSON] image_id=img_0019 id=8 audio gesetzt -> question-img_0019-8.mp3
+[GEN ] image_id=img_0019 id=8 -> question-img_0019-8.mp3
+[OK  ] image_id=img_0019 id=8 -> erzeugt
+[JSON] image_id=img_0019 id=9 audio gesetzt -> question-img_0019-9.mp3
+[GEN ] image_id=img_0019 id=9 -> question-img_0019-9.mp3
+[OK  ] image_id=img_0019 id=9 -> erzeugt
+[JSON] image_id=img_0019 id=10 audio gesetzt -> question-img_0019-10.mp3
+[GEN ] image_id=img_0019 id=10 -> question-img_0019-10.mp3
+[OK  ] image_id=img_0019 id=10 -> erzeugt
+[JSON] image_id=img_0019 id=11 audio gesetzt -> question-img_0019-11.mp3
+[GEN ] image_id=img_0019 id=11 -> question-img_0019-11.mp3
+[OK  ] image_id=img_0019 id=11 -> erzeugt
+[JSON] image_id=img_0019 id=12 audio gesetzt -> question-img_0019-12.mp3
+[GEN ] image_id=img_0019 id=12 -> question-img_0019-12.mp3
+[OK  ] image_id=img_0019 id=12 -> erzeugt
+[JSON] image_id=img_0020 id=1 audio gesetzt -> question-img_0020-1.mp3
+[GEN ] image_id=img_0020 id=1 -> question-img_0020-1.mp3
+[OK  ] image_id=img_0020 id=1 -> erzeugt
+[JSON] image_id=img_0020 id=2 audio gesetzt -> question-img_0020-2.mp3
+[GEN ] image_id=img_0020 id=2 -> question-img_0020-2.mp3
+[OK  ] image_id=img_0020 id=2 -> erzeugt
+[JSON] image_id=img_0020 id=3 audio gesetzt -> question-img_0020-3.mp3
+[GEN ] image_id=img_0020 id=3 -> question-img_0020-3.mp3
+[OK  ] image_id=img_0020 id=3 -> erzeugt
+[JSON] image_id=img_0020 id=4 audio gesetzt -> question-img_0020-4.mp3
+[GEN ] image_id=img_0020 id=4 -> question-img_0020-4.mp3
+[OK  ] image_id=img_0020 id=4 -> erzeugt
+[JSON] image_id=img_0020 id=5 audio gesetzt -> question-img_0020-5.mp3
+[GEN ] image_id=img_0020 id=5 -> question-img_0020-5.mp3
+[OK  ] image_id=img_0020 id=5 -> erzeugt
+[JSON] image_id=img_0020 id=6 audio gesetzt -> question-img_0020-6.mp3
+[GEN ] image_id=img_0020 id=6 -> question-img_0020-6.mp3
+[OK  ] image_id=img_0020 id=6 -> erzeugt
+[JSON] image_id=img_0020 id=7 audio gesetzt -> question-img_0020-7.mp3
+[GEN ] image_id=img_0020 id=7 -> question-img_0020-7.mp3
+[OK  ] image_id=img_0020 id=7 -> erzeugt
+[JSON] image_id=img_0020 id=8 audio gesetzt -> question-img_0020-8.mp3
+[GEN ] image_id=img_0020 id=8 -> question-img_0020-8.mp3
+[OK  ] image_id=img_0020 id=8 -> erzeugt
+[JSON] image_id=img_0020 id=9 audio gesetzt -> question-img_0020-9.mp3
+[GEN ] image_id=img_0020 id=9 -> question-img_0020-9.mp3
+[OK  ] image_id=img_0020 id=9 -> erzeugt
+[JSON] image_id=img_0020 id=10 audio gesetzt -> question-img_0020-10.mp3
+[GEN ] image_id=img_0020 id=10 -> question-img_0020-10.mp3
+[OK  ] image_id=img_0020 id=10 -> erzeugt
+[JSON] image_id=img_0020 id=11 audio gesetzt -> question-img_0020-11.mp3
+[GEN ] image_id=img_0020 id=11 -> question-img_0020-11.mp3
+[OK  ] image_id=img_0020 id=11 -> erzeugt
+[JSON] image_id=img_0020 id=12 audio gesetzt -> question-img_0020-12.mp3
+[GEN ] image_id=img_0020 id=12 -> question-img_0020-12.mp3
+[OK  ] image_id=img_0020 id=12 -> erzeugt
+[JSON] image_id=img_0020 id=13 audio gesetzt -> question-img_0020-13.mp3
+[GEN ] image_id=img_0020 id=13 -> question-img_0020-13.mp3
+[OK  ] image_id=img_0020 id=13 -> erzeugt
+[JSON] image_id=img_0020 id=14 audio gesetzt -> question-img_0020-14.mp3
+[GEN ] image_id=img_0020 id=14 -> question-img_0020-14.mp3
+[OK  ] image_id=img_0020 id=14 -> erzeugt
+[JSON] image_id=img_0020 id=15 audio gesetzt -> question-img_0020-15.mp3
+[GEN ] image_id=img_0020 id=15 -> question-img_0020-15.mp3
+[OK  ] image_id=img_0020 id=15 -> erzeugt
+[JSON] image_id=img_0021 id=1 audio gesetzt -> question-img_0021-1.mp3
+[GEN ] image_id=img_0021 id=1 -> question-img_0021-1.mp3
+[OK  ] image_id=img_0021 id=1 -> erzeugt
+[JSON] image_id=img_0021 id=2 audio gesetzt -> question-img_0021-2.mp3
+[GEN ] image_id=img_0021 id=2 -> question-img_0021-2.mp3
+[OK  ] image_id=img_0021 id=2 -> erzeugt
+[JSON] image_id=img_0021 id=3 audio gesetzt -> question-img_0021-3.mp3
+[GEN ] image_id=img_0021 id=3 -> question-img_0021-3.mp3
+[OK  ] image_id=img_0021 id=3 -> erzeugt
+[JSON] image_id=img_0021 id=4 audio gesetzt -> question-img_0021-4.mp3
+[GEN ] image_id=img_0021 id=4 -> question-img_0021-4.mp3
+[OK  ] image_id=img_0021 id=4 -> erzeugt
+[JSON] image_id=img_0021 id=5 audio gesetzt -> question-img_0021-5.mp3
+[GEN ] image_id=img_0021 id=5 -> question-img_0021-5.mp3
+[OK  ] image_id=img_0021 id=5 -> erzeugt
+[JSON] image_id=img_0021 id=6 audio gesetzt -> question-img_0021-6.mp3
+[GEN ] image_id=img_0021 id=6 -> question-img_0021-6.mp3
+[OK  ] image_id=img_0021 id=6 -> erzeugt
+[JSON] image_id=img_0021 id=7 audio gesetzt -> question-img_0021-7.mp3
+[GEN ] image_id=img_0021 id=7 -> question-img_0021-7.mp3
+[OK  ] image_id=img_0021 id=7 -> erzeugt
+[JSON] image_id=img_0021 id=8 audio gesetzt -> question-img_0021-8.mp3
+[GEN ] image_id=img_0021 id=8 -> question-img_0021-8.mp3
+[OK  ] image_id=img_0021 id=8 -> erzeugt
+[JSON] image_id=img_0021 id=9 audio gesetzt -> question-img_0021-9.mp3
+[GEN ] image_id=img_0021 id=9 -> question-img_0021-9.mp3
+[OK  ] image_id=img_0021 id=9 -> erzeugt
+[JSON] image_id=img_0021 id=10 audio gesetzt -> question-img_0021-10.mp3
+[GEN ] image_id=img_0021 id=10 -> question-img_0021-10.mp3
+[OK  ] image_id=img_0021 id=10 -> erzeugt
+[JSON] image_id=img_0021 id=11 audio gesetzt -> question-img_0021-11.mp3
+[GEN ] image_id=img_0021 id=11 -> question-img_0021-11.mp3
+[OK  ] image_id=img_0021 id=11 -> erzeugt
+[JSON] image_id=img_0021 id=12 audio gesetzt -> question-img_0021-12.mp3
+[GEN ] image_id=img_0021 id=12 -> question-img_0021-12.mp3
+[OK  ] image_id=img_0021 id=12 -> erzeugt
+[JSON] image_id=img_0022 id=1 audio gesetzt -> question-img_0022-1.mp3
+[GEN ] image_id=img_0022 id=1 -> question-img_0022-1.mp3
+[OK  ] image_id=img_0022 id=1 -> erzeugt
+[JSON] image_id=img_0022 id=2 audio gesetzt -> question-img_0022-2.mp3
+[GEN ] image_id=img_0022 id=2 -> question-img_0022-2.mp3
+[OK  ] image_id=img_0022 id=2 -> erzeugt
+[JSON] image_id=img_0022 id=3 audio gesetzt -> question-img_0022-3.mp3
+[GEN ] image_id=img_0022 id=3 -> question-img_0022-3.mp3
+[OK  ] image_id=img_0022 id=3 -> erzeugt
+[JSON] image_id=img_0022 id=4 audio gesetzt -> question-img_0022-4.mp3
+[GEN ] image_id=img_0022 id=4 -> question-img_0022-4.mp3
+[OK  ] image_id=img_0022 id=4 -> erzeugt
+[JSON] image_id=img_0022 id=5 audio gesetzt -> question-img_0022-5.mp3
+[GEN ] image_id=img_0022 id=5 -> question-img_0022-5.mp3
+[OK  ] image_id=img_0022 id=5 -> erzeugt
+[JSON] image_id=img_0022 id=6 audio gesetzt -> question-img_0022-6.mp3
+[GEN ] image_id=img_0022 id=6 -> question-img_0022-6.mp3
+[OK  ] image_id=img_0022 id=6 -> erzeugt
+[JSON] image_id=img_0022 id=7 audio gesetzt -> question-img_0022-7.mp3
+[GEN ] image_id=img_0022 id=7 -> question-img_0022-7.mp3
+[OK  ] image_id=img_0022 id=7 -> erzeugt
+[JSON] image_id=img_0022 id=8 audio gesetzt -> question-img_0022-8.mp3
+[GEN ] image_id=img_0022 id=8 -> question-img_0022-8.mp3
+[OK  ] image_id=img_0022 id=8 -> erzeugt
+[JSON] image_id=img_0022 id=9 audio gesetzt -> question-img_0022-9.mp3
+[GEN ] image_id=img_0022 id=9 -> question-img_0022-9.mp3
+[OK  ] image_id=img_0022 id=9 -> erzeugt
+[JSON] image_id=img_0022 id=10 audio gesetzt -> question-img_0022-10.mp3
+[GEN ] image_id=img_0022 id=10 -> question-img_0022-10.mp3
+[OK  ] image_id=img_0022 id=10 -> erzeugt
+[JSON] image_id=img_0022 id=11 audio gesetzt -> question-img_0022-11.mp3
+[GEN ] image_id=img_0022 id=11 -> question-img_0022-11.mp3
+[OK  ] image_id=img_0022 id=11 -> erzeugt
+[JSON] image_id=img_0022 id=12 audio gesetzt -> question-img_0022-12.mp3
+[GEN ] image_id=img_0022 id=12 -> question-img_0022-12.mp3
+[OK  ] image_id=img_0022 id=12 -> erzeugt
+[JSON] image_id=img_0022 id=13 audio gesetzt -> question-img_0022-13.mp3
+[GEN ] image_id=img_0022 id=13 -> question-img_0022-13.mp3
+[OK  ] image_id=img_0022 id=13 -> erzeugt
+[JSON] image_id=img_0022 id=14 audio gesetzt -> question-img_0022-14.mp3
+[GEN ] image_id=img_0022 id=14 -> question-img_0022-14.mp3
+[OK  ] image_id=img_0022 id=14 -> erzeugt
+[JSON] image_id=img_0022 id=15 audio gesetzt -> question-img_0022-15.mp3
+[GEN ] image_id=img_0022 id=15 -> question-img_0022-15.mp3
+[OK  ] image_id=img_0022 id=15 -> erzeugt
+[JSON] image_id=img_0023 id=1 audio gesetzt -> question-img_0023-1.mp3
+[GEN ] image_id=img_0023 id=1 -> question-img_0023-1.mp3
+[OK  ] image_id=img_0023 id=1 -> erzeugt
+[JSON] image_id=img_0023 id=2 audio gesetzt -> question-img_0023-2.mp3
+[GEN ] image_id=img_0023 id=2 -> question-img_0023-2.mp3
+[OK  ] image_id=img_0023 id=2 -> erzeugt
+[JSON] image_id=img_0023 id=3 audio gesetzt -> question-img_0023-3.mp3
+[GEN ] image_id=img_0023 id=3 -> question-img_0023-3.mp3
+[OK  ] image_id=img_0023 id=3 -> erzeugt
+[JSON] image_id=img_0023 id=4 audio gesetzt -> question-img_0023-4.mp3
+[GEN ] image_id=img_0023 id=4 -> question-img_0023-4.mp3
+[OK  ] image_id=img_0023 id=4 -> erzeugt
+[JSON] image_id=img_0023 id=5 audio gesetzt -> question-img_0023-5.mp3
+[GEN ] image_id=img_0023 id=5 -> question-img_0023-5.mp3
+[OK  ] image_id=img_0023 id=5 -> erzeugt
+[JSON] image_id=img_0023 id=6 audio gesetzt -> question-img_0023-6.mp3
+[GEN ] image_id=img_0023 id=6 -> question-img_0023-6.mp3
+[OK  ] image_id=img_0023 id=6 -> erzeugt
+[JSON] image_id=img_0023 id=7 audio gesetzt -> question-img_0023-7.mp3
+[GEN ] image_id=img_0023 id=7 -> question-img_0023-7.mp3
+[OK  ] image_id=img_0023 id=7 -> erzeugt
+[JSON] image_id=img_0023 id=8 audio gesetzt -> question-img_0023-8.mp3
+[GEN ] image_id=img_0023 id=8 -> question-img_0023-8.mp3
+[OK  ] image_id=img_0023 id=8 -> erzeugt
+[JSON] image_id=img_0023 id=9 audio gesetzt -> question-img_0023-9.mp3
+[GEN ] image_id=img_0023 id=9 -> question-img_0023-9.mp3
+[OK  ] image_id=img_0023 id=9 -> erzeugt
+[JSON] image_id=img_0023 id=10 audio gesetzt -> question-img_0023-10.mp3
+[GEN ] image_id=img_0023 id=10 -> question-img_0023-10.mp3
+[OK  ] image_id=img_0023 id=10 -> erzeugt
+[JSON] image_id=img_0023 id=11 audio gesetzt -> question-img_0023-11.mp3
+[GEN ] image_id=img_0023 id=11 -> question-img_0023-11.mp3
+[OK  ] image_id=img_0023 id=11 -> erzeugt
+[JSON] image_id=img_0023 id=12 audio gesetzt -> question-img_0023-12.mp3
+[GEN ] image_id=img_0023 id=12 -> question-img_0023-12.mp3
+[OK  ] image_id=img_0023 id=12 -> erzeugt
+[JSON] image_id=img_0023 id=13 audio gesetzt -> question-img_0023-13.mp3
+[GEN ] image_id=img_0023 id=13 -> question-img_0023-13.mp3
+[OK  ] image_id=img_0023 id=13 -> erzeugt
+[JSON] image_id=img_0024 id=1 audio gesetzt -> question-img_0024-1.mp3
+[GEN ] image_id=img_0024 id=1 -> question-img_0024-1.mp3
+[OK  ] image_id=img_0024 id=1 -> erzeugt
+[JSON] image_id=img_0024 id=2 audio gesetzt -> question-img_0024-2.mp3
+[GEN ] image_id=img_0024 id=2 -> question-img_0024-2.mp3
+[OK  ] image_id=img_0024 id=2 -> erzeugt
+[JSON] image_id=img_0024 id=3 audio gesetzt -> question-img_0024-3.mp3
+[GEN ] image_id=img_0024 id=3 -> question-img_0024-3.mp3
+[OK  ] image_id=img_0024 id=3 -> erzeugt
+[JSON] image_id=img_0024 id=4 audio gesetzt -> question-img_0024-4.mp3
+[GEN ] image_id=img_0024 id=4 -> question-img_0024-4.mp3
+[OK  ] image_id=img_0024 id=4 -> erzeugt
+[JSON] image_id=img_0024 id=5 audio gesetzt -> question-img_0024-5.mp3
+[GEN ] image_id=img_0024 id=5 -> question-img_0024-5.mp3
+[OK  ] image_id=img_0024 id=5 -> erzeugt
+[JSON] image_id=img_0024 id=6 audio gesetzt -> question-img_0024-6.mp3
+[GEN ] image_id=img_0024 id=6 -> question-img_0024-6.mp3
+[OK  ] image_id=img_0024 id=6 -> erzeugt
+[JSON] image_id=img_0024 id=7 audio gesetzt -> question-img_0024-7.mp3
+[GEN ] image_id=img_0024 id=7 -> question-img_0024-7.mp3
+[OK  ] image_id=img_0024 id=7 -> erzeugt
+[JSON] image_id=img_0024 id=8 audio gesetzt -> question-img_0024-8.mp3
+[GEN ] image_id=img_0024 id=8 -> question-img_0024-8.mp3
+[OK  ] image_id=img_0024 id=8 -> erzeugt
+[JSON] image_id=img_0024 id=9 audio gesetzt -> question-img_0024-9.mp3
+[GEN ] image_id=img_0024 id=9 -> question-img_0024-9.mp3
+[OK  ] image_id=img_0024 id=9 -> erzeugt
+[JSON] image_id=img_0024 id=10 audio gesetzt -> question-img_0024-10.mp3
+[GEN ] image_id=img_0024 id=10 -> question-img_0024-10.mp3
+[OK  ] image_id=img_0024 id=10 -> erzeugt
+[JSON] image_id=img_0024 id=11 audio gesetzt -> question-img_0024-11.mp3
+[GEN ] image_id=img_0024 id=11 -> question-img_0024-11.mp3
+[OK  ] image_id=img_0024 id=11 -> erzeugt
+[JSON] image_id=img_0024 id=12 audio gesetzt -> question-img_0024-12.mp3
+[GEN ] image_id=img_0024 id=12 -> question-img_0024-12.mp3
+[OK  ] image_id=img_0024 id=12 -> erzeugt
+[JSON] image_id=img_0024 id=13 audio gesetzt -> question-img_0024-13.mp3
+[GEN ] image_id=img_0024 id=13 -> question-img_0024-13.mp3
+[OK  ] image_id=img_0024 id=13 -> erzeugt
+[JSON] image_id=img_0025 id=1 audio gesetzt -> question-img_0025-1.mp3
+[GEN ] image_id=img_0025 id=1 -> question-img_0025-1.mp3
+[OK  ] image_id=img_0025 id=1 -> erzeugt
+[JSON] image_id=img_0025 id=2 audio gesetzt -> question-img_0025-2.mp3
+[GEN ] image_id=img_0025 id=2 -> question-img_0025-2.mp3
+[OK  ] image_id=img_0025 id=2 -> erzeugt
+[JSON] image_id=img_0025 id=3 audio gesetzt -> question-img_0025-3.mp3
+[GEN ] image_id=img_0025 id=3 -> question-img_0025-3.mp3
+[OK  ] image_id=img_0025 id=3 -> erzeugt
+[JSON] image_id=img_0025 id=4 audio gesetzt -> question-img_0025-4.mp3
+[GEN ] image_id=img_0025 id=4 -> question-img_0025-4.mp3
+[OK  ] image_id=img_0025 id=4 -> erzeugt
+[JSON] image_id=img_0025 id=5 audio gesetzt -> question-img_0025-5.mp3
+[GEN ] image_id=img_0025 id=5 -> question-img_0025-5.mp3
+[OK  ] image_id=img_0025 id=5 -> erzeugt
+[JSON] image_id=img_0025 id=6 audio gesetzt -> question-img_0025-6.mp3
+[GEN ] image_id=img_0025 id=6 -> question-img_0025-6.mp3
+[OK  ] image_id=img_0025 id=6 -> erzeugt
+[JSON] image_id=img_0025 id=7 audio gesetzt -> question-img_0025-7.mp3
+[GEN ] image_id=img_0025 id=7 -> question-img_0025-7.mp3
+[OK  ] image_id=img_0025 id=7 -> erzeugt
+[JSON] image_id=img_0025 id=8 audio gesetzt -> question-img_0025-8.mp3
+[GEN ] image_id=img_0025 id=8 -> question-img_0025-8.mp3
+[OK  ] image_id=img_0025 id=8 -> erzeugt
+[JSON] image_id=img_0025 id=9 audio gesetzt -> question-img_0025-9.mp3
+[GEN ] image_id=img_0025 id=9 -> question-img_0025-9.mp3
+[OK  ] image_id=img_0025 id=9 -> erzeugt
+[JSON] image_id=img_0025 id=10 audio gesetzt -> question-img_0025-10.mp3
+[GEN ] image_id=img_0025 id=10 -> question-img_0025-10.mp3
+[OK  ] image_id=img_0025 id=10 -> erzeugt
+[JSON] image_id=img_0025 id=11 audio gesetzt -> question-img_0025-11.mp3
+[GEN ] image_id=img_0025 id=11 -> question-img_0025-11.mp3
+[OK  ] image_id=img_0025 id=11 -> erzeugt
+[JSON] image_id=img_0025 id=12 audio gesetzt -> question-img_0025-12.mp3
+[GEN ] image_id=img_0025 id=12 -> question-img_0025-12.mp3
+[OK  ] image_id=img_0025 id=12 -> erzeugt
+[JSON] image_id=img_0025 id=13 audio gesetzt -> question-img_0025-13.mp3
+[GEN ] image_id=img_0025 id=13 -> question-img_0025-13.mp3
+[OK  ] image_id=img_0025 id=13 -> erzeugt
+[JSON] image_id=img_0008 id=1 audio gesetzt -> question-img_0008-1.mp3
+[SKIP] image_id=img_0008 id=1 -> existiert bereits (question-img_0008-1.mp3)
+[JSON] image_id=img_0008 id=2 audio gesetzt -> question-img_0008-2.mp3
+[SKIP] image_id=img_0008 id=2 -> existiert bereits (question-img_0008-2.mp3)
+[JSON] image_id=img_0008 id=3 audio gesetzt -> question-img_0008-3.mp3
+[SKIP] image_id=img_0008 id=3 -> existiert bereits (question-img_0008-3.mp3)
+[JSON] image_id=img_0008 id=4 audio gesetzt -> question-img_0008-4.mp3
+[SKIP] image_id=img_0008 id=4 -> existiert bereits (question-img_0008-4.mp3)
+[JSON] image_id=img_0008 id=5 audio gesetzt -> question-img_0008-5.mp3
+[SKIP] image_id=img_0008 id=5 -> existiert bereits (question-img_0008-5.mp3)
+[JSON] image_id=img_0008 id=6 audio gesetzt -> question-img_0008-6.mp3
+[SKIP] image_id=img_0008 id=6 -> existiert bereits (question-img_0008-6.mp3)
+[JSON] image_id=img_0008 id=7 audio gesetzt -> question-img_0008-7.mp3
+[SKIP] image_id=img_0008 id=7 -> existiert bereits (question-img_0008-7.mp3)
+[JSON] image_id=img_0008 id=8 audio gesetzt -> question-img_0008-8.mp3
+[SKIP] image_id=img_0008 id=8 -> existiert bereits (question-img_0008-8.mp3)
+[JSON] image_id=img_0008 id=9 audio gesetzt -> question-img_0008-9.mp3
+[SKIP] image_id=img_0008 id=9 -> existiert bereits (question-img_0008-9.mp3)
+[JSON] image_id=img_0008 id=10 audio gesetzt -> question-img_0008-10.mp3
+[SKIP] image_id=img_0008 id=10 -> existiert bereits (question-img_0008-10.mp3)
+[JSON] image_id=img_0008 id=11 audio gesetzt -> question-img_0008-11.mp3
+[SKIP] image_id=img_0008 id=11 -> existiert bereits (question-img_0008-11.mp3)
+[JSON] image_id=img_0008 id=12 audio gesetzt -> question-img_0008-12.mp3
+[SKIP] image_id=img_0008 id=12 -> existiert bereits (question-img_0008-12.mp3)
+[JSON] image_id=img_0008 id=13 audio gesetzt -> question-img_0008-13.mp3
+[SKIP] image_id=img_0008 id=13 -> existiert bereits (question-img_0008-13.mp3)
+------------------------------------------------------------
+[2026-01-24 10:31:41] ENDE
+fragen gesehen: 284
+produziert:    256
+übersprungen:  28
+fehler:        0
+json-updates:  284
+mp3 im Ordner: 284
+============================================================
+
+============================================================
+[2026-03-13 08:51:50] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/imagememory/media/audio
+Questions:     /home/aleranzer/quizshark/imagememory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=img_0004 id=1 -> existiert bereits (question-img_0004-1.mp3)
+[SKIP] image_id=img_0004 id=2 -> existiert bereits (question-img_0004-2.mp3)
+[SKIP] image_id=img_0004 id=3 -> existiert bereits (question-img_0004-3.mp3)
+[SKIP] image_id=img_0004 id=4 -> existiert bereits (question-img_0004-4.mp3)
+[SKIP] image_id=img_0004 id=5 -> existiert bereits (question-img_0004-5.mp3)
+[SKIP] image_id=img_0004 id=6 -> existiert bereits (question-img_0004-6.mp3)
+[SKIP] image_id=img_0004 id=7 -> existiert bereits (question-img_0004-7.mp3)
+[SKIP] image_id=img_0004 id=8 -> existiert bereits (question-img_0004-8.mp3)
+[SKIP] image_id=img_0004 id=9 -> existiert bereits (question-img_0004-9.mp3)
+[SKIP] image_id=img_0004 id=10 -> existiert bereits (question-img_0004-10.mp3)
+[SKIP] image_id=img_0004 id=11 -> existiert bereits (question-img_0004-11.mp3)
+[SKIP] image_id=img_0004 id=12 -> existiert bereits (question-img_0004-12.mp3)
+[SKIP] image_id=img_0004 id=13 -> existiert bereits (question-img_0004-13.mp3)
+[SKIP] image_id=img_0004 id=14 -> existiert bereits (question-img_0004-14.mp3)
+[SKIP] image_id=img_0004 id=15 -> existiert bereits (question-img_0004-15.mp3)
+[SKIP] image_id=img_0005 id=1 -> existiert bereits (question-img_0005-1.mp3)
+[SKIP] image_id=img_0005 id=2 -> existiert bereits (question-img_0005-2.mp3)
+[SKIP] image_id=img_0005 id=3 -> existiert bereits (question-img_0005-3.mp3)
+[SKIP] image_id=img_0005 id=4 -> existiert bereits (question-img_0005-4.mp3)
+[SKIP] image_id=img_0005 id=5 -> existiert bereits (question-img_0005-5.mp3)
+[SKIP] image_id=img_0005 id=6 -> existiert bereits (question-img_0005-6.mp3)
+[SKIP] image_id=img_0005 id=7 -> existiert bereits (question-img_0005-7.mp3)
+[SKIP] image_id=img_0005 id=8 -> existiert bereits (question-img_0005-8.mp3)
+[SKIP] image_id=img_0005 id=9 -> existiert bereits (question-img_0005-9.mp3)
+[SKIP] image_id=img_0005 id=10 -> existiert bereits (question-img_0005-10.mp3)
+[SKIP] image_id=img_0005 id=11 -> existiert bereits (question-img_0005-11.mp3)
+[SKIP] image_id=img_0005 id=12 -> existiert bereits (question-img_0005-12.mp3)
+[SKIP] image_id=img_0005 id=13 -> existiert bereits (question-img_0005-13.mp3)
+[SKIP] image_id=img_0005 id=14 -> existiert bereits (question-img_0005-14.mp3)
+[SKIP] image_id=img_0005 id=15 -> existiert bereits (question-img_0005-15.mp3)
+[SKIP] image_id=img_0007 id=1 -> existiert bereits (question-img_0007-1.mp3)
+[SKIP] image_id=img_0007 id=2 -> existiert bereits (question-img_0007-2.mp3)
+[SKIP] image_id=img_0007 id=3 -> existiert bereits (question-img_0007-3.mp3)
+[SKIP] image_id=img_0007 id=4 -> existiert bereits (question-img_0007-4.mp3)
+[SKIP] image_id=img_0007 id=5 -> existiert bereits (question-img_0007-5.mp3)
+[SKIP] image_id=img_0007 id=6 -> existiert bereits (question-img_0007-6.mp3)
+[SKIP] image_id=img_0007 id=7 -> existiert bereits (question-img_0007-7.mp3)
+[SKIP] image_id=img_0007 id=8 -> existiert bereits (question-img_0007-8.mp3)
+[SKIP] image_id=img_0007 id=9 -> existiert bereits (question-img_0007-9.mp3)
+[SKIP] image_id=img_0007 id=10 -> existiert bereits (question-img_0007-10.mp3)
+[SKIP] image_id=img_0007 id=11 -> existiert bereits (question-img_0007-11.mp3)
+[SKIP] image_id=img_0007 id=12 -> existiert bereits (question-img_0007-12.mp3)
+[SKIP] image_id=img_0007 id=13 -> existiert bereits (question-img_0007-13.mp3)
+[SKIP] image_id=img_0007 id=14 -> existiert bereits (question-img_0007-14.mp3)
+[SKIP] image_id=img_0007 id=15 -> existiert bereits (question-img_0007-15.mp3)
+[SKIP] image_id=img_0008 id=1 -> existiert bereits (question-img_0008-1.mp3)
+[SKIP] image_id=img_0008 id=2 -> existiert bereits (question-img_0008-2.mp3)
+[SKIP] image_id=img_0008 id=3 -> existiert bereits (question-img_0008-3.mp3)
+[SKIP] image_id=img_0008 id=4 -> existiert bereits (question-img_0008-4.mp3)
+[SKIP] image_id=img_0008 id=5 -> existiert bereits (question-img_0008-5.mp3)
+[SKIP] image_id=img_0008 id=6 -> existiert bereits (question-img_0008-6.mp3)
+[SKIP] image_id=img_0008 id=7 -> existiert bereits (question-img_0008-7.mp3)
+[SKIP] image_id=img_0008 id=8 -> existiert bereits (question-img_0008-8.mp3)
+[SKIP] image_id=img_0008 id=9 -> existiert bereits (question-img_0008-9.mp3)
+[SKIP] image_id=img_0008 id=10 -> existiert bereits (question-img_0008-10.mp3)
+[SKIP] image_id=img_0008 id=11 -> existiert bereits (question-img_0008-11.mp3)
+[SKIP] image_id=img_0008 id=12 -> existiert bereits (question-img_0008-12.mp3)
+[SKIP] image_id=img_0008 id=13 -> existiert bereits (question-img_0008-13.mp3)
+[SKIP] image_id=img_0009 id=1 -> existiert bereits (question-img_0009-1.mp3)
+[SKIP] image_id=img_0009 id=2 -> existiert bereits (question-img_0009-2.mp3)
+[SKIP] image_id=img_0009 id=3 -> existiert bereits (question-img_0009-3.mp3)
+[SKIP] image_id=img_0009 id=4 -> existiert bereits (question-img_0009-4.mp3)
+[SKIP] image_id=img_0009 id=5 -> existiert bereits (question-img_0009-5.mp3)
+[SKIP] image_id=img_0009 id=6 -> existiert bereits (question-img_0009-6.mp3)
+[SKIP] image_id=img_0009 id=7 -> existiert bereits (question-img_0009-7.mp3)
+[SKIP] image_id=img_0009 id=8 -> existiert bereits (question-img_0009-8.mp3)
+[SKIP] image_id=img_0009 id=9 -> existiert bereits (question-img_0009-9.mp3)
+[SKIP] image_id=img_0009 id=10 -> existiert bereits (question-img_0009-10.mp3)
+[SKIP] image_id=img_0009 id=11 -> existiert bereits (question-img_0009-11.mp3)
+[SKIP] image_id=img_0009 id=12 -> existiert bereits (question-img_0009-12.mp3)
+[SKIP] image_id=img_0009 id=13 -> existiert bereits (question-img_0009-13.mp3)
+[SKIP] image_id=img_0010 id=1 -> existiert bereits (question-img_0010-1.mp3)
+[SKIP] image_id=img_0010 id=2 -> existiert bereits (question-img_0010-2.mp3)
+[SKIP] image_id=img_0010 id=3 -> existiert bereits (question-img_0010-3.mp3)
+[SKIP] image_id=img_0010 id=4 -> existiert bereits (question-img_0010-4.mp3)
+[SKIP] image_id=img_0010 id=5 -> existiert bereits (question-img_0010-5.mp3)
+[SKIP] image_id=img_0010 id=6 -> existiert bereits (question-img_0010-6.mp3)
+[SKIP] image_id=img_0010 id=7 -> existiert bereits (question-img_0010-7.mp3)
+[SKIP] image_id=img_0010 id=8 -> existiert bereits (question-img_0010-8.mp3)
+[SKIP] image_id=img_0010 id=9 -> existiert bereits (question-img_0010-9.mp3)
+[SKIP] image_id=img_0010 id=10 -> existiert bereits (question-img_0010-10.mp3)
+[SKIP] image_id=img_0010 id=11 -> existiert bereits (question-img_0010-11.mp3)
+[SKIP] image_id=img_0010 id=12 -> existiert bereits (question-img_0010-12.mp3)
+[SKIP] image_id=img_0011 id=1 -> existiert bereits (question-img_0011-1.mp3)
+[SKIP] image_id=img_0011 id=2 -> existiert bereits (question-img_0011-2.mp3)
+[SKIP] image_id=img_0011 id=3 -> existiert bereits (question-img_0011-3.mp3)
+[SKIP] image_id=img_0011 id=4 -> existiert bereits (question-img_0011-4.mp3)
+[SKIP] image_id=img_0011 id=5 -> existiert bereits (question-img_0011-5.mp3)
+[SKIP] image_id=img_0011 id=6 -> existiert bereits (question-img_0011-6.mp3)
+[SKIP] image_id=img_0011 id=7 -> existiert bereits (question-img_0011-7.mp3)
+[SKIP] image_id=img_0011 id=8 -> existiert bereits (question-img_0011-8.mp3)
+[SKIP] image_id=img_0011 id=9 -> existiert bereits (question-img_0011-9.mp3)
+[SKIP] image_id=img_0011 id=10 -> existiert bereits (question-img_0011-10.mp3)
+[SKIP] image_id=img_0011 id=11 -> existiert bereits (question-img_0011-11.mp3)
+[SKIP] image_id=img_0011 id=12 -> existiert bereits (question-img_0011-12.mp3)
+[SKIP] image_id=img_0011 id=13 -> existiert bereits (question-img_0011-13.mp3)
+[SKIP] image_id=img_0011 id=14 -> existiert bereits (question-img_0011-14.mp3)
+[SKIP] image_id=img_0011 id=15 -> existiert bereits (question-img_0011-15.mp3)
+[SKIP] image_id=img_0011 id=16 -> existiert bereits (question-img_0011-16.mp3)
+[SKIP] image_id=img_0011 id=17 -> existiert bereits (question-img_0011-17.mp3)
+[SKIP] image_id=img_0011 id=18 -> existiert bereits (question-img_0011-18.mp3)
+[SKIP] image_id=img_0011 id=19 -> existiert bereits (question-img_0011-19.mp3)
+[SKIP] image_id=img_0011 id=20 -> existiert bereits (question-img_0011-20.mp3)
+[SKIP] image_id=img_0012 id=1 -> existiert bereits (question-img_0012-1.mp3)
+[SKIP] image_id=img_0012 id=2 -> existiert bereits (question-img_0012-2.mp3)
+[SKIP] image_id=img_0012 id=3 -> existiert bereits (question-img_0012-3.mp3)
+[SKIP] image_id=img_0012 id=4 -> existiert bereits (question-img_0012-4.mp3)
+[SKIP] image_id=img_0012 id=5 -> existiert bereits (question-img_0012-5.mp3)
+[SKIP] image_id=img_0012 id=6 -> existiert bereits (question-img_0012-6.mp3)
+[SKIP] image_id=img_0012 id=7 -> existiert bereits (question-img_0012-7.mp3)
+[SKIP] image_id=img_0012 id=8 -> existiert bereits (question-img_0012-8.mp3)
+[SKIP] image_id=img_0012 id=9 -> existiert bereits (question-img_0012-9.mp3)
+[SKIP] image_id=img_0012 id=10 -> existiert bereits (question-img_0012-10.mp3)
+[SKIP] image_id=img_0012 id=11 -> existiert bereits (question-img_0012-11.mp3)
+[SKIP] image_id=img_0012 id=12 -> existiert bereits (question-img_0012-12.mp3)
+[SKIP] image_id=img_0012 id=13 -> existiert bereits (question-img_0012-13.mp3)
+[SKIP] image_id=img_0012 id=14 -> existiert bereits (question-img_0012-14.mp3)
+[SKIP] image_id=img_0013 id=1 -> existiert bereits (question-img_0013-1.mp3)
+[SKIP] image_id=img_0013 id=2 -> existiert bereits (question-img_0013-2.mp3)
+[SKIP] image_id=img_0013 id=3 -> existiert bereits (question-img_0013-3.mp3)
+[SKIP] image_id=img_0013 id=4 -> existiert bereits (question-img_0013-4.mp3)
+[SKIP] image_id=img_0013 id=5 -> existiert bereits (question-img_0013-5.mp3)
+[SKIP] image_id=img_0013 id=6 -> existiert bereits (question-img_0013-6.mp3)
+[SKIP] image_id=img_0013 id=7 -> existiert bereits (question-img_0013-7.mp3)
+[SKIP] image_id=img_0013 id=8 -> existiert bereits (question-img_0013-8.mp3)
+[SKIP] image_id=img_0013 id=9 -> existiert bereits (question-img_0013-9.mp3)
+[SKIP] image_id=img_0013 id=10 -> existiert bereits (question-img_0013-10.mp3)
+[SKIP] image_id=img_0013 id=11 -> existiert bereits (question-img_0013-11.mp3)
+[SKIP] image_id=img_0013 id=12 -> existiert bereits (question-img_0013-12.mp3)
+[SKIP] image_id=img_0013 id=13 -> existiert bereits (question-img_0013-13.mp3)
+[SKIP] image_id=img_0014 id=1 -> existiert bereits (question-img_0014-1.mp3)
+[SKIP] image_id=img_0014 id=2 -> existiert bereits (question-img_0014-2.mp3)
+[SKIP] image_id=img_0014 id=3 -> existiert bereits (question-img_0014-3.mp3)
+[SKIP] image_id=img_0014 id=4 -> existiert bereits (question-img_0014-4.mp3)
+[SKIP] image_id=img_0014 id=5 -> existiert bereits (question-img_0014-5.mp3)
+[SKIP] image_id=img_0014 id=6 -> existiert bereits (question-img_0014-6.mp3)
+[SKIP] image_id=img_0014 id=7 -> existiert bereits (question-img_0014-7.mp3)
+[SKIP] image_id=img_0014 id=8 -> existiert bereits (question-img_0014-8.mp3)
+[SKIP] image_id=img_0014 id=9 -> existiert bereits (question-img_0014-9.mp3)
+[SKIP] image_id=img_0014 id=10 -> existiert bereits (question-img_0014-10.mp3)
+[SKIP] image_id=img_0014 id=11 -> existiert bereits (question-img_0014-11.mp3)
+[SKIP] image_id=img_0014 id=12 -> existiert bereits (question-img_0014-12.mp3)
+[SKIP] image_id=img_0014 id=13 -> existiert bereits (question-img_0014-13.mp3)
+[SKIP] image_id=img_0014 id=14 -> existiert bereits (question-img_0014-14.mp3)
+[SKIP] image_id=img_0015 id=1 -> existiert bereits (question-img_0015-1.mp3)
+[SKIP] image_id=img_0015 id=2 -> existiert bereits (question-img_0015-2.mp3)
+[SKIP] image_id=img_0015 id=3 -> existiert bereits (question-img_0015-3.mp3)
+[SKIP] image_id=img_0015 id=4 -> existiert bereits (question-img_0015-4.mp3)
+[SKIP] image_id=img_0015 id=5 -> existiert bereits (question-img_0015-5.mp3)
+[SKIP] image_id=img_0015 id=6 -> existiert bereits (question-img_0015-6.mp3)
+[SKIP] image_id=img_0015 id=7 -> existiert bereits (question-img_0015-7.mp3)
+[SKIP] image_id=img_0015 id=8 -> existiert bereits (question-img_0015-8.mp3)
+[SKIP] image_id=img_0015 id=9 -> existiert bereits (question-img_0015-9.mp3)
+[SKIP] image_id=img_0015 id=10 -> existiert bereits (question-img_0015-10.mp3)
+[SKIP] image_id=img_0015 id=11 -> existiert bereits (question-img_0015-11.mp3)
+[SKIP] image_id=img_0015 id=12 -> existiert bereits (question-img_0015-12.mp3)
+[SKIP] image_id=img_0015 id=13 -> existiert bereits (question-img_0015-13.mp3)
+[SKIP] image_id=img_0016 id=1 -> existiert bereits (question-img_0016-1.mp3)
+[SKIP] image_id=img_0016 id=2 -> existiert bereits (question-img_0016-2.mp3)
+[SKIP] image_id=img_0016 id=3 -> existiert bereits (question-img_0016-3.mp3)
+[SKIP] image_id=img_0016 id=4 -> existiert bereits (question-img_0016-4.mp3)
+[SKIP] image_id=img_0016 id=5 -> existiert bereits (question-img_0016-5.mp3)
+[SKIP] image_id=img_0016 id=6 -> existiert bereits (question-img_0016-6.mp3)
+[SKIP] image_id=img_0016 id=7 -> existiert bereits (question-img_0016-7.mp3)
+[SKIP] image_id=img_0016 id=8 -> existiert bereits (question-img_0016-8.mp3)
+[SKIP] image_id=img_0016 id=9 -> existiert bereits (question-img_0016-9.mp3)
+[SKIP] image_id=img_0016 id=10 -> existiert bereits (question-img_0016-10.mp3)
+[SKIP] image_id=img_0016 id=11 -> existiert bereits (question-img_0016-11.mp3)
+[SKIP] image_id=img_0016 id=12 -> existiert bereits (question-img_0016-12.mp3)
+[SKIP] image_id=img_0016 id=13 -> existiert bereits (question-img_0016-13.mp3)
+[SKIP] image_id=img_0017 id=1 -> existiert bereits (question-img_0017-1.mp3)
+[SKIP] image_id=img_0017 id=2 -> existiert bereits (question-img_0017-2.mp3)
+[SKIP] image_id=img_0017 id=3 -> existiert bereits (question-img_0017-3.mp3)
+[SKIP] image_id=img_0017 id=4 -> existiert bereits (question-img_0017-4.mp3)
+[SKIP] image_id=img_0017 id=5 -> existiert bereits (question-img_0017-5.mp3)
+[SKIP] image_id=img_0017 id=6 -> existiert bereits (question-img_0017-6.mp3)
+[SKIP] image_id=img_0017 id=7 -> existiert bereits (question-img_0017-7.mp3)
+[SKIP] image_id=img_0017 id=8 -> existiert bereits (question-img_0017-8.mp3)
+[SKIP] image_id=img_0017 id=9 -> existiert bereits (question-img_0017-9.mp3)
+[SKIP] image_id=img_0018 id=1 -> existiert bereits (question-img_0018-1.mp3)
+[SKIP] image_id=img_0018 id=2 -> existiert bereits (question-img_0018-2.mp3)
+[SKIP] image_id=img_0018 id=3 -> existiert bereits (question-img_0018-3.mp3)
+[SKIP] image_id=img_0018 id=4 -> existiert bereits (question-img_0018-4.mp3)
+[SKIP] image_id=img_0018 id=5 -> existiert bereits (question-img_0018-5.mp3)
+[SKIP] image_id=img_0018 id=6 -> existiert bereits (question-img_0018-6.mp3)
+[SKIP] image_id=img_0018 id=7 -> existiert bereits (question-img_0018-7.mp3)
+[SKIP] image_id=img_0018 id=8 -> existiert bereits (question-img_0018-8.mp3)
+[SKIP] image_id=img_0018 id=9 -> existiert bereits (question-img_0018-9.mp3)
+[SKIP] image_id=img_0018 id=10 -> existiert bereits (question-img_0018-10.mp3)
+[SKIP] image_id=img_0018 id=11 -> existiert bereits (question-img_0018-11.mp3)
+[SKIP] image_id=img_0018 id=12 -> existiert bereits (question-img_0018-12.mp3)
+[SKIP] image_id=img_0019 id=1 -> existiert bereits (question-img_0019-1.mp3)
+[SKIP] image_id=img_0019 id=2 -> existiert bereits (question-img_0019-2.mp3)
+[SKIP] image_id=img_0019 id=3 -> existiert bereits (question-img_0019-3.mp3)
+[SKIP] image_id=img_0019 id=4 -> existiert bereits (question-img_0019-4.mp3)
+[SKIP] image_id=img_0019 id=5 -> existiert bereits (question-img_0019-5.mp3)
+[SKIP] image_id=img_0019 id=6 -> existiert bereits (question-img_0019-6.mp3)
+[SKIP] image_id=img_0019 id=7 -> existiert bereits (question-img_0019-7.mp3)
+[SKIP] image_id=img_0019 id=8 -> existiert bereits (question-img_0019-8.mp3)
+[SKIP] image_id=img_0019 id=9 -> existiert bereits (question-img_0019-9.mp3)
+[SKIP] image_id=img_0019 id=10 -> existiert bereits (question-img_0019-10.mp3)
+[SKIP] image_id=img_0019 id=11 -> existiert bereits (question-img_0019-11.mp3)
+[SKIP] image_id=img_0019 id=12 -> existiert bereits (question-img_0019-12.mp3)
+[SKIP] image_id=img_0020 id=1 -> existiert bereits (question-img_0020-1.mp3)
+[SKIP] image_id=img_0020 id=2 -> existiert bereits (question-img_0020-2.mp3)
+[SKIP] image_id=img_0020 id=3 -> existiert bereits (question-img_0020-3.mp3)
+[SKIP] image_id=img_0020 id=4 -> existiert bereits (question-img_0020-4.mp3)
+[SKIP] image_id=img_0020 id=5 -> existiert bereits (question-img_0020-5.mp3)
+[SKIP] image_id=img_0020 id=6 -> existiert bereits (question-img_0020-6.mp3)
+[SKIP] image_id=img_0020 id=7 -> existiert bereits (question-img_0020-7.mp3)
+[SKIP] image_id=img_0020 id=8 -> existiert bereits (question-img_0020-8.mp3)
+[SKIP] image_id=img_0020 id=9 -> existiert bereits (question-img_0020-9.mp3)
+[SKIP] image_id=img_0020 id=10 -> existiert bereits (question-img_0020-10.mp3)
+[SKIP] image_id=img_0020 id=11 -> existiert bereits (question-img_0020-11.mp3)
+[SKIP] image_id=img_0020 id=12 -> existiert bereits (question-img_0020-12.mp3)
+[SKIP] image_id=img_0020 id=13 -> existiert bereits (question-img_0020-13.mp3)
+[SKIP] image_id=img_0020 id=14 -> existiert bereits (question-img_0020-14.mp3)
+[SKIP] image_id=img_0020 id=15 -> existiert bereits (question-img_0020-15.mp3)
+[SKIP] image_id=img_0021 id=1 -> existiert bereits (question-img_0021-1.mp3)
+[SKIP] image_id=img_0021 id=2 -> existiert bereits (question-img_0021-2.mp3)
+[SKIP] image_id=img_0021 id=3 -> existiert bereits (question-img_0021-3.mp3)
+[SKIP] image_id=img_0021 id=4 -> existiert bereits (question-img_0021-4.mp3)
+[SKIP] image_id=img_0021 id=5 -> existiert bereits (question-img_0021-5.mp3)
+[SKIP] image_id=img_0021 id=6 -> existiert bereits (question-img_0021-6.mp3)
+[SKIP] image_id=img_0021 id=7 -> existiert bereits (question-img_0021-7.mp3)
+[SKIP] image_id=img_0021 id=8 -> existiert bereits (question-img_0021-8.mp3)
+[SKIP] image_id=img_0021 id=9 -> existiert bereits (question-img_0021-9.mp3)
+[SKIP] image_id=img_0021 id=10 -> existiert bereits (question-img_0021-10.mp3)
+[SKIP] image_id=img_0021 id=11 -> existiert bereits (question-img_0021-11.mp3)
+[SKIP] image_id=img_0021 id=12 -> existiert bereits (question-img_0021-12.mp3)
+[SKIP] image_id=img_0022 id=1 -> existiert bereits (question-img_0022-1.mp3)
+[SKIP] image_id=img_0022 id=2 -> existiert bereits (question-img_0022-2.mp3)
+[SKIP] image_id=img_0022 id=3 -> existiert bereits (question-img_0022-3.mp3)
+[SKIP] image_id=img_0022 id=4 -> existiert bereits (question-img_0022-4.mp3)
+[SKIP] image_id=img_0022 id=5 -> existiert bereits (question-img_0022-5.mp3)
+[SKIP] image_id=img_0022 id=6 -> existiert bereits (question-img_0022-6.mp3)
+[SKIP] image_id=img_0022 id=7 -> existiert bereits (question-img_0022-7.mp3)
+[SKIP] image_id=img_0022 id=8 -> existiert bereits (question-img_0022-8.mp3)
+[SKIP] image_id=img_0022 id=9 -> existiert bereits (question-img_0022-9.mp3)
+[SKIP] image_id=img_0022 id=10 -> existiert bereits (question-img_0022-10.mp3)
+[SKIP] image_id=img_0022 id=11 -> existiert bereits (question-img_0022-11.mp3)
+[SKIP] image_id=img_0022 id=12 -> existiert bereits (question-img_0022-12.mp3)
+[SKIP] image_id=img_0022 id=13 -> existiert bereits (question-img_0022-13.mp3)
+[SKIP] image_id=img_0022 id=14 -> existiert bereits (question-img_0022-14.mp3)
+[SKIP] image_id=img_0022 id=15 -> existiert bereits (question-img_0022-15.mp3)
+[SKIP] image_id=img_0023 id=1 -> existiert bereits (question-img_0023-1.mp3)
+[SKIP] image_id=img_0023 id=2 -> existiert bereits (question-img_0023-2.mp3)
+[SKIP] image_id=img_0023 id=3 -> existiert bereits (question-img_0023-3.mp3)
+[SKIP] image_id=img_0023 id=4 -> existiert bereits (question-img_0023-4.mp3)
+[SKIP] image_id=img_0023 id=5 -> existiert bereits (question-img_0023-5.mp3)
+[SKIP] image_id=img_0023 id=6 -> existiert bereits (question-img_0023-6.mp3)
+[SKIP] image_id=img_0023 id=7 -> existiert bereits (question-img_0023-7.mp3)
+[SKIP] image_id=img_0023 id=8 -> existiert bereits (question-img_0023-8.mp3)
+[SKIP] image_id=img_0023 id=9 -> existiert bereits (question-img_0023-9.mp3)
+[SKIP] image_id=img_0023 id=10 -> existiert bereits (question-img_0023-10.mp3)
+[SKIP] image_id=img_0023 id=11 -> existiert bereits (question-img_0023-11.mp3)
+[SKIP] image_id=img_0023 id=12 -> existiert bereits (question-img_0023-12.mp3)
+[SKIP] image_id=img_0023 id=13 -> existiert bereits (question-img_0023-13.mp3)
+[SKIP] image_id=img_0024 id=1 -> existiert bereits (question-img_0024-1.mp3)
+[SKIP] image_id=img_0024 id=2 -> existiert bereits (question-img_0024-2.mp3)
+[SKIP] image_id=img_0024 id=3 -> existiert bereits (question-img_0024-3.mp3)
+[SKIP] image_id=img_0024 id=4 -> existiert bereits (question-img_0024-4.mp3)
+[SKIP] image_id=img_0024 id=5 -> existiert bereits (question-img_0024-5.mp3)
+[SKIP] image_id=img_0024 id=6 -> existiert bereits (question-img_0024-6.mp3)
+[SKIP] image_id=img_0024 id=7 -> existiert bereits (question-img_0024-7.mp3)
+[SKIP] image_id=img_0024 id=8 -> existiert bereits (question-img_0024-8.mp3)
+[SKIP] image_id=img_0024 id=9 -> existiert bereits (question-img_0024-9.mp3)
+[SKIP] image_id=img_0024 id=10 -> existiert bereits (question-img_0024-10.mp3)
+[SKIP] image_id=img_0024 id=11 -> existiert bereits (question-img_0024-11.mp3)
+[SKIP] image_id=img_0024 id=12 -> existiert bereits (question-img_0024-12.mp3)
+[SKIP] image_id=img_0024 id=13 -> existiert bereits (question-img_0024-13.mp3)
+[SKIP] image_id=img_0025 id=1 -> existiert bereits (question-img_0025-1.mp3)
+[SKIP] image_id=img_0025 id=2 -> existiert bereits (question-img_0025-2.mp3)
+[SKIP] image_id=img_0025 id=3 -> existiert bereits (question-img_0025-3.mp3)
+[SKIP] image_id=img_0025 id=4 -> existiert bereits (question-img_0025-4.mp3)
+[SKIP] image_id=img_0025 id=5 -> existiert bereits (question-img_0025-5.mp3)
+[SKIP] image_id=img_0025 id=6 -> existiert bereits (question-img_0025-6.mp3)
+[SKIP] image_id=img_0025 id=7 -> existiert bereits (question-img_0025-7.mp3)
+[SKIP] image_id=img_0025 id=8 -> existiert bereits (question-img_0025-8.mp3)
+[SKIP] image_id=img_0025 id=9 -> existiert bereits (question-img_0025-9.mp3)
+[SKIP] image_id=img_0025 id=10 -> existiert bereits (question-img_0025-10.mp3)
+[SKIP] image_id=img_0025 id=11 -> existiert bereits (question-img_0025-11.mp3)
+[SKIP] image_id=img_0025 id=12 -> existiert bereits (question-img_0025-12.mp3)
+[SKIP] image_id=img_0025 id=13 -> existiert bereits (question-img_0025-13.mp3)
+[JSON] image_id=img_0001 id=1 audio gesetzt -> question-img_0001-1.mp3
+[GEN ] image_id=img_0001 id=1 -> question-img_0001-1.mp3
+[OK  ] image_id=img_0001 id=1 -> erzeugt
+[JSON] image_id=img_0001 id=2 audio gesetzt -> question-img_0001-2.mp3
+[GEN ] image_id=img_0001 id=2 -> question-img_0001-2.mp3
+[OK  ] image_id=img_0001 id=2 -> erzeugt
+[JSON] image_id=img_0001 id=3 audio gesetzt -> question-img_0001-3.mp3
+[GEN ] image_id=img_0001 id=3 -> question-img_0001-3.mp3
+[OK  ] image_id=img_0001 id=3 -> erzeugt
+[JSON] image_id=img_0001 id=4 audio gesetzt -> question-img_0001-4.mp3
+[GEN ] image_id=img_0001 id=4 -> question-img_0001-4.mp3
+[OK  ] image_id=img_0001 id=4 -> erzeugt
+[JSON] image_id=img_0001 id=5 audio gesetzt -> question-img_0001-5.mp3
+[GEN ] image_id=img_0001 id=5 -> question-img_0001-5.mp3
+[OK  ] image_id=img_0001 id=5 -> erzeugt
+[JSON] image_id=img_0001 id=6 audio gesetzt -> question-img_0001-6.mp3
+[GEN ] image_id=img_0001 id=6 -> question-img_0001-6.mp3
+[OK  ] image_id=img_0001 id=6 -> erzeugt
+[JSON] image_id=img_0001 id=7 audio gesetzt -> question-img_0001-7.mp3
+[GEN ] image_id=img_0001 id=7 -> question-img_0001-7.mp3
+[OK  ] image_id=img_0001 id=7 -> erzeugt
+[JSON] image_id=img_0001 id=8 audio gesetzt -> question-img_0001-8.mp3
+[GEN ] image_id=img_0001 id=8 -> question-img_0001-8.mp3
+[OK  ] image_id=img_0001 id=8 -> erzeugt
+[JSON] image_id=img_0001 id=9 audio gesetzt -> question-img_0001-9.mp3
+[GEN ] image_id=img_0001 id=9 -> question-img_0001-9.mp3
+[OK  ] image_id=img_0001 id=9 -> erzeugt
+------------------------------------------------------------
+[2026-03-13 08:52:14] ENDE
+fragen gesehen: 293
+produziert:    9
+übersprungen:  284
+fehler:        0
+json-updates:  9
+mp3 im Ordner: 293
+============================================================
+
+============================================================
+[2026-03-13 08:53:50] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/imagememory/media/audio
+Questions:     /home/aleranzer/quizshark/imagememory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=img_0001 id=1 -> existiert bereits (question-img_0001-1.mp3)
+[SKIP] image_id=img_0001 id=2 -> existiert bereits (question-img_0001-2.mp3)
+[SKIP] image_id=img_0001 id=3 -> existiert bereits (question-img_0001-3.mp3)
+[SKIP] image_id=img_0001 id=4 -> existiert bereits (question-img_0001-4.mp3)
+[SKIP] image_id=img_0001 id=5 -> existiert bereits (question-img_0001-5.mp3)
+[SKIP] image_id=img_0001 id=6 -> existiert bereits (question-img_0001-6.mp3)
+[SKIP] image_id=img_0001 id=7 -> existiert bereits (question-img_0001-7.mp3)
+[SKIP] image_id=img_0001 id=8 -> existiert bereits (question-img_0001-8.mp3)
+[SKIP] image_id=img_0001 id=9 -> existiert bereits (question-img_0001-9.mp3)
+[SKIP] image_id=img_0004 id=1 -> existiert bereits (question-img_0004-1.mp3)
+[SKIP] image_id=img_0004 id=2 -> existiert bereits (question-img_0004-2.mp3)
+[SKIP] image_id=img_0004 id=3 -> existiert bereits (question-img_0004-3.mp3)
+[SKIP] image_id=img_0004 id=4 -> existiert bereits (question-img_0004-4.mp3)
+[SKIP] image_id=img_0004 id=5 -> existiert bereits (question-img_0004-5.mp3)
+[SKIP] image_id=img_0004 id=6 -> existiert bereits (question-img_0004-6.mp3)
+[SKIP] image_id=img_0004 id=7 -> existiert bereits (question-img_0004-7.mp3)
+[SKIP] image_id=img_0004 id=8 -> existiert bereits (question-img_0004-8.mp3)
+[SKIP] image_id=img_0004 id=9 -> existiert bereits (question-img_0004-9.mp3)
+[SKIP] image_id=img_0004 id=10 -> existiert bereits (question-img_0004-10.mp3)
+[SKIP] image_id=img_0004 id=11 -> existiert bereits (question-img_0004-11.mp3)
+[SKIP] image_id=img_0004 id=12 -> existiert bereits (question-img_0004-12.mp3)
+[SKIP] image_id=img_0004 id=13 -> existiert bereits (question-img_0004-13.mp3)
+[SKIP] image_id=img_0004 id=14 -> existiert bereits (question-img_0004-14.mp3)
+[SKIP] image_id=img_0004 id=15 -> existiert bereits (question-img_0004-15.mp3)
+[SKIP] image_id=img_0005 id=1 -> existiert bereits (question-img_0005-1.mp3)
+[SKIP] image_id=img_0005 id=2 -> existiert bereits (question-img_0005-2.mp3)
+[SKIP] image_id=img_0005 id=3 -> existiert bereits (question-img_0005-3.mp3)
+[SKIP] image_id=img_0005 id=4 -> existiert bereits (question-img_0005-4.mp3)
+[SKIP] image_id=img_0005 id=5 -> existiert bereits (question-img_0005-5.mp3)
+[SKIP] image_id=img_0005 id=6 -> existiert bereits (question-img_0005-6.mp3)
+[SKIP] image_id=img_0005 id=7 -> existiert bereits (question-img_0005-7.mp3)
+[SKIP] image_id=img_0005 id=8 -> existiert bereits (question-img_0005-8.mp3)
+[SKIP] image_id=img_0005 id=9 -> existiert bereits (question-img_0005-9.mp3)
+[SKIP] image_id=img_0005 id=10 -> existiert bereits (question-img_0005-10.mp3)
+[SKIP] image_id=img_0005 id=11 -> existiert bereits (question-img_0005-11.mp3)
+[SKIP] image_id=img_0005 id=12 -> existiert bereits (question-img_0005-12.mp3)
+[SKIP] image_id=img_0005 id=13 -> existiert bereits (question-img_0005-13.mp3)
+[SKIP] image_id=img_0005 id=14 -> existiert bereits (question-img_0005-14.mp3)
+[SKIP] image_id=img_0005 id=15 -> existiert bereits (question-img_0005-15.mp3)
+[SKIP] image_id=img_0007 id=1 -> existiert bereits (question-img_0007-1.mp3)
+[SKIP] image_id=img_0007 id=2 -> existiert bereits (question-img_0007-2.mp3)
+[SKIP] image_id=img_0007 id=3 -> existiert bereits (question-img_0007-3.mp3)
+[SKIP] image_id=img_0007 id=4 -> existiert bereits (question-img_0007-4.mp3)
+[SKIP] image_id=img_0007 id=5 -> existiert bereits (question-img_0007-5.mp3)
+[SKIP] image_id=img_0007 id=6 -> existiert bereits (question-img_0007-6.mp3)
+[SKIP] image_id=img_0007 id=7 -> existiert bereits (question-img_0007-7.mp3)
+[SKIP] image_id=img_0007 id=8 -> existiert bereits (question-img_0007-8.mp3)
+[SKIP] image_id=img_0007 id=9 -> existiert bereits (question-img_0007-9.mp3)
+[SKIP] image_id=img_0007 id=10 -> existiert bereits (question-img_0007-10.mp3)
+[SKIP] image_id=img_0007 id=11 -> existiert bereits (question-img_0007-11.mp3)
+[SKIP] image_id=img_0007 id=12 -> existiert bereits (question-img_0007-12.mp3)
+[SKIP] image_id=img_0007 id=13 -> existiert bereits (question-img_0007-13.mp3)
+[SKIP] image_id=img_0007 id=14 -> existiert bereits (question-img_0007-14.mp3)
+[SKIP] image_id=img_0007 id=15 -> existiert bereits (question-img_0007-15.mp3)
+[SKIP] image_id=img_0008 id=1 -> existiert bereits (question-img_0008-1.mp3)
+[SKIP] image_id=img_0008 id=2 -> existiert bereits (question-img_0008-2.mp3)
+[SKIP] image_id=img_0008 id=3 -> existiert bereits (question-img_0008-3.mp3)
+[SKIP] image_id=img_0008 id=4 -> existiert bereits (question-img_0008-4.mp3)
+[SKIP] image_id=img_0008 id=5 -> existiert bereits (question-img_0008-5.mp3)
+[SKIP] image_id=img_0008 id=6 -> existiert bereits (question-img_0008-6.mp3)
+[SKIP] image_id=img_0008 id=7 -> existiert bereits (question-img_0008-7.mp3)
+[SKIP] image_id=img_0008 id=8 -> existiert bereits (question-img_0008-8.mp3)
+[SKIP] image_id=img_0008 id=9 -> existiert bereits (question-img_0008-9.mp3)
+[SKIP] image_id=img_0008 id=10 -> existiert bereits (question-img_0008-10.mp3)
+[SKIP] image_id=img_0008 id=11 -> existiert bereits (question-img_0008-11.mp3)
+[SKIP] image_id=img_0008 id=12 -> existiert bereits (question-img_0008-12.mp3)
+[SKIP] image_id=img_0008 id=13 -> existiert bereits (question-img_0008-13.mp3)
+[SKIP] image_id=img_0009 id=1 -> existiert bereits (question-img_0009-1.mp3)
+[SKIP] image_id=img_0009 id=2 -> existiert bereits (question-img_0009-2.mp3)
+[SKIP] image_id=img_0009 id=3 -> existiert bereits (question-img_0009-3.mp3)
+[SKIP] image_id=img_0009 id=4 -> existiert bereits (question-img_0009-4.mp3)
+[SKIP] image_id=img_0009 id=5 -> existiert bereits (question-img_0009-5.mp3)
+[SKIP] image_id=img_0009 id=6 -> existiert bereits (question-img_0009-6.mp3)
+[SKIP] image_id=img_0009 id=7 -> existiert bereits (question-img_0009-7.mp3)
+[SKIP] image_id=img_0009 id=8 -> existiert bereits (question-img_0009-8.mp3)
+[SKIP] image_id=img_0009 id=9 -> existiert bereits (question-img_0009-9.mp3)
+[SKIP] image_id=img_0009 id=10 -> existiert bereits (question-img_0009-10.mp3)
+[SKIP] image_id=img_0009 id=11 -> existiert bereits (question-img_0009-11.mp3)
+[SKIP] image_id=img_0009 id=12 -> existiert bereits (question-img_0009-12.mp3)
+[SKIP] image_id=img_0009 id=13 -> existiert bereits (question-img_0009-13.mp3)
+[SKIP] image_id=img_0010 id=1 -> existiert bereits (question-img_0010-1.mp3)
+[SKIP] image_id=img_0010 id=2 -> existiert bereits (question-img_0010-2.mp3)
+[SKIP] image_id=img_0010 id=3 -> existiert bereits (question-img_0010-3.mp3)
+[SKIP] image_id=img_0010 id=4 -> existiert bereits (question-img_0010-4.mp3)
+[SKIP] image_id=img_0010 id=5 -> existiert bereits (question-img_0010-5.mp3)
+[SKIP] image_id=img_0010 id=6 -> existiert bereits (question-img_0010-6.mp3)
+[SKIP] image_id=img_0010 id=7 -> existiert bereits (question-img_0010-7.mp3)
+[SKIP] image_id=img_0010 id=8 -> existiert bereits (question-img_0010-8.mp3)
+[SKIP] image_id=img_0010 id=9 -> existiert bereits (question-img_0010-9.mp3)
+[SKIP] image_id=img_0010 id=10 -> existiert bereits (question-img_0010-10.mp3)
+[SKIP] image_id=img_0010 id=11 -> existiert bereits (question-img_0010-11.mp3)
+[SKIP] image_id=img_0010 id=12 -> existiert bereits (question-img_0010-12.mp3)
+[SKIP] image_id=img_0011 id=1 -> existiert bereits (question-img_0011-1.mp3)
+[SKIP] image_id=img_0011 id=2 -> existiert bereits (question-img_0011-2.mp3)
+[SKIP] image_id=img_0011 id=3 -> existiert bereits (question-img_0011-3.mp3)
+[SKIP] image_id=img_0011 id=4 -> existiert bereits (question-img_0011-4.mp3)
+[SKIP] image_id=img_0011 id=5 -> existiert bereits (question-img_0011-5.mp3)
+[SKIP] image_id=img_0011 id=6 -> existiert bereits (question-img_0011-6.mp3)
+[SKIP] image_id=img_0011 id=7 -> existiert bereits (question-img_0011-7.mp3)
+[SKIP] image_id=img_0011 id=8 -> existiert bereits (question-img_0011-8.mp3)
+[SKIP] image_id=img_0011 id=9 -> existiert bereits (question-img_0011-9.mp3)
+[SKIP] image_id=img_0011 id=10 -> existiert bereits (question-img_0011-10.mp3)
+[SKIP] image_id=img_0011 id=11 -> existiert bereits (question-img_0011-11.mp3)
+[SKIP] image_id=img_0011 id=12 -> existiert bereits (question-img_0011-12.mp3)
+[SKIP] image_id=img_0011 id=13 -> existiert bereits (question-img_0011-13.mp3)
+[SKIP] image_id=img_0011 id=14 -> existiert bereits (question-img_0011-14.mp3)
+[SKIP] image_id=img_0011 id=15 -> existiert bereits (question-img_0011-15.mp3)
+[SKIP] image_id=img_0011 id=16 -> existiert bereits (question-img_0011-16.mp3)
+[SKIP] image_id=img_0011 id=17 -> existiert bereits (question-img_0011-17.mp3)
+[SKIP] image_id=img_0011 id=18 -> existiert bereits (question-img_0011-18.mp3)
+[SKIP] image_id=img_0011 id=19 -> existiert bereits (question-img_0011-19.mp3)
+[SKIP] image_id=img_0011 id=20 -> existiert bereits (question-img_0011-20.mp3)
+[SKIP] image_id=img_0012 id=1 -> existiert bereits (question-img_0012-1.mp3)
+[SKIP] image_id=img_0012 id=2 -> existiert bereits (question-img_0012-2.mp3)
+[SKIP] image_id=img_0012 id=3 -> existiert bereits (question-img_0012-3.mp3)
+[SKIP] image_id=img_0012 id=4 -> existiert bereits (question-img_0012-4.mp3)
+[SKIP] image_id=img_0012 id=5 -> existiert bereits (question-img_0012-5.mp3)
+[SKIP] image_id=img_0012 id=6 -> existiert bereits (question-img_0012-6.mp3)
+[SKIP] image_id=img_0012 id=7 -> existiert bereits (question-img_0012-7.mp3)
+[SKIP] image_id=img_0012 id=8 -> existiert bereits (question-img_0012-8.mp3)
+[SKIP] image_id=img_0012 id=9 -> existiert bereits (question-img_0012-9.mp3)
+[SKIP] image_id=img_0012 id=10 -> existiert bereits (question-img_0012-10.mp3)
+[SKIP] image_id=img_0012 id=11 -> existiert bereits (question-img_0012-11.mp3)
+[SKIP] image_id=img_0012 id=12 -> existiert bereits (question-img_0012-12.mp3)
+[SKIP] image_id=img_0012 id=13 -> existiert bereits (question-img_0012-13.mp3)
+[SKIP] image_id=img_0012 id=14 -> existiert bereits (question-img_0012-14.mp3)
+[SKIP] image_id=img_0013 id=1 -> existiert bereits (question-img_0013-1.mp3)
+[SKIP] image_id=img_0013 id=2 -> existiert bereits (question-img_0013-2.mp3)
+[SKIP] image_id=img_0013 id=3 -> existiert bereits (question-img_0013-3.mp3)
+[SKIP] image_id=img_0013 id=4 -> existiert bereits (question-img_0013-4.mp3)
+[SKIP] image_id=img_0013 id=5 -> existiert bereits (question-img_0013-5.mp3)
+[SKIP] image_id=img_0013 id=6 -> existiert bereits (question-img_0013-6.mp3)
+[SKIP] image_id=img_0013 id=7 -> existiert bereits (question-img_0013-7.mp3)
+[SKIP] image_id=img_0013 id=8 -> existiert bereits (question-img_0013-8.mp3)
+[SKIP] image_id=img_0013 id=9 -> existiert bereits (question-img_0013-9.mp3)
+[SKIP] image_id=img_0013 id=10 -> existiert bereits (question-img_0013-10.mp3)
+[SKIP] image_id=img_0013 id=11 -> existiert bereits (question-img_0013-11.mp3)
+[SKIP] image_id=img_0013 id=12 -> existiert bereits (question-img_0013-12.mp3)
+[SKIP] image_id=img_0013 id=13 -> existiert bereits (question-img_0013-13.mp3)
+[SKIP] image_id=img_0014 id=1 -> existiert bereits (question-img_0014-1.mp3)
+[SKIP] image_id=img_0014 id=2 -> existiert bereits (question-img_0014-2.mp3)
+[SKIP] image_id=img_0014 id=3 -> existiert bereits (question-img_0014-3.mp3)
+[SKIP] image_id=img_0014 id=4 -> existiert bereits (question-img_0014-4.mp3)
+[SKIP] image_id=img_0014 id=5 -> existiert bereits (question-img_0014-5.mp3)
+[SKIP] image_id=img_0014 id=6 -> existiert bereits (question-img_0014-6.mp3)
+[SKIP] image_id=img_0014 id=7 -> existiert bereits (question-img_0014-7.mp3)
+[SKIP] image_id=img_0014 id=8 -> existiert bereits (question-img_0014-8.mp3)
+[SKIP] image_id=img_0014 id=9 -> existiert bereits (question-img_0014-9.mp3)
+[SKIP] image_id=img_0014 id=10 -> existiert bereits (question-img_0014-10.mp3)
+[SKIP] image_id=img_0014 id=11 -> existiert bereits (question-img_0014-11.mp3)
+[SKIP] image_id=img_0014 id=12 -> existiert bereits (question-img_0014-12.mp3)
+[SKIP] image_id=img_0014 id=13 -> existiert bereits (question-img_0014-13.mp3)
+[SKIP] image_id=img_0014 id=14 -> existiert bereits (question-img_0014-14.mp3)
+[SKIP] image_id=img_0015 id=1 -> existiert bereits (question-img_0015-1.mp3)
+[SKIP] image_id=img_0015 id=2 -> existiert bereits (question-img_0015-2.mp3)
+[SKIP] image_id=img_0015 id=3 -> existiert bereits (question-img_0015-3.mp3)
+[SKIP] image_id=img_0015 id=4 -> existiert bereits (question-img_0015-4.mp3)
+[SKIP] image_id=img_0015 id=5 -> existiert bereits (question-img_0015-5.mp3)
+[SKIP] image_id=img_0015 id=6 -> existiert bereits (question-img_0015-6.mp3)
+[SKIP] image_id=img_0015 id=7 -> existiert bereits (question-img_0015-7.mp3)
+[SKIP] image_id=img_0015 id=8 -> existiert bereits (question-img_0015-8.mp3)
+[SKIP] image_id=img_0015 id=9 -> existiert bereits (question-img_0015-9.mp3)
+[SKIP] image_id=img_0015 id=10 -> existiert bereits (question-img_0015-10.mp3)
+[SKIP] image_id=img_0015 id=11 -> existiert bereits (question-img_0015-11.mp3)
+[SKIP] image_id=img_0015 id=12 -> existiert bereits (question-img_0015-12.mp3)
+[SKIP] image_id=img_0015 id=13 -> existiert bereits (question-img_0015-13.mp3)
+[SKIP] image_id=img_0016 id=1 -> existiert bereits (question-img_0016-1.mp3)
+[SKIP] image_id=img_0016 id=2 -> existiert bereits (question-img_0016-2.mp3)
+[SKIP] image_id=img_0016 id=3 -> existiert bereits (question-img_0016-3.mp3)
+[SKIP] image_id=img_0016 id=4 -> existiert bereits (question-img_0016-4.mp3)
+[SKIP] image_id=img_0016 id=5 -> existiert bereits (question-img_0016-5.mp3)
+[SKIP] image_id=img_0016 id=6 -> existiert bereits (question-img_0016-6.mp3)
+[SKIP] image_id=img_0016 id=7 -> existiert bereits (question-img_0016-7.mp3)
+[SKIP] image_id=img_0016 id=8 -> existiert bereits (question-img_0016-8.mp3)
+[SKIP] image_id=img_0016 id=9 -> existiert bereits (question-img_0016-9.mp3)
+[SKIP] image_id=img_0016 id=10 -> existiert bereits (question-img_0016-10.mp3)
+[SKIP] image_id=img_0016 id=11 -> existiert bereits (question-img_0016-11.mp3)
+[SKIP] image_id=img_0016 id=12 -> existiert bereits (question-img_0016-12.mp3)
+[SKIP] image_id=img_0016 id=13 -> existiert bereits (question-img_0016-13.mp3)
+[SKIP] image_id=img_0017 id=1 -> existiert bereits (question-img_0017-1.mp3)
+[SKIP] image_id=img_0017 id=2 -> existiert bereits (question-img_0017-2.mp3)
+[SKIP] image_id=img_0017 id=3 -> existiert bereits (question-img_0017-3.mp3)
+[SKIP] image_id=img_0017 id=4 -> existiert bereits (question-img_0017-4.mp3)
+[SKIP] image_id=img_0017 id=5 -> existiert bereits (question-img_0017-5.mp3)
+[SKIP] image_id=img_0017 id=6 -> existiert bereits (question-img_0017-6.mp3)
+[SKIP] image_id=img_0017 id=7 -> existiert bereits (question-img_0017-7.mp3)
+[SKIP] image_id=img_0017 id=8 -> existiert bereits (question-img_0017-8.mp3)
+[SKIP] image_id=img_0017 id=9 -> existiert bereits (question-img_0017-9.mp3)
+[SKIP] image_id=img_0018 id=1 -> existiert bereits (question-img_0018-1.mp3)
+[SKIP] image_id=img_0018 id=2 -> existiert bereits (question-img_0018-2.mp3)
+[SKIP] image_id=img_0018 id=3 -> existiert bereits (question-img_0018-3.mp3)
+[SKIP] image_id=img_0018 id=4 -> existiert bereits (question-img_0018-4.mp3)
+[SKIP] image_id=img_0018 id=5 -> existiert bereits (question-img_0018-5.mp3)
+[SKIP] image_id=img_0018 id=6 -> existiert bereits (question-img_0018-6.mp3)
+[SKIP] image_id=img_0018 id=7 -> existiert bereits (question-img_0018-7.mp3)
+[SKIP] image_id=img_0018 id=8 -> existiert bereits (question-img_0018-8.mp3)
+[SKIP] image_id=img_0018 id=9 -> existiert bereits (question-img_0018-9.mp3)
+[SKIP] image_id=img_0018 id=10 -> existiert bereits (question-img_0018-10.mp3)
+[SKIP] image_id=img_0018 id=11 -> existiert bereits (question-img_0018-11.mp3)
+[SKIP] image_id=img_0018 id=12 -> existiert bereits (question-img_0018-12.mp3)
+[SKIP] image_id=img_0019 id=1 -> existiert bereits (question-img_0019-1.mp3)
+[SKIP] image_id=img_0019 id=2 -> existiert bereits (question-img_0019-2.mp3)
+[SKIP] image_id=img_0019 id=3 -> existiert bereits (question-img_0019-3.mp3)
+[SKIP] image_id=img_0019 id=4 -> existiert bereits (question-img_0019-4.mp3)
+[SKIP] image_id=img_0019 id=5 -> existiert bereits (question-img_0019-5.mp3)
+[SKIP] image_id=img_0019 id=6 -> existiert bereits (question-img_0019-6.mp3)
+[SKIP] image_id=img_0019 id=7 -> existiert bereits (question-img_0019-7.mp3)
+[SKIP] image_id=img_0019 id=8 -> existiert bereits (question-img_0019-8.mp3)
+[SKIP] image_id=img_0019 id=9 -> existiert bereits (question-img_0019-9.mp3)
+[SKIP] image_id=img_0019 id=10 -> existiert bereits (question-img_0019-10.mp3)
+[SKIP] image_id=img_0019 id=11 -> existiert bereits (question-img_0019-11.mp3)
+[SKIP] image_id=img_0019 id=12 -> existiert bereits (question-img_0019-12.mp3)
+[SKIP] image_id=img_0020 id=1 -> existiert bereits (question-img_0020-1.mp3)
+[SKIP] image_id=img_0020 id=2 -> existiert bereits (question-img_0020-2.mp3)
+[SKIP] image_id=img_0020 id=3 -> existiert bereits (question-img_0020-3.mp3)
+[SKIP] image_id=img_0020 id=4 -> existiert bereits (question-img_0020-4.mp3)
+[SKIP] image_id=img_0020 id=5 -> existiert bereits (question-img_0020-5.mp3)
+[SKIP] image_id=img_0020 id=6 -> existiert bereits (question-img_0020-6.mp3)
+[SKIP] image_id=img_0020 id=7 -> existiert bereits (question-img_0020-7.mp3)
+[SKIP] image_id=img_0020 id=8 -> existiert bereits (question-img_0020-8.mp3)
+[SKIP] image_id=img_0020 id=9 -> existiert bereits (question-img_0020-9.mp3)
+[SKIP] image_id=img_0020 id=10 -> existiert bereits (question-img_0020-10.mp3)
+[SKIP] image_id=img_0020 id=11 -> existiert bereits (question-img_0020-11.mp3)
+[SKIP] image_id=img_0020 id=12 -> existiert bereits (question-img_0020-12.mp3)
+[SKIP] image_id=img_0020 id=13 -> existiert bereits (question-img_0020-13.mp3)
+[SKIP] image_id=img_0020 id=14 -> existiert bereits (question-img_0020-14.mp3)
+[SKIP] image_id=img_0020 id=15 -> existiert bereits (question-img_0020-15.mp3)
+[SKIP] image_id=img_0021 id=1 -> existiert bereits (question-img_0021-1.mp3)
+[SKIP] image_id=img_0021 id=2 -> existiert bereits (question-img_0021-2.mp3)
+[SKIP] image_id=img_0021 id=3 -> existiert bereits (question-img_0021-3.mp3)
+[SKIP] image_id=img_0021 id=4 -> existiert bereits (question-img_0021-4.mp3)
+[SKIP] image_id=img_0021 id=5 -> existiert bereits (question-img_0021-5.mp3)
+[SKIP] image_id=img_0021 id=6 -> existiert bereits (question-img_0021-6.mp3)
+[SKIP] image_id=img_0021 id=7 -> existiert bereits (question-img_0021-7.mp3)
+[SKIP] image_id=img_0021 id=8 -> existiert bereits (question-img_0021-8.mp3)
+[SKIP] image_id=img_0021 id=9 -> existiert bereits (question-img_0021-9.mp3)
+[SKIP] image_id=img_0021 id=10 -> existiert bereits (question-img_0021-10.mp3)
+[SKIP] image_id=img_0021 id=11 -> existiert bereits (question-img_0021-11.mp3)
+[SKIP] image_id=img_0021 id=12 -> existiert bereits (question-img_0021-12.mp3)
+[SKIP] image_id=img_0022 id=1 -> existiert bereits (question-img_0022-1.mp3)
+[SKIP] image_id=img_0022 id=2 -> existiert bereits (question-img_0022-2.mp3)
+[SKIP] image_id=img_0022 id=3 -> existiert bereits (question-img_0022-3.mp3)
+[SKIP] image_id=img_0022 id=4 -> existiert bereits (question-img_0022-4.mp3)
+[SKIP] image_id=img_0022 id=5 -> existiert bereits (question-img_0022-5.mp3)
+[SKIP] image_id=img_0022 id=6 -> existiert bereits (question-img_0022-6.mp3)
+[SKIP] image_id=img_0022 id=7 -> existiert bereits (question-img_0022-7.mp3)
+[SKIP] image_id=img_0022 id=8 -> existiert bereits (question-img_0022-8.mp3)
+[SKIP] image_id=img_0022 id=9 -> existiert bereits (question-img_0022-9.mp3)
+[SKIP] image_id=img_0022 id=10 -> existiert bereits (question-img_0022-10.mp3)
+[SKIP] image_id=img_0022 id=11 -> existiert bereits (question-img_0022-11.mp3)
+[SKIP] image_id=img_0022 id=12 -> existiert bereits (question-img_0022-12.mp3)
+[SKIP] image_id=img_0022 id=13 -> existiert bereits (question-img_0022-13.mp3)
+[SKIP] image_id=img_0022 id=14 -> existiert bereits (question-img_0022-14.mp3)
+[SKIP] image_id=img_0022 id=15 -> existiert bereits (question-img_0022-15.mp3)
+[SKIP] image_id=img_0023 id=1 -> existiert bereits (question-img_0023-1.mp3)
+[SKIP] image_id=img_0023 id=2 -> existiert bereits (question-img_0023-2.mp3)
+[SKIP] image_id=img_0023 id=3 -> existiert bereits (question-img_0023-3.mp3)
+[SKIP] image_id=img_0023 id=4 -> existiert bereits (question-img_0023-4.mp3)
+[SKIP] image_id=img_0023 id=5 -> existiert bereits (question-img_0023-5.mp3)
+[SKIP] image_id=img_0023 id=6 -> existiert bereits (question-img_0023-6.mp3)
+[SKIP] image_id=img_0023 id=7 -> existiert bereits (question-img_0023-7.mp3)
+[SKIP] image_id=img_0023 id=8 -> existiert bereits (question-img_0023-8.mp3)
+[SKIP] image_id=img_0023 id=9 -> existiert bereits (question-img_0023-9.mp3)
+[SKIP] image_id=img_0023 id=10 -> existiert bereits (question-img_0023-10.mp3)
+[SKIP] image_id=img_0023 id=11 -> existiert bereits (question-img_0023-11.mp3)
+[SKIP] image_id=img_0023 id=12 -> existiert bereits (question-img_0023-12.mp3)
+[SKIP] image_id=img_0023 id=13 -> existiert bereits (question-img_0023-13.mp3)
+[SKIP] image_id=img_0024 id=1 -> existiert bereits (question-img_0024-1.mp3)
+[SKIP] image_id=img_0024 id=2 -> existiert bereits (question-img_0024-2.mp3)
+[SKIP] image_id=img_0024 id=3 -> existiert bereits (question-img_0024-3.mp3)
+[SKIP] image_id=img_0024 id=4 -> existiert bereits (question-img_0024-4.mp3)
+[SKIP] image_id=img_0024 id=5 -> existiert bereits (question-img_0024-5.mp3)
+[SKIP] image_id=img_0024 id=6 -> existiert bereits (question-img_0024-6.mp3)
+[SKIP] image_id=img_0024 id=7 -> existiert bereits (question-img_0024-7.mp3)
+[SKIP] image_id=img_0024 id=8 -> existiert bereits (question-img_0024-8.mp3)
+[SKIP] image_id=img_0024 id=9 -> existiert bereits (question-img_0024-9.mp3)
+[SKIP] image_id=img_0024 id=10 -> existiert bereits (question-img_0024-10.mp3)
+[SKIP] image_id=img_0024 id=11 -> existiert bereits (question-img_0024-11.mp3)
+[SKIP] image_id=img_0024 id=12 -> existiert bereits (question-img_0024-12.mp3)
+[SKIP] image_id=img_0024 id=13 -> existiert bereits (question-img_0024-13.mp3)
+[SKIP] image_id=img_0025 id=1 -> existiert bereits (question-img_0025-1.mp3)
+[SKIP] image_id=img_0025 id=2 -> existiert bereits (question-img_0025-2.mp3)
+[SKIP] image_id=img_0025 id=3 -> existiert bereits (question-img_0025-3.mp3)
+[SKIP] image_id=img_0025 id=4 -> existiert bereits (question-img_0025-4.mp3)
+[SKIP] image_id=img_0025 id=5 -> existiert bereits (question-img_0025-5.mp3)
+[SKIP] image_id=img_0025 id=6 -> existiert bereits (question-img_0025-6.mp3)
+[SKIP] image_id=img_0025 id=7 -> existiert bereits (question-img_0025-7.mp3)
+[SKIP] image_id=img_0025 id=8 -> existiert bereits (question-img_0025-8.mp3)
+[SKIP] image_id=img_0025 id=9 -> existiert bereits (question-img_0025-9.mp3)
+[SKIP] image_id=img_0025 id=10 -> existiert bereits (question-img_0025-10.mp3)
+[SKIP] image_id=img_0025 id=11 -> existiert bereits (question-img_0025-11.mp3)
+[SKIP] image_id=img_0025 id=12 -> existiert bereits (question-img_0025-12.mp3)
+[SKIP] image_id=img_0025 id=13 -> existiert bereits (question-img_0025-13.mp3)
+[JSON] image_id=img_0002 id=1 audio gesetzt -> question-img_0002-1.mp3
+[GEN ] image_id=img_0002 id=1 -> question-img_0002-1.mp3
+[OK  ] image_id=img_0002 id=1 -> erzeugt
+[JSON] image_id=img_0002 id=2 audio gesetzt -> question-img_0002-2.mp3
+[GEN ] image_id=img_0002 id=2 -> question-img_0002-2.mp3
+[OK  ] image_id=img_0002 id=2 -> erzeugt
+[JSON] image_id=img_0002 id=3 audio gesetzt -> question-img_0002-3.mp3
+[GEN ] image_id=img_0002 id=3 -> question-img_0002-3.mp3
+[OK  ] image_id=img_0002 id=3 -> erzeugt
+[JSON] image_id=img_0002 id=4 audio gesetzt -> question-img_0002-4.mp3
+[GEN ] image_id=img_0002 id=4 -> question-img_0002-4.mp3
+[OK  ] image_id=img_0002 id=4 -> erzeugt
+[JSON] image_id=img_0002 id=5 audio gesetzt -> question-img_0002-5.mp3
+[GEN ] image_id=img_0002 id=5 -> question-img_0002-5.mp3
+[OK  ] image_id=img_0002 id=5 -> erzeugt
+[JSON] image_id=img_0002 id=6 audio gesetzt -> question-img_0002-6.mp3
+[GEN ] image_id=img_0002 id=6 -> question-img_0002-6.mp3
+[OK  ] image_id=img_0002 id=6 -> erzeugt
+[JSON] image_id=img_0002 id=7 audio gesetzt -> question-img_0002-7.mp3
+[GEN ] image_id=img_0002 id=7 -> question-img_0002-7.mp3
+[OK  ] image_id=img_0002 id=7 -> erzeugt
+[JSON] image_id=img_0002 id=8 audio gesetzt -> question-img_0002-8.mp3
+[GEN ] image_id=img_0002 id=8 -> question-img_0002-8.mp3
+[OK  ] image_id=img_0002 id=8 -> erzeugt
+[JSON] image_id=img_0002 id=9 audio gesetzt -> question-img_0002-9.mp3
+[GEN ] image_id=img_0002 id=9 -> question-img_0002-9.mp3
+[OK  ] image_id=img_0002 id=9 -> erzeugt
+[JSON] image_id=img_0002 id=10 audio gesetzt -> question-img_0002-10.mp3
+[GEN ] image_id=img_0002 id=10 -> question-img_0002-10.mp3
+[OK  ] image_id=img_0002 id=10 -> erzeugt
+[JSON] image_id=img_0002 id=11 audio gesetzt -> question-img_0002-11.mp3
+[GEN ] image_id=img_0002 id=11 -> question-img_0002-11.mp3
+[OK  ] image_id=img_0002 id=11 -> erzeugt
+[JSON] image_id=img_0002 id=12 audio gesetzt -> question-img_0002-12.mp3
+[GEN ] image_id=img_0002 id=12 -> question-img_0002-12.mp3
+[OK  ] image_id=img_0002 id=12 -> erzeugt
+[JSON] image_id=img_0002 id=13 audio gesetzt -> question-img_0002-13.mp3
+[GEN ] image_id=img_0002 id=13 -> question-img_0002-13.mp3
+[OK  ] image_id=img_0002 id=13 -> erzeugt
+[JSON] image_id=img_0002 id=14 audio gesetzt -> question-img_0002-14.mp3
+[GEN ] image_id=img_0002 id=14 -> question-img_0002-14.mp3
+[OK  ] image_id=img_0002 id=14 -> erzeugt
+[JSON] image_id=img_0002 id=15 audio gesetzt -> question-img_0002-15.mp3
+[GEN ] image_id=img_0002 id=15 -> question-img_0002-15.mp3
+[OK  ] image_id=img_0002 id=15 -> erzeugt
+[JSON] image_id=img_0002 id=16 audio gesetzt -> question-img_0002-16.mp3
+[GEN ] image_id=img_0002 id=16 -> question-img_0002-16.mp3
+[OK  ] image_id=img_0002 id=16 -> erzeugt
+[JSON] image_id=img_0002 id=17 audio gesetzt -> question-img_0002-17.mp3
+[GEN ] image_id=img_0002 id=17 -> question-img_0002-17.mp3
+[OK  ] image_id=img_0002 id=17 -> erzeugt
+[JSON] image_id=img_0002 id=18 audio gesetzt -> question-img_0002-18.mp3
+[GEN ] image_id=img_0002 id=18 -> question-img_0002-18.mp3
+[OK  ] image_id=img_0002 id=18 -> erzeugt
+[JSON] image_id=img_0002 id=19 audio gesetzt -> question-img_0002-19.mp3
+[GEN ] image_id=img_0002 id=19 -> question-img_0002-19.mp3
+[OK  ] image_id=img_0002 id=19 -> erzeugt
+[JSON] image_id=img_0002 id=20 audio gesetzt -> question-img_0002-20.mp3
+[GEN ] image_id=img_0002 id=20 -> question-img_0002-20.mp3
+[OK  ] image_id=img_0002 id=20 -> erzeugt
+[JSON] image_id=img_0003 id=1 audio gesetzt -> question-img_0003-1.mp3
+[GEN ] image_id=img_0003 id=1 -> question-img_0003-1.mp3
+[OK  ] image_id=img_0003 id=1 -> erzeugt
+[JSON] image_id=img_0003 id=2 audio gesetzt -> question-img_0003-2.mp3
+[GEN ] image_id=img_0003 id=2 -> question-img_0003-2.mp3
+[OK  ] image_id=img_0003 id=2 -> erzeugt
+[JSON] image_id=img_0003 id=3 audio gesetzt -> question-img_0003-3.mp3
+[GEN ] image_id=img_0003 id=3 -> question-img_0003-3.mp3
+[OK  ] image_id=img_0003 id=3 -> erzeugt
+[JSON] image_id=img_0003 id=4 audio gesetzt -> question-img_0003-4.mp3
+[GEN ] image_id=img_0003 id=4 -> question-img_0003-4.mp3
+[OK  ] image_id=img_0003 id=4 -> erzeugt
+[JSON] image_id=img_0003 id=5 audio gesetzt -> question-img_0003-5.mp3
+[GEN ] image_id=img_0003 id=5 -> question-img_0003-5.mp3
+[OK  ] image_id=img_0003 id=5 -> erzeugt
+[JSON] image_id=img_0003 id=6 audio gesetzt -> question-img_0003-6.mp3
+[GEN ] image_id=img_0003 id=6 -> question-img_0003-6.mp3
+[OK  ] image_id=img_0003 id=6 -> erzeugt
+[JSON] image_id=img_0003 id=7 audio gesetzt -> question-img_0003-7.mp3
+[GEN ] image_id=img_0003 id=7 -> question-img_0003-7.mp3
+[OK  ] image_id=img_0003 id=7 -> erzeugt
+[JSON] image_id=img_0003 id=8 audio gesetzt -> question-img_0003-8.mp3
+[GEN ] image_id=img_0003 id=8 -> question-img_0003-8.mp3
+[OK  ] image_id=img_0003 id=8 -> erzeugt
+[JSON] image_id=img_0003 id=9 audio gesetzt -> question-img_0003-9.mp3
+[GEN ] image_id=img_0003 id=9 -> question-img_0003-9.mp3
+[OK  ] image_id=img_0003 id=9 -> erzeugt
+[JSON] image_id=img_0003 id=10 audio gesetzt -> question-img_0003-10.mp3
+[GEN ] image_id=img_0003 id=10 -> question-img_0003-10.mp3
+[OK  ] image_id=img_0003 id=10 -> erzeugt
+[JSON] image_id=img_0003 id=11 audio gesetzt -> question-img_0003-11.mp3
+[GEN ] image_id=img_0003 id=11 -> question-img_0003-11.mp3
+[OK  ] image_id=img_0003 id=11 -> erzeugt
+[JSON] image_id=img_0003 id=12 audio gesetzt -> question-img_0003-12.mp3
+[GEN ] image_id=img_0003 id=12 -> question-img_0003-12.mp3
+[OK  ] image_id=img_0003 id=12 -> erzeugt
+------------------------------------------------------------
+[2026-03-13 08:55:09] ENDE
+fragen gesehen: 325
+produziert:    32
+übersprungen:  293
+fehler:        0
+json-updates:  32
+mp3 im Ordner: 325
+============================================================
+
+============================================================
+[2026-03-13 08:56:41] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/imagememory/media/audio
+Questions:     /home/aleranzer/quizshark/imagememory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=img_0001 id=1 -> existiert bereits (question-img_0001-1.mp3)
+[SKIP] image_id=img_0001 id=2 -> existiert bereits (question-img_0001-2.mp3)
+[SKIP] image_id=img_0001 id=3 -> existiert bereits (question-img_0001-3.mp3)
+[SKIP] image_id=img_0001 id=4 -> existiert bereits (question-img_0001-4.mp3)
+[SKIP] image_id=img_0001 id=5 -> existiert bereits (question-img_0001-5.mp3)
+[SKIP] image_id=img_0001 id=6 -> existiert bereits (question-img_0001-6.mp3)
+[SKIP] image_id=img_0001 id=7 -> existiert bereits (question-img_0001-7.mp3)
+[SKIP] image_id=img_0001 id=8 -> existiert bereits (question-img_0001-8.mp3)
+[SKIP] image_id=img_0001 id=9 -> existiert bereits (question-img_0001-9.mp3)
+[SKIP] image_id=img_0002 id=1 -> existiert bereits (question-img_0002-1.mp3)
+[SKIP] image_id=img_0002 id=2 -> existiert bereits (question-img_0002-2.mp3)
+[SKIP] image_id=img_0002 id=3 -> existiert bereits (question-img_0002-3.mp3)
+[SKIP] image_id=img_0002 id=4 -> existiert bereits (question-img_0002-4.mp3)
+[SKIP] image_id=img_0002 id=5 -> existiert bereits (question-img_0002-5.mp3)
+[SKIP] image_id=img_0002 id=6 -> existiert bereits (question-img_0002-6.mp3)
+[SKIP] image_id=img_0002 id=7 -> existiert bereits (question-img_0002-7.mp3)
+[SKIP] image_id=img_0002 id=8 -> existiert bereits (question-img_0002-8.mp3)
+[SKIP] image_id=img_0002 id=9 -> existiert bereits (question-img_0002-9.mp3)
+[SKIP] image_id=img_0002 id=10 -> existiert bereits (question-img_0002-10.mp3)
+[SKIP] image_id=img_0002 id=11 -> existiert bereits (question-img_0002-11.mp3)
+[SKIP] image_id=img_0002 id=12 -> existiert bereits (question-img_0002-12.mp3)
+[SKIP] image_id=img_0002 id=13 -> existiert bereits (question-img_0002-13.mp3)
+[SKIP] image_id=img_0002 id=14 -> existiert bereits (question-img_0002-14.mp3)
+[SKIP] image_id=img_0002 id=15 -> existiert bereits (question-img_0002-15.mp3)
+[SKIP] image_id=img_0002 id=16 -> existiert bereits (question-img_0002-16.mp3)
+[SKIP] image_id=img_0002 id=17 -> existiert bereits (question-img_0002-17.mp3)
+[SKIP] image_id=img_0002 id=18 -> existiert bereits (question-img_0002-18.mp3)
+[SKIP] image_id=img_0002 id=19 -> existiert bereits (question-img_0002-19.mp3)
+[SKIP] image_id=img_0002 id=20 -> existiert bereits (question-img_0002-20.mp3)
+[SKIP] image_id=img_0003 id=1 -> existiert bereits (question-img_0003-1.mp3)
+[SKIP] image_id=img_0003 id=2 -> existiert bereits (question-img_0003-2.mp3)
+[SKIP] image_id=img_0003 id=3 -> existiert bereits (question-img_0003-3.mp3)
+[SKIP] image_id=img_0003 id=4 -> existiert bereits (question-img_0003-4.mp3)
+[SKIP] image_id=img_0003 id=5 -> existiert bereits (question-img_0003-5.mp3)
+[SKIP] image_id=img_0003 id=6 -> existiert bereits (question-img_0003-6.mp3)
+[SKIP] image_id=img_0003 id=7 -> existiert bereits (question-img_0003-7.mp3)
+[SKIP] image_id=img_0003 id=8 -> existiert bereits (question-img_0003-8.mp3)
+[SKIP] image_id=img_0003 id=9 -> existiert bereits (question-img_0003-9.mp3)
+[SKIP] image_id=img_0003 id=10 -> existiert bereits (question-img_0003-10.mp3)
+[SKIP] image_id=img_0003 id=11 -> existiert bereits (question-img_0003-11.mp3)
+[SKIP] image_id=img_0003 id=12 -> existiert bereits (question-img_0003-12.mp3)
+[SKIP] image_id=img_0004 id=1 -> existiert bereits (question-img_0004-1.mp3)
+[SKIP] image_id=img_0004 id=2 -> existiert bereits (question-img_0004-2.mp3)
+[SKIP] image_id=img_0004 id=3 -> existiert bereits (question-img_0004-3.mp3)
+[SKIP] image_id=img_0004 id=4 -> existiert bereits (question-img_0004-4.mp3)
+[SKIP] image_id=img_0004 id=5 -> existiert bereits (question-img_0004-5.mp3)
+[SKIP] image_id=img_0004 id=6 -> existiert bereits (question-img_0004-6.mp3)
+[SKIP] image_id=img_0004 id=7 -> existiert bereits (question-img_0004-7.mp3)
+[SKIP] image_id=img_0004 id=8 -> existiert bereits (question-img_0004-8.mp3)
+[SKIP] image_id=img_0004 id=9 -> existiert bereits (question-img_0004-9.mp3)
+[SKIP] image_id=img_0004 id=10 -> existiert bereits (question-img_0004-10.mp3)
+[SKIP] image_id=img_0004 id=11 -> existiert bereits (question-img_0004-11.mp3)
+[SKIP] image_id=img_0004 id=12 -> existiert bereits (question-img_0004-12.mp3)
+[SKIP] image_id=img_0004 id=13 -> existiert bereits (question-img_0004-13.mp3)
+[SKIP] image_id=img_0004 id=14 -> existiert bereits (question-img_0004-14.mp3)
+[SKIP] image_id=img_0004 id=15 -> existiert bereits (question-img_0004-15.mp3)
+[SKIP] image_id=img_0005 id=1 -> existiert bereits (question-img_0005-1.mp3)
+[SKIP] image_id=img_0005 id=2 -> existiert bereits (question-img_0005-2.mp3)
+[SKIP] image_id=img_0005 id=3 -> existiert bereits (question-img_0005-3.mp3)
+[SKIP] image_id=img_0005 id=4 -> existiert bereits (question-img_0005-4.mp3)
+[SKIP] image_id=img_0005 id=5 -> existiert bereits (question-img_0005-5.mp3)
+[SKIP] image_id=img_0005 id=6 -> existiert bereits (question-img_0005-6.mp3)
+[SKIP] image_id=img_0005 id=7 -> existiert bereits (question-img_0005-7.mp3)
+[SKIP] image_id=img_0005 id=8 -> existiert bereits (question-img_0005-8.mp3)
+[SKIP] image_id=img_0005 id=9 -> existiert bereits (question-img_0005-9.mp3)
+[SKIP] image_id=img_0005 id=10 -> existiert bereits (question-img_0005-10.mp3)
+[SKIP] image_id=img_0005 id=11 -> existiert bereits (question-img_0005-11.mp3)
+[SKIP] image_id=img_0005 id=12 -> existiert bereits (question-img_0005-12.mp3)
+[SKIP] image_id=img_0005 id=13 -> existiert bereits (question-img_0005-13.mp3)
+[SKIP] image_id=img_0005 id=14 -> existiert bereits (question-img_0005-14.mp3)
+[SKIP] image_id=img_0005 id=15 -> existiert bereits (question-img_0005-15.mp3)
+[SKIP] image_id=img_0007 id=1 -> existiert bereits (question-img_0007-1.mp3)
+[SKIP] image_id=img_0007 id=2 -> existiert bereits (question-img_0007-2.mp3)
+[SKIP] image_id=img_0007 id=3 -> existiert bereits (question-img_0007-3.mp3)
+[SKIP] image_id=img_0007 id=4 -> existiert bereits (question-img_0007-4.mp3)
+[SKIP] image_id=img_0007 id=5 -> existiert bereits (question-img_0007-5.mp3)
+[SKIP] image_id=img_0007 id=6 -> existiert bereits (question-img_0007-6.mp3)
+[SKIP] image_id=img_0007 id=7 -> existiert bereits (question-img_0007-7.mp3)
+[SKIP] image_id=img_0007 id=8 -> existiert bereits (question-img_0007-8.mp3)
+[SKIP] image_id=img_0007 id=9 -> existiert bereits (question-img_0007-9.mp3)
+[SKIP] image_id=img_0007 id=10 -> existiert bereits (question-img_0007-10.mp3)
+[SKIP] image_id=img_0007 id=11 -> existiert bereits (question-img_0007-11.mp3)
+[SKIP] image_id=img_0007 id=12 -> existiert bereits (question-img_0007-12.mp3)
+[SKIP] image_id=img_0007 id=13 -> existiert bereits (question-img_0007-13.mp3)
+[SKIP] image_id=img_0007 id=14 -> existiert bereits (question-img_0007-14.mp3)
+[SKIP] image_id=img_0007 id=15 -> existiert bereits (question-img_0007-15.mp3)
+[SKIP] image_id=img_0008 id=1 -> existiert bereits (question-img_0008-1.mp3)
+[SKIP] image_id=img_0008 id=2 -> existiert bereits (question-img_0008-2.mp3)
+[SKIP] image_id=img_0008 id=3 -> existiert bereits (question-img_0008-3.mp3)
+[SKIP] image_id=img_0008 id=4 -> existiert bereits (question-img_0008-4.mp3)
+[SKIP] image_id=img_0008 id=5 -> existiert bereits (question-img_0008-5.mp3)
+[SKIP] image_id=img_0008 id=6 -> existiert bereits (question-img_0008-6.mp3)
+[SKIP] image_id=img_0008 id=7 -> existiert bereits (question-img_0008-7.mp3)
+[SKIP] image_id=img_0008 id=8 -> existiert bereits (question-img_0008-8.mp3)
+[SKIP] image_id=img_0008 id=9 -> existiert bereits (question-img_0008-9.mp3)
+[SKIP] image_id=img_0008 id=10 -> existiert bereits (question-img_0008-10.mp3)
+[SKIP] image_id=img_0008 id=11 -> existiert bereits (question-img_0008-11.mp3)
+[SKIP] image_id=img_0008 id=12 -> existiert bereits (question-img_0008-12.mp3)
+[SKIP] image_id=img_0008 id=13 -> existiert bereits (question-img_0008-13.mp3)
+[SKIP] image_id=img_0009 id=1 -> existiert bereits (question-img_0009-1.mp3)
+[SKIP] image_id=img_0009 id=2 -> existiert bereits (question-img_0009-2.mp3)
+[SKIP] image_id=img_0009 id=3 -> existiert bereits (question-img_0009-3.mp3)
+[SKIP] image_id=img_0009 id=4 -> existiert bereits (question-img_0009-4.mp3)
+[SKIP] image_id=img_0009 id=5 -> existiert bereits (question-img_0009-5.mp3)
+[SKIP] image_id=img_0009 id=6 -> existiert bereits (question-img_0009-6.mp3)
+[SKIP] image_id=img_0009 id=7 -> existiert bereits (question-img_0009-7.mp3)
+[SKIP] image_id=img_0009 id=8 -> existiert bereits (question-img_0009-8.mp3)
+[SKIP] image_id=img_0009 id=9 -> existiert bereits (question-img_0009-9.mp3)
+[SKIP] image_id=img_0009 id=10 -> existiert bereits (question-img_0009-10.mp3)
+[SKIP] image_id=img_0009 id=11 -> existiert bereits (question-img_0009-11.mp3)
+[SKIP] image_id=img_0009 id=12 -> existiert bereits (question-img_0009-12.mp3)
+[SKIP] image_id=img_0009 id=13 -> existiert bereits (question-img_0009-13.mp3)
+[SKIP] image_id=img_0010 id=1 -> existiert bereits (question-img_0010-1.mp3)
+[SKIP] image_id=img_0010 id=2 -> existiert bereits (question-img_0010-2.mp3)
+[SKIP] image_id=img_0010 id=3 -> existiert bereits (question-img_0010-3.mp3)
+[SKIP] image_id=img_0010 id=4 -> existiert bereits (question-img_0010-4.mp3)
+[SKIP] image_id=img_0010 id=5 -> existiert bereits (question-img_0010-5.mp3)
+[SKIP] image_id=img_0010 id=6 -> existiert bereits (question-img_0010-6.mp3)
+[SKIP] image_id=img_0010 id=7 -> existiert bereits (question-img_0010-7.mp3)
+[SKIP] image_id=img_0010 id=8 -> existiert bereits (question-img_0010-8.mp3)
+[SKIP] image_id=img_0010 id=9 -> existiert bereits (question-img_0010-9.mp3)
+[SKIP] image_id=img_0010 id=10 -> existiert bereits (question-img_0010-10.mp3)
+[SKIP] image_id=img_0010 id=11 -> existiert bereits (question-img_0010-11.mp3)
+[SKIP] image_id=img_0010 id=12 -> existiert bereits (question-img_0010-12.mp3)
+[SKIP] image_id=img_0011 id=1 -> existiert bereits (question-img_0011-1.mp3)
+[SKIP] image_id=img_0011 id=2 -> existiert bereits (question-img_0011-2.mp3)
+[SKIP] image_id=img_0011 id=3 -> existiert bereits (question-img_0011-3.mp3)
+[SKIP] image_id=img_0011 id=4 -> existiert bereits (question-img_0011-4.mp3)
+[SKIP] image_id=img_0011 id=5 -> existiert bereits (question-img_0011-5.mp3)
+[SKIP] image_id=img_0011 id=6 -> existiert bereits (question-img_0011-6.mp3)
+[SKIP] image_id=img_0011 id=7 -> existiert bereits (question-img_0011-7.mp3)
+[SKIP] image_id=img_0011 id=8 -> existiert bereits (question-img_0011-8.mp3)
+[SKIP] image_id=img_0011 id=9 -> existiert bereits (question-img_0011-9.mp3)
+[SKIP] image_id=img_0011 id=10 -> existiert bereits (question-img_0011-10.mp3)
+[SKIP] image_id=img_0011 id=11 -> existiert bereits (question-img_0011-11.mp3)
+[SKIP] image_id=img_0011 id=12 -> existiert bereits (question-img_0011-12.mp3)
+[SKIP] image_id=img_0011 id=13 -> existiert bereits (question-img_0011-13.mp3)
+[SKIP] image_id=img_0011 id=14 -> existiert bereits (question-img_0011-14.mp3)
+[SKIP] image_id=img_0011 id=15 -> existiert bereits (question-img_0011-15.mp3)
+[SKIP] image_id=img_0011 id=16 -> existiert bereits (question-img_0011-16.mp3)
+[SKIP] image_id=img_0011 id=17 -> existiert bereits (question-img_0011-17.mp3)
+[SKIP] image_id=img_0011 id=18 -> existiert bereits (question-img_0011-18.mp3)
+[SKIP] image_id=img_0011 id=19 -> existiert bereits (question-img_0011-19.mp3)
+[SKIP] image_id=img_0011 id=20 -> existiert bereits (question-img_0011-20.mp3)
+[SKIP] image_id=img_0012 id=1 -> existiert bereits (question-img_0012-1.mp3)
+[SKIP] image_id=img_0012 id=2 -> existiert bereits (question-img_0012-2.mp3)
+[SKIP] image_id=img_0012 id=3 -> existiert bereits (question-img_0012-3.mp3)
+[SKIP] image_id=img_0012 id=4 -> existiert bereits (question-img_0012-4.mp3)
+[SKIP] image_id=img_0012 id=5 -> existiert bereits (question-img_0012-5.mp3)
+[SKIP] image_id=img_0012 id=6 -> existiert bereits (question-img_0012-6.mp3)
+[SKIP] image_id=img_0012 id=7 -> existiert bereits (question-img_0012-7.mp3)
+[SKIP] image_id=img_0012 id=8 -> existiert bereits (question-img_0012-8.mp3)
+[SKIP] image_id=img_0012 id=9 -> existiert bereits (question-img_0012-9.mp3)
+[SKIP] image_id=img_0012 id=10 -> existiert bereits (question-img_0012-10.mp3)
+[SKIP] image_id=img_0012 id=11 -> existiert bereits (question-img_0012-11.mp3)
+[SKIP] image_id=img_0012 id=12 -> existiert bereits (question-img_0012-12.mp3)
+[SKIP] image_id=img_0012 id=13 -> existiert bereits (question-img_0012-13.mp3)
+[SKIP] image_id=img_0012 id=14 -> existiert bereits (question-img_0012-14.mp3)
+[SKIP] image_id=img_0013 id=1 -> existiert bereits (question-img_0013-1.mp3)
+[SKIP] image_id=img_0013 id=2 -> existiert bereits (question-img_0013-2.mp3)
+[SKIP] image_id=img_0013 id=3 -> existiert bereits (question-img_0013-3.mp3)
+[SKIP] image_id=img_0013 id=4 -> existiert bereits (question-img_0013-4.mp3)
+[SKIP] image_id=img_0013 id=5 -> existiert bereits (question-img_0013-5.mp3)
+[SKIP] image_id=img_0013 id=6 -> existiert bereits (question-img_0013-6.mp3)
+[SKIP] image_id=img_0013 id=7 -> existiert bereits (question-img_0013-7.mp3)
+[SKIP] image_id=img_0013 id=8 -> existiert bereits (question-img_0013-8.mp3)
+[SKIP] image_id=img_0013 id=9 -> existiert bereits (question-img_0013-9.mp3)
+[SKIP] image_id=img_0013 id=10 -> existiert bereits (question-img_0013-10.mp3)
+[SKIP] image_id=img_0013 id=11 -> existiert bereits (question-img_0013-11.mp3)
+[SKIP] image_id=img_0013 id=12 -> existiert bereits (question-img_0013-12.mp3)
+[SKIP] image_id=img_0013 id=13 -> existiert bereits (question-img_0013-13.mp3)
+[SKIP] image_id=img_0014 id=1 -> existiert bereits (question-img_0014-1.mp3)
+[SKIP] image_id=img_0014 id=2 -> existiert bereits (question-img_0014-2.mp3)
+[SKIP] image_id=img_0014 id=3 -> existiert bereits (question-img_0014-3.mp3)
+[SKIP] image_id=img_0014 id=4 -> existiert bereits (question-img_0014-4.mp3)
+[SKIP] image_id=img_0014 id=5 -> existiert bereits (question-img_0014-5.mp3)
+[SKIP] image_id=img_0014 id=6 -> existiert bereits (question-img_0014-6.mp3)
+[SKIP] image_id=img_0014 id=7 -> existiert bereits (question-img_0014-7.mp3)
+[SKIP] image_id=img_0014 id=8 -> existiert bereits (question-img_0014-8.mp3)
+[SKIP] image_id=img_0014 id=9 -> existiert bereits (question-img_0014-9.mp3)
+[SKIP] image_id=img_0014 id=10 -> existiert bereits (question-img_0014-10.mp3)
+[SKIP] image_id=img_0014 id=11 -> existiert bereits (question-img_0014-11.mp3)
+[SKIP] image_id=img_0014 id=12 -> existiert bereits (question-img_0014-12.mp3)
+[SKIP] image_id=img_0014 id=13 -> existiert bereits (question-img_0014-13.mp3)
+[SKIP] image_id=img_0014 id=14 -> existiert bereits (question-img_0014-14.mp3)
+[SKIP] image_id=img_0015 id=1 -> existiert bereits (question-img_0015-1.mp3)
+[SKIP] image_id=img_0015 id=2 -> existiert bereits (question-img_0015-2.mp3)
+[SKIP] image_id=img_0015 id=3 -> existiert bereits (question-img_0015-3.mp3)
+[SKIP] image_id=img_0015 id=4 -> existiert bereits (question-img_0015-4.mp3)
+[SKIP] image_id=img_0015 id=5 -> existiert bereits (question-img_0015-5.mp3)
+[SKIP] image_id=img_0015 id=6 -> existiert bereits (question-img_0015-6.mp3)
+[SKIP] image_id=img_0015 id=7 -> existiert bereits (question-img_0015-7.mp3)
+[SKIP] image_id=img_0015 id=8 -> existiert bereits (question-img_0015-8.mp3)
+[SKIP] image_id=img_0015 id=9 -> existiert bereits (question-img_0015-9.mp3)
+[SKIP] image_id=img_0015 id=10 -> existiert bereits (question-img_0015-10.mp3)
+[SKIP] image_id=img_0015 id=11 -> existiert bereits (question-img_0015-11.mp3)
+[SKIP] image_id=img_0015 id=12 -> existiert bereits (question-img_0015-12.mp3)
+[SKIP] image_id=img_0015 id=13 -> existiert bereits (question-img_0015-13.mp3)
+[SKIP] image_id=img_0016 id=1 -> existiert bereits (question-img_0016-1.mp3)
+[SKIP] image_id=img_0016 id=2 -> existiert bereits (question-img_0016-2.mp3)
+[SKIP] image_id=img_0016 id=3 -> existiert bereits (question-img_0016-3.mp3)
+[SKIP] image_id=img_0016 id=4 -> existiert bereits (question-img_0016-4.mp3)
+[SKIP] image_id=img_0016 id=5 -> existiert bereits (question-img_0016-5.mp3)
+[SKIP] image_id=img_0016 id=6 -> existiert bereits (question-img_0016-6.mp3)
+[SKIP] image_id=img_0016 id=7 -> existiert bereits (question-img_0016-7.mp3)
+[SKIP] image_id=img_0016 id=8 -> existiert bereits (question-img_0016-8.mp3)
+[SKIP] image_id=img_0016 id=9 -> existiert bereits (question-img_0016-9.mp3)
+[SKIP] image_id=img_0016 id=10 -> existiert bereits (question-img_0016-10.mp3)
+[SKIP] image_id=img_0016 id=11 -> existiert bereits (question-img_0016-11.mp3)
+[SKIP] image_id=img_0016 id=12 -> existiert bereits (question-img_0016-12.mp3)
+[SKIP] image_id=img_0016 id=13 -> existiert bereits (question-img_0016-13.mp3)
+[SKIP] image_id=img_0017 id=1 -> existiert bereits (question-img_0017-1.mp3)
+[SKIP] image_id=img_0017 id=2 -> existiert bereits (question-img_0017-2.mp3)
+[SKIP] image_id=img_0017 id=3 -> existiert bereits (question-img_0017-3.mp3)
+[SKIP] image_id=img_0017 id=4 -> existiert bereits (question-img_0017-4.mp3)
+[SKIP] image_id=img_0017 id=5 -> existiert bereits (question-img_0017-5.mp3)
+[SKIP] image_id=img_0017 id=6 -> existiert bereits (question-img_0017-6.mp3)
+[SKIP] image_id=img_0017 id=7 -> existiert bereits (question-img_0017-7.mp3)
+[SKIP] image_id=img_0017 id=8 -> existiert bereits (question-img_0017-8.mp3)
+[SKIP] image_id=img_0017 id=9 -> existiert bereits (question-img_0017-9.mp3)
+[SKIP] image_id=img_0018 id=1 -> existiert bereits (question-img_0018-1.mp3)
+[SKIP] image_id=img_0018 id=2 -> existiert bereits (question-img_0018-2.mp3)
+[SKIP] image_id=img_0018 id=3 -> existiert bereits (question-img_0018-3.mp3)
+[SKIP] image_id=img_0018 id=4 -> existiert bereits (question-img_0018-4.mp3)
+[SKIP] image_id=img_0018 id=5 -> existiert bereits (question-img_0018-5.mp3)
+[SKIP] image_id=img_0018 id=6 -> existiert bereits (question-img_0018-6.mp3)
+[SKIP] image_id=img_0018 id=7 -> existiert bereits (question-img_0018-7.mp3)
+[SKIP] image_id=img_0018 id=8 -> existiert bereits (question-img_0018-8.mp3)
+[SKIP] image_id=img_0018 id=9 -> existiert bereits (question-img_0018-9.mp3)
+[SKIP] image_id=img_0018 id=10 -> existiert bereits (question-img_0018-10.mp3)
+[SKIP] image_id=img_0018 id=11 -> existiert bereits (question-img_0018-11.mp3)
+[SKIP] image_id=img_0018 id=12 -> existiert bereits (question-img_0018-12.mp3)
+[SKIP] image_id=img_0019 id=1 -> existiert bereits (question-img_0019-1.mp3)
+[SKIP] image_id=img_0019 id=2 -> existiert bereits (question-img_0019-2.mp3)
+[SKIP] image_id=img_0019 id=3 -> existiert bereits (question-img_0019-3.mp3)
+[SKIP] image_id=img_0019 id=4 -> existiert bereits (question-img_0019-4.mp3)
+[SKIP] image_id=img_0019 id=5 -> existiert bereits (question-img_0019-5.mp3)
+[SKIP] image_id=img_0019 id=6 -> existiert bereits (question-img_0019-6.mp3)
+[SKIP] image_id=img_0019 id=7 -> existiert bereits (question-img_0019-7.mp3)
+[SKIP] image_id=img_0019 id=8 -> existiert bereits (question-img_0019-8.mp3)
+[SKIP] image_id=img_0019 id=9 -> existiert bereits (question-img_0019-9.mp3)
+[SKIP] image_id=img_0019 id=10 -> existiert bereits (question-img_0019-10.mp3)
+[SKIP] image_id=img_0019 id=11 -> existiert bereits (question-img_0019-11.mp3)
+[SKIP] image_id=img_0019 id=12 -> existiert bereits (question-img_0019-12.mp3)
+[SKIP] image_id=img_0020 id=1 -> existiert bereits (question-img_0020-1.mp3)
+[SKIP] image_id=img_0020 id=2 -> existiert bereits (question-img_0020-2.mp3)
+[SKIP] image_id=img_0020 id=3 -> existiert bereits (question-img_0020-3.mp3)
+[SKIP] image_id=img_0020 id=4 -> existiert bereits (question-img_0020-4.mp3)
+[SKIP] image_id=img_0020 id=5 -> existiert bereits (question-img_0020-5.mp3)
+[SKIP] image_id=img_0020 id=6 -> existiert bereits (question-img_0020-6.mp3)
+[SKIP] image_id=img_0020 id=7 -> existiert bereits (question-img_0020-7.mp3)
+[SKIP] image_id=img_0020 id=8 -> existiert bereits (question-img_0020-8.mp3)
+[SKIP] image_id=img_0020 id=9 -> existiert bereits (question-img_0020-9.mp3)
+[SKIP] image_id=img_0020 id=10 -> existiert bereits (question-img_0020-10.mp3)
+[SKIP] image_id=img_0020 id=11 -> existiert bereits (question-img_0020-11.mp3)
+[SKIP] image_id=img_0020 id=12 -> existiert bereits (question-img_0020-12.mp3)
+[SKIP] image_id=img_0020 id=13 -> existiert bereits (question-img_0020-13.mp3)
+[SKIP] image_id=img_0020 id=14 -> existiert bereits (question-img_0020-14.mp3)
+[SKIP] image_id=img_0020 id=15 -> existiert bereits (question-img_0020-15.mp3)
+[SKIP] image_id=img_0021 id=1 -> existiert bereits (question-img_0021-1.mp3)
+[SKIP] image_id=img_0021 id=2 -> existiert bereits (question-img_0021-2.mp3)
+[SKIP] image_id=img_0021 id=3 -> existiert bereits (question-img_0021-3.mp3)
+[SKIP] image_id=img_0021 id=4 -> existiert bereits (question-img_0021-4.mp3)
+[SKIP] image_id=img_0021 id=5 -> existiert bereits (question-img_0021-5.mp3)
+[SKIP] image_id=img_0021 id=6 -> existiert bereits (question-img_0021-6.mp3)
+[SKIP] image_id=img_0021 id=7 -> existiert bereits (question-img_0021-7.mp3)
+[SKIP] image_id=img_0021 id=8 -> existiert bereits (question-img_0021-8.mp3)
+[SKIP] image_id=img_0021 id=9 -> existiert bereits (question-img_0021-9.mp3)
+[SKIP] image_id=img_0021 id=10 -> existiert bereits (question-img_0021-10.mp3)
+[SKIP] image_id=img_0021 id=11 -> existiert bereits (question-img_0021-11.mp3)
+[SKIP] image_id=img_0021 id=12 -> existiert bereits (question-img_0021-12.mp3)
+[SKIP] image_id=img_0022 id=1 -> existiert bereits (question-img_0022-1.mp3)
+[SKIP] image_id=img_0022 id=2 -> existiert bereits (question-img_0022-2.mp3)
+[SKIP] image_id=img_0022 id=3 -> existiert bereits (question-img_0022-3.mp3)
+[SKIP] image_id=img_0022 id=4 -> existiert bereits (question-img_0022-4.mp3)
+[SKIP] image_id=img_0022 id=5 -> existiert bereits (question-img_0022-5.mp3)
+[SKIP] image_id=img_0022 id=6 -> existiert bereits (question-img_0022-6.mp3)
+[SKIP] image_id=img_0022 id=7 -> existiert bereits (question-img_0022-7.mp3)
+[SKIP] image_id=img_0022 id=8 -> existiert bereits (question-img_0022-8.mp3)
+[SKIP] image_id=img_0022 id=9 -> existiert bereits (question-img_0022-9.mp3)
+[SKIP] image_id=img_0022 id=10 -> existiert bereits (question-img_0022-10.mp3)
+[SKIP] image_id=img_0022 id=11 -> existiert bereits (question-img_0022-11.mp3)
+[SKIP] image_id=img_0022 id=12 -> existiert bereits (question-img_0022-12.mp3)
+[SKIP] image_id=img_0022 id=13 -> existiert bereits (question-img_0022-13.mp3)
+[SKIP] image_id=img_0022 id=14 -> existiert bereits (question-img_0022-14.mp3)
+[SKIP] image_id=img_0022 id=15 -> existiert bereits (question-img_0022-15.mp3)
+[SKIP] image_id=img_0023 id=1 -> existiert bereits (question-img_0023-1.mp3)
+[SKIP] image_id=img_0023 id=2 -> existiert bereits (question-img_0023-2.mp3)
+[SKIP] image_id=img_0023 id=3 -> existiert bereits (question-img_0023-3.mp3)
+[SKIP] image_id=img_0023 id=4 -> existiert bereits (question-img_0023-4.mp3)
+[SKIP] image_id=img_0023 id=5 -> existiert bereits (question-img_0023-5.mp3)
+[SKIP] image_id=img_0023 id=6 -> existiert bereits (question-img_0023-6.mp3)
+[SKIP] image_id=img_0023 id=7 -> existiert bereits (question-img_0023-7.mp3)
+[SKIP] image_id=img_0023 id=8 -> existiert bereits (question-img_0023-8.mp3)
+[SKIP] image_id=img_0023 id=9 -> existiert bereits (question-img_0023-9.mp3)
+[SKIP] image_id=img_0023 id=10 -> existiert bereits (question-img_0023-10.mp3)
+[SKIP] image_id=img_0023 id=11 -> existiert bereits (question-img_0023-11.mp3)
+[SKIP] image_id=img_0023 id=12 -> existiert bereits (question-img_0023-12.mp3)
+[SKIP] image_id=img_0023 id=13 -> existiert bereits (question-img_0023-13.mp3)
+[SKIP] image_id=img_0024 id=1 -> existiert bereits (question-img_0024-1.mp3)
+[SKIP] image_id=img_0024 id=2 -> existiert bereits (question-img_0024-2.mp3)
+[SKIP] image_id=img_0024 id=3 -> existiert bereits (question-img_0024-3.mp3)
+[SKIP] image_id=img_0024 id=4 -> existiert bereits (question-img_0024-4.mp3)
+[SKIP] image_id=img_0024 id=5 -> existiert bereits (question-img_0024-5.mp3)
+[SKIP] image_id=img_0024 id=6 -> existiert bereits (question-img_0024-6.mp3)
+[SKIP] image_id=img_0024 id=7 -> existiert bereits (question-img_0024-7.mp3)
+[SKIP] image_id=img_0024 id=8 -> existiert bereits (question-img_0024-8.mp3)
+[SKIP] image_id=img_0024 id=9 -> existiert bereits (question-img_0024-9.mp3)
+[SKIP] image_id=img_0024 id=10 -> existiert bereits (question-img_0024-10.mp3)
+[SKIP] image_id=img_0024 id=11 -> existiert bereits (question-img_0024-11.mp3)
+[SKIP] image_id=img_0024 id=12 -> existiert bereits (question-img_0024-12.mp3)
+[SKIP] image_id=img_0024 id=13 -> existiert bereits (question-img_0024-13.mp3)
+[SKIP] image_id=img_0025 id=1 -> existiert bereits (question-img_0025-1.mp3)
+[SKIP] image_id=img_0025 id=2 -> existiert bereits (question-img_0025-2.mp3)
+[SKIP] image_id=img_0025 id=3 -> existiert bereits (question-img_0025-3.mp3)
+[SKIP] image_id=img_0025 id=4 -> existiert bereits (question-img_0025-4.mp3)
+[SKIP] image_id=img_0025 id=5 -> existiert bereits (question-img_0025-5.mp3)
+[SKIP] image_id=img_0025 id=6 -> existiert bereits (question-img_0025-6.mp3)
+[SKIP] image_id=img_0025 id=7 -> existiert bereits (question-img_0025-7.mp3)
+[SKIP] image_id=img_0025 id=8 -> existiert bereits (question-img_0025-8.mp3)
+[SKIP] image_id=img_0025 id=9 -> existiert bereits (question-img_0025-9.mp3)
+[SKIP] image_id=img_0025 id=10 -> existiert bereits (question-img_0025-10.mp3)
+[SKIP] image_id=img_0025 id=11 -> existiert bereits (question-img_0025-11.mp3)
+[SKIP] image_id=img_0025 id=12 -> existiert bereits (question-img_0025-12.mp3)
+[SKIP] image_id=img_0025 id=13 -> existiert bereits (question-img_0025-13.mp3)
+[JSON] image_id=img_0006 id=1 audio gesetzt -> question-img_0006-1.mp3
+[GEN ] image_id=img_0006 id=1 -> question-img_0006-1.mp3
+[OK  ] image_id=img_0006 id=1 -> erzeugt
+[JSON] image_id=img_0006 id=2 audio gesetzt -> question-img_0006-2.mp3
+[GEN ] image_id=img_0006 id=2 -> question-img_0006-2.mp3
+[OK  ] image_id=img_0006 id=2 -> erzeugt
+[JSON] image_id=img_0006 id=3 audio gesetzt -> question-img_0006-3.mp3
+[GEN ] image_id=img_0006 id=3 -> question-img_0006-3.mp3
+[OK  ] image_id=img_0006 id=3 -> erzeugt
+[JSON] image_id=img_0006 id=4 audio gesetzt -> question-img_0006-4.mp3
+[GEN ] image_id=img_0006 id=4 -> question-img_0006-4.mp3
+[OK  ] image_id=img_0006 id=4 -> erzeugt
+[JSON] image_id=img_0006 id=5 audio gesetzt -> question-img_0006-5.mp3
+[GEN ] image_id=img_0006 id=5 -> question-img_0006-5.mp3
+[OK  ] image_id=img_0006 id=5 -> erzeugt
+[JSON] image_id=img_0006 id=6 audio gesetzt -> question-img_0006-6.mp3
+[GEN ] image_id=img_0006 id=6 -> question-img_0006-6.mp3
+[OK  ] image_id=img_0006 id=6 -> erzeugt
+[JSON] image_id=img_0006 id=7 audio gesetzt -> question-img_0006-7.mp3
+[GEN ] image_id=img_0006 id=7 -> question-img_0006-7.mp3
+[OK  ] image_id=img_0006 id=7 -> erzeugt
+[JSON] image_id=img_0006 id=8 audio gesetzt -> question-img_0006-8.mp3
+[GEN ] image_id=img_0006 id=8 -> question-img_0006-8.mp3
+[OK  ] image_id=img_0006 id=8 -> erzeugt
+[JSON] image_id=img_0006 id=9 audio gesetzt -> question-img_0006-9.mp3
+[GEN ] image_id=img_0006 id=9 -> question-img_0006-9.mp3
+[OK  ] image_id=img_0006 id=9 -> erzeugt
+[JSON] image_id=img_0006 id=10 audio gesetzt -> question-img_0006-10.mp3
+[GEN ] image_id=img_0006 id=10 -> question-img_0006-10.mp3
+[OK  ] image_id=img_0006 id=10 -> erzeugt
+[JSON] image_id=img_0006 id=11 audio gesetzt -> question-img_0006-11.mp3
+[GEN ] image_id=img_0006 id=11 -> question-img_0006-11.mp3
+[OK  ] image_id=img_0006 id=11 -> erzeugt
+[JSON] image_id=img_0006 id=12 audio gesetzt -> question-img_0006-12.mp3
+[GEN ] image_id=img_0006 id=12 -> question-img_0006-12.mp3
+[OK  ] image_id=img_0006 id=12 -> erzeugt
+[JSON] image_id=img_0006 id=13 audio gesetzt -> question-img_0006-13.mp3
+[GEN ] image_id=img_0006 id=13 -> question-img_0006-13.mp3
+[OK  ] image_id=img_0006 id=13 -> erzeugt
+------------------------------------------------------------
+[2026-03-13 08:57:13] ENDE
+fragen gesehen: 338
+produziert:    13
+übersprungen:  325
+fehler:        0
+json-updates:  13
+mp3 im Ordner: 338
+============================================================
+
+============================================================
+[2026-03-13 08:57:36] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/imagememory/media/audio
+Questions:     /home/aleranzer/quizshark/imagememory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=img_0001 id=1 -> existiert bereits (question-img_0001-1.mp3)
+[SKIP] image_id=img_0001 id=2 -> existiert bereits (question-img_0001-2.mp3)
+[SKIP] image_id=img_0001 id=3 -> existiert bereits (question-img_0001-3.mp3)
+[SKIP] image_id=img_0001 id=4 -> existiert bereits (question-img_0001-4.mp3)
+[SKIP] image_id=img_0001 id=5 -> existiert bereits (question-img_0001-5.mp3)
+[SKIP] image_id=img_0001 id=6 -> existiert bereits (question-img_0001-6.mp3)
+[SKIP] image_id=img_0001 id=7 -> existiert bereits (question-img_0001-7.mp3)
+[SKIP] image_id=img_0001 id=8 -> existiert bereits (question-img_0001-8.mp3)
+[SKIP] image_id=img_0001 id=9 -> existiert bereits (question-img_0001-9.mp3)
+[SKIP] image_id=img_0002 id=1 -> existiert bereits (question-img_0002-1.mp3)
+[SKIP] image_id=img_0002 id=2 -> existiert bereits (question-img_0002-2.mp3)
+[SKIP] image_id=img_0002 id=3 -> existiert bereits (question-img_0002-3.mp3)
+[SKIP] image_id=img_0002 id=4 -> existiert bereits (question-img_0002-4.mp3)
+[SKIP] image_id=img_0002 id=5 -> existiert bereits (question-img_0002-5.mp3)
+[SKIP] image_id=img_0002 id=6 -> existiert bereits (question-img_0002-6.mp3)
+[SKIP] image_id=img_0002 id=7 -> existiert bereits (question-img_0002-7.mp3)
+[SKIP] image_id=img_0002 id=8 -> existiert bereits (question-img_0002-8.mp3)
+[SKIP] image_id=img_0002 id=9 -> existiert bereits (question-img_0002-9.mp3)
+[SKIP] image_id=img_0002 id=10 -> existiert bereits (question-img_0002-10.mp3)
+[SKIP] image_id=img_0002 id=11 -> existiert bereits (question-img_0002-11.mp3)
+[SKIP] image_id=img_0002 id=12 -> existiert bereits (question-img_0002-12.mp3)
+[SKIP] image_id=img_0002 id=13 -> existiert bereits (question-img_0002-13.mp3)
+[SKIP] image_id=img_0002 id=14 -> existiert bereits (question-img_0002-14.mp3)
+[SKIP] image_id=img_0002 id=15 -> existiert bereits (question-img_0002-15.mp3)
+[SKIP] image_id=img_0002 id=16 -> existiert bereits (question-img_0002-16.mp3)
+[SKIP] image_id=img_0002 id=17 -> existiert bereits (question-img_0002-17.mp3)
+[SKIP] image_id=img_0002 id=18 -> existiert bereits (question-img_0002-18.mp3)
+[SKIP] image_id=img_0002 id=19 -> existiert bereits (question-img_0002-19.mp3)
+[SKIP] image_id=img_0002 id=20 -> existiert bereits (question-img_0002-20.mp3)
+[SKIP] image_id=img_0003 id=1 -> existiert bereits (question-img_0003-1.mp3)
+[SKIP] image_id=img_0003 id=2 -> existiert bereits (question-img_0003-2.mp3)
+[SKIP] image_id=img_0003 id=3 -> existiert bereits (question-img_0003-3.mp3)
+[SKIP] image_id=img_0003 id=4 -> existiert bereits (question-img_0003-4.mp3)
+[SKIP] image_id=img_0003 id=5 -> existiert bereits (question-img_0003-5.mp3)
+[SKIP] image_id=img_0003 id=6 -> existiert bereits (question-img_0003-6.mp3)
+[SKIP] image_id=img_0003 id=7 -> existiert bereits (question-img_0003-7.mp3)
+[SKIP] image_id=img_0003 id=8 -> existiert bereits (question-img_0003-8.mp3)
+[SKIP] image_id=img_0003 id=9 -> existiert bereits (question-img_0003-9.mp3)
+[SKIP] image_id=img_0003 id=10 -> existiert bereits (question-img_0003-10.mp3)
+[SKIP] image_id=img_0003 id=11 -> existiert bereits (question-img_0003-11.mp3)
+[SKIP] image_id=img_0003 id=12 -> existiert bereits (question-img_0003-12.mp3)
+[SKIP] image_id=img_0004 id=1 -> existiert bereits (question-img_0004-1.mp3)
+[SKIP] image_id=img_0004 id=2 -> existiert bereits (question-img_0004-2.mp3)
+[SKIP] image_id=img_0004 id=3 -> existiert bereits (question-img_0004-3.mp3)
+[SKIP] image_id=img_0004 id=4 -> existiert bereits (question-img_0004-4.mp3)
+[SKIP] image_id=img_0004 id=5 -> existiert bereits (question-img_0004-5.mp3)
+[SKIP] image_id=img_0004 id=6 -> existiert bereits (question-img_0004-6.mp3)
+[SKIP] image_id=img_0004 id=7 -> existiert bereits (question-img_0004-7.mp3)
+[SKIP] image_id=img_0004 id=8 -> existiert bereits (question-img_0004-8.mp3)
+[SKIP] image_id=img_0004 id=9 -> existiert bereits (question-img_0004-9.mp3)
+[SKIP] image_id=img_0004 id=10 -> existiert bereits (question-img_0004-10.mp3)
+[SKIP] image_id=img_0004 id=11 -> existiert bereits (question-img_0004-11.mp3)
+[SKIP] image_id=img_0004 id=12 -> existiert bereits (question-img_0004-12.mp3)
+[SKIP] image_id=img_0004 id=13 -> existiert bereits (question-img_0004-13.mp3)
+[SKIP] image_id=img_0004 id=14 -> existiert bereits (question-img_0004-14.mp3)
+[SKIP] image_id=img_0004 id=15 -> existiert bereits (question-img_0004-15.mp3)
+[SKIP] image_id=img_0005 id=1 -> existiert bereits (question-img_0005-1.mp3)
+[SKIP] image_id=img_0005 id=2 -> existiert bereits (question-img_0005-2.mp3)
+[SKIP] image_id=img_0005 id=3 -> existiert bereits (question-img_0005-3.mp3)
+[SKIP] image_id=img_0005 id=4 -> existiert bereits (question-img_0005-4.mp3)
+[SKIP] image_id=img_0005 id=5 -> existiert bereits (question-img_0005-5.mp3)
+[SKIP] image_id=img_0005 id=6 -> existiert bereits (question-img_0005-6.mp3)
+[SKIP] image_id=img_0005 id=7 -> existiert bereits (question-img_0005-7.mp3)
+[SKIP] image_id=img_0005 id=8 -> existiert bereits (question-img_0005-8.mp3)
+[SKIP] image_id=img_0005 id=9 -> existiert bereits (question-img_0005-9.mp3)
+[SKIP] image_id=img_0005 id=10 -> existiert bereits (question-img_0005-10.mp3)
+[SKIP] image_id=img_0005 id=11 -> existiert bereits (question-img_0005-11.mp3)
+[SKIP] image_id=img_0005 id=12 -> existiert bereits (question-img_0005-12.mp3)
+[SKIP] image_id=img_0005 id=13 -> existiert bereits (question-img_0005-13.mp3)
+[SKIP] image_id=img_0005 id=14 -> existiert bereits (question-img_0005-14.mp3)
+[SKIP] image_id=img_0005 id=15 -> existiert bereits (question-img_0005-15.mp3)
+[SKIP] image_id=img_0007 id=1 -> existiert bereits (question-img_0007-1.mp3)
+[SKIP] image_id=img_0007 id=2 -> existiert bereits (question-img_0007-2.mp3)
+[SKIP] image_id=img_0007 id=3 -> existiert bereits (question-img_0007-3.mp3)
+[SKIP] image_id=img_0007 id=4 -> existiert bereits (question-img_0007-4.mp3)
+[SKIP] image_id=img_0007 id=5 -> existiert bereits (question-img_0007-5.mp3)
+[SKIP] image_id=img_0007 id=6 -> existiert bereits (question-img_0007-6.mp3)
+[SKIP] image_id=img_0007 id=7 -> existiert bereits (question-img_0007-7.mp3)
+[SKIP] image_id=img_0007 id=8 -> existiert bereits (question-img_0007-8.mp3)
+[SKIP] image_id=img_0007 id=9 -> existiert bereits (question-img_0007-9.mp3)
+[SKIP] image_id=img_0007 id=10 -> existiert bereits (question-img_0007-10.mp3)
+[SKIP] image_id=img_0007 id=11 -> existiert bereits (question-img_0007-11.mp3)
+[SKIP] image_id=img_0007 id=12 -> existiert bereits (question-img_0007-12.mp3)
+[SKIP] image_id=img_0007 id=13 -> existiert bereits (question-img_0007-13.mp3)
+[SKIP] image_id=img_0007 id=14 -> existiert bereits (question-img_0007-14.mp3)
+[SKIP] image_id=img_0007 id=15 -> existiert bereits (question-img_0007-15.mp3)
+[SKIP] image_id=img_0008 id=1 -> existiert bereits (question-img_0008-1.mp3)
+[SKIP] image_id=img_0008 id=2 -> existiert bereits (question-img_0008-2.mp3)
+[SKIP] image_id=img_0008 id=3 -> existiert bereits (question-img_0008-3.mp3)
+[SKIP] image_id=img_0008 id=4 -> existiert bereits (question-img_0008-4.mp3)
+[SKIP] image_id=img_0008 id=5 -> existiert bereits (question-img_0008-5.mp3)
+[SKIP] image_id=img_0008 id=6 -> existiert bereits (question-img_0008-6.mp3)
+[SKIP] image_id=img_0008 id=7 -> existiert bereits (question-img_0008-7.mp3)
+[SKIP] image_id=img_0008 id=8 -> existiert bereits (question-img_0008-8.mp3)
+[SKIP] image_id=img_0008 id=9 -> existiert bereits (question-img_0008-9.mp3)
+[SKIP] image_id=img_0008 id=10 -> existiert bereits (question-img_0008-10.mp3)
+[SKIP] image_id=img_0008 id=11 -> existiert bereits (question-img_0008-11.mp3)
+[SKIP] image_id=img_0008 id=12 -> existiert bereits (question-img_0008-12.mp3)
+[SKIP] image_id=img_0008 id=13 -> existiert bereits (question-img_0008-13.mp3)
+[SKIP] image_id=img_0009 id=1 -> existiert bereits (question-img_0009-1.mp3)
+[SKIP] image_id=img_0009 id=2 -> existiert bereits (question-img_0009-2.mp3)
+[SKIP] image_id=img_0009 id=3 -> existiert bereits (question-img_0009-3.mp3)
+[SKIP] image_id=img_0009 id=4 -> existiert bereits (question-img_0009-4.mp3)
+[SKIP] image_id=img_0009 id=5 -> existiert bereits (question-img_0009-5.mp3)
+[SKIP] image_id=img_0009 id=6 -> existiert bereits (question-img_0009-6.mp3)
+[SKIP] image_id=img_0009 id=7 -> existiert bereits (question-img_0009-7.mp3)
+[SKIP] image_id=img_0009 id=8 -> existiert bereits (question-img_0009-8.mp3)
+[SKIP] image_id=img_0009 id=9 -> existiert bereits (question-img_0009-9.mp3)
+[SKIP] image_id=img_0009 id=10 -> existiert bereits (question-img_0009-10.mp3)
+[SKIP] image_id=img_0009 id=11 -> existiert bereits (question-img_0009-11.mp3)
+[SKIP] image_id=img_0009 id=12 -> existiert bereits (question-img_0009-12.mp3)
+[SKIP] image_id=img_0009 id=13 -> existiert bereits (question-img_0009-13.mp3)
+[SKIP] image_id=img_0010 id=1 -> existiert bereits (question-img_0010-1.mp3)
+[SKIP] image_id=img_0010 id=2 -> existiert bereits (question-img_0010-2.mp3)
+[SKIP] image_id=img_0010 id=3 -> existiert bereits (question-img_0010-3.mp3)
+[SKIP] image_id=img_0010 id=4 -> existiert bereits (question-img_0010-4.mp3)
+[SKIP] image_id=img_0010 id=5 -> existiert bereits (question-img_0010-5.mp3)
+[SKIP] image_id=img_0010 id=6 -> existiert bereits (question-img_0010-6.mp3)
+[SKIP] image_id=img_0010 id=7 -> existiert bereits (question-img_0010-7.mp3)
+[SKIP] image_id=img_0010 id=8 -> existiert bereits (question-img_0010-8.mp3)
+[SKIP] image_id=img_0010 id=9 -> existiert bereits (question-img_0010-9.mp3)
+[SKIP] image_id=img_0010 id=10 -> existiert bereits (question-img_0010-10.mp3)
+[SKIP] image_id=img_0010 id=11 -> existiert bereits (question-img_0010-11.mp3)
+[SKIP] image_id=img_0010 id=12 -> existiert bereits (question-img_0010-12.mp3)
+[SKIP] image_id=img_0011 id=1 -> existiert bereits (question-img_0011-1.mp3)
+[SKIP] image_id=img_0011 id=2 -> existiert bereits (question-img_0011-2.mp3)
+[SKIP] image_id=img_0011 id=3 -> existiert bereits (question-img_0011-3.mp3)
+[SKIP] image_id=img_0011 id=4 -> existiert bereits (question-img_0011-4.mp3)
+[SKIP] image_id=img_0011 id=5 -> existiert bereits (question-img_0011-5.mp3)
+[SKIP] image_id=img_0011 id=6 -> existiert bereits (question-img_0011-6.mp3)
+[SKIP] image_id=img_0011 id=7 -> existiert bereits (question-img_0011-7.mp3)
+[SKIP] image_id=img_0011 id=8 -> existiert bereits (question-img_0011-8.mp3)
+[SKIP] image_id=img_0011 id=9 -> existiert bereits (question-img_0011-9.mp3)
+[SKIP] image_id=img_0011 id=10 -> existiert bereits (question-img_0011-10.mp3)
+[SKIP] image_id=img_0011 id=11 -> existiert bereits (question-img_0011-11.mp3)
+[SKIP] image_id=img_0011 id=12 -> existiert bereits (question-img_0011-12.mp3)
+[SKIP] image_id=img_0011 id=13 -> existiert bereits (question-img_0011-13.mp3)
+[SKIP] image_id=img_0011 id=14 -> existiert bereits (question-img_0011-14.mp3)
+[SKIP] image_id=img_0011 id=15 -> existiert bereits (question-img_0011-15.mp3)
+[SKIP] image_id=img_0011 id=16 -> existiert bereits (question-img_0011-16.mp3)
+[SKIP] image_id=img_0011 id=17 -> existiert bereits (question-img_0011-17.mp3)
+[SKIP] image_id=img_0011 id=18 -> existiert bereits (question-img_0011-18.mp3)
+[SKIP] image_id=img_0011 id=19 -> existiert bereits (question-img_0011-19.mp3)
+[SKIP] image_id=img_0011 id=20 -> existiert bereits (question-img_0011-20.mp3)
+[SKIP] image_id=img_0012 id=1 -> existiert bereits (question-img_0012-1.mp3)
+[SKIP] image_id=img_0012 id=2 -> existiert bereits (question-img_0012-2.mp3)
+[SKIP] image_id=img_0012 id=3 -> existiert bereits (question-img_0012-3.mp3)
+[SKIP] image_id=img_0012 id=4 -> existiert bereits (question-img_0012-4.mp3)
+[SKIP] image_id=img_0012 id=5 -> existiert bereits (question-img_0012-5.mp3)
+[SKIP] image_id=img_0012 id=6 -> existiert bereits (question-img_0012-6.mp3)
+[SKIP] image_id=img_0012 id=7 -> existiert bereits (question-img_0012-7.mp3)
+[SKIP] image_id=img_0012 id=8 -> existiert bereits (question-img_0012-8.mp3)
+[SKIP] image_id=img_0012 id=9 -> existiert bereits (question-img_0012-9.mp3)
+[SKIP] image_id=img_0012 id=10 -> existiert bereits (question-img_0012-10.mp3)
+[SKIP] image_id=img_0012 id=11 -> existiert bereits (question-img_0012-11.mp3)
+[SKIP] image_id=img_0012 id=12 -> existiert bereits (question-img_0012-12.mp3)
+[SKIP] image_id=img_0012 id=13 -> existiert bereits (question-img_0012-13.mp3)
+[SKIP] image_id=img_0012 id=14 -> existiert bereits (question-img_0012-14.mp3)
+[SKIP] image_id=img_0013 id=1 -> existiert bereits (question-img_0013-1.mp3)
+[SKIP] image_id=img_0013 id=2 -> existiert bereits (question-img_0013-2.mp3)
+[SKIP] image_id=img_0013 id=3 -> existiert bereits (question-img_0013-3.mp3)
+[SKIP] image_id=img_0013 id=4 -> existiert bereits (question-img_0013-4.mp3)
+[SKIP] image_id=img_0013 id=5 -> existiert bereits (question-img_0013-5.mp3)
+[SKIP] image_id=img_0013 id=6 -> existiert bereits (question-img_0013-6.mp3)
+[SKIP] image_id=img_0013 id=7 -> existiert bereits (question-img_0013-7.mp3)
+[SKIP] image_id=img_0013 id=8 -> existiert bereits (question-img_0013-8.mp3)
+[SKIP] image_id=img_0013 id=9 -> existiert bereits (question-img_0013-9.mp3)
+[SKIP] image_id=img_0013 id=10 -> existiert bereits (question-img_0013-10.mp3)
+[SKIP] image_id=img_0013 id=11 -> existiert bereits (question-img_0013-11.mp3)
+[SKIP] image_id=img_0013 id=12 -> existiert bereits (question-img_0013-12.mp3)
+[SKIP] image_id=img_0013 id=13 -> existiert bereits (question-img_0013-13.mp3)
+[SKIP] image_id=img_0014 id=1 -> existiert bereits (question-img_0014-1.mp3)
+[SKIP] image_id=img_0014 id=2 -> existiert bereits (question-img_0014-2.mp3)
+[SKIP] image_id=img_0014 id=3 -> existiert bereits (question-img_0014-3.mp3)
+[SKIP] image_id=img_0014 id=4 -> existiert bereits (question-img_0014-4.mp3)
+[SKIP] image_id=img_0014 id=5 -> existiert bereits (question-img_0014-5.mp3)
+[SKIP] image_id=img_0014 id=6 -> existiert bereits (question-img_0014-6.mp3)
+[SKIP] image_id=img_0014 id=7 -> existiert bereits (question-img_0014-7.mp3)
+[SKIP] image_id=img_0014 id=8 -> existiert bereits (question-img_0014-8.mp3)
+[SKIP] image_id=img_0014 id=9 -> existiert bereits (question-img_0014-9.mp3)
+[SKIP] image_id=img_0014 id=10 -> existiert bereits (question-img_0014-10.mp3)
+[SKIP] image_id=img_0014 id=11 -> existiert bereits (question-img_0014-11.mp3)
+[SKIP] image_id=img_0014 id=12 -> existiert bereits (question-img_0014-12.mp3)
+[SKIP] image_id=img_0014 id=13 -> existiert bereits (question-img_0014-13.mp3)
+[SKIP] image_id=img_0014 id=14 -> existiert bereits (question-img_0014-14.mp3)
+[SKIP] image_id=img_0015 id=1 -> existiert bereits (question-img_0015-1.mp3)
+[SKIP] image_id=img_0015 id=2 -> existiert bereits (question-img_0015-2.mp3)
+[SKIP] image_id=img_0015 id=3 -> existiert bereits (question-img_0015-3.mp3)
+[SKIP] image_id=img_0015 id=4 -> existiert bereits (question-img_0015-4.mp3)
+[SKIP] image_id=img_0015 id=5 -> existiert bereits (question-img_0015-5.mp3)
+[SKIP] image_id=img_0015 id=6 -> existiert bereits (question-img_0015-6.mp3)
+[SKIP] image_id=img_0015 id=7 -> existiert bereits (question-img_0015-7.mp3)
+[SKIP] image_id=img_0015 id=8 -> existiert bereits (question-img_0015-8.mp3)
+[SKIP] image_id=img_0015 id=9 -> existiert bereits (question-img_0015-9.mp3)
+[SKIP] image_id=img_0015 id=10 -> existiert bereits (question-img_0015-10.mp3)
+[SKIP] image_id=img_0015 id=11 -> existiert bereits (question-img_0015-11.mp3)
+[SKIP] image_id=img_0015 id=12 -> existiert bereits (question-img_0015-12.mp3)
+[SKIP] image_id=img_0015 id=13 -> existiert bereits (question-img_0015-13.mp3)
+[SKIP] image_id=img_0016 id=1 -> existiert bereits (question-img_0016-1.mp3)
+[SKIP] image_id=img_0016 id=2 -> existiert bereits (question-img_0016-2.mp3)
+[SKIP] image_id=img_0016 id=3 -> existiert bereits (question-img_0016-3.mp3)
+[SKIP] image_id=img_0016 id=4 -> existiert bereits (question-img_0016-4.mp3)
+[SKIP] image_id=img_0016 id=5 -> existiert bereits (question-img_0016-5.mp3)
+[SKIP] image_id=img_0016 id=6 -> existiert bereits (question-img_0016-6.mp3)
+[SKIP] image_id=img_0016 id=7 -> existiert bereits (question-img_0016-7.mp3)
+[SKIP] image_id=img_0016 id=8 -> existiert bereits (question-img_0016-8.mp3)
+[SKIP] image_id=img_0016 id=9 -> existiert bereits (question-img_0016-9.mp3)
+[SKIP] image_id=img_0016 id=10 -> existiert bereits (question-img_0016-10.mp3)
+[SKIP] image_id=img_0016 id=11 -> existiert bereits (question-img_0016-11.mp3)
+[SKIP] image_id=img_0016 id=12 -> existiert bereits (question-img_0016-12.mp3)
+[SKIP] image_id=img_0016 id=13 -> existiert bereits (question-img_0016-13.mp3)
+[SKIP] image_id=img_0017 id=1 -> existiert bereits (question-img_0017-1.mp3)
+[SKIP] image_id=img_0017 id=2 -> existiert bereits (question-img_0017-2.mp3)
+[SKIP] image_id=img_0017 id=3 -> existiert bereits (question-img_0017-3.mp3)
+[SKIP] image_id=img_0017 id=4 -> existiert bereits (question-img_0017-4.mp3)
+[SKIP] image_id=img_0017 id=5 -> existiert bereits (question-img_0017-5.mp3)
+[SKIP] image_id=img_0017 id=6 -> existiert bereits (question-img_0017-6.mp3)
+[SKIP] image_id=img_0017 id=7 -> existiert bereits (question-img_0017-7.mp3)
+[SKIP] image_id=img_0017 id=8 -> existiert bereits (question-img_0017-8.mp3)
+[SKIP] image_id=img_0017 id=9 -> existiert bereits (question-img_0017-9.mp3)
+[SKIP] image_id=img_0018 id=1 -> existiert bereits (question-img_0018-1.mp3)
+[SKIP] image_id=img_0018 id=2 -> existiert bereits (question-img_0018-2.mp3)
+[SKIP] image_id=img_0018 id=3 -> existiert bereits (question-img_0018-3.mp3)
+[SKIP] image_id=img_0018 id=4 -> existiert bereits (question-img_0018-4.mp3)
+[SKIP] image_id=img_0018 id=5 -> existiert bereits (question-img_0018-5.mp3)
+[SKIP] image_id=img_0018 id=6 -> existiert bereits (question-img_0018-6.mp3)
+[SKIP] image_id=img_0018 id=7 -> existiert bereits (question-img_0018-7.mp3)
+[SKIP] image_id=img_0018 id=8 -> existiert bereits (question-img_0018-8.mp3)
+[SKIP] image_id=img_0018 id=9 -> existiert bereits (question-img_0018-9.mp3)
+[SKIP] image_id=img_0018 id=10 -> existiert bereits (question-img_0018-10.mp3)
+[SKIP] image_id=img_0018 id=11 -> existiert bereits (question-img_0018-11.mp3)
+[SKIP] image_id=img_0018 id=12 -> existiert bereits (question-img_0018-12.mp3)
+[SKIP] image_id=img_0019 id=1 -> existiert bereits (question-img_0019-1.mp3)
+[SKIP] image_id=img_0019 id=2 -> existiert bereits (question-img_0019-2.mp3)
+[SKIP] image_id=img_0019 id=3 -> existiert bereits (question-img_0019-3.mp3)
+[SKIP] image_id=img_0019 id=4 -> existiert bereits (question-img_0019-4.mp3)
+[SKIP] image_id=img_0019 id=5 -> existiert bereits (question-img_0019-5.mp3)
+[SKIP] image_id=img_0019 id=6 -> existiert bereits (question-img_0019-6.mp3)
+[SKIP] image_id=img_0019 id=7 -> existiert bereits (question-img_0019-7.mp3)
+[SKIP] image_id=img_0019 id=8 -> existiert bereits (question-img_0019-8.mp3)
+[SKIP] image_id=img_0019 id=9 -> existiert bereits (question-img_0019-9.mp3)
+[SKIP] image_id=img_0019 id=10 -> existiert bereits (question-img_0019-10.mp3)
+[SKIP] image_id=img_0019 id=11 -> existiert bereits (question-img_0019-11.mp3)
+[SKIP] image_id=img_0019 id=12 -> existiert bereits (question-img_0019-12.mp3)
+[SKIP] image_id=img_0020 id=1 -> existiert bereits (question-img_0020-1.mp3)
+[SKIP] image_id=img_0020 id=2 -> existiert bereits (question-img_0020-2.mp3)
+[SKIP] image_id=img_0020 id=3 -> existiert bereits (question-img_0020-3.mp3)
+[SKIP] image_id=img_0020 id=4 -> existiert bereits (question-img_0020-4.mp3)
+[SKIP] image_id=img_0020 id=5 -> existiert bereits (question-img_0020-5.mp3)
+[SKIP] image_id=img_0020 id=6 -> existiert bereits (question-img_0020-6.mp3)
+[SKIP] image_id=img_0020 id=7 -> existiert bereits (question-img_0020-7.mp3)
+[SKIP] image_id=img_0020 id=8 -> existiert bereits (question-img_0020-8.mp3)
+[SKIP] image_id=img_0020 id=9 -> existiert bereits (question-img_0020-9.mp3)
+[SKIP] image_id=img_0020 id=10 -> existiert bereits (question-img_0020-10.mp3)
+[SKIP] image_id=img_0020 id=11 -> existiert bereits (question-img_0020-11.mp3)
+[SKIP] image_id=img_0020 id=12 -> existiert bereits (question-img_0020-12.mp3)
+[SKIP] image_id=img_0020 id=13 -> existiert bereits (question-img_0020-13.mp3)
+[SKIP] image_id=img_0020 id=14 -> existiert bereits (question-img_0020-14.mp3)
+[SKIP] image_id=img_0020 id=15 -> existiert bereits (question-img_0020-15.mp3)
+[SKIP] image_id=img_0021 id=1 -> existiert bereits (question-img_0021-1.mp3)
+[SKIP] image_id=img_0021 id=2 -> existiert bereits (question-img_0021-2.mp3)
+[SKIP] image_id=img_0021 id=3 -> existiert bereits (question-img_0021-3.mp3)
+[SKIP] image_id=img_0021 id=4 -> existiert bereits (question-img_0021-4.mp3)
+[SKIP] image_id=img_0021 id=5 -> existiert bereits (question-img_0021-5.mp3)
+[SKIP] image_id=img_0021 id=6 -> existiert bereits (question-img_0021-6.mp3)
+[SKIP] image_id=img_0021 id=7 -> existiert bereits (question-img_0021-7.mp3)
+[SKIP] image_id=img_0021 id=8 -> existiert bereits (question-img_0021-8.mp3)
+[SKIP] image_id=img_0021 id=9 -> existiert bereits (question-img_0021-9.mp3)
+[SKIP] image_id=img_0021 id=10 -> existiert bereits (question-img_0021-10.mp3)
+[SKIP] image_id=img_0021 id=11 -> existiert bereits (question-img_0021-11.mp3)
+[SKIP] image_id=img_0021 id=12 -> existiert bereits (question-img_0021-12.mp3)
+[SKIP] image_id=img_0022 id=1 -> existiert bereits (question-img_0022-1.mp3)
+[SKIP] image_id=img_0022 id=2 -> existiert bereits (question-img_0022-2.mp3)
+[SKIP] image_id=img_0022 id=3 -> existiert bereits (question-img_0022-3.mp3)
+[SKIP] image_id=img_0022 id=4 -> existiert bereits (question-img_0022-4.mp3)
+[SKIP] image_id=img_0022 id=5 -> existiert bereits (question-img_0022-5.mp3)
+[SKIP] image_id=img_0022 id=6 -> existiert bereits (question-img_0022-6.mp3)
+[SKIP] image_id=img_0022 id=7 -> existiert bereits (question-img_0022-7.mp3)
+[SKIP] image_id=img_0022 id=8 -> existiert bereits (question-img_0022-8.mp3)
+[SKIP] image_id=img_0022 id=9 -> existiert bereits (question-img_0022-9.mp3)
+[SKIP] image_id=img_0022 id=10 -> existiert bereits (question-img_0022-10.mp3)
+[SKIP] image_id=img_0022 id=11 -> existiert bereits (question-img_0022-11.mp3)
+[SKIP] image_id=img_0022 id=12 -> existiert bereits (question-img_0022-12.mp3)
+[SKIP] image_id=img_0022 id=13 -> existiert bereits (question-img_0022-13.mp3)
+[SKIP] image_id=img_0022 id=14 -> existiert bereits (question-img_0022-14.mp3)
+[SKIP] image_id=img_0022 id=15 -> existiert bereits (question-img_0022-15.mp3)
+[SKIP] image_id=img_0023 id=1 -> existiert bereits (question-img_0023-1.mp3)
+[SKIP] image_id=img_0023 id=2 -> existiert bereits (question-img_0023-2.mp3)
+[SKIP] image_id=img_0023 id=3 -> existiert bereits (question-img_0023-3.mp3)
+[SKIP] image_id=img_0023 id=4 -> existiert bereits (question-img_0023-4.mp3)
+[SKIP] image_id=img_0023 id=5 -> existiert bereits (question-img_0023-5.mp3)
+[SKIP] image_id=img_0023 id=6 -> existiert bereits (question-img_0023-6.mp3)
+[SKIP] image_id=img_0023 id=7 -> existiert bereits (question-img_0023-7.mp3)
+[SKIP] image_id=img_0023 id=8 -> existiert bereits (question-img_0023-8.mp3)
+[SKIP] image_id=img_0023 id=9 -> existiert bereits (question-img_0023-9.mp3)
+[SKIP] image_id=img_0023 id=10 -> existiert bereits (question-img_0023-10.mp3)
+[SKIP] image_id=img_0023 id=11 -> existiert bereits (question-img_0023-11.mp3)
+[SKIP] image_id=img_0023 id=12 -> existiert bereits (question-img_0023-12.mp3)
+[SKIP] image_id=img_0023 id=13 -> existiert bereits (question-img_0023-13.mp3)
+[SKIP] image_id=img_0024 id=1 -> existiert bereits (question-img_0024-1.mp3)
+[SKIP] image_id=img_0024 id=2 -> existiert bereits (question-img_0024-2.mp3)
+[SKIP] image_id=img_0024 id=3 -> existiert bereits (question-img_0024-3.mp3)
+[SKIP] image_id=img_0024 id=4 -> existiert bereits (question-img_0024-4.mp3)
+[SKIP] image_id=img_0024 id=5 -> existiert bereits (question-img_0024-5.mp3)
+[SKIP] image_id=img_0024 id=6 -> existiert bereits (question-img_0024-6.mp3)
+[SKIP] image_id=img_0024 id=7 -> existiert bereits (question-img_0024-7.mp3)
+[SKIP] image_id=img_0024 id=8 -> existiert bereits (question-img_0024-8.mp3)
+[SKIP] image_id=img_0024 id=9 -> existiert bereits (question-img_0024-9.mp3)
+[SKIP] image_id=img_0024 id=10 -> existiert bereits (question-img_0024-10.mp3)
+[SKIP] image_id=img_0024 id=11 -> existiert bereits (question-img_0024-11.mp3)
+[SKIP] image_id=img_0024 id=12 -> existiert bereits (question-img_0024-12.mp3)
+[SKIP] image_id=img_0024 id=13 -> existiert bereits (question-img_0024-13.mp3)
+[SKIP] image_id=img_0025 id=1 -> existiert bereits (question-img_0025-1.mp3)
+[SKIP] image_id=img_0025 id=2 -> existiert bereits (question-img_0025-2.mp3)
+[SKIP] image_id=img_0025 id=3 -> existiert bereits (question-img_0025-3.mp3)
+[SKIP] image_id=img_0025 id=4 -> existiert bereits (question-img_0025-4.mp3)
+[SKIP] image_id=img_0025 id=5 -> existiert bereits (question-img_0025-5.mp3)
+[SKIP] image_id=img_0025 id=6 -> existiert bereits (question-img_0025-6.mp3)
+[SKIP] image_id=img_0025 id=7 -> existiert bereits (question-img_0025-7.mp3)
+[SKIP] image_id=img_0025 id=8 -> existiert bereits (question-img_0025-8.mp3)
+[SKIP] image_id=img_0025 id=9 -> existiert bereits (question-img_0025-9.mp3)
+[SKIP] image_id=img_0025 id=10 -> existiert bereits (question-img_0025-10.mp3)
+[SKIP] image_id=img_0025 id=11 -> existiert bereits (question-img_0025-11.mp3)
+[SKIP] image_id=img_0025 id=12 -> existiert bereits (question-img_0025-12.mp3)
+[SKIP] image_id=img_0025 id=13 -> existiert bereits (question-img_0025-13.mp3)
+[SKIP] image_id=img_0006 id=1 -> existiert bereits (question-img_0006-1.mp3)
+[SKIP] image_id=img_0006 id=2 -> existiert bereits (question-img_0006-2.mp3)
+[SKIP] image_id=img_0006 id=3 -> existiert bereits (question-img_0006-3.mp3)
+[SKIP] image_id=img_0006 id=4 -> existiert bereits (question-img_0006-4.mp3)
+[SKIP] image_id=img_0006 id=5 -> existiert bereits (question-img_0006-5.mp3)
+[SKIP] image_id=img_0006 id=6 -> existiert bereits (question-img_0006-6.mp3)
+[SKIP] image_id=img_0006 id=7 -> existiert bereits (question-img_0006-7.mp3)
+[SKIP] image_id=img_0006 id=8 -> existiert bereits (question-img_0006-8.mp3)
+[SKIP] image_id=img_0006 id=9 -> existiert bereits (question-img_0006-9.mp3)
+[SKIP] image_id=img_0006 id=10 -> existiert bereits (question-img_0006-10.mp3)
+[SKIP] image_id=img_0006 id=11 -> existiert bereits (question-img_0006-11.mp3)
+[SKIP] image_id=img_0006 id=12 -> existiert bereits (question-img_0006-12.mp3)
+[SKIP] image_id=img_0006 id=13 -> existiert bereits (question-img_0006-13.mp3)
+[JSON] image_id=img_0026 id=1 audio gesetzt -> question-img_0026-1.mp3
+[GEN ] image_id=img_0026 id=1 -> question-img_0026-1.mp3
+[OK  ] image_id=img_0026 id=1 -> erzeugt
+[JSON] image_id=img_0026 id=2 audio gesetzt -> question-img_0026-2.mp3
+[GEN ] image_id=img_0026 id=2 -> question-img_0026-2.mp3
+[OK  ] image_id=img_0026 id=2 -> erzeugt
+[JSON] image_id=img_0026 id=3 audio gesetzt -> question-img_0026-3.mp3
+[GEN ] image_id=img_0026 id=3 -> question-img_0026-3.mp3
+[OK  ] image_id=img_0026 id=3 -> erzeugt
+[JSON] image_id=img_0026 id=4 audio gesetzt -> question-img_0026-4.mp3
+[GEN ] image_id=img_0026 id=4 -> question-img_0026-4.mp3
+[OK  ] image_id=img_0026 id=4 -> erzeugt
+[JSON] image_id=img_0026 id=5 audio gesetzt -> question-img_0026-5.mp3
+[GEN ] image_id=img_0026 id=5 -> question-img_0026-5.mp3
+[OK  ] image_id=img_0026 id=5 -> erzeugt
+[JSON] image_id=img_0026 id=6 audio gesetzt -> question-img_0026-6.mp3
+[GEN ] image_id=img_0026 id=6 -> question-img_0026-6.mp3
+[OK  ] image_id=img_0026 id=6 -> erzeugt
+[JSON] image_id=img_0026 id=7 audio gesetzt -> question-img_0026-7.mp3
+[GEN ] image_id=img_0026 id=7 -> question-img_0026-7.mp3
+[OK  ] image_id=img_0026 id=7 -> erzeugt
+[JSON] image_id=img_0026 id=8 audio gesetzt -> question-img_0026-8.mp3
+[GEN ] image_id=img_0026 id=8 -> question-img_0026-8.mp3
+[OK  ] image_id=img_0026 id=8 -> erzeugt
+[JSON] image_id=img_0026 id=9 audio gesetzt -> question-img_0026-9.mp3
+[GEN ] image_id=img_0026 id=9 -> question-img_0026-9.mp3
+[OK  ] image_id=img_0026 id=9 -> erzeugt
+[JSON] image_id=img_0026 id=10 audio gesetzt -> question-img_0026-10.mp3
+[GEN ] image_id=img_0026 id=10 -> question-img_0026-10.mp3
+[OK  ] image_id=img_0026 id=10 -> erzeugt
+[JSON] image_id=img_0026 id=11 audio gesetzt -> question-img_0026-11.mp3
+[GEN ] image_id=img_0026 id=11 -> question-img_0026-11.mp3
+[OK  ] image_id=img_0026 id=11 -> erzeugt
+[JSON] image_id=img_0026 id=12 audio gesetzt -> question-img_0026-12.mp3
+[GEN ] image_id=img_0026 id=12 -> question-img_0026-12.mp3
+[OK  ] image_id=img_0026 id=12 -> erzeugt
+[JSON] image_id=img_0027 id=1 audio gesetzt -> question-img_0027-1.mp3
+[GEN ] image_id=img_0027 id=1 -> question-img_0027-1.mp3
+[OK  ] image_id=img_0027 id=1 -> erzeugt
+[JSON] image_id=img_0027 id=2 audio gesetzt -> question-img_0027-2.mp3
+[GEN ] image_id=img_0027 id=2 -> question-img_0027-2.mp3
+[OK  ] image_id=img_0027 id=2 -> erzeugt
+[JSON] image_id=img_0027 id=3 audio gesetzt -> question-img_0027-3.mp3
+[GEN ] image_id=img_0027 id=3 -> question-img_0027-3.mp3
+[OK  ] image_id=img_0027 id=3 -> erzeugt
+[JSON] image_id=img_0027 id=4 audio gesetzt -> question-img_0027-4.mp3
+[GEN ] image_id=img_0027 id=4 -> question-img_0027-4.mp3
+[OK  ] image_id=img_0027 id=4 -> erzeugt
+[JSON] image_id=img_0027 id=5 audio gesetzt -> question-img_0027-5.mp3
+[GEN ] image_id=img_0027 id=5 -> question-img_0027-5.mp3
+[OK  ] image_id=img_0027 id=5 -> erzeugt
+[JSON] image_id=img_0027 id=6 audio gesetzt -> question-img_0027-6.mp3
+[GEN ] image_id=img_0027 id=6 -> question-img_0027-6.mp3
+[OK  ] image_id=img_0027 id=6 -> erzeugt
+[JSON] image_id=img_0027 id=7 audio gesetzt -> question-img_0027-7.mp3
+[GEN ] image_id=img_0027 id=7 -> question-img_0027-7.mp3
+[OK  ] image_id=img_0027 id=7 -> erzeugt
+[JSON] image_id=img_0027 id=8 audio gesetzt -> question-img_0027-8.mp3
+[GEN ] image_id=img_0027 id=8 -> question-img_0027-8.mp3
+[OK  ] image_id=img_0027 id=8 -> erzeugt
+[JSON] image_id=img_0027 id=9 audio gesetzt -> question-img_0027-9.mp3
+[GEN ] image_id=img_0027 id=9 -> question-img_0027-9.mp3
+[OK  ] image_id=img_0027 id=9 -> erzeugt
+[JSON] image_id=img_0027 id=10 audio gesetzt -> question-img_0027-10.mp3
+[GEN ] image_id=img_0027 id=10 -> question-img_0027-10.mp3
+[OK  ] image_id=img_0027 id=10 -> erzeugt
+[JSON] image_id=img_0027 id=11 audio gesetzt -> question-img_0027-11.mp3
+[GEN ] image_id=img_0027 id=11 -> question-img_0027-11.mp3
+[OK  ] image_id=img_0027 id=11 -> erzeugt
+[JSON] image_id=img_0027 id=12 audio gesetzt -> question-img_0027-12.mp3
+[GEN ] image_id=img_0027 id=12 -> question-img_0027-12.mp3
+[OK  ] image_id=img_0027 id=12 -> erzeugt
+[JSON] image_id=img_0027 id=13 audio gesetzt -> question-img_0027-13.mp3
+[GEN ] image_id=img_0027 id=13 -> question-img_0027-13.mp3
+[OK  ] image_id=img_0027 id=13 -> erzeugt
+[JSON] image_id=img_0028 id=1 audio gesetzt -> question-img_0028-1.mp3
+[GEN ] image_id=img_0028 id=1 -> question-img_0028-1.mp3
+[OK  ] image_id=img_0028 id=1 -> erzeugt
+[JSON] image_id=img_0028 id=2 audio gesetzt -> question-img_0028-2.mp3
+[GEN ] image_id=img_0028 id=2 -> question-img_0028-2.mp3
+[OK  ] image_id=img_0028 id=2 -> erzeugt
+[JSON] image_id=img_0028 id=3 audio gesetzt -> question-img_0028-3.mp3
+[GEN ] image_id=img_0028 id=3 -> question-img_0028-3.mp3
+[OK  ] image_id=img_0028 id=3 -> erzeugt
+[JSON] image_id=img_0028 id=4 audio gesetzt -> question-img_0028-4.mp3
+[GEN ] image_id=img_0028 id=4 -> question-img_0028-4.mp3
+[OK  ] image_id=img_0028 id=4 -> erzeugt
+[JSON] image_id=img_0028 id=5 audio gesetzt -> question-img_0028-5.mp3
+[GEN ] image_id=img_0028 id=5 -> question-img_0028-5.mp3
+[OK  ] image_id=img_0028 id=5 -> erzeugt
+[JSON] image_id=img_0028 id=6 audio gesetzt -> question-img_0028-6.mp3
+[GEN ] image_id=img_0028 id=6 -> question-img_0028-6.mp3
+[OK  ] image_id=img_0028 id=6 -> erzeugt
+[JSON] image_id=img_0028 id=7 audio gesetzt -> question-img_0028-7.mp3
+[GEN ] image_id=img_0028 id=7 -> question-img_0028-7.mp3
+[OK  ] image_id=img_0028 id=7 -> erzeugt
+[JSON] image_id=img_0028 id=8 audio gesetzt -> question-img_0028-8.mp3
+[GEN ] image_id=img_0028 id=8 -> question-img_0028-8.mp3
+[OK  ] image_id=img_0028 id=8 -> erzeugt
+[JSON] image_id=img_0028 id=9 audio gesetzt -> question-img_0028-9.mp3
+[GEN ] image_id=img_0028 id=9 -> question-img_0028-9.mp3
+[OK  ] image_id=img_0028 id=9 -> erzeugt
+[JSON] image_id=img_0028 id=10 audio gesetzt -> question-img_0028-10.mp3
+[GEN ] image_id=img_0028 id=10 -> question-img_0028-10.mp3
+[OK  ] image_id=img_0028 id=10 -> erzeugt
+[JSON] image_id=img_0028 id=11 audio gesetzt -> question-img_0028-11.mp3
+[GEN ] image_id=img_0028 id=11 -> question-img_0028-11.mp3
+[OK  ] image_id=img_0028 id=11 -> erzeugt
+[JSON] image_id=img_0028 id=12 audio gesetzt -> question-img_0028-12.mp3
+[GEN ] image_id=img_0028 id=12 -> question-img_0028-12.mp3
+[OK  ] image_id=img_0028 id=12 -> erzeugt
+[JSON] image_id=img_0028 id=13 audio gesetzt -> question-img_0028-13.mp3
+[GEN ] image_id=img_0028 id=13 -> question-img_0028-13.mp3
+[OK  ] image_id=img_0028 id=13 -> erzeugt
+[JSON] image_id=img_0028 id=14 audio gesetzt -> question-img_0028-14.mp3
+[GEN ] image_id=img_0028 id=14 -> question-img_0028-14.mp3
+[OK  ] image_id=img_0028 id=14 -> erzeugt
+[JSON] image_id=img_0029 id=1 audio gesetzt -> question-img_0029-1.mp3
+[GEN ] image_id=img_0029 id=1 -> question-img_0029-1.mp3
+[OK  ] image_id=img_0029 id=1 -> erzeugt
+[JSON] image_id=img_0029 id=2 audio gesetzt -> question-img_0029-2.mp3
+[GEN ] image_id=img_0029 id=2 -> question-img_0029-2.mp3
+[OK  ] image_id=img_0029 id=2 -> erzeugt
+[JSON] image_id=img_0029 id=3 audio gesetzt -> question-img_0029-3.mp3
+[GEN ] image_id=img_0029 id=3 -> question-img_0029-3.mp3
+[OK  ] image_id=img_0029 id=3 -> erzeugt
+[JSON] image_id=img_0029 id=4 audio gesetzt -> question-img_0029-4.mp3
+[GEN ] image_id=img_0029 id=4 -> question-img_0029-4.mp3
+[OK  ] image_id=img_0029 id=4 -> erzeugt
+[JSON] image_id=img_0029 id=5 audio gesetzt -> question-img_0029-5.mp3
+[GEN ] image_id=img_0029 id=5 -> question-img_0029-5.mp3
+[OK  ] image_id=img_0029 id=5 -> erzeugt
+[JSON] image_id=img_0029 id=6 audio gesetzt -> question-img_0029-6.mp3
+[GEN ] image_id=img_0029 id=6 -> question-img_0029-6.mp3
+[OK  ] image_id=img_0029 id=6 -> erzeugt
+[JSON] image_id=img_0029 id=7 audio gesetzt -> question-img_0029-7.mp3
+[GEN ] image_id=img_0029 id=7 -> question-img_0029-7.mp3
+[OK  ] image_id=img_0029 id=7 -> erzeugt
+[JSON] image_id=img_0029 id=8 audio gesetzt -> question-img_0029-8.mp3
+[GEN ] image_id=img_0029 id=8 -> question-img_0029-8.mp3
+[OK  ] image_id=img_0029 id=8 -> erzeugt
+[JSON] image_id=img_0029 id=9 audio gesetzt -> question-img_0029-9.mp3
+[GEN ] image_id=img_0029 id=9 -> question-img_0029-9.mp3
+[OK  ] image_id=img_0029 id=9 -> erzeugt
+[JSON] image_id=img_0029 id=10 audio gesetzt -> question-img_0029-10.mp3
+[GEN ] image_id=img_0029 id=10 -> question-img_0029-10.mp3
+[OK  ] image_id=img_0029 id=10 -> erzeugt
+[JSON] image_id=img_0029 id=11 audio gesetzt -> question-img_0029-11.mp3
+[GEN ] image_id=img_0029 id=11 -> question-img_0029-11.mp3
+[OK  ] image_id=img_0029 id=11 -> erzeugt
+[JSON] image_id=img_0029 id=12 audio gesetzt -> question-img_0029-12.mp3
+[GEN ] image_id=img_0029 id=12 -> question-img_0029-12.mp3
+[OK  ] image_id=img_0029 id=12 -> erzeugt
+[JSON] image_id=img_0030 id=1 audio gesetzt -> question-img_0030-1.mp3
+[GEN ] image_id=img_0030 id=1 -> question-img_0030-1.mp3
+[OK  ] image_id=img_0030 id=1 -> erzeugt
+[JSON] image_id=img_0030 id=2 audio gesetzt -> question-img_0030-2.mp3
+[GEN ] image_id=img_0030 id=2 -> question-img_0030-2.mp3
+[OK  ] image_id=img_0030 id=2 -> erzeugt
+[JSON] image_id=img_0030 id=3 audio gesetzt -> question-img_0030-3.mp3
+[GEN ] image_id=img_0030 id=3 -> question-img_0030-3.mp3
+[OK  ] image_id=img_0030 id=3 -> erzeugt
+[JSON] image_id=img_0030 id=4 audio gesetzt -> question-img_0030-4.mp3
+[GEN ] image_id=img_0030 id=4 -> question-img_0030-4.mp3
+[OK  ] image_id=img_0030 id=4 -> erzeugt
+[JSON] image_id=img_0030 id=5 audio gesetzt -> question-img_0030-5.mp3
+[GEN ] image_id=img_0030 id=5 -> question-img_0030-5.mp3
+[OK  ] image_id=img_0030 id=5 -> erzeugt
+[JSON] image_id=img_0030 id=6 audio gesetzt -> question-img_0030-6.mp3
+[GEN ] image_id=img_0030 id=6 -> question-img_0030-6.mp3
+[OK  ] image_id=img_0030 id=6 -> erzeugt
+[JSON] image_id=img_0030 id=7 audio gesetzt -> question-img_0030-7.mp3
+[GEN ] image_id=img_0030 id=7 -> question-img_0030-7.mp3
+[OK  ] image_id=img_0030 id=7 -> erzeugt
+[JSON] image_id=img_0030 id=8 audio gesetzt -> question-img_0030-8.mp3
+[GEN ] image_id=img_0030 id=8 -> question-img_0030-8.mp3
+[OK  ] image_id=img_0030 id=8 -> erzeugt
+[JSON] image_id=img_0030 id=9 audio gesetzt -> question-img_0030-9.mp3
+[GEN ] image_id=img_0030 id=9 -> question-img_0030-9.mp3
+[OK  ] image_id=img_0030 id=9 -> erzeugt
+[JSON] image_id=img_0030 id=10 audio gesetzt -> question-img_0030-10.mp3
+[GEN ] image_id=img_0030 id=10 -> question-img_0030-10.mp3
+[OK  ] image_id=img_0030 id=10 -> erzeugt
+[JSON] image_id=img_0030 id=11 audio gesetzt -> question-img_0030-11.mp3
+[GEN ] image_id=img_0030 id=11 -> question-img_0030-11.mp3
+[OK  ] image_id=img_0030 id=11 -> erzeugt
+[JSON] image_id=img_0030 id=12 audio gesetzt -> question-img_0030-12.mp3
+[GEN ] image_id=img_0030 id=12 -> question-img_0030-12.mp3
+[OK  ] image_id=img_0030 id=12 -> erzeugt
+[JSON] image_id=img_0030 id=13 audio gesetzt -> question-img_0030-13.mp3
+[GEN ] image_id=img_0030 id=13 -> question-img_0030-13.mp3
+[OK  ] image_id=img_0030 id=13 -> erzeugt
+[JSON] image_id=img_0030 id=14 audio gesetzt -> question-img_0030-14.mp3
+[GEN ] image_id=img_0030 id=14 -> question-img_0030-14.mp3
+[OK  ] image_id=img_0030 id=14 -> erzeugt
+[JSON] image_id=img_0030 id=15 audio gesetzt -> question-img_0030-15.mp3
+[GEN ] image_id=img_0030 id=15 -> question-img_0030-15.mp3
+[OK  ] image_id=img_0030 id=15 -> erzeugt
+------------------------------------------------------------
+[2026-03-13 09:00:06] ENDE
+fragen gesehen: 404
+produziert:    66
+übersprungen:  338
+fehler:        0
+json-updates:  66
+mp3 im Ordner: 404
+============================================================

@@ -1,0 +1,615 @@
+/* --- FILE: ./finale/static/tv.css --- */
+
+html {
+  /* Basis: 16px bei 3840px Breite = 0.41666vw */
+  font-size: 0.41666vw;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* =========================
+   FONTS
+   ========================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.ps, .ps * { box-sizing: border-box; }
+
+:root{
+  --bg: #00167a;
+
+  /* “weiß aber 80% transparent” = nur 20% weiß sichtbar */
+  --white20: rgba(255,255,255,0.20);
+
+  /* Answer colors */
+  --yellow: #FFF500;
+  --blue:   #1F80FF;
+  --green:  #9EFF1F;
+  --orange: #FFA51F;
+  --gold: #f3cb2f;
+
+
+  /* 60% transparency fills */
+  --yellowFill: #FFF50099;
+  --blueFill:   #1F80FF99;
+  --greenFill:  #9EFF1F99;
+  --orangeFill: #FFA51F99;
+}
+
+.ps{
+  width:100vw; height:100vh;
+  overflow:hidden;
+  font-family: Calibri, Arial, sans-serif;
+  background: var(--bg);
+  color:#fff;
+}
+
+/* Layers */
+.ps__videoLayer {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 10; /* Höher als der GameLayer (2) */
+}
+.ps__video{ width:100vw; height:100vh; object-fit:cover; display:block; }
+.ps__gameLayer {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  
+  /* Hintergrundbild hier definieren */
+  background-color: var(--bg);
+  background-image: url("/finale/media/background.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Layout */
+.ps__wrap{
+  width:100%;
+  height:100%;
+  display:flex;
+  gap: 2.24vw;      /* 86px bei 4K */
+  padding: 2.08vw;   /* 80px bei 4K */
+  align-items:flex-start;
+  justify-content:space-between;
+}
+
+/* LEFT Panel */
+.ps__panel{
+  flex: 1; /* Nimmt dynamisch den Rest links der Sidebar */
+  height: calc(100vh - 4.16vw); /* 160px abgezogen */
+  border-radius: 1.04vw; /* 40px */
+  background: var(--white20);
+  box-shadow: 0 0.57vw 1.56vw rgba(0,0,0,0.35);
+  display:flex;
+  align-items:stretch;
+  justify-content:center;
+}
+
+.ps__panelInner{
+  width: 100%;
+  height: 100%;
+  padding: 1.82vw;   /* 70px */
+  display: flex;
+  flex-direction: column;
+  gap: 0.57vw;       /* 22px */
+}
+
+
+.ps__topRow{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 1.82vw;       /* 70px */
+}
+
+
+/* Question */
+.ps__questionWrap{
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ps__question{
+  margin:0;
+  padding: 0.57vw 1.67vw; /* 22px 26px */
+  border-radius: 1.04vw;  /* 40px */
+  background: var(--white20);
+  color: rgba(255,255,255,0.95);
+
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+
+  min-height: 7.81vw;       /* 300px */
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* IMAGE SLOT */
+.ps__questionImageWrap{
+  width:100%;
+  height: clamp(6.25vw, 32vh, 11.97vw); /* 240px bis 460px */
+  margin: 1.04vw 0;  /* 40px */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius: 1.04vw;
+  overflow:hidden;
+}
+
+
+.ps__questionImageWrap.is-hidden{
+  display:none;
+}
+
+.ps__questionImg{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+  opacity:0.95;
+  user-select:none;
+  pointer-events:none;
+}
+
+/* Middle Row */
+.ps__midRow{
+  display:flex;
+  gap: 0.73vw;       /* 28px */
+  align-items:flex-start;
+  margin-top: 0.49vw; /* 19px */
+}
+
+/* Answers */
+.ps__answers{
+  flex: 1 1 auto;
+  width:100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.78vw;       /* 30px */
+  transition: opacity 260ms ease, transform 260ms ease;
+}
+
+.ps__answer{
+  padding: 0.73vw;   /* 28px */
+  border-radius: 1.04vw;
+
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+
+  color:#fff;
+  border: 0.17vw solid rgba(255,255,255,0.35); /* 6px */
+  box-shadow: 0 0.36vw 0.73vw rgba(0,0,0,0.18);
+  text-align:center;
+
+  min-height: 7.81vw; /* 300px */
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  opacity:0;
+  transform: translateY(0.26vw); /* 10px */
+  transition: opacity 260ms ease, transform 260ms ease;
+}
+
+
+.ps__answers:not(.is-invisible) .ps__answer{
+  opacity:1;
+  transform:none;
+}
+
+.ps__answers:not(.is-invisible) .ps__answer:nth-child(1){ transition-delay:0s; }
+.ps__answers:not(.is-invisible) .ps__answer:nth-child(2){ transition-delay:.15s; }
+.ps__answers:not(.is-invisible) .ps__answer:nth-child(3){ transition-delay:.30s; }
+.ps__answers:not(.is-invisible) .ps__answer:nth-child(4){ transition-delay:.45s; }
+
+.ps__answer--0{ border-color: var(--orange); background: var(--orangeFill); }
+.ps__answer--1{ border-color: var(--blue);   background: var(--blueFill); }
+.ps__answer--2{ border-color: var(--green);  background: var(--greenFill); }
+.ps__answer--3{ border-color: var(--yellow); background: var(--yellowFill); }
+
+.ps__answer.is-correct{
+  border-color: rgba(255,255,255,0.95);
+  border-width: 0.33vw; /* dicker Rahmen */
+  box-shadow:
+    0 0 1.43vw rgba(255,255,255,0.85),
+    0 0 2.34vw rgba(255,255,255,0.45);
+}
+
+
+
+
+
+.ps__answer.is-faded{
+  opacity:.28;
+}
+
+/* Dummy in box */
+.ps__dummyInBoxWrap{
+  margin-top:auto;
+  width:100%;
+  height: 5.73vw; /* 220px */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.ps__dummyInBoxWrap.is-hidden{ display:none; }
+
+.ps__dummyInBoxImg{
+  max-width: 60%;
+  max-height: 60%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  opacity: .95;
+}
+
+
+/* RIGHT sidebar */
+/* RIGHT sidebar - Der äußere Rahmen */
+.ps__sidebar{
+  width: 26.04vw;
+  height: calc(100vh - 4.16vw);
+  display:flex;
+  align-items:flex-start;
+  overflow: visible;
+}
+
+
+/* Der Container der Spieler-Liste */
+/* RIGHT sidebar */
+.ps__sidebar {
+  width: 26.04vw;    /* 1000px bei 4K */
+  height: calc(100vh - 4.16vw);
+  display: flex;
+  align-items: flex-start;
+  /* overflow gelöscht */
+}
+
+.ps__players {
+  width: 21.61vw;    /* 830px bei 4K */
+  display: flex;
+  flex-direction: column;
+  gap: 0.52vw;       /* 20px bei 4K */
+  align-items: flex-end;
+
+  /* Alle Begrenzungen und Paddings gelöscht */
+  /* Der Glow ist jetzt wieder zu 100% sichtbar */
+}
+
+.ps__player { 
+  width: 100%; 
+  position: relative;
+
+  /* NEU: nötig für Flyout-Animation */
+  transition: transform 650ms ease, opacity 650ms ease;
+  will-change: transform, opacity;
+}
+
+/* NEU: Eliminierte Spieler-Kacheln fliegen nach rechts raus */
+.ps__player.is-flyout{
+  transform: translateX(120vw);
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+
+.ps__playerCard{
+  width:100%;
+  height: 3.6vw;
+
+  padding-left: 1.0vw;
+  padding-right: 0.6vw;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  border-radius: 1.0vw;
+  background: rgba(255,255,255,0.16);
+  border: 0.22vw solid rgba(255,255,255,0.0); /* transparent default */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0 0.2vw 0.5vw rgba(0,0,0,0.2);
+  overflow: hidden;
+
+  --jokerSize: 2.6vw;
+}
+
+
+.ps__playerName{
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+/* Right Block */
+.ps__playerRight{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5vw;
+  flex: 0 0 auto;
+}
+
+/* Joker Slots */
+.ps__jokerSlots{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.2vw;
+  width: 5.4vw;
+  flex: 0 0 auto;
+}
+
+.ps__jokerSlot{
+  position: relative;
+  width: var(--jokerSize);
+  height: var(--jokerSize);
+  flex: 0 0 var(--jokerSize);
+}
+
+.ps__joker{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Joker Anzeige-Logik */
+.ps__jokerSlot[data-type="gold"]  .ps__joker--gold  { opacity: 1; }
+.ps__jokerSlot[data-type="white"] .ps__joker--white { opacity: 1; }
+
+.ps__jokerSlot[data-type="empty"],
+.ps__jokerSlot[data-type="none"]{
+  visibility: hidden;
+}
+
+/* Rank / Score Box */
+.ps__playerRankBox{
+  border: 0.0vw solid #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 2.275rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.6vw;
+  height: 2.6vw;
+
+  border-radius: 0.6vw;
+  padding: 0;
+
+  flex: 0 0 auto;
+}
+
+.ps__scoreText{
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  display: block;
+  font-variant-numeric: tabular-nums;
+}
+
+
+.ps__player.is-answered .ps__playerCard{
+  border-color: rgba(255,255,255,0.95);
+}
+
+.ps__player.choice-0 .ps__playerCard{ border-color: var(--orange); box-shadow: 0 0 0.57vw rgba(255,165,31,0.35); }
+.ps__player.choice-1 .ps__playerCard{ border-color: var(--blue);   box-shadow: 0 0 0.57vw rgba(31,128,255,0.35); }
+.ps__player.choice-2 .ps__playerCard{ border-color: var(--green);  box-shadow: 0 0 0.57vw rgba(158,255,31,0.35); }
+.ps__player.choice-3 .ps__playerCard{ border-color: var(--yellow); box-shadow: 0 0 0.57vw rgba(255,245,0,0.28); }
+.ps__player.choice-4 .ps__playerCard{
+  border-color: rgba(255,255,255,0.95);
+  box-shadow:
+    0 0 0.57vw rgba(255,255,255,0.35),
+    0 0 1.04vw rgba(255,255,255,0.22);
+}
+
+.ps__player.is-correct .ps__playerCard{
+  background: rgba(255,255,255,0.16);
+  border-color: #39FF14;
+  
+  box-shadow:
+    0 0 0.52vw rgba(57,255,20,0.55),
+    0 0 1.04vw rgba(57,255,20,0.85);
+}
+
+.ps__player.is-wrong .ps__playerCard{
+  background: rgba(255,255,255,0.16);
+  border-color: #FF2E2E;
+  box-shadow:
+    0 0 0.52vw rgba(255,46,46,0.45),
+    0 0 1.04vw rgba(255,46,46,0.75);
+}
+
+/* Resolution overrides (Finale Jokers) */
+.ps__player.has-white-protection .ps__playerCard{
+  background: rgba(255,255,255,0.16);
+  border-color: rgba(255,255,255,0.95);
+  box-shadow:
+    0 0 0.52vw rgba(255,255,255,0.55),
+    0 0 1.04vw rgba(255,255,255,0.85);
+}
+
+/* -------------------------------
+   GOLD PROTECTION: Premium Bloom + Funkeln (CSS-only)
+   ------------------------------- */
+.ps__player.has-gold-protection .ps__playerCard{
+  background: rgba(255,255,255,0.16);
+  border-color: var(--gold);
+
+  /* nötig für ::before/::after */
+  position: relative;
+
+  /* gestaffelter, hochwertiger Glow */
+  box-shadow:
+    0 0 0.40vw rgba(255,223,115,0.55),
+    0 0 0.90vw rgba(225,177,44,0.45),
+    0 0 1.60vw rgba(166,124,0,0.35);
+}
+
+/* Bloom nach außen (liegt hinter der Card -> wird nicht vom overflow geschnitten) */
+.ps__player.has-gold-protection .ps__playerCard::after{
+  content: "";
+  position: absolute;
+  inset: -0.6vw;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle, rgba(243,203,47,0.60) 0%, rgba(243,203,47,0.0) 72%);
+  filter: blur(0.85vw);
+  opacity: 0.65;
+  z-index: -1;
+  pointer-events: none;
+  animation: finaleGoldBloomPulse 2.6s ease-in-out infinite;
+}
+
+/* Funkeln/Glint AUF der Card (subtil, kein JS) */
+.ps__player.has-gold-protection .ps__playerCard::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+
+  /* zwei kleine “Specular”-Highlights, die sich leicht bewegen */
+  background:
+    radial-gradient(circle at 18% 30%, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.0) 38%),
+    radial-gradient(circle at 72% 62%, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.0) 42%);
+
+  mix-blend-mode: screen;
+  opacity: 0.0;
+  pointer-events: none;
+
+  animation: finaleGoldSparkle 3.4s ease-in-out infinite;
+}
+
+@keyframes finaleGoldBloomPulse{
+  0%, 100% { opacity: 0.50; filter: blur(0.78vw); }
+  50%      { opacity: 0.78; filter: blur(0.98vw); }
+}
+
+@keyframes finaleGoldSparkle{
+  0%, 100% { opacity: 0.00; transform: translateX(-2%) translateY(0%); }
+  30%      { opacity: 0.12; transform: translateX(1%) translateY(-1%); }
+  60%      { opacity: 0.05; transform: translateX(2%) translateY(1%); }
+}
+
+
+
+.ps__scorePop{
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.95);
+
+  font-variant-numeric: tabular-nums;
+
+  position: absolute;
+  left: 100%;
+  margin-left: 0.62vw; /* 24px */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+
+
+
+/* Timer */
+.ps__timer{
+  flex: 0 0 auto;
+  width: 7.81vw;  /* 300px */
+  height: 7.81vw; /* 300px */
+  border-radius:999px;
+  background: rgba(255,255,255,0.14);
+  --p:0%;
+  background:
+    conic-gradient(
+      rgba(255,255,255,0.98) 0 var(--p),
+      rgba(255,255,255,0.14) var(--p) 100%
+    );
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+
+/* ---------- Soft-Hide-Utility ---------- */
+.is-invisible{
+  visibility:hidden;
+  opacity:0;
+  pointer-events:none;
+}
+
+.is-hidden{
+  display:none !important;
+}
+
+/* ========================================================= */
+
+.ps.has-image .ps__questionImageWrap{
+  height:auto;
+  flex: 1 1 auto;
+  min-height: 6.25vw; /* 240px */
+}
+
+/* =========================================================
+   ERGÄNZTER BEREICH FÜR NO-IMAGE
+   ========================================================= */
+
+.ps.no-image .ps__midRow {
+  margin-top: 1.56vw; /* 60px relativ skaliert */
+}
+
+.ps.no-image .ps__dummyInBoxWrap {
+  margin-top: 0;
+  flex: 1 1 auto;
+}

@@ -1,0 +1,952 @@
+
+============================================================
+[2026-02-10 11:33:46] START elevenlabsv3.py (HaveIEver)
+Audio-Ordner: /home/aleranzer/blitzquiz/haveiever/media/audio
+Questions:     /home/aleranzer/blitzquiz/haveiever/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[JSON] idx=1 id=00001 pre_audio gesetzt -> pre_audio_00001.mp3
+[GEN ] idx=1 id=00001 -> pre_audio_00001.mp3
+[OK  ] idx=1 id=00001 -> erzeugt (pre_audio_00001.mp3)
+[JSON] idx=1 id=00001 audio gesetzt -> question_00001.mp3
+[GEN ] idx=1 id=00001 -> question_00001.mp3
+[OK  ] idx=1 id=00001 -> erzeugt (question_00001.mp3)
+[JSON] idx=2 id=00002 pre_audio gesetzt -> pre_audio_00002.mp3
+[GEN ] idx=2 id=00002 -> pre_audio_00002.mp3
+[OK  ] idx=2 id=00002 -> erzeugt (pre_audio_00002.mp3)
+[JSON] idx=2 id=00002 audio gesetzt -> question_00002.mp3
+[GEN ] idx=2 id=00002 -> question_00002.mp3
+[OK  ] idx=2 id=00002 -> erzeugt (question_00002.mp3)
+[JSON] idx=3 id=00003 pre_audio gesetzt -> pre_audio_00003.mp3
+[GEN ] idx=3 id=00003 -> pre_audio_00003.mp3
+[OK  ] idx=3 id=00003 -> erzeugt (pre_audio_00003.mp3)
+[JSON] idx=3 id=00003 audio gesetzt -> question_00003.mp3
+[GEN ] idx=3 id=00003 -> question_00003.mp3
+[OK  ] idx=3 id=00003 -> erzeugt (question_00003.mp3)
+[JSON] idx=4 id=00004 pre_audio gesetzt -> pre_audio_00004.mp3
+[GEN ] idx=4 id=00004 -> pre_audio_00004.mp3
+[OK  ] idx=4 id=00004 -> erzeugt (pre_audio_00004.mp3)
+[JSON] idx=4 id=00004 audio gesetzt -> question_00004.mp3
+[GEN ] idx=4 id=00004 -> question_00004.mp3
+[OK  ] idx=4 id=00004 -> erzeugt (question_00004.mp3)
+[JSON] idx=5 id=00005 pre_audio gesetzt -> pre_audio_00005.mp3
+[GEN ] idx=5 id=00005 -> pre_audio_00005.mp3
+[OK  ] idx=5 id=00005 -> erzeugt (pre_audio_00005.mp3)
+[JSON] idx=5 id=00005 audio gesetzt -> question_00005.mp3
+[GEN ] idx=5 id=00005 -> question_00005.mp3
+[OK  ] idx=5 id=00005 -> erzeugt (question_00005.mp3)
+[JSON] idx=6 id=00006 pre_audio gesetzt -> pre_audio_00006.mp3
+[GEN ] idx=6 id=00006 -> pre_audio_00006.mp3
+[OK  ] idx=6 id=00006 -> erzeugt (pre_audio_00006.mp3)
+[JSON] idx=6 id=00006 audio gesetzt -> question_00006.mp3
+[GEN ] idx=6 id=00006 -> question_00006.mp3
+[OK  ] idx=6 id=00006 -> erzeugt (question_00006.mp3)
+[JSON] idx=7 id=00007 pre_audio gesetzt -> pre_audio_00007.mp3
+[GEN ] idx=7 id=00007 -> pre_audio_00007.mp3
+[OK  ] idx=7 id=00007 -> erzeugt (pre_audio_00007.mp3)
+[JSON] idx=7 id=00007 audio gesetzt -> question_00007.mp3
+[GEN ] idx=7 id=00007 -> question_00007.mp3
+[OK  ] idx=7 id=00007 -> erzeugt (question_00007.mp3)
+[JSON] idx=8 id=00008 pre_audio gesetzt -> pre_audio_00008.mp3
+[GEN ] idx=8 id=00008 -> pre_audio_00008.mp3
+[OK  ] idx=8 id=00008 -> erzeugt (pre_audio_00008.mp3)
+[JSON] idx=8 id=00008 audio gesetzt -> question_00008.mp3
+[GEN ] idx=8 id=00008 -> question_00008.mp3
+[OK  ] idx=8 id=00008 -> erzeugt (question_00008.mp3)
+[JSON] idx=9 id=00009 pre_audio gesetzt -> pre_audio_00009.mp3
+[GEN ] idx=9 id=00009 -> pre_audio_00009.mp3
+[OK  ] idx=9 id=00009 -> erzeugt (pre_audio_00009.mp3)
+[JSON] idx=9 id=00009 audio gesetzt -> question_00009.mp3
+[GEN ] idx=9 id=00009 -> question_00009.mp3
+[OK  ] idx=9 id=00009 -> erzeugt (question_00009.mp3)
+[JSON] idx=10 id=00010 pre_audio gesetzt -> pre_audio_00010.mp3
+[GEN ] idx=10 id=00010 -> pre_audio_00010.mp3
+
+============================================================
+[2026-02-10 11:40:35] START elevenlabsv3.py (HaveIEver)
+Audio-Ordner: /home/aleranzer/blitzquiz/haveiever/media/audio
+Questions:     /home/aleranzer/blitzquiz/haveiever/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] idx=1 id=00001 -> existiert bereits (pre_audio_00001.mp3)
+[SKIP] idx=1 id=00001 -> existiert bereits (question_00001.mp3)
+[JSON] idx=2 id=00002 pre_audio gesetzt -> pre_audio_00002.mp3
+[GEN ] idx=2 id=00002 -> pre_audio_00002.mp3
+[OK  ] idx=2 id=00002 -> erzeugt (pre_audio_00002.mp3)
+[JSON] idx=2 id=00002 audio gesetzt -> question_00002.mp3
+[GEN ] idx=2 id=00002 -> question_00002.mp3
+[OK  ] idx=2 id=00002 -> erzeugt (question_00002.mp3)
+[SKIP] idx=3 id=00003 -> existiert bereits (pre_audio_00003.mp3)
+[SKIP] idx=3 id=00003 -> existiert bereits (question_00003.mp3)
+[SKIP] idx=4 id=00004 -> existiert bereits (pre_audio_00004.mp3)
+[SKIP] idx=4 id=00004 -> existiert bereits (question_00004.mp3)
+[SKIP] idx=5 id=00005 -> existiert bereits (pre_audio_00005.mp3)
+[SKIP] idx=5 id=00005 -> existiert bereits (question_00005.mp3)
+[SKIP] idx=6 id=00006 -> existiert bereits (pre_audio_00006.mp3)
+[SKIP] idx=6 id=00006 -> existiert bereits (question_00006.mp3)
+[SKIP] idx=7 id=00007 -> existiert bereits (pre_audio_00007.mp3)
+[SKIP] idx=7 id=00007 -> existiert bereits (question_00007.mp3)
+[SKIP] idx=8 id=00008 -> existiert bereits (pre_audio_00008.mp3)
+[SKIP] idx=8 id=00008 -> existiert bereits (question_00008.mp3)
+[SKIP] idx=9 id=00009 -> existiert bereits (pre_audio_00009.mp3)
+[SKIP] idx=9 id=00009 -> existiert bereits (question_00009.mp3)
+[GEN ] idx=10 id=00010 -> pre_audio_00010.mp3
+[OK  ] idx=10 id=00010 -> erzeugt (pre_audio_00010.mp3)
+[JSON] idx=10 id=00010 audio gesetzt -> question_00010.mp3
+[GEN ] idx=10 id=00010 -> question_00010.mp3
+
+============================================================
+[2026-02-10 11:45:29] START elevenlabsv3.py (HaveIEver)
+Audio-Ordner: /home/aleranzer/blitzquiz/haveiever/media/audio
+Questions:     /home/aleranzer/blitzquiz/haveiever/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[JSON] idx=1 id=00001 pre_audio gesetzt -> pre_audio_00001.mp3
+[GEN ] idx=1 id=00001 -> pre_audio_00001.mp3
+[OK  ] idx=1 id=00001 -> erzeugt (pre_audio_00001.mp3)
+[JSON] idx=1 id=00001 audio gesetzt -> question_00001.mp3
+[GEN ] idx=1 id=00001 -> question_00001.mp3
+[OK  ] idx=1 id=00001 -> erzeugt (question_00001.mp3)
+[JSON] idx=2 id=00002 pre_audio gesetzt -> pre_audio_00002.mp3
+[GEN ] idx=2 id=00002 -> pre_audio_00002.mp3
+[OK  ] idx=2 id=00002 -> erzeugt (pre_audio_00002.mp3)
+[JSON] idx=2 id=00002 audio gesetzt -> question_00002.mp3
+[GEN ] idx=2 id=00002 -> question_00002.mp3
+[OK  ] idx=2 id=00002 -> erzeugt (question_00002.mp3)
+[JSON] idx=3 id=00003 pre_audio gesetzt -> pre_audio_00003.mp3
+[GEN ] idx=3 id=00003 -> pre_audio_00003.mp3
+[OK  ] idx=3 id=00003 -> erzeugt (pre_audio_00003.mp3)
+[JSON] idx=3 id=00003 audio gesetzt -> question_00003.mp3
+[GEN ] idx=3 id=00003 -> question_00003.mp3
+[OK  ] idx=3 id=00003 -> erzeugt (question_00003.mp3)
+[JSON] idx=4 id=00004 pre_audio gesetzt -> pre_audio_00004.mp3
+[GEN ] idx=4 id=00004 -> pre_audio_00004.mp3
+[OK  ] idx=4 id=00004 -> erzeugt (pre_audio_00004.mp3)
+[JSON] idx=4 id=00004 audio gesetzt -> question_00004.mp3
+[GEN ] idx=4 id=00004 -> question_00004.mp3
+[OK  ] idx=4 id=00004 -> erzeugt (question_00004.mp3)
+[JSON] idx=5 id=00005 pre_audio gesetzt -> pre_audio_00005.mp3
+[GEN ] idx=5 id=00005 -> pre_audio_00005.mp3
+[OK  ] idx=5 id=00005 -> erzeugt (pre_audio_00005.mp3)
+[JSON] idx=5 id=00005 audio gesetzt -> question_00005.mp3
+[GEN ] idx=5 id=00005 -> question_00005.mp3
+[OK  ] idx=5 id=00005 -> erzeugt (question_00005.mp3)
+[JSON] idx=6 id=00006 pre_audio gesetzt -> pre_audio_00006.mp3
+[GEN ] idx=6 id=00006 -> pre_audio_00006.mp3
+[OK  ] idx=6 id=00006 -> erzeugt (pre_audio_00006.mp3)
+[JSON] idx=6 id=00006 audio gesetzt -> question_00006.mp3
+[GEN ] idx=6 id=00006 -> question_00006.mp3
+[OK  ] idx=6 id=00006 -> erzeugt (question_00006.mp3)
+[JSON] idx=7 id=00007 pre_audio gesetzt -> pre_audio_00007.mp3
+[GEN ] idx=7 id=00007 -> pre_audio_00007.mp3
+[OK  ] idx=7 id=00007 -> erzeugt (pre_audio_00007.mp3)
+[JSON] idx=7 id=00007 audio gesetzt -> question_00007.mp3
+[GEN ] idx=7 id=00007 -> question_00007.mp3
+[OK  ] idx=7 id=00007 -> erzeugt (question_00007.mp3)
+[JSON] idx=8 id=00008 pre_audio gesetzt -> pre_audio_00008.mp3
+[GEN ] idx=8 id=00008 -> pre_audio_00008.mp3
+[OK  ] idx=8 id=00008 -> erzeugt (pre_audio_00008.mp3)
+[JSON] idx=8 id=00008 audio gesetzt -> question_00008.mp3
+[GEN ] idx=8 id=00008 -> question_00008.mp3
+[OK  ] idx=8 id=00008 -> erzeugt (question_00008.mp3)
+[JSON] idx=9 id=00009 pre_audio gesetzt -> pre_audio_00009.mp3
+[GEN ] idx=9 id=00009 -> pre_audio_00009.mp3
+[OK  ] idx=9 id=00009 -> erzeugt (pre_audio_00009.mp3)
+[JSON] idx=9 id=00009 audio gesetzt -> question_00009.mp3
+[GEN ] idx=9 id=00009 -> question_00009.mp3
+[OK  ] idx=9 id=00009 -> erzeugt (question_00009.mp3)
+[JSON] idx=10 id=00010 pre_audio gesetzt -> pre_audio_00010.mp3
+[GEN ] idx=10 id=00010 -> pre_audio_00010.mp3
+[OK  ] idx=10 id=00010 -> erzeugt (pre_audio_00010.mp3)
+[JSON] idx=10 id=00010 audio gesetzt -> question_00010.mp3
+[GEN ] idx=10 id=00010 -> question_00010.mp3
+[OK  ] idx=10 id=00010 -> erzeugt (question_00010.mp3)
+[JSON] idx=11 id=00011 pre_audio gesetzt -> pre_audio_00011.mp3
+[GEN ] idx=11 id=00011 -> pre_audio_00011.mp3
+[OK  ] idx=11 id=00011 -> erzeugt (pre_audio_00011.mp3)
+[JSON] idx=11 id=00011 audio gesetzt -> question_00011.mp3
+[GEN ] idx=11 id=00011 -> question_00011.mp3
+[OK  ] idx=11 id=00011 -> erzeugt (question_00011.mp3)
+[SKIP] idx=12 id=00012 -> existiert bereits (pre_audio_00012.mp3)
+[SKIP] idx=12 id=00012 -> existiert bereits (question_00012.mp3)
+[JSON] idx=13 id=00013 pre_audio gesetzt -> pre_audio_00013.mp3
+[GEN ] idx=13 id=00013 -> pre_audio_00013.mp3
+[OK  ] idx=13 id=00013 -> erzeugt (pre_audio_00013.mp3)
+[JSON] idx=13 id=00013 audio gesetzt -> question_00013.mp3
+[GEN ] idx=13 id=00013 -> question_00013.mp3
+[OK  ] idx=13 id=00013 -> erzeugt (question_00013.mp3)
+[JSON] idx=14 id=00014 pre_audio gesetzt -> pre_audio_00014.mp3
+[GEN ] idx=14 id=00014 -> pre_audio_00014.mp3
+[OK  ] idx=14 id=00014 -> erzeugt (pre_audio_00014.mp3)
+[JSON] idx=14 id=00014 audio gesetzt -> question_00014.mp3
+[GEN ] idx=14 id=00014 -> question_00014.mp3
+[OK  ] idx=14 id=00014 -> erzeugt (question_00014.mp3)
+[SKIP] idx=15 id=00015 -> existiert bereits (pre_audio_00015.mp3)
+[SKIP] idx=15 id=00015 -> existiert bereits (question_00015.mp3)
+[JSON] idx=16 id=00016 pre_audio gesetzt -> pre_audio_00016.mp3
+[GEN ] idx=16 id=00016 -> pre_audio_00016.mp3
+[OK  ] idx=16 id=00016 -> erzeugt (pre_audio_00016.mp3)
+[JSON] idx=16 id=00016 audio gesetzt -> question_00016.mp3
+[GEN ] idx=16 id=00016 -> question_00016.mp3
+[OK  ] idx=16 id=00016 -> erzeugt (question_00016.mp3)
+[SKIP] idx=17 id=00017 -> existiert bereits (pre_audio_00017.mp3)
+[SKIP] idx=17 id=00017 -> existiert bereits (question_00017.mp3)
+[JSON] idx=18 id=00018 pre_audio gesetzt -> pre_audio_00018.mp3
+[GEN ] idx=18 id=00018 -> pre_audio_00018.mp3
+[OK  ] idx=18 id=00018 -> erzeugt (pre_audio_00018.mp3)
+[JSON] idx=18 id=00018 audio gesetzt -> question_00018.mp3
+[GEN ] idx=18 id=00018 -> question_00018.mp3
+[OK  ] idx=18 id=00018 -> erzeugt (question_00018.mp3)
+[JSON] idx=19 id=00019 pre_audio gesetzt -> pre_audio_00019.mp3
+[GEN ] idx=19 id=00019 -> pre_audio_00019.mp3
+[OK  ] idx=19 id=00019 -> erzeugt (pre_audio_00019.mp3)
+[JSON] idx=19 id=00019 audio gesetzt -> question_00019.mp3
+[GEN ] idx=19 id=00019 -> question_00019.mp3
+[OK  ] idx=19 id=00019 -> erzeugt (question_00019.mp3)
+[JSON] idx=20 id=00020 pre_audio gesetzt -> pre_audio_00020.mp3
+[GEN ] idx=20 id=00020 -> pre_audio_00020.mp3
+[OK  ] idx=20 id=00020 -> erzeugt (pre_audio_00020.mp3)
+[JSON] idx=20 id=00020 audio gesetzt -> question_00020.mp3
+[GEN ] idx=20 id=00020 -> question_00020.mp3
+[OK  ] idx=20 id=00020 -> erzeugt (question_00020.mp3)
+[JSON] idx=21 id=00021 pre_audio gesetzt -> pre_audio_00021.mp3
+[GEN ] idx=21 id=00021 -> pre_audio_00021.mp3
+[OK  ] idx=21 id=00021 -> erzeugt (pre_audio_00021.mp3)
+[JSON] idx=21 id=00021 audio gesetzt -> question_00021.mp3
+[GEN ] idx=21 id=00021 -> question_00021.mp3
+[OK  ] idx=21 id=00021 -> erzeugt (question_00021.mp3)
+[SKIP] idx=22 id=00022 -> existiert bereits (pre_audio_00022.mp3)
+[SKIP] idx=22 id=00022 -> existiert bereits (question_00022.mp3)
+[JSON] idx=23 id=00023 pre_audio gesetzt -> pre_audio_00023.mp3
+[GEN ] idx=23 id=00023 -> pre_audio_00023.mp3
+[OK  ] idx=23 id=00023 -> erzeugt (pre_audio_00023.mp3)
+[JSON] idx=23 id=00023 audio gesetzt -> question_00023.mp3
+[GEN ] idx=23 id=00023 -> question_00023.mp3
+[OK  ] idx=23 id=00023 -> erzeugt (question_00023.mp3)
+[JSON] idx=24 id=00024 pre_audio gesetzt -> pre_audio_00024.mp3
+[GEN ] idx=24 id=00024 -> pre_audio_00024.mp3
+[OK  ] idx=24 id=00024 -> erzeugt (pre_audio_00024.mp3)
+[JSON] idx=24 id=00024 audio gesetzt -> question_00024.mp3
+[GEN ] idx=24 id=00024 -> question_00024.mp3
+[OK  ] idx=24 id=00024 -> erzeugt (question_00024.mp3)
+[SKIP] idx=25 id=00025 -> existiert bereits (pre_audio_00025.mp3)
+[SKIP] idx=25 id=00025 -> existiert bereits (question_00025.mp3)
+[JSON] idx=26 id=00026 pre_audio gesetzt -> pre_audio_00026.mp3
+[GEN ] idx=26 id=00026 -> pre_audio_00026.mp3
+[OK  ] idx=26 id=00026 -> erzeugt (pre_audio_00026.mp3)
+[JSON] idx=26 id=00026 audio gesetzt -> question_00026.mp3
+[GEN ] idx=26 id=00026 -> question_00026.mp3
+[OK  ] idx=26 id=00026 -> erzeugt (question_00026.mp3)
+[SKIP] idx=27 id=00027 -> existiert bereits (pre_audio_00027.mp3)
+[SKIP] idx=27 id=00027 -> existiert bereits (question_00027.mp3)
+[JSON] idx=28 id=00028 pre_audio gesetzt -> pre_audio_00028.mp3
+[GEN ] idx=28 id=00028 -> pre_audio_00028.mp3
+[OK  ] idx=28 id=00028 -> erzeugt (pre_audio_00028.mp3)
+[JSON] idx=28 id=00028 audio gesetzt -> question_00028.mp3
+[GEN ] idx=28 id=00028 -> question_00028.mp3
+[OK  ] idx=28 id=00028 -> erzeugt (question_00028.mp3)
+[JSON] idx=29 id=00029 pre_audio gesetzt -> pre_audio_00029.mp3
+[GEN ] idx=29 id=00029 -> pre_audio_00029.mp3
+[OK  ] idx=29 id=00029 -> erzeugt (pre_audio_00029.mp3)
+[JSON] idx=29 id=00029 audio gesetzt -> question_00029.mp3
+[GEN ] idx=29 id=00029 -> question_00029.mp3
+[OK  ] idx=29 id=00029 -> erzeugt (question_00029.mp3)
+[JSON] idx=30 id=00030 pre_audio gesetzt -> pre_audio_00030.mp3
+[GEN ] idx=30 id=00030 -> pre_audio_00030.mp3
+[OK  ] idx=30 id=00030 -> erzeugt (pre_audio_00030.mp3)
+[JSON] idx=30 id=00030 audio gesetzt -> question_00030.mp3
+[GEN ] idx=30 id=00030 -> question_00030.mp3
+[OK  ] idx=30 id=00030 -> erzeugt (question_00030.mp3)
+[JSON] idx=31 id=00031 pre_audio gesetzt -> pre_audio_00031.mp3
+[GEN ] idx=31 id=00031 -> pre_audio_00031.mp3
+[OK  ] idx=31 id=00031 -> erzeugt (pre_audio_00031.mp3)
+[JSON] idx=31 id=00031 audio gesetzt -> question_00031.mp3
+[GEN ] idx=31 id=00031 -> question_00031.mp3
+[OK  ] idx=31 id=00031 -> erzeugt (question_00031.mp3)
+[JSON] idx=32 id=00032 pre_audio gesetzt -> pre_audio_00032.mp3
+[GEN ] idx=32 id=00032 -> pre_audio_00032.mp3
+[OK  ] idx=32 id=00032 -> erzeugt (pre_audio_00032.mp3)
+[JSON] idx=32 id=00032 audio gesetzt -> question_00032.mp3
+[GEN ] idx=32 id=00032 -> question_00032.mp3
+[OK  ] idx=32 id=00032 -> erzeugt (question_00032.mp3)
+[SKIP] idx=33 id=00033 -> existiert bereits (pre_audio_00033.mp3)
+[SKIP] idx=33 id=00033 -> existiert bereits (question_00033.mp3)
+[JSON] idx=34 id=00034 pre_audio gesetzt -> pre_audio_00034.mp3
+[GEN ] idx=34 id=00034 -> pre_audio_00034.mp3
+[OK  ] idx=34 id=00034 -> erzeugt (pre_audio_00034.mp3)
+[JSON] idx=34 id=00034 audio gesetzt -> question_00034.mp3
+[GEN ] idx=34 id=00034 -> question_00034.mp3
+[OK  ] idx=34 id=00034 -> erzeugt (question_00034.mp3)
+[JSON] idx=35 id=00035 pre_audio gesetzt -> pre_audio_00035.mp3
+[GEN ] idx=35 id=00035 -> pre_audio_00035.mp3
+[OK  ] idx=35 id=00035 -> erzeugt (pre_audio_00035.mp3)
+[JSON] idx=35 id=00035 audio gesetzt -> question_00035.mp3
+[GEN ] idx=35 id=00035 -> question_00035.mp3
+[OK  ] idx=35 id=00035 -> erzeugt (question_00035.mp3)
+[JSON] idx=36 id=00036 pre_audio gesetzt -> pre_audio_00036.mp3
+[GEN ] idx=36 id=00036 -> pre_audio_00036.mp3
+[OK  ] idx=36 id=00036 -> erzeugt (pre_audio_00036.mp3)
+[JSON] idx=36 id=00036 audio gesetzt -> question_00036.mp3
+[GEN ] idx=36 id=00036 -> question_00036.mp3
+[OK  ] idx=36 id=00036 -> erzeugt (question_00036.mp3)
+[JSON] idx=37 id=00037 pre_audio gesetzt -> pre_audio_00037.mp3
+[GEN ] idx=37 id=00037 -> pre_audio_00037.mp3
+[OK  ] idx=37 id=00037 -> erzeugt (pre_audio_00037.mp3)
+[JSON] idx=37 id=00037 audio gesetzt -> question_00037.mp3
+[GEN ] idx=37 id=00037 -> question_00037.mp3
+[OK  ] idx=37 id=00037 -> erzeugt (question_00037.mp3)
+[JSON] idx=38 id=00038 pre_audio gesetzt -> pre_audio_00038.mp3
+[GEN ] idx=38 id=00038 -> pre_audio_00038.mp3
+[OK  ] idx=38 id=00038 -> erzeugt (pre_audio_00038.mp3)
+[JSON] idx=38 id=00038 audio gesetzt -> question_00038.mp3
+[GEN ] idx=38 id=00038 -> question_00038.mp3
+[OK  ] idx=38 id=00038 -> erzeugt (question_00038.mp3)
+[JSON] idx=39 id=00039 pre_audio gesetzt -> pre_audio_00039.mp3
+[GEN ] idx=39 id=00039 -> pre_audio_00039.mp3
+[OK  ] idx=39 id=00039 -> erzeugt (pre_audio_00039.mp3)
+[JSON] idx=39 id=00039 audio gesetzt -> question_00039.mp3
+[GEN ] idx=39 id=00039 -> question_00039.mp3
+[OK  ] idx=39 id=00039 -> erzeugt (question_00039.mp3)
+[JSON] idx=40 id=00040 pre_audio gesetzt -> pre_audio_00040.mp3
+[GEN ] idx=40 id=00040 -> pre_audio_00040.mp3
+[OK  ] idx=40 id=00040 -> erzeugt (pre_audio_00040.mp3)
+[JSON] idx=40 id=00040 audio gesetzt -> question_00040.mp3
+[GEN ] idx=40 id=00040 -> question_00040.mp3
+[OK  ] idx=40 id=00040 -> erzeugt (question_00040.mp3)
+[JSON] idx=41 id=00041 pre_audio gesetzt -> pre_audio_00041.mp3
+[GEN ] idx=41 id=00041 -> pre_audio_00041.mp3
+[OK  ] idx=41 id=00041 -> erzeugt (pre_audio_00041.mp3)
+[JSON] idx=41 id=00041 audio gesetzt -> question_00041.mp3
+[GEN ] idx=41 id=00041 -> question_00041.mp3
+[OK  ] idx=41 id=00041 -> erzeugt (question_00041.mp3)
+[SKIP] idx=42 id=00042 -> existiert bereits (pre_audio_00042.mp3)
+[SKIP] idx=42 id=00042 -> existiert bereits (question_00042.mp3)
+[JSON] idx=43 id=00043 pre_audio gesetzt -> pre_audio_00043.mp3
+[GEN ] idx=43 id=00043 -> pre_audio_00043.mp3
+[OK  ] idx=43 id=00043 -> erzeugt (pre_audio_00043.mp3)
+[JSON] idx=43 id=00043 audio gesetzt -> question_00043.mp3
+[GEN ] idx=43 id=00043 -> question_00043.mp3
+[OK  ] idx=43 id=00043 -> erzeugt (question_00043.mp3)
+[JSON] idx=44 id=00044 pre_audio gesetzt -> pre_audio_00044.mp3
+[GEN ] idx=44 id=00044 -> pre_audio_00044.mp3
+[OK  ] idx=44 id=00044 -> erzeugt (pre_audio_00044.mp3)
+[JSON] idx=44 id=00044 audio gesetzt -> question_00044.mp3
+[GEN ] idx=44 id=00044 -> question_00044.mp3
+[OK  ] idx=44 id=00044 -> erzeugt (question_00044.mp3)
+[JSON] idx=45 id=00045 pre_audio gesetzt -> pre_audio_00045.mp3
+[GEN ] idx=45 id=00045 -> pre_audio_00045.mp3
+[OK  ] idx=45 id=00045 -> erzeugt (pre_audio_00045.mp3)
+[JSON] idx=45 id=00045 audio gesetzt -> question_00045.mp3
+[GEN ] idx=45 id=00045 -> question_00045.mp3
+[OK  ] idx=45 id=00045 -> erzeugt (question_00045.mp3)
+[JSON] idx=46 id=00046 pre_audio gesetzt -> pre_audio_00046.mp3
+[GEN ] idx=46 id=00046 -> pre_audio_00046.mp3
+[OK  ] idx=46 id=00046 -> erzeugt (pre_audio_00046.mp3)
+[JSON] idx=46 id=00046 audio gesetzt -> question_00046.mp3
+[GEN ] idx=46 id=00046 -> question_00046.mp3
+[OK  ] idx=46 id=00046 -> erzeugt (question_00046.mp3)
+[JSON] idx=47 id=00047 pre_audio gesetzt -> pre_audio_00047.mp3
+[GEN ] idx=47 id=00047 -> pre_audio_00047.mp3
+[OK  ] idx=47 id=00047 -> erzeugt (pre_audio_00047.mp3)
+[JSON] idx=47 id=00047 audio gesetzt -> question_00047.mp3
+[GEN ] idx=47 id=00047 -> question_00047.mp3
+[OK  ] idx=47 id=00047 -> erzeugt (question_00047.mp3)
+[JSON] idx=48 id=00048 pre_audio gesetzt -> pre_audio_00048.mp3
+[GEN ] idx=48 id=00048 -> pre_audio_00048.mp3
+[OK  ] idx=48 id=00048 -> erzeugt (pre_audio_00048.mp3)
+[JSON] idx=48 id=00048 audio gesetzt -> question_00048.mp3
+[GEN ] idx=48 id=00048 -> question_00048.mp3
+[OK  ] idx=48 id=00048 -> erzeugt (question_00048.mp3)
+[SKIP] idx=49 id=00049 -> existiert bereits (pre_audio_00049.mp3)
+[SKIP] idx=49 id=00049 -> existiert bereits (question_00049.mp3)
+[JSON] idx=50 id=00050 pre_audio gesetzt -> pre_audio_00050.mp3
+[GEN ] idx=50 id=00050 -> pre_audio_00050.mp3
+[OK  ] idx=50 id=00050 -> erzeugt (pre_audio_00050.mp3)
+[JSON] idx=50 id=00050 audio gesetzt -> question_00050.mp3
+[GEN ] idx=50 id=00050 -> question_00050.mp3
+[OK  ] idx=50 id=00050 -> erzeugt (question_00050.mp3)
+------------------------------------------------------------
+[2026-02-10 11:48:30] ENDE
+produziert:   82
+übersprungen: 18
+fehler:       0
+json-updates: 82
+mp3 im Ordner:100
+============================================================
+
+============================================================
+[2026-03-13 13:33:43] START elevenlabsv3.py (HaveIEver)
+Audio-Ordner: /home/aleranzer/quizshark/haveiever/media/audio
+Questions:     /home/aleranzer/quizshark/haveiever/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] idx=1 id=00001 -> existiert bereits (pre_audio_00001.mp3)
+[SKIP] idx=1 id=00001 -> existiert bereits (question_00001.mp3)
+[SKIP] idx=2 id=00002 -> existiert bereits (pre_audio_00002.mp3)
+[SKIP] idx=2 id=00002 -> existiert bereits (question_00002.mp3)
+[SKIP] idx=3 id=00003 -> existiert bereits (pre_audio_00003.mp3)
+[SKIP] idx=3 id=00003 -> existiert bereits (question_00003.mp3)
+[SKIP] idx=4 id=00004 -> existiert bereits (pre_audio_00004.mp3)
+[SKIP] idx=4 id=00004 -> existiert bereits (question_00004.mp3)
+[SKIP] idx=5 id=00005 -> existiert bereits (pre_audio_00005.mp3)
+[SKIP] idx=5 id=00005 -> existiert bereits (question_00005.mp3)
+[SKIP] idx=6 id=00006 -> existiert bereits (pre_audio_00006.mp3)
+[SKIP] idx=6 id=00006 -> existiert bereits (question_00006.mp3)
+[SKIP] idx=7 id=00007 -> existiert bereits (pre_audio_00007.mp3)
+[SKIP] idx=7 id=00007 -> existiert bereits (question_00007.mp3)
+[SKIP] idx=8 id=00008 -> existiert bereits (pre_audio_00008.mp3)
+[SKIP] idx=8 id=00008 -> existiert bereits (question_00008.mp3)
+[SKIP] idx=9 id=00009 -> existiert bereits (pre_audio_00009.mp3)
+[SKIP] idx=9 id=00009 -> existiert bereits (question_00009.mp3)
+[SKIP] idx=10 id=00010 -> existiert bereits (pre_audio_00010.mp3)
+[SKIP] idx=10 id=00010 -> existiert bereits (question_00010.mp3)
+[SKIP] idx=11 id=00011 -> existiert bereits (pre_audio_00011.mp3)
+[SKIP] idx=11 id=00011 -> existiert bereits (question_00011.mp3)
+[SKIP] idx=12 id=00012 -> existiert bereits (pre_audio_00012.mp3)
+[SKIP] idx=12 id=00012 -> existiert bereits (question_00012.mp3)
+[SKIP] idx=13 id=00013 -> existiert bereits (pre_audio_00013.mp3)
+[SKIP] idx=13 id=00013 -> existiert bereits (question_00013.mp3)
+[SKIP] idx=14 id=00014 -> existiert bereits (pre_audio_00014.mp3)
+[SKIP] idx=14 id=00014 -> existiert bereits (question_00014.mp3)
+[SKIP] idx=15 id=00015 -> existiert bereits (pre_audio_00015.mp3)
+[SKIP] idx=15 id=00015 -> existiert bereits (question_00015.mp3)
+[SKIP] idx=16 id=00016 -> existiert bereits (pre_audio_00016.mp3)
+[SKIP] idx=16 id=00016 -> existiert bereits (question_00016.mp3)
+[SKIP] idx=17 id=00017 -> existiert bereits (pre_audio_00017.mp3)
+[SKIP] idx=17 id=00017 -> existiert bereits (question_00017.mp3)
+[SKIP] idx=18 id=00018 -> existiert bereits (pre_audio_00018.mp3)
+[SKIP] idx=18 id=00018 -> existiert bereits (question_00018.mp3)
+[SKIP] idx=19 id=00019 -> existiert bereits (pre_audio_00019.mp3)
+[SKIP] idx=19 id=00019 -> existiert bereits (question_00019.mp3)
+[SKIP] idx=20 id=00020 -> existiert bereits (pre_audio_00020.mp3)
+[SKIP] idx=20 id=00020 -> existiert bereits (question_00020.mp3)
+[SKIP] idx=21 id=00021 -> existiert bereits (pre_audio_00021.mp3)
+[SKIP] idx=21 id=00021 -> existiert bereits (question_00021.mp3)
+[SKIP] idx=22 id=00022 -> existiert bereits (pre_audio_00022.mp3)
+[SKIP] idx=22 id=00022 -> existiert bereits (question_00022.mp3)
+[SKIP] idx=23 id=00023 -> existiert bereits (pre_audio_00023.mp3)
+[SKIP] idx=23 id=00023 -> existiert bereits (question_00023.mp3)
+[SKIP] idx=24 id=00024 -> existiert bereits (pre_audio_00024.mp3)
+[SKIP] idx=24 id=00024 -> existiert bereits (question_00024.mp3)
+[SKIP] idx=25 id=00025 -> existiert bereits (pre_audio_00025.mp3)
+[SKIP] idx=25 id=00025 -> existiert bereits (question_00025.mp3)
+[SKIP] idx=26 id=00026 -> existiert bereits (pre_audio_00026.mp3)
+[SKIP] idx=26 id=00026 -> existiert bereits (question_00026.mp3)
+[SKIP] idx=27 id=00027 -> existiert bereits (pre_audio_00027.mp3)
+[SKIP] idx=27 id=00027 -> existiert bereits (question_00027.mp3)
+[SKIP] idx=28 id=00028 -> existiert bereits (pre_audio_00028.mp3)
+[SKIP] idx=28 id=00028 -> existiert bereits (question_00028.mp3)
+[SKIP] idx=29 id=00029 -> existiert bereits (pre_audio_00029.mp3)
+[SKIP] idx=29 id=00029 -> existiert bereits (question_00029.mp3)
+[SKIP] idx=30 id=00030 -> existiert bereits (pre_audio_00030.mp3)
+[SKIP] idx=30 id=00030 -> existiert bereits (question_00030.mp3)
+[SKIP] idx=31 id=00031 -> existiert bereits (pre_audio_00031.mp3)
+[SKIP] idx=31 id=00031 -> existiert bereits (question_00031.mp3)
+[SKIP] idx=32 id=00032 -> existiert bereits (pre_audio_00032.mp3)
+[SKIP] idx=32 id=00032 -> existiert bereits (question_00032.mp3)
+[SKIP] idx=33 id=00033 -> existiert bereits (pre_audio_00033.mp3)
+[SKIP] idx=33 id=00033 -> existiert bereits (question_00033.mp3)
+[SKIP] idx=34 id=00034 -> existiert bereits (pre_audio_00034.mp3)
+[SKIP] idx=34 id=00034 -> existiert bereits (question_00034.mp3)
+[SKIP] idx=35 id=00035 -> existiert bereits (pre_audio_00035.mp3)
+[SKIP] idx=35 id=00035 -> existiert bereits (question_00035.mp3)
+[SKIP] idx=36 id=00036 -> existiert bereits (pre_audio_00036.mp3)
+[SKIP] idx=36 id=00036 -> existiert bereits (question_00036.mp3)
+[SKIP] idx=37 id=00037 -> existiert bereits (pre_audio_00037.mp3)
+[SKIP] idx=37 id=00037 -> existiert bereits (question_00037.mp3)
+[SKIP] idx=38 id=00038 -> existiert bereits (pre_audio_00038.mp3)
+[SKIP] idx=38 id=00038 -> existiert bereits (question_00038.mp3)
+[SKIP] idx=39 id=00039 -> existiert bereits (pre_audio_00039.mp3)
+[SKIP] idx=39 id=00039 -> existiert bereits (question_00039.mp3)
+[SKIP] idx=40 id=00040 -> existiert bereits (pre_audio_00040.mp3)
+[SKIP] idx=40 id=00040 -> existiert bereits (question_00040.mp3)
+[SKIP] idx=41 id=00041 -> existiert bereits (pre_audio_00041.mp3)
+[SKIP] idx=41 id=00041 -> existiert bereits (question_00041.mp3)
+[SKIP] idx=42 id=00042 -> existiert bereits (pre_audio_00042.mp3)
+[SKIP] idx=42 id=00042 -> existiert bereits (question_00042.mp3)
+[SKIP] idx=43 id=00043 -> existiert bereits (pre_audio_00043.mp3)
+[SKIP] idx=43 id=00043 -> existiert bereits (question_00043.mp3)
+[SKIP] idx=44 id=00044 -> existiert bereits (pre_audio_00044.mp3)
+[SKIP] idx=44 id=00044 -> existiert bereits (question_00044.mp3)
+[SKIP] idx=45 id=00045 -> existiert bereits (pre_audio_00045.mp3)
+[SKIP] idx=45 id=00045 -> existiert bereits (question_00045.mp3)
+[SKIP] idx=46 id=00046 -> existiert bereits (pre_audio_00046.mp3)
+[SKIP] idx=46 id=00046 -> existiert bereits (question_00046.mp3)
+[SKIP] idx=47 id=00047 -> existiert bereits (pre_audio_00047.mp3)
+[SKIP] idx=47 id=00047 -> existiert bereits (question_00047.mp3)
+[SKIP] idx=48 id=00048 -> existiert bereits (pre_audio_00048.mp3)
+[SKIP] idx=48 id=00048 -> existiert bereits (question_00048.mp3)
+[SKIP] idx=49 id=00049 -> existiert bereits (pre_audio_00049.mp3)
+[SKIP] idx=49 id=00049 -> existiert bereits (question_00049.mp3)
+[SKIP] idx=50 id=00050 -> existiert bereits (pre_audio_00050.mp3)
+[SKIP] idx=50 id=00050 -> existiert bereits (question_00050.mp3)
+
+============================================================
+[2026-03-13 13:35:34] START elevenlabsv3.py (HaveIEver)
+Audio-Ordner: /home/aleranzer/quizshark/haveiever/media/audio
+Questions:     /home/aleranzer/quizshark/haveiever/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] idx=1 id=00001 -> existiert bereits (pre_audio_00001.mp3)
+[SKIP] idx=1 id=00001 -> existiert bereits (question_00001.mp3)
+[SKIP] idx=2 id=00002 -> existiert bereits (pre_audio_00002.mp3)
+[SKIP] idx=2 id=00002 -> existiert bereits (question_00002.mp3)
+[SKIP] idx=3 id=00003 -> existiert bereits (pre_audio_00003.mp3)
+[SKIP] idx=3 id=00003 -> existiert bereits (question_00003.mp3)
+[SKIP] idx=4 id=00004 -> existiert bereits (pre_audio_00004.mp3)
+[SKIP] idx=4 id=00004 -> existiert bereits (question_00004.mp3)
+[SKIP] idx=5 id=00005 -> existiert bereits (pre_audio_00005.mp3)
+[SKIP] idx=5 id=00005 -> existiert bereits (question_00005.mp3)
+[SKIP] idx=6 id=00006 -> existiert bereits (pre_audio_00006.mp3)
+[SKIP] idx=6 id=00006 -> existiert bereits (question_00006.mp3)
+[SKIP] idx=7 id=00007 -> existiert bereits (pre_audio_00007.mp3)
+[SKIP] idx=7 id=00007 -> existiert bereits (question_00007.mp3)
+[SKIP] idx=8 id=00008 -> existiert bereits (pre_audio_00008.mp3)
+[SKIP] idx=8 id=00008 -> existiert bereits (question_00008.mp3)
+[SKIP] idx=9 id=00009 -> existiert bereits (pre_audio_00009.mp3)
+[SKIP] idx=9 id=00009 -> existiert bereits (question_00009.mp3)
+[SKIP] idx=10 id=00010 -> existiert bereits (pre_audio_00010.mp3)
+[SKIP] idx=10 id=00010 -> existiert bereits (question_00010.mp3)
+[SKIP] idx=11 id=00011 -> existiert bereits (pre_audio_00011.mp3)
+[SKIP] idx=11 id=00011 -> existiert bereits (question_00011.mp3)
+[SKIP] idx=12 id=00012 -> existiert bereits (pre_audio_00012.mp3)
+[SKIP] idx=12 id=00012 -> existiert bereits (question_00012.mp3)
+[SKIP] idx=13 id=00013 -> existiert bereits (pre_audio_00013.mp3)
+[SKIP] idx=13 id=00013 -> existiert bereits (question_00013.mp3)
+[SKIP] idx=14 id=00014 -> existiert bereits (pre_audio_00014.mp3)
+[SKIP] idx=14 id=00014 -> existiert bereits (question_00014.mp3)
+[SKIP] idx=15 id=00015 -> existiert bereits (pre_audio_00015.mp3)
+[SKIP] idx=15 id=00015 -> existiert bereits (question_00015.mp3)
+[SKIP] idx=16 id=00016 -> existiert bereits (pre_audio_00016.mp3)
+[SKIP] idx=16 id=00016 -> existiert bereits (question_00016.mp3)
+[SKIP] idx=17 id=00017 -> existiert bereits (pre_audio_00017.mp3)
+[SKIP] idx=17 id=00017 -> existiert bereits (question_00017.mp3)
+[SKIP] idx=18 id=00018 -> existiert bereits (pre_audio_00018.mp3)
+[SKIP] idx=18 id=00018 -> existiert bereits (question_00018.mp3)
+[SKIP] idx=19 id=00019 -> existiert bereits (pre_audio_00019.mp3)
+[SKIP] idx=19 id=00019 -> existiert bereits (question_00019.mp3)
+[SKIP] idx=20 id=00020 -> existiert bereits (pre_audio_00020.mp3)
+[SKIP] idx=20 id=00020 -> existiert bereits (question_00020.mp3)
+[SKIP] idx=21 id=00021 -> existiert bereits (pre_audio_00021.mp3)
+[SKIP] idx=21 id=00021 -> existiert bereits (question_00021.mp3)
+[SKIP] idx=22 id=00022 -> existiert bereits (pre_audio_00022.mp3)
+[SKIP] idx=22 id=00022 -> existiert bereits (question_00022.mp3)
+[SKIP] idx=23 id=00023 -> existiert bereits (pre_audio_00023.mp3)
+[SKIP] idx=23 id=00023 -> existiert bereits (question_00023.mp3)
+[SKIP] idx=24 id=00024 -> existiert bereits (pre_audio_00024.mp3)
+[SKIP] idx=24 id=00024 -> existiert bereits (question_00024.mp3)
+[SKIP] idx=25 id=00025 -> existiert bereits (pre_audio_00025.mp3)
+[SKIP] idx=25 id=00025 -> existiert bereits (question_00025.mp3)
+[SKIP] idx=26 id=00026 -> existiert bereits (pre_audio_00026.mp3)
+[SKIP] idx=26 id=00026 -> existiert bereits (question_00026.mp3)
+[SKIP] idx=27 id=00027 -> existiert bereits (pre_audio_00027.mp3)
+[SKIP] idx=27 id=00027 -> existiert bereits (question_00027.mp3)
+[SKIP] idx=28 id=00028 -> existiert bereits (pre_audio_00028.mp3)
+[SKIP] idx=28 id=00028 -> existiert bereits (question_00028.mp3)
+[SKIP] idx=29 id=00029 -> existiert bereits (pre_audio_00029.mp3)
+[SKIP] idx=29 id=00029 -> existiert bereits (question_00029.mp3)
+[SKIP] idx=30 id=00030 -> existiert bereits (pre_audio_00030.mp3)
+[SKIP] idx=30 id=00030 -> existiert bereits (question_00030.mp3)
+[SKIP] idx=31 id=00031 -> existiert bereits (pre_audio_00031.mp3)
+[SKIP] idx=31 id=00031 -> existiert bereits (question_00031.mp3)
+[SKIP] idx=32 id=00032 -> existiert bereits (pre_audio_00032.mp3)
+[SKIP] idx=32 id=00032 -> existiert bereits (question_00032.mp3)
+[SKIP] idx=33 id=00033 -> existiert bereits (pre_audio_00033.mp3)
+[SKIP] idx=33 id=00033 -> existiert bereits (question_00033.mp3)
+[SKIP] idx=34 id=00034 -> existiert bereits (pre_audio_00034.mp3)
+[SKIP] idx=34 id=00034 -> existiert bereits (question_00034.mp3)
+[SKIP] idx=35 id=00035 -> existiert bereits (pre_audio_00035.mp3)
+[SKIP] idx=35 id=00035 -> existiert bereits (question_00035.mp3)
+[SKIP] idx=36 id=00036 -> existiert bereits (pre_audio_00036.mp3)
+[SKIP] idx=36 id=00036 -> existiert bereits (question_00036.mp3)
+[SKIP] idx=37 id=00037 -> existiert bereits (pre_audio_00037.mp3)
+[SKIP] idx=37 id=00037 -> existiert bereits (question_00037.mp3)
+[SKIP] idx=38 id=00038 -> existiert bereits (pre_audio_00038.mp3)
+[SKIP] idx=38 id=00038 -> existiert bereits (question_00038.mp3)
+[SKIP] idx=39 id=00039 -> existiert bereits (pre_audio_00039.mp3)
+[SKIP] idx=39 id=00039 -> existiert bereits (question_00039.mp3)
+[SKIP] idx=40 id=00040 -> existiert bereits (pre_audio_00040.mp3)
+[SKIP] idx=40 id=00040 -> existiert bereits (question_00040.mp3)
+[SKIP] idx=41 id=00041 -> existiert bereits (pre_audio_00041.mp3)
+[SKIP] idx=41 id=00041 -> existiert bereits (question_00041.mp3)
+[SKIP] idx=42 id=00042 -> existiert bereits (pre_audio_00042.mp3)
+[SKIP] idx=42 id=00042 -> existiert bereits (question_00042.mp3)
+[SKIP] idx=43 id=00043 -> existiert bereits (pre_audio_00043.mp3)
+[SKIP] idx=43 id=00043 -> existiert bereits (question_00043.mp3)
+[SKIP] idx=44 id=00044 -> existiert bereits (pre_audio_00044.mp3)
+[SKIP] idx=44 id=00044 -> existiert bereits (question_00044.mp3)
+[SKIP] idx=45 id=00045 -> existiert bereits (pre_audio_00045.mp3)
+[SKIP] idx=45 id=00045 -> existiert bereits (question_00045.mp3)
+[SKIP] idx=46 id=00046 -> existiert bereits (pre_audio_00046.mp3)
+[SKIP] idx=46 id=00046 -> existiert bereits (question_00046.mp3)
+[SKIP] idx=47 id=00047 -> existiert bereits (pre_audio_00047.mp3)
+[SKIP] idx=47 id=00047 -> existiert bereits (question_00047.mp3)
+[SKIP] idx=48 id=00048 -> existiert bereits (pre_audio_00048.mp3)
+[SKIP] idx=48 id=00048 -> existiert bereits (question_00048.mp3)
+[SKIP] idx=49 id=00049 -> existiert bereits (pre_audio_00049.mp3)
+[SKIP] idx=49 id=00049 -> existiert bereits (question_00049.mp3)
+[SKIP] idx=50 id=00050 -> existiert bereits (pre_audio_00050.mp3)
+[SKIP] idx=50 id=00050 -> existiert bereits (question_00050.mp3)
+
+============================================================
+[2026-03-13 13:35:49] START elevenlabsv3.py (HaveIEver)
+Audio-Ordner: /home/aleranzer/quizshark/haveiever/media/audio
+Questions:     /home/aleranzer/quizshark/haveiever/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+
+============================================================
+[2026-03-13 13:37:03] START elevenlabsv3.py (HaveIEver)
+Audio-Ordner: /home/aleranzer/quizshark/haveiever/media/audio
+Questions:     /home/aleranzer/quizshark/haveiever/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[JSON] idx=1 id=00001 pre_audio gesetzt -> pre_audio_00001.mp3
+[GEN ] idx=1 id=00001 -> pre_audio_00001.mp3
+[OK  ] idx=1 id=00001 -> erzeugt (pre_audio_00001.mp3)
+[JSON] idx=1 id=00001 audio gesetzt -> question_00001.mp3
+[GEN ] idx=1 id=00001 -> question_00001.mp3
+[OK  ] idx=1 id=00001 -> erzeugt (question_00001.mp3)
+[SKIP] idx=2 id=00002 -> existiert bereits (pre_audio_00002.mp3)
+[SKIP] idx=2 id=00002 -> existiert bereits (question_00002.mp3)
+[SKIP] idx=3 id=00003 -> existiert bereits (pre_audio_00003.mp3)
+[SKIP] idx=3 id=00003 -> existiert bereits (question_00003.mp3)
+[JSON] idx=4 id=00004 pre_audio gesetzt -> pre_audio_00004.mp3
+[GEN ] idx=4 id=00004 -> pre_audio_00004.mp3
+[OK  ] idx=4 id=00004 -> erzeugt (pre_audio_00004.mp3)
+[JSON] idx=4 id=00004 audio gesetzt -> question_00004.mp3
+[GEN ] idx=4 id=00004 -> question_00004.mp3
+[OK  ] idx=4 id=00004 -> erzeugt (question_00004.mp3)
+[JSON] idx=5 id=00005 pre_audio gesetzt -> pre_audio_00005.mp3
+[GEN ] idx=5 id=00005 -> pre_audio_00005.mp3
+[OK  ] idx=5 id=00005 -> erzeugt (pre_audio_00005.mp3)
+[JSON] idx=5 id=00005 audio gesetzt -> question_00005.mp3
+[GEN ] idx=5 id=00005 -> question_00005.mp3
+[OK  ] idx=5 id=00005 -> erzeugt (question_00005.mp3)
+[SKIP] idx=6 id=00006 -> existiert bereits (pre_audio_00006.mp3)
+[SKIP] idx=6 id=00006 -> existiert bereits (question_00006.mp3)
+[JSON] idx=7 id=00007 pre_audio gesetzt -> pre_audio_00007.mp3
+[GEN ] idx=7 id=00007 -> pre_audio_00007.mp3
+[OK  ] idx=7 id=00007 -> erzeugt (pre_audio_00007.mp3)
+[JSON] idx=7 id=00007 audio gesetzt -> question_00007.mp3
+[GEN ] idx=7 id=00007 -> question_00007.mp3
+[OK  ] idx=7 id=00007 -> erzeugt (question_00007.mp3)
+[SKIP] idx=8 id=00008 -> existiert bereits (pre_audio_00008.mp3)
+[SKIP] idx=8 id=00008 -> existiert bereits (question_00008.mp3)
+[JSON] idx=9 id=00009 pre_audio gesetzt -> pre_audio_00009.mp3
+[GEN ] idx=9 id=00009 -> pre_audio_00009.mp3
+[OK  ] idx=9 id=00009 -> erzeugt (pre_audio_00009.mp3)
+[JSON] idx=9 id=00009 audio gesetzt -> question_00009.mp3
+[GEN ] idx=9 id=00009 -> question_00009.mp3
+[OK  ] idx=9 id=00009 -> erzeugt (question_00009.mp3)
+[JSON] idx=10 id=00010 pre_audio gesetzt -> pre_audio_00010.mp3
+[GEN ] idx=10 id=00010 -> pre_audio_00010.mp3
+[OK  ] idx=10 id=00010 -> erzeugt (pre_audio_00010.mp3)
+[JSON] idx=10 id=00010 audio gesetzt -> question_00010.mp3
+[GEN ] idx=10 id=00010 -> question_00010.mp3
+[OK  ] idx=10 id=00010 -> erzeugt (question_00010.mp3)
+[JSON] idx=11 id=00011 pre_audio gesetzt -> pre_audio_00011.mp3
+[GEN ] idx=11 id=00011 -> pre_audio_00011.mp3
+[OK  ] idx=11 id=00011 -> erzeugt (pre_audio_00011.mp3)
+[JSON] idx=11 id=00011 audio gesetzt -> question_00011.mp3
+[GEN ] idx=11 id=00011 -> question_00011.mp3
+[OK  ] idx=11 id=00011 -> erzeugt (question_00011.mp3)
+[SKIP] idx=12 id=00012 -> existiert bereits (pre_audio_00012.mp3)
+[SKIP] idx=12 id=00012 -> existiert bereits (question_00012.mp3)
+[SKIP] idx=13 id=00013 -> existiert bereits (pre_audio_00013.mp3)
+[SKIP] idx=13 id=00013 -> existiert bereits (question_00013.mp3)
+[SKIP] idx=14 id=00014 -> existiert bereits (pre_audio_00014.mp3)
+[SKIP] idx=14 id=00014 -> existiert bereits (question_00014.mp3)
+[JSON] idx=15 id=00015 pre_audio gesetzt -> pre_audio_00015.mp3
+[GEN ] idx=15 id=00015 -> pre_audio_00015.mp3
+[OK  ] idx=15 id=00015 -> erzeugt (pre_audio_00015.mp3)
+[JSON] idx=15 id=00015 audio gesetzt -> question_00015.mp3
+[GEN ] idx=15 id=00015 -> question_00015.mp3
+[OK  ] idx=15 id=00015 -> erzeugt (question_00015.mp3)
+[SKIP] idx=16 id=00016 -> existiert bereits (pre_audio_00016.mp3)
+[SKIP] idx=16 id=00016 -> existiert bereits (question_00016.mp3)
+[JSON] idx=17 id=00017 pre_audio gesetzt -> pre_audio_00017.mp3
+[GEN ] idx=17 id=00017 -> pre_audio_00017.mp3
+[OK  ] idx=17 id=00017 -> erzeugt (pre_audio_00017.mp3)
+[JSON] idx=17 id=00017 audio gesetzt -> question_00017.mp3
+[GEN ] idx=17 id=00017 -> question_00017.mp3
+[OK  ] idx=17 id=00017 -> erzeugt (question_00017.mp3)
+[SKIP] idx=18 id=00018 -> existiert bereits (pre_audio_00018.mp3)
+[SKIP] idx=18 id=00018 -> existiert bereits (question_00018.mp3)
+[JSON] idx=19 id=00019 pre_audio gesetzt -> pre_audio_00019.mp3
+[GEN ] idx=19 id=00019 -> pre_audio_00019.mp3
+[OK  ] idx=19 id=00019 -> erzeugt (pre_audio_00019.mp3)
+[JSON] idx=19 id=00019 audio gesetzt -> question_00019.mp3
+[GEN ] idx=19 id=00019 -> question_00019.mp3
+[OK  ] idx=19 id=00019 -> erzeugt (question_00019.mp3)
+[JSON] idx=20 id=00020 pre_audio gesetzt -> pre_audio_00020.mp3
+[GEN ] idx=20 id=00020 -> pre_audio_00020.mp3
+[OK  ] idx=20 id=00020 -> erzeugt (pre_audio_00020.mp3)
+[JSON] idx=20 id=00020 audio gesetzt -> question_00020.mp3
+[GEN ] idx=20 id=00020 -> question_00020.mp3
+[OK  ] idx=20 id=00020 -> erzeugt (question_00020.mp3)
+[JSON] idx=21 id=00021 pre_audio gesetzt -> pre_audio_00021.mp3
+[GEN ] idx=21 id=00021 -> pre_audio_00021.mp3
+[OK  ] idx=21 id=00021 -> erzeugt (pre_audio_00021.mp3)
+[JSON] idx=21 id=00021 audio gesetzt -> question_00021.mp3
+[GEN ] idx=21 id=00021 -> question_00021.mp3
+[OK  ] idx=21 id=00021 -> erzeugt (question_00021.mp3)
+[SKIP] idx=22 id=00022 -> existiert bereits (pre_audio_00022.mp3)
+[SKIP] idx=22 id=00022 -> existiert bereits (question_00022.mp3)
+[JSON] idx=23 id=00023 pre_audio gesetzt -> pre_audio_00023.mp3
+[GEN ] idx=23 id=00023 -> pre_audio_00023.mp3
+[OK  ] idx=23 id=00023 -> erzeugt (pre_audio_00023.mp3)
+[JSON] idx=23 id=00023 audio gesetzt -> question_00023.mp3
+[GEN ] idx=23 id=00023 -> question_00023.mp3
+[OK  ] idx=23 id=00023 -> erzeugt (question_00023.mp3)
+[JSON] idx=24 id=00024 pre_audio gesetzt -> pre_audio_00024.mp3
+[GEN ] idx=24 id=00024 -> pre_audio_00024.mp3
+[OK  ] idx=24 id=00024 -> erzeugt (pre_audio_00024.mp3)
+[JSON] idx=24 id=00024 audio gesetzt -> question_00024.mp3
+[GEN ] idx=24 id=00024 -> question_00024.mp3
+[OK  ] idx=24 id=00024 -> erzeugt (question_00024.mp3)
+[JSON] idx=25 id=00025 pre_audio gesetzt -> pre_audio_00025.mp3
+[GEN ] idx=25 id=00025 -> pre_audio_00025.mp3
+[OK  ] idx=25 id=00025 -> erzeugt (pre_audio_00025.mp3)
+[JSON] idx=25 id=00025 audio gesetzt -> question_00025.mp3
+[GEN ] idx=25 id=00025 -> question_00025.mp3
+[OK  ] idx=25 id=00025 -> erzeugt (question_00025.mp3)
+[JSON] idx=26 id=00026 pre_audio gesetzt -> pre_audio_00026.mp3
+[GEN ] idx=26 id=00026 -> pre_audio_00026.mp3
+[OK  ] idx=26 id=00026 -> erzeugt (pre_audio_00026.mp3)
+[JSON] idx=26 id=00026 audio gesetzt -> question_00026.mp3
+[GEN ] idx=26 id=00026 -> question_00026.mp3
+[OK  ] idx=26 id=00026 -> erzeugt (question_00026.mp3)
+[SKIP] idx=27 id=00027 -> existiert bereits (pre_audio_00027.mp3)
+[SKIP] idx=27 id=00027 -> existiert bereits (question_00027.mp3)
+[SKIP] idx=28 id=00028 -> existiert bereits (pre_audio_00028.mp3)
+[SKIP] idx=28 id=00028 -> existiert bereits (question_00028.mp3)
+[JSON] idx=29 id=00029 pre_audio gesetzt -> pre_audio_00029.mp3
+[GEN ] idx=29 id=00029 -> pre_audio_00029.mp3
+[OK  ] idx=29 id=00029 -> erzeugt (pre_audio_00029.mp3)
+[JSON] idx=29 id=00029 audio gesetzt -> question_00029.mp3
+[GEN ] idx=29 id=00029 -> question_00029.mp3
+[OK  ] idx=29 id=00029 -> erzeugt (question_00029.mp3)
+[SKIP] idx=30 id=00030 -> existiert bereits (pre_audio_00030.mp3)
+[SKIP] idx=30 id=00030 -> existiert bereits (question_00030.mp3)
+[SKIP] idx=31 id=00031 -> existiert bereits (pre_audio_00031.mp3)
+[SKIP] idx=31 id=00031 -> existiert bereits (question_00031.mp3)
+[SKIP] idx=32 id=00032 -> existiert bereits (pre_audio_00032.mp3)
+[SKIP] idx=32 id=00032 -> existiert bereits (question_00032.mp3)
+[SKIP] idx=33 id=00033 -> existiert bereits (pre_audio_00033.mp3)
+[SKIP] idx=33 id=00033 -> existiert bereits (question_00033.mp3)
+[SKIP] idx=34 id=00034 -> existiert bereits (pre_audio_00034.mp3)
+[SKIP] idx=34 id=00034 -> existiert bereits (question_00034.mp3)
+[JSON] idx=35 id=00035 pre_audio gesetzt -> pre_audio_00035.mp3
+[GEN ] idx=35 id=00035 -> pre_audio_00035.mp3
+[OK  ] idx=35 id=00035 -> erzeugt (pre_audio_00035.mp3)
+[JSON] idx=35 id=00035 audio gesetzt -> question_00035.mp3
+[GEN ] idx=35 id=00035 -> question_00035.mp3
+[OK  ] idx=35 id=00035 -> erzeugt (question_00035.mp3)
+[JSON] idx=36 id=00036 pre_audio gesetzt -> pre_audio_00036.mp3
+[GEN ] idx=36 id=00036 -> pre_audio_00036.mp3
+[OK  ] idx=36 id=00036 -> erzeugt (pre_audio_00036.mp3)
+[JSON] idx=36 id=00036 audio gesetzt -> question_00036.mp3
+[GEN ] idx=36 id=00036 -> question_00036.mp3
+[OK  ] idx=36 id=00036 -> erzeugt (question_00036.mp3)
+[JSON] idx=37 id=00037 pre_audio gesetzt -> pre_audio_00037.mp3
+[GEN ] idx=37 id=00037 -> pre_audio_00037.mp3
+[OK  ] idx=37 id=00037 -> erzeugt (pre_audio_00037.mp3)
+[JSON] idx=37 id=00037 audio gesetzt -> question_00037.mp3
+[GEN ] idx=37 id=00037 -> question_00037.mp3
+[OK  ] idx=37 id=00037 -> erzeugt (question_00037.mp3)
+[JSON] idx=38 id=00038 pre_audio gesetzt -> pre_audio_00038.mp3
+[GEN ] idx=38 id=00038 -> pre_audio_00038.mp3
+[OK  ] idx=38 id=00038 -> erzeugt (pre_audio_00038.mp3)
+[JSON] idx=38 id=00038 audio gesetzt -> question_00038.mp3
+[GEN ] idx=38 id=00038 -> question_00038.mp3
+[OK  ] idx=38 id=00038 -> erzeugt (question_00038.mp3)
+[JSON] idx=39 id=00039 pre_audio gesetzt -> pre_audio_00039.mp3
+[GEN ] idx=39 id=00039 -> pre_audio_00039.mp3
+[OK  ] idx=39 id=00039 -> erzeugt (pre_audio_00039.mp3)
+[JSON] idx=39 id=00039 audio gesetzt -> question_00039.mp3
+[GEN ] idx=39 id=00039 -> question_00039.mp3
+[OK  ] idx=39 id=00039 -> erzeugt (question_00039.mp3)
+[SKIP] idx=40 id=00040 -> existiert bereits (pre_audio_00040.mp3)
+[SKIP] idx=40 id=00040 -> existiert bereits (question_00040.mp3)
+[SKIP] idx=41 id=00041 -> existiert bereits (pre_audio_00041.mp3)
+[SKIP] idx=41 id=00041 -> existiert bereits (question_00041.mp3)
+[JSON] idx=42 id=00042 pre_audio gesetzt -> pre_audio_00042.mp3
+[GEN ] idx=42 id=00042 -> pre_audio_00042.mp3
+[OK  ] idx=42 id=00042 -> erzeugt (pre_audio_00042.mp3)
+[JSON] idx=42 id=00042 audio gesetzt -> question_00042.mp3
+[GEN ] idx=42 id=00042 -> question_00042.mp3
+[OK  ] idx=42 id=00042 -> erzeugt (question_00042.mp3)
+[SKIP] idx=43 id=00043 -> existiert bereits (pre_audio_00043.mp3)
+[SKIP] idx=43 id=00043 -> existiert bereits (question_00043.mp3)
+[JSON] idx=44 id=00044 pre_audio gesetzt -> pre_audio_00044.mp3
+[GEN ] idx=44 id=00044 -> pre_audio_00044.mp3
+[OK  ] idx=44 id=00044 -> erzeugt (pre_audio_00044.mp3)
+[JSON] idx=44 id=00044 audio gesetzt -> question_00044.mp3
+[GEN ] idx=44 id=00044 -> question_00044.mp3
+[OK  ] idx=44 id=00044 -> erzeugt (question_00044.mp3)
+[SKIP] idx=45 id=00045 -> existiert bereits (pre_audio_00045.mp3)
+[SKIP] idx=45 id=00045 -> existiert bereits (question_00045.mp3)
+[SKIP] idx=46 id=00046 -> existiert bereits (pre_audio_00046.mp3)
+[SKIP] idx=46 id=00046 -> existiert bereits (question_00046.mp3)
+[JSON] idx=47 id=00047 pre_audio gesetzt -> pre_audio_00047.mp3
+[GEN ] idx=47 id=00047 -> pre_audio_00047.mp3
+[OK  ] idx=47 id=00047 -> erzeugt (pre_audio_00047.mp3)
+[JSON] idx=47 id=00047 audio gesetzt -> question_00047.mp3
+[GEN ] idx=47 id=00047 -> question_00047.mp3
+[OK  ] idx=47 id=00047 -> erzeugt (question_00047.mp3)
+[SKIP] idx=48 id=00048 -> existiert bereits (pre_audio_00048.mp3)
+[SKIP] idx=48 id=00048 -> existiert bereits (question_00048.mp3)
+[SKIP] idx=49 id=00049 -> existiert bereits (pre_audio_00049.mp3)
+[SKIP] idx=49 id=00049 -> existiert bereits (question_00049.mp3)
+[SKIP] idx=50 id=00050 -> existiert bereits (pre_audio_00050.mp3)
+[SKIP] idx=50 id=00050 -> existiert bereits (question_00050.mp3)
+[JSON] idx=51 id=00051 pre_audio gesetzt -> pre_audio_00051.mp3
+[GEN ] idx=51 id=00051 -> pre_audio_00051.mp3
+[OK  ] idx=51 id=00051 -> erzeugt (pre_audio_00051.mp3)
+[JSON] idx=51 id=00051 audio gesetzt -> question_00051.mp3
+[GEN ] idx=51 id=00051 -> question_00051.mp3
+[OK  ] idx=51 id=00051 -> erzeugt (question_00051.mp3)
+[JSON] idx=52 id=00052 pre_audio gesetzt -> pre_audio_00052.mp3
+[GEN ] idx=52 id=00052 -> pre_audio_00052.mp3
+[OK  ] idx=52 id=00052 -> erzeugt (pre_audio_00052.mp3)
+[JSON] idx=52 id=00052 audio gesetzt -> question_00052.mp3
+[GEN ] idx=52 id=00052 -> question_00052.mp3
+[OK  ] idx=52 id=00052 -> erzeugt (question_00052.mp3)
+[JSON] idx=53 id=00053 pre_audio gesetzt -> pre_audio_00053.mp3
+[GEN ] idx=53 id=00053 -> pre_audio_00053.mp3
+[OK  ] idx=53 id=00053 -> erzeugt (pre_audio_00053.mp3)
+[JSON] idx=53 id=00053 audio gesetzt -> question_00053.mp3
+[GEN ] idx=53 id=00053 -> question_00053.mp3
+[OK  ] idx=53 id=00053 -> erzeugt (question_00053.mp3)
+[SKIP] idx=54 id=00054 -> existiert bereits (pre_audio_00054.mp3)
+[SKIP] idx=54 id=00054 -> existiert bereits (question_00054.mp3)
+[SKIP] idx=55 id=00055 -> existiert bereits (pre_audio_00055.mp3)
+[SKIP] idx=55 id=00055 -> existiert bereits (question_00055.mp3)
+[SKIP] idx=56 id=00056 -> existiert bereits (pre_audio_00056.mp3)
+[SKIP] idx=56 id=00056 -> existiert bereits (question_00056.mp3)
+[SKIP] idx=57 id=00057 -> existiert bereits (pre_audio_00057.mp3)
+[SKIP] idx=57 id=00057 -> existiert bereits (question_00057.mp3)
+[JSON] idx=58 id=00058 pre_audio gesetzt -> pre_audio_00058.mp3
+[GEN ] idx=58 id=00058 -> pre_audio_00058.mp3
+[OK  ] idx=58 id=00058 -> erzeugt (pre_audio_00058.mp3)
+[JSON] idx=58 id=00058 audio gesetzt -> question_00058.mp3
+[GEN ] idx=58 id=00058 -> question_00058.mp3
+[OK  ] idx=58 id=00058 -> erzeugt (question_00058.mp3)
+[SKIP] idx=59 id=00059 -> existiert bereits (pre_audio_00059.mp3)
+[SKIP] idx=59 id=00059 -> existiert bereits (question_00059.mp3)
+[JSON] idx=60 id=00060 pre_audio gesetzt -> pre_audio_00060.mp3
+[GEN ] idx=60 id=00060 -> pre_audio_00060.mp3
+[OK  ] idx=60 id=00060 -> erzeugt (pre_audio_00060.mp3)
+[JSON] idx=60 id=00060 audio gesetzt -> question_00060.mp3
+[GEN ] idx=60 id=00060 -> question_00060.mp3
+[OK  ] idx=60 id=00060 -> erzeugt (question_00060.mp3)
+[SKIP] idx=61 id=00061 -> existiert bereits (pre_audio_00061.mp3)
+[SKIP] idx=61 id=00061 -> existiert bereits (question_00061.mp3)
+[SKIP] idx=62 id=00062 -> existiert bereits (pre_audio_00062.mp3)
+[SKIP] idx=62 id=00062 -> existiert bereits (question_00062.mp3)
+[SKIP] idx=63 id=00063 -> existiert bereits (pre_audio_00063.mp3)
+[SKIP] idx=63 id=00063 -> existiert bereits (question_00063.mp3)
+[SKIP] idx=64 id=00064 -> existiert bereits (pre_audio_00064.mp3)
+[SKIP] idx=64 id=00064 -> existiert bereits (question_00064.mp3)
+[SKIP] idx=65 id=00065 -> existiert bereits (pre_audio_00065.mp3)
+[SKIP] idx=65 id=00065 -> existiert bereits (question_00065.mp3)
+[SKIP] idx=66 id=00066 -> existiert bereits (pre_audio_00066.mp3)
+[SKIP] idx=66 id=00066 -> existiert bereits (question_00066.mp3)
+[SKIP] idx=67 id=00067 -> existiert bereits (pre_audio_00067.mp3)
+[SKIP] idx=67 id=00067 -> existiert bereits (question_00067.mp3)
+[JSON] idx=68 id=00068 pre_audio gesetzt -> pre_audio_00068.mp3
+[GEN ] idx=68 id=00068 -> pre_audio_00068.mp3
+[OK  ] idx=68 id=00068 -> erzeugt (pre_audio_00068.mp3)
+[JSON] idx=68 id=00068 audio gesetzt -> question_00068.mp3
+[GEN ] idx=68 id=00068 -> question_00068.mp3
+[OK  ] idx=68 id=00068 -> erzeugt (question_00068.mp3)
+[JSON] idx=69 id=00069 pre_audio gesetzt -> pre_audio_00069.mp3
+[GEN ] idx=69 id=00069 -> pre_audio_00069.mp3
+[OK  ] idx=69 id=00069 -> erzeugt (pre_audio_00069.mp3)
+[JSON] idx=69 id=00069 audio gesetzt -> question_00069.mp3
+[GEN ] idx=69 id=00069 -> question_00069.mp3
+[OK  ] idx=69 id=00069 -> erzeugt (question_00069.mp3)
+[SKIP] idx=70 id=00070 -> existiert bereits (pre_audio_00070.mp3)
+[SKIP] idx=70 id=00070 -> existiert bereits (question_00070.mp3)
+[SKIP] idx=71 id=00071 -> existiert bereits (pre_audio_00071.mp3)
+[SKIP] idx=71 id=00071 -> existiert bereits (question_00071.mp3)
+[JSON] idx=72 id=00072 pre_audio gesetzt -> pre_audio_00072.mp3
+[GEN ] idx=72 id=00072 -> pre_audio_00072.mp3
+[OK  ] idx=72 id=00072 -> erzeugt (pre_audio_00072.mp3)
+[JSON] idx=72 id=00072 audio gesetzt -> question_00072.mp3
+[GEN ] idx=72 id=00072 -> question_00072.mp3
+[OK  ] idx=72 id=00072 -> erzeugt (question_00072.mp3)
+[JSON] idx=73 id=00073 pre_audio gesetzt -> pre_audio_00073.mp3
+[GEN ] idx=73 id=00073 -> pre_audio_00073.mp3
+[OK  ] idx=73 id=00073 -> erzeugt (pre_audio_00073.mp3)
+[JSON] idx=73 id=00073 audio gesetzt -> question_00073.mp3
+[GEN ] idx=73 id=00073 -> question_00073.mp3
+[OK  ] idx=73 id=00073 -> erzeugt (question_00073.mp3)
+[SKIP] idx=74 id=00074 -> existiert bereits (pre_audio_00074.mp3)
+[SKIP] idx=74 id=00074 -> existiert bereits (question_00074.mp3)
+[JSON] idx=75 id=00075 pre_audio gesetzt -> pre_audio_00075.mp3
+[GEN ] idx=75 id=00075 -> pre_audio_00075.mp3
+[OK  ] idx=75 id=00075 -> erzeugt (pre_audio_00075.mp3)
+[JSON] idx=75 id=00075 audio gesetzt -> question_00075.mp3
+[GEN ] idx=75 id=00075 -> question_00075.mp3
+[OK  ] idx=75 id=00075 -> erzeugt (question_00075.mp3)
+[JSON] idx=76 id=00076 pre_audio gesetzt -> pre_audio_00076.mp3
+[GEN ] idx=76 id=00076 -> pre_audio_00076.mp3
+[OK  ] idx=76 id=00076 -> erzeugt (pre_audio_00076.mp3)
+[JSON] idx=76 id=00076 audio gesetzt -> question_00076.mp3
+[GEN ] idx=76 id=00076 -> question_00076.mp3
+[OK  ] idx=76 id=00076 -> erzeugt (question_00076.mp3)
+[SKIP] idx=77 id=00077 -> existiert bereits (pre_audio_00077.mp3)
+[SKIP] idx=77 id=00077 -> existiert bereits (question_00077.mp3)
+[SKIP] idx=78 id=00078 -> existiert bereits (pre_audio_00078.mp3)
+[SKIP] idx=78 id=00078 -> existiert bereits (question_00078.mp3)
+[JSON] idx=79 id=00079 pre_audio gesetzt -> pre_audio_00079.mp3
+[GEN ] idx=79 id=00079 -> pre_audio_00079.mp3
+[OK  ] idx=79 id=00079 -> erzeugt (pre_audio_00079.mp3)
+[JSON] idx=79 id=00079 audio gesetzt -> question_00079.mp3
+[GEN ] idx=79 id=00079 -> question_00079.mp3
+[OK  ] idx=79 id=00079 -> erzeugt (question_00079.mp3)
+[JSON] idx=80 id=00080 pre_audio gesetzt -> pre_audio_00080.mp3
+[GEN ] idx=80 id=00080 -> pre_audio_00080.mp3
+[OK  ] idx=80 id=00080 -> erzeugt (pre_audio_00080.mp3)
+[JSON] idx=80 id=00080 audio gesetzt -> question_00080.mp3
+[GEN ] idx=80 id=00080 -> question_00080.mp3
+[OK  ] idx=80 id=00080 -> erzeugt (question_00080.mp3)
+[JSON] idx=81 id=00081 pre_audio gesetzt -> pre_audio_00081.mp3
+[GEN ] idx=81 id=00081 -> pre_audio_00081.mp3
+[OK  ] idx=81 id=00081 -> erzeugt (pre_audio_00081.mp3)
+[JSON] idx=81 id=00081 audio gesetzt -> question_00081.mp3
+[GEN ] idx=81 id=00081 -> question_00081.mp3
+[OK  ] idx=81 id=00081 -> erzeugt (question_00081.mp3)
+[SKIP] idx=82 id=00082 -> existiert bereits (pre_audio_00082.mp3)
+[SKIP] idx=82 id=00082 -> existiert bereits (question_00082.mp3)
+[SKIP] idx=83 id=00083 -> existiert bereits (pre_audio_00083.mp3)
+[SKIP] idx=83 id=00083 -> existiert bereits (question_00083.mp3)
+[SKIP] idx=84 id=00084 -> existiert bereits (pre_audio_00084.mp3)
+[SKIP] idx=84 id=00084 -> existiert bereits (question_00084.mp3)
+[SKIP] idx=85 id=00085 -> existiert bereits (pre_audio_00085.mp3)
+[SKIP] idx=85 id=00085 -> existiert bereits (question_00085.mp3)
+[SKIP] idx=86 id=00086 -> existiert bereits (pre_audio_00086.mp3)
+[SKIP] idx=86 id=00086 -> existiert bereits (question_00086.mp3)
+[SKIP] idx=87 id=00087 -> existiert bereits (pre_audio_00087.mp3)
+[SKIP] idx=87 id=00087 -> existiert bereits (question_00087.mp3)
+[SKIP] idx=88 id=00088 -> existiert bereits (pre_audio_00088.mp3)
+[SKIP] idx=88 id=00088 -> existiert bereits (question_00088.mp3)
+[SKIP] idx=89 id=00089 -> existiert bereits (pre_audio_00089.mp3)
+[SKIP] idx=89 id=00089 -> existiert bereits (question_00089.mp3)
+------------------------------------------------------------
+[2026-03-13 13:41:07] ENDE
+produziert:   78
+übersprungen: 100
+fehler:       0
+json-updates: 78
+mp3 im Ordner:178
+============================================================

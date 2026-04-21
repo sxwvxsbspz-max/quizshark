@@ -1,0 +1,60 @@
+Abkürzungen -> category.abkuerzungen.mp3
+Anatomie -> category.anatomie.mp3
+Antike Mythologie -> category.antikemythologie.mp3
+Archäologie -> category.archaeologie.mp3
+Astronomie -> category.astronomie.mp3
+Automobile -> category.automobile.mp3
+Berühmte Bauwerke -> category.bauwerke.mp3
+Berühmte Entdecker -> category.entdecker.mp3
+Berühmte Museen der Welt -> category.museen.mp3
+Berühmte Zitate -> category.zitate.mp3
+Biere der Welt -> category.bier.mp3
+Biologie -> category.biologie.mp3
+Botanik -> category.botanik.mp3
+Brettspiele -> category.brettspiele.mp3
+Börse, Aktien und Weltwirtschaft -> category.boerse.mp3
+Chemie -> category.chemie.mp3
+Comics, Manga und Animation -> category.comics.mp3
+Computer -> category.computer.mp3
+Das Mittelalter -> category.dasmittelalter.mp3
+Deutsche Grammatik -> category.deutschegrammatik.mp3
+Deutsche Literatur -> category.literatur.mp3
+Deutsche Prominenz -> category.promis.mp3
+Deutsches Trash-TV -> category.trashtv.mp3
+Essen und Trinken -> category.essen.mp3
+Formel 1 und Motorsport-Legenden -> category.motorsport.mp3
+Fotografie -> category.fotografie.mp3
+Fußball: Welt- und Europameisterschaften -> category.fussball.mp3
+Gewässer -> category.gewaesser.mp3
+Hauptstädte -> category.hauptstaedte.mp3
+Internationale Politik -> category.politik.mp3
+Internationaler Adel und Königshäuser -> category.adel.mp3
+Journalismus -> category.journalismus.mp3
+Klassische Musik -> category.klassik.mp3
+Klassische Philosophie -> category.klassischephilosophie.mp3
+Kochkunst -> category.kochen.mp3
+Kunstgeschichte -> category.kunstgeschichte.mp3
+Mathematik -> category.mathematik.mp3
+Medizinische Meilensteine -> category.medizin.mp3
+Meteorologie -> category.meteorologie.mp3
+Mobile Games -> category.mobilegames.mp3
+Mode und Design -> category.modedesign.mp3
+Moderne Kunst -> category.moderne_kunst.mp3
+Modernes Blockbuster-Kino -> category.kino.mp3
+Physik -> category.physik.mp3
+Politische Geografie -> category.politische_geografie.mp3
+Science-Fiction-Filme -> category.scifi.mp3
+Smartphone-Apps -> category.apps.mp3
+Tech-Pioniere und Silicon Valley -> category.tech.mp3
+Tennis -> category.tennis.mp3
+Theater -> category.theater.mp3
+Tierwelt -> category.tierwelt.mp3
+US-Sport -> category.ussport.mp3
+Weine und Spirituosen -> category.wein.mp3
+Weltliteratur -> category.weltliteratur.mp3
+Weltreligionen -> category.weltreligionen.mp3
+Wintersport -> category.wintersport.mp3
+Wirtschaft -> category.wirtschaft.mp3
+Wunder der Welt -> category.weltwunder.mp3
+Zeitgeschichte -> category.zeitgeschichte.mp3
+Ökologie -> category.oekologie.mp3

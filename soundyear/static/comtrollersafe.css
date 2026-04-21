@@ -1,0 +1,585 @@
+/* --- FILE: ./soundyear/static/controller.css --- */
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("../../static/fonts/OpenDyslexic-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Global Reset */
+.ps-controller, .ps-controller * { box-sizing: border-box; }
+
+/* FIX für Formular-Elemente: Erzwingt Vererbung der Font */
+button {
+  font-family: inherit;
+}
+
+:root{
+  --bg: #00167a;
+  --white20: rgba(255,255,255,0.20);
+
+
+  /* Farben für Feedback (identisch mit Fragenbox) */
+  --correctGreen: rgb(46,204,113);
+  --wrongRed: rgb(231,76,60);
+
+  /* Timer-Bar */
+  --barBg: rgba(255,255,255,0.18);
+  --barFill: rgba(255,255,255,0.92);
+}
+
+/* =========================================================
+   ROOT / SCREENS
+   ========================================================= */
+
+.ps-controller{
+  width:100vw;
+  height:100vh;
+  /* HINTERGRUND-BILD HIER EINGEFÜGT */
+  background: var(--bg) url("/soundyear/media/controllerbackground.svg") no-repeat center center;
+  background-size: cover;
+  color:#fff;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 500; /* Standard für alles */
+}
+
+.screen{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: transparent; /* TRANSPARENT GEMACHT */
+}
+
+.ps-controller__video{
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+  display:block;
+}
+
+/* Round Screen */
+.screen--round{
+  background-image: url("/soundyear/media/controllerquestionbackground.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.round-label{
+  /* Layout */
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  /* Typo – wie PunkteRegen */
+  font-family: "OpenDyslexic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: clamp(66px, 10vw, 110px);
+  line-height: 1.1;
+  letter-spacing: -0.1em;
+
+  color:#fff;
+  text-transform: none;
+
+  text-shadow: none;
+}
+
+
+.round-label::before{
+  content: "";
+  display: block;
+  width: min(50vw, 900px);
+  max-height: 40vh;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 40px;
+  background: url("/soundyear/media/question.svg") no-repeat center center;
+  background-size: contain;
+  opacity: 0.95;
+  filter: none;
+}
+
+
+
+/* QA Screen */
+.screen--qa{
+  background: transparent; /* TRANSPARENT GEMACHT */
+  align-items: stretch;
+}
+
+.qa-inner{
+  width:100%;
+  height:100%;
+  padding: 18px 16px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap: 12px;
+}
+
+/* =========================================================
+   META-BOX (500)
+   ========================================================= */
+
+.psc__metaBox{
+  width:min(600px, 96vw);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.16);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.35);
+  padding: 12px 16px;
+}
+
+.psc__playerMeta{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  gap: 14px;
+}
+
+
+.psc__metaRow{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap: 14px;
+}
+
+.psc__metaValue{
+  flex: 0 0 auto;
+
+  display:flex;
+  align-items:baseline;
+  justify-content:flex-end;
+  gap: 10px;
+
+  text-align:right;
+  white-space: nowrap;
+
+  font-size: 1.75rem;
+  font-weight: 500;
+
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+
+
+  color: rgba(255,255,255,0.95);
+
+}
+
+
+.psc__scorePopInline{
+  color: rgb(46,204,113);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-shadow: 0 0 14px rgba(46,204,113,0.55);
+}
+
+/* =========================================================
+   NAME IN META-BOX (shrink + ellipsis)
+   ========================================================= */
+
+.psc__metaName{
+  flex: 1 1 auto;
+  min-width: 0;
+
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 0; /* WICHTIG: gleich wie Score */
+  color: rgba(255,255,255,0.95);
+
+  font-size: 1.75rem;
+
+  line-height: 1.1;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+/* =========================================================
+   FRAGE (700) + TIMER
+   ========================================================= */
+
+.psc__questionBlock{
+  width:min(600px, 96vw);
+  display:flex;
+  flex-direction:column;
+  gap: 8px;
+  align-items:stretch;
+}
+
+.question{
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.14);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+  text-align:center;
+  font-family: "Nunito", sans-serif; /* Explizit gesetzt */
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.16;
+  color: rgba(255,255,255,0.95);
+  transition: background 180ms ease, box-shadow 180ms ease;
+}
+
+/* Distance-Heatmap (0..4 und >4) */
+.question.is-d0{ background: rgb(46,204,113); }      /* 0 */
+.question.is-d1{ background: rgb(120,220,120); }     /* 1 */
+.question.is-d2{ background: rgb(241,196,15); }      /* 2 */
+.question.is-d3{ background: rgb(230,126,34); }      /* 3 */
+.question.is-d4{ background: rgb(211,84,0); }        /* 4 */
+.question.is-d5{ background: rgb(231,76,60); }       /* >4 */
+
+
+.psc__timebar{
+  width: min(600px, 96vw);
+  height: 10px;
+  border-radius: 999px;
+  background: var(--barBg);
+  overflow:hidden;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+}
+
+.psc__timebarFill{
+  height: 100%;
+  width: var(--p, 0%);
+  background: var(--barFill);
+  border-radius: 999px;
+  transition: width 90ms linear;
+}
+
+/* =========================================================
+   BILD-SLOT
+   ========================================================= */
+
+.question-image-wrap{
+  width:min(600px, 96vw);
+  height: clamp(180px, 26vh, 340px);
+  border-radius: 18px;
+  overflow:hidden;
+  background: rgba(255,255,255,0.10);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+}
+
+.question-image{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+  opacity:0.95;
+}
+
+.question-image-wrap.is-hidden{
+  display:none !important;
+}
+
+
+
+/* =========================================================
+   TITLE SCREEN (900)
+   ========================================================= */
+
+.sr-title-wordmark{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  max-height:75vh;
+  width: min(90vw, 900px);
+  overflow: visible; /* <- NICHT abschneiden */
+}
+
+
+
+.sr-title-speedy,
+.sr-title-brain{
+  font-family: "OpenDyslexic", Arial, sans-serif;
+  font-weight: 400;
+  color:#fff;
+  text-shadow: none;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+
+.kern-p,
+.kern-r{
+  display: inline-block;
+  margin-right: -0.12em;
+}
+
+
+.sr-title-speedy{
+  margin-top: 12px;  
+  font-size: clamp(66px, 10vw, 110px);
+  letter-spacing: -0.1em;
+  transform: translateX(-20px);
+}
+
+.sr-title-brain{
+  margin-top: -2px;
+  font-size: clamp(66px, 10vw, 110px);
+  letter-spacing: -0.1em;
+  transform: translateX(20px);
+}
+
+
+
+.sr-title-logo{
+  width: min(50vw, 900px);
+  height: auto;
+  max-height: 40vh;
+  object-fit: contain;
+  margin-bottom: 18px;
+  display: block;
+  filter: none;
+}
+
+/* =========================
+   Year Wheel (Custom)
+   ========================= */
+
+.syc__form{
+  width: min(600px, 96vw);
+  margin-top: 8px;
+}
+
+.syc__inputWrap{
+  display:flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.syc__wheel{
+  flex: 1 1 auto;
+  min-width: 0;
+
+  height: 280px;                 /* 7 sichtbare Zeilen à 40px */
+  border-radius: 18px;
+
+  background: rgba(255,255,255,0.14);
+  border: 2px solid rgba(255,255,255,0.35);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+
+  position: relative;
+  position: relative;
+  overflow: hidden;   /* WICHTIG: Parent scrollt nicht mehr */
+
+  scroll-behavior: smooth;
+
+  /* fühlt sich auf Mobile sauber an */
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+
+  /* Flow: leichte “Tiefe” */
+  backdrop-filter: blur(0px);
+}
+
+.syc__wheelScroll{
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+
+.syc__wheel.is-locked{
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.syc__wheelList{
+  padding: 0;
+  margin: 0;
+}
+
+
+.syc__wheelItem{
+  height: 40px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+
+  color: rgba(255,255,255,0.95);
+
+  user-select: none;
+  will-change: transform, opacity;
+  transition: transform 120ms ease, opacity 120ms ease;
+}
+
+.syc__wheelWindow{
+  position:absolute;
+  left: 10px;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  height: 44px;
+  border-radius: 14px;
+
+  border: 2px solid rgba(255,255,255,0.60);
+  background: rgba(255,255,255,0.08);
+
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+  pointer-events:none;
+}
+
+/* Zwei Dreiecke, die auf die Mitte zeigen */
+.syc__wheelWindow::before,
+.syc__wheelWindow::after{
+  content:"";
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  opacity: 0.95;
+}
+
+/* links -> zeigt nach rechts */
+.syc__wheelWindow::before{
+  left: -10px;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-right: 12px solid rgba(255,255,255,0.85);
+}
+
+/* rechts -> zeigt nach links */
+.syc__wheelWindow::after{
+  right: -10px;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 12px solid rgba(255,255,255,0.85);
+}
+
+/* Selected Item wird deutlich größer / klarer */
+.syc__wheelItem.is-selected{
+  opacity: 1 !important;
+  transform: scale(1.25) !important;
+  text-shadow: 0 0 18px rgba(255,255,255,0.25);
+}
+
+/* Ghost Items (die '-' anzeigen) sollen nicht “wie echte Jahre” wirken */
+.syc__wheelItem.is-ghost{
+  opacity: 0.35 !important;
+  transform: scale(0.90) !important;
+  font-weight: 700;
+}
+
+
+.syc__wheelFade{
+  position:absolute;
+  left:0; right:0;
+  height: 26px;
+  pointer-events:none;
+  z-index: 2;
+}
+
+.syc__wheelFade--top{
+  top:0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0.00)
+  );
+}
+
+
+.syc__wheelFade--bottom{
+  bottom:0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0.00)
+  );
+}
+
+
+
+.syc__submit{
+  flex: 0 0 auto;
+
+  /* doppelt so breit */
+  min-width: 160px;
+  padding: 16px 22px;
+
+  border-radius: 18px;
+
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1.18rem;
+  font-weight: 900;
+
+  color: rgba(255,255,255,0.95);
+
+  /* weniger transparent (deutlich “satter”) */
+  background: rgba(255,255,255,0.32);
+
+  border: 2px solid rgba(255,255,255,0.45);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+
+.syc__wheel.is-locked,
+.syc__submit.is-locked{
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+
+.syc__hint{
+  margin-top: 8px;
+  text-align: center;
+  font-size: 1.05rem;
+  opacity: 0.85;
+}
+
+.is-hidden{
+  display:none !important;
+}

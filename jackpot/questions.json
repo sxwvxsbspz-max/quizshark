@@ -1,0 +1,47 @@
+[
+    {
+        "id": 8,
+        "category": "Other",
+        "question": "Welches Bauwerk ist auf der Rückseite des 50-Euro-Scheins abgebildet?",
+        "correct": "Brücke im Renaissance-Stil",
+        "wrong": [
+            "Eiffelturm",
+            "Kolosseum",
+            "Brandenburger Tor"
+        ],
+        "image": "image_003.png",
+        "lastplayed": "2026-02-07T14:57:42Z",
+        "categoryaudio": "category.geschichte.mp3",
+        "audio": "questionexample.mp3"
+    },
+    {
+        "id": 9,
+        "category": "Other",
+        "question": "Wie heißt der höchste Berg der Erde?",
+        "correct": "Mount Everest",
+        "wrong": [
+            "K2",
+            "Kilimandscharo",
+            "Mont Blanc"
+        ],
+        "image": "image_003.png",
+        "lastplayed": "2026-02-07T15:10:44Z",
+        "categoryaudio": "category.geschichte.mp3",
+        "audio": "questionexample.mp3"
+    },
+    {
+        "id": 1,
+        "category": "Other",
+        "question": "Welches Gas macht den Hauptteil unserer Atemluft aus?",
+        "correct": "Stickstoff",
+        "wrong": [
+            "Sauerstoff",
+            "CO2",
+            "Edelgas"
+        ],
+        "image": "image_003.png",
+        "lastplayed": "2026-02-07T15:12:26Z",
+        "categoryaudio": "category.geschichte.mp3",
+        "audio": "questionexample.mp3"
+    }
+]

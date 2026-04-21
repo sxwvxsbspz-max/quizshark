@@ -1,0 +1,72 @@
+<!-- --- FILE: ./pre_lobby/controller.html --- -->
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="ps pre-lobby pre-lobby--controller">
+
+  <!-- BACKGROUND SVG (wie Lobby-Controller, aber unabhängig) -->
+  <div class="prelobby-bg" aria-hidden="true">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      width="100%" height="100%"
+      viewBox="0 0 1600 900"
+      preserveAspectRatio="xMidYMax slice">
+      <defs>
+        <linearGradient id="prelobby-bg-grad">
+          <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+          <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+          <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+        </linearGradient>
+
+        <path id="prelobby-wave" fill="url(#prelobby-bg-grad)"
+          d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+          s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859
+          s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+      </defs>
+
+      <g>
+        <use xlink:href="#prelobby-wave" opacity=".3">
+          <animateTransform attributeName="transform" type="translate"
+            dur="10s" values="270 230; -334 180; 270 230"
+            keyTimes="0; .5; 1" repeatCount="indefinite" />
+        </use>
+        <use xlink:href="#prelobby-wave" opacity=".6">
+          <animateTransform attributeName="transform" type="translate"
+            dur="8s" values="-270 230;243 220;-270 230"
+            keyTimes="0; .6; 1" repeatCount="indefinite" />
+        </use>
+        <use xlink:href="#prelobby-wave" opacity=".9">
+          <animateTransform attributeName="transform" type="translate"
+            dur="6s" values="0 230;-140 200;0 230"
+            keyTimes="0; .4; 1" repeatCount="indefinite" />
+        </use>
+      </g>
+    </svg>
+  </div>
+
+  <div class="ps__wrap pre-lobby__wrap pre-lobby__wrap--controller">
+
+    <div class="prelobby-controller-shell">
+
+      <img
+        class="prelobby-logo prelobby-logo--controller"
+        src="/pre_lobby/media/quizshark.png"
+        alt="QuizShark"
+      />
+
+      <!-- DIE CARD IST DIE INFOBOX (keine Box-in-Box mehr) -->
+      <div class="prelobby-controller-card" id="prelobby-controller-infobox" aria-live="polite">
+        <div id="prelobby-controller-infobox-a" class="prelobby-infobox__layer is-active"></div>
+        <div id="prelobby-controller-infobox-b" class="prelobby-infobox__layer"></div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/pre_lobby/static/controller.css">
+<script src="/pre_lobby/static/controller.js"></script>
+{% endblock %}

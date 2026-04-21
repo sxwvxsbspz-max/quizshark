@@ -1,0 +1,82 @@
+<!-- --- FILE: ./oddoneout/tv.html --- -->
+{% extends "templates/base.html" %}
+
+{% block content %}
+
+<div class="ps">
+
+  <!-- FULLSCREEN Video Layer -->
+  <div id="video-layer" class="ps__videoLayer">
+    <video id="phase-video" autoplay class="ps__video">
+      <source src="/oddoneout/media/intro.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- Game Layer -->
+  <div id="game-layer" class="ps__gameLayer" style="display:none;">
+
+    <div class="ps__wrap">
+
+      <!-- LEFT: Big Panel -->
+      <div class="ps__panel">
+        <div class="ps__panelInner">
+
+          <!-- Top Row: Question + Timer -->
+          <div class="ps__topRow">
+            <div class="ps__questionWrap">
+              <div id="question-text" class="ps__question">Lädt Frage...</div>
+            </div>
+
+            <!-- Timer (NEU: soft hidden statt display:none) -->
+            <div class="ps__timer is-invisible" aria-hidden="true"></div>
+          </div>
+
+          <!-- FIXED IMAGE SLOT -->
+          <div id="question-image-wrap" class="ps__questionImageWrap is-hidden" aria-hidden="true">
+            <img
+              id="question-image"
+              class="ps__questionImg"
+              src="/oddoneout/media/dummy.svg"
+              alt=""
+            >
+          </div>
+
+          <!-- Answers (NEU: soft hidden statt display:none) -->
+          <div class="ps__midRow">
+            <div id="options-grid" class="ps__answers is-invisible">
+              <!-- Antworten per JS -->
+            </div>
+          </div>
+
+          <!-- BOTTOM SLOT: Dummy INSIDE box when no image -->
+          <div id="dummy-inbox-wrap" class="ps__dummyInBoxWrap is-hidden" aria-hidden="true">
+            <img
+              id="dummy-inbox-img"
+              class="ps__dummyInBoxImg"
+              src="/oddoneout/media/dummy.svg"
+              alt=""
+            >
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT: Player list -->
+      <div class="ps__sidebar">
+        <div id="player-sidebar" class="ps__players">
+          <!-- Spieler per JS -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/oddoneout/static/tv.css">
+<script src="/oddoneout/static/tv.js"></script>
+{% endblock %}
+
+-

@@ -1,0 +1,62 @@
+# --- FILE: ./engine/standard_quiz_engine.py ---
+# (Kompatibler Wrapper: API bleibt wie vorher; Flow ist ausgelagert)
+
+from __future__ import annotations
+
+from typing import Callable, Dict, Optional, Type, Any
+
+from engine.engine_core import EngineCore
+from engine.answers.answer_base import AnswerTypeBase
+from engine.scoring.scoring_base import ScoringBase
+
+# Default-Flow bleibt MC
+from engine.flows.mc_standard import MCStandardFlow, StandardQuizTiming
+
+
+class StandardQuizEngine:
+    """
+    API-kompatibler Wrapper um den Standard-Flow.
+
+    WICHTIG:
+    - Externe Aufrufer (z.B. PunktesammlerLogic) müssen NICHT angepasst werden.
+    - Die komplette Logik steckt im Flow (Default: MCStandardFlow).
+    - Optional kann ein anderer Flow über flow_cls injiziert werden (z.B. FreetextStandardFlow).
+    """
+
+    def __init__(
+        self,
+        socketio,
+        players: Dict[str, dict],
+        *,
+        on_game_finished: Optional[Callable[[], None]] = None,
+        max_rounds: int = 1,
+        timing: Optional[StandardQuizTiming] = None,
+        scoring: Optional[ScoringBase] = None,
+        answer_type: Optional[AnswerTypeBase] = None,
+        question_source=None,
+        flow_cls: Optional[Type[Any]] = None,  # NEU: alternativen Flow erlauben (Default bleibt MCStandardFlow)
+    ):
+        self.core = EngineCore(socketio=socketio, players=players, on_game_finished=on_game_finished)
+
+        # Flow enthält State, Timer, Sequencing
+        Flow = flow_cls or MCStandardFlow
+
+        self.flow = Flow(
+            self.core,
+            max_rounds=max_rounds,
+            timing=timing,
+            scoring=scoring,
+            answer_type=answer_type,
+            question_source=question_source,
+        )
+
+    # --------- bisherige öffentliche API ---------
+
+    def players_ranked(self):
+        return self.flow.players_ranked()
+
+    def sync_controller_state(self, sid: str):
+        return self.flow.sync_controller_state(sid)
+
+    def handle_event(self, player_id: str, action: str, payload: dict):
+        return self.flow.handle_event(player_id, action, payload)

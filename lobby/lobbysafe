@@ -1,0 +1,189 @@
+# --- FILE: ./lobby/logic.py ---
+
+from __future__ import annotations
+
+import re
+from typing import Dict, Optional, Tuple, Any
+
+
+class LobbyLogic:
+    """
+    Lobby-Business-Logik (Join-Regeln, Name-Dedupe, stabile player_id-Variante).
+
+    Erwartet vom Caller (app.py):
+    - game: GameState (players, sid_to_player, add_player, resume_player)
+    - current_run_id: str
+    - player_run_map: dict[player_id] -> run_id
+
+    Rückgabe (für join_ack):
+    - { ok: True, player_id, name, run_id }
+    - { ok: False, error: '...' }
+    """
+
+    def __init__(self, game):
+        self.game = game
+
+    # ----------------------------
+    # Normalisierung / Name-Key
+    # ----------------------------
+    @staticmethod
+    def normalize_name(name: str) -> str:
+        """
+        Normalisiert den Namen für Vergleiche:
+        - trim
+        - whitespace kollabieren
+        - case-insensitive (lower)
+        """
+        s = (name or "").strip()
+        s = re.sub(r"\s+", " ", s)
+        return s.lower()
+
+    def _is_name_taken(self, desired_name: str, *, exclude_player_id: Optional[str] = None) -> bool:
+        key = self.normalize_name(desired_name)
+        if not key:
+            return False
+
+        for pid, p in (self.game.players or {}).items():
+            if exclude_player_id and pid == exclude_player_id:
+                continue
+            existing = self.normalize_name((p or {}).get("name", ""))
+            if existing and existing == key:
+                return True
+        return False
+
+    # ----------------------------
+    # Player-Reset (Lobby-Join)
+    # ----------------------------
+    @staticmethod
+    def _reset_player_fields(player: Dict[str, Any], *, name: Optional[str] = None) -> None:
+        """
+        Setzt Lobby-Join Defaults (entspricht deinem bisherigen app.py Verhalten).
+        """
+        if name is not None:
+            player["name"] = name
+
+        player["ready"] = False
+        player["answered"] = False
+        player["score"] = 0
+
+        # Falls vorhanden / für spätere Phasen:
+        player["jokers_white"] = 0
+        player["jokers_gold"] = 0
+        player["is_eliminated"] = False
+        player["final_rounds_survived"] = 0
+
+    # ----------------------------
+    # JOIN (Duplicate-Name inkl.)
+    # ----------------------------
+    def handle_join(
+        self,
+        *,
+        sid: str,
+        name: str,
+        incoming_player_id: str,
+        current_run_id: str,
+        player_run_map: Dict[str, str],
+    ) -> Dict[str, Any]:
+        """
+        Führt einen Join in der Lobby aus. Implementiert:
+        - Idempotenz: Wenn SID schon gemappt -> kein neuer Player
+        - Stabile player_id: incoming_player_id wiederverwenden/neu anlegen
+        - Duplicate-Name Schutz: name_taken (case-insensitive, trim, whitespace)
+        """
+        name_clean = (name or "").strip()
+        if not name_clean:
+            return {"ok": False, "error": "missing_name"}
+
+        # Für "stable id": Wenn SID schon gemappt ist, ist das der Ziel-Player
+        sid_player_id = (self.game.sid_to_player or {}).get(sid)
+
+        # 1) SID schon gemappt -> idempotent / Update auf denselben Player
+        if sid_player_id and sid_player_id in (self.game.players or {}):
+            # Duplicate-Name check gegen alle ANDEREN
+            if self._is_name_taken(name_clean, exclude_player_id=sid_player_id):
+                return {"ok": False, "error": "name_taken"}
+
+            player = self.game.players.get(sid_player_id) or {}
+            self._reset_player_fields(player, name=name_clean)
+
+            player_run_map[sid_player_id] = current_run_id
+            return {
+                "ok": True,
+                "player_id": sid_player_id,
+                "name": name_clean,
+                "run_id": current_run_id,
+            }
+
+        # Ab hier: SID ist noch nicht gemappt -> wir entscheiden anhand incoming_player_id
+
+        incoming_player_id = (incoming_player_id or "").strip()
+
+        # 2) incoming_player_id existiert serverseitig -> resume/reattach
+        if incoming_player_id and incoming_player_id in (self.game.players or {}):
+            # Duplicate-Name check gegen alle ANDEREN (außer diesem Player)
+            if self._is_name_taken(name_clean, exclude_player_id=incoming_player_id):
+                return {"ok": False, "error": "name_taken"}
+
+            ok = self.game.resume_player(sid, incoming_player_id)
+            if not ok:
+                return {"ok": False, "error": "resume_failed"}
+
+            player = self.game.players.get(incoming_player_id) or {}
+            self._reset_player_fields(player, name=name_clean)
+
+            player_run_map[incoming_player_id] = current_run_id
+            return {
+                "ok": True,
+                "player_id": incoming_player_id,
+                "name": name_clean,
+                "run_id": current_run_id,
+            }
+
+        # 3) incoming_player_id kommt vom Client, existiert aber nicht (neue Runde nach Reset)
+        #    -> Player mit exakt dieser ID neu anlegen
+        if incoming_player_id:
+            # Duplicate-Name check gegen alle existierenden (kein exclude notwendig)
+            if self._is_name_taken(name_clean, exclude_player_id=None):
+                return {"ok": False, "error": "name_taken"}
+
+            player_id = incoming_player_id
+            self.game.players[player_id] = {
+                "player_id": player_id,
+                "name": name_clean,
+                "ready": False,
+                "score": 0,
+                "answered": False,
+                "jokers_white": 0,
+                "jokers_gold": 0,
+                "is_eliminated": False,
+                "final_rounds_survived": 0,
+            }
+            self.game.sid_to_player[sid] = player_id
+            player_run_map[player_id] = current_run_id
+
+            return {
+                "ok": True,
+                "player_id": player_id,
+                "name": name_clean,
+                "run_id": current_run_id,
+            }
+
+        # 4) Kein incoming_player_id -> neuer Player (erste Teilnahme auf dem Gerät)
+        # Duplicate-Name check gegen alle existierenden
+        if self._is_name_taken(name_clean, exclude_player_id=None):
+            return {"ok": False, "error": "name_taken"}
+
+        player_id = self.game.add_player(sid, name_clean)
+
+        # Reset explizit (falls GameState.add_player später Defaults ändert)
+        player = self.game.players.get(player_id) or {}
+        self._reset_player_fields(player, name=name_clean)
+
+        player_run_map[player_id] = current_run_id
+
+        return {
+            "ok": True,
+            "player_id": player_id,
+            "name": name_clean,
+            "run_id": current_run_id,
+        }

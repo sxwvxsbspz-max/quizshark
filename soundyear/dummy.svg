@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 19.95 19"
+     xml:space="preserve">
+  <style>
+    .st0 { fill: #FFFFFF; }
+  </style>
+
+  <!-- Fixed from AI export viewBox (0 -960 20 16) to normal coords.
+       Original icon is 20x16, scaled to fit ~19.95x19 and centered vertically. -->
+  <g transform="translate(0 1.52) scale(0.9975 0.95)">
+    <path class="st0" d="M8.5,13c0.7,0,1.29-0.24,1.78-0.72S11,11.2,11,10.5V5h3V3h-4v5.5C9.78,8.35,9.55,8.23,9.3,8.14
+	C9.05,8.05,8.78,8,8.5,8C7.8,8,7.21,8.24,6.72,8.73S6,9.8,6,10.5s0.24,1.29,0.72,1.78S7.8,13,8.5,13z M2,16
+	c-0.55,0-1.02-0.2-1.41-0.59C0.2,15.02,0,14.55,0,14V2c0-0.55,0.2-1.02,0.59-1.41S1.45,0,2,0h16c0.55,0,1.02,0.2,1.41,0.59
+	S20,1.45,20,2v12c0,0.55-0.2,1.02-0.59,1.41C19.02,15.8,18.55,16,18,16H2z M2,14h16V2H2V14z M2,14V2V14z"/>
+  </g>
+</svg>

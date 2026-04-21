@@ -1,0 +1,255 @@
+/* --- FILE: ./lobby/static/controller.css --- */
+
+/* =========================================================
+   BASIS
+   ========================================================= */
+
+html {
+  font-size: clamp(14px, 2.2vw, 18px);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ps, .ps * {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+
+:root {
+  --bg: #00167a;
+
+  --white16: rgba(255,255,255,0.16);
+  --white30: rgba(255,255,255,0.30);
+  --white95: rgba(255,255,255,0.95);
+
+  --accent: #ffd727;
+
+  --cardRadius: 18px;
+
+  --innerGap: 18px;
+  --nameSize: 2rem;
+  --btnSize: 1.333rem; /* 2/3 von 2rem */
+
+  /* Screen-spezifische Abstände */
+  --gapSetup: 24px;   /* Input -> BEITRETEN */
+  --gapReady: 20px;   /* Hallo(Name) -> ICH BIN BEREIT */
+  --gapWait: 24px;    /* "Warten..." -> Loader */
+}
+
+/* =========================================================
+   ROOT
+   ========================================================= */
+
+.ps.lobby.lobby--controller {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nunito", Arial, sans-serif;
+  color: #fff;
+  background: var(--bg);
+  position: relative;
+}
+
+/* =========================================================
+   BACKGROUND SVG
+   ========================================================= */
+
+.lobby-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.lobby-bg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #08263c;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(14, 65, 102, 0.86),
+    #0e4166
+  );
+}
+
+
+/* =========================================================
+   WRAP
+   ========================================================= */
+
+.ps__wrap.lobby__wrap.lobby__wrap--controller {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.controller-shell {
+  width: min(560px, 92vw);
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: 1fr auto 1fr; /* Box ist zentriert, Logo sitzt im oberen Bereich */
+  justify-items: center;
+  align-items: center;
+
+  gap: 0;
+}
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.lobby-logo--controller {
+  grid-row: 1;
+  width: min(62vw, 360px);
+  height: auto;
+  display: block;
+  align-self: center; /* Mitte zwischen Screen-Top und Box-Top */
+}
+
+/* =========================================================
+   CARD
+   ========================================================= */
+
+.controller-card {
+  grid-row: 2;
+
+  width: 100%;
+  padding: 22px 20px var(--innerGap);
+
+  background: var(--white16);
+  border-radius: var(--cardRadius);
+  border: 2px solid rgba(255,255,255,0.18);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+}
+
+/* =========================================================
+   CONTENT
+   ========================================================= */
+
+.controller-lobby {
+  text-align: center;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+#setup-area,
+#ready-area,
+#wait-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.controller-title {
+  font-size: var(--nameSize);
+  font-weight: 700;
+  line-height: 1.0;
+  color: var(--white95);
+  margin: 0;
+}
+
+/* Setup: Abstand Input -> Button */
+#setup-area input {
+  margin-bottom: var(--gapSetup);
+}
+
+/* Ready: Abstand Hallo(Name) -> Button */
+#ready-area .controller-title {
+  margin-bottom: var(--gapReady);
+}
+
+/* Wait: Abstand "Warten..." -> Loader + reduzierter Zeilenabstand */
+#wait-area .controller-title {
+  margin-bottom: var(--gapWait);
+  line-height: 1.1;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: var(--nameSize);
+  font-weight: 700; /* Name boldness 700 */
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.25);
+  background: rgba(0,0,0,0.25);
+  color: var(--white95);
+  margin: 0;
+  font-family: "Nunito", Arial, sans-serif;
+  text-align: center;
+}
+
+input::placeholder {
+  color: var(--white30);
+  font-weight: 400;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  font-size: var(--btnSize); /* 2/3 von 2rem */
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  background: var(--accent);
+  color: #000;
+  cursor: pointer;
+  margin: 0;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* =========================================================
+   LOADER
+   ========================================================= */
+
+.loader {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 4px solid rgba(255,255,255,0.2);
+  border-top-color: var(--accent);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

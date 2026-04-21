@@ -1,0 +1,1885 @@
+
+============================================================
+[2026-03-31 22:08:51] START elevenlabsv3.py (Punktesammler)
+Audio-Ordner: /home/aleranzer/quizshark/oddoneout/media/audio
+Questions:     /home/aleranzer/quizshark/oddoneout/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[JSON] idx=1 id=0001 audio gesetzt -> 0001.mp3
+[GEN ] idx=1 id=0001 -> 0001.mp3
+[OK  ] idx=1 id=0001 -> erzeugt
+[JSON] idx=2 id=0002 audio gesetzt -> 0002.mp3
+[GEN ] idx=2 id=0002 -> 0002.mp3
+[OK  ] idx=2 id=0002 -> erzeugt
+[JSON] idx=3 id=0003 audio gesetzt -> 0003.mp3
+[GEN ] idx=3 id=0003 -> 0003.mp3
+[OK  ] idx=3 id=0003 -> erzeugt
+[JSON] idx=4 id=0004 audio gesetzt -> 0004.mp3
+[GEN ] idx=4 id=0004 -> 0004.mp3
+[OK  ] idx=4 id=0004 -> erzeugt
+[JSON] idx=5 id=0005 audio gesetzt -> 0005.mp3
+[GEN ] idx=5 id=0005 -> 0005.mp3
+[OK  ] idx=5 id=0005 -> erzeugt
+[JSON] idx=6 id=0006 audio gesetzt -> 0006.mp3
+[GEN ] idx=6 id=0006 -> 0006.mp3
+[OK  ] idx=6 id=0006 -> erzeugt
+[JSON] idx=7 id=0007 audio gesetzt -> 0007.mp3
+[GEN ] idx=7 id=0007 -> 0007.mp3
+[OK  ] idx=7 id=0007 -> erzeugt
+[JSON] idx=8 id=0008 audio gesetzt -> 0008.mp3
+[GEN ] idx=8 id=0008 -> 0008.mp3
+[OK  ] idx=8 id=0008 -> erzeugt
+[JSON] idx=9 id=0009 audio gesetzt -> 0009.mp3
+[GEN ] idx=9 id=0009 -> 0009.mp3
+[OK  ] idx=9 id=0009 -> erzeugt
+[JSON] idx=10 id=0010 audio gesetzt -> 0010.mp3
+[GEN ] idx=10 id=0010 -> 0010.mp3
+[OK  ] idx=10 id=0010 -> erzeugt
+[JSON] idx=11 id=0011 audio gesetzt -> 0011.mp3
+[GEN ] idx=11 id=0011 -> 0011.mp3
+[OK  ] idx=11 id=0011 -> erzeugt
+[JSON] idx=12 id=0012 audio gesetzt -> 0012.mp3
+[GEN ] idx=12 id=0012 -> 0012.mp3
+[OK  ] idx=12 id=0012 -> erzeugt
+[JSON] idx=13 id=0013 audio gesetzt -> 0013.mp3
+[GEN ] idx=13 id=0013 -> 0013.mp3
+[OK  ] idx=13 id=0013 -> erzeugt
+[JSON] idx=14 id=0014 audio gesetzt -> 0014.mp3
+[GEN ] idx=14 id=0014 -> 0014.mp3
+[OK  ] idx=14 id=0014 -> erzeugt
+[JSON] idx=15 id=0015 audio gesetzt -> 0015.mp3
+[GEN ] idx=15 id=0015 -> 0015.mp3
+[OK  ] idx=15 id=0015 -> erzeugt
+[JSON] idx=16 id=0016 audio gesetzt -> 0016.mp3
+[GEN ] idx=16 id=0016 -> 0016.mp3
+[OK  ] idx=16 id=0016 -> erzeugt
+[JSON] idx=17 id=0017 audio gesetzt -> 0017.mp3
+[GEN ] idx=17 id=0017 -> 0017.mp3
+[OK  ] idx=17 id=0017 -> erzeugt
+[JSON] idx=18 id=0018 audio gesetzt -> 0018.mp3
+[GEN ] idx=18 id=0018 -> 0018.mp3
+[OK  ] idx=18 id=0018 -> erzeugt
+[JSON] idx=19 id=0019 audio gesetzt -> 0019.mp3
+[GEN ] idx=19 id=0019 -> 0019.mp3
+[OK  ] idx=19 id=0019 -> erzeugt
+[JSON] idx=20 id=0020 audio gesetzt -> 0020.mp3
+[GEN ] idx=20 id=0020 -> 0020.mp3
+[OK  ] idx=20 id=0020 -> erzeugt
+[JSON] idx=21 id=0021 audio gesetzt -> 0021.mp3
+[GEN ] idx=21 id=0021 -> 0021.mp3
+[OK  ] idx=21 id=0021 -> erzeugt
+[JSON] idx=22 id=0022 audio gesetzt -> 0022.mp3
+[GEN ] idx=22 id=0022 -> 0022.mp3
+[OK  ] idx=22 id=0022 -> erzeugt
+[JSON] idx=23 id=0023 audio gesetzt -> 0023.mp3
+[GEN ] idx=23 id=0023 -> 0023.mp3
+[OK  ] idx=23 id=0023 -> erzeugt
+[JSON] idx=24 id=0024 audio gesetzt -> 0024.mp3
+[GEN ] idx=24 id=0024 -> 0024.mp3
+[OK  ] idx=24 id=0024 -> erzeugt
+[JSON] idx=25 id=0025 audio gesetzt -> 0025.mp3
+[GEN ] idx=25 id=0025 -> 0025.mp3
+[OK  ] idx=25 id=0025 -> erzeugt
+[JSON] idx=26 id=0026 audio gesetzt -> 0026.mp3
+[GEN ] idx=26 id=0026 -> 0026.mp3
+[OK  ] idx=26 id=0026 -> erzeugt
+[JSON] idx=27 id=0027 audio gesetzt -> 0027.mp3
+[GEN ] idx=27 id=0027 -> 0027.mp3
+[OK  ] idx=27 id=0027 -> erzeugt
+[JSON] idx=28 id=0028 audio gesetzt -> 0028.mp3
+[GEN ] idx=28 id=0028 -> 0028.mp3
+[OK  ] idx=28 id=0028 -> erzeugt
+[JSON] idx=29 id=0029 audio gesetzt -> 0029.mp3
+[GEN ] idx=29 id=0029 -> 0029.mp3
+[OK  ] idx=29 id=0029 -> erzeugt
+[JSON] idx=30 id=0030 audio gesetzt -> 0030.mp3
+[GEN ] idx=30 id=0030 -> 0030.mp3
+[OK  ] idx=30 id=0030 -> erzeugt
+[JSON] idx=31 id=0031 audio gesetzt -> 0031.mp3
+[GEN ] idx=31 id=0031 -> 0031.mp3
+[OK  ] idx=31 id=0031 -> erzeugt
+[JSON] idx=32 id=0032 audio gesetzt -> 0032.mp3
+[GEN ] idx=32 id=0032 -> 0032.mp3
+[OK  ] idx=32 id=0032 -> erzeugt
+[JSON] idx=33 id=0033 audio gesetzt -> 0033.mp3
+[GEN ] idx=33 id=0033 -> 0033.mp3
+[OK  ] idx=33 id=0033 -> erzeugt
+[JSON] idx=34 id=0034 audio gesetzt -> 0034.mp3
+[GEN ] idx=34 id=0034 -> 0034.mp3
+[OK  ] idx=34 id=0034 -> erzeugt
+[JSON] idx=35 id=0035 audio gesetzt -> 0035.mp3
+[GEN ] idx=35 id=0035 -> 0035.mp3
+[OK  ] idx=35 id=0035 -> erzeugt
+[JSON] idx=36 id=0036 audio gesetzt -> 0036.mp3
+[GEN ] idx=36 id=0036 -> 0036.mp3
+[OK  ] idx=36 id=0036 -> erzeugt
+[JSON] idx=37 id=0037 audio gesetzt -> 0037.mp3
+[GEN ] idx=37 id=0037 -> 0037.mp3
+[OK  ] idx=37 id=0037 -> erzeugt
+[JSON] idx=38 id=0038 audio gesetzt -> 0038.mp3
+[GEN ] idx=38 id=0038 -> 0038.mp3
+[OK  ] idx=38 id=0038 -> erzeugt
+[JSON] idx=39 id=0039 audio gesetzt -> 0039.mp3
+[GEN ] idx=39 id=0039 -> 0039.mp3
+[OK  ] idx=39 id=0039 -> erzeugt
+[JSON] idx=40 id=0040 audio gesetzt -> 0040.mp3
+[GEN ] idx=40 id=0040 -> 0040.mp3
+[OK  ] idx=40 id=0040 -> erzeugt
+[JSON] idx=41 id=0041 audio gesetzt -> 0041.mp3
+[GEN ] idx=41 id=0041 -> 0041.mp3
+[OK  ] idx=41 id=0041 -> erzeugt
+[JSON] idx=42 id=0042 audio gesetzt -> 0042.mp3
+[GEN ] idx=42 id=0042 -> 0042.mp3
+[OK  ] idx=42 id=0042 -> erzeugt
+[JSON] idx=43 id=0043 audio gesetzt -> 0043.mp3
+[GEN ] idx=43 id=0043 -> 0043.mp3
+[OK  ] idx=43 id=0043 -> erzeugt
+[JSON] idx=44 id=0044 audio gesetzt -> 0044.mp3
+[GEN ] idx=44 id=0044 -> 0044.mp3
+[OK  ] idx=44 id=0044 -> erzeugt
+[JSON] idx=45 id=0045 audio gesetzt -> 0045.mp3
+[GEN ] idx=45 id=0045 -> 0045.mp3
+[OK  ] idx=45 id=0045 -> erzeugt
+[JSON] idx=46 id=0046 audio gesetzt -> 0046.mp3
+[GEN ] idx=46 id=0046 -> 0046.mp3
+[OK  ] idx=46 id=0046 -> erzeugt
+[JSON] idx=47 id=0047 audio gesetzt -> 0047.mp3
+[GEN ] idx=47 id=0047 -> 0047.mp3
+[OK  ] idx=47 id=0047 -> erzeugt
+[JSON] idx=48 id=0048 audio gesetzt -> 0048.mp3
+[GEN ] idx=48 id=0048 -> 0048.mp3
+[OK  ] idx=48 id=0048 -> erzeugt
+[JSON] idx=49 id=0049 audio gesetzt -> 0049.mp3
+[GEN ] idx=49 id=0049 -> 0049.mp3
+[OK  ] idx=49 id=0049 -> erzeugt
+[JSON] idx=50 id=0050 audio gesetzt -> 0050.mp3
+[GEN ] idx=50 id=0050 -> 0050.mp3
+[OK  ] idx=50 id=0050 -> erzeugt
+[JSON] idx=51 id=0051 audio gesetzt -> 0051.mp3
+[GEN ] idx=51 id=0051 -> 0051.mp3
+[OK  ] idx=51 id=0051 -> erzeugt
+[JSON] idx=52 id=0052 audio gesetzt -> 0052.mp3
+[GEN ] idx=52 id=0052 -> 0052.mp3
+[OK  ] idx=52 id=0052 -> erzeugt
+[JSON] idx=53 id=0053 audio gesetzt -> 0053.mp3
+[GEN ] idx=53 id=0053 -> 0053.mp3
+[OK  ] idx=53 id=0053 -> erzeugt
+[JSON] idx=54 id=0054 audio gesetzt -> 0054.mp3
+[GEN ] idx=54 id=0054 -> 0054.mp3
+[OK  ] idx=54 id=0054 -> erzeugt
+[JSON] idx=55 id=0055 audio gesetzt -> 0055.mp3
+[GEN ] idx=55 id=0055 -> 0055.mp3
+[OK  ] idx=55 id=0055 -> erzeugt
+[JSON] idx=56 id=0056 audio gesetzt -> 0056.mp3
+[GEN ] idx=56 id=0056 -> 0056.mp3
+[OK  ] idx=56 id=0056 -> erzeugt
+[JSON] idx=57 id=0057 audio gesetzt -> 0057.mp3
+[GEN ] idx=57 id=0057 -> 0057.mp3
+[OK  ] idx=57 id=0057 -> erzeugt
+[JSON] idx=58 id=0058 audio gesetzt -> 0058.mp3
+[GEN ] idx=58 id=0058 -> 0058.mp3
+[OK  ] idx=58 id=0058 -> erzeugt
+[JSON] idx=59 id=0059 audio gesetzt -> 0059.mp3
+[GEN ] idx=59 id=0059 -> 0059.mp3
+[OK  ] idx=59 id=0059 -> erzeugt
+[JSON] idx=60 id=0060 audio gesetzt -> 0060.mp3
+[GEN ] idx=60 id=0060 -> 0060.mp3
+[OK  ] idx=60 id=0060 -> erzeugt
+[JSON] idx=61 id=0061 audio gesetzt -> 0061.mp3
+[GEN ] idx=61 id=0061 -> 0061.mp3
+[OK  ] idx=61 id=0061 -> erzeugt
+[JSON] idx=62 id=0062 audio gesetzt -> 0062.mp3
+[GEN ] idx=62 id=0062 -> 0062.mp3
+[OK  ] idx=62 id=0062 -> erzeugt
+[JSON] idx=63 id=0063 audio gesetzt -> 0063.mp3
+[GEN ] idx=63 id=0063 -> 0063.mp3
+[OK  ] idx=63 id=0063 -> erzeugt
+[JSON] idx=64 id=0064 audio gesetzt -> 0064.mp3
+[GEN ] idx=64 id=0064 -> 0064.mp3
+[OK  ] idx=64 id=0064 -> erzeugt
+[JSON] idx=65 id=0065 audio gesetzt -> 0065.mp3
+[GEN ] idx=65 id=0065 -> 0065.mp3
+[OK  ] idx=65 id=0065 -> erzeugt
+[JSON] idx=66 id=0066 audio gesetzt -> 0066.mp3
+[GEN ] idx=66 id=0066 -> 0066.mp3
+[OK  ] idx=66 id=0066 -> erzeugt
+[JSON] idx=67 id=0067 audio gesetzt -> 0067.mp3
+[GEN ] idx=67 id=0067 -> 0067.mp3
+[OK  ] idx=67 id=0067 -> erzeugt
+[JSON] idx=68 id=0068 audio gesetzt -> 0068.mp3
+[GEN ] idx=68 id=0068 -> 0068.mp3
+[OK  ] idx=68 id=0068 -> erzeugt
+[JSON] idx=69 id=0069 audio gesetzt -> 0069.mp3
+[GEN ] idx=69 id=0069 -> 0069.mp3
+[OK  ] idx=69 id=0069 -> erzeugt
+[JSON] idx=70 id=0070 audio gesetzt -> 0070.mp3
+[GEN ] idx=70 id=0070 -> 0070.mp3
+[OK  ] idx=70 id=0070 -> erzeugt
+[JSON] idx=71 id=0071 audio gesetzt -> 0071.mp3
+[GEN ] idx=71 id=0071 -> 0071.mp3
+[OK  ] idx=71 id=0071 -> erzeugt
+[JSON] idx=72 id=0072 audio gesetzt -> 0072.mp3
+[GEN ] idx=72 id=0072 -> 0072.mp3
+[OK  ] idx=72 id=0072 -> erzeugt
+[JSON] idx=73 id=0073 audio gesetzt -> 0073.mp3
+[GEN ] idx=73 id=0073 -> 0073.mp3
+[OK  ] idx=73 id=0073 -> erzeugt
+[JSON] idx=74 id=0074 audio gesetzt -> 0074.mp3
+[GEN ] idx=74 id=0074 -> 0074.mp3
+[OK  ] idx=74 id=0074 -> erzeugt
+[JSON] idx=75 id=0075 audio gesetzt -> 0075.mp3
+[GEN ] idx=75 id=0075 -> 0075.mp3
+[OK  ] idx=75 id=0075 -> erzeugt
+[JSON] idx=76 id=0076 audio gesetzt -> 0076.mp3
+[GEN ] idx=76 id=0076 -> 0076.mp3
+[OK  ] idx=76 id=0076 -> erzeugt
+[JSON] idx=77 id=0077 audio gesetzt -> 0077.mp3
+[GEN ] idx=77 id=0077 -> 0077.mp3
+[OK  ] idx=77 id=0077 -> erzeugt
+[JSON] idx=78 id=0078 audio gesetzt -> 0078.mp3
+[GEN ] idx=78 id=0078 -> 0078.mp3
+[OK  ] idx=78 id=0078 -> erzeugt
+[JSON] idx=79 id=0079 audio gesetzt -> 0079.mp3
+[GEN ] idx=79 id=0079 -> 0079.mp3
+[OK  ] idx=79 id=0079 -> erzeugt
+[JSON] idx=80 id=0080 audio gesetzt -> 0080.mp3
+[GEN ] idx=80 id=0080 -> 0080.mp3
+[OK  ] idx=80 id=0080 -> erzeugt
+[JSON] idx=81 id=0081 audio gesetzt -> 0081.mp3
+[GEN ] idx=81 id=0081 -> 0081.mp3
+[OK  ] idx=81 id=0081 -> erzeugt
+[JSON] idx=82 id=0082 audio gesetzt -> 0082.mp3
+[GEN ] idx=82 id=0082 -> 0082.mp3
+[OK  ] idx=82 id=0082 -> erzeugt
+[JSON] idx=83 id=0083 audio gesetzt -> 0083.mp3
+[GEN ] idx=83 id=0083 -> 0083.mp3
+[OK  ] idx=83 id=0083 -> erzeugt
+[JSON] idx=84 id=0084 audio gesetzt -> 0084.mp3
+[GEN ] idx=84 id=0084 -> 0084.mp3
+[OK  ] idx=84 id=0084 -> erzeugt
+[JSON] idx=85 id=0085 audio gesetzt -> 0085.mp3
+[GEN ] idx=85 id=0085 -> 0085.mp3
+[OK  ] idx=85 id=0085 -> erzeugt
+[JSON] idx=86 id=0086 audio gesetzt -> 0086.mp3
+[GEN ] idx=86 id=0086 -> 0086.mp3
+[OK  ] idx=86 id=0086 -> erzeugt
+[JSON] idx=87 id=0087 audio gesetzt -> 0087.mp3
+[GEN ] idx=87 id=0087 -> 0087.mp3
+[OK  ] idx=87 id=0087 -> erzeugt
+[JSON] idx=88 id=0088 audio gesetzt -> 0088.mp3
+[GEN ] idx=88 id=0088 -> 0088.mp3
+[OK  ] idx=88 id=0088 -> erzeugt
+[JSON] idx=89 id=0089 audio gesetzt -> 0089.mp3
+[GEN ] idx=89 id=0089 -> 0089.mp3
+[OK  ] idx=89 id=0089 -> erzeugt
+[JSON] idx=90 id=0090 audio gesetzt -> 0090.mp3
+[GEN ] idx=90 id=0090 -> 0090.mp3
+[OK  ] idx=90 id=0090 -> erzeugt
+[JSON] idx=91 id=0091 audio gesetzt -> 0091.mp3
+[GEN ] idx=91 id=0091 -> 0091.mp3
+[OK  ] idx=91 id=0091 -> erzeugt
+[JSON] idx=92 id=0092 audio gesetzt -> 0092.mp3
+[GEN ] idx=92 id=0092 -> 0092.mp3
+[OK  ] idx=92 id=0092 -> erzeugt
+[JSON] idx=93 id=0093 audio gesetzt -> 0093.mp3
+[GEN ] idx=93 id=0093 -> 0093.mp3
+[OK  ] idx=93 id=0093 -> erzeugt
+[JSON] idx=94 id=0094 audio gesetzt -> 0094.mp3
+[GEN ] idx=94 id=0094 -> 0094.mp3
+[OK  ] idx=94 id=0094 -> erzeugt
+[JSON] idx=95 id=0095 audio gesetzt -> 0095.mp3
+[GEN ] idx=95 id=0095 -> 0095.mp3
+[OK  ] idx=95 id=0095 -> erzeugt
+[JSON] idx=96 id=0096 audio gesetzt -> 0096.mp3
+[GEN ] idx=96 id=0096 -> 0096.mp3
+[OK  ] idx=96 id=0096 -> erzeugt
+[JSON] idx=97 id=0097 audio gesetzt -> 0097.mp3
+[GEN ] idx=97 id=0097 -> 0097.mp3
+[OK  ] idx=97 id=0097 -> erzeugt
+[JSON] idx=98 id=0098 audio gesetzt -> 0098.mp3
+[GEN ] idx=98 id=0098 -> 0098.mp3
+[OK  ] idx=98 id=0098 -> erzeugt
+[JSON] idx=99 id=0099 audio gesetzt -> 0099.mp3
+[GEN ] idx=99 id=0099 -> 0099.mp3
+[OK  ] idx=99 id=0099 -> erzeugt
+[JSON] idx=100 id=0100 audio gesetzt -> 0100.mp3
+[GEN ] idx=100 id=0100 -> 0100.mp3
+[OK  ] idx=100 id=0100 -> erzeugt
+[JSON] idx=101 id=0101 audio gesetzt -> 0101.mp3
+[GEN ] idx=101 id=0101 -> 0101.mp3
+[OK  ] idx=101 id=0101 -> erzeugt
+[JSON] idx=102 id=0102 audio gesetzt -> 0102.mp3
+[GEN ] idx=102 id=0102 -> 0102.mp3
+[OK  ] idx=102 id=0102 -> erzeugt
+[JSON] idx=103 id=0103 audio gesetzt -> 0103.mp3
+[GEN ] idx=103 id=0103 -> 0103.mp3
+[OK  ] idx=103 id=0103 -> erzeugt
+[JSON] idx=104 id=0104 audio gesetzt -> 0104.mp3
+[GEN ] idx=104 id=0104 -> 0104.mp3
+[OK  ] idx=104 id=0104 -> erzeugt
+[JSON] idx=105 id=0105 audio gesetzt -> 0105.mp3
+[GEN ] idx=105 id=0105 -> 0105.mp3
+[OK  ] idx=105 id=0105 -> erzeugt
+[JSON] idx=106 id=0106 audio gesetzt -> 0106.mp3
+[GEN ] idx=106 id=0106 -> 0106.mp3
+[OK  ] idx=106 id=0106 -> erzeugt
+[JSON] idx=107 id=0107 audio gesetzt -> 0107.mp3
+[GEN ] idx=107 id=0107 -> 0107.mp3
+[OK  ] idx=107 id=0107 -> erzeugt
+[JSON] idx=108 id=0108 audio gesetzt -> 0108.mp3
+[GEN ] idx=108 id=0108 -> 0108.mp3
+[OK  ] idx=108 id=0108 -> erzeugt
+[JSON] idx=109 id=0109 audio gesetzt -> 0109.mp3
+[GEN ] idx=109 id=0109 -> 0109.mp3
+[OK  ] idx=109 id=0109 -> erzeugt
+[JSON] idx=110 id=0110 audio gesetzt -> 0110.mp3
+[GEN ] idx=110 id=0110 -> 0110.mp3
+[OK  ] idx=110 id=0110 -> erzeugt
+[JSON] idx=111 id=0111 audio gesetzt -> 0111.mp3
+[GEN ] idx=111 id=0111 -> 0111.mp3
+[OK  ] idx=111 id=0111 -> erzeugt
+[JSON] idx=112 id=0112 audio gesetzt -> 0112.mp3
+[GEN ] idx=112 id=0112 -> 0112.mp3
+[OK  ] idx=112 id=0112 -> erzeugt
+[JSON] idx=113 id=0113 audio gesetzt -> 0113.mp3
+[GEN ] idx=113 id=0113 -> 0113.mp3
+[OK  ] idx=113 id=0113 -> erzeugt
+[JSON] idx=114 id=0114 audio gesetzt -> 0114.mp3
+[GEN ] idx=114 id=0114 -> 0114.mp3
+[OK  ] idx=114 id=0114 -> erzeugt
+[JSON] idx=115 id=0115 audio gesetzt -> 0115.mp3
+[GEN ] idx=115 id=0115 -> 0115.mp3
+[OK  ] idx=115 id=0115 -> erzeugt
+[JSON] idx=116 id=0116 audio gesetzt -> 0116.mp3
+[GEN ] idx=116 id=0116 -> 0116.mp3
+[OK  ] idx=116 id=0116 -> erzeugt
+[JSON] idx=117 id=0117 audio gesetzt -> 0117.mp3
+[GEN ] idx=117 id=0117 -> 0117.mp3
+[OK  ] idx=117 id=0117 -> erzeugt
+[JSON] idx=118 id=0118 audio gesetzt -> 0118.mp3
+[GEN ] idx=118 id=0118 -> 0118.mp3
+[OK  ] idx=118 id=0118 -> erzeugt
+[JSON] idx=119 id=0119 audio gesetzt -> 0119.mp3
+[GEN ] idx=119 id=0119 -> 0119.mp3
+[OK  ] idx=119 id=0119 -> erzeugt
+[JSON] idx=120 id=0120 audio gesetzt -> 0120.mp3
+[GEN ] idx=120 id=0120 -> 0120.mp3
+[OK  ] idx=120 id=0120 -> erzeugt
+[JSON] idx=121 id=0121 audio gesetzt -> 0121.mp3
+[GEN ] idx=121 id=0121 -> 0121.mp3
+[OK  ] idx=121 id=0121 -> erzeugt
+[JSON] idx=122 id=0122 audio gesetzt -> 0122.mp3
+[GEN ] idx=122 id=0122 -> 0122.mp3
+[OK  ] idx=122 id=0122 -> erzeugt
+[JSON] idx=123 id=0123 audio gesetzt -> 0123.mp3
+[GEN ] idx=123 id=0123 -> 0123.mp3
+[OK  ] idx=123 id=0123 -> erzeugt
+[JSON] idx=124 id=0124 audio gesetzt -> 0124.mp3
+[GEN ] idx=124 id=0124 -> 0124.mp3
+[OK  ] idx=124 id=0124 -> erzeugt
+[JSON] idx=125 id=0125 audio gesetzt -> 0125.mp3
+[GEN ] idx=125 id=0125 -> 0125.mp3
+[OK  ] idx=125 id=0125 -> erzeugt
+[JSON] idx=126 id=0126 audio gesetzt -> 0126.mp3
+[GEN ] idx=126 id=0126 -> 0126.mp3
+[OK  ] idx=126 id=0126 -> erzeugt
+[JSON] idx=127 id=0127 audio gesetzt -> 0127.mp3
+[GEN ] idx=127 id=0127 -> 0127.mp3
+[OK  ] idx=127 id=0127 -> erzeugt
+[JSON] idx=128 id=0128 audio gesetzt -> 0128.mp3
+[GEN ] idx=128 id=0128 -> 0128.mp3
+[OK  ] idx=128 id=0128 -> erzeugt
+[JSON] idx=129 id=0129 audio gesetzt -> 0129.mp3
+[GEN ] idx=129 id=0129 -> 0129.mp3
+[OK  ] idx=129 id=0129 -> erzeugt
+[JSON] idx=130 id=0130 audio gesetzt -> 0130.mp3
+[GEN ] idx=130 id=0130 -> 0130.mp3
+[OK  ] idx=130 id=0130 -> erzeugt
+[JSON] idx=131 id=0131 audio gesetzt -> 0131.mp3
+[GEN ] idx=131 id=0131 -> 0131.mp3
+[OK  ] idx=131 id=0131 -> erzeugt
+[JSON] idx=132 id=0132 audio gesetzt -> 0132.mp3
+[GEN ] idx=132 id=0132 -> 0132.mp3
+[OK  ] idx=132 id=0132 -> erzeugt
+[JSON] idx=133 id=0133 audio gesetzt -> 0133.mp3
+[GEN ] idx=133 id=0133 -> 0133.mp3
+[OK  ] idx=133 id=0133 -> erzeugt
+[JSON] idx=134 id=0134 audio gesetzt -> 0134.mp3
+[GEN ] idx=134 id=0134 -> 0134.mp3
+[OK  ] idx=134 id=0134 -> erzeugt
+[JSON] idx=135 id=0135 audio gesetzt -> 0135.mp3
+[GEN ] idx=135 id=0135 -> 0135.mp3
+[OK  ] idx=135 id=0135 -> erzeugt
+[JSON] idx=136 id=0136 audio gesetzt -> 0136.mp3
+[GEN ] idx=136 id=0136 -> 0136.mp3
+[OK  ] idx=136 id=0136 -> erzeugt
+[JSON] idx=137 id=0137 audio gesetzt -> 0137.mp3
+[GEN ] idx=137 id=0137 -> 0137.mp3
+[OK  ] idx=137 id=0137 -> erzeugt
+[JSON] idx=138 id=0138 audio gesetzt -> 0138.mp3
+[GEN ] idx=138 id=0138 -> 0138.mp3
+[OK  ] idx=138 id=0138 -> erzeugt
+[JSON] idx=139 id=0139 audio gesetzt -> 0139.mp3
+[GEN ] idx=139 id=0139 -> 0139.mp3
+[OK  ] idx=139 id=0139 -> erzeugt
+[JSON] idx=140 id=0140 audio gesetzt -> 0140.mp3
+[GEN ] idx=140 id=0140 -> 0140.mp3
+[OK  ] idx=140 id=0140 -> erzeugt
+[JSON] idx=141 id=0141 audio gesetzt -> 0141.mp3
+[GEN ] idx=141 id=0141 -> 0141.mp3
+[OK  ] idx=141 id=0141 -> erzeugt
+[JSON] idx=142 id=0142 audio gesetzt -> 0142.mp3
+[GEN ] idx=142 id=0142 -> 0142.mp3
+[OK  ] idx=142 id=0142 -> erzeugt
+[JSON] idx=143 id=0143 audio gesetzt -> 0143.mp3
+[GEN ] idx=143 id=0143 -> 0143.mp3
+[OK  ] idx=143 id=0143 -> erzeugt
+[JSON] idx=144 id=0144 audio gesetzt -> 0144.mp3
+[GEN ] idx=144 id=0144 -> 0144.mp3
+[OK  ] idx=144 id=0144 -> erzeugt
+[JSON] idx=145 id=0145 audio gesetzt -> 0145.mp3
+[GEN ] idx=145 id=0145 -> 0145.mp3
+[OK  ] idx=145 id=0145 -> erzeugt
+[JSON] idx=146 id=0146 audio gesetzt -> 0146.mp3
+[GEN ] idx=146 id=0146 -> 0146.mp3
+[OK  ] idx=146 id=0146 -> erzeugt
+[JSON] idx=147 id=0147 audio gesetzt -> 0147.mp3
+[GEN ] idx=147 id=0147 -> 0147.mp3
+[OK  ] idx=147 id=0147 -> erzeugt
+[JSON] idx=148 id=0148 audio gesetzt -> 0148.mp3
+[GEN ] idx=148 id=0148 -> 0148.mp3
+[OK  ] idx=148 id=0148 -> erzeugt
+[JSON] idx=149 id=0149 audio gesetzt -> 0149.mp3
+[GEN ] idx=149 id=0149 -> 0149.mp3
+[OK  ] idx=149 id=0149 -> erzeugt
+[JSON] idx=150 id=0150 audio gesetzt -> 0150.mp3
+[GEN ] idx=150 id=0150 -> 0150.mp3
+[OK  ] idx=150 id=0150 -> erzeugt
+[JSON] idx=151 id=0151 audio gesetzt -> 0151.mp3
+[GEN ] idx=151 id=0151 -> 0151.mp3
+[OK  ] idx=151 id=0151 -> erzeugt
+[JSON] idx=152 id=0152 audio gesetzt -> 0152.mp3
+[GEN ] idx=152 id=0152 -> 0152.mp3
+[OK  ] idx=152 id=0152 -> erzeugt
+[JSON] idx=153 id=0153 audio gesetzt -> 0153.mp3
+[GEN ] idx=153 id=0153 -> 0153.mp3
+[OK  ] idx=153 id=0153 -> erzeugt
+[JSON] idx=154 id=0154 audio gesetzt -> 0154.mp3
+[GEN ] idx=154 id=0154 -> 0154.mp3
+[OK  ] idx=154 id=0154 -> erzeugt
+[JSON] idx=155 id=0155 audio gesetzt -> 0155.mp3
+[GEN ] idx=155 id=0155 -> 0155.mp3
+[OK  ] idx=155 id=0155 -> erzeugt
+[JSON] idx=156 id=0156 audio gesetzt -> 0156.mp3
+[GEN ] idx=156 id=0156 -> 0156.mp3
+[OK  ] idx=156 id=0156 -> erzeugt
+[JSON] idx=157 id=0157 audio gesetzt -> 0157.mp3
+[GEN ] idx=157 id=0157 -> 0157.mp3
+[OK  ] idx=157 id=0157 -> erzeugt
+[JSON] idx=158 id=0158 audio gesetzt -> 0158.mp3
+[GEN ] idx=158 id=0158 -> 0158.mp3
+[OK  ] idx=158 id=0158 -> erzeugt
+[JSON] idx=159 id=0159 audio gesetzt -> 0159.mp3
+[GEN ] idx=159 id=0159 -> 0159.mp3
+[OK  ] idx=159 id=0159 -> erzeugt
+[JSON] idx=160 id=0160 audio gesetzt -> 0160.mp3
+[GEN ] idx=160 id=0160 -> 0160.mp3
+[OK  ] idx=160 id=0160 -> erzeugt
+[JSON] idx=161 id=0161 audio gesetzt -> 0161.mp3
+[GEN ] idx=161 id=0161 -> 0161.mp3
+[OK  ] idx=161 id=0161 -> erzeugt
+[JSON] idx=162 id=0162 audio gesetzt -> 0162.mp3
+[GEN ] idx=162 id=0162 -> 0162.mp3
+[OK  ] idx=162 id=0162 -> erzeugt
+[JSON] idx=163 id=0163 audio gesetzt -> 0163.mp3
+[GEN ] idx=163 id=0163 -> 0163.mp3
+[OK  ] idx=163 id=0163 -> erzeugt
+[JSON] idx=164 id=0164 audio gesetzt -> 0164.mp3
+[GEN ] idx=164 id=0164 -> 0164.mp3
+[OK  ] idx=164 id=0164 -> erzeugt
+[JSON] idx=165 id=0165 audio gesetzt -> 0165.mp3
+[GEN ] idx=165 id=0165 -> 0165.mp3
+[OK  ] idx=165 id=0165 -> erzeugt
+[JSON] idx=166 id=0166 audio gesetzt -> 0166.mp3
+[GEN ] idx=166 id=0166 -> 0166.mp3
+[OK  ] idx=166 id=0166 -> erzeugt
+[JSON] idx=167 id=0167 audio gesetzt -> 0167.mp3
+[GEN ] idx=167 id=0167 -> 0167.mp3
+[OK  ] idx=167 id=0167 -> erzeugt
+[JSON] idx=168 id=0168 audio gesetzt -> 0168.mp3
+[GEN ] idx=168 id=0168 -> 0168.mp3
+[OK  ] idx=168 id=0168 -> erzeugt
+[JSON] idx=169 id=0169 audio gesetzt -> 0169.mp3
+[GEN ] idx=169 id=0169 -> 0169.mp3
+[OK  ] idx=169 id=0169 -> erzeugt
+[JSON] idx=170 id=0170 audio gesetzt -> 0170.mp3
+[GEN ] idx=170 id=0170 -> 0170.mp3
+[OK  ] idx=170 id=0170 -> erzeugt
+[JSON] idx=171 id=0171 audio gesetzt -> 0171.mp3
+[GEN ] idx=171 id=0171 -> 0171.mp3
+[OK  ] idx=171 id=0171 -> erzeugt
+[JSON] idx=172 id=0172 audio gesetzt -> 0172.mp3
+[GEN ] idx=172 id=0172 -> 0172.mp3
+[OK  ] idx=172 id=0172 -> erzeugt
+[JSON] idx=173 id=0173 audio gesetzt -> 0173.mp3
+[GEN ] idx=173 id=0173 -> 0173.mp3
+[OK  ] idx=173 id=0173 -> erzeugt
+[JSON] idx=174 id=0174 audio gesetzt -> 0174.mp3
+[GEN ] idx=174 id=0174 -> 0174.mp3
+[OK  ] idx=174 id=0174 -> erzeugt
+[JSON] idx=175 id=0175 audio gesetzt -> 0175.mp3
+[GEN ] idx=175 id=0175 -> 0175.mp3
+[OK  ] idx=175 id=0175 -> erzeugt
+[JSON] idx=176 id=0176 audio gesetzt -> 0176.mp3
+[GEN ] idx=176 id=0176 -> 0176.mp3
+[OK  ] idx=176 id=0176 -> erzeugt
+[JSON] idx=177 id=0177 audio gesetzt -> 0177.mp3
+[GEN ] idx=177 id=0177 -> 0177.mp3
+[OK  ] idx=177 id=0177 -> erzeugt
+[JSON] idx=178 id=0178 audio gesetzt -> 0178.mp3
+[GEN ] idx=178 id=0178 -> 0178.mp3
+[OK  ] idx=178 id=0178 -> erzeugt
+[JSON] idx=179 id=0179 audio gesetzt -> 0179.mp3
+[GEN ] idx=179 id=0179 -> 0179.mp3
+[OK  ] idx=179 id=0179 -> erzeugt
+[JSON] idx=180 id=0180 audio gesetzt -> 0180.mp3
+[GEN ] idx=180 id=0180 -> 0180.mp3
+[OK  ] idx=180 id=0180 -> erzeugt
+[JSON] idx=181 id=0181 audio gesetzt -> 0181.mp3
+[GEN ] idx=181 id=0181 -> 0181.mp3
+[OK  ] idx=181 id=0181 -> erzeugt
+[JSON] idx=182 id=0182 audio gesetzt -> 0182.mp3
+[GEN ] idx=182 id=0182 -> 0182.mp3
+[OK  ] idx=182 id=0182 -> erzeugt
+[JSON] idx=183 id=0183 audio gesetzt -> 0183.mp3
+[GEN ] idx=183 id=0183 -> 0183.mp3
+[OK  ] idx=183 id=0183 -> erzeugt
+[JSON] idx=184 id=0184 audio gesetzt -> 0184.mp3
+[GEN ] idx=184 id=0184 -> 0184.mp3
+[OK  ] idx=184 id=0184 -> erzeugt
+[JSON] idx=185 id=0185 audio gesetzt -> 0185.mp3
+[GEN ] idx=185 id=0185 -> 0185.mp3
+[OK  ] idx=185 id=0185 -> erzeugt
+[JSON] idx=186 id=0186 audio gesetzt -> 0186.mp3
+[GEN ] idx=186 id=0186 -> 0186.mp3
+[OK  ] idx=186 id=0186 -> erzeugt
+[JSON] idx=187 id=0187 audio gesetzt -> 0187.mp3
+[GEN ] idx=187 id=0187 -> 0187.mp3
+[OK  ] idx=187 id=0187 -> erzeugt
+[JSON] idx=188 id=0188 audio gesetzt -> 0188.mp3
+[GEN ] idx=188 id=0188 -> 0188.mp3
+[OK  ] idx=188 id=0188 -> erzeugt
+[JSON] idx=189 id=0189 audio gesetzt -> 0189.mp3
+[GEN ] idx=189 id=0189 -> 0189.mp3
+[OK  ] idx=189 id=0189 -> erzeugt
+[JSON] idx=190 id=0190 audio gesetzt -> 0190.mp3
+[GEN ] idx=190 id=0190 -> 0190.mp3
+[OK  ] idx=190 id=0190 -> erzeugt
+[JSON] idx=191 id=0191 audio gesetzt -> 0191.mp3
+[GEN ] idx=191 id=0191 -> 0191.mp3
+[OK  ] idx=191 id=0191 -> erzeugt
+[JSON] idx=192 id=0192 audio gesetzt -> 0192.mp3
+[GEN ] idx=192 id=0192 -> 0192.mp3
+[OK  ] idx=192 id=0192 -> erzeugt
+[JSON] idx=193 id=0193 audio gesetzt -> 0193.mp3
+[GEN ] idx=193 id=0193 -> 0193.mp3
+[OK  ] idx=193 id=0193 -> erzeugt
+[JSON] idx=194 id=0194 audio gesetzt -> 0194.mp3
+[GEN ] idx=194 id=0194 -> 0194.mp3
+[OK  ] idx=194 id=0194 -> erzeugt
+[JSON] idx=195 id=0195 audio gesetzt -> 0195.mp3
+[GEN ] idx=195 id=0195 -> 0195.mp3
+[OK  ] idx=195 id=0195 -> erzeugt
+[JSON] idx=196 id=0196 audio gesetzt -> 0196.mp3
+[GEN ] idx=196 id=0196 -> 0196.mp3
+[OK  ] idx=196 id=0196 -> erzeugt
+[JSON] idx=197 id=0197 audio gesetzt -> 0197.mp3
+[GEN ] idx=197 id=0197 -> 0197.mp3
+[OK  ] idx=197 id=0197 -> erzeugt
+[JSON] idx=198 id=0198 audio gesetzt -> 0198.mp3
+[GEN ] idx=198 id=0198 -> 0198.mp3
+[OK  ] idx=198 id=0198 -> erzeugt
+[JSON] idx=199 id=0199 audio gesetzt -> 0199.mp3
+[GEN ] idx=199 id=0199 -> 0199.mp3
+[OK  ] idx=199 id=0199 -> erzeugt
+[JSON] idx=200 id=0200 audio gesetzt -> 0200.mp3
+[GEN ] idx=200 id=0200 -> 0200.mp3
+[OK  ] idx=200 id=0200 -> erzeugt
+[JSON] idx=201 id=0201 audio gesetzt -> 0201.mp3
+[GEN ] idx=201 id=0201 -> 0201.mp3
+[OK  ] idx=201 id=0201 -> erzeugt
+[JSON] idx=202 id=0202 audio gesetzt -> 0202.mp3
+[GEN ] idx=202 id=0202 -> 0202.mp3
+[OK  ] idx=202 id=0202 -> erzeugt
+[JSON] idx=203 id=0203 audio gesetzt -> 0203.mp3
+[GEN ] idx=203 id=0203 -> 0203.mp3
+[OK  ] idx=203 id=0203 -> erzeugt
+[JSON] idx=204 id=0204 audio gesetzt -> 0204.mp3
+[GEN ] idx=204 id=0204 -> 0204.mp3
+[OK  ] idx=204 id=0204 -> erzeugt
+[JSON] idx=205 id=0205 audio gesetzt -> 0205.mp3
+[GEN ] idx=205 id=0205 -> 0205.mp3
+[OK  ] idx=205 id=0205 -> erzeugt
+[JSON] idx=206 id=0206 audio gesetzt -> 0206.mp3
+[GEN ] idx=206 id=0206 -> 0206.mp3
+[OK  ] idx=206 id=0206 -> erzeugt
+[JSON] idx=207 id=0207 audio gesetzt -> 0207.mp3
+[GEN ] idx=207 id=0207 -> 0207.mp3
+[OK  ] idx=207 id=0207 -> erzeugt
+[JSON] idx=208 id=0208 audio gesetzt -> 0208.mp3
+[GEN ] idx=208 id=0208 -> 0208.mp3
+[OK  ] idx=208 id=0208 -> erzeugt
+[JSON] idx=209 id=0209 audio gesetzt -> 0209.mp3
+[GEN ] idx=209 id=0209 -> 0209.mp3
+[OK  ] idx=209 id=0209 -> erzeugt
+[JSON] idx=210 id=0210 audio gesetzt -> 0210.mp3
+[GEN ] idx=210 id=0210 -> 0210.mp3
+[OK  ] idx=210 id=0210 -> erzeugt
+[JSON] idx=211 id=0211 audio gesetzt -> 0211.mp3
+[GEN ] idx=211 id=0211 -> 0211.mp3
+[OK  ] idx=211 id=0211 -> erzeugt
+[JSON] idx=212 id=0212 audio gesetzt -> 0212.mp3
+[GEN ] idx=212 id=0212 -> 0212.mp3
+[OK  ] idx=212 id=0212 -> erzeugt
+[JSON] idx=213 id=0213 audio gesetzt -> 0213.mp3
+[GEN ] idx=213 id=0213 -> 0213.mp3
+[OK  ] idx=213 id=0213 -> erzeugt
+[JSON] idx=214 id=0214 audio gesetzt -> 0214.mp3
+[GEN ] idx=214 id=0214 -> 0214.mp3
+[OK  ] idx=214 id=0214 -> erzeugt
+[JSON] idx=215 id=0215 audio gesetzt -> 0215.mp3
+[GEN ] idx=215 id=0215 -> 0215.mp3
+[OK  ] idx=215 id=0215 -> erzeugt
+[JSON] idx=216 id=0216 audio gesetzt -> 0216.mp3
+[GEN ] idx=216 id=0216 -> 0216.mp3
+[OK  ] idx=216 id=0216 -> erzeugt
+[JSON] idx=217 id=0217 audio gesetzt -> 0217.mp3
+[GEN ] idx=217 id=0217 -> 0217.mp3
+[OK  ] idx=217 id=0217 -> erzeugt
+[JSON] idx=218 id=0218 audio gesetzt -> 0218.mp3
+[GEN ] idx=218 id=0218 -> 0218.mp3
+[OK  ] idx=218 id=0218 -> erzeugt
+[JSON] idx=219 id=0219 audio gesetzt -> 0219.mp3
+[GEN ] idx=219 id=0219 -> 0219.mp3
+[OK  ] idx=219 id=0219 -> erzeugt
+[JSON] idx=220 id=0220 audio gesetzt -> 0220.mp3
+[GEN ] idx=220 id=0220 -> 0220.mp3
+[OK  ] idx=220 id=0220 -> erzeugt
+[JSON] idx=221 id=0221 audio gesetzt -> 0221.mp3
+[GEN ] idx=221 id=0221 -> 0221.mp3
+[OK  ] idx=221 id=0221 -> erzeugt
+[JSON] idx=222 id=0222 audio gesetzt -> 0222.mp3
+[GEN ] idx=222 id=0222 -> 0222.mp3
+[OK  ] idx=222 id=0222 -> erzeugt
+[JSON] idx=223 id=0223 audio gesetzt -> 0223.mp3
+[GEN ] idx=223 id=0223 -> 0223.mp3
+[OK  ] idx=223 id=0223 -> erzeugt
+[JSON] idx=224 id=0224 audio gesetzt -> 0224.mp3
+[GEN ] idx=224 id=0224 -> 0224.mp3
+[OK  ] idx=224 id=0224 -> erzeugt
+[JSON] idx=225 id=0225 audio gesetzt -> 0225.mp3
+[GEN ] idx=225 id=0225 -> 0225.mp3
+[OK  ] idx=225 id=0225 -> erzeugt
+[JSON] idx=226 id=0226 audio gesetzt -> 0226.mp3
+[GEN ] idx=226 id=0226 -> 0226.mp3
+[OK  ] idx=226 id=0226 -> erzeugt
+[JSON] idx=227 id=0227 audio gesetzt -> 0227.mp3
+[GEN ] idx=227 id=0227 -> 0227.mp3
+[OK  ] idx=227 id=0227 -> erzeugt
+[JSON] idx=228 id=0228 audio gesetzt -> 0228.mp3
+[GEN ] idx=228 id=0228 -> 0228.mp3
+[OK  ] idx=228 id=0228 -> erzeugt
+[JSON] idx=229 id=0229 audio gesetzt -> 0229.mp3
+[GEN ] idx=229 id=0229 -> 0229.mp3
+[OK  ] idx=229 id=0229 -> erzeugt
+[JSON] idx=230 id=0230 audio gesetzt -> 0230.mp3
+[GEN ] idx=230 id=0230 -> 0230.mp3
+[OK  ] idx=230 id=0230 -> erzeugt
+[JSON] idx=231 id=0231 audio gesetzt -> 0231.mp3
+[GEN ] idx=231 id=0231 -> 0231.mp3
+[OK  ] idx=231 id=0231 -> erzeugt
+[JSON] idx=232 id=0232 audio gesetzt -> 0232.mp3
+[GEN ] idx=232 id=0232 -> 0232.mp3
+[OK  ] idx=232 id=0232 -> erzeugt
+[JSON] idx=233 id=0233 audio gesetzt -> 0233.mp3
+[GEN ] idx=233 id=0233 -> 0233.mp3
+[OK  ] idx=233 id=0233 -> erzeugt
+[JSON] idx=234 id=0234 audio gesetzt -> 0234.mp3
+[GEN ] idx=234 id=0234 -> 0234.mp3
+[OK  ] idx=234 id=0234 -> erzeugt
+[JSON] idx=235 id=0235 audio gesetzt -> 0235.mp3
+[GEN ] idx=235 id=0235 -> 0235.mp3
+[OK  ] idx=235 id=0235 -> erzeugt
+[JSON] idx=236 id=0236 audio gesetzt -> 0236.mp3
+[GEN ] idx=236 id=0236 -> 0236.mp3
+[OK  ] idx=236 id=0236 -> erzeugt
+[JSON] idx=237 id=0237 audio gesetzt -> 0237.mp3
+[GEN ] idx=237 id=0237 -> 0237.mp3
+[OK  ] idx=237 id=0237 -> erzeugt
+[JSON] idx=238 id=0238 audio gesetzt -> 0238.mp3
+[GEN ] idx=238 id=0238 -> 0238.mp3
+[OK  ] idx=238 id=0238 -> erzeugt
+[JSON] idx=239 id=0239 audio gesetzt -> 0239.mp3
+[GEN ] idx=239 id=0239 -> 0239.mp3
+[OK  ] idx=239 id=0239 -> erzeugt
+[JSON] idx=240 id=0240 audio gesetzt -> 0240.mp3
+[GEN ] idx=240 id=0240 -> 0240.mp3
+[OK  ] idx=240 id=0240 -> erzeugt
+[JSON] idx=241 id=0241 audio gesetzt -> 0241.mp3
+[GEN ] idx=241 id=0241 -> 0241.mp3
+[OK  ] idx=241 id=0241 -> erzeugt
+[JSON] idx=242 id=0242 audio gesetzt -> 0242.mp3
+[GEN ] idx=242 id=0242 -> 0242.mp3
+[OK  ] idx=242 id=0242 -> erzeugt
+[JSON] idx=243 id=0243 audio gesetzt -> 0243.mp3
+[GEN ] idx=243 id=0243 -> 0243.mp3
+[OK  ] idx=243 id=0243 -> erzeugt
+[JSON] idx=244 id=0244 audio gesetzt -> 0244.mp3
+[GEN ] idx=244 id=0244 -> 0244.mp3
+[OK  ] idx=244 id=0244 -> erzeugt
+[JSON] idx=245 id=0245 audio gesetzt -> 0245.mp3
+[GEN ] idx=245 id=0245 -> 0245.mp3
+[OK  ] idx=245 id=0245 -> erzeugt
+[JSON] idx=246 id=0246 audio gesetzt -> 0246.mp3
+[GEN ] idx=246 id=0246 -> 0246.mp3
+[OK  ] idx=246 id=0246 -> erzeugt
+[JSON] idx=247 id=0247 audio gesetzt -> 0247.mp3
+[GEN ] idx=247 id=0247 -> 0247.mp3
+[OK  ] idx=247 id=0247 -> erzeugt
+[JSON] idx=248 id=0248 audio gesetzt -> 0248.mp3
+[GEN ] idx=248 id=0248 -> 0248.mp3
+[OK  ] idx=248 id=0248 -> erzeugt
+[JSON] idx=249 id=0249 audio gesetzt -> 0249.mp3
+[GEN ] idx=249 id=0249 -> 0249.mp3
+[OK  ] idx=249 id=0249 -> erzeugt
+[JSON] idx=250 id=0250 audio gesetzt -> 0250.mp3
+[GEN ] idx=250 id=0250 -> 0250.mp3
+[OK  ] idx=250 id=0250 -> erzeugt
+[JSON] idx=251 id=0251 audio gesetzt -> 0251.mp3
+[GEN ] idx=251 id=0251 -> 0251.mp3
+[OK  ] idx=251 id=0251 -> erzeugt
+[JSON] idx=252 id=0252 audio gesetzt -> 0252.mp3
+[GEN ] idx=252 id=0252 -> 0252.mp3
+[OK  ] idx=252 id=0252 -> erzeugt
+[JSON] idx=253 id=0253 audio gesetzt -> 0253.mp3
+[GEN ] idx=253 id=0253 -> 0253.mp3
+[OK  ] idx=253 id=0253 -> erzeugt
+[JSON] idx=254 id=0254 audio gesetzt -> 0254.mp3
+[GEN ] idx=254 id=0254 -> 0254.mp3
+[OK  ] idx=254 id=0254 -> erzeugt
+[JSON] idx=255 id=0255 audio gesetzt -> 0255.mp3
+[GEN ] idx=255 id=0255 -> 0255.mp3
+[OK  ] idx=255 id=0255 -> erzeugt
+[JSON] idx=256 id=0256 audio gesetzt -> 0256.mp3
+[GEN ] idx=256 id=0256 -> 0256.mp3
+[OK  ] idx=256 id=0256 -> erzeugt
+[JSON] idx=257 id=0257 audio gesetzt -> 0257.mp3
+[GEN ] idx=257 id=0257 -> 0257.mp3
+[OK  ] idx=257 id=0257 -> erzeugt
+[JSON] idx=258 id=0258 audio gesetzt -> 0258.mp3
+[GEN ] idx=258 id=0258 -> 0258.mp3
+[OK  ] idx=258 id=0258 -> erzeugt
+[JSON] idx=259 id=0259 audio gesetzt -> 0259.mp3
+[GEN ] idx=259 id=0259 -> 0259.mp3
+[OK  ] idx=259 id=0259 -> erzeugt
+[JSON] idx=260 id=0260 audio gesetzt -> 0260.mp3
+[GEN ] idx=260 id=0260 -> 0260.mp3
+[OK  ] idx=260 id=0260 -> erzeugt
+[JSON] idx=261 id=0261 audio gesetzt -> 0261.mp3
+[GEN ] idx=261 id=0261 -> 0261.mp3
+[OK  ] idx=261 id=0261 -> erzeugt
+[JSON] idx=262 id=0262 audio gesetzt -> 0262.mp3
+[GEN ] idx=262 id=0262 -> 0262.mp3
+[OK  ] idx=262 id=0262 -> erzeugt
+[JSON] idx=263 id=0263 audio gesetzt -> 0263.mp3
+[GEN ] idx=263 id=0263 -> 0263.mp3
+[OK  ] idx=263 id=0263 -> erzeugt
+[JSON] idx=264 id=0264 audio gesetzt -> 0264.mp3
+[GEN ] idx=264 id=0264 -> 0264.mp3
+[OK  ] idx=264 id=0264 -> erzeugt
+[JSON] idx=265 id=0265 audio gesetzt -> 0265.mp3
+[GEN ] idx=265 id=0265 -> 0265.mp3
+[OK  ] idx=265 id=0265 -> erzeugt
+[JSON] idx=266 id=0266 audio gesetzt -> 0266.mp3
+[GEN ] idx=266 id=0266 -> 0266.mp3
+[OK  ] idx=266 id=0266 -> erzeugt
+[JSON] idx=267 id=0267 audio gesetzt -> 0267.mp3
+[GEN ] idx=267 id=0267 -> 0267.mp3
+[OK  ] idx=267 id=0267 -> erzeugt
+[JSON] idx=268 id=0268 audio gesetzt -> 0268.mp3
+[GEN ] idx=268 id=0268 -> 0268.mp3
+[OK  ] idx=268 id=0268 -> erzeugt
+[JSON] idx=269 id=0269 audio gesetzt -> 0269.mp3
+[GEN ] idx=269 id=0269 -> 0269.mp3
+[OK  ] idx=269 id=0269 -> erzeugt
+[JSON] idx=270 id=0270 audio gesetzt -> 0270.mp3
+[GEN ] idx=270 id=0270 -> 0270.mp3
+[OK  ] idx=270 id=0270 -> erzeugt
+[JSON] idx=271 id=0271 audio gesetzt -> 0271.mp3
+[GEN ] idx=271 id=0271 -> 0271.mp3
+[OK  ] idx=271 id=0271 -> erzeugt
+[JSON] idx=272 id=0272 audio gesetzt -> 0272.mp3
+[GEN ] idx=272 id=0272 -> 0272.mp3
+[OK  ] idx=272 id=0272 -> erzeugt
+[JSON] idx=273 id=0273 audio gesetzt -> 0273.mp3
+[GEN ] idx=273 id=0273 -> 0273.mp3
+[OK  ] idx=273 id=0273 -> erzeugt
+[JSON] idx=274 id=0274 audio gesetzt -> 0274.mp3
+[GEN ] idx=274 id=0274 -> 0274.mp3
+[OK  ] idx=274 id=0274 -> erzeugt
+[JSON] idx=275 id=0275 audio gesetzt -> 0275.mp3
+[GEN ] idx=275 id=0275 -> 0275.mp3
+[OK  ] idx=275 id=0275 -> erzeugt
+[JSON] idx=276 id=0276 audio gesetzt -> 0276.mp3
+[GEN ] idx=276 id=0276 -> 0276.mp3
+[OK  ] idx=276 id=0276 -> erzeugt
+[JSON] idx=277 id=0277 audio gesetzt -> 0277.mp3
+[GEN ] idx=277 id=0277 -> 0277.mp3
+[OK  ] idx=277 id=0277 -> erzeugt
+[JSON] idx=278 id=0278 audio gesetzt -> 0278.mp3
+[GEN ] idx=278 id=0278 -> 0278.mp3
+[OK  ] idx=278 id=0278 -> erzeugt
+[JSON] idx=279 id=0279 audio gesetzt -> 0279.mp3
+[GEN ] idx=279 id=0279 -> 0279.mp3
+[OK  ] idx=279 id=0279 -> erzeugt
+[JSON] idx=280 id=0280 audio gesetzt -> 0280.mp3
+[GEN ] idx=280 id=0280 -> 0280.mp3
+[OK  ] idx=280 id=0280 -> erzeugt
+[JSON] idx=281 id=0281 audio gesetzt -> 0281.mp3
+[GEN ] idx=281 id=0281 -> 0281.mp3
+[OK  ] idx=281 id=0281 -> erzeugt
+[JSON] idx=282 id=0282 audio gesetzt -> 0282.mp3
+[GEN ] idx=282 id=0282 -> 0282.mp3
+[OK  ] idx=282 id=0282 -> erzeugt
+[JSON] idx=283 id=0283 audio gesetzt -> 0283.mp3
+[GEN ] idx=283 id=0283 -> 0283.mp3
+[OK  ] idx=283 id=0283 -> erzeugt
+[JSON] idx=284 id=0284 audio gesetzt -> 0284.mp3
+[GEN ] idx=284 id=0284 -> 0284.mp3
+[OK  ] idx=284 id=0284 -> erzeugt
+[JSON] idx=285 id=0285 audio gesetzt -> 0285.mp3
+[GEN ] idx=285 id=0285 -> 0285.mp3
+[OK  ] idx=285 id=0285 -> erzeugt
+[JSON] idx=286 id=0286 audio gesetzt -> 0286.mp3
+[GEN ] idx=286 id=0286 -> 0286.mp3
+[OK  ] idx=286 id=0286 -> erzeugt
+[JSON] idx=287 id=0287 audio gesetzt -> 0287.mp3
+[GEN ] idx=287 id=0287 -> 0287.mp3
+[OK  ] idx=287 id=0287 -> erzeugt
+[JSON] idx=288 id=0288 audio gesetzt -> 0288.mp3
+[GEN ] idx=288 id=0288 -> 0288.mp3
+[OK  ] idx=288 id=0288 -> erzeugt
+[JSON] idx=289 id=0289 audio gesetzt -> 0289.mp3
+[GEN ] idx=289 id=0289 -> 0289.mp3
+[OK  ] idx=289 id=0289 -> erzeugt
+[JSON] idx=290 id=0290 audio gesetzt -> 0290.mp3
+[GEN ] idx=290 id=0290 -> 0290.mp3
+[OK  ] idx=290 id=0290 -> erzeugt
+[JSON] idx=291 id=0291 audio gesetzt -> 0291.mp3
+[GEN ] idx=291 id=0291 -> 0291.mp3
+[OK  ] idx=291 id=0291 -> erzeugt
+[JSON] idx=292 id=0292 audio gesetzt -> 0292.mp3
+[GEN ] idx=292 id=0292 -> 0292.mp3
+[OK  ] idx=292 id=0292 -> erzeugt
+[JSON] idx=293 id=0293 audio gesetzt -> 0293.mp3
+[GEN ] idx=293 id=0293 -> 0293.mp3
+[OK  ] idx=293 id=0293 -> erzeugt
+[JSON] idx=294 id=0294 audio gesetzt -> 0294.mp3
+[GEN ] idx=294 id=0294 -> 0294.mp3
+[OK  ] idx=294 id=0294 -> erzeugt
+[JSON] idx=295 id=0295 audio gesetzt -> 0295.mp3
+[GEN ] idx=295 id=0295 -> 0295.mp3
+[OK  ] idx=295 id=0295 -> erzeugt
+[JSON] idx=296 id=0296 audio gesetzt -> 0296.mp3
+[GEN ] idx=296 id=0296 -> 0296.mp3
+[OK  ] idx=296 id=0296 -> erzeugt
+[JSON] idx=297 id=0297 audio gesetzt -> 0297.mp3
+[GEN ] idx=297 id=0297 -> 0297.mp3
+[OK  ] idx=297 id=0297 -> erzeugt
+[JSON] idx=298 id=0298 audio gesetzt -> 0298.mp3
+[GEN ] idx=298 id=0298 -> 0298.mp3
+[OK  ] idx=298 id=0298 -> erzeugt
+[JSON] idx=299 id=0299 audio gesetzt -> 0299.mp3
+[GEN ] idx=299 id=0299 -> 0299.mp3
+[OK  ] idx=299 id=0299 -> erzeugt
+[JSON] idx=300 id=0300 audio gesetzt -> 0300.mp3
+[GEN ] idx=300 id=0300 -> 0300.mp3
+[OK  ] idx=300 id=0300 -> erzeugt
+[JSON] idx=301 id=0301 audio gesetzt -> 0301.mp3
+[GEN ] idx=301 id=0301 -> 0301.mp3
+[OK  ] idx=301 id=0301 -> erzeugt
+[JSON] idx=302 id=0302 audio gesetzt -> 0302.mp3
+[GEN ] idx=302 id=0302 -> 0302.mp3
+[OK  ] idx=302 id=0302 -> erzeugt
+[JSON] idx=303 id=0303 audio gesetzt -> 0303.mp3
+[GEN ] idx=303 id=0303 -> 0303.mp3
+[OK  ] idx=303 id=0303 -> erzeugt
+[JSON] idx=304 id=0304 audio gesetzt -> 0304.mp3
+[GEN ] idx=304 id=0304 -> 0304.mp3
+[OK  ] idx=304 id=0304 -> erzeugt
+[JSON] idx=305 id=0305 audio gesetzt -> 0305.mp3
+[GEN ] idx=305 id=0305 -> 0305.mp3
+[OK  ] idx=305 id=0305 -> erzeugt
+[JSON] idx=306 id=0306 audio gesetzt -> 0306.mp3
+[GEN ] idx=306 id=0306 -> 0306.mp3
+[OK  ] idx=306 id=0306 -> erzeugt
+[JSON] idx=307 id=0307 audio gesetzt -> 0307.mp3
+[GEN ] idx=307 id=0307 -> 0307.mp3
+[OK  ] idx=307 id=0307 -> erzeugt
+[JSON] idx=308 id=0308 audio gesetzt -> 0308.mp3
+[GEN ] idx=308 id=0308 -> 0308.mp3
+[OK  ] idx=308 id=0308 -> erzeugt
+[JSON] idx=309 id=0309 audio gesetzt -> 0309.mp3
+[GEN ] idx=309 id=0309 -> 0309.mp3
+[OK  ] idx=309 id=0309 -> erzeugt
+[JSON] idx=310 id=0310 audio gesetzt -> 0310.mp3
+[GEN ] idx=310 id=0310 -> 0310.mp3
+[OK  ] idx=310 id=0310 -> erzeugt
+[JSON] idx=311 id=0311 audio gesetzt -> 0311.mp3
+[GEN ] idx=311 id=0311 -> 0311.mp3
+[OK  ] idx=311 id=0311 -> erzeugt
+[JSON] idx=312 id=0312 audio gesetzt -> 0312.mp3
+[GEN ] idx=312 id=0312 -> 0312.mp3
+[OK  ] idx=312 id=0312 -> erzeugt
+[JSON] idx=313 id=0313 audio gesetzt -> 0313.mp3
+[GEN ] idx=313 id=0313 -> 0313.mp3
+[OK  ] idx=313 id=0313 -> erzeugt
+[JSON] idx=314 id=0314 audio gesetzt -> 0314.mp3
+[GEN ] idx=314 id=0314 -> 0314.mp3
+[OK  ] idx=314 id=0314 -> erzeugt
+[JSON] idx=315 id=0315 audio gesetzt -> 0315.mp3
+[GEN ] idx=315 id=0315 -> 0315.mp3
+[OK  ] idx=315 id=0315 -> erzeugt
+[JSON] idx=316 id=0316 audio gesetzt -> 0316.mp3
+[GEN ] idx=316 id=0316 -> 0316.mp3
+[OK  ] idx=316 id=0316 -> erzeugt
+[JSON] idx=317 id=0317 audio gesetzt -> 0317.mp3
+[GEN ] idx=317 id=0317 -> 0317.mp3
+[OK  ] idx=317 id=0317 -> erzeugt
+[JSON] idx=318 id=0318 audio gesetzt -> 0318.mp3
+[GEN ] idx=318 id=0318 -> 0318.mp3
+[OK  ] idx=318 id=0318 -> erzeugt
+[JSON] idx=319 id=0319 audio gesetzt -> 0319.mp3
+[GEN ] idx=319 id=0319 -> 0319.mp3
+[OK  ] idx=319 id=0319 -> erzeugt
+[JSON] idx=320 id=0320 audio gesetzt -> 0320.mp3
+[GEN ] idx=320 id=0320 -> 0320.mp3
+[OK  ] idx=320 id=0320 -> erzeugt
+[JSON] idx=321 id=0321 audio gesetzt -> 0321.mp3
+[GEN ] idx=321 id=0321 -> 0321.mp3
+[OK  ] idx=321 id=0321 -> erzeugt
+[JSON] idx=322 id=0322 audio gesetzt -> 0322.mp3
+[GEN ] idx=322 id=0322 -> 0322.mp3
+[OK  ] idx=322 id=0322 -> erzeugt
+[JSON] idx=323 id=0323 audio gesetzt -> 0323.mp3
+[GEN ] idx=323 id=0323 -> 0323.mp3
+[OK  ] idx=323 id=0323 -> erzeugt
+[JSON] idx=324 id=0324 audio gesetzt -> 0324.mp3
+[GEN ] idx=324 id=0324 -> 0324.mp3
+[OK  ] idx=324 id=0324 -> erzeugt
+[JSON] idx=325 id=0325 audio gesetzt -> 0325.mp3
+[GEN ] idx=325 id=0325 -> 0325.mp3
+[OK  ] idx=325 id=0325 -> erzeugt
+[JSON] idx=326 id=0326 audio gesetzt -> 0326.mp3
+[GEN ] idx=326 id=0326 -> 0326.mp3
+[OK  ] idx=326 id=0326 -> erzeugt
+[JSON] idx=327 id=0327 audio gesetzt -> 0327.mp3
+[GEN ] idx=327 id=0327 -> 0327.mp3
+[OK  ] idx=327 id=0327 -> erzeugt
+[JSON] idx=328 id=0328 audio gesetzt -> 0328.mp3
+[GEN ] idx=328 id=0328 -> 0328.mp3
+[OK  ] idx=328 id=0328 -> erzeugt
+[JSON] idx=329 id=0329 audio gesetzt -> 0329.mp3
+[GEN ] idx=329 id=0329 -> 0329.mp3
+[OK  ] idx=329 id=0329 -> erzeugt
+[JSON] idx=330 id=0330 audio gesetzt -> 0330.mp3
+[GEN ] idx=330 id=0330 -> 0330.mp3
+[OK  ] idx=330 id=0330 -> erzeugt
+[JSON] idx=331 id=0331 audio gesetzt -> 0331.mp3
+[GEN ] idx=331 id=0331 -> 0331.mp3
+[OK  ] idx=331 id=0331 -> erzeugt
+[JSON] idx=332 id=0332 audio gesetzt -> 0332.mp3
+[GEN ] idx=332 id=0332 -> 0332.mp3
+[OK  ] idx=332 id=0332 -> erzeugt
+[JSON] idx=333 id=0333 audio gesetzt -> 0333.mp3
+[GEN ] idx=333 id=0333 -> 0333.mp3
+[OK  ] idx=333 id=0333 -> erzeugt
+[JSON] idx=334 id=0334 audio gesetzt -> 0334.mp3
+[GEN ] idx=334 id=0334 -> 0334.mp3
+[OK  ] idx=334 id=0334 -> erzeugt
+[JSON] idx=335 id=0335 audio gesetzt -> 0335.mp3
+[GEN ] idx=335 id=0335 -> 0335.mp3
+[OK  ] idx=335 id=0335 -> erzeugt
+[JSON] idx=336 id=0336 audio gesetzt -> 0336.mp3
+[GEN ] idx=336 id=0336 -> 0336.mp3
+[OK  ] idx=336 id=0336 -> erzeugt
+[JSON] idx=337 id=0337 audio gesetzt -> 0337.mp3
+[GEN ] idx=337 id=0337 -> 0337.mp3
+[OK  ] idx=337 id=0337 -> erzeugt
+[JSON] idx=338 id=0338 audio gesetzt -> 0338.mp3
+[GEN ] idx=338 id=0338 -> 0338.mp3
+[OK  ] idx=338 id=0338 -> erzeugt
+[JSON] idx=339 id=0339 audio gesetzt -> 0339.mp3
+[GEN ] idx=339 id=0339 -> 0339.mp3
+[OK  ] idx=339 id=0339 -> erzeugt
+[JSON] idx=340 id=0340 audio gesetzt -> 0340.mp3
+[GEN ] idx=340 id=0340 -> 0340.mp3
+[OK  ] idx=340 id=0340 -> erzeugt
+[JSON] idx=341 id=0341 audio gesetzt -> 0341.mp3
+[GEN ] idx=341 id=0341 -> 0341.mp3
+[OK  ] idx=341 id=0341 -> erzeugt
+[JSON] idx=342 id=0342 audio gesetzt -> 0342.mp3
+[GEN ] idx=342 id=0342 -> 0342.mp3
+[OK  ] idx=342 id=0342 -> erzeugt
+[JSON] idx=343 id=0343 audio gesetzt -> 0343.mp3
+[GEN ] idx=343 id=0343 -> 0343.mp3
+[OK  ] idx=343 id=0343 -> erzeugt
+[JSON] idx=344 id=0344 audio gesetzt -> 0344.mp3
+[GEN ] idx=344 id=0344 -> 0344.mp3
+[OK  ] idx=344 id=0344 -> erzeugt
+[JSON] idx=345 id=0345 audio gesetzt -> 0345.mp3
+[GEN ] idx=345 id=0345 -> 0345.mp3
+[OK  ] idx=345 id=0345 -> erzeugt
+[JSON] idx=346 id=0346 audio gesetzt -> 0346.mp3
+[GEN ] idx=346 id=0346 -> 0346.mp3
+[OK  ] idx=346 id=0346 -> erzeugt
+[JSON] idx=347 id=0347 audio gesetzt -> 0347.mp3
+[GEN ] idx=347 id=0347 -> 0347.mp3
+[OK  ] idx=347 id=0347 -> erzeugt
+[JSON] idx=348 id=0348 audio gesetzt -> 0348.mp3
+[GEN ] idx=348 id=0348 -> 0348.mp3
+[OK  ] idx=348 id=0348 -> erzeugt
+[JSON] idx=349 id=0349 audio gesetzt -> 0349.mp3
+[GEN ] idx=349 id=0349 -> 0349.mp3
+[OK  ] idx=349 id=0349 -> erzeugt
+[JSON] idx=350 id=0350 audio gesetzt -> 0350.mp3
+[GEN ] idx=350 id=0350 -> 0350.mp3
+[OK  ] idx=350 id=0350 -> erzeugt
+[JSON] idx=351 id=0351 audio gesetzt -> 0351.mp3
+[GEN ] idx=351 id=0351 -> 0351.mp3
+[OK  ] idx=351 id=0351 -> erzeugt
+[JSON] idx=352 id=0352 audio gesetzt -> 0352.mp3
+[GEN ] idx=352 id=0352 -> 0352.mp3
+[OK  ] idx=352 id=0352 -> erzeugt
+[JSON] idx=353 id=0353 audio gesetzt -> 0353.mp3
+[GEN ] idx=353 id=0353 -> 0353.mp3
+[OK  ] idx=353 id=0353 -> erzeugt
+[JSON] idx=354 id=0354 audio gesetzt -> 0354.mp3
+[GEN ] idx=354 id=0354 -> 0354.mp3
+[OK  ] idx=354 id=0354 -> erzeugt
+[JSON] idx=355 id=0355 audio gesetzt -> 0355.mp3
+[GEN ] idx=355 id=0355 -> 0355.mp3
+[OK  ] idx=355 id=0355 -> erzeugt
+[JSON] idx=356 id=0356 audio gesetzt -> 0356.mp3
+[GEN ] idx=356 id=0356 -> 0356.mp3
+[OK  ] idx=356 id=0356 -> erzeugt
+[JSON] idx=357 id=0357 audio gesetzt -> 0357.mp3
+[GEN ] idx=357 id=0357 -> 0357.mp3
+[OK  ] idx=357 id=0357 -> erzeugt
+[JSON] idx=358 id=0358 audio gesetzt -> 0358.mp3
+[GEN ] idx=358 id=0358 -> 0358.mp3
+[OK  ] idx=358 id=0358 -> erzeugt
+[JSON] idx=359 id=0359 audio gesetzt -> 0359.mp3
+[GEN ] idx=359 id=0359 -> 0359.mp3
+[OK  ] idx=359 id=0359 -> erzeugt
+[JSON] idx=360 id=0360 audio gesetzt -> 0360.mp3
+[GEN ] idx=360 id=0360 -> 0360.mp3
+[OK  ] idx=360 id=0360 -> erzeugt
+[JSON] idx=361 id=0361 audio gesetzt -> 0361.mp3
+[GEN ] idx=361 id=0361 -> 0361.mp3
+[OK  ] idx=361 id=0361 -> erzeugt
+[JSON] idx=362 id=0362 audio gesetzt -> 0362.mp3
+[GEN ] idx=362 id=0362 -> 0362.mp3
+[OK  ] idx=362 id=0362 -> erzeugt
+[JSON] idx=363 id=0363 audio gesetzt -> 0363.mp3
+[GEN ] idx=363 id=0363 -> 0363.mp3
+[OK  ] idx=363 id=0363 -> erzeugt
+[JSON] idx=364 id=0364 audio gesetzt -> 0364.mp3
+[GEN ] idx=364 id=0364 -> 0364.mp3
+[OK  ] idx=364 id=0364 -> erzeugt
+[JSON] idx=365 id=0365 audio gesetzt -> 0365.mp3
+[GEN ] idx=365 id=0365 -> 0365.mp3
+[OK  ] idx=365 id=0365 -> erzeugt
+[JSON] idx=366 id=0366 audio gesetzt -> 0366.mp3
+[GEN ] idx=366 id=0366 -> 0366.mp3
+[OK  ] idx=366 id=0366 -> erzeugt
+[JSON] idx=367 id=0367 audio gesetzt -> 0367.mp3
+[GEN ] idx=367 id=0367 -> 0367.mp3
+[OK  ] idx=367 id=0367 -> erzeugt
+[JSON] idx=368 id=0368 audio gesetzt -> 0368.mp3
+[GEN ] idx=368 id=0368 -> 0368.mp3
+[OK  ] idx=368 id=0368 -> erzeugt
+[JSON] idx=369 id=0369 audio gesetzt -> 0369.mp3
+[GEN ] idx=369 id=0369 -> 0369.mp3
+[OK  ] idx=369 id=0369 -> erzeugt
+[JSON] idx=370 id=0370 audio gesetzt -> 0370.mp3
+[GEN ] idx=370 id=0370 -> 0370.mp3
+[OK  ] idx=370 id=0370 -> erzeugt
+[JSON] idx=371 id=0371 audio gesetzt -> 0371.mp3
+[GEN ] idx=371 id=0371 -> 0371.mp3
+[OK  ] idx=371 id=0371 -> erzeugt
+[JSON] idx=372 id=0372 audio gesetzt -> 0372.mp3
+[GEN ] idx=372 id=0372 -> 0372.mp3
+[OK  ] idx=372 id=0372 -> erzeugt
+[JSON] idx=373 id=0373 audio gesetzt -> 0373.mp3
+[GEN ] idx=373 id=0373 -> 0373.mp3
+[OK  ] idx=373 id=0373 -> erzeugt
+[JSON] idx=374 id=0374 audio gesetzt -> 0374.mp3
+[GEN ] idx=374 id=0374 -> 0374.mp3
+[OK  ] idx=374 id=0374 -> erzeugt
+[JSON] idx=375 id=0375 audio gesetzt -> 0375.mp3
+[GEN ] idx=375 id=0375 -> 0375.mp3
+[OK  ] idx=375 id=0375 -> erzeugt
+[JSON] idx=376 id=0376 audio gesetzt -> 0376.mp3
+[GEN ] idx=376 id=0376 -> 0376.mp3
+[OK  ] idx=376 id=0376 -> erzeugt
+[JSON] idx=377 id=0377 audio gesetzt -> 0377.mp3
+[GEN ] idx=377 id=0377 -> 0377.mp3
+[OK  ] idx=377 id=0377 -> erzeugt
+[JSON] idx=378 id=0378 audio gesetzt -> 0378.mp3
+[GEN ] idx=378 id=0378 -> 0378.mp3
+[OK  ] idx=378 id=0378 -> erzeugt
+[JSON] idx=379 id=0379 audio gesetzt -> 0379.mp3
+[GEN ] idx=379 id=0379 -> 0379.mp3
+[OK  ] idx=379 id=0379 -> erzeugt
+[JSON] idx=380 id=0380 audio gesetzt -> 0380.mp3
+[GEN ] idx=380 id=0380 -> 0380.mp3
+[OK  ] idx=380 id=0380 -> erzeugt
+[JSON] idx=381 id=0381 audio gesetzt -> 0381.mp3
+[GEN ] idx=381 id=0381 -> 0381.mp3
+[OK  ] idx=381 id=0381 -> erzeugt
+[JSON] idx=382 id=0382 audio gesetzt -> 0382.mp3
+[GEN ] idx=382 id=0382 -> 0382.mp3
+[OK  ] idx=382 id=0382 -> erzeugt
+[JSON] idx=383 id=0383 audio gesetzt -> 0383.mp3
+[GEN ] idx=383 id=0383 -> 0383.mp3
+[OK  ] idx=383 id=0383 -> erzeugt
+[JSON] idx=384 id=0384 audio gesetzt -> 0384.mp3
+[GEN ] idx=384 id=0384 -> 0384.mp3
+[OK  ] idx=384 id=0384 -> erzeugt
+[JSON] idx=385 id=0385 audio gesetzt -> 0385.mp3
+[GEN ] idx=385 id=0385 -> 0385.mp3
+[OK  ] idx=385 id=0385 -> erzeugt
+[JSON] idx=386 id=0386 audio gesetzt -> 0386.mp3
+[GEN ] idx=386 id=0386 -> 0386.mp3
+[OK  ] idx=386 id=0386 -> erzeugt
+[JSON] idx=387 id=0387 audio gesetzt -> 0387.mp3
+[GEN ] idx=387 id=0387 -> 0387.mp3
+[OK  ] idx=387 id=0387 -> erzeugt
+[JSON] idx=388 id=0388 audio gesetzt -> 0388.mp3
+[GEN ] idx=388 id=0388 -> 0388.mp3
+[OK  ] idx=388 id=0388 -> erzeugt
+[JSON] idx=389 id=0389 audio gesetzt -> 0389.mp3
+[GEN ] idx=389 id=0389 -> 0389.mp3
+[OK  ] idx=389 id=0389 -> erzeugt
+[JSON] idx=390 id=0390 audio gesetzt -> 0390.mp3
+[GEN ] idx=390 id=0390 -> 0390.mp3
+[OK  ] idx=390 id=0390 -> erzeugt
+[JSON] idx=391 id=0391 audio gesetzt -> 0391.mp3
+[GEN ] idx=391 id=0391 -> 0391.mp3
+[OK  ] idx=391 id=0391 -> erzeugt
+[JSON] idx=392 id=0392 audio gesetzt -> 0392.mp3
+[GEN ] idx=392 id=0392 -> 0392.mp3
+[OK  ] idx=392 id=0392 -> erzeugt
+[JSON] idx=393 id=0393 audio gesetzt -> 0393.mp3
+[GEN ] idx=393 id=0393 -> 0393.mp3
+[OK  ] idx=393 id=0393 -> erzeugt
+[JSON] idx=394 id=0394 audio gesetzt -> 0394.mp3
+[GEN ] idx=394 id=0394 -> 0394.mp3
+[OK  ] idx=394 id=0394 -> erzeugt
+[JSON] idx=395 id=0395 audio gesetzt -> 0395.mp3
+[GEN ] idx=395 id=0395 -> 0395.mp3
+[OK  ] idx=395 id=0395 -> erzeugt
+[JSON] idx=396 id=0396 audio gesetzt -> 0396.mp3
+[GEN ] idx=396 id=0396 -> 0396.mp3
+[OK  ] idx=396 id=0396 -> erzeugt
+[JSON] idx=397 id=0397 audio gesetzt -> 0397.mp3
+[GEN ] idx=397 id=0397 -> 0397.mp3
+[OK  ] idx=397 id=0397 -> erzeugt
+[JSON] idx=398 id=0398 audio gesetzt -> 0398.mp3
+[GEN ] idx=398 id=0398 -> 0398.mp3
+[OK  ] idx=398 id=0398 -> erzeugt
+[JSON] idx=399 id=0399 audio gesetzt -> 0399.mp3
+[GEN ] idx=399 id=0399 -> 0399.mp3
+[OK  ] idx=399 id=0399 -> erzeugt
+[JSON] idx=400 id=0400 audio gesetzt -> 0400.mp3
+[GEN ] idx=400 id=0400 -> 0400.mp3
+[OK  ] idx=400 id=0400 -> erzeugt
+[JSON] idx=401 id=0401 audio gesetzt -> 0401.mp3
+[GEN ] idx=401 id=0401 -> 0401.mp3
+[OK  ] idx=401 id=0401 -> erzeugt
+[JSON] idx=402 id=0402 audio gesetzt -> 0402.mp3
+[GEN ] idx=402 id=0402 -> 0402.mp3
+[OK  ] idx=402 id=0402 -> erzeugt
+[JSON] idx=403 id=0403 audio gesetzt -> 0403.mp3
+[GEN ] idx=403 id=0403 -> 0403.mp3
+[OK  ] idx=403 id=0403 -> erzeugt
+[JSON] idx=404 id=0404 audio gesetzt -> 0404.mp3
+[GEN ] idx=404 id=0404 -> 0404.mp3
+[OK  ] idx=404 id=0404 -> erzeugt
+[JSON] idx=405 id=0405 audio gesetzt -> 0405.mp3
+[GEN ] idx=405 id=0405 -> 0405.mp3
+[OK  ] idx=405 id=0405 -> erzeugt
+[JSON] idx=406 id=0406 audio gesetzt -> 0406.mp3
+[GEN ] idx=406 id=0406 -> 0406.mp3
+[OK  ] idx=406 id=0406 -> erzeugt
+[JSON] idx=407 id=0407 audio gesetzt -> 0407.mp3
+[GEN ] idx=407 id=0407 -> 0407.mp3
+[OK  ] idx=407 id=0407 -> erzeugt
+[JSON] idx=408 id=0408 audio gesetzt -> 0408.mp3
+[GEN ] idx=408 id=0408 -> 0408.mp3
+[OK  ] idx=408 id=0408 -> erzeugt
+[JSON] idx=409 id=0409 audio gesetzt -> 0409.mp3
+[GEN ] idx=409 id=0409 -> 0409.mp3
+[OK  ] idx=409 id=0409 -> erzeugt
+[JSON] idx=410 id=0410 audio gesetzt -> 0410.mp3
+[GEN ] idx=410 id=0410 -> 0410.mp3
+[OK  ] idx=410 id=0410 -> erzeugt
+[JSON] idx=411 id=0411 audio gesetzt -> 0411.mp3
+[GEN ] idx=411 id=0411 -> 0411.mp3
+[OK  ] idx=411 id=0411 -> erzeugt
+[JSON] idx=412 id=0412 audio gesetzt -> 0412.mp3
+[GEN ] idx=412 id=0412 -> 0412.mp3
+[OK  ] idx=412 id=0412 -> erzeugt
+[JSON] idx=413 id=0413 audio gesetzt -> 0413.mp3
+[GEN ] idx=413 id=0413 -> 0413.mp3
+[OK  ] idx=413 id=0413 -> erzeugt
+[JSON] idx=414 id=0414 audio gesetzt -> 0414.mp3
+[GEN ] idx=414 id=0414 -> 0414.mp3
+[OK  ] idx=414 id=0414 -> erzeugt
+[JSON] idx=415 id=0415 audio gesetzt -> 0415.mp3
+[GEN ] idx=415 id=0415 -> 0415.mp3
+[OK  ] idx=415 id=0415 -> erzeugt
+[JSON] idx=416 id=0416 audio gesetzt -> 0416.mp3
+[GEN ] idx=416 id=0416 -> 0416.mp3
+[OK  ] idx=416 id=0416 -> erzeugt
+[JSON] idx=417 id=0417 audio gesetzt -> 0417.mp3
+[GEN ] idx=417 id=0417 -> 0417.mp3
+[OK  ] idx=417 id=0417 -> erzeugt
+[JSON] idx=418 id=0418 audio gesetzt -> 0418.mp3
+[GEN ] idx=418 id=0418 -> 0418.mp3
+[OK  ] idx=418 id=0418 -> erzeugt
+[JSON] idx=419 id=0419 audio gesetzt -> 0419.mp3
+[GEN ] idx=419 id=0419 -> 0419.mp3
+[OK  ] idx=419 id=0419 -> erzeugt
+[JSON] idx=420 id=0420 audio gesetzt -> 0420.mp3
+[GEN ] idx=420 id=0420 -> 0420.mp3
+[OK  ] idx=420 id=0420 -> erzeugt
+[JSON] idx=421 id=0421 audio gesetzt -> 0421.mp3
+[GEN ] idx=421 id=0421 -> 0421.mp3
+[OK  ] idx=421 id=0421 -> erzeugt
+[JSON] idx=422 id=0422 audio gesetzt -> 0422.mp3
+[GEN ] idx=422 id=0422 -> 0422.mp3
+[OK  ] idx=422 id=0422 -> erzeugt
+[JSON] idx=423 id=0423 audio gesetzt -> 0423.mp3
+[GEN ] idx=423 id=0423 -> 0423.mp3
+[OK  ] idx=423 id=0423 -> erzeugt
+[JSON] idx=424 id=0424 audio gesetzt -> 0424.mp3
+[GEN ] idx=424 id=0424 -> 0424.mp3
+[OK  ] idx=424 id=0424 -> erzeugt
+[JSON] idx=425 id=0425 audio gesetzt -> 0425.mp3
+[GEN ] idx=425 id=0425 -> 0425.mp3
+[OK  ] idx=425 id=0425 -> erzeugt
+[JSON] idx=426 id=0426 audio gesetzt -> 0426.mp3
+[GEN ] idx=426 id=0426 -> 0426.mp3
+[OK  ] idx=426 id=0426 -> erzeugt
+[JSON] idx=427 id=0427 audio gesetzt -> 0427.mp3
+[GEN ] idx=427 id=0427 -> 0427.mp3
+[OK  ] idx=427 id=0427 -> erzeugt
+[JSON] idx=428 id=0428 audio gesetzt -> 0428.mp3
+[GEN ] idx=428 id=0428 -> 0428.mp3
+[OK  ] idx=428 id=0428 -> erzeugt
+[JSON] idx=429 id=0429 audio gesetzt -> 0429.mp3
+[GEN ] idx=429 id=0429 -> 0429.mp3
+[OK  ] idx=429 id=0429 -> erzeugt
+[JSON] idx=430 id=0430 audio gesetzt -> 0430.mp3
+[GEN ] idx=430 id=0430 -> 0430.mp3
+[OK  ] idx=430 id=0430 -> erzeugt
+[JSON] idx=431 id=0431 audio gesetzt -> 0431.mp3
+[GEN ] idx=431 id=0431 -> 0431.mp3
+[OK  ] idx=431 id=0431 -> erzeugt
+[JSON] idx=432 id=0432 audio gesetzt -> 0432.mp3
+[GEN ] idx=432 id=0432 -> 0432.mp3
+[OK  ] idx=432 id=0432 -> erzeugt
+------------------------------------------------------------
+[2026-03-31 22:20:59] ENDE
+produziert:   432
+übersprungen: 0
+fehler:       0
+json-updates: 432
+mp3 im Ordner:432
+============================================================
+
+============================================================
+[2026-03-31 22:22:48] START elevenlabsv3.py (Punktesammler)
+Audio-Ordner: /home/aleranzer/quizshark/oddoneout/media/audio
+Questions:     /home/aleranzer/quizshark/oddoneout/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[JSON] idx=1 id=0001 audio gesetzt -> 0001.mp3
+[GEN ] idx=1 id=0001 -> 0001.mp3
+[OK  ] idx=1 id=0001 -> erzeugt
+[JSON] idx=2 id=0002 audio gesetzt -> 0002.mp3
+[GEN ] idx=2 id=0002 -> 0002.mp3
+[OK  ] idx=2 id=0002 -> erzeugt
+[JSON] idx=3 id=0003 audio gesetzt -> 0003.mp3
+[GEN ] idx=3 id=0003 -> 0003.mp3
+[OK  ] idx=3 id=0003 -> erzeugt
+[JSON] idx=4 id=0004 audio gesetzt -> 0004.mp3
+[GEN ] idx=4 id=0004 -> 0004.mp3
+[OK  ] idx=4 id=0004 -> erzeugt
+[JSON] idx=5 id=0005 audio gesetzt -> 0005.mp3
+[GEN ] idx=5 id=0005 -> 0005.mp3
+[OK  ] idx=5 id=0005 -> erzeugt
+[JSON] idx=6 id=0006 audio gesetzt -> 0006.mp3
+[GEN ] idx=6 id=0006 -> 0006.mp3
+[OK  ] idx=6 id=0006 -> erzeugt
+
+============================================================
+[2026-03-31 22:29:59] START elevenlabsv3.py (Punktesammler)
+Audio-Ordner: /home/aleranzer/quizshark/oddoneout/media/audio
+Questions:     /home/aleranzer/quizshark/oddoneout/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] idx=1 id=0001 -> audio existiert bereits (question-1.mp3)
+[SKIP] idx=2 id=0002 -> audio existiert bereits (question-2.mp3)
+[SKIP] idx=3 id=0003 -> audio existiert bereits (question-3.mp3)
+[SKIP] idx=4 id=0004 -> audio existiert bereits (question-4.mp3)
+[SKIP] idx=5 id=0005 -> audio existiert bereits (question-5.mp3)
+[SKIP] idx=6 id=0006 -> audio existiert bereits (question-6.mp3)
+[SKIP] idx=7 id=0007 -> audio existiert bereits (question-7.mp3)
+[SKIP] idx=8 id=0008 -> audio existiert bereits (question-8.mp3)
+[SKIP] idx=9 id=0009 -> audio existiert bereits (question-9.mp3)
+[SKIP] idx=10 id=0010 -> audio existiert bereits (question-10.mp3)
+[JSON] idx=11 id=0011 audio gesetzt -> 0011.mp3
+[GEN ] idx=11 id=0011 -> 0011.mp3
+[OK  ] idx=11 id=0011 -> erzeugt
+[SKIP] idx=12 id=0012 -> audio existiert bereits (question-12.mp3)
+[SKIP] idx=13 id=0013 -> audio existiert bereits (question-13.mp3)
+[SKIP] idx=14 id=0014 -> audio existiert bereits (question-14.mp3)
+[SKIP] idx=15 id=0015 -> audio existiert bereits (question-15.mp3)
+[JSON] idx=16 id=0016 audio gesetzt -> 0016.mp3
+[GEN ] idx=16 id=0016 -> 0016.mp3
+[OK  ] idx=16 id=0016 -> erzeugt
+[SKIP] idx=17 id=0017 -> audio existiert bereits (question-17.mp3)
+[SKIP] idx=18 id=0018 -> audio existiert bereits (question-18.mp3)
+[SKIP] idx=19 id=0019 -> audio existiert bereits (question-19.mp3)
+[SKIP] idx=20 id=0020 -> audio existiert bereits (question-20.mp3)
+[SKIP] idx=21 id=0021 -> audio existiert bereits (question-21.mp3)
+[SKIP] idx=22 id=0022 -> audio existiert bereits (question-22.mp3)
+[SKIP] idx=23 id=0023 -> audio existiert bereits (question-23.mp3)
+[SKIP] idx=24 id=0024 -> audio existiert bereits (question-24.mp3)
+[SKIP] idx=25 id=0025 -> audio existiert bereits (question-25.mp3)
+[SKIP] idx=26 id=0026 -> audio existiert bereits (question-26.mp3)
+[SKIP] idx=27 id=0027 -> audio existiert bereits (question-27.mp3)
+[SKIP] idx=28 id=0028 -> audio existiert bereits (question-28.mp3)
+[SKIP] idx=29 id=0029 -> audio existiert bereits (question-29.mp3)
+[SKIP] idx=30 id=0030 -> audio existiert bereits (question-30.mp3)
+[SKIP] idx=31 id=0031 -> audio existiert bereits (question-31.mp3)
+[SKIP] idx=32 id=0032 -> audio existiert bereits (question-32.mp3)
+[SKIP] idx=33 id=0033 -> audio existiert bereits (question-33.mp3)
+[SKIP] idx=34 id=0034 -> audio existiert bereits (question-34.mp3)
+[JSON] idx=35 id=0035 audio gesetzt -> 0035.mp3
+[GEN ] idx=35 id=0035 -> 0035.mp3
+[OK  ] idx=35 id=0035 -> erzeugt
+[SKIP] idx=36 id=0036 -> audio existiert bereits (question-36.mp3)
+[SKIP] idx=37 id=0037 -> audio existiert bereits (question-37.mp3)
+[JSON] idx=38 id=0038 audio gesetzt -> 0038.mp3
+[GEN ] idx=38 id=0038 -> 0038.mp3
+[OK  ] idx=38 id=0038 -> erzeugt
+[SKIP] idx=39 id=0039 -> audio existiert bereits (question-39.mp3)
+[SKIP] idx=40 id=0040 -> audio existiert bereits (question-40.mp3)
+[JSON] idx=41 id=0041 audio gesetzt -> 0041.mp3
+[GEN ] idx=41 id=0041 -> 0041.mp3
+[OK  ] idx=41 id=0041 -> erzeugt
+[JSON] idx=42 id=0042 audio gesetzt -> 0042.mp3
+[GEN ] idx=42 id=0042 -> 0042.mp3
+[OK  ] idx=42 id=0042 -> erzeugt
+[SKIP] idx=43 id=0043 -> audio existiert bereits (question-43.mp3)
+[SKIP] idx=44 id=0044 -> audio existiert bereits (question-44.mp3)
+[SKIP] idx=45 id=0045 -> audio existiert bereits (question-45.mp3)
+[SKIP] idx=46 id=0046 -> audio existiert bereits (question-46.mp3)
+[SKIP] idx=47 id=0047 -> audio existiert bereits (question-47.mp3)
+[SKIP] idx=48 id=0048 -> audio existiert bereits (question-48.mp3)
+[SKIP] idx=49 id=0049 -> audio existiert bereits (question-49.mp3)
+[SKIP] idx=50 id=0050 -> audio existiert bereits (question-50.mp3)
+[SKIP] idx=51 id=0051 -> audio existiert bereits (question-51.mp3)
+[SKIP] idx=52 id=0052 -> audio existiert bereits (question-52.mp3)
+[SKIP] idx=53 id=0053 -> audio existiert bereits (question-53.mp3)
+[SKIP] idx=54 id=0054 -> audio existiert bereits (question-54.mp3)
+[JSON] idx=55 id=0055 audio gesetzt -> 0055.mp3
+[GEN ] idx=55 id=0055 -> 0055.mp3
+[OK  ] idx=55 id=0055 -> erzeugt
+[SKIP] idx=56 id=0056 -> audio existiert bereits (question-56.mp3)
+[SKIP] idx=57 id=0057 -> audio existiert bereits (question-57.mp3)
+[SKIP] idx=58 id=0058 -> audio existiert bereits (question-58.mp3)
+[SKIP] idx=59 id=0059 -> audio existiert bereits (question-59.mp3)
+[SKIP] idx=60 id=0060 -> audio existiert bereits (question-60.mp3)
+[SKIP] idx=61 id=0061 -> audio existiert bereits (question-61.mp3)
+[SKIP] idx=62 id=0062 -> audio existiert bereits (question-62.mp3)
+[SKIP] idx=63 id=0063 -> audio existiert bereits (question-63.mp3)
+[SKIP] idx=64 id=0064 -> audio existiert bereits (question-64.mp3)
+[SKIP] idx=65 id=0065 -> audio existiert bereits (question-65.mp3)
+[SKIP] idx=66 id=0066 -> audio existiert bereits (question-66.mp3)
+[SKIP] idx=67 id=0067 -> audio existiert bereits (question-67.mp3)
+[SKIP] idx=68 id=0068 -> audio existiert bereits (question-68.mp3)
+[SKIP] idx=69 id=0069 -> audio existiert bereits (question-69.mp3)
+[SKIP] idx=70 id=0070 -> audio existiert bereits (question-70.mp3)
+[SKIP] idx=71 id=0071 -> audio existiert bereits (question-71.mp3)
+[SKIP] idx=72 id=0072 -> audio existiert bereits (question-72.mp3)
+[SKIP] idx=73 id=0073 -> audio existiert bereits (question-73.mp3)
+[SKIP] idx=74 id=0074 -> audio existiert bereits (question-74.mp3)
+[SKIP] idx=75 id=0075 -> audio existiert bereits (question-75.mp3)
+[SKIP] idx=76 id=0076 -> audio existiert bereits (question-76.mp3)
+[SKIP] idx=77 id=0077 -> audio existiert bereits (question-77.mp3)
+[SKIP] idx=78 id=0078 -> audio existiert bereits (question-78.mp3)
+[SKIP] idx=79 id=0079 -> audio existiert bereits (question-79.mp3)
+[SKIP] idx=80 id=0080 -> audio existiert bereits (question-80.mp3)
+[SKIP] idx=81 id=0081 -> audio existiert bereits (question-81.mp3)
+[SKIP] idx=82 id=0082 -> audio existiert bereits (question-82.mp3)
+[SKIP] idx=83 id=0083 -> audio existiert bereits (question-83.mp3)
+[SKIP] idx=84 id=0084 -> audio existiert bereits (question-84.mp3)
+[SKIP] idx=85 id=0085 -> audio existiert bereits (question-85.mp3)
+[SKIP] idx=86 id=0086 -> audio existiert bereits (question-86.mp3)
+[SKIP] idx=87 id=0087 -> audio existiert bereits (question-87.mp3)
+[SKIP] idx=88 id=0088 -> audio existiert bereits (question-88.mp3)
+[SKIP] idx=89 id=0089 -> audio existiert bereits (question-89.mp3)
+[SKIP] idx=90 id=0090 -> audio existiert bereits (question-90.mp3)
+[SKIP] idx=91 id=0091 -> audio existiert bereits (question-91.mp3)
+[SKIP] idx=92 id=0092 -> audio existiert bereits (question-92.mp3)
+[SKIP] idx=93 id=0093 -> audio existiert bereits (question-93.mp3)
+[SKIP] idx=94 id=0094 -> audio existiert bereits (question-94.mp3)
+[SKIP] idx=95 id=0095 -> audio existiert bereits (question-95.mp3)
+[SKIP] idx=96 id=0096 -> audio existiert bereits (question-96.mp3)
+[SKIP] idx=97 id=0097 -> audio existiert bereits (question-97.mp3)
+[SKIP] idx=98 id=0098 -> audio existiert bereits (question-98.mp3)
+[SKIP] idx=99 id=0099 -> audio existiert bereits (question-99.mp3)
+[SKIP] idx=100 id=0100 -> audio existiert bereits (question-100.mp3)
+[SKIP] idx=101 id=0101 -> audio existiert bereits (question-101.mp3)
+[SKIP] idx=102 id=0102 -> audio existiert bereits (question-102.mp3)
+[SKIP] idx=103 id=0103 -> audio existiert bereits (question-103.mp3)
+[SKIP] idx=104 id=0104 -> audio existiert bereits (question-104.mp3)
+[SKIP] idx=105 id=0105 -> audio existiert bereits (question-105.mp3)
+[SKIP] idx=106 id=0106 -> audio existiert bereits (question-106.mp3)
+[SKIP] idx=107 id=0107 -> audio existiert bereits (question-107.mp3)
+[SKIP] idx=108 id=0108 -> audio existiert bereits (question-108.mp3)
+[SKIP] idx=109 id=0109 -> audio existiert bereits (question-109.mp3)
+[SKIP] idx=110 id=0110 -> audio existiert bereits (question-110.mp3)
+[SKIP] idx=111 id=0111 -> audio existiert bereits (question-111.mp3)
+[SKIP] idx=112 id=0112 -> audio existiert bereits (question-112.mp3)
+[SKIP] idx=113 id=0113 -> audio existiert bereits (question-113.mp3)
+[SKIP] idx=114 id=0114 -> audio existiert bereits (question-114.mp3)
+[SKIP] idx=115 id=0115 -> audio existiert bereits (question-115.mp3)
+[SKIP] idx=116 id=0116 -> audio existiert bereits (question-116.mp3)
+[SKIP] idx=117 id=0117 -> audio existiert bereits (question-117.mp3)
+[SKIP] idx=118 id=0118 -> audio existiert bereits (question-118.mp3)
+[JSON] idx=119 id=0119 audio gesetzt -> 0119.mp3
+[GEN ] idx=119 id=0119 -> 0119.mp3
+[OK  ] idx=119 id=0119 -> erzeugt
+[SKIP] idx=120 id=0120 -> audio existiert bereits (question-120.mp3)
+[SKIP] idx=121 id=0121 -> audio existiert bereits (question-121.mp3)
+[SKIP] idx=122 id=0122 -> audio existiert bereits (question-122.mp3)
+[JSON] idx=123 id=0123 audio gesetzt -> 0123.mp3
+[GEN ] idx=123 id=0123 -> 0123.mp3
+[OK  ] idx=123 id=0123 -> erzeugt
+[SKIP] idx=124 id=0124 -> audio existiert bereits (question-124.mp3)
+[SKIP] idx=125 id=0125 -> audio existiert bereits (question-125.mp3)
+[SKIP] idx=126 id=0126 -> audio existiert bereits (question-126.mp3)
+[SKIP] idx=127 id=0127 -> audio existiert bereits (question-127.mp3)
+[SKIP] idx=128 id=0128 -> audio existiert bereits (question-128.mp3)
+[SKIP] idx=129 id=0129 -> audio existiert bereits (question-129.mp3)
+[SKIP] idx=130 id=0130 -> audio existiert bereits (question-130.mp3)
+[SKIP] idx=131 id=0131 -> audio existiert bereits (question-131.mp3)
+[SKIP] idx=132 id=0132 -> audio existiert bereits (question-132.mp3)
+[SKIP] idx=133 id=0133 -> audio existiert bereits (question-133.mp3)
+[SKIP] idx=134 id=0134 -> audio existiert bereits (question-134.mp3)
+[SKIP] idx=135 id=0135 -> audio existiert bereits (question-135.mp3)
+[SKIP] idx=136 id=0136 -> audio existiert bereits (question-136.mp3)
+[SKIP] idx=137 id=0137 -> audio existiert bereits (question-137.mp3)
+[SKIP] idx=138 id=0138 -> audio existiert bereits (question-138.mp3)
+[JSON] idx=139 id=0139 audio gesetzt -> 0139.mp3
+[GEN ] idx=139 id=0139 -> 0139.mp3
+[OK  ] idx=139 id=0139 -> erzeugt
+[SKIP] idx=140 id=0140 -> audio existiert bereits (question-140.mp3)
+[SKIP] idx=141 id=0141 -> audio existiert bereits (question-141.mp3)
+[SKIP] idx=142 id=0142 -> audio existiert bereits (question-142.mp3)
+[SKIP] idx=143 id=0143 -> audio existiert bereits (question-143.mp3)
+[SKIP] idx=144 id=0144 -> audio existiert bereits (question-144.mp3)
+[SKIP] idx=145 id=0145 -> audio existiert bereits (question-145.mp3)
+[SKIP] idx=146 id=0146 -> audio existiert bereits (question-146.mp3)
+[SKIP] idx=147 id=0147 -> audio existiert bereits (question-147.mp3)
+[JSON] idx=148 id=0148 audio gesetzt -> 0148.mp3
+[GEN ] idx=148 id=0148 -> 0148.mp3
+[OK  ] idx=148 id=0148 -> erzeugt
+[SKIP] idx=149 id=0149 -> audio existiert bereits (question-149.mp3)
+[SKIP] idx=150 id=0150 -> audio existiert bereits (question-150.mp3)
+[SKIP] idx=151 id=0151 -> audio existiert bereits (question-151.mp3)
+[SKIP] idx=152 id=0152 -> audio existiert bereits (question-152.mp3)
+[SKIP] idx=153 id=0153 -> audio existiert bereits (question-153.mp3)
+[SKIP] idx=154 id=0154 -> audio existiert bereits (question-154.mp3)
+[SKIP] idx=155 id=0155 -> audio existiert bereits (question-155.mp3)
+[JSON] idx=156 id=0156 audio gesetzt -> 0156.mp3
+[GEN ] idx=156 id=0156 -> 0156.mp3
+[OK  ] idx=156 id=0156 -> erzeugt
+[SKIP] idx=157 id=0157 -> audio existiert bereits (question-157.mp3)
+[SKIP] idx=158 id=0158 -> audio existiert bereits (question-158.mp3)
+[SKIP] idx=159 id=0159 -> audio existiert bereits (question-159.mp3)
+[SKIP] idx=160 id=0160 -> audio existiert bereits (question-160.mp3)
+[SKIP] idx=161 id=0161 -> audio existiert bereits (question-161.mp3)
+[SKIP] idx=162 id=0162 -> audio existiert bereits (question-162.mp3)
+[SKIP] idx=163 id=0163 -> audio existiert bereits (question-163.mp3)
+[SKIP] idx=164 id=0164 -> audio existiert bereits (question-164.mp3)
+[SKIP] idx=165 id=0165 -> audio existiert bereits (question-165.mp3)
+[JSON] idx=166 id=0166 audio gesetzt -> 0166.mp3
+[GEN ] idx=166 id=0166 -> 0166.mp3
+[OK  ] idx=166 id=0166 -> erzeugt
+[SKIP] idx=167 id=0167 -> audio existiert bereits (question-167.mp3)
+[SKIP] idx=168 id=0168 -> audio existiert bereits (question-168.mp3)
+[SKIP] idx=169 id=0169 -> audio existiert bereits (question-169.mp3)
+[SKIP] idx=170 id=0170 -> audio existiert bereits (question-170.mp3)
+[SKIP] idx=171 id=0171 -> audio existiert bereits (question-171.mp3)
+[SKIP] idx=172 id=0172 -> audio existiert bereits (question-172.mp3)
+[SKIP] idx=173 id=0173 -> audio existiert bereits (question-173.mp3)
+[SKIP] idx=174 id=0174 -> audio existiert bereits (question-174.mp3)
+[SKIP] idx=175 id=0175 -> audio existiert bereits (question-175.mp3)
+[SKIP] idx=176 id=0176 -> audio existiert bereits (question-176.mp3)
+[SKIP] idx=177 id=0177 -> audio existiert bereits (question-177.mp3)
+[SKIP] idx=178 id=0178 -> audio existiert bereits (question-178.mp3)
+[SKIP] idx=179 id=0179 -> audio existiert bereits (question-179.mp3)
+[JSON] idx=180 id=0180 audio gesetzt -> 0180.mp3
+[GEN ] idx=180 id=0180 -> 0180.mp3
+[OK  ] idx=180 id=0180 -> erzeugt
+[SKIP] idx=181 id=0181 -> audio existiert bereits (question-181.mp3)
+[SKIP] idx=182 id=0182 -> audio existiert bereits (question-182.mp3)
+[SKIP] idx=183 id=0183 -> audio existiert bereits (question-183.mp3)
+[SKIP] idx=184 id=0184 -> audio existiert bereits (question-184.mp3)
+[SKIP] idx=185 id=0185 -> audio existiert bereits (question-185.mp3)
+[SKIP] idx=186 id=0186 -> audio existiert bereits (question-186.mp3)
+[SKIP] idx=187 id=0187 -> audio existiert bereits (question-187.mp3)
+[SKIP] idx=188 id=0188 -> audio existiert bereits (question-188.mp3)
+[SKIP] idx=189 id=0189 -> audio existiert bereits (question-189.mp3)
+[SKIP] idx=190 id=0190 -> audio existiert bereits (question-190.mp3)
+[SKIP] idx=191 id=0191 -> audio existiert bereits (question-191.mp3)
+[SKIP] idx=192 id=0192 -> audio existiert bereits (question-192.mp3)
+[SKIP] idx=193 id=0193 -> audio existiert bereits (question-193.mp3)
+[SKIP] idx=194 id=0194 -> audio existiert bereits (question-194.mp3)
+[SKIP] idx=195 id=0195 -> audio existiert bereits (question-195.mp3)
+[SKIP] idx=196 id=0196 -> audio existiert bereits (question-196.mp3)
+[JSON] idx=197 id=0197 audio gesetzt -> 0197.mp3
+[GEN ] idx=197 id=0197 -> 0197.mp3
+[OK  ] idx=197 id=0197 -> erzeugt
+[SKIP] idx=198 id=0198 -> audio existiert bereits (question-198.mp3)
+[SKIP] idx=199 id=0199 -> audio existiert bereits (question-199.mp3)
+[SKIP] idx=200 id=0200 -> audio existiert bereits (question-200.mp3)
+[SKIP] idx=201 id=0201 -> audio existiert bereits (question-201.mp3)
+[SKIP] idx=202 id=0202 -> audio existiert bereits (question-202.mp3)
+[SKIP] idx=203 id=0203 -> audio existiert bereits (question-203.mp3)
+[SKIP] idx=204 id=0204 -> audio existiert bereits (question-204.mp3)
+[SKIP] idx=205 id=0205 -> audio existiert bereits (question-205.mp3)
+[SKIP] idx=206 id=0206 -> audio existiert bereits (question-206.mp3)
+[SKIP] idx=207 id=0207 -> audio existiert bereits (question-207.mp3)
+[SKIP] idx=208 id=0208 -> audio existiert bereits (question-208.mp3)
+[SKIP] idx=209 id=0209 -> audio existiert bereits (question-209.mp3)
+[SKIP] idx=210 id=0210 -> audio existiert bereits (question-210.mp3)
+[SKIP] idx=211 id=0211 -> audio existiert bereits (question-211.mp3)
+[SKIP] idx=212 id=0212 -> audio existiert bereits (question-212.mp3)
+[SKIP] idx=213 id=0213 -> audio existiert bereits (question-213.mp3)
+[SKIP] idx=214 id=0214 -> audio existiert bereits (question-214.mp3)
+[SKIP] idx=215 id=0215 -> audio existiert bereits (question-215.mp3)
+[SKIP] idx=216 id=0216 -> audio existiert bereits (question-216.mp3)
+[SKIP] idx=217 id=0217 -> audio existiert bereits (question-217.mp3)
+[SKIP] idx=218 id=0218 -> audio existiert bereits (question-218.mp3)
+[SKIP] idx=219 id=0219 -> audio existiert bereits (question-219.mp3)
+[SKIP] idx=220 id=0220 -> audio existiert bereits (question-220.mp3)
+[SKIP] idx=221 id=0221 -> audio existiert bereits (question-221.mp3)
+[SKIP] idx=222 id=0222 -> audio existiert bereits (question-222.mp3)
+[SKIP] idx=223 id=0223 -> audio existiert bereits (question-223.mp3)
+[SKIP] idx=224 id=0224 -> audio existiert bereits (question-224.mp3)
+[SKIP] idx=225 id=0225 -> audio existiert bereits (question-225.mp3)
+[SKIP] idx=226 id=0226 -> audio existiert bereits (question-226.mp3)
+[SKIP] idx=227 id=0227 -> audio existiert bereits (question-227.mp3)
+[SKIP] idx=228 id=0228 -> audio existiert bereits (question-228.mp3)
+[SKIP] idx=229 id=0229 -> audio existiert bereits (question-229.mp3)
+[SKIP] idx=230 id=0230 -> audio existiert bereits (question-230.mp3)
+[SKIP] idx=231 id=0231 -> audio existiert bereits (question-231.mp3)
+[SKIP] idx=232 id=0232 -> audio existiert bereits (question-232.mp3)
+[SKIP] idx=233 id=0233 -> audio existiert bereits (question-233.mp3)
+[SKIP] idx=234 id=0234 -> audio existiert bereits (question-234.mp3)
+[SKIP] idx=235 id=0235 -> audio existiert bereits (question-235.mp3)
+[SKIP] idx=236 id=0236 -> audio existiert bereits (question-236.mp3)
+[SKIP] idx=237 id=0237 -> audio existiert bereits (question-237.mp3)
+[SKIP] idx=238 id=0238 -> audio existiert bereits (question-238.mp3)
+[SKIP] idx=239 id=0239 -> audio existiert bereits (question-239.mp3)
+[SKIP] idx=240 id=0240 -> audio existiert bereits (question-240.mp3)
+[SKIP] idx=241 id=0241 -> audio existiert bereits (question-241.mp3)
+[SKIP] idx=242 id=0242 -> audio existiert bereits (question-242.mp3)
+[SKIP] idx=243 id=0243 -> audio existiert bereits (question-243.mp3)
+[SKIP] idx=244 id=0244 -> audio existiert bereits (question-244.mp3)
+[JSON] idx=245 id=0245 audio gesetzt -> 0245.mp3
+[GEN ] idx=245 id=0245 -> 0245.mp3
+[OK  ] idx=245 id=0245 -> erzeugt
+[SKIP] idx=246 id=0246 -> audio existiert bereits (question-246.mp3)
+[SKIP] idx=247 id=0247 -> audio existiert bereits (question-247.mp3)
+[SKIP] idx=248 id=0248 -> audio existiert bereits (question-248.mp3)
+[SKIP] idx=249 id=0249 -> audio existiert bereits (question-249.mp3)
+[SKIP] idx=250 id=0250 -> audio existiert bereits (question-250.mp3)
+[SKIP] idx=251 id=0251 -> audio existiert bereits (question-251.mp3)
+[SKIP] idx=252 id=0252 -> audio existiert bereits (question-252.mp3)
+[SKIP] idx=253 id=0253 -> audio existiert bereits (question-253.mp3)
+[SKIP] idx=254 id=0254 -> audio existiert bereits (question-254.mp3)
+[SKIP] idx=255 id=0255 -> audio existiert bereits (question-255.mp3)
+[SKIP] idx=256 id=0256 -> audio existiert bereits (question-256.mp3)
+[SKIP] idx=257 id=0257 -> audio existiert bereits (question-257.mp3)
+[SKIP] idx=258 id=0258 -> audio existiert bereits (question-258.mp3)
+[SKIP] idx=259 id=0259 -> audio existiert bereits (question-259.mp3)
+[SKIP] idx=260 id=0260 -> audio existiert bereits (question-260.mp3)
+[SKIP] idx=261 id=0261 -> audio existiert bereits (question-261.mp3)
+[SKIP] idx=262 id=0262 -> audio existiert bereits (question-262.mp3)
+[SKIP] idx=263 id=0263 -> audio existiert bereits (question-263.mp3)
+[SKIP] idx=264 id=0264 -> audio existiert bereits (question-264.mp3)
+[SKIP] idx=265 id=0265 -> audio existiert bereits (question-265.mp3)
+[SKIP] idx=266 id=0266 -> audio existiert bereits (question-266.mp3)
+[SKIP] idx=267 id=0267 -> audio existiert bereits (question-267.mp3)
+[SKIP] idx=268 id=0268 -> audio existiert bereits (question-268.mp3)
+[SKIP] idx=269 id=0269 -> audio existiert bereits (question-269.mp3)
+[SKIP] idx=270 id=0270 -> audio existiert bereits (question-270.mp3)
+[SKIP] idx=271 id=0271 -> audio existiert bereits (question-271.mp3)
+[SKIP] idx=272 id=0272 -> audio existiert bereits (question-272.mp3)
+[JSON] idx=273 id=0273 audio gesetzt -> 0273.mp3
+[GEN ] idx=273 id=0273 -> 0273.mp3
+[OK  ] idx=273 id=0273 -> erzeugt
+[SKIP] idx=274 id=0274 -> audio existiert bereits (question-274.mp3)
+[SKIP] idx=275 id=0275 -> audio existiert bereits (question-275.mp3)
+[JSON] idx=276 id=0276 audio gesetzt -> 0276.mp3
+[GEN ] idx=276 id=0276 -> 0276.mp3
+[OK  ] idx=276 id=0276 -> erzeugt
+[SKIP] idx=277 id=0277 -> audio existiert bereits (question-277.mp3)
+[SKIP] idx=278 id=0278 -> audio existiert bereits (question-278.mp3)
+[SKIP] idx=279 id=0279 -> audio existiert bereits (question-279.mp3)
+[SKIP] idx=280 id=0280 -> audio existiert bereits (question-280.mp3)
+[SKIP] idx=281 id=0281 -> audio existiert bereits (question-281.mp3)
+[SKIP] idx=282 id=0282 -> audio existiert bereits (question-282.mp3)
+[JSON] idx=283 id=0283 audio gesetzt -> 0283.mp3
+[GEN ] idx=283 id=0283 -> 0283.mp3
+[OK  ] idx=283 id=0283 -> erzeugt
+[SKIP] idx=284 id=0284 -> audio existiert bereits (question-284.mp3)
+[SKIP] idx=285 id=0285 -> audio existiert bereits (question-285.mp3)
+[SKIP] idx=286 id=0286 -> audio existiert bereits (question-286.mp3)
+[SKIP] idx=287 id=0287 -> audio existiert bereits (question-287.mp3)
+[SKIP] idx=288 id=0288 -> audio existiert bereits (question-288.mp3)
+[SKIP] idx=289 id=0289 -> audio existiert bereits (question-289.mp3)
+[SKIP] idx=290 id=0290 -> audio existiert bereits (question-290.mp3)
+[SKIP] idx=291 id=0291 -> audio existiert bereits (question-291.mp3)
+[SKIP] idx=292 id=0292 -> audio existiert bereits (question-292.mp3)
+[JSON] idx=293 id=0293 audio gesetzt -> 0293.mp3
+[GEN ] idx=293 id=0293 -> 0293.mp3
+[OK  ] idx=293 id=0293 -> erzeugt
+[SKIP] idx=294 id=0294 -> audio existiert bereits (question-294.mp3)
+[SKIP] idx=295 id=0295 -> audio existiert bereits (question-295.mp3)
+[SKIP] idx=296 id=0296 -> audio existiert bereits (question-296.mp3)
+[SKIP] idx=297 id=0297 -> audio existiert bereits (question-297.mp3)
+[SKIP] idx=298 id=0298 -> audio existiert bereits (question-298.mp3)
+[SKIP] idx=299 id=0299 -> audio existiert bereits (question-299.mp3)
+[SKIP] idx=300 id=0300 -> audio existiert bereits (question-300.mp3)
+[SKIP] idx=301 id=0301 -> audio existiert bereits (question-301.mp3)
+[SKIP] idx=302 id=0302 -> audio existiert bereits (question-302.mp3)
+[SKIP] idx=303 id=0303 -> audio existiert bereits (question-303.mp3)
+[SKIP] idx=304 id=0304 -> audio existiert bereits (question-304.mp3)
+[SKIP] idx=305 id=0305 -> audio existiert bereits (question-305.mp3)
+[SKIP] idx=306 id=0306 -> audio existiert bereits (question-306.mp3)
+[SKIP] idx=307 id=0307 -> audio existiert bereits (question-307.mp3)
+[SKIP] idx=308 id=0308 -> audio existiert bereits (question-308.mp3)
+[SKIP] idx=309 id=0309 -> audio existiert bereits (question-309.mp3)
+[SKIP] idx=310 id=0310 -> audio existiert bereits (question-310.mp3)
+[SKIP] idx=311 id=0311 -> audio existiert bereits (question-311.mp3)
+[JSON] idx=312 id=0312 audio gesetzt -> 0312.mp3
+[GEN ] idx=312 id=0312 -> 0312.mp3
+[OK  ] idx=312 id=0312 -> erzeugt
+[SKIP] idx=313 id=0313 -> audio existiert bereits (question-313.mp3)
+[SKIP] idx=314 id=0314 -> audio existiert bereits (question-314.mp3)
+[JSON] idx=315 id=0315 audio gesetzt -> 0315.mp3
+[GEN ] idx=315 id=0315 -> 0315.mp3
+[OK  ] idx=315 id=0315 -> erzeugt
+[SKIP] idx=316 id=0316 -> audio existiert bereits (question-316.mp3)
+[SKIP] idx=317 id=0317 -> audio existiert bereits (question-317.mp3)
+[SKIP] idx=318 id=0318 -> audio existiert bereits (question-318.mp3)
+[SKIP] idx=319 id=0319 -> audio existiert bereits (question-319.mp3)
+[SKIP] idx=320 id=0320 -> audio existiert bereits (question-320.mp3)
+[SKIP] idx=321 id=0321 -> audio existiert bereits (question-321.mp3)
+[SKIP] idx=322 id=0322 -> audio existiert bereits (question-322.mp3)
+[SKIP] idx=323 id=0323 -> audio existiert bereits (question-323.mp3)
+[JSON] idx=324 id=0324 audio gesetzt -> 0324.mp3
+[GEN ] idx=324 id=0324 -> 0324.mp3
+[OK  ] idx=324 id=0324 -> erzeugt
+[JSON] idx=325 id=0325 audio gesetzt -> 0325.mp3
+[GEN ] idx=325 id=0325 -> 0325.mp3
+[OK  ] idx=325 id=0325 -> erzeugt
+[SKIP] idx=326 id=0326 -> audio existiert bereits (question-326.mp3)
+[SKIP] idx=327 id=0327 -> audio existiert bereits (question-327.mp3)
+[SKIP] idx=328 id=0328 -> audio existiert bereits (question-328.mp3)
+[SKIP] idx=329 id=0329 -> audio existiert bereits (question-329.mp3)
+[SKIP] idx=330 id=0330 -> audio existiert bereits (question-330.mp3)
+[SKIP] idx=331 id=0331 -> audio existiert bereits (question-331.mp3)
+[SKIP] idx=332 id=0332 -> audio existiert bereits (question-332.mp3)
+[SKIP] idx=333 id=0333 -> audio existiert bereits (question-333.mp3)
+[SKIP] idx=334 id=0334 -> audio existiert bereits (question-334.mp3)
+[SKIP] idx=335 id=0335 -> audio existiert bereits (question-335.mp3)
+[SKIP] idx=336 id=0336 -> audio existiert bereits (question-336.mp3)
+[SKIP] idx=337 id=0337 -> audio existiert bereits (question-337.mp3)
+[SKIP] idx=338 id=0338 -> audio existiert bereits (question-338.mp3)
+[SKIP] idx=339 id=0339 -> audio existiert bereits (question-339.mp3)
+[SKIP] idx=340 id=0340 -> audio existiert bereits (question-340.mp3)
+[SKIP] idx=341 id=0341 -> audio existiert bereits (question-341.mp3)
+[SKIP] idx=342 id=0342 -> audio existiert bereits (question-342.mp3)
+[SKIP] idx=343 id=0343 -> audio existiert bereits (question-343.mp3)
+[SKIP] idx=344 id=0344 -> audio existiert bereits (question-344.mp3)
+[SKIP] idx=345 id=0345 -> audio existiert bereits (question-345.mp3)
+[SKIP] idx=346 id=0346 -> audio existiert bereits (question-346.mp3)
+[SKIP] idx=347 id=0347 -> audio existiert bereits (question-347.mp3)
+[SKIP] idx=348 id=0348 -> audio existiert bereits (question-348.mp3)
+[JSON] idx=349 id=0349 audio gesetzt -> 0349.mp3
+[GEN ] idx=349 id=0349 -> 0349.mp3
+[OK  ] idx=349 id=0349 -> erzeugt
+[SKIP] idx=350 id=0350 -> audio existiert bereits (question-350.mp3)
+[SKIP] idx=351 id=0351 -> audio existiert bereits (question-351.mp3)
+[SKIP] idx=352 id=0352 -> audio existiert bereits (question-352.mp3)
+[SKIP] idx=353 id=0353 -> audio existiert bereits (question-353.mp3)
+[SKIP] idx=354 id=0354 -> audio existiert bereits (question-354.mp3)
+[SKIP] idx=355 id=0355 -> audio existiert bereits (question-355.mp3)
+[SKIP] idx=356 id=0356 -> audio existiert bereits (question-356.mp3)
+[SKIP] idx=357 id=0357 -> audio existiert bereits (question-357.mp3)
+[SKIP] idx=358 id=0358 -> audio existiert bereits (question-358.mp3)
+[SKIP] idx=359 id=0359 -> audio existiert bereits (question-359.mp3)
+[SKIP] idx=360 id=0360 -> audio existiert bereits (question-360.mp3)
+[SKIP] idx=361 id=0361 -> audio existiert bereits (question-361.mp3)
+[SKIP] idx=362 id=0362 -> audio existiert bereits (question-362.mp3)
+[SKIP] idx=363 id=0363 -> audio existiert bereits (question-363.mp3)
+[SKIP] idx=364 id=0364 -> audio existiert bereits (question-364.mp3)
+[SKIP] idx=365 id=0365 -> audio existiert bereits (question-365.mp3)
+[SKIP] idx=366 id=0366 -> audio existiert bereits (question-366.mp3)
+[SKIP] idx=367 id=0367 -> audio existiert bereits (question-367.mp3)
+[SKIP] idx=368 id=0368 -> audio existiert bereits (question-368.mp3)
+[SKIP] idx=369 id=0369 -> audio existiert bereits (question-369.mp3)
+[SKIP] idx=370 id=0370 -> audio existiert bereits (question-370.mp3)
+[SKIP] idx=371 id=0371 -> audio existiert bereits (question-371.mp3)
+[SKIP] idx=372 id=0372 -> audio existiert bereits (question-372.mp3)
+[SKIP] idx=373 id=0373 -> audio existiert bereits (question-373.mp3)
+[SKIP] idx=374 id=0374 -> audio existiert bereits (question-374.mp3)
+[JSON] idx=375 id=0375 audio gesetzt -> 0375.mp3
+[GEN ] idx=375 id=0375 -> 0375.mp3
+[OK  ] idx=375 id=0375 -> erzeugt
+[SKIP] idx=376 id=0376 -> audio existiert bereits (question-376.mp3)
+[SKIP] idx=377 id=0377 -> audio existiert bereits (question-377.mp3)
+[SKIP] idx=378 id=0378 -> audio existiert bereits (question-378.mp3)
+[SKIP] idx=379 id=0379 -> audio existiert bereits (question-379.mp3)
+[SKIP] idx=380 id=0380 -> audio existiert bereits (question-380.mp3)
+[SKIP] idx=381 id=0381 -> audio existiert bereits (question-381.mp3)
+[SKIP] idx=382 id=0382 -> audio existiert bereits (question-382.mp3)
+[SKIP] idx=383 id=0383 -> audio existiert bereits (question-383.mp3)
+[SKIP] idx=384 id=0384 -> audio existiert bereits (question-384.mp3)
+[SKIP] idx=385 id=0385 -> audio existiert bereits (question-385.mp3)
+[JSON] idx=386 id=0386 audio gesetzt -> 0386.mp3
+[GEN ] idx=386 id=0386 -> 0386.mp3
+[OK  ] idx=386 id=0386 -> erzeugt
+[SKIP] idx=387 id=0387 -> audio existiert bereits (question-387.mp3)
+[SKIP] idx=388 id=0388 -> audio existiert bereits (question-388.mp3)
+[SKIP] idx=389 id=0389 -> audio existiert bereits (question-389.mp3)
+[SKIP] idx=390 id=0390 -> audio existiert bereits (question-390.mp3)
+[SKIP] idx=391 id=0391 -> audio existiert bereits (question-391.mp3)
+[SKIP] idx=392 id=0392 -> audio existiert bereits (question-392.mp3)
+[SKIP] idx=393 id=0393 -> audio existiert bereits (question-393.mp3)
+[SKIP] idx=394 id=0394 -> audio existiert bereits (question-394.mp3)
+[SKIP] idx=395 id=0395 -> audio existiert bereits (question-395.mp3)
+[SKIP] idx=396 id=0396 -> audio existiert bereits (question-396.mp3)
+[SKIP] idx=397 id=0397 -> audio existiert bereits (question-397.mp3)
+[SKIP] idx=398 id=0398 -> audio existiert bereits (question-398.mp3)
+[SKIP] idx=399 id=0399 -> audio existiert bereits (question-399.mp3)
+[SKIP] idx=400 id=0400 -> audio existiert bereits (question-400.mp3)
+[SKIP] idx=401 id=0401 -> audio existiert bereits (question-401.mp3)
+[SKIP] idx=402 id=0402 -> audio existiert bereits (question-402.mp3)
+[SKIP] idx=403 id=0403 -> audio existiert bereits (question-403.mp3)
+[SKIP] idx=404 id=0404 -> audio existiert bereits (question-404.mp3)
+[SKIP] idx=405 id=0405 -> audio existiert bereits (question-405.mp3)
+[SKIP] idx=406 id=0406 -> audio existiert bereits (question-406.mp3)
+[SKIP] idx=407 id=0407 -> audio existiert bereits (question-407.mp3)
+[SKIP] idx=408 id=0408 -> audio existiert bereits (question-408.mp3)
+[SKIP] idx=409 id=0409 -> audio existiert bereits (question-409.mp3)
+[SKIP] idx=410 id=0410 -> audio existiert bereits (question-410.mp3)
+[SKIP] idx=411 id=0411 -> audio existiert bereits (question-411.mp3)
+[SKIP] idx=412 id=0412 -> audio existiert bereits (question-412.mp3)
+[SKIP] idx=413 id=0413 -> audio existiert bereits (question-413.mp3)
+[SKIP] idx=414 id=0414 -> audio existiert bereits (question-414.mp3)
+[SKIP] idx=415 id=0415 -> audio existiert bereits (question-415.mp3)
+[JSON] idx=416 id=0416 audio gesetzt -> 0416.mp3
+[GEN ] idx=416 id=0416 -> 0416.mp3
+[OK  ] idx=416 id=0416 -> erzeugt
+[SKIP] idx=417 id=0417 -> audio existiert bereits (question-417.mp3)
+[SKIP] idx=418 id=0418 -> audio existiert bereits (question-418.mp3)
+[SKIP] idx=419 id=0419 -> audio existiert bereits (question-419.mp3)
+[SKIP] idx=420 id=0420 -> audio existiert bereits (question-420.mp3)
+[SKIP] idx=421 id=0421 -> audio existiert bereits (question-421.mp3)
+[SKIP] idx=422 id=0422 -> audio existiert bereits (question-422.mp3)
+[SKIP] idx=423 id=0423 -> audio existiert bereits (question-423.mp3)
+[SKIP] idx=424 id=0424 -> audio existiert bereits (question-424.mp3)
+[SKIP] idx=425 id=0425 -> audio existiert bereits (question-425.mp3)
+[SKIP] idx=426 id=0426 -> audio existiert bereits (question-426.mp3)
+[SKIP] idx=427 id=0427 -> audio existiert bereits (question-427.mp3)
+[SKIP] idx=428 id=0428 -> audio existiert bereits (question-428.mp3)
+[SKIP] idx=429 id=0429 -> audio existiert bereits (question-429.mp3)
+[SKIP] idx=430 id=0430 -> audio existiert bereits (question-430.mp3)
+[SKIP] idx=431 id=0431 -> audio existiert bereits (question-431.mp3)
+[JSON] idx=432 id=0432 audio gesetzt -> 0432.mp3
+[GEN ] idx=432 id=0432 -> 0432.mp3
+[OK  ] idx=432 id=0432 -> erzeugt
+[SKIP] idx=433 id=0433 -> audio existiert bereits (question-433.mp3)
+[SKIP] idx=434 id=0434 -> audio existiert bereits (question-434.mp3)
+[SKIP] idx=435 id=0435 -> audio existiert bereits (question-435.mp3)
+[SKIP] idx=436 id=0436 -> audio existiert bereits (question-436.mp3)
+[SKIP] idx=437 id=0437 -> audio existiert bereits (question-437.mp3)
+[SKIP] idx=438 id=0438 -> audio existiert bereits (question-438.mp3)
+[SKIP] idx=439 id=0439 -> audio existiert bereits (question-439.mp3)
+[SKIP] idx=440 id=0440 -> audio existiert bereits (question-440.mp3)
+[SKIP] idx=441 id=0441 -> audio existiert bereits (question-441.mp3)
+[SKIP] idx=442 id=0442 -> audio existiert bereits (question-442.mp3)
+[SKIP] idx=443 id=0443 -> audio existiert bereits (question-443.mp3)
+[JSON] idx=444 id=0444 audio gesetzt -> 0444.mp3
+[GEN ] idx=444 id=0444 -> 0444.mp3
+[OK  ] idx=444 id=0444 -> erzeugt
+[JSON] idx=445 id=0445 audio gesetzt -> 0445.mp3
+[GEN ] idx=445 id=0445 -> 0445.mp3
+[OK  ] idx=445 id=0445 -> erzeugt
+[SKIP] idx=446 id=0446 -> audio existiert bereits (question-446.mp3)
+[SKIP] idx=447 id=0447 -> audio existiert bereits (question-447.mp3)
+[SKIP] idx=448 id=0448 -> audio existiert bereits (question-448.mp3)
+[JSON] idx=449 id=0449 audio gesetzt -> 0449.mp3
+[GEN ] idx=449 id=0449 -> 0449.mp3
+[OK  ] idx=449 id=0449 -> erzeugt
+[JSON] idx=450 id=0450 audio gesetzt -> 0450.mp3
+[GEN ] idx=450 id=0450 -> 0450.mp3
+[OK  ] idx=450 id=0450 -> erzeugt
+[SKIP] idx=451 id=0451 -> audio existiert bereits (question-451.mp3)
+[SKIP] idx=452 id=0452 -> audio existiert bereits (question-452.mp3)
+[SKIP] idx=453 id=0453 -> audio existiert bereits (question-453.mp3)
+[SKIP] idx=454 id=0454 -> audio existiert bereits (question-454.mp3)
+[SKIP] idx=455 id=0455 -> audio existiert bereits (question-455.mp3)
+[SKIP] idx=456 id=0456 -> audio existiert bereits (question-456.mp3)
+[SKIP] idx=457 id=0457 -> audio existiert bereits (question-457.mp3)
+[SKIP] idx=458 id=0458 -> audio existiert bereits (question-458.mp3)
+[SKIP] idx=459 id=0459 -> audio existiert bereits (question-459.mp3)
+[SKIP] idx=460 id=0460 -> audio existiert bereits (question-460.mp3)
+[SKIP] idx=461 id=0461 -> audio existiert bereits (question-461.mp3)
+[SKIP] idx=462 id=0462 -> audio existiert bereits (question-462.mp3)
+[SKIP] idx=463 id=0463 -> audio existiert bereits (question-463.mp3)
+[SKIP] idx=464 id=0464 -> audio existiert bereits (question-464.mp3)
+[SKIP] idx=465 id=0465 -> audio existiert bereits (question-465.mp3)
+------------------------------------------------------------
+[2026-03-31 22:30:56] ENDE
+produziert:   33
+übersprungen: 432
+fehler:       0
+json-updates: 33
+mp3 im Ordner:471
+============================================================

@@ -1,0 +1,892 @@
+[
+    {
+        "id": "00001",
+        "category": "adult",
+        "poll_text": "Hast du schon mal nackt ein Trinkspiel gespielt?",
+        "mc_text": "Wie viele von euch haben schon mal nackt ein Trinkspiel gespielt?",
+        "pre_audio": "pre_audio_00001.mp3",
+        "audio": "question_00001.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T20:31:36Z"
+    },
+    {
+        "id": "00002",
+        "category": "standard",
+        "poll_text": "Hast du schon mal groß in freier Wildbahn gemacht?",
+        "mc_text": "Wie viele von euch haben schon mal groß in freier Wildbahn gemacht?",
+        "pre_audio": "pre_audio_00002.mp3",
+        "audio": "question_00002.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T20:30:57Z"
+    },
+    {
+        "id": "00003",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal Sex an einem Ort, an dem es absolut verboten war?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex an einem Ort, an dem es absolut verboten war?",
+        "pre_audio": "pre_audio_00003.mp3",
+        "audio": "question_00003.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T20:32:13Z"
+    },
+    {
+        "id": "00004",
+        "category": "standard",
+        "poll_text": "Hast du schon mal ins Schwimmbad gepinkelt?",
+        "mc_text": "Wie viele von euch haben schon mal ins Schwimmbad gepinkelt?",
+        "pre_audio": "pre_audio_00004.mp3",
+        "audio": "question_00004.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T21:28:51Z"
+    },
+    {
+        "id": "00005",
+        "category": "adult",
+        "poll_text": "Hast du schon mal nach dem Kotzen geknutscht?",
+        "mc_text": "Wie viele von euch haben schon mal nach dem Kotzen geknutscht?",
+        "pre_audio": "pre_audio_00005.mp3",
+        "audio": "question_00005.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T20:32:48Z"
+    },
+    {
+        "id": "00006",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal Sex mit einer*m Arbeitskolleg*in?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex mit einer*m Arbeitskolleg*in?",
+        "pre_audio": "pre_audio_00006.mp3",
+        "audio": "question_00006.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T20:33:24Z"
+    },
+    {
+        "id": "00007",
+        "category": "adult",
+        "poll_text": "Hast du schon mal für Sex bezahlt?",
+        "mc_text": "Wie viele von euch haben schon mal für Sex bezahlt?",
+        "pre_audio": "pre_audio_00007.mp3",
+        "audio": "question_00007.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T20:34:02Z"
+    },
+    {
+        "id": "00008",
+        "category": "standard",
+        "poll_text": "Hast du schon mal eine Sprachnachricht abgeschickt, die nie jemand hören sollte?",
+        "mc_text": "Wie viele von euch haben schon mal eine Sprachnachricht abgeschickt, die nie jemand hören sollte?",
+        "pre_audio": "pre_audio_00008.mp3",
+        "audio": "question_00008.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T21:29:54Z"
+    },
+    {
+        "id": "00009",
+        "category": "standard",
+        "poll_text": "Hast du schon mal die Zahnbürste von jemand anderem benutzt?",
+        "mc_text": "Wie viele von euch haben schon mal die Zahnbürste von jemand anderem benutzt?",
+        "pre_audio": "pre_audio_00009.mp3",
+        "audio": "question_00009.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T21:29:21Z"
+    },
+    {
+        "id": "00010",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal jemanden angepinkelt?",
+        "mc_text": "Wie viele von euch haben schon mal jemanden angepinkelt?",
+        "pre_audio": "pre_audio_00010.mp3",
+        "audio": "question_00010.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T21:31:57Z"
+    },
+    {
+        "id": "00011",
+        "category": "veryadult",
+        "poll_text": "Hattest du schon mit mehr als drei Personen Sex, die gerade mitspielen?",
+        "mc_text": "Wie viele von euch hatten schon mit mehr als drei Personen Sex, die gerade mitspielen?",
+        "pre_audio": "pre_audio_00011.mp3",
+        "audio": "question_00011.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T21:30:32Z"
+    },
+    {
+        "id": "00012",
+        "category": "adult",
+        "poll_text": "Hast du schon mal so getan, als wärst du gekommen, um es hinter dir zu haben?",
+        "mc_text": "Wie viele von euch haben schon mal so getan, als wären sie gekommen, um es hinter sich zu haben?",
+        "pre_audio": "pre_audio_00012.mp3",
+        "audio": "question_00012.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T21:31:16Z"
+    },
+    {
+        "id": "00013",
+        "category": "standard",
+        "poll_text": "Hast du schon mal einen Namen benutzt, ohne sicher zu sein, und falsch gelegen?",
+        "mc_text": "Wie viele von euch haben schon mal einen Namen benutzt, ohne sicher zu sein, und falsch gelegen?",
+        "pre_audio": "pre_audio_00013.mp3",
+        "audio": "question_00013.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T22:45:16Z"
+    },
+    {
+        "id": "00014",
+        "category": "standard",
+        "poll_text": "Hast du schon mal aus Versehen das falsche WC benutzt?",
+        "mc_text": "Wie viele von euch haben schon mal aus Versehen das falsche WC benutzt?",
+        "pre_audio": "pre_audio_00014.mp3",
+        "audio": "question_00014.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T22:55:02Z"
+    },
+    {
+        "id": "00015",
+        "category": "veryadult",
+        "poll_text": "Hattest du schon mit mehr als zwei Personen Sex, die gerade mitspielen?",
+        "mc_text": "Wie viele von euch hatten schon mit mehr als zwei Personen Sex, die gerade mitspielen?",
+        "pre_audio": "pre_audio_00015.mp3",
+        "audio": "question_00015.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T22:53:00Z"
+    },
+    {
+        "id": "00016",
+        "category": "standard",
+        "poll_text": "Hast du schon mal Bremsstreifen in der Unterhose gehabt?",
+        "mc_text": "Wie viele von euch hatten schon mal Bremsstreifen in der Unterhose?",
+        "pre_audio": "pre_audio_00016.mp3",
+        "audio": "question_00016.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T22:53:46Z"
+    },
+    {
+        "id": "00017",
+        "category": "standard",
+        "poll_text": "Hast du schon mal ein Fake-Social-Media-Konto erstellt?",
+        "mc_text": "Wie viele von euch haben schon mal ein Fake-Social-Media-Konto erstellt?",
+        "pre_audio": "pre_audio_00017.mp3",
+        "audio": "question_00017.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T22:54:23Z"
+    },
+    {
+        "id": "00018",
+        "category": "adult",
+        "poll_text": "Hast du schon mal während des Sexes auf die Uhr geschaut?",
+        "mc_text": "Wie viele von euch haben schon mal während des Sexes auf die Uhr geschaut?",
+        "pre_audio": "pre_audio_00018.mp3",
+        "audio": "question_00018.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T23:44:24Z"
+    },
+    {
+        "id": "00019",
+        "category": "adult",
+        "poll_text": "Wurdest du schon mal von deinen Eltern beim Sex erwischt?",
+        "mc_text": "Wie viele von euch wurden schon mal von ihren Eltern beim Sex erwischt?",
+        "pre_audio": "pre_audio_00019.mp3",
+        "audio": "question_00019.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T22:55:43Z"
+    },
+    {
+        "id": "00020",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal beim Masturbieren an eine hier anwesende Person gedacht, die nicht dein Partner ist?",
+        "mc_text": "Wie viele von euch haben schon mal beim Masturbieren an eine hier anwesende Person gedacht, die nicht ihr Partner ist?",
+        "pre_audio": "pre_audio_00020.mp3",
+        "audio": "question_00020.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T23:45:01Z"
+    },
+    {
+        "id": "00021",
+        "category": "standard",
+        "poll_text": "Würdest du für deinen Partner deinen Job aufgeben?",
+        "mc_text": "Wie viele von euch würden für ihren Partner ihren Job aufgeben?",
+        "pre_audio": "pre_audio_00021.mp3",
+        "audio": "question_00021.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T23:45:39Z"
+    },
+    {
+        "id": "00022",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal Sex, der dir im Nachhinein extrem peinlich ist?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex, der ihnen im Nachhinein extrem peinlich ist?",
+        "pre_audio": "pre_audio_00022.mp3",
+        "audio": "question_00022.mp3",
+        "image": "",
+        "lastplayed": "2026-03-15T00:33:17Z"
+    },
+    {
+        "id": "00023",
+        "category": "adult",
+        "poll_text": "Hast du schon mal Drogen genommen?",
+        "mc_text": "Wie viele von euch haben schon mal Drogen genommen?",
+        "pre_audio": "pre_audio_00023.mp3",
+        "audio": "question_00023.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T23:46:16Z"
+    },
+    {
+        "id": "00024",
+        "category": "adult",
+        "poll_text": "Hast du dich schon mal beim Sex gefilmt?",
+        "mc_text": "Wie viele von euch haben sich schon mal beim Sex gefilmt?",
+        "pre_audio": "pre_audio_00024.mp3",
+        "audio": "question_00024.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T23:47:07Z"
+    },
+    {
+        "id": "00025",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal Viagra genommen?",
+        "mc_text": "Wie viele von euch haben schon mal Viagra genommen?",
+        "pre_audio": "pre_audio_00025.mp3",
+        "audio": "question_00025.mp3",
+        "image": "",
+        "lastplayed": "2026-03-14T23:47:38Z"
+    },
+    {
+        "id": "00026",
+        "category": "standard",
+        "poll_text": "Hat aus deinem engsten Familienkreis schon mal jemand im Gefängnis gesessen?",
+        "mc_text": "Bei wie vielen von euch hat aus dem engsten Familienkreis schon mal jemand im Gefängnis gesessen?",
+        "pre_audio": "pre_audio_00026.mp3",
+        "audio": "question_00026.mp3",
+        "image": "",
+        "lastplayed": "2026-03-15T00:33:51Z"
+    },
+    {
+        "id": "00027",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal etwas mit jemandem, der dir beruflich unterstellt war?",
+        "mc_text": "Wie viele von euch hatten schon mal etwas mit jemandem, der ihnen beruflich unterstellt war?",
+        "pre_audio": "pre_audio_00027.mp3",
+        "audio": "question_00027.mp3",
+        "image": "",
+        "lastplayed": "2026-03-15T00:35:35Z"
+    },
+    {
+        "id": "00028",
+        "category": "adult",
+        "poll_text": "Hast du schon mal beim Sex an jemand ganz anderen gedacht?",
+        "mc_text": "Wie viele von euch haben schon mal beim Sex an jemand ganz anderen gedacht?",
+        "pre_audio": "pre_audio_00028.mp3",
+        "audio": "question_00028.mp3",
+        "image": "",
+        "lastplayed": "2026-03-15T00:34:28Z"
+    },
+    {
+        "id": "00029",
+        "category": "standard",
+        "poll_text": "Hast du schon mal Hundefutter gegessen?",
+        "mc_text": "Wie viele von euch haben schon mal Hundefutter gegessen?",
+        "pre_audio": "pre_audio_00029.mp3",
+        "audio": "question_00029.mp3",
+        "image": "",
+        "lastplayed": "2026-03-15T00:34:55Z"
+    },
+    {
+        "id": "00030",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal eine Geschlechtskrankheit gehabt?",
+        "mc_text": "Wie viele von euch hatten schon mal eine Geschlechtskrankheit?",
+        "pre_audio": "pre_audio_00030.mp3",
+        "audio": "question_00030.mp3",
+        "image": "",
+        "lastplayed": "2026-03-15T00:36:12Z"
+    },
+    {
+        "id": "00031",
+        "category": "adult",
+        "poll_text": "Hast du schon mal Beweise nach Sex bewusst beseitigt?",
+        "mc_text": "Wie viele von euch haben schon mal Beweise nach Sex bewusst beseitigt?",
+        "pre_audio": "pre_audio_00031.mp3",
+        "audio": "question_00031.mp3",
+        "image": "",
+        "lastplayed": "2026-03-17T19:08:08Z"
+    },
+    {
+        "id": "00032",
+        "category": "adult",
+        "poll_text": "Bist du schon mal fremdgegangen?",
+        "mc_text": "Wie viele von euch sind schon mal fremdgegangen?",
+        "pre_audio": "pre_audio_00032.mp3",
+        "audio": "question_00032.mp3",
+        "image": "",
+        "lastplayed": "2026-03-17T19:08:41Z"
+    },
+    {
+        "id": "00033",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal Sex gehabt, ohne zu wissen, wer die andere Person ist?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex, ohne zu wissen, wer die andere Person ist?",
+        "pre_audio": "pre_audio_00033.mp3",
+        "audio": "question_00033.mp3",
+        "image": "",
+        "lastplayed": "2026-03-17T19:10:40Z"
+    },
+    {
+        "id": "00034",
+        "category": "boringadult",
+        "poll_text": "Hattest du schon mal einen 3er?",
+        "mc_text": "Wie viele von euch hatten schon mal einen 3er?",
+        "pre_audio": "pre_audio_00034.mp3",
+        "audio": "question_00034.mp3",
+        "image": "",
+        "lastplayed": "2026-03-17T19:09:46Z"
+    },
+    {
+        "id": "00035",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal den Urin eines anderen getrunken?",
+        "mc_text": "Wie viele von euch haben schon mal den Urin eines anderen getrunken?",
+        "pre_audio": "pre_audio_00035.mp3",
+        "audio": "question_00035.mp3",
+        "image": "",
+        "lastplayed": "2026-03-17T19:10:15Z"
+    },
+    {
+        "id": "00036",
+        "category": "adult",
+        "poll_text": "Hast du schon mal beim Sex geweint?",
+        "mc_text": "Wie viele von euch haben schon mal beim Sex geweint?",
+        "pre_audio": "pre_audio_00036.mp3",
+        "audio": "question_00036.mp3",
+        "image": "",
+        "lastplayed": "2026-03-17T19:11:11Z"
+    },
+    {
+        "id": "00037",
+        "category": "adult",
+        "poll_text": "Hast du schon mehr als zwei Personen geküsst, die gerade mitspielen?",
+        "mc_text": "Wie viele von euch haben schon mehr als zwei Personen geküsst, die gerade mitspielen?",
+        "pre_audio": "pre_audio_00037.mp3",
+        "audio": "question_00037.mp3",
+        "image": "",
+        "lastplayed": "2026-03-20T22:44:31Z"
+    },
+    {
+        "id": "00038",
+        "category": "standard",
+        "poll_text": "Hast du schon mal in die Badewanne gepinkelt?",
+        "mc_text": "Wie viele von euch haben schon mal in die Badewanne gepinkelt?",
+        "pre_audio": "pre_audio_00038.mp3",
+        "audio": "question_00038.mp3",
+        "image": "",
+        "lastplayed": "2026-03-20T22:43:58Z"
+    },
+    {
+        "id": "00039",
+        "category": "standard",
+        "poll_text": "Hast du ein Tattoo?",
+        "mc_text": "Wie viele von euch haben ein Tattoo?",
+        "pre_audio": "pre_audio_00039.mp3",
+        "audio": "question_00039.mp3",
+        "image": "",
+        "lastplayed": "2026-03-20T22:46:52Z"
+    },
+    {
+        "id": "00040",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal Sex gehabt, ohne die andere Person jemals gesehen zu haben?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex, ohne die andere Person jemals gesehen zu haben?",
+        "pre_audio": "pre_audio_00040.mp3",
+        "audio": "question_00040.mp3",
+        "image": "",
+        "lastplayed": "2026-03-20T22:45:08Z"
+    },
+    {
+        "id": "00041",
+        "category": "standard",
+        "poll_text": "Hast du schon mal Spuren im Klo hinterlassen und gehofft, dass es keiner sieht?",
+        "mc_text": "Wie viele von euch haben schon mal Spuren im Klo hinterlassen und gehofft, dass es keiner sieht?",
+        "pre_audio": "pre_audio_00041.mp3",
+        "audio": "question_00041.mp3",
+        "image": "",
+        "lastplayed": "2026-03-20T22:45:42Z"
+    },
+    {
+        "id": "00042",
+        "category": "adult",
+        "poll_text": "Bist du schon mal für Sex bezahlt worden?",
+        "mc_text": "Wie viele von euch sind schon mal für Sex bezahlt worden?",
+        "pre_audio": "pre_audio_00042.mp3",
+        "audio": "question_00042.mp3",
+        "image": "",
+        "lastplayed": "2026-03-20T22:46:18Z"
+    },
+    {
+        "id": "00043",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal während des Sex am Handy gespielt oder Nachrichten gelesen?",
+        "mc_text": "Wie viele von euch haben schon mal während des Sex am Handy gespielt oder Nachrichten gelesen?",
+        "pre_audio": "pre_audio_00043.mp3",
+        "audio": "question_00043.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T01:01:31Z"
+    },
+    {
+        "id": "00044",
+        "category": "standard",
+        "poll_text": "Hast du schon mal etwas im Wert von über 100€ gestohlen?",
+        "mc_text": "Wie viele von euch haben schon mal etwas im Wert von über 100€ gestohlen?",
+        "pre_audio": "pre_audio_00044.mp3",
+        "audio": "question_00044.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T01:03:19Z"
+    },
+    {
+        "id": "00045",
+        "category": "boringadult",
+        "poll_text": "Hattest du schon Sex mit einer Person, deren Namen du nicht kanntest?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex mit einer Person, deren Namen sie nicht kannten?",
+        "pre_audio": "pre_audio_00045.mp3",
+        "audio": "question_00045.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T01:01:57Z"
+    },
+    {
+        "id": "00046",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal an einem Tag zweimal unabhängig voneinander Sex gehabt?",
+        "mc_text": "Wie viele von euch hatten schon mal an einem Tag zweimal unabhängig voneinander Sex?",
+        "pre_audio": "pre_audio_00046.mp3",
+        "audio": "question_00046.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T01:02:25Z"
+    },
+    {
+        "id": "00047",
+        "category": "standard",
+        "poll_text": "Hast du als Erwachsener schon mal einen Popel unter einen Tisch oder Stuhl geschmiert?",
+        "mc_text": "Wie viele von euch haben als Erwachsene schon mal einen Popel unter einen Tisch oder Stuhl geschmiert?",
+        "pre_audio": "pre_audio_00047.mp3",
+        "audio": "question_00047.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T01:02:51Z"
+    },
+    {
+        "id": "00048",
+        "category": "adult",
+        "poll_text": "Hattest Du schonmal Sex in der Verwandschaft?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex in der Verwandschaft?",
+        "pre_audio": "pre_audio_00048.mp3",
+        "audio": "question_00048.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T01:03:48Z"
+    },
+    {
+        "id": "00049",
+        "category": "veryadult",
+        "poll_text": "Hast du schon mal mit mehr als drei Personen an einem einzigen Tag Sex gehabt?",
+        "mc_text": "Wie viele von euch hatten schon mal mit mehr als drei Personen an einem einzigen Tag Sex?",
+        "pre_audio": "pre_audio_00049.mp3",
+        "audio": "question_00049.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T01:04:17Z"
+    },
+    {
+        "id": "00050",
+        "category": "boringadult",
+        "poll_text": "Hast du schon mal zwei Menschen parallel gedatet?",
+        "mc_text": "Wie viele von euch haben schon mal zwei Menschen parallel gedatet?",
+        "pre_audio": "pre_audio_00050.mp3",
+        "audio": "question_00050.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T21:03:21Z"
+    },
+    {
+        "id": "00051",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal Sex im Auto?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex im Auto?",
+        "pre_audio": "pre_audio_00051.mp3",
+        "audio": "question_00051.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T01:04:43Z"
+    },
+    {
+        "id": "00052",
+        "category": "adult",
+        "poll_text": "Hast du schon mal in ein Taxi gekotzt?",
+        "mc_text": "Wie viele von euch haben schon mal in ein Taxi gekotzt?",
+        "pre_audio": "pre_audio_00052.mp3",
+        "audio": "question_00052.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T21:02:49Z"
+    },
+    {
+        "id": "00053",
+        "category": "standard",
+        "poll_text": "Hast du schon mal deine Unterwäsche auf links gedreht, um sie nicht waschen zu müssen?",
+        "mc_text": "Wie viele von euch haben schon mal ihre Unterwäsche auf links gedreht, um sie nicht waschen zu müssen?",
+        "pre_audio": "pre_audio_00053.mp3",
+        "audio": "question_00053.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T21:03:52Z"
+    },
+    {
+        "id": "00054",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal Sex am Arbeitsplatz?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex am Arbeitsplatz?",
+        "pre_audio": "pre_audio_00054.mp3",
+        "audio": "question_00054.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T21:04:18Z"
+    },
+    {
+        "id": "00055",
+        "category": "adult",
+        "poll_text": "Hast du schon mal Sex gehabt und gehofft, dass es schnell vorbei ist?",
+        "mc_text": "Wie viele von euch haben schon mal Sex gehabt und gehofft, dass es schnell vorbei ist?",
+        "pre_audio": "pre_audio_00055.mp3",
+        "audio": "question_00055.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T21:04:48Z"
+    },
+    {
+        "id": "00056",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal eine Affäre, die dir den Job hätte kosten können?",
+        "mc_text": "Wie viele von euch hatten schon mal eine Affäre, die ihnen den Job hätte kosten können?",
+        "pre_audio": "pre_audio_00056.mp3",
+        "audio": "question_00056.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T21:05:16Z"
+    },
+    {
+        "id": "00057",
+        "category": "standard",
+        "poll_text": "Hast du schon mal jemandem gratuliert, obwohl der Anlass gar nicht stimmte?",
+        "mc_text": "Wie viele von euch haben schon mal jemandem gratuliert, obwohl der Anlass gar nicht stimmte?",
+        "pre_audio": "pre_audio_00057.mp3",
+        "audio": "question_00057.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T21:05:45Z"
+    },
+    {
+        "id": "00058",
+        "category": "adult",
+        "poll_text": "Hast du schon mal eine Nacht in einer Gefängniszelle verbracht?",
+        "mc_text": "Wie viele von euch haben schon mal eine Nacht in einer Gefängniszelle verbracht?",
+        "pre_audio": "pre_audio_00058.mp3",
+        "audio": "question_00058.mp3",
+        "image": "",
+        "lastplayed": "2026-03-21T21:06:14Z"
+    },
+    {
+        "id": "00059",
+        "category": "boringadult",
+        "poll_text": "Hattest du schon mal Sex in der Öffentlichkeit?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex in der Öffentlichkeit?",
+        "pre_audio": "pre_audio_00059.mp3",
+        "audio": "question_00059.mp3",
+        "image": "",
+        "lastplayed": "2026-04-04T19:49:33Z"
+    },
+    {
+        "id": "00060",
+        "category": "adult",
+        "poll_text": "Hast du schon mal deine Unterwäsche online verkauft?",
+        "mc_text": "Wie viele von euch haben schon mal ihre Unterwäsche online verkauft?",
+        "pre_audio": "pre_audio_00060.mp3",
+        "audio": "question_00060.mp3",
+        "image": "",
+        "lastplayed": "2026-04-04T19:50:16Z"
+    },
+    {
+        "id": "00061",
+        "category": "standard",
+        "poll_text": "Hast du schon mal laut über jemanden gelästert, der direkt hinter dir stand?",
+        "mc_text": "Wie viele von euch haben schon mal laut über jemanden gelästert, der direkt hinter ihnen stand?",
+        "pre_audio": "pre_audio_00061.mp3",
+        "audio": "question_00061.mp3",
+        "image": "",
+        "lastplayed": "2026-04-04T19:50:47Z"
+    },
+    {
+        "id": "00062",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal Sex, der dein Verhältnis zu jemandem zerstört hat?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex, der ihr Verhältnis zu jemandem zerstört hat?",
+        "pre_audio": "pre_audio_00062.mp3",
+        "audio": "question_00062.mp3",
+        "image": "",
+        "lastplayed": "2026-04-04T19:51:26Z"
+    },
+    {
+        "id": "00063",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal Sex, um Ärger zu vermeiden?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex, um Ärger zu vermeiden?",
+        "pre_audio": "pre_audio_00063.mp3",
+        "audio": "question_00063.mp3",
+        "image": "",
+        "lastplayed": "2026-04-04T19:53:47Z"
+    },
+    {
+        "id": "00064",
+        "category": "standard",
+        "poll_text": "Hast du schon mal im falschen Chat über genau diese Person geschrieben?",
+        "mc_text": "Wie viele von euch haben schon mal im falschen Chat über genau diese Person geschrieben?",
+        "pre_audio": "pre_audio_00064.mp3",
+        "audio": "question_00064.mp3",
+        "image": "",
+        "lastplayed": "2026-04-04T19:52:03Z"
+    },
+    {
+        "id": "00065",
+        "category": "standard",
+        "poll_text": "Hast du schon mal jemanden verabschiedet, der noch gar nicht gehen wollte?",
+        "mc_text": "Wie viele von euch haben schon mal jemanden verabschiedet, der noch gar nicht gehen wollte?",
+        "pre_audio": "pre_audio_00065.mp3",
+        "audio": "question_00065.mp3",
+        "image": "",
+        "lastplayed": "2026-04-04T19:52:35Z"
+    },
+    {
+        "id": "00066",
+        "category": "adult",
+        "poll_text": "Hattest du schon mal Sex, um einen Vorteil zu bekommen?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex, um einen Vorteil zu bekommen?",
+        "pre_audio": "pre_audio_00066.mp3",
+        "audio": "question_00066.mp3",
+        "image": "",
+        "lastplayed": "2026-04-04T19:53:13Z"
+    },
+    {
+        "id": "00067",
+        "category": "standard",
+        "poll_text": "Hast du schon mal genickt, obwohl du nichts verstanden hast?",
+        "mc_text": "Wie viele von euch haben schon mal genickt, obwohl sie nichts verstanden haben?",
+        "pre_audio": "pre_audio_00067.mp3",
+        "audio": "question_00067.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00068",
+        "category": "standard",
+        "poll_text": "Hast du heute schon jemanden angelogen?",
+        "mc_text": "Wie viele von euch haben heute schon jemanden angelogen?",
+        "pre_audio": "pre_audio_00068.mp3",
+        "audio": "question_00068.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00069",
+        "category": "standard",
+        "poll_text": "Bist du schon mal Fallschirm gesprungen?",
+        "mc_text": "Wie viele von euch sind schon mal Fallschirm gesprungen?",
+        "pre_audio": "pre_audio_00069.mp3",
+        "audio": "question_00069.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00070",
+        "category": "standard",
+        "poll_text": "Hast du schon mal jemanden öffentlich verwechselt?",
+        "mc_text": "Wie viele von euch haben schon mal jemanden öffentlich verwechselt?",
+        "pre_audio": "pre_audio_00070.mp3",
+        "audio": "question_00070.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00071",
+        "category": "standard",
+        "poll_text": "Hast du schon mal auf einem Flugzeugklo groß gemacht?",
+        "mc_text": "Wie viele von euch haben schon mal auf einem Flugzeugklo groß gemacht?",
+        "pre_audio": "pre_audio_00071.mp3",
+        "audio": "question_00071.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00072",
+        "category": "standard",
+        "poll_text": "Warst du schon mal im Fernsehen?",
+        "mc_text": "Wie viele von euch waren schon mal im Fernsehen?",
+        "pre_audio": "pre_audio_00072.mp3",
+        "audio": "question_00072.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00073",
+        "category": "adult",
+        "poll_text": "Hast du schon mal jemanden geküsst, der dich angeekelt hat?",
+        "mc_text": "Wie viele von euch haben schon mal jemanden geküsst, der sie angeekelt hat?",
+        "pre_audio": "pre_audio_00073.mp3",
+        "audio": "question_00073.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00074",
+        "category": "boringadult",
+        "poll_text": "Hattest du schon mal Sex an einem Ort, wo man dich hätte erwischen können?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex an einem Ort, wo man sie hätte erwischen können?",
+        "pre_audio": "pre_audio_00074.mp3",
+        "audio": "question_00074.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00075",
+        "category": "standard",
+        "poll_text": "Hast du schon mal auf die Klobrille gekackt?",
+        "mc_text": "Wie viele von euch haben schon mal auf die Klobrille gekackt?",
+        "pre_audio": "pre_audio_00075.mp3",
+        "audio": "question_00075.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00076",
+        "category": "veryadult",
+        "poll_text": "Hast du schon wegen einer akuten Geschlechtskrankrheit auf Sex verzichtet?",
+        "mc_text": "Wie viele von euch haben schon mal wegen einer akuten Geschlechtskrankheit auf Sex verzichtet?",
+        "pre_audio": "pre_audio_00076.mp3",
+        "audio": "question_00076.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00077",
+        "category": "adult",
+        "poll_text": "Hast du schon mal jemanden belogen, um Sex zu haben?",
+        "mc_text": "Wie viele von euch haben schon mal jemanden belogen, um Sex zu haben?",
+        "pre_audio": "pre_audio_00077.mp3",
+        "audio": "question_00077.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00078",
+        "category": "standard",
+        "poll_text": "Hast du schon mal im falschen Meeting oder Unterricht gesessen?",
+        "mc_text": "Wie viele von euch haben schon mal im falschen Meeting oder Unterricht gesessen?",
+        "pre_audio": "pre_audio_00078.mp3",
+        "audio": "question_00078.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00079",
+        "category": "standard",
+        "poll_text": "Hast du schon mal eine Toilette verstopft?",
+        "mc_text": "Wie viele von euch haben schon mal eine Toilette verstopft?",
+        "pre_audio": "pre_audio_00079.mp3",
+        "audio": "question_00079.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00080",
+        "category": "adult",
+        "poll_text": "Hast du schon mal beim Sex gelacht?",
+        "mc_text": "Wie viele von euch haben schon mal beim Sex gelacht?",
+        "pre_audio": "pre_audio_00080.mp3",
+        "audio": "question_00080.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00081",
+        "category": "standard",
+        "poll_text": "Warst du schon mal bei einem TV-Casting?",
+        "mc_text": "Wie viele von euch waren schon mal bei einem TV-Casting?",
+        "pre_audio": "pre_audio_00081.mp3",
+        "audio": "question_00081.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00082",
+        "category": "standard",
+        "poll_text": "Hast du schon mal auf einem fremden Klo richtig lange gebraucht?",
+        "mc_text": "Wie viele von euch haben schon mal auf einem fremden Klo richtig lange gebraucht?",
+        "pre_audio": "pre_audio_00082.mp3",
+        "audio": "question_00082.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00083",
+        "category": "standard",
+        "poll_text": "Hast du schon mal gelacht und erst danach gemerkt, dass es komplett unangebracht war?",
+        "mc_text": "Wie viele von euch haben schon mal gelacht und erst danach gemerkt, dass es komplett unangebracht war?",
+        "pre_audio": "pre_audio_00083.mp3",
+        "audio": "question_00083.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00084",
+        "category": "veryadult",
+        "poll_text": "Hast du mit mehr als zwei Personen aus diesem Raumgeschlafen?",
+        "mc_text": "Wie viele von euch haben mal mit mehr als zwei Personen aus diesem Raum geschlafen?",
+        "pre_audio": "pre_audio_00084.mp3",
+        "audio": "question_00084.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00085",
+        "category": "boringadult",
+        "poll_text": "Hattest du schon mal Sex mit dem gleichen Geschlecht?",
+        "mc_text": "Wie viele von euch hatten schon mal Sex mit dem gleichen Geschlecht?",
+        "pre_audio": "pre_audio_00085.mp3",
+        "audio": "question_00085.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00086",
+        "category": "standard",
+        "poll_text": "Hast du schon mal das falsche Klo benutzt?",
+        "mc_text": "Wie viele von euch haben schon mal das falsche Klo benutzt?",
+        "pre_audio": "pre_audio_00086.mp3",
+        "audio": "question_00086.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00087",
+        "category": "boringadult",
+        "poll_text": "Hast du schon mal jemanden geküsst, obwohl du vergeben warst?",
+        "mc_text": "Wie viele von euch haben schon mal jemanden geküsst, obwohl sie vergeben waren?",
+        "pre_audio": "pre_audio_00087.mp3",
+        "audio": "question_00087.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00088",
+        "category": "adult",
+        "poll_text": "Hast du schon mal einen Orgasmus vorgetäuscht?",
+        "mc_text": "Wie viele von euch haben schon mal einen Orgasmus vorgetäuscht?",
+        "pre_audio": "pre_audio_00088.mp3",
+        "audio": "question_00088.mp3",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "00089",
+        "category": "standard",
+        "poll_text": "Hast du schon mal aus Versehen auf „Antworten an alle“ geklickt?",
+        "mc_text": "Wie viele von euch haben schon mal aus Versehen auf „Antworten an alle“ geklickt?",
+        "pre_audio": "pre_audio_00089.mp3",
+        "audio": "question_00089.mp3",
+        "image": "",
+        "lastplayed": ""
+    }
+]

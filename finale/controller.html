@@ -1,0 +1,151 @@
+<!-- --- FILE: ./finale/controller.html --- -->
+{% extends "templates/base.html" %}
+
+{% block content %}
+
+<div class="ps-controller">
+
+  <!-- TITLE SCREEN -->
+  <div
+    id="title-screen"
+    class="screen"
+    style="
+      background-image: url('/finale/media/controllerbackground.svg');
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <div class="sr-title-wordmark">
+      <img class="sr-title-logo" src="/finale/media/roundlogo.svg" alt="" aria-hidden="true">
+<div class="sr-title-finale"><span class="kern-p">F</span>inale</div>
+
+
+
+    </div>
+  </div>
+
+  <!-- ROUND SCREEN -->
+  <div id="round-screen" class="screen screen--round" style="display:none;">
+    <div class="round-label" id="round-label">Frage 1</div>
+  </div>
+
+  <!-- QUESTION / ANSWERS SCREEN -->
+  <div id="qa-screen" class="screen screen--qa" style="display:none;">
+
+    <div class="qa-inner">
+
+      <!-- META-BOX (Finale: PlayerCard wie TV) -->
+      <div class="psc__metaBox">
+        <div class="ps__playerCard psc__playerCard">
+
+          <div class="ps__playerName" id="player-name">—</div>
+
+          <div class="ps__playerRight">
+            <div class="ps__jokerSlots" id="self-joker-slots">
+              <div class="ps__jokerSlot" data-slot="1" data-type="none">
+                <img src="/finale/media/joker_gold.svg" class="ps__joker ps__joker--gold" alt="" aria-hidden="true">
+                <img src="/finale/media/joker_white.svg" class="ps__joker ps__joker--white" alt="" aria-hidden="true">
+              </div>
+              <div class="ps__jokerSlot" data-slot="2" data-type="none">
+                <img src="/finale/media/joker_gold.svg" class="ps__joker ps__joker--gold" alt="" aria-hidden="true">
+                <img src="/finale/media/joker_white.svg" class="ps__joker ps__joker--white" alt="" aria-hidden="true">
+              </div>
+            </div>
+
+            <div class="ps__playerRankBox">
+              <div class="psc__scoreWrap" id="player-score">
+                <span class="psc__scorePopInline">+0</span>
+                <span class="ps__scoreText psc__scoreValue">—</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!-- Timer-Bar (läuft während open_answers) -->
+      <div class="psc__timebar" aria-hidden="true">
+        <div class="psc__timebarFill" id="timebar-fill"></div>
+      </div>
+
+      <!-- FRAGE -->
+      <div class="psc__questionBlock">
+        <div class="question" id="question-text">
+          Lade Frage …
+        </div>
+      </div>
+
+      <!-- OPTIONAL IMAGE -->
+      <div id="question-image-wrap" class="question-image-wrap is-hidden">
+        <img
+          id="question-image"
+          class="question-image"
+          src="/finale/media/dummy.png"
+          alt=""
+        >
+      </div>
+
+      <!-- ANSWERS --> 
+      <!-- ANSWERS -->
+<div id="options-grid" class="options is-invisible">
+
+  <!-- WRAPPER NUR FUER DAS 2x2 GRID (A-D) -->
+  <div id="answers-wrap">
+
+    <!-- JOKER OVERLAY (standard: hidden) -->
+    <div id="joker-overlay" style="display:none;">
+
+      <!-- WHITE ICON -->
+      <img
+        id="joker-overlay-icon-white"
+        src="/finale/media/joker_white.svg"
+        alt=""
+        aria-hidden="true"
+        style="display:none;"
+      >
+
+      <!-- GOLD ICON -->
+      <img
+        id="joker-overlay-icon-gold"
+        src="/finale/media/joker_gold.svg"
+        alt=""
+        aria-hidden="true"
+        style="display:none;"
+      >
+
+    </div>
+
+    <!-- 2x2 GRID (A-D) -->
+    <div id="answers-grid">
+      <button class="opt opt-0 is-locked" data-index="0">A</button>
+      <button class="opt opt-1 is-locked" data-index="1">B</button>
+      <button class="opt opt-2 is-locked" data-index="2">C</button>
+      <button class="opt opt-3 is-locked" data-index="3">D</button>
+    </div>
+
+  </div>
+
+  <!-- WHITE BUTTON (bleibt UNTERHALB, gehoert NICHT zur Overlay-Flaeche) -->
+  <button id="white-btn" class="whiteBtn is-locked" type="button">
+    <img
+      src="/finale/media/joker_white.svg"
+      alt=""
+      aria-hidden="true"
+      class="whiteBtn__icon"
+    >
+    <span class="whiteBtn__label">Joker verwenden</span>
+  </button>
+
+</div>
+
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/finale/static/controller.css">
+<script src="/finale/static/controller.js"></script>
+{% endblock %}

@@ -1,0 +1,2943 @@
+[
+    {
+        "id": "00115",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der weiße Hai",
+        "wrong": [
+            "Anaconda",
+            "Piranha",
+            "Deep Blue Sea"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00120",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der weiße Hai",
+        "wrong": [
+            "Piranha",
+            "Anaconda",
+            "Deep Blue Sea"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00121",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Game of Thrones",
+        "wrong": [
+            "Vikings",
+            "Der Herr der Ringe: Die Ringe der Macht",
+            "The Witcher"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Ramin Djawadi",
+        "year": ""
+    },
+    {
+        "id": "00122",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Breaking Bad",
+        "wrong": [
+            "Better Call Saul",
+            "Narcos",
+            "Ozark"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title Theme",
+        "artist": "Dave Porter",
+        "year": ""
+    },
+    {
+        "id": "00123",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Better Call Saul",
+        "wrong": [
+            "Breaking Bad",
+            "Narcos",
+            "Fargo"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:13:49Z",
+        "audio": "itunes_auto",
+        "title": "Main Title Theme",
+        "artist": "Little Barrie",
+        "year": ""
+    },
+    {
+        "id": "00124",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Walking Dead",
+        "wrong": [
+            "Fear the Walking Dead",
+            "The Last of Us",
+            "Z Nation"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title Theme",
+        "artist": "Bear McCreary",
+        "year": ""
+    },
+    {
+        "id": "00125",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Stranger Things",
+        "wrong": [
+            "Dark",
+            "The OA",
+            "Black Mirror"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title Theme",
+        "artist": "Kyle Dixon & Michael Stein",
+        "year": ""
+    },
+    {
+        "id": "00126",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Dark",
+        "wrong": [
+            "Stranger Things",
+            "1899",
+            "The OA"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Goodbye",
+        "artist": "Apparat",
+        "year": ""
+    },
+    {
+        "id": "00127",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Haus des Geldes",
+        "wrong": [
+            "Narcos",
+            "Elite",
+            "Lupin"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Bella Ciao",
+        "artist": "Manu Pilas",
+        "year": ""
+    },
+    {
+        "id": "00128",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Narcos",
+        "wrong": [
+            "Breaking Bad",
+            "El Chapo",
+            "Haus des Geldes"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Tuyo",
+        "artist": "Rodrigo Amarante",
+        "year": ""
+    },
+    {
+        "id": "00129",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Witcher",
+        "wrong": [
+            "Game of Thrones",
+            "Vikings",
+            "Der Herr der Ringe: Die Ringe der Macht"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Toss a Coin to Your Witcher",
+        "artist": "Sonya Belousova & Giona Ostinelli",
+        "year": ""
+    },
+    {
+        "id": "00130",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Vikings",
+        "wrong": [
+            "The Last Kingdom",
+            "Game of Thrones",
+            "Barbaren"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "If I Had a Heart",
+        "artist": "Fever Ray",
+        "year": ""
+    },
+    {
+        "id": "00131",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Last of Us",
+        "wrong": [
+            "The Walking Dead",
+            "Station Eleven",
+            "Falling Skies"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "The Last of Us Theme",
+        "artist": "Gustavo Santaolalla",
+        "year": ""
+    },
+    {
+        "id": "00132",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Chernobyl",
+        "wrong": [
+            "Dark",
+            "The Crown",
+            "Years and Years"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Vichnaya Pamyat",
+        "artist": "Hildur Guðnadóttir",
+        "year": ""
+    },
+    {
+        "id": "00133",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Crown",
+        "wrong": [
+            "Downton Abbey",
+            "Victoria",
+            "Bridgerton"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00134",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Peaky Blinders",
+        "wrong": [
+            "Boardwalk Empire",
+            "Sons of Anarchy",
+            "Gangs of London"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Red Right Hand",
+        "artist": "Nick Cave & The Bad Seeds",
+        "year": ""
+    },
+    {
+        "id": "00135",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Sons of Anarchy",
+        "wrong": [
+            "Peaky Blinders",
+            "Mayans MC",
+            "Banshee"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "This Life",
+        "artist": "Curtis Stigers & The Forest Rangers",
+        "year": ""
+    },
+    {
+        "id": "00136",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Boardwalk Empire",
+        "wrong": [
+            "Peaky Blinders",
+            "Mad Men",
+            "The Sopranos"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Straight Up and Down",
+        "artist": "The Brian Jonestown Massacre",
+        "year": ""
+    },
+    {
+        "id": "00137",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Mad Men",
+        "wrong": [
+            "Suits",
+            "Boardwalk Empire",
+            "The Newsroom"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "A Beautiful Mine",
+        "artist": "RJD2",
+        "year": ""
+    },
+    {
+        "id": "00138",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Sopranos",
+        "wrong": [
+            "Goodfellas",
+            "Boardwalk Empire",
+            "Gomorrha"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Woke Up This Morning",
+        "artist": "Alabama 3",
+        "year": ""
+    },
+    {
+        "id": "00139",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Gomorrha",
+        "wrong": [
+            "The Sopranos",
+            "Suburra",
+            "Narcos"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Doomed to Live",
+        "artist": "Mokadelic",
+        "year": ""
+    },
+    {
+        "id": "00140",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Sherlock",
+        "wrong": [
+            "Elementary",
+            "Luther",
+            "Broadchurch"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Sherlock Theme",
+        "artist": "David Arnold & Michael Price",
+        "year": ""
+    },
+    {
+        "id": "00141",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Doctor Who",
+        "wrong": [
+            "Torchwood",
+            "Star Trek",
+            "Stargate"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Doctor Who Theme",
+        "artist": "Ron Grainer",
+        "year": ""
+    },
+    {
+        "id": "00142",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Star Trek",
+        "wrong": [
+            "Star Wars",
+            "Battlestar Galactica",
+            "Stargate"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Star Trek Theme",
+        "artist": "Alexander Courage",
+        "year": ""
+    },
+    {
+        "id": "00143",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Stargate SG-1",
+        "wrong": [
+            "Star Trek",
+            "Battlestar Galactica",
+            "Farscape"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Stargate Theme",
+        "artist": "David Arnold",
+        "year": ""
+    },
+    {
+        "id": "00144",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Battlestar Galactica",
+        "wrong": [
+            "Stargate",
+            "Star Trek",
+            "The Expanse"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Bear McCreary",
+        "year": ""
+    },
+    {
+        "id": "00145",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Expanse",
+        "wrong": [
+            "Battlestar Galactica",
+            "Foundation",
+            "Altered Carbon"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Clinton Shorter",
+        "year": ""
+    },
+    {
+        "id": "00146",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Friends",
+        "wrong": [
+            "How I Met Your Mother",
+            "The Big Bang Theory",
+            "Scrubs"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "I'll Be There for You",
+        "artist": "The Rembrandts",
+        "year": ""
+    },
+    {
+        "id": "00147",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "How I Met Your Mother",
+        "wrong": [
+            "Friends",
+            "Scrubs",
+            "New Girl"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Hey Beautiful",
+        "artist": "The Solids",
+        "year": ""
+    },
+    {
+        "id": "00148",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Big Bang Theory",
+        "wrong": [
+            "Friends",
+            "How I Met Your Mother",
+            "Two and a Half Men"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "The Big Bang Theory Theme",
+        "artist": "Barenaked Ladies",
+        "year": ""
+    },
+    {
+        "id": "00149",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Scrubs",
+        "wrong": [
+            "Friends",
+            "How I Met Your Mother",
+            "Malcolm mittendrin"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Superman",
+        "artist": "Lazlo Bane",
+        "year": ""
+    },
+    {
+        "id": "00150",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Malcolm mittendrin",
+        "wrong": [
+            "Scrubs",
+            "The Middle",
+            "Modern Family"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Boss of Me",
+        "artist": "They Might Be Giants",
+        "year": ""
+    },
+    {
+        "id": "00151",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Office (US)",
+        "wrong": [
+            "Parks and Recreation",
+            "Brooklyn Nine-Nine",
+            "Community"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "The Office Theme",
+        "artist": "Jay Ferguson",
+        "year": ""
+    },
+    {
+        "id": "00152",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Brooklyn Nine-Nine",
+        "wrong": [
+            "The Office",
+            "Parks and Recreation",
+            "Community"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Brooklyn Nine-Nine Theme",
+        "artist": "Daniel J. Powell",
+        "year": ""
+    },
+    {
+        "id": "00153",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Modern Family",
+        "wrong": [
+            "The Middle",
+            "How I Met Your Mother",
+            "Scrubs"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Modern Family Theme",
+        "artist": "Gabriel Mann",
+        "year": ""
+    },
+    {
+        "id": "00154",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Simpsons",
+        "wrong": [
+            "Family Guy",
+            "Futurama",
+            "South Park"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "The Simpsons Theme",
+        "artist": "Danny Elfman",
+        "year": ""
+    },
+    {
+        "id": "00155",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Family Guy",
+        "wrong": [
+            "The Simpsons",
+            "American Dad",
+            "South Park"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Family Guy Theme",
+        "artist": "Walter Murphy",
+        "year": ""
+    },
+    {
+        "id": "00156",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "South Park",
+        "wrong": [
+            "Family Guy",
+            "The Simpsons",
+            "Rick and Morty"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "South Park Theme",
+        "artist": "Primus",
+        "year": ""
+    },
+    {
+        "id": "00157",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Rick and Morty",
+        "wrong": [
+            "South Park",
+            "Futurama",
+            "BoJack Horseman"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Rick and Morty Theme",
+        "artist": "Ryan Elder",
+        "year": ""
+    },
+    {
+        "id": "00158",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Futurama",
+        "wrong": [
+            "The Simpsons",
+            "Rick and Morty",
+            "Disenchantment"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Futurama Theme",
+        "artist": "Christopher Tyng",
+        "year": ""
+    },
+    {
+        "id": "00159",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Tatort",
+        "wrong": [
+            "Polizeiruf 110",
+            "Der Alte",
+            "SOKO"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Tatort Theme",
+        "artist": "Klaus Doldinger",
+        "year": ""
+    },
+    {
+        "id": "00160",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Polizeiruf 110",
+        "wrong": [
+            "Tatort",
+            "Der Alte",
+            "SOKO"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Polizeiruf 110 Theme",
+        "artist": "Various Artists",
+        "year": ""
+    },
+    {
+        "id": "00161",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Der Alte",
+        "wrong": [
+            "Tatort",
+            "Polizeiruf 110",
+            "SOKO"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Der Alte Theme",
+        "artist": "Various Artists",
+        "year": ""
+    },
+    {
+        "id": "00162",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "SOKO Leipzig",
+        "wrong": [
+            "Tatort",
+            "SOKO Köln",
+            "Der Alte"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "SOKO Theme",
+        "artist": "Various Artists",
+        "year": ""
+    },
+    {
+        "id": "00163",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Babylon Berlin",
+        "wrong": [
+            "Dark",
+            "Charité",
+            "Ku'damm 56"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Zu Asche, Zu Staub",
+        "artist": "Severija",
+        "year": ""
+    },
+    {
+        "id": "00164",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Charité",
+        "wrong": [
+            "Babylon Berlin",
+            "Deutschland 83",
+            "Ku'damm 56"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Charité Theme",
+        "artist": "David Reichelt",
+        "year": ""
+    },
+    {
+        "id": "00165",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Deutschland 83",
+        "wrong": [
+            "Deutschland 86",
+            "Dark",
+            "Der gleiche Himmel"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Major Tom",
+        "artist": "Peter Schilling",
+        "year": ""
+    },
+    {
+        "id": "00166",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Deutschland 86",
+        "wrong": [
+            "Deutschland 83",
+            "Deutschland 89",
+            "Dark"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Sweet Dreams",
+        "artist": "Eurythmics",
+        "year": ""
+    },
+    {
+        "id": "00167",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Deutschland 89",
+        "wrong": [
+            "Deutschland 83",
+            "Deutschland 86",
+            "Dark"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Wind of Change",
+        "artist": "Scorpions",
+        "year": ""
+    },
+    {
+        "id": "00168",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Ku'damm 56",
+        "wrong": [
+            "Babylon Berlin",
+            "Charité",
+            "Unsere Mütter, unsere Väter"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Rock Around the Clock",
+        "artist": "Bill Haley & His Comets",
+        "year": ""
+    },
+    {
+        "id": "00169",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Unsere Mütter, unsere Väter",
+        "wrong": [
+            "Der Untergang",
+            "Stalingrad",
+            "Ku'damm 56"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "Fabian Römer",
+        "year": ""
+    },
+    {
+        "id": "00170",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Band of Brothers",
+        "wrong": [
+            "The Pacific",
+            "Der Soldat James Ryan",
+            "Unsere Mütter, unsere Väter"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Band of Brothers Theme",
+        "artist": "Michael Kamen",
+        "year": ""
+    },
+    {
+        "id": "00171",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "The Pacific",
+        "wrong": [
+            "Band of Brothers",
+            "Der Soldat James Ryan",
+            "Unsere Mütter, unsere Väter"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Honor",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00172",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Lost",
+        "wrong": [
+            "The Leftovers",
+            "Prison Break",
+            "Manifest"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Life and Death",
+        "artist": "Michael Giacchino",
+        "year": ""
+    },
+    {
+        "id": "00173",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Prison Break",
+        "wrong": [
+            "Lost",
+            "24",
+            "Oz"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Ramin Djawadi",
+        "year": ""
+    },
+    {
+        "id": "00174",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "24",
+        "wrong": [
+            "Prison Break",
+            "Homeland",
+            "Jack Ryan"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "24 Theme",
+        "artist": "Sean Callery",
+        "year": ""
+    },
+    {
+        "id": "00175",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Homeland",
+        "wrong": [
+            "24",
+            "Jack Ryan",
+            "Fauda"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Homeland Theme",
+        "artist": "Sean Callery",
+        "year": ""
+    },
+    {
+        "id": "00176",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Jack Ryan",
+        "wrong": [
+            "24",
+            "Homeland",
+            "Reacher"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Ramin Djawadi",
+        "year": ""
+    },
+    {
+        "id": "00177",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Reacher",
+        "wrong": [
+            "Jack Ryan",
+            "The Terminal List",
+            "Bosch"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Reacher Theme",
+        "artist": "Tony Morales",
+        "year": ""
+    },
+    {
+        "id": "00178",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Bosch",
+        "wrong": [
+            "Reacher",
+            "The Wire",
+            "True Detective"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Can't Let Go",
+        "artist": "Caught a Ghost",
+        "year": ""
+    },
+    {
+        "id": "00179",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "True Detective",
+        "wrong": [
+            "The Wire",
+            "Fargo",
+            "Mindhunter"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Far from Any Road",
+        "artist": "The Handsome Family",
+        "year": ""
+    },
+    {
+        "id": "00180",
+        "category": "Serien",
+        "question": "Zu welcher Serie passt dieser Track?",
+        "correct": "Fargo",
+        "wrong": [
+            "True Detective",
+            "Ozark",
+            "Breaking Bad"
+        ],
+        "image": "",
+        "lastplayed": "",
+        "audio": "itunes_auto",
+        "title": "Main Title Theme",
+        "artist": "Jeff Russo",
+        "year": ""
+    },
+    {
+        "id": "00003",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Jurassic Park",
+        "wrong": [
+            "Godzilla",
+            "King Kong",
+            "Independence Day"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-12T15:11:24Z",
+        "audio": "itunes_auto",
+        "title": "Theme from Jurassic Park",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00002",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der König der Löwen",
+        "wrong": [
+            "Aladdin",
+            "Tarzan",
+            "Die Schöne und das Biest"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-13T06:27:30Z",
+        "audio": "itunes_auto",
+        "title": "Circle of Life",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00005",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Harry Potter und der Stein der Weisen",
+        "wrong": [
+            "Der Herr der Ringe",
+            "Die Chroniken von Narnia",
+            "Fantastic Beasts"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-13T06:53:58Z",
+        "audio": "itunes_auto",
+        "title": "Hedwig's Theme",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00001",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Titanic",
+        "wrong": [
+            "Pearl Harbor",
+            "Der Bodyguard",
+            "Pretty Woman"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-13T07:07:54Z",
+        "audio": "itunes_auto",
+        "title": "My Heart Will Go On",
+        "artist": "James Horner",
+        "year": ""
+    },
+    {
+        "id": "00009",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "E.T. – Der Außerirdische",
+        "wrong": [
+            "Close Encounters",
+            "Zurück in die Zukunft",
+            "Superman"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T18:48:01Z",
+        "audio": "itunes_auto",
+        "title": "Flying Theme",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00006",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Fluch der Karibik",
+        "wrong": [
+            "Master and Commander",
+            "Der letzte Samurai",
+            "Robin Hood – König der Diebe"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T18:48:26Z",
+        "audio": "itunes_auto",
+        "title": "He's a Pirate",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00004",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Star Wars: Eine neue Hoffnung",
+        "wrong": [
+            "Das Imperium schlägt zurück",
+            "Der Mandalorian",
+            "Star Trek"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T18:48:53Z",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00008",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Herr der Ringe: Die Gefährten",
+        "wrong": [
+            "Der Hobbit",
+            "Willow",
+            "Game of Thrones"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T18:49:27Z",
+        "audio": "itunes_auto",
+        "title": "Concerning Hobbits",
+        "artist": "Howard Shore",
+        "year": ""
+    },
+    {
+        "id": "00013",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Zurück in die Zukunft",
+        "wrong": [
+            "Ghostbusters",
+            "E.T.",
+            "Indiana Jones"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T18:49:53Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "Alan Silvestri",
+        "year": ""
+    },
+    {
+        "id": "00012",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Dirty Dancing",
+        "wrong": [
+            "Flashdance",
+            "Footloose",
+            "Grease"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T18:50:22Z",
+        "audio": "itunes_auto",
+        "title": "Time of My Life",
+        "artist": "Various Artists",
+        "year": ""
+    },
+    {
+        "id": "00010",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Rocky",
+        "wrong": [
+            "Rocky IV",
+            "Creed",
+            "Rambo"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T18:50:56Z",
+        "audio": "itunes_auto",
+        "title": "Gonna Fly Now",
+        "artist": "Bill Conti",
+        "year": ""
+    },
+    {
+        "id": "00014",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der weiße Hai",
+        "wrong": [
+            "Der Exorzist",
+            "Alien",
+            "Psycho"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T19:57:33Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00011",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Top Gun",
+        "wrong": [
+            "Days of Thunder",
+            "Mission: Impossible",
+            "Pearl Harbor"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T19:58:05Z",
+        "audio": "itunes_auto",
+        "title": "Danger Zone",
+        "artist": "Harold Faltermeyer",
+        "year": ""
+    },
+    {
+        "id": "00017",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Grease",
+        "wrong": [
+            "Dirty Dancing",
+            "Footloose",
+            "Saturday Night Fever"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T19:58:29Z",
+        "audio": "itunes_auto",
+        "title": "You're the One That I Want",
+        "artist": "John Travolta & Olivia Newton-John",
+        "year": ""
+    },
+    {
+        "id": "00015",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Indiana Jones – Jäger des verlorenen Schatzes",
+        "wrong": [
+            "Der letzte Kreuzzug",
+            "Der Tempel des Todes",
+            "Die Mumie"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T19:59:02Z",
+        "audio": "itunes_auto",
+        "title": "Raiders March",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00018",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Saturday Night Fever",
+        "wrong": [
+            "Grease",
+            "Flashdance",
+            "Dirty Dancing"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T19:59:42Z",
+        "audio": "itunes_auto",
+        "title": "Stayin' Alive",
+        "artist": "Bee Gees",
+        "year": ""
+    },
+    {
+        "id": "00019",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Flashdance",
+        "wrong": [
+            "Footloose",
+            "Dirty Dancing",
+            "Fame"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T20:00:11Z",
+        "audio": "itunes_auto",
+        "title": "What a Feeling",
+        "artist": "Irene Cara",
+        "year": ""
+    },
+    {
+        "id": "00022",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Pretty Woman",
+        "wrong": [
+            "Notting Hill",
+            "Der Bodyguard",
+            "Vier Hochzeiten und ein Todesfall"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T20:00:42Z",
+        "audio": "itunes_auto",
+        "title": "Oh, Pretty Woman",
+        "artist": "Roy Orbison",
+        "year": ""
+    },
+    {
+        "id": "00007",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Forrest Gump",
+        "wrong": [
+            "Rain Man",
+            "Der Pate",
+            "Good Will Hunting"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T21:00:12Z",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Alan Silvestri",
+        "year": ""
+    },
+    {
+        "id": "00020",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Footloose",
+        "wrong": [
+            "Flashdance",
+            "Grease",
+            "Dirty Dancing"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T21:00:54Z",
+        "audio": "itunes_auto",
+        "title": "Footloose",
+        "artist": "Kenny Loggins",
+        "year": ""
+    },
+    {
+        "id": "00016",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Ghostbusters – Die Geisterjäger",
+        "wrong": [
+            "Beetlejuice",
+            "Gremlins",
+            "Die Goonies"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T21:01:33Z",
+        "audio": "itunes_auto",
+        "title": "Ghostbusters",
+        "artist": "Ray Parker Jr.",
+        "year": ""
+    },
+    {
+        "id": "00026",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Bridget Jones – Schokolade zum Frühstück",
+        "wrong": [
+            "Notting Hill",
+            "Pretty Woman",
+            "Tatsächlich… Liebe"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T21:01:57Z",
+        "audio": "itunes_auto",
+        "title": "All By Myself",
+        "artist": "Céline Dion",
+        "year": ""
+    },
+    {
+        "id": "00027",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Men in Black",
+        "wrong": [
+            "Independence Day",
+            "Ghostbusters",
+            "Matrix"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T21:02:40Z",
+        "audio": "itunes_auto",
+        "title": "Men in Black",
+        "artist": "Will Smith",
+        "year": ""
+    },
+    {
+        "id": "00021",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Bodyguard",
+        "wrong": [
+            "Pretty Woman",
+            "Notting Hill",
+            "Titanic"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T21:03:01Z",
+        "audio": "itunes_auto",
+        "title": "I Will Always Love You",
+        "artist": "Whitney Houston",
+        "year": ""
+    },
+    {
+        "id": "00028",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Independence Day",
+        "wrong": [
+            "Men in Black",
+            "Armageddon",
+            "Godzilla"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T21:03:46Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "David Arnold",
+        "year": ""
+    },
+    {
+        "id": "00024",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Vier Hochzeiten und ein Todesfall",
+        "wrong": [
+            "Notting Hill",
+            "Love Actually",
+            "Pretty Woman"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T22:15:52Z",
+        "audio": "itunes_auto",
+        "title": "Love Is All Around",
+        "artist": "Wet Wet Wet",
+        "year": ""
+    },
+    {
+        "id": "00023",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Notting Hill",
+        "wrong": [
+            "Pretty Woman",
+            "Tatsächlich… Liebe",
+            "Vier Hochzeiten und ein Todesfall"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T22:16:29Z",
+        "audio": "itunes_auto",
+        "title": "She",
+        "artist": "Elvis Costello",
+        "year": ""
+    },
+    {
+        "id": "00029",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Armageddon",
+        "wrong": [
+            "Deep Impact",
+            "Independence Day",
+            "The Rock"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T22:17:07Z",
+        "audio": "itunes_auto",
+        "title": "I Don't Want to Miss a Thing",
+        "artist": "Aerosmith",
+        "year": ""
+    },
+    {
+        "id": "00033",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Mission: Impossible",
+        "wrong": [
+            "James Bond",
+            "Bourne Identität",
+            "Jack Ryan"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T22:17:45Z",
+        "audio": "itunes_auto",
+        "title": "Theme from Mission: Impossible",
+        "artist": "Lalo Schifrin",
+        "year": ""
+    },
+    {
+        "id": "00032",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Face/Off",
+        "wrong": [
+            "Con Air",
+            "The Rock",
+            "Mission: Impossible"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T22:18:25Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "John Powell",
+        "year": ""
+    },
+    {
+        "id": "00030",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "The Rock",
+        "wrong": [
+            "Armageddon",
+            "Con Air",
+            "Bad Boys"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T22:19:02Z",
+        "audio": "itunes_auto",
+        "title": "Hummel Gets the Rockets",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00034",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "James Bond: Goldfinger",
+        "wrong": [
+            "Skyfall",
+            "Casino Royale",
+            "Thunderball"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T22:19:45Z",
+        "audio": "itunes_auto",
+        "title": "Goldfinger",
+        "artist": "Shirley Bassey",
+        "year": ""
+    },
+    {
+        "id": "00031",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Con Air",
+        "wrong": [
+            "The Rock",
+            "Face/Off",
+            "Bad Boys"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T23:25:13Z",
+        "audio": "itunes_auto",
+        "title": "How Do I Live",
+        "artist": "Trisha Yearwood",
+        "year": ""
+    },
+    {
+        "id": "00038",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Goodfellas",
+        "wrong": [
+            "Der Pate",
+            "Casino",
+            "Donnie Brasco"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T23:25:56Z",
+        "audio": "itunes_auto",
+        "title": "Layla (Piano Exit)",
+        "artist": "Derek and the Dominos",
+        "year": ""
+    },
+    {
+        "id": "00036",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Pate",
+        "wrong": [
+            "Scarface",
+            "Goodfellas",
+            "Casino"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T23:26:33Z",
+        "audio": "itunes_auto",
+        "title": "The Godfather Waltz",
+        "artist": "Nino Rota",
+        "year": ""
+    },
+    {
+        "id": "00039",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Casino",
+        "wrong": [
+            "Goodfellas",
+            "Scarface",
+            "Heat"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-14T23:27:03Z",
+        "audio": "itunes_auto",
+        "title": "House of the Rising Sun",
+        "artist": "The Animals",
+        "year": ""
+    },
+    {
+        "id": "00025",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Tatsächlich… Liebe",
+        "wrong": [
+            "Notting Hill",
+            "Bridget Jones",
+            "Vier Hochzeiten und ein Todesfall"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-15T00:13:41Z",
+        "audio": "itunes_auto",
+        "title": "All You Need Is Love",
+        "artist": "The Beatles",
+        "year": ""
+    },
+    {
+        "id": "00041",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "The Matrix",
+        "wrong": [
+            "Blade Runner",
+            "Equilibrium",
+            "Ghost in the Shell"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-15T00:14:15Z",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Don Davis",
+        "year": ""
+    },
+    {
+        "id": "00035",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "James Bond: Skyfall",
+        "wrong": [
+            "Spectre",
+            "Casino Royale",
+            "GoldenEye"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-15T00:14:58Z",
+        "audio": "itunes_auto",
+        "title": "Skyfall",
+        "artist": "Adele",
+        "year": ""
+    },
+    {
+        "id": "00044",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Predator",
+        "wrong": [
+            "Rambo",
+            "Commando",
+            "Universal Soldier"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-15T00:15:28Z",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Alan Silvestri",
+        "year": ""
+    },
+    {
+        "id": "00045",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Rambo",
+        "wrong": [
+            "Rocky",
+            "Predator",
+            "Commando"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-17T18:48:13Z",
+        "audio": "itunes_auto",
+        "title": "It's a Long Road",
+        "artist": "Jerry Goldsmith",
+        "year": ""
+    },
+    {
+        "id": "00042",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Blade Runner",
+        "wrong": [
+            "Tron",
+            "Matrix",
+            "Akira"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-17T18:48:45Z",
+        "audio": "itunes_auto",
+        "title": "Main Titles",
+        "artist": "Vangelis",
+        "year": ""
+    },
+    {
+        "id": "00040",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Heat",
+        "wrong": [
+            "The Town",
+            "Collateral",
+            "Drive"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-17T18:49:23Z",
+        "audio": "itunes_auto",
+        "title": "God Moving Over the Face of the Waters",
+        "artist": "Moby",
+        "year": ""
+    },
+    {
+        "id": "00047",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Dirty Dancing",
+        "wrong": [
+            "Flashdance",
+            "Footloose",
+            "Grease"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-17T18:49:50Z",
+        "audio": "itunes_auto",
+        "title": "(I've Had) The Time of My Life",
+        "artist": "Bill Medley & Jennifer Warnes",
+        "year": ""
+    },
+    {
+        "id": "00048",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der weiße Hai",
+        "wrong": [
+            "Piranha",
+            "Anaconda",
+            "Deep Blue Sea"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-17T18:50:12Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00050",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Gladiator",
+        "wrong": [
+            "Troja",
+            "Braveheart",
+            "Der letzte Mohikaner"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-17T18:50:38Z",
+        "audio": "itunes_auto",
+        "title": "Now We Are Free",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00051",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Braveheart",
+        "wrong": [
+            "Gladiator",
+            "Der Patriot",
+            "Troja"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T15:50:42Z",
+        "audio": "itunes_auto",
+        "title": "For the Love of a Princess",
+        "artist": "James Horner",
+        "year": ""
+    },
+    {
+        "id": "00043",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Terminator 2",
+        "wrong": [
+            "RoboCop",
+            "Predator",
+            "Total Recall"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T15:51:02Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "Brad Fiedel",
+        "year": ""
+    },
+    {
+        "id": "00046",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Rocky IV",
+        "wrong": [
+            "Rocky",
+            "Creed",
+            "Rambo"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T15:51:25Z",
+        "audio": "itunes_auto",
+        "title": "Eye of the Tiger",
+        "artist": "Survivor",
+        "year": ""
+    },
+    {
+        "id": "00049",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Schindlers Liste",
+        "wrong": [
+            "Der Pianist",
+            "Das Leben ist schön",
+            "Der englische Patient"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T15:51:46Z",
+        "audio": "itunes_auto",
+        "title": "Theme from Schindler's List",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00055",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "300",
+        "wrong": [
+            "Troja",
+            "Gladiator",
+            "Immortals"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T15:52:09Z",
+        "audio": "itunes_auto",
+        "title": "Returns a King",
+        "artist": "Tyler Bates",
+        "year": ""
+    },
+    {
+        "id": "00054",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Troja",
+        "wrong": [
+            "Gladiator",
+            "Alexander",
+            "300"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T15:52:31Z",
+        "audio": "itunes_auto",
+        "title": "Achilles Leads the Myrmidons",
+        "artist": "James Horner",
+        "year": ""
+    },
+    {
+        "id": "00056",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Inception",
+        "wrong": [
+            "Interstellar",
+            "Tenet",
+            "Matrix"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T21:53:12Z",
+        "audio": "itunes_auto",
+        "title": "Time",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00059",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Zurück in die Zukunft II",
+        "wrong": [
+            "Zurück in die Zukunft",
+            "Ghostbusters",
+            "E.T."
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T21:53:38Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "Alan Silvestri",
+        "year": ""
+    },
+    {
+        "id": "00037",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Scarface",
+        "wrong": [
+            "Der Pate",
+            "Goodfellas",
+            "Carlito's Way"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T21:54:08Z",
+        "audio": "itunes_auto",
+        "title": "Push It to the Limit",
+        "artist": "Paul Engemann",
+        "year": ""
+    },
+    {
+        "id": "00061",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Herr der Ringe: Die zwei Türme",
+        "wrong": [
+            "Die Gefährten",
+            "Die Rückkehr des Königs",
+            "Der Hobbit"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T21:54:35Z",
+        "audio": "itunes_auto",
+        "title": "Gollum's Song",
+        "artist": "Emilíana Torrini",
+        "year": ""
+    },
+    {
+        "id": "00062",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Herr der Ringe: Die Rückkehr des Königs",
+        "wrong": [
+            "Die zwei Türme",
+            "Die Gefährten",
+            "Der Hobbit"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T21:55:06Z",
+        "audio": "itunes_auto",
+        "title": "Into the West",
+        "artist": "Annie Lennox",
+        "year": ""
+    },
+    {
+        "id": "00052",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der letzte Mohikaner",
+        "wrong": [
+            "Braveheart",
+            "Der Patriot",
+            "Robin Hood"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T21:55:29Z",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Trevor Jones",
+        "year": ""
+    },
+    {
+        "id": "00063",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Hobbit: Eine unerwartete Reise",
+        "wrong": [
+            "Smaugs Einöde",
+            "Die Gefährten",
+            "Willow"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T22:24:23Z",
+        "audio": "itunes_auto",
+        "title": "Song of the Lonely Mountain",
+        "artist": "Neil Finn",
+        "year": ""
+    },
+    {
+        "id": "00065",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Hobbit: Die Schlacht der fünf Heere",
+        "wrong": [
+            "Smaugs Einöde",
+            "Eine unerwartete Reise",
+            "Der Herr der Ringe"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T22:24:47Z",
+        "audio": "itunes_auto",
+        "title": "The Last Goodbye",
+        "artist": "Billy Boyd",
+        "year": ""
+    },
+    {
+        "id": "00067",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Zauberer von Oz",
+        "wrong": [
+            "Mary Poppins",
+            "Alice im Wunderland",
+            "Cinderella"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T22:25:20Z",
+        "audio": "itunes_auto",
+        "title": "Over the Rainbow",
+        "artist": "Judy Garland",
+        "year": ""
+    },
+    {
+        "id": "00068",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Die Schöne und das Biest",
+        "wrong": [
+            "Aladdin",
+            "Cinderella",
+            "Arielle"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T22:25:45Z",
+        "audio": "itunes_auto",
+        "title": "Beauty and the Beast",
+        "artist": "Alan Menken",
+        "year": ""
+    },
+    {
+        "id": "00069",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Aladdin",
+        "wrong": [
+            "Hercules",
+            "Mulan",
+            "Der König der Löwen"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T22:26:26Z",
+        "audio": "itunes_auto",
+        "title": "A Whole New World",
+        "artist": "Alan Menken",
+        "year": ""
+    },
+    {
+        "id": "00058",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Avatar – Aufbruch nach Pandora",
+        "wrong": [
+            "Starship Troopers",
+            "Valerian",
+            "John Carter"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-20T22:27:04Z",
+        "audio": "itunes_auto",
+        "title": "I See You",
+        "artist": "James Horner",
+        "year": ""
+    },
+    {
+        "id": "00066",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Mary Poppins",
+        "wrong": [
+            "Der Zauberer von Oz",
+            "My Fair Lady",
+            "Chitty Chitty Bang Bang"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T00:43:40Z",
+        "audio": "itunes_auto",
+        "title": "A Spoonful of Sugar",
+        "artist": "Julie Andrews",
+        "year": ""
+    },
+    {
+        "id": "00072",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Frozen – Die Eiskönigin",
+        "wrong": [
+            "Vaiana",
+            "Rapunzel",
+            "Die Schöne und das Biest"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T00:44:03Z",
+        "audio": "itunes_auto",
+        "title": "Let It Go",
+        "artist": "Idina Menzel",
+        "year": ""
+    },
+    {
+        "id": "00064",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Hobbit: Smaugs Einöde",
+        "wrong": [
+            "Eine unerwartete Reise",
+            "Die Schlacht der fünf Heere",
+            "Der Herr der Ringe"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T00:44:45Z",
+        "audio": "itunes_auto",
+        "title": "I See Fire",
+        "artist": "Ed Sheeran",
+        "year": ""
+    },
+    {
+        "id": "00073",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Vaiana",
+        "wrong": [
+            "Frozen",
+            "Raya",
+            "Mulan"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T00:45:11Z",
+        "audio": "itunes_auto",
+        "title": "How Far I'll Go",
+        "artist": "Lin-Manuel Miranda",
+        "year": ""
+    },
+    {
+        "id": "00075",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Findet Nemo",
+        "wrong": [
+            "Findet Dorie",
+            "Shark Tale",
+            "Ratatouille"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T00:45:30Z",
+        "audio": "itunes_auto",
+        "title": "Beyond the Sea",
+        "artist": "Bobby Darin",
+        "year": ""
+    },
+    {
+        "id": "00057",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Interstellar",
+        "wrong": [
+            "Inception",
+            "Gravity",
+            "Arrival"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T00:45:59Z",
+        "audio": "itunes_auto",
+        "title": "Cornfield Chase",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00071",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Tarzan",
+        "wrong": [
+            "Der König der Löwen",
+            "Bärenbrüder",
+            "Hercules"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T20:32:56Z",
+        "audio": "itunes_auto",
+        "title": "You'll Be in My Heart",
+        "artist": "Phil Collins",
+        "year": ""
+    },
+    {
+        "id": "00077",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Wall·E",
+        "wrong": [
+            "Ratatouille",
+            "Findet Nemo",
+            "Toy Story"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T20:33:17Z",
+        "audio": "itunes_auto",
+        "title": "Define Dancing",
+        "artist": "Thomas Newman",
+        "year": ""
+    },
+    {
+        "id": "00070",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Hercules",
+        "wrong": [
+            "Aladdin",
+            "Mulan",
+            "Tarzan"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T20:33:49Z",
+        "audio": "itunes_auto",
+        "title": "Go the Distance",
+        "artist": "Alan Menken",
+        "year": ""
+    },
+    {
+        "id": "00074",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Toy Story",
+        "wrong": [
+            "Cars",
+            "Findet Nemo",
+            "Monster AG"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T20:34:10Z",
+        "audio": "itunes_auto",
+        "title": "You've Got a Friend in Me",
+        "artist": "Randy Newman",
+        "year": ""
+    },
+    {
+        "id": "00079",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Shrek",
+        "wrong": [
+            "Ice Age",
+            "Madagascar",
+            "Kung Fu Panda"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T20:34:31Z",
+        "audio": "itunes_auto",
+        "title": "All Star",
+        "artist": "Smash Mouth",
+        "year": ""
+    },
+    {
+        "id": "00076",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Ratatouille",
+        "wrong": [
+            "Wall·E",
+            "Cars",
+            "Findet Nemo"
+        ],
+        "image": "",
+        "lastplayed": "2026-03-21T20:34:53Z",
+        "audio": "itunes_auto",
+        "title": "Le Festin",
+        "artist": "Camille",
+        "year": ""
+    },
+    {
+        "id": "00078",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Ice Age",
+        "wrong": [
+            "Madagascar",
+            "Shrek",
+            "Ab durch die Hecke"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-03T18:28:34Z",
+        "audio": "itunes_auto",
+        "title": "Send Me On My Way",
+        "artist": "Rusted Root",
+        "year": ""
+    },
+    {
+        "id": "00081",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Kung Fu Panda",
+        "wrong": [
+            "Mulan",
+            "Karate Kid",
+            "Drachenzähmen leicht gemacht"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-03T18:29:05Z",
+        "audio": "itunes_auto",
+        "title": "Kung Fu Fighting",
+        "artist": "CeeLo Green",
+        "year": ""
+    },
+    {
+        "id": "00080",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Madagascar",
+        "wrong": [
+            "Ice Age",
+            "Rio",
+            "Kung Fu Panda"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-03T18:29:30Z",
+        "audio": "itunes_auto",
+        "title": "I Like to Move It",
+        "artist": "Reel 2 Real",
+        "year": ""
+    },
+    {
+        "id": "00083",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der weiße Hai",
+        "wrong": [
+            "Anaconda",
+            "Piranha",
+            "Deep Blue Sea"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-03T18:29:57Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00085",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Psycho",
+        "wrong": [
+            "Vertigo",
+            "Halloween",
+            "Der Exorzist"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-03T18:30:28Z",
+        "audio": "itunes_auto",
+        "title": "Prelude",
+        "artist": "Bernard Herrmann",
+        "year": ""
+    },
+    {
+        "id": "00084",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Alien",
+        "wrong": [
+            "Event Horizon",
+            "Sunshine",
+            "Pandorum"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-03T18:31:00Z",
+        "audio": "itunes_auto",
+        "title": "Main Title",
+        "artist": "Jerry Goldsmith",
+        "year": ""
+    },
+    {
+        "id": "00088",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der weiße Hai",
+        "wrong": [
+            "Piranha",
+            "Anaconda",
+            "Deep Blue Sea"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T19:51:11Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00082",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Drachenzähmen leicht gemacht",
+        "wrong": [
+            "Eragon",
+            "Der Hobbit",
+            "Kung Fu Panda"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T19:51:35Z",
+        "audio": "itunes_auto",
+        "title": "Test Drive",
+        "artist": "John Powell",
+        "year": ""
+    },
+    {
+        "id": "00087",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Exorzist",
+        "wrong": [
+            "Psycho",
+            "Omen",
+            "Halloween"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T19:52:09Z",
+        "audio": "itunes_auto",
+        "title": "Tubular Bells",
+        "artist": "Mike Oldfield",
+        "year": ""
+    },
+    {
+        "id": "00092",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Das Boot",
+        "wrong": [
+            "Der Untergang",
+            "Stalingrad",
+            "Die Brücke"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T19:52:54Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "Klaus Doldinger",
+        "year": ""
+    },
+    {
+        "id": "00094",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Good Bye, Lenin!",
+        "wrong": [
+            "Das Leben der Anderen",
+            "Sonnenallee",
+            "Der Untergang"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T19:53:35Z",
+        "audio": "itunes_auto",
+        "title": "Summer 78",
+        "artist": "Yann Tiersen",
+        "year": ""
+    },
+    {
+        "id": "00086",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Halloween",
+        "wrong": [
+            "Freitag der 13.",
+            "Nightmare on Elm Street",
+            "The Fog"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T19:54:18Z",
+        "audio": "itunes_auto",
+        "title": "Halloween Theme",
+        "artist": "John Carpenter",
+        "year": ""
+    },
+    {
+        "id": "00090",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Forrest Gump",
+        "wrong": [
+            "Rain Man",
+            "Der Soldat James Ryan",
+            "Philadelphia"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T20:43:27Z",
+        "audio": "itunes_auto",
+        "title": "Suite from Forrest Gump",
+        "artist": "Alan Silvestri",
+        "year": ""
+    },
+    {
+        "id": "00089",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Soldat James Ryan",
+        "wrong": [
+            "Platoon",
+            "Apocalypse Now",
+            "Black Hawk Down"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T20:43:53Z",
+        "audio": "itunes_auto",
+        "title": "Hymn to the Fallen",
+        "artist": "John Williams",
+        "year": ""
+    },
+    {
+        "id": "00099",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der bewegte Mann",
+        "wrong": [
+            "Männer",
+            "Keinohrhasen",
+            "Ballermann 6"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T20:44:32Z",
+        "audio": "itunes_auto",
+        "title": "You Sexy Thing",
+        "artist": "Hot Chocolate",
+        "year": ""
+    },
+    {
+        "id": "00098",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Manta Manta",
+        "wrong": [
+            "Bang Boom Bang",
+            "Voll normaaal",
+            "Ballermann 6"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T20:45:20Z",
+        "audio": "itunes_auto",
+        "title": "Looking for Freedom",
+        "artist": "David Hasselhoff",
+        "year": ""
+    },
+    {
+        "id": "00097",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Bang Boom Bang",
+        "wrong": [
+            "Lola rennt",
+            "Der bewegte Mann",
+            "Manta Manta"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T20:45:52Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "Various Artists",
+        "year": ""
+    },
+    {
+        "id": "00096",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Lola rennt",
+        "wrong": [
+            "Victoria",
+            "Run Lola Run",
+            "Bang Boom Bang"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T20:46:30Z",
+        "audio": "itunes_auto",
+        "title": "Wish (Komm zu mir)",
+        "artist": "Franka Potente",
+        "year": ""
+    },
+    {
+        "id": "00103",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Fack ju Göhte",
+        "wrong": [
+            "Türkisch für Anfänger",
+            "Der bewegte Mann",
+            "Manta Manta"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:10:07Z",
+        "audio": "itunes_auto",
+        "title": "Astronaut",
+        "artist": "Sido",
+        "year": ""
+    },
+    {
+        "id": "00100",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Keinohrhasen",
+        "wrong": [
+            "Zweiohrküken",
+            "Der bewegte Mann",
+            "Männerherzen"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:10:32Z",
+        "audio": "itunes_auto",
+        "title": "Apologize",
+        "artist": "Timbaland",
+        "year": ""
+    },
+    {
+        "id": "00104",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Türkisch für Anfänger",
+        "wrong": [
+            "Fack ju Göhte",
+            "Keinohrhasen",
+            "What a Man"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:10:53Z",
+        "audio": "itunes_auto",
+        "title": "Nur ein Wort",
+        "artist": "Wir sind Helden",
+        "year": ""
+    },
+    {
+        "id": "00106",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Wixxer",
+        "wrong": [
+            "Der Schuh des Manitu",
+            "Traumschiff Surprise",
+            "Otto – Der Film"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:11:18Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "Various Artists",
+        "year": ""
+    },
+    {
+        "id": "00102",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Männerherzen",
+        "wrong": [
+            "Keinohrhasen",
+            "Zweiohrküken",
+            "Der bewegte Mann"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:11:49Z",
+        "audio": "itunes_auto",
+        "title": "Use Somebody",
+        "artist": "Kings of Leon",
+        "year": ""
+    },
+    {
+        "id": "00101",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Zweiohrküken",
+        "wrong": [
+            "Keinohrhasen",
+            "Männerherzen",
+            "What a Man"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:12:17Z",
+        "audio": "itunes_auto",
+        "title": "Bleeding Love",
+        "artist": "Leona Lewis",
+        "year": ""
+    },
+    {
+        "id": "00109",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der Name der Rose",
+        "wrong": [
+            "Im Namen des Vaters",
+            "Der Medicus",
+            "Der Untergang"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:55:36Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "James Horner",
+        "year": ""
+    },
+    {
+        "id": "00111",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der letzte Samurai",
+        "wrong": [
+            "Der mit dem Wolf tanzt",
+            "Braveheart",
+            "Troja"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:56:16Z",
+        "audio": "itunes_auto",
+        "title": "A Way of Life",
+        "artist": "Hans Zimmer",
+        "year": ""
+    },
+    {
+        "id": "00112",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Robin Hood – König der Diebe",
+        "wrong": [
+            "Braveheart",
+            "Der Patriot",
+            "Königreich der Himmel"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:56:57Z",
+        "audio": "itunes_auto",
+        "title": "(Everything I Do) I Do It for You",
+        "artist": "Bryan Adams",
+        "year": ""
+    },
+    {
+        "id": "00110",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Der mit dem Wolf tanzt",
+        "wrong": [
+            "Der letzte Samurai",
+            "Braveheart",
+            "Der Patriot"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:57:31Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "John Barry",
+        "year": ""
+    },
+    {
+        "id": "00114",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Alexander",
+        "wrong": [
+            "Troja",
+            "Königreich der Himmel",
+            "Gladiator"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:58:12Z",
+        "audio": "itunes_auto",
+        "title": "The End",
+        "artist": "Vangelis",
+        "year": ""
+    },
+    {
+        "id": "00113",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Königreich der Himmel",
+        "wrong": [
+            "Troja",
+            "Alexander",
+            "Gladiator"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:58:51Z",
+        "audio": "itunes_auto",
+        "title": "Wall Breached",
+        "artist": "Harry Gregson-Williams",
+        "year": ""
+    },
+    {
+        "id": "00108",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Otto – Der Film",
+        "wrong": [
+            "Der Schuh des Manitu",
+            "Der Wixxer",
+            "Voll normaaal"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:10:40Z",
+        "audio": "itunes_auto",
+        "title": "Otto Theme",
+        "artist": "Various Artists",
+        "year": ""
+    },
+    {
+        "id": "00105",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "What a Man",
+        "wrong": [
+            "Keinohrhasen",
+            "Zweiohrküken",
+            "Männerherzen"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:11:21Z",
+        "audio": "itunes_auto",
+        "title": "Sexy als ich",
+        "artist": "Lena Meyer-Landrut",
+        "year": ""
+    },
+    {
+        "id": "00116",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "American Sniper",
+        "wrong": [
+            "Lone Survivor",
+            "13 Hours",
+            "Black Hawk Down"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:11:56Z",
+        "audio": "itunes_auto",
+        "title": "Main Theme",
+        "artist": "Ennio Morricone",
+        "year": ""
+    },
+    {
+        "id": "00117",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "Black Hawk Down",
+        "wrong": [
+            "Der Soldat James Ryan",
+            "13 Hours",
+            "Lone Survivor"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:12:30Z",
+        "audio": "itunes_auto",
+        "title": "Gortoz A Ran",
+        "artist": "Denez Prigent & Lisa Gerrard",
+        "year": ""
+    },
+    {
+        "id": "00119",
+        "category": "Filme",
+        "question": "Zu welchem Film passt dieser Track?",
+        "correct": "13 Hours",
+        "wrong": [
+            "Lone Survivor",
+            "Black Hawk Down",
+            "American Sniper"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:13:10Z",
+        "audio": "itunes_auto",
+        "title": "Benghazi",
+        "artist": "Lorne Balfe",
+        "year": ""
+    }
+]

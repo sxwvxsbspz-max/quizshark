@@ -1,0 +1,246 @@
+/* =========================================================
+   BASIS
+   ========================================================= */
+
+html {
+  font-size: 16px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+.aj,
+.aj * {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #00167a;
+  --white16: rgba(255,255,255,0.16);
+  --white20: rgba(255,255,255,0.20);
+  --white95: rgba(255,255,255,0.95);
+}
+
+/* =========================================================
+   ROOT
+   ========================================================= */
+
+.aj {
+  width: 100vw;
+  height: 100vh;
+
+  font-family: "Nunito", Arial, sans-serif;
+  color: #fff;
+
+  background: var(--bg) url("/awardjokers/media/controllerbackground.svg") center/cover no-repeat;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* =========================================================
+   WRAP
+   - max 500px
+   - sonst Screenbreite minus 5% links & rechts
+   ========================================================= */
+
+.aj__wrap {
+  width: min(500px, 90vw);
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========================================================
+   STACK
+   ========================================================= */
+
+.aj__stack {
+  width: 100%;            /* damit Name 100% sinnvoll ist */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =========================================================
+   TOP SHIELD
+   ========================================================= */
+
+.aj__top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 90px;
+}
+
+.aj__shield {
+  width: 220px;
+  height: auto;
+  filter: drop-shadow(0 10px 28px rgba(0,0,0,0.25));
+}
+
+/* =========================================================
+   NAME
+   ========================================================= */
+
+.aj__name {
+  width: 100%;            /* <-- jetzt so breit wie wrap */
+  min-width: 0;           /* <-- wichtig für ellipsis in flex-context */
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  font-size: 50px;
+  font-weight: 500;
+  color: var(--white95);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =========================================================
+   BOTTOM CARD
+   ========================================================= */
+
+.aj__card {
+  width: 280px;
+  height: 110px;
+
+  padding: 16px;
+  gap: 16px;
+
+  display: flex;
+  align-items: center;
+
+  background: var(--white16);
+  border-radius: 22px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.22);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  /* NEU: Overlay exakt über die Card legen */
+  position: relative;
+  overflow: hidden;
+}
+
+/* =========================================================
+   CARD OVERLAY (SILVER DIAGONAL STRIPES)
+   - exakt gleiche Größe wie die Card via inset:0
+   ========================================================= */
+
+.aj__cardOverlay{
+  position: absolute;
+  inset: 0;
+  border-radius: 22px;
+  z-index: 10;
+
+  /* Diagonal von links unten nach rechts oben */
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      rgb(235,238,242) 0px,
+      rgb(235,238,242) 8px,
+      rgb(190,198,210) 8px,
+      rgb(190,198,210) 16px
+    );
+
+  /* KEINE Transparenz, kein Glas-Effekt */
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+
+  pointer-events: none;
+
+  /* optionaler feiner Rahmen bleibt */
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25);
+
+  /* NEU: Animation (Overlay kann nach rechts raus sliden) */
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+  will-change: transform;
+}
+
+/* NEU: Wenn die Card "unveiled" ist, schiebt sich das Overlay raus */
+.aj__card.is-unveiled .aj__cardOverlay{
+  transform: translateX(110%);
+}
+
+
+/* =========================================================
+   JOKER COLUMN (links)
+   ========================================================= */
+
+.aj__jokerArea {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aj__jokers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.aj__jokerIcon {
+  height: 80px;
+  width: auto;
+
+  filter: drop-shadow(0 6px 16px rgba(0,0,0,0.18));
+}
+
+/* =========================================================
+   SCORE/RANK COLUMN (rechts)
+   ========================================================= */
+
+.aj__rankBox {
+  width: 80px;
+  height: 80px;
+
+  flex: 0 0 80px;
+  flex-shrink: 0;
+  min-width: 80px;
+
+  background: var(--white20);
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aj__rankText {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+}

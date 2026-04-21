@@ -1,0 +1,215 @@
+/* --- FILE: ./pre_lobby/static/controller.css --- */
+
+/* =========================================================
+   BASIS
+   ========================================================= */
+
+html {
+  font-size: clamp(14px, 2.2vw, 18px);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ps, .ps * {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+
+:root {
+  --bg: #00167a;
+
+  --white16: rgba(255,255,255,0.16);
+  --white30: rgba(255,255,255,0.30);
+  --white95: rgba(255,255,255,0.95);
+
+  --accent: #ffd727;
+
+  --cardRadius: 18px;
+
+  --shellW: 560px;
+  --shellPad: 18px;
+
+  --infoFont: 1.75rem;
+  --infoLine: 1.15;
+
+  --animMs: 380ms; /* muss zu controller.js passen */
+
+  /* 🔼 BOX HÖHER MACHEN */
+  --cardPadY: 36px;   /* vorher 22px */
+  --cardPadX: 24px;   /* vorher 20px */
+}
+
+
+/* =========================================================
+   ROOT
+   ========================================================= */
+
+.ps.pre-lobby.pre-lobby--controller {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nunito", Arial, sans-serif;
+  color: #fff;
+  background: var(--bg);
+  position: relative;
+}
+
+/* =========================================================
+   BACKGROUND SVG
+   ========================================================= */
+
+.prelobby-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.prelobby-bg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #08263c;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(14, 65, 102, 0.86),
+    #0e4166
+  );
+}
+
+/* =========================================================
+   WRAP
+   ========================================================= */
+
+.ps__wrap.pre-lobby__wrap.pre-lobby__wrap--controller {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: var(--shellPad);
+
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.prelobby-controller-shell {
+  width: min(var(--shellW), 92vw);
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: 1fr auto 1fr; /* Card in der Mitte, Logo „oben mittig“ */
+  justify-items: center;
+  align-items: center;
+}
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.prelobby-logo--controller {
+  grid-row: 1;
+  width: min(62vw, 360px);
+  height: auto;
+  display: block;
+  align-self: center;
+}
+
+/* =========================================================
+   CARD (ist jetzt die Infobox)
+   ========================================================= */
+
+.prelobby-controller-card {
+  grid-row: 2;
+
+  width: 100%;
+
+  /* wichtig: Padding NICHT hier, sondern in den Layern */
+  padding: 0;
+
+  background: var(--white16);
+  border-radius: var(--cardRadius);
+  border: 2px solid rgba(255,255,255,0.18);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+
+  position: relative;
+  overflow: hidden;
+
+  /* Startwert – wird per JS auf Text-Höhe gesetzt */
+  height: auto;
+}
+
+/* =========================================================
+   LAYER (ehemals in der inneren Box)
+   ========================================================= */
+
+.prelobby-infobox__layer {
+  position: absolute;
+  inset: 0;
+  padding: var(--cardPadY) var(--cardPadX);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: var(--infoFont);
+  line-height: var(--infoLine);
+  font-weight: 700;
+  color: var(--white95);
+
+  white-space: pre-line;
+  text-align: center;
+
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--animMs) ease, transform var(--animMs) ease;
+  will-change: opacity, transform;
+}
+
+.prelobby-infobox__layer.is-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.prelobby-infobox__layer.is-enter {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.prelobby-infobox__layer.is-exit {
+  opacity: 0;
+  transform: translateY(-12px);
+}
+
+/* Mobile: ein Tick kompakter */
+@media (max-width: 420px) {
+  :root { --infoFont: 1.55rem; }
+}

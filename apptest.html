@@ -1,0 +1,142 @@
+<!-- --- FILE: ./apptest.html --- -->
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blitzquiz – App Test</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 24px; }
+    .row { display: flex; gap: 16px; flex-wrap: wrap; }
+    .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; min-width: 320px; }
+    label { display:block; font-size: 12px; color:#444; margin-top: 10px; }
+    input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; }
+    button { padding: 10px 14px; border: 0; border-radius: 8px; cursor: pointer; }
+    button.primary { background: #111; color: #fff; }
+    button.secondary { background: #eee; }
+    .status { margin-top: 12px; font-size: 13px; color:#333; white-space: pre-wrap; }
+    .actions { display:flex; gap:10px; margin-top: 14px; flex-wrap: wrap; }
+    .hint { font-size: 12px; color:#666; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h2>App Test – Fake Players</h2>
+  <div class="hint">
+    Diese Seite schreibt direkt in den laufenden GameState. Sinnvoll: nur in der Lobby nutzen.
+  </div>
+
+  <div class="row">
+    <div class="card">
+      <h3>Individuell</h3>
+
+      <label>Name</label>
+      <input id="one_name" placeholder="z.B. Alex" />
+
+      <label>Punktzahl</label>
+      <input id="one_score" type="number" value="500" />
+
+      <label>
+        <input id="one_ready" type="checkbox" checked />
+        Ready setzen
+      </label>
+
+      <div class="actions">
+        <button class="primary" id="btn_add_one">Spieler anlegen</button>
+      </div>
+
+      <div class="status" id="status_one"></div>
+    </div>
+
+    <div class="card">
+      <h3>Bulk</h3>
+
+      <label>Anzahl</label>
+      <input id="bulk_n" type="number" value="8" />
+
+      <label>Min Punkte</label>
+      <input id="bulk_min" type="number" value="0" />
+
+      <label>Max Punkte</label>
+      <input id="bulk_max" type="number" value="1500" />
+
+      <label>
+        <input id="bulk_ready" type="checkbox" checked />
+        Ready setzen
+      </label>
+
+      <div class="actions">
+        <button class="primary" id="btn_add_bulk">Bulk erzeugen</button>
+      </div>
+
+      <div class="status" id="status_bulk"></div>
+    </div>
+
+    <div class="card">
+      <h3>Reset</h3>
+      <div class="hint">Setzt alles zurück auf Lobby (inkl. Spieler löschen, neue run_id).</div>
+
+      <div class="actions">
+        <button class="secondary" id="btn_reset">Reset Lobby</button>
+      </div>
+
+      <div class="status" id="status_reset"></div>
+    </div>
+  </div>
+
+  <script>
+    async function postJSON(url, payload) {
+      const res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload || {})
+      });
+      const text = await res.text();
+      let json;
+      try { json = JSON.parse(text); } catch(e) { json = { raw: text }; }
+      if (!res.ok) throw json;
+      return json;
+    }
+
+    const $ = (id) => document.getElementById(id);
+
+    $("btn_add_one").addEventListener("click", async () => {
+      $("status_one").textContent = "";
+      try {
+        const out = await postJSON("/app_test/api/add_player", {
+          name: $("one_name").value,
+          score: Number($("one_score").value || 0),
+          ready: $("one_ready").checked
+        });
+        $("status_one").textContent = "OK\n" + JSON.stringify(out, null, 2);
+      } catch (e) {
+        $("status_one").textContent = "ERROR\n" + JSON.stringify(e, null, 2);
+      }
+    });
+
+    $("btn_add_bulk").addEventListener("click", async () => {
+      $("status_bulk").textContent = "";
+      try {
+        const out = await postJSON("/app_test/api/bulk_players", {
+          n: Number($("bulk_n").value || 0),
+          min_score: Number($("bulk_min").value || 0),
+          max_score: Number($("bulk_max").value || 0),
+          ready: $("bulk_ready").checked
+        });
+        $("status_bulk").textContent = "OK\n" + JSON.stringify(out, null, 2);
+      } catch (e) {
+        $("status_bulk").textContent = "ERROR\n" + JSON.stringify(e, null, 2);
+      }
+    });
+
+    $("btn_reset").addEventListener("click", async () => {
+      $("status_reset").textContent = "";
+      try {
+        const out = await postJSON("/app_test/api/reset_lobby", {});
+        $("status_reset").textContent = "OK\n" + JSON.stringify(out, null, 2);
+      } catch (e) {
+        $("status_reset").textContent = "ERROR\n" + JSON.stringify(e, null, 2);
+      }
+    });
+  </script>
+</body>
+</html>

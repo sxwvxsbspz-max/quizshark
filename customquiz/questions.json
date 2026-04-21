@@ -1,0 +1,452 @@
+[
+    {
+        "id": "0002",
+        "category": "Other",
+        "question": "In welcher Region Kretas liegt das Resort?",
+        "correct": "In der Region Hersonissos an der Nordküste Kretas",
+        "wrong": [
+            "In der Region Stalis an der Nordküste Kretas",
+            "In der Region Malia an der Nordküste Kretas",
+            "In der Region Heraklion an der Nordküste Kretas"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T20:13:29Z",
+        "categoryaudio": "",
+        "audio": "question-0002.mp3"
+    },
+    {
+        "id": "0004",
+        "category": "Other",
+        "question": "Zwischen welchen drei Orten liegt das Hotel?",
+        "correct": "Zwischen Hersonissos, Stalis und Malia",
+        "wrong": [
+            "Zwischen Hersonissos, Stalis und Heraklion",
+            "Zwischen Stalis, Malia und Agios Nikolaos",
+            "Zwischen Hersonissos, Malia und Rethymno"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-08T19:53:10Z",
+        "categoryaudio": "",
+        "audio": "question-0004.mp3"
+    },
+    {
+        "id": "0001",
+        "category": "Other",
+        "question": "Wie hieß Nana Golden Beach früher?",
+        "correct": "Nana Beach",
+        "wrong": [
+            "Nana Beach Resort",
+            "Nana Golden Resort",
+            "Nana Beach Club"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T21:04:33Z",
+        "categoryaudio": "",
+        "audio": "question-0001.mp3"
+    },
+    {
+        "id": "0005",
+        "category": "Other",
+        "question": "Wie viele Zimmer bzw. Suiten hat das Resort ungefähr?",
+        "correct": "Rund 500 Zimmer und Suiten",
+        "wrong": [
+            "Rund 450 Zimmer und Suiten",
+            "Rund 550 Zimmer und Suiten",
+            "Rund 600 Zimmer und Suiten"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T21:05:24Z",
+        "categoryaudio": "",
+        "audio": "question-0005.mp3"
+    },
+    {
+        "id": "0010",
+        "category": "Other",
+        "question": "Gibt es ein All-night-Restaurant?",
+        "correct": "Ja",
+        "wrong": [
+            "Ja, aber nur saisonal",
+            "Ja, aber nur für bestimmte Gäste",
+            "Ja, aber mit eingeschränktem Angebot"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T21:05:53Z",
+        "categoryaudio": "",
+        "audio": "question-0010.mp3"
+    },
+    {
+        "id": "0007",
+        "category": "Other",
+        "question": "Wie viele Restaurants bietet das Resort laut offizieller Website?",
+        "correct": "8 Restaurants",
+        "wrong": [
+            "7 Restaurants",
+            "9 Restaurants",
+            "10 Restaurants"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T21:06:13Z",
+        "categoryaudio": "",
+        "audio": "question-0007.mp3"
+    },
+    {
+        "id": "0012",
+        "category": "Other",
+        "question": "Welche Zielgruppe spricht das Hotel besonders an?",
+        "correct": "Familien, aber auch Paare",
+        "wrong": [
+            "Familien mit Fokus auf Kinderbetreuung",
+            "Paare und Alleinreisende",
+            "Familien und Gruppenreisende"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-05T21:06:40Z",
+        "categoryaudio": "",
+        "audio": "question-0012.mp3"
+    },
+    {
+        "id": "0015",
+        "category": "Other",
+        "question": "Wie groß ist der Spa-Bereich im Sports Club laut Grecomap?",
+        "correct": "Etwa 650 Quadratmeter",
+        "wrong": [
+            "Etwa 600 Quadratmeter",
+            "Etwa 700 Quadratmeter",
+            "Etwa 750 Quadratmeter"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:29:22Z",
+        "categoryaudio": "",
+        "audio": "question-0015.mp3"
+    },
+    {
+        "id": "0014",
+        "category": "Other",
+        "question": "Welche Größe hat das erwähnte Fitnessstudio ungefähr?",
+        "correct": "Rund 600 Quadratmeter",
+        "wrong": [
+            "Rund 550 Quadratmeter",
+            "Rund 650 Quadratmeter",
+            "Rund 700 Quadratmeter"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:29:47Z",
+        "categoryaudio": "",
+        "audio": "question-0014.mp3"
+    },
+    {
+        "id": "0018",
+        "category": "Other",
+        "question": "Welche Freizeitangebote deuten auf ein sehr aktives Urlaubskonzept hin?",
+        "correct": "Wasserpark, Tennis, Wassersport, Kids Club, Sportanlagen und Animation",
+        "wrong": [
+            "Wasserpark, Fitness, Animation und Spa",
+            "Tennis, Fitness, Kids Club und Wellness",
+            "Wassersport, Animation und Sportangebote"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:30:13Z",
+        "categoryaudio": "",
+        "audio": "question-0018.mp3"
+    },
+    {
+        "id": "0019",
+        "category": "Other",
+        "question": "Welche Wassersportarten werden ausdrücklich erwähnt?",
+        "correct": "Snorkeling, Diving, Canoeing und Fishing",
+        "wrong": [
+            "Snorkeling, Diving und Canoeing",
+            "Diving, Canoeing und Fishing",
+            "Snorkeling, Canoeing und Fishing"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:30:35Z",
+        "categoryaudio": "",
+        "audio": "question-0019.mp3"
+    },
+    {
+        "id": "0013",
+        "category": "Other",
+        "question": "Welche Sportanlage ist besonders auffällig und umfangreich?",
+        "correct": "Die Tennisanlage mit 21 Tennisplätzen",
+        "wrong": [
+            "Die Tennisanlage mit 18 Tennisplätzen",
+            "Die Tennisanlage mit 24 Tennisplätzen",
+            "Die Tennisanlage mit 20 Tennisplätzen"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:31:02Z",
+        "categoryaudio": "",
+        "audio": "question-0013.mp3"
+    },
+    {
+        "id": "0020",
+        "category": "Other",
+        "question": "Welche Wellness-Einrichtungen nennt der Royal Wellness Club?",
+        "correct": "Indoor-Pool, Sauna, Dampfbad, Whirlpool, Erlebnisduschen, Massagen und Beauty-Behandlungen",
+        "wrong": [
+            "Indoor-Pool, Sauna, Whirlpool, Massagen und Beauty-Behandlungen",
+            "Sauna, Dampfbad, Whirlpool, Massagen und Beauty-Behandlungen",
+            "Indoor-Pool, Dampfbad, Whirlpool, Massagen und Beauty-Behandlungen"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T18:31:25Z",
+        "categoryaudio": "",
+        "audio": "question-0020.mp3"
+    },
+    {
+        "id": "0017",
+        "category": "Other",
+        "question": "Welche besondere Strand-Auszeichnung hat der Strand?",
+        "correct": "Blue Flag",
+        "wrong": [
+            "Blue Label",
+            "Blue Award",
+            "Blue Standard"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T19:17:57Z",
+        "categoryaudio": "",
+        "audio": "question-0017.mp3"
+    },
+    {
+        "id": "0021",
+        "category": "Other",
+        "question": "Wie wird die Umgebung des Hotels charakterisiert?",
+        "correct": "Als ideal zum Erkunden der umliegenden Attraktionen",
+        "wrong": [
+            "Als gut geeignet für Ausflüge in die Umgebung",
+            "Als attraktiver Ausgangspunkt für Besichtigungen",
+            "Als zentral gelegen für touristische Aktivitäten"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T19:18:29Z",
+        "categoryaudio": "",
+        "audio": "question-0021.mp3"
+    },
+    {
+        "id": "0024",
+        "category": "Other",
+        "question": "Welche drei Orte werden als nahe gelegen genannt?",
+        "correct": "Hersonissos 1,5 km, Stalis 1 km, Malia 5 km",
+        "wrong": [
+            "Hersonissos 2 km, Stalis 1 km, Malia 5 km",
+            "Hersonissos 1,5 km, Stalis 2 km, Malia 5 km",
+            "Hersonissos 1,5 km, Stalis 1 km, Malia 4 km"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T19:18:57Z",
+        "categoryaudio": "",
+        "audio": "question-0024.mp3"
+    },
+    {
+        "id": "0026",
+        "category": "Other",
+        "question": "Welche zusätzliche Gastronomie wird neben Restaurants genannt?",
+        "correct": "Bars, darunter auch Strand- und Poolbars",
+        "wrong": [
+            "Bars, darunter hauptsächlich Poolbars",
+            "Bars, darunter auch Lobby- und Poolbars",
+            "Bars, darunter Strand- und Lobbybars"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T19:19:28Z",
+        "categoryaudio": "",
+        "audio": "question-0026.mp3"
+    },
+    {
+        "id": "0027",
+        "category": "Other",
+        "question": "Welche Ausstattung spricht für ein gehobenes Resort-Konzept?",
+        "correct": "Mehrere Restaurants, mehrere Pools, Wellness, Sportclubs und Wasserpark",
+        "wrong": [
+            "Mehrere Restaurants, Pools, Wellness und Sportangebote",
+            "Restaurants, Pools, Wellness und Wasserpark",
+            "Mehrere Restaurants, Pools, Sportclubs und Wasserpark"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T19:19:53Z",
+        "categoryaudio": "",
+        "audio": "question-0027.mp3"
+    },
+    {
+        "id": "0023",
+        "category": "Other",
+        "question": "Welche Einrichtung passt am besten zum Hotel?",
+        "correct": "Tennis Academy",
+        "wrong": [
+            "Tennis Center",
+            "Tennis Club",
+            "Tennis Training Facility"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-06T19:20:18Z",
+        "categoryaudio": "",
+        "audio": "question-0023.mp3"
+    },
+    {
+        "id": "0028",
+        "category": "Other",
+        "question": "Welche Services stehen im Entspannungsbereich zur Verfügung?",
+        "correct": "Spa, Sauna, Massage, Hot Tub/Jacuzzi, Steam Bath und Spa Lounge",
+        "wrong": [
+            "Spa, Sauna, Massage, Jacuzzi und Steam Bath",
+            "Spa, Massage, Hot Tub/Jacuzzi, Steam Bath und Spa Lounge",
+            "Spa, Sauna, Hot Tub/Jacuzzi, Steam Bath und Spa Lounge"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:32:51Z",
+        "categoryaudio": "",
+        "audio": "question-0028.mp3"
+    },
+    {
+        "id": "0029",
+        "category": "Other",
+        "question": "Welche Art von Abendprogramm ist möglich?",
+        "correct": "Abendunterhaltung, Karaoke und Nachtclub/DJ",
+        "wrong": [
+            "Abendunterhaltung, Live-Musik und DJ",
+            "Karaoke, DJ und Themenabende",
+            "Abendshows, Karaoke und DJ"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:33:19Z",
+        "categoryaudio": "",
+        "audio": "question-0029.mp3"
+    },
+    {
+        "id": "0030",
+        "category": "Other",
+        "question": "Was ist die zentrale Besonderheit der Anlage im Vergleich zu einem normalen Hotel?",
+        "correct": "Ein großes All-inclusive-Resort mit sehr breitem Sport-, Freizeit- und Familienangebot",
+        "wrong": [
+            "Ein großes All-inclusive-Resort mit breitem Freizeitangebot",
+            "Ein All-inclusive-Resort mit Sport- und Freizeitangebot",
+            "Ein großes Resort mit Fokus auf Familien und Freizeit"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:33:46Z",
+        "categoryaudio": "",
+        "audio": "question-0030.mp3"
+    },
+    {
+        "id": "0022",
+        "category": "Other",
+        "question": "Welche Kinderangebote werden besonders erwähnt?",
+        "correct": "Kids Club, Playground und Water Park",
+        "wrong": [
+            "Kids Club, Playground und Kinderpool",
+            "Kids Club, Water Park und Animation",
+            "Playground, Water Park und Kinderbetreuung"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:34:12Z",
+        "categoryaudio": "",
+        "audio": "question-0022.mp3"
+    },
+    {
+        "id": "0006",
+        "category": "Other",
+        "question": "Wie viele Pools werden auf der offiziellen Hotelseite genannt?",
+        "correct": "7 Pools",
+        "wrong": [
+            "6 Pools",
+            "8 Pools",
+            "9 Pools"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:34:37Z",
+        "categoryaudio": "",
+        "audio": "question-0006.mp3"
+    },
+    {
+        "id": "0025",
+        "category": "Other",
+        "question": "Welche Art von Strand hat das Resort?",
+        "correct": "Einen Blue-Flag-Strand",
+        "wrong": [
+            "Einen mit EU-Umweltlabel ausgezeichneten Strand",
+            "Einen international zertifizierten Qualitätsstrand",
+            "Einen mit Green-Key-Auszeichnung versehenen Strand"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-07T19:35:03Z",
+        "categoryaudio": "",
+        "audio": "question-0025.mp3"
+    },
+    {
+        "id": "0016",
+        "category": "Other",
+        "question": "Welche zusätzliche Indoor-Anlage ist im Sports Club genannt?",
+        "correct": "Ein Indoor-Schwimmbadbereich von etwa 1.000 Quadratmetern",
+        "wrong": [
+            "Ein Indoor-Schwimmbadbereich von etwa 900 Quadratmetern",
+            "Ein Indoor-Schwimmbadbereich von etwa 1.100 Quadratmetern",
+            "Ein Indoor-Schwimmbadbereich von etwa 850 Quadratmetern"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-08T19:50:46Z",
+        "categoryaudio": "",
+        "audio": "question-0016.mp3"
+    },
+    {
+        "id": "0008",
+        "category": "Other",
+        "question": "Wie viele davon sind À-la-carte-Restaurants?",
+        "correct": "7",
+        "wrong": [
+            "6",
+            "8",
+            "5"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-08T19:51:17Z",
+        "categoryaudio": "",
+        "audio": "question-0008.mp3"
+    },
+    {
+        "id": "0003",
+        "category": "Other",
+        "question": "Wie weit ist das Resort vom Flughafen Heraklion entfernt?",
+        "correct": "Etwa 25 km",
+        "wrong": [
+            "Etwa 20 km",
+            "Etwa 30 km",
+            "Etwa 35 km"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-08T19:51:44Z",
+        "categoryaudio": "",
+        "audio": "question-0003.mp3"
+    },
+    {
+        "id": "0011",
+        "category": "Other",
+        "question": "Ist Nana Golden Beach eher ein City-Hotel oder ein Ferienresort?",
+        "correct": "Ein Ferienresort",
+        "wrong": [
+            "Ein Ferienhotel",
+            "Ein Resort-Hotel-Mix",
+            "Ein Clubhotel"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-08T19:52:16Z",
+        "categoryaudio": "",
+        "audio": "question-0011.mp3"
+    },
+    {
+        "id": "0009",
+        "category": "Other",
+        "question": "Wie viele Snackbars werden genannt?",
+        "correct": "5 Snackbars",
+        "wrong": [
+            "4 Snackbars",
+            "6 Snackbars",
+            "3 Snackbars"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-08T19:52:41Z",
+        "categoryaudio": "",
+        "audio": "question-0009.mp3"
+    }
+]

@@ -1,0 +1,27 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# große Medien raus
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.mov
+*.avi
+
+# Bilder raus
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# komplette media-Ordner raus
+**/media/
+
+# sensible / unnötige Dateien raus
+11labsapi.json
+openaiapi.json
+quizshark.zip
+*.lock

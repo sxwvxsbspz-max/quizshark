@@ -1,0 +1,60 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="intro-tv-container">
+    <video id="blitzquiz-video" autoplay>
+        <source src="/jokerrules/media/jokerrules.mp4" type="video/mp4">
+        Dein Browser unterstützt das Video-Tag nicht.
+    </video>
+</div>
+
+<style>
+    /* Entfernt alle Abstände und sorgt für Schwarz als Hintergrund */
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .intro-tv-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+    }
+
+    #blitzquiz-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover; /* Video füllt den Bildschirm komplett aus */
+    }
+</style>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Wichtig: TV registrieren
+    socket.emit('register_tv');
+
+    const videoPlayer = document.getElementById('blitzquiz-video');
+
+    // Wenn Video zu Ende, signalisiere der App.py den Wechsel
+    videoPlayer.onended = function() {
+        console.log("Video beendet. Nächste Phase...");
+        socket.emit('video_finished');
+    };
+
+    // Automatisches Abspielen starten
+    videoPlayer.play().catch(error => {
+        console.log("Autoplay blockiert. Klick auf den Screen nötig.", error);
+    });
+</script>
+{% endblock %}

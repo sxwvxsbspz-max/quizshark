@@ -1,0 +1,186 @@
+<!-- --- FILE: ./templates/sofortpause.html --- -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pause</title>
+
+<style>
+/* ===============================
+   FONTS (wie pre_lobby)
+   =============================== */
+@font-face {
+  font-family: "Nunito";
+  src: url("/static/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/static/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/* ===============================
+   RESET / BASIS
+   =============================== */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.sp,
+.sp * {
+  box-sizing: border-box;
+}
+
+/* ===============================
+   ROOT
+   =============================== */
+.sp {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+/* ===============================
+   HINTERGRUND (identisch zu pre_lobby, aber eigene IDs)
+   =============================== */
+.sp-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.sp-bg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ===============================
+   CONTENT
+   =============================== */
+.sp-wrap {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: clamp(24px, 5vw, 80px);
+}
+
+.sp-card {
+  padding: clamp(32px, 5vw, 96px) clamp(36px, 6vw, 120px);
+  border-radius: 32px;
+  background: rgba(0,0,0,0.28);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 20px 80px rgba(0,0,0,0.45);
+}
+
+.sp-title {
+  margin: 0 0 1.2rem 0;
+  font-weight: 900;
+  line-height: 1.05;
+  font-size: clamp(64px, 8vw, 160px);
+  color: #fff;
+}
+
+.sp-sub {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.15;
+  font-size: clamp(32px, 3.6vw, 80px);
+  opacity: 0.95;
+  color: #fff;
+}
+</style>
+</head>
+
+<body>
+<div class="sp">
+
+  <!-- BACKGROUND -->
+  <div class="sp-bg" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1600 900"
+      preserveAspectRatio="xMidYMax slice">
+
+      <defs>
+        <linearGradient id="sp-bg-grad">
+          <stop offset="0%"  stop-color="rgba(130,158,249,0.06)"/>
+          <stop offset="50%" stop-color="rgba(76,190,255,0.6)"/>
+          <stop offset="100%" stop-color="rgba(115,209,72,0.2)"/>
+        </linearGradient>
+
+        <path id="sp-wave" fill="url(#sp-bg-grad)"
+          d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+             s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859
+             s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"/>
+      </defs>
+
+      <g>
+        <use href="#sp-wave" opacity=".3">
+          <animateTransform
+            attributeName="transform"
+            type="translate"
+            dur="10s"
+            values="270 230; -334 180; 270 230"
+            keyTimes="0; .5; 1"
+            calcMode="spline"
+            keySplines="0.42,0,0.58,1;0.42,0,0.58,1"
+            repeatCount="indefinite"/>
+        </use>
+
+        <use href="#sp-wave" opacity=".6">
+          <animateTransform
+            attributeName="transform"
+            type="translate"
+            dur="8s"
+            values="-270 230;243 220;-270 230"
+            keyTimes="0; .6; 1"
+            calcMode="spline"
+            keySplines="0.42,0,0.58,1;0.42,0,0.58,1"
+            repeatCount="indefinite"/>
+        </use>
+
+        <use href="#sp-wave" opacity=".9">
+          <animateTransform
+            attributeName="transform"
+            type="translate"
+            dur="6s"
+            values="0 230;-140 200;0 230"
+            keyTimes="0; .4; 1"
+            calcMode="spline"
+            keySplines="0.42,0,0.58,1;0.42,0,0.58,1"
+            repeatCount="indefinite"/>
+        </use>
+      </g>
+    </svg>
+  </div>
+
+  <!-- TEXT -->
+  <div class="sp-wrap">
+    <div class="sp-card">
+      <div class="sp-title">Pause</div>
+      <div class="sp-sub">Es geht gleich weiter...</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

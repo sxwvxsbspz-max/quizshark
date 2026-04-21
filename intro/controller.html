@@ -1,0 +1,46 @@
+
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="intro-controller">
+  <img
+    id="intro-controller-image"
+    class="intro-image"
+    src="/intro/media/quizshark.png"
+    alt="BlitzQuiz Intro"
+  >
+</div>
+
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .intro-controller {
+    position: fixed;
+    inset: 0;
+    background: #000;
+  }
+
+  .intro-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+  }
+</style>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const playerId = localStorage.getItem('blitzquiz_player_id') || "";
+  const runId = localStorage.getItem('blitzquiz_run_id') || "";
+  socket.emit('register_controller', { player_id: playerId, run_id: runId });
+</script>
+{% endblock %}

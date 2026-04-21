@@ -1,0 +1,537 @@
+=== haveiever/questions.json shuffle + renumber + audio rename ===
+timestamp_utc: 2026-02-10T10:44:56.618471+00:00
+seed: None (random)
+count: 50
+questions_path: /home/aleranzer/blitzquiz/haveiever/questions.json
+media_audio_dir: /home/aleranzer/blitzquiz/haveiever/media/audio
+
+phase1_prepare_check:
+  OK: JSON<->Audio-Dateien sind konsistent (IST-Zustand).
+
+phase1_plan_mapping:
+  00021 -> 00001
+  00010 -> 00002
+  00022 -> 00003
+  00027 -> 00004
+  00035 -> 00005
+  00017 -> 00006
+  00043 -> 00007
+  00028 -> 00008
+  00018 -> 00009
+  00025 -> 00010
+  00037 -> 00011
+  00006 -> 00012
+  00042 -> 00013
+  00014 -> 00014
+  00005 -> 00015
+  00049 -> 00016
+  00009 -> 00017
+  00038 -> 00018
+  00033 -> 00019
+  00032 -> 00020
+  00030 -> 00021
+  00002 -> 00022
+  00024 -> 00023
+  00031 -> 00024
+  00001 -> 00025
+  00050 -> 00026
+  00007 -> 00027
+  00015 -> 00028
+  00012 -> 00029
+  00023 -> 00030
+  00029 -> 00031
+  00011 -> 00032
+  00004 -> 00033
+  00048 -> 00034
+  00047 -> 00035
+  00013 -> 00036
+  00046 -> 00037
+  00026 -> 00038
+  00039 -> 00039
+  00020 -> 00040
+  00036 -> 00041
+  00003 -> 00042
+  00041 -> 00043
+  00044 -> 00044
+  00016 -> 00045
+  00034 -> 00046
+  00019 -> 00047
+  00040 -> 00048
+  00008 -> 00049
+  00045 -> 00050
+phase1_plan_renames:
+  pre_audio q:00006->00012: pre_audio_00006.mp3 -> pre_audio_00012.mp3
+  audio q:00006->00012: question_00006.mp3 -> question_00012.mp3
+  pre_audio q:00005->00015: pre_audio_00005.mp3 -> pre_audio_00015.mp3
+  audio q:00005->00015: question_00005.mp3 -> question_00015.mp3
+  pre_audio q:00009->00017: pre_audio_00009.mp3 -> pre_audio_00017.mp3
+  audio q:00009->00017: question_00009.mp3 -> question_00017.mp3
+  pre_audio q:00002->00022: pre_audio_00002.mp3 -> pre_audio_00022.mp3
+  audio q:00002->00022: question_00002.mp3 -> question_00022.mp3
+  pre_audio q:00001->00025: pre_audio_00001.mp3 -> pre_audio_00025.mp3
+  audio q:00001->00025: question_00001.mp3 -> question_00025.mp3
+  pre_audio q:00007->00027: pre_audio_00007.mp3 -> pre_audio_00027.mp3
+  audio q:00007->00027: question_00007.mp3 -> question_00027.mp3
+  pre_audio q:00004->00033: pre_audio_00004.mp3 -> pre_audio_00033.mp3
+  audio q:00004->00033: question_00004.mp3 -> question_00033.mp3
+  pre_audio q:00003->00042: pre_audio_00003.mp3 -> pre_audio_00042.mp3
+  audio q:00003->00042: question_00003.mp3 -> question_00042.mp3
+  pre_audio q:00008->00049: pre_audio_00008.mp3 -> pre_audio_00049.mp3
+  audio q:00008->00049: question_00008.mp3 -> question_00049.mp3
+
+phase1_plan_validation:
+  OK: Rename-Plan ist valide (keine Kollisionen/Overwrites außerhalb des Plans).
+
+
+phase2_rename:
+  OK SOURCE->TMP q:00006->00012 pre_audio: pre_audio_00006.mp3 -> __tmp__pre_audio_00006.mp3.18a2a9abbee04a92aa2a6cbcefede0d0
+  OK SOURCE->TMP q:00006->00012 audio: question_00006.mp3 -> __tmp__question_00006.mp3.23d9245e3e314f95a7a6ae82221bea1f
+  OK SOURCE->TMP q:00005->00015 pre_audio: pre_audio_00005.mp3 -> __tmp__pre_audio_00005.mp3.bc25a52158a9486b9687896adfa64b4e
+  OK SOURCE->TMP q:00005->00015 audio: question_00005.mp3 -> __tmp__question_00005.mp3.ad6ebf880e97411cb2384bb970c8ccb6
+  OK SOURCE->TMP q:00009->00017 pre_audio: pre_audio_00009.mp3 -> __tmp__pre_audio_00009.mp3.97c9876d7dcf439d8c38b61427b09491
+  OK SOURCE->TMP q:00009->00017 audio: question_00009.mp3 -> __tmp__question_00009.mp3.b0025cbd2a494e3cb3cd34a3d941d68c
+  OK SOURCE->TMP q:00002->00022 pre_audio: pre_audio_00002.mp3 -> __tmp__pre_audio_00002.mp3.de28b3b2d0224cdf8033b0ef380e86fb
+  OK SOURCE->TMP q:00002->00022 audio: question_00002.mp3 -> __tmp__question_00002.mp3.6eb5566de1ad4d5ea924e20deb643ef6
+  OK SOURCE->TMP q:00001->00025 pre_audio: pre_audio_00001.mp3 -> __tmp__pre_audio_00001.mp3.b355d8abd5a14c788cd1dde59d115aa5
+  OK SOURCE->TMP q:00001->00025 audio: question_00001.mp3 -> __tmp__question_00001.mp3.930ee9f00e234805988db1a517ad4b32
+  OK SOURCE->TMP q:00007->00027 pre_audio: pre_audio_00007.mp3 -> __tmp__pre_audio_00007.mp3.d81ce4d8f93d4308bb2fe3ec473dafae
+  OK SOURCE->TMP q:00007->00027 audio: question_00007.mp3 -> __tmp__question_00007.mp3.9112436f90db450cae2bd2012363656c
+  OK SOURCE->TMP q:00004->00033 pre_audio: pre_audio_00004.mp3 -> __tmp__pre_audio_00004.mp3.c719cefaa7a54962bc1853b960550ad5
+  OK SOURCE->TMP q:00004->00033 audio: question_00004.mp3 -> __tmp__question_00004.mp3.64f13f4af0d54e6a82af65bf57a2405c
+  OK SOURCE->TMP q:00003->00042 pre_audio: pre_audio_00003.mp3 -> __tmp__pre_audio_00003.mp3.8b11626e684243deb43c52b19f017f8b
+  OK SOURCE->TMP q:00003->00042 audio: question_00003.mp3 -> __tmp__question_00003.mp3.189df7ed1a834db78f02dc43bfe6cceb
+  OK SOURCE->TMP q:00008->00049 pre_audio: pre_audio_00008.mp3 -> __tmp__pre_audio_00008.mp3.b4e7fa5c3f9e478592f5646d75469e03
+  OK SOURCE->TMP q:00008->00049 audio: question_00008.mp3 -> __tmp__question_00008.mp3.759181cf86194c13b760e2da1c522d70
+  OK TMP->TARGET q:00006->00012 pre_audio: __tmp__pre_audio_00006.mp3.18a2a9abbee04a92aa2a6cbcefede0d0 -> pre_audio_00012.mp3
+  OK TMP->TARGET q:00006->00012 audio: __tmp__question_00006.mp3.23d9245e3e314f95a7a6ae82221bea1f -> question_00012.mp3
+  OK TMP->TARGET q:00005->00015 pre_audio: __tmp__pre_audio_00005.mp3.bc25a52158a9486b9687896adfa64b4e -> pre_audio_00015.mp3
+  OK TMP->TARGET q:00005->00015 audio: __tmp__question_00005.mp3.ad6ebf880e97411cb2384bb970c8ccb6 -> question_00015.mp3
+  OK TMP->TARGET q:00009->00017 pre_audio: __tmp__pre_audio_00009.mp3.97c9876d7dcf439d8c38b61427b09491 -> pre_audio_00017.mp3
+  OK TMP->TARGET q:00009->00017 audio: __tmp__question_00009.mp3.b0025cbd2a494e3cb3cd34a3d941d68c -> question_00017.mp3
+  OK TMP->TARGET q:00002->00022 pre_audio: __tmp__pre_audio_00002.mp3.de28b3b2d0224cdf8033b0ef380e86fb -> pre_audio_00022.mp3
+  OK TMP->TARGET q:00002->00022 audio: __tmp__question_00002.mp3.6eb5566de1ad4d5ea924e20deb643ef6 -> question_00022.mp3
+  OK TMP->TARGET q:00001->00025 pre_audio: __tmp__pre_audio_00001.mp3.b355d8abd5a14c788cd1dde59d115aa5 -> pre_audio_00025.mp3
+  OK TMP->TARGET q:00001->00025 audio: __tmp__question_00001.mp3.930ee9f00e234805988db1a517ad4b32 -> question_00025.mp3
+  OK TMP->TARGET q:00007->00027 pre_audio: __tmp__pre_audio_00007.mp3.d81ce4d8f93d4308bb2fe3ec473dafae -> pre_audio_00027.mp3
+  OK TMP->TARGET q:00007->00027 audio: __tmp__question_00007.mp3.9112436f90db450cae2bd2012363656c -> question_00027.mp3
+  OK TMP->TARGET q:00004->00033 pre_audio: __tmp__pre_audio_00004.mp3.c719cefaa7a54962bc1853b960550ad5 -> pre_audio_00033.mp3
+  OK TMP->TARGET q:00004->00033 audio: __tmp__question_00004.mp3.64f13f4af0d54e6a82af65bf57a2405c -> question_00033.mp3
+  OK TMP->TARGET q:00003->00042 pre_audio: __tmp__pre_audio_00003.mp3.8b11626e684243deb43c52b19f017f8b -> pre_audio_00042.mp3
+  OK TMP->TARGET q:00003->00042 audio: __tmp__question_00003.mp3.189df7ed1a834db78f02dc43bfe6cceb -> question_00042.mp3
+  OK TMP->TARGET q:00008->00049 pre_audio: __tmp__pre_audio_00008.mp3.b4e7fa5c3f9e478592f5646d75469e03 -> pre_audio_00049.mp3
+  OK TMP->TARGET q:00008->00049 audio: __tmp__question_00008.mp3.759181cf86194c13b760e2da1c522d70 -> question_00049.mp3
+phase2_json_update:
+  OK: questions.json geschrieben
+
+phase3_postcheck:
+  POSTCHECK_OK
+
+=== haveiever/questions.json shuffle + renumber + audio rename ===
+timestamp_utc: 2026-03-13T12:36:20.690731+00:00
+seed: None (random)
+count: 89
+questions_path: /home/aleranzer/quizshark/haveiever/questions.json
+media_audio_dir: /home/aleranzer/quizshark/haveiever/media/audio
+
+phase1_prepare_check:
+  OK: JSON<->Audio-Dateien sind konsistent (IST-Zustand).
+
+phase1_plan_mapping:
+  00064 -> 00001
+  00045 -> 00002
+  00020 -> 00003
+  00071 -> 00004
+  00068 -> 00005
+  00036 -> 00006
+  00065 -> 00007
+  00049 -> 00008
+  00077 -> 00009
+  00084 -> 00010
+  00063 -> 00011
+  00016 -> 00012
+  00035 -> 00013
+  00031 -> 00014
+  00062 -> 00015
+  00043 -> 00016
+  00078 -> 00017
+  00021 -> 00018
+  00086 -> 00019
+  00087 -> 00020
+  00054 -> 00021
+  00024 -> 00022
+  00051 -> 00023
+  00057 -> 00024
+  00060 -> 00025
+  00056 -> 00026
+  00017 -> 00027
+  00003 -> 00028
+  00088 -> 00029
+  00023 -> 00030
+  00030 -> 00031
+  00026 -> 00032
+  00009 -> 00033
+  00028 -> 00034
+  00083 -> 00035
+  00059 -> 00036
+  00061 -> 00037
+  00053 -> 00038
+  00081 -> 00039
+  00011 -> 00040
+  00041 -> 00041
+  00066 -> 00042
+  00037 -> 00043
+  00070 -> 00044
+  00005 -> 00045
+  00019 -> 00046
+  00052 -> 00047
+  00047 -> 00048
+  00046 -> 00049
+  00025 -> 00050
+  00055 -> 00051
+  00074 -> 00052
+  00080 -> 00053
+  00012 -> 00054
+  00002 -> 00055
+  00039 -> 00056
+  00013 -> 00057
+  00069 -> 00058
+  00007 -> 00059
+  00073 -> 00060
+  00001 -> 00061
+  00040 -> 00062
+  00027 -> 00063
+  00010 -> 00064
+  00004 -> 00065
+  00044 -> 00066
+  00050 -> 00067
+  00076 -> 00068
+  00085 -> 00069
+  00048 -> 00070
+  00038 -> 00071
+  00079 -> 00072
+  00072 -> 00073
+  00006 -> 00074
+  00067 -> 00075
+  00089 -> 00076
+  00014 -> 00077
+  00029 -> 00078
+  00075 -> 00079
+  00058 -> 00080
+  00082 -> 00081
+  00015 -> 00082
+  00018 -> 00083
+  00022 -> 00084
+  00034 -> 00085
+  00032 -> 00086
+  00042 -> 00087
+  00033 -> 00088
+  00008 -> 00089
+phase1_plan_renames:
+  pre_audio q:00045->00002: pre_audio_00045.mp3 -> pre_audio_00002.mp3
+  audio q:00045->00002: question_00045.mp3 -> question_00002.mp3
+  pre_audio q:00020->00003: pre_audio_00020.mp3 -> pre_audio_00003.mp3
+  audio q:00020->00003: question_00020.mp3 -> question_00003.mp3
+  pre_audio q:00036->00006: pre_audio_00036.mp3 -> pre_audio_00006.mp3
+  audio q:00036->00006: question_00036.mp3 -> question_00006.mp3
+  pre_audio q:00049->00008: pre_audio_00049.mp3 -> pre_audio_00008.mp3
+  audio q:00049->00008: question_00049.mp3 -> question_00008.mp3
+  pre_audio q:00016->00012: pre_audio_00016.mp3 -> pre_audio_00012.mp3
+  audio q:00016->00012: question_00016.mp3 -> question_00012.mp3
+  pre_audio q:00035->00013: pre_audio_00035.mp3 -> pre_audio_00013.mp3
+  audio q:00035->00013: question_00035.mp3 -> question_00013.mp3
+  pre_audio q:00031->00014: pre_audio_00031.mp3 -> pre_audio_00014.mp3
+  audio q:00031->00014: question_00031.mp3 -> question_00014.mp3
+  pre_audio q:00043->00016: pre_audio_00043.mp3 -> pre_audio_00016.mp3
+  audio q:00043->00016: question_00043.mp3 -> question_00016.mp3
+  pre_audio q:00021->00018: pre_audio_00021.mp3 -> pre_audio_00018.mp3
+  audio q:00021->00018: question_00021.mp3 -> question_00018.mp3
+  pre_audio q:00024->00022: pre_audio_00024.mp3 -> pre_audio_00022.mp3
+  audio q:00024->00022: question_00024.mp3 -> question_00022.mp3
+  pre_audio q:00017->00027: pre_audio_00017.mp3 -> pre_audio_00027.mp3
+  audio q:00017->00027: question_00017.mp3 -> question_00027.mp3
+  pre_audio q:00003->00028: pre_audio_00003.mp3 -> pre_audio_00028.mp3
+  audio q:00003->00028: question_00003.mp3 -> question_00028.mp3
+  pre_audio q:00023->00030: pre_audio_00023.mp3 -> pre_audio_00030.mp3
+  audio q:00023->00030: question_00023.mp3 -> question_00030.mp3
+  pre_audio q:00030->00031: pre_audio_00030.mp3 -> pre_audio_00031.mp3
+  audio q:00030->00031: question_00030.mp3 -> question_00031.mp3
+  pre_audio q:00026->00032: pre_audio_00026.mp3 -> pre_audio_00032.mp3
+  audio q:00026->00032: question_00026.mp3 -> question_00032.mp3
+  pre_audio q:00009->00033: pre_audio_00009.mp3 -> pre_audio_00033.mp3
+  audio q:00009->00033: question_00009.mp3 -> question_00033.mp3
+  pre_audio q:00028->00034: pre_audio_00028.mp3 -> pre_audio_00034.mp3
+  audio q:00028->00034: question_00028.mp3 -> question_00034.mp3
+  pre_audio q:00011->00040: pre_audio_00011.mp3 -> pre_audio_00040.mp3
+  audio q:00011->00040: question_00011.mp3 -> question_00040.mp3
+  pre_audio q:00041->00041: pre_audio_00041.mp3 -> pre_audio_00041.mp3
+  audio q:00041->00041: question_00041.mp3 -> question_00041.mp3
+  pre_audio q:00037->00043: pre_audio_00037.mp3 -> pre_audio_00043.mp3
+  audio q:00037->00043: question_00037.mp3 -> question_00043.mp3
+  pre_audio q:00005->00045: pre_audio_00005.mp3 -> pre_audio_00045.mp3
+  audio q:00005->00045: question_00005.mp3 -> question_00045.mp3
+  pre_audio q:00019->00046: pre_audio_00019.mp3 -> pre_audio_00046.mp3
+  audio q:00019->00046: question_00019.mp3 -> question_00046.mp3
+  pre_audio q:00047->00048: pre_audio_00047.mp3 -> pre_audio_00048.mp3
+  audio q:00047->00048: question_00047.mp3 -> question_00048.mp3
+  pre_audio q:00046->00049: pre_audio_00046.mp3 -> pre_audio_00049.mp3
+  audio q:00046->00049: question_00046.mp3 -> question_00049.mp3
+  pre_audio q:00025->00050: pre_audio_00025.mp3 -> pre_audio_00050.mp3
+  audio q:00025->00050: question_00025.mp3 -> question_00050.mp3
+  pre_audio q:00012->00054: pre_audio_00012.mp3 -> pre_audio_00054.mp3
+  audio q:00012->00054: question_00012.mp3 -> question_00054.mp3
+  pre_audio q:00002->00055: pre_audio_00002.mp3 -> pre_audio_00055.mp3
+  audio q:00002->00055: question_00002.mp3 -> question_00055.mp3
+  pre_audio q:00039->00056: pre_audio_00039.mp3 -> pre_audio_00056.mp3
+  audio q:00039->00056: question_00039.mp3 -> question_00056.mp3
+  pre_audio q:00013->00057: pre_audio_00013.mp3 -> pre_audio_00057.mp3
+  audio q:00013->00057: question_00013.mp3 -> question_00057.mp3
+  pre_audio q:00007->00059: pre_audio_00007.mp3 -> pre_audio_00059.mp3
+  audio q:00007->00059: question_00007.mp3 -> question_00059.mp3
+  pre_audio q:00001->00061: pre_audio_00001.mp3 -> pre_audio_00061.mp3
+  audio q:00001->00061: question_00001.mp3 -> question_00061.mp3
+  pre_audio q:00040->00062: pre_audio_00040.mp3 -> pre_audio_00062.mp3
+  audio q:00040->00062: question_00040.mp3 -> question_00062.mp3
+  pre_audio q:00027->00063: pre_audio_00027.mp3 -> pre_audio_00063.mp3
+  audio q:00027->00063: question_00027.mp3 -> question_00063.mp3
+  pre_audio q:00010->00064: pre_audio_00010.mp3 -> pre_audio_00064.mp3
+  audio q:00010->00064: question_00010.mp3 -> question_00064.mp3
+  pre_audio q:00004->00065: pre_audio_00004.mp3 -> pre_audio_00065.mp3
+  audio q:00004->00065: question_00004.mp3 -> question_00065.mp3
+  pre_audio q:00044->00066: pre_audio_00044.mp3 -> pre_audio_00066.mp3
+  audio q:00044->00066: question_00044.mp3 -> question_00066.mp3
+  pre_audio q:00050->00067: pre_audio_00050.mp3 -> pre_audio_00067.mp3
+  audio q:00050->00067: question_00050.mp3 -> question_00067.mp3
+  pre_audio q:00048->00070: pre_audio_00048.mp3 -> pre_audio_00070.mp3
+  audio q:00048->00070: question_00048.mp3 -> question_00070.mp3
+  pre_audio q:00038->00071: pre_audio_00038.mp3 -> pre_audio_00071.mp3
+  audio q:00038->00071: question_00038.mp3 -> question_00071.mp3
+  pre_audio q:00006->00074: pre_audio_00006.mp3 -> pre_audio_00074.mp3
+  audio q:00006->00074: question_00006.mp3 -> question_00074.mp3
+  pre_audio q:00014->00077: pre_audio_00014.mp3 -> pre_audio_00077.mp3
+  audio q:00014->00077: question_00014.mp3 -> question_00077.mp3
+  pre_audio q:00029->00078: pre_audio_00029.mp3 -> pre_audio_00078.mp3
+  audio q:00029->00078: question_00029.mp3 -> question_00078.mp3
+  pre_audio q:00015->00082: pre_audio_00015.mp3 -> pre_audio_00082.mp3
+  audio q:00015->00082: question_00015.mp3 -> question_00082.mp3
+  pre_audio q:00018->00083: pre_audio_00018.mp3 -> pre_audio_00083.mp3
+  audio q:00018->00083: question_00018.mp3 -> question_00083.mp3
+  pre_audio q:00022->00084: pre_audio_00022.mp3 -> pre_audio_00084.mp3
+  audio q:00022->00084: question_00022.mp3 -> question_00084.mp3
+  pre_audio q:00034->00085: pre_audio_00034.mp3 -> pre_audio_00085.mp3
+  audio q:00034->00085: question_00034.mp3 -> question_00085.mp3
+  pre_audio q:00032->00086: pre_audio_00032.mp3 -> pre_audio_00086.mp3
+  audio q:00032->00086: question_00032.mp3 -> question_00086.mp3
+  pre_audio q:00042->00087: pre_audio_00042.mp3 -> pre_audio_00087.mp3
+  audio q:00042->00087: question_00042.mp3 -> question_00087.mp3
+  pre_audio q:00033->00088: pre_audio_00033.mp3 -> pre_audio_00088.mp3
+  audio q:00033->00088: question_00033.mp3 -> question_00088.mp3
+  pre_audio q:00008->00089: pre_audio_00008.mp3 -> pre_audio_00089.mp3
+  audio q:00008->00089: question_00008.mp3 -> question_00089.mp3
+
+phase1_plan_validation:
+  OK: Rename-Plan ist valide (keine Kollisionen/Overwrites außerhalb des Plans).
+
+
+phase2_rename:
+  OK SOURCE->TMP q:00045->00002 pre_audio: pre_audio_00045.mp3 -> __tmp__pre_audio_00045.mp3.32308152dca04200a120094afb8f736d
+  OK SOURCE->TMP q:00045->00002 audio: question_00045.mp3 -> __tmp__question_00045.mp3.b15e988b64dd413db50f5c298ad577eb
+  OK SOURCE->TMP q:00020->00003 pre_audio: pre_audio_00020.mp3 -> __tmp__pre_audio_00020.mp3.cdee6237825d492ea0e274aba569546b
+  OK SOURCE->TMP q:00020->00003 audio: question_00020.mp3 -> __tmp__question_00020.mp3.3dcf79f689e7410dbad4601c82885812
+  OK SOURCE->TMP q:00036->00006 pre_audio: pre_audio_00036.mp3 -> __tmp__pre_audio_00036.mp3.d4def94c51e44d6f9385b524daae3aed
+  OK SOURCE->TMP q:00036->00006 audio: question_00036.mp3 -> __tmp__question_00036.mp3.8a56251def6c4f8caa9cf77332466d1b
+  OK SOURCE->TMP q:00049->00008 pre_audio: pre_audio_00049.mp3 -> __tmp__pre_audio_00049.mp3.111905917308401c8a7b0e716efa8004
+  OK SOURCE->TMP q:00049->00008 audio: question_00049.mp3 -> __tmp__question_00049.mp3.f247bd45fe5a4d86b1e58c028c42b72d
+  OK SOURCE->TMP q:00016->00012 pre_audio: pre_audio_00016.mp3 -> __tmp__pre_audio_00016.mp3.f24c12f7ef83402cb41704631119e53d
+  OK SOURCE->TMP q:00016->00012 audio: question_00016.mp3 -> __tmp__question_00016.mp3.37c6eb937b3c46a0b2a293224ed05f5d
+  OK SOURCE->TMP q:00035->00013 pre_audio: pre_audio_00035.mp3 -> __tmp__pre_audio_00035.mp3.4c89581e474a4702a83752caae52af8a
+  OK SOURCE->TMP q:00035->00013 audio: question_00035.mp3 -> __tmp__question_00035.mp3.b94380d0baf147fd9107e14941384a4c
+  OK SOURCE->TMP q:00031->00014 pre_audio: pre_audio_00031.mp3 -> __tmp__pre_audio_00031.mp3.d9c49049d9d24bad94adc0a37d2f7686
+  OK SOURCE->TMP q:00031->00014 audio: question_00031.mp3 -> __tmp__question_00031.mp3.37a1572e169c41a1af643f1f9ec82293
+  OK SOURCE->TMP q:00043->00016 pre_audio: pre_audio_00043.mp3 -> __tmp__pre_audio_00043.mp3.e6ad636bbbf3492493a29e1c2c406f40
+  OK SOURCE->TMP q:00043->00016 audio: question_00043.mp3 -> __tmp__question_00043.mp3.1730ef026d32490795bf7ea6d228a2fc
+  OK SOURCE->TMP q:00021->00018 pre_audio: pre_audio_00021.mp3 -> __tmp__pre_audio_00021.mp3.097c275b85aa43c8840acc872aec34b2
+  OK SOURCE->TMP q:00021->00018 audio: question_00021.mp3 -> __tmp__question_00021.mp3.62bd259b21884c2f896199a8dc4e3906
+  OK SOURCE->TMP q:00024->00022 pre_audio: pre_audio_00024.mp3 -> __tmp__pre_audio_00024.mp3.261eb9c172da4b27ae0aaf57cb06466c
+  OK SOURCE->TMP q:00024->00022 audio: question_00024.mp3 -> __tmp__question_00024.mp3.21d486a54fee4c6393508c626bdbc5f7
+  OK SOURCE->TMP q:00017->00027 pre_audio: pre_audio_00017.mp3 -> __tmp__pre_audio_00017.mp3.132a0b9f03374332b245c0209bf0f3f8
+  OK SOURCE->TMP q:00017->00027 audio: question_00017.mp3 -> __tmp__question_00017.mp3.e4679f1877ca40358c1313e9da67bf1e
+  OK SOURCE->TMP q:00003->00028 pre_audio: pre_audio_00003.mp3 -> __tmp__pre_audio_00003.mp3.2fd04af15dee410695e236a7ec7ec046
+  OK SOURCE->TMP q:00003->00028 audio: question_00003.mp3 -> __tmp__question_00003.mp3.0eba0c2521f84f6f9bd4d9e9320a9da6
+  OK SOURCE->TMP q:00023->00030 pre_audio: pre_audio_00023.mp3 -> __tmp__pre_audio_00023.mp3.07b8fdeff8e1491eb0f9234461dfc3fe
+  OK SOURCE->TMP q:00023->00030 audio: question_00023.mp3 -> __tmp__question_00023.mp3.298a5ae1fdf2442e9d0d25f14306b54f
+  OK SOURCE->TMP q:00030->00031 pre_audio: pre_audio_00030.mp3 -> __tmp__pre_audio_00030.mp3.27a9ea29bfcd4dd38e7438162c25b5b6
+  OK SOURCE->TMP q:00030->00031 audio: question_00030.mp3 -> __tmp__question_00030.mp3.91dfc915103f4323af3c22a16f6b2632
+  OK SOURCE->TMP q:00026->00032 pre_audio: pre_audio_00026.mp3 -> __tmp__pre_audio_00026.mp3.01f76aab1b554a5f9ea2ab2cf3f7e094
+  OK SOURCE->TMP q:00026->00032 audio: question_00026.mp3 -> __tmp__question_00026.mp3.6508dedc18b84262ba1c92f21afef67e
+  OK SOURCE->TMP q:00009->00033 pre_audio: pre_audio_00009.mp3 -> __tmp__pre_audio_00009.mp3.431d50a54be94e02b1c619060ed3d65d
+  OK SOURCE->TMP q:00009->00033 audio: question_00009.mp3 -> __tmp__question_00009.mp3.a80425e39fc345e1bf23626a23932c7e
+  OK SOURCE->TMP q:00028->00034 pre_audio: pre_audio_00028.mp3 -> __tmp__pre_audio_00028.mp3.4a9b8a55e30e40459802faab6e051cc4
+  OK SOURCE->TMP q:00028->00034 audio: question_00028.mp3 -> __tmp__question_00028.mp3.604f43217b2848e6b9fae6bde96d9647
+  OK SOURCE->TMP q:00011->00040 pre_audio: pre_audio_00011.mp3 -> __tmp__pre_audio_00011.mp3.5aa82534ad8942a9ad437b67af146ece
+  OK SOURCE->TMP q:00011->00040 audio: question_00011.mp3 -> __tmp__question_00011.mp3.46aa31cb37354a9bae0b3a1c2e13a306
+  OK SOURCE->TMP q:00037->00043 pre_audio: pre_audio_00037.mp3 -> __tmp__pre_audio_00037.mp3.85cea515df8a4dc08f4678760b6e25c0
+  OK SOURCE->TMP q:00037->00043 audio: question_00037.mp3 -> __tmp__question_00037.mp3.636ca76a866a4f8689e75b5878143e3e
+  OK SOURCE->TMP q:00005->00045 pre_audio: pre_audio_00005.mp3 -> __tmp__pre_audio_00005.mp3.2eb656dc482a428880fc02b62fd2e2d5
+  OK SOURCE->TMP q:00005->00045 audio: question_00005.mp3 -> __tmp__question_00005.mp3.72b8788a7af84d02bf55fddfab7d8d34
+  OK SOURCE->TMP q:00019->00046 pre_audio: pre_audio_00019.mp3 -> __tmp__pre_audio_00019.mp3.16583771adc5402caaed238e01dc287d
+  OK SOURCE->TMP q:00019->00046 audio: question_00019.mp3 -> __tmp__question_00019.mp3.68592a58071b4932b0adc8bc8f2d714a
+  OK SOURCE->TMP q:00047->00048 pre_audio: pre_audio_00047.mp3 -> __tmp__pre_audio_00047.mp3.59dbb0fc2bc4407c8ec8d6ce5597e13c
+  OK SOURCE->TMP q:00047->00048 audio: question_00047.mp3 -> __tmp__question_00047.mp3.4fcd50ffce7544b9942eca660a3be4fe
+  OK SOURCE->TMP q:00046->00049 pre_audio: pre_audio_00046.mp3 -> __tmp__pre_audio_00046.mp3.ec43eace1a0b4b6e81e98b6ee25b9f26
+  OK SOURCE->TMP q:00046->00049 audio: question_00046.mp3 -> __tmp__question_00046.mp3.f168e79925a14a4db22bf0bd29af7fcd
+  OK SOURCE->TMP q:00025->00050 pre_audio: pre_audio_00025.mp3 -> __tmp__pre_audio_00025.mp3.e72c1379b15a466b9ca55b94292ff442
+  OK SOURCE->TMP q:00025->00050 audio: question_00025.mp3 -> __tmp__question_00025.mp3.8945097146bb4a748e6e3fd45b8e44c6
+  OK SOURCE->TMP q:00012->00054 pre_audio: pre_audio_00012.mp3 -> __tmp__pre_audio_00012.mp3.e703444f998f458bba4b16b606d4650c
+  OK SOURCE->TMP q:00012->00054 audio: question_00012.mp3 -> __tmp__question_00012.mp3.c53f006dfb934c608a7c516ad3fba981
+  OK SOURCE->TMP q:00002->00055 pre_audio: pre_audio_00002.mp3 -> __tmp__pre_audio_00002.mp3.1e3840effe4a4a648af96272943cb053
+  OK SOURCE->TMP q:00002->00055 audio: question_00002.mp3 -> __tmp__question_00002.mp3.bd37379092a943bfbec0f73e9a4a0569
+  OK SOURCE->TMP q:00039->00056 pre_audio: pre_audio_00039.mp3 -> __tmp__pre_audio_00039.mp3.edf310f56cdc4bd9a5ddbdfa5ffe72a1
+  OK SOURCE->TMP q:00039->00056 audio: question_00039.mp3 -> __tmp__question_00039.mp3.7da62d1cc8184aa894f66f921efe7ba5
+  OK SOURCE->TMP q:00013->00057 pre_audio: pre_audio_00013.mp3 -> __tmp__pre_audio_00013.mp3.195597caf57d4723aa20b7bf0fb20119
+  OK SOURCE->TMP q:00013->00057 audio: question_00013.mp3 -> __tmp__question_00013.mp3.7ffaf656ea054188bd1dcba708c606be
+  OK SOURCE->TMP q:00007->00059 pre_audio: pre_audio_00007.mp3 -> __tmp__pre_audio_00007.mp3.41285d0e34af46a281c941f0465f5a85
+  OK SOURCE->TMP q:00007->00059 audio: question_00007.mp3 -> __tmp__question_00007.mp3.cc86f2f5f07c4e7db19a32348f6995a6
+  OK SOURCE->TMP q:00001->00061 pre_audio: pre_audio_00001.mp3 -> __tmp__pre_audio_00001.mp3.bce7b0cef67b4fa1941159a032432900
+  OK SOURCE->TMP q:00001->00061 audio: question_00001.mp3 -> __tmp__question_00001.mp3.65e14ac3a7f04e9bb1487a2fad918f30
+  OK SOURCE->TMP q:00040->00062 pre_audio: pre_audio_00040.mp3 -> __tmp__pre_audio_00040.mp3.6a9953718d794d1fac7034036dab5d53
+  OK SOURCE->TMP q:00040->00062 audio: question_00040.mp3 -> __tmp__question_00040.mp3.5a448e8900f04e728bd93c79758ce0b0
+  OK SOURCE->TMP q:00027->00063 pre_audio: pre_audio_00027.mp3 -> __tmp__pre_audio_00027.mp3.7fb4cd1c6a8d4bc7a29827255bb8f6a9
+  OK SOURCE->TMP q:00027->00063 audio: question_00027.mp3 -> __tmp__question_00027.mp3.305f6a06f0ff4be1b4ba4046b77ce58f
+  OK SOURCE->TMP q:00010->00064 pre_audio: pre_audio_00010.mp3 -> __tmp__pre_audio_00010.mp3.73436100045e4846aa24923d483ab208
+  OK SOURCE->TMP q:00010->00064 audio: question_00010.mp3 -> __tmp__question_00010.mp3.fd30ae2115bb4c4e9e6432c732f172f3
+  OK SOURCE->TMP q:00004->00065 pre_audio: pre_audio_00004.mp3 -> __tmp__pre_audio_00004.mp3.d672c7ede97d4db28567d53b45533f93
+  OK SOURCE->TMP q:00004->00065 audio: question_00004.mp3 -> __tmp__question_00004.mp3.c5ac487e328e4060ae6b360895b1d2ae
+  OK SOURCE->TMP q:00044->00066 pre_audio: pre_audio_00044.mp3 -> __tmp__pre_audio_00044.mp3.3309db5e078c4ea7a5c36b77ac97e380
+  OK SOURCE->TMP q:00044->00066 audio: question_00044.mp3 -> __tmp__question_00044.mp3.c1843256f524444999bea45b744884fd
+  OK SOURCE->TMP q:00050->00067 pre_audio: pre_audio_00050.mp3 -> __tmp__pre_audio_00050.mp3.c23a07ac4e864c1dadf5878ec2cd4146
+  OK SOURCE->TMP q:00050->00067 audio: question_00050.mp3 -> __tmp__question_00050.mp3.cae3214d27974aa989addcce2869fa55
+  OK SOURCE->TMP q:00048->00070 pre_audio: pre_audio_00048.mp3 -> __tmp__pre_audio_00048.mp3.3557704df008446d98d2cb4c63c71b73
+  OK SOURCE->TMP q:00048->00070 audio: question_00048.mp3 -> __tmp__question_00048.mp3.894c35c7764143078befa9f378075119
+  OK SOURCE->TMP q:00038->00071 pre_audio: pre_audio_00038.mp3 -> __tmp__pre_audio_00038.mp3.8ad6844c2d5045b9a9776e6574ad4bab
+  OK SOURCE->TMP q:00038->00071 audio: question_00038.mp3 -> __tmp__question_00038.mp3.575fdc57148541dc8c05ee1585fbf1c8
+  OK SOURCE->TMP q:00006->00074 pre_audio: pre_audio_00006.mp3 -> __tmp__pre_audio_00006.mp3.4156733278714a5d9deacd7dd30f87c2
+  OK SOURCE->TMP q:00006->00074 audio: question_00006.mp3 -> __tmp__question_00006.mp3.6deaf7eacb0d4fafa25601bc8ebbabd0
+  OK SOURCE->TMP q:00014->00077 pre_audio: pre_audio_00014.mp3 -> __tmp__pre_audio_00014.mp3.4a2972574251457ba9b6b4399d487953
+  OK SOURCE->TMP q:00014->00077 audio: question_00014.mp3 -> __tmp__question_00014.mp3.4fa571e35a194d3485b957d016483d32
+  OK SOURCE->TMP q:00029->00078 pre_audio: pre_audio_00029.mp3 -> __tmp__pre_audio_00029.mp3.509c0188adc14ec0a2575644b40564d9
+  OK SOURCE->TMP q:00029->00078 audio: question_00029.mp3 -> __tmp__question_00029.mp3.1e9f24ea7ed144cba537ec7dd9cfcd7d
+  OK SOURCE->TMP q:00015->00082 pre_audio: pre_audio_00015.mp3 -> __tmp__pre_audio_00015.mp3.94755676b6754a3a90f64bea0f4f078b
+  OK SOURCE->TMP q:00015->00082 audio: question_00015.mp3 -> __tmp__question_00015.mp3.29b76567f54944d99a3f6fa321af754b
+  OK SOURCE->TMP q:00018->00083 pre_audio: pre_audio_00018.mp3 -> __tmp__pre_audio_00018.mp3.d7f0c1d77e2449759659225257b72b09
+  OK SOURCE->TMP q:00018->00083 audio: question_00018.mp3 -> __tmp__question_00018.mp3.cc704f9e62ef4c199bf2de3efc52a732
+  OK SOURCE->TMP q:00022->00084 pre_audio: pre_audio_00022.mp3 -> __tmp__pre_audio_00022.mp3.fd47404691634dc798dc55fb081438b8
+  OK SOURCE->TMP q:00022->00084 audio: question_00022.mp3 -> __tmp__question_00022.mp3.2ae2186bddfb4929805a4403b31b8732
+  OK SOURCE->TMP q:00034->00085 pre_audio: pre_audio_00034.mp3 -> __tmp__pre_audio_00034.mp3.37083b85b649478b90980bd89915c325
+  OK SOURCE->TMP q:00034->00085 audio: question_00034.mp3 -> __tmp__question_00034.mp3.9ac9838bebb24605b53b9aa254fb95ac
+  OK SOURCE->TMP q:00032->00086 pre_audio: pre_audio_00032.mp3 -> __tmp__pre_audio_00032.mp3.ce7cb4d721e24d60945410bcd0b084a8
+  OK SOURCE->TMP q:00032->00086 audio: question_00032.mp3 -> __tmp__question_00032.mp3.6ed69df27096468794a42fa920f9e38e
+  OK SOURCE->TMP q:00042->00087 pre_audio: pre_audio_00042.mp3 -> __tmp__pre_audio_00042.mp3.dbbbcb094aae4b28b72078551cf8dda5
+  OK SOURCE->TMP q:00042->00087 audio: question_00042.mp3 -> __tmp__question_00042.mp3.db996724421b4f5896c7ea71dbd1830a
+  OK SOURCE->TMP q:00033->00088 pre_audio: pre_audio_00033.mp3 -> __tmp__pre_audio_00033.mp3.f395fbf96c59421986bff2903b064b75
+  OK SOURCE->TMP q:00033->00088 audio: question_00033.mp3 -> __tmp__question_00033.mp3.8efe040dc36c4f0aae3a0181f56560b2
+  OK SOURCE->TMP q:00008->00089 pre_audio: pre_audio_00008.mp3 -> __tmp__pre_audio_00008.mp3.bd338d03e43243cc903504f1f6380c72
+  OK SOURCE->TMP q:00008->00089 audio: question_00008.mp3 -> __tmp__question_00008.mp3.6d83df20f875471384092f78105b86c1
+  OK TMP->TARGET q:00045->00002 pre_audio: __tmp__pre_audio_00045.mp3.32308152dca04200a120094afb8f736d -> pre_audio_00002.mp3
+  OK TMP->TARGET q:00045->00002 audio: __tmp__question_00045.mp3.b15e988b64dd413db50f5c298ad577eb -> question_00002.mp3
+  OK TMP->TARGET q:00020->00003 pre_audio: __tmp__pre_audio_00020.mp3.cdee6237825d492ea0e274aba569546b -> pre_audio_00003.mp3
+  OK TMP->TARGET q:00020->00003 audio: __tmp__question_00020.mp3.3dcf79f689e7410dbad4601c82885812 -> question_00003.mp3
+  OK TMP->TARGET q:00036->00006 pre_audio: __tmp__pre_audio_00036.mp3.d4def94c51e44d6f9385b524daae3aed -> pre_audio_00006.mp3
+  OK TMP->TARGET q:00036->00006 audio: __tmp__question_00036.mp3.8a56251def6c4f8caa9cf77332466d1b -> question_00006.mp3
+  OK TMP->TARGET q:00049->00008 pre_audio: __tmp__pre_audio_00049.mp3.111905917308401c8a7b0e716efa8004 -> pre_audio_00008.mp3
+  OK TMP->TARGET q:00049->00008 audio: __tmp__question_00049.mp3.f247bd45fe5a4d86b1e58c028c42b72d -> question_00008.mp3
+  OK TMP->TARGET q:00016->00012 pre_audio: __tmp__pre_audio_00016.mp3.f24c12f7ef83402cb41704631119e53d -> pre_audio_00012.mp3
+  OK TMP->TARGET q:00016->00012 audio: __tmp__question_00016.mp3.37c6eb937b3c46a0b2a293224ed05f5d -> question_00012.mp3
+  OK TMP->TARGET q:00035->00013 pre_audio: __tmp__pre_audio_00035.mp3.4c89581e474a4702a83752caae52af8a -> pre_audio_00013.mp3
+  OK TMP->TARGET q:00035->00013 audio: __tmp__question_00035.mp3.b94380d0baf147fd9107e14941384a4c -> question_00013.mp3
+  OK TMP->TARGET q:00031->00014 pre_audio: __tmp__pre_audio_00031.mp3.d9c49049d9d24bad94adc0a37d2f7686 -> pre_audio_00014.mp3
+  OK TMP->TARGET q:00031->00014 audio: __tmp__question_00031.mp3.37a1572e169c41a1af643f1f9ec82293 -> question_00014.mp3
+  OK TMP->TARGET q:00043->00016 pre_audio: __tmp__pre_audio_00043.mp3.e6ad636bbbf3492493a29e1c2c406f40 -> pre_audio_00016.mp3
+  OK TMP->TARGET q:00043->00016 audio: __tmp__question_00043.mp3.1730ef026d32490795bf7ea6d228a2fc -> question_00016.mp3
+  OK TMP->TARGET q:00021->00018 pre_audio: __tmp__pre_audio_00021.mp3.097c275b85aa43c8840acc872aec34b2 -> pre_audio_00018.mp3
+  OK TMP->TARGET q:00021->00018 audio: __tmp__question_00021.mp3.62bd259b21884c2f896199a8dc4e3906 -> question_00018.mp3
+  OK TMP->TARGET q:00024->00022 pre_audio: __tmp__pre_audio_00024.mp3.261eb9c172da4b27ae0aaf57cb06466c -> pre_audio_00022.mp3
+  OK TMP->TARGET q:00024->00022 audio: __tmp__question_00024.mp3.21d486a54fee4c6393508c626bdbc5f7 -> question_00022.mp3
+  OK TMP->TARGET q:00017->00027 pre_audio: __tmp__pre_audio_00017.mp3.132a0b9f03374332b245c0209bf0f3f8 -> pre_audio_00027.mp3
+  OK TMP->TARGET q:00017->00027 audio: __tmp__question_00017.mp3.e4679f1877ca40358c1313e9da67bf1e -> question_00027.mp3
+  OK TMP->TARGET q:00003->00028 pre_audio: __tmp__pre_audio_00003.mp3.2fd04af15dee410695e236a7ec7ec046 -> pre_audio_00028.mp3
+  OK TMP->TARGET q:00003->00028 audio: __tmp__question_00003.mp3.0eba0c2521f84f6f9bd4d9e9320a9da6 -> question_00028.mp3
+  OK TMP->TARGET q:00023->00030 pre_audio: __tmp__pre_audio_00023.mp3.07b8fdeff8e1491eb0f9234461dfc3fe -> pre_audio_00030.mp3
+  OK TMP->TARGET q:00023->00030 audio: __tmp__question_00023.mp3.298a5ae1fdf2442e9d0d25f14306b54f -> question_00030.mp3
+  OK TMP->TARGET q:00030->00031 pre_audio: __tmp__pre_audio_00030.mp3.27a9ea29bfcd4dd38e7438162c25b5b6 -> pre_audio_00031.mp3
+  OK TMP->TARGET q:00030->00031 audio: __tmp__question_00030.mp3.91dfc915103f4323af3c22a16f6b2632 -> question_00031.mp3
+  OK TMP->TARGET q:00026->00032 pre_audio: __tmp__pre_audio_00026.mp3.01f76aab1b554a5f9ea2ab2cf3f7e094 -> pre_audio_00032.mp3
+  OK TMP->TARGET q:00026->00032 audio: __tmp__question_00026.mp3.6508dedc18b84262ba1c92f21afef67e -> question_00032.mp3
+  OK TMP->TARGET q:00009->00033 pre_audio: __tmp__pre_audio_00009.mp3.431d50a54be94e02b1c619060ed3d65d -> pre_audio_00033.mp3
+  OK TMP->TARGET q:00009->00033 audio: __tmp__question_00009.mp3.a80425e39fc345e1bf23626a23932c7e -> question_00033.mp3
+  OK TMP->TARGET q:00028->00034 pre_audio: __tmp__pre_audio_00028.mp3.4a9b8a55e30e40459802faab6e051cc4 -> pre_audio_00034.mp3
+  OK TMP->TARGET q:00028->00034 audio: __tmp__question_00028.mp3.604f43217b2848e6b9fae6bde96d9647 -> question_00034.mp3
+  OK TMP->TARGET q:00011->00040 pre_audio: __tmp__pre_audio_00011.mp3.5aa82534ad8942a9ad437b67af146ece -> pre_audio_00040.mp3
+  OK TMP->TARGET q:00011->00040 audio: __tmp__question_00011.mp3.46aa31cb37354a9bae0b3a1c2e13a306 -> question_00040.mp3
+  OK TMP->TARGET q:00037->00043 pre_audio: __tmp__pre_audio_00037.mp3.85cea515df8a4dc08f4678760b6e25c0 -> pre_audio_00043.mp3
+  OK TMP->TARGET q:00037->00043 audio: __tmp__question_00037.mp3.636ca76a866a4f8689e75b5878143e3e -> question_00043.mp3
+  OK TMP->TARGET q:00005->00045 pre_audio: __tmp__pre_audio_00005.mp3.2eb656dc482a428880fc02b62fd2e2d5 -> pre_audio_00045.mp3
+  OK TMP->TARGET q:00005->00045 audio: __tmp__question_00005.mp3.72b8788a7af84d02bf55fddfab7d8d34 -> question_00045.mp3
+  OK TMP->TARGET q:00019->00046 pre_audio: __tmp__pre_audio_00019.mp3.16583771adc5402caaed238e01dc287d -> pre_audio_00046.mp3
+  OK TMP->TARGET q:00019->00046 audio: __tmp__question_00019.mp3.68592a58071b4932b0adc8bc8f2d714a -> question_00046.mp3
+  OK TMP->TARGET q:00047->00048 pre_audio: __tmp__pre_audio_00047.mp3.59dbb0fc2bc4407c8ec8d6ce5597e13c -> pre_audio_00048.mp3
+  OK TMP->TARGET q:00047->00048 audio: __tmp__question_00047.mp3.4fcd50ffce7544b9942eca660a3be4fe -> question_00048.mp3
+  OK TMP->TARGET q:00046->00049 pre_audio: __tmp__pre_audio_00046.mp3.ec43eace1a0b4b6e81e98b6ee25b9f26 -> pre_audio_00049.mp3
+  OK TMP->TARGET q:00046->00049 audio: __tmp__question_00046.mp3.f168e79925a14a4db22bf0bd29af7fcd -> question_00049.mp3
+  OK TMP->TARGET q:00025->00050 pre_audio: __tmp__pre_audio_00025.mp3.e72c1379b15a466b9ca55b94292ff442 -> pre_audio_00050.mp3
+  OK TMP->TARGET q:00025->00050 audio: __tmp__question_00025.mp3.8945097146bb4a748e6e3fd45b8e44c6 -> question_00050.mp3
+  OK TMP->TARGET q:00012->00054 pre_audio: __tmp__pre_audio_00012.mp3.e703444f998f458bba4b16b606d4650c -> pre_audio_00054.mp3
+  OK TMP->TARGET q:00012->00054 audio: __tmp__question_00012.mp3.c53f006dfb934c608a7c516ad3fba981 -> question_00054.mp3
+  OK TMP->TARGET q:00002->00055 pre_audio: __tmp__pre_audio_00002.mp3.1e3840effe4a4a648af96272943cb053 -> pre_audio_00055.mp3
+  OK TMP->TARGET q:00002->00055 audio: __tmp__question_00002.mp3.bd37379092a943bfbec0f73e9a4a0569 -> question_00055.mp3
+  OK TMP->TARGET q:00039->00056 pre_audio: __tmp__pre_audio_00039.mp3.edf310f56cdc4bd9a5ddbdfa5ffe72a1 -> pre_audio_00056.mp3
+  OK TMP->TARGET q:00039->00056 audio: __tmp__question_00039.mp3.7da62d1cc8184aa894f66f921efe7ba5 -> question_00056.mp3
+  OK TMP->TARGET q:00013->00057 pre_audio: __tmp__pre_audio_00013.mp3.195597caf57d4723aa20b7bf0fb20119 -> pre_audio_00057.mp3
+  OK TMP->TARGET q:00013->00057 audio: __tmp__question_00013.mp3.7ffaf656ea054188bd1dcba708c606be -> question_00057.mp3
+  OK TMP->TARGET q:00007->00059 pre_audio: __tmp__pre_audio_00007.mp3.41285d0e34af46a281c941f0465f5a85 -> pre_audio_00059.mp3
+  OK TMP->TARGET q:00007->00059 audio: __tmp__question_00007.mp3.cc86f2f5f07c4e7db19a32348f6995a6 -> question_00059.mp3
+  OK TMP->TARGET q:00001->00061 pre_audio: __tmp__pre_audio_00001.mp3.bce7b0cef67b4fa1941159a032432900 -> pre_audio_00061.mp3
+  OK TMP->TARGET q:00001->00061 audio: __tmp__question_00001.mp3.65e14ac3a7f04e9bb1487a2fad918f30 -> question_00061.mp3
+  OK TMP->TARGET q:00040->00062 pre_audio: __tmp__pre_audio_00040.mp3.6a9953718d794d1fac7034036dab5d53 -> pre_audio_00062.mp3
+  OK TMP->TARGET q:00040->00062 audio: __tmp__question_00040.mp3.5a448e8900f04e728bd93c79758ce0b0 -> question_00062.mp3
+  OK TMP->TARGET q:00027->00063 pre_audio: __tmp__pre_audio_00027.mp3.7fb4cd1c6a8d4bc7a29827255bb8f6a9 -> pre_audio_00063.mp3
+  OK TMP->TARGET q:00027->00063 audio: __tmp__question_00027.mp3.305f6a06f0ff4be1b4ba4046b77ce58f -> question_00063.mp3
+  OK TMP->TARGET q:00010->00064 pre_audio: __tmp__pre_audio_00010.mp3.73436100045e4846aa24923d483ab208 -> pre_audio_00064.mp3
+  OK TMP->TARGET q:00010->00064 audio: __tmp__question_00010.mp3.fd30ae2115bb4c4e9e6432c732f172f3 -> question_00064.mp3
+  OK TMP->TARGET q:00004->00065 pre_audio: __tmp__pre_audio_00004.mp3.d672c7ede97d4db28567d53b45533f93 -> pre_audio_00065.mp3
+  OK TMP->TARGET q:00004->00065 audio: __tmp__question_00004.mp3.c5ac487e328e4060ae6b360895b1d2ae -> question_00065.mp3
+  OK TMP->TARGET q:00044->00066 pre_audio: __tmp__pre_audio_00044.mp3.3309db5e078c4ea7a5c36b77ac97e380 -> pre_audio_00066.mp3
+  OK TMP->TARGET q:00044->00066 audio: __tmp__question_00044.mp3.c1843256f524444999bea45b744884fd -> question_00066.mp3
+  OK TMP->TARGET q:00050->00067 pre_audio: __tmp__pre_audio_00050.mp3.c23a07ac4e864c1dadf5878ec2cd4146 -> pre_audio_00067.mp3
+  OK TMP->TARGET q:00050->00067 audio: __tmp__question_00050.mp3.cae3214d27974aa989addcce2869fa55 -> question_00067.mp3
+  OK TMP->TARGET q:00048->00070 pre_audio: __tmp__pre_audio_00048.mp3.3557704df008446d98d2cb4c63c71b73 -> pre_audio_00070.mp3
+  OK TMP->TARGET q:00048->00070 audio: __tmp__question_00048.mp3.894c35c7764143078befa9f378075119 -> question_00070.mp3
+  OK TMP->TARGET q:00038->00071 pre_audio: __tmp__pre_audio_00038.mp3.8ad6844c2d5045b9a9776e6574ad4bab -> pre_audio_00071.mp3
+  OK TMP->TARGET q:00038->00071 audio: __tmp__question_00038.mp3.575fdc57148541dc8c05ee1585fbf1c8 -> question_00071.mp3
+  OK TMP->TARGET q:00006->00074 pre_audio: __tmp__pre_audio_00006.mp3.4156733278714a5d9deacd7dd30f87c2 -> pre_audio_00074.mp3
+  OK TMP->TARGET q:00006->00074 audio: __tmp__question_00006.mp3.6deaf7eacb0d4fafa25601bc8ebbabd0 -> question_00074.mp3
+  OK TMP->TARGET q:00014->00077 pre_audio: __tmp__pre_audio_00014.mp3.4a2972574251457ba9b6b4399d487953 -> pre_audio_00077.mp3
+  OK TMP->TARGET q:00014->00077 audio: __tmp__question_00014.mp3.4fa571e35a194d3485b957d016483d32 -> question_00077.mp3
+  OK TMP->TARGET q:00029->00078 pre_audio: __tmp__pre_audio_00029.mp3.509c0188adc14ec0a2575644b40564d9 -> pre_audio_00078.mp3
+  OK TMP->TARGET q:00029->00078 audio: __tmp__question_00029.mp3.1e9f24ea7ed144cba537ec7dd9cfcd7d -> question_00078.mp3
+  OK TMP->TARGET q:00015->00082 pre_audio: __tmp__pre_audio_00015.mp3.94755676b6754a3a90f64bea0f4f078b -> pre_audio_00082.mp3
+  OK TMP->TARGET q:00015->00082 audio: __tmp__question_00015.mp3.29b76567f54944d99a3f6fa321af754b -> question_00082.mp3
+  OK TMP->TARGET q:00018->00083 pre_audio: __tmp__pre_audio_00018.mp3.d7f0c1d77e2449759659225257b72b09 -> pre_audio_00083.mp3
+  OK TMP->TARGET q:00018->00083 audio: __tmp__question_00018.mp3.cc704f9e62ef4c199bf2de3efc52a732 -> question_00083.mp3
+  OK TMP->TARGET q:00022->00084 pre_audio: __tmp__pre_audio_00022.mp3.fd47404691634dc798dc55fb081438b8 -> pre_audio_00084.mp3
+  OK TMP->TARGET q:00022->00084 audio: __tmp__question_00022.mp3.2ae2186bddfb4929805a4403b31b8732 -> question_00084.mp3
+  OK TMP->TARGET q:00034->00085 pre_audio: __tmp__pre_audio_00034.mp3.37083b85b649478b90980bd89915c325 -> pre_audio_00085.mp3
+  OK TMP->TARGET q:00034->00085 audio: __tmp__question_00034.mp3.9ac9838bebb24605b53b9aa254fb95ac -> question_00085.mp3
+  OK TMP->TARGET q:00032->00086 pre_audio: __tmp__pre_audio_00032.mp3.ce7cb4d721e24d60945410bcd0b084a8 -> pre_audio_00086.mp3
+  OK TMP->TARGET q:00032->00086 audio: __tmp__question_00032.mp3.6ed69df27096468794a42fa920f9e38e -> question_00086.mp3
+  OK TMP->TARGET q:00042->00087 pre_audio: __tmp__pre_audio_00042.mp3.dbbbcb094aae4b28b72078551cf8dda5 -> pre_audio_00087.mp3
+  OK TMP->TARGET q:00042->00087 audio: __tmp__question_00042.mp3.db996724421b4f5896c7ea71dbd1830a -> question_00087.mp3
+  OK TMP->TARGET q:00033->00088 pre_audio: __tmp__pre_audio_00033.mp3.f395fbf96c59421986bff2903b064b75 -> pre_audio_00088.mp3
+  OK TMP->TARGET q:00033->00088 audio: __tmp__question_00033.mp3.8efe040dc36c4f0aae3a0181f56560b2 -> question_00088.mp3
+  OK TMP->TARGET q:00008->00089 pre_audio: __tmp__pre_audio_00008.mp3.bd338d03e43243cc903504f1f6380c72 -> pre_audio_00089.mp3
+  OK TMP->TARGET q:00008->00089 audio: __tmp__question_00008.mp3.6d83df20f875471384092f78105b86c1 -> question_00089.mp3
+phase2_json_update:
+  OK: questions.json geschrieben
+
+phase3_postcheck:
+  POSTCHECK_OK
+

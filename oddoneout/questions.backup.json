@@ -1,0 +1,6442 @@
+[
+  {
+    "id": "0001",
+    "category": "Popkultur & Comics",
+    "question": "Welcher Film basiert NICHT auf einem Comic?",
+    "correct": "Inception",
+    "wrong": [
+      "Men in Black",
+      "Kingsman",
+      "Scott Pilgrim"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-1.mp3"
+  },
+  {
+    "id": "0002",
+    "category": "Gaming",
+    "question": "Welches Spiel wurde NICHT zum Game of the Year (TGA) gekürt?",
+    "correct": "FIFA 23",
+    "wrong": [
+      "God of War",
+      "Elden Ring",
+      "Baldur's Gate 3"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-2.mp3"
+  },
+  {
+    "id": "0003",
+    "category": "Sprache & Linguistik",
+    "question": "Welcher Fall (Kasus) existiert im Deutschen NICHT?",
+    "correct": "Ablativ",
+    "wrong": [
+      "Nominativ",
+      "Dativ",
+      "Akkusativ"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-3.mp3"
+  },
+  {
+    "id": "0004",
+    "category": "Natur & Tierwelt",
+    "question": "Welche Schlange ist in Deutschland NICHT heimisch?",
+    "correct": "Kobra",
+    "wrong": [
+      "Ringelnatter",
+      "Kreuzotter",
+      "Schlingnatter"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-4.mp3"
+  },
+  {
+    "id": "0005",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Begriff gehört NICHT zur Typografie?",
+    "correct": "Fisheye",
+    "wrong": [
+      "Serif",
+      "Kursiv",
+      "Zeilenabstand"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-5.mp3"
+  },
+  {
+    "id": "0006",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Creme wird NICHT mit Eiern hergestellt?",
+    "correct": "Schlagsahne",
+    "wrong": [
+      "Crème brûlée",
+      "Zabaione",
+      "Vanillepudding (klassisch)"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-6.mp3"
+  },
+  {
+    "id": "0007",
+    "category": "Sprache & Linguistik",
+    "question": "Welcher Begriff ist KEIN Synonym für ein Brötchen in Deutschland?",
+    "correct": "Stulle",
+    "wrong": [
+      "Semmel",
+      "Schrippe",
+      "Weck"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-7.mp3"
+  },
+  {
+    "id": "0008",
+    "category": "Kunst & Kultur",
+    "question": "Welches Material wird in der Bildhauerei NICHT klassisch verwendet?",
+    "correct": "Papyrus",
+    "wrong": [
+      "Marmor",
+      "Bronze",
+      "Holz"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-8.mp3"
+  },
+  {
+    "id": "0009",
+    "category": "Sprache & Linguistik",
+    "question": "Was ist KEINE Wortart?",
+    "correct": "Subjekt",
+    "wrong": [
+      "Nomen",
+      "Adjektiv",
+      "Verb"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-9.mp3"
+  },
+  {
+    "id": "0010",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Gewürz ist KEIN typisches Weihnachtsgewürz?",
+    "correct": "Oregano",
+    "wrong": [
+      "Nelken",
+      "Anis",
+      "Kardamom"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-10.mp3"
+  },
+  {
+    "id": "0011",
+    "category": "Mythologie",
+    "question": "Welcher Held hat NICHT an der Jagd auf den Kalydonischen Eber teilgenommen?",
+    "correct": "Achilles",
+    "wrong": [
+      "Meleager",
+      "Atalante",
+      "Theseus"
+    ],
+    "audio": "0011.mp3"
+  },
+  {
+    "id": "0012",
+    "category": "Sport",
+    "question": "Welche Disziplin gehört NICHT zum Biathlon?",
+    "correct": "Slalom",
+    "wrong": [
+      "Sprint",
+      "Verfolgung",
+      "Massenstart"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-12.mp3"
+  },
+  {
+    "id": "0013",
+    "category": "Politik & Recht",
+    "question": "Welches Land hat KEINE geschriebene Verfassung in einem einzigen Dokument?",
+    "correct": "Großbritannien",
+    "wrong": [
+      "Deutschland",
+      "USA",
+      "Frankreich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-13.mp3"
+  },
+  {
+    "id": "0014",
+    "category": "Musik",
+    "question": "Welches Schlaginstrument hat KEINE feste Tonhöhe?",
+    "correct": "Kleine Trommel (Snare)",
+    "wrong": [
+      "Pauke",
+      "Marimbaphon",
+      "Xylophon"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-14.mp3"
+  },
+  {
+    "id": "0015",
+    "category": "Geschichte",
+    "question": "Wer war KEIN bekannter römischer Staatsmann oder Feldherr?",
+    "correct": "Leonidas",
+    "wrong": [
+      "Julius Cäsar",
+      "Marc Anton",
+      "Cicero"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-15.mp3"
+  },
+  {
+    "id": "0016",
+    "category": "Medizin & Körper",
+    "question": "Welcher dieser Knochenn gehört NICHT zum Schädel?",
+    "correct": "Schlüsselbein",
+    "wrong": [
+      "Stirnbein",
+      "Schläfenbein",
+      "Jochbein"
+    ],
+    "audio": "0016.mp3"
+  },
+  {
+    "id": "0017",
+    "category": "Kulinarik & Küche",
+    "question": "Was ist KEINE Zutat für bayerische Weißwürste?",
+    "correct": "Knoblauch",
+    "wrong": [
+      "Kalbfleisch",
+      "Schweinerückenspeck",
+      "Petersilie"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-17.mp3"
+  },
+  {
+    "id": "0018",
+    "category": "Kulinarik & Küche",
+    "question": "Was gehört NICHT in ein klassisches Wiener Schnitzel?",
+    "correct": "Schweinefleisch",
+    "wrong": [
+      "Kalbfleisch",
+      "Mehl",
+      "Ei"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-18.mp3"
+  },
+  {
+    "id": "0019",
+    "category": "Kulinarik & Küche",
+    "question": "Welches dieser Produkte ist NICHT laktosefrei (von Natur aus)?",
+    "correct": "Ziegenmilch",
+    "wrong": [
+      "Olivenöl",
+      "Honig",
+      "Reis"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-19.mp3"
+  },
+  {
+    "id": "0020",
+    "category": "Sprache & Linguistik",
+    "question": "Was bedeutet der Name „Hanna“ NICHT?",
+    "correct": "Die Kämpferin",
+    "wrong": [
+      "Die Begnadete",
+      "Liebreiz",
+      "Anmut"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-20.mp3"
+  },
+  {
+    "id": "0021",
+    "category": "Kulinarik & Küche",
+    "question": "Was ist KEIN Honig-Typ?",
+    "correct": "Zuckerhonig",
+    "wrong": [
+      "Waldhonig",
+      "Blütenhonig",
+      "Akazienhonig"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-21.mp3"
+  },
+  {
+    "id": "0022",
+    "category": "Geografie",
+    "question": "Welche Stadt liegt NICHT in Australien?",
+    "correct": "Auckland",
+    "wrong": [
+      "Sydney",
+      "Perth",
+      "Adelaide"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-22.mp3"
+  },
+  {
+    "id": "0023",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Film basiert NICHT auf einem Buch von Stephen King?",
+    "correct": "Psycho",
+    "wrong": [
+      "Shining",
+      "Es",
+      "Die Verurteilten"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-23.mp3"
+  },
+  {
+    "id": "0024",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Zutat gehört NICHT in einen Brandteig?",
+    "correct": "Hefe",
+    "wrong": [
+      "Wasser",
+      "Butter",
+      "Mehl"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-24.mp3"
+  },
+  {
+    "id": "0025",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Kunststil zeichnet sich NICHT durch realistische Darstellung aus?",
+    "correct": "Kubismus",
+    "wrong": [
+      "Naturalismus",
+      "Realismus",
+      "Renaissance"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-25.mp3"
+  },
+  {
+    "id": "0026",
+    "category": "Sprache & Linguistik",
+    "question": "Welcher Begriff bezeichnet KEINE Zeitform (Tempus)?",
+    "correct": "Genitiv",
+    "wrong": [
+      "Präsens",
+      "Perfekt",
+      "Futur"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-26.mp3"
+  },
+  {
+    "id": "0027",
+    "category": "Musik",
+    "question": "Welcher Begriff gehört NICHT zur Oper?",
+    "correct": "Slam",
+    "wrong": [
+      "Arie",
+      "Rezitativ",
+      "Libretto"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-27.mp3"
+  },
+  {
+    "id": "0028",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher Modedesigner ist NICHT verstorben?",
+    "correct": "Vera Wang",
+    "wrong": [
+      "Karl Lagerfeld",
+      "Gianni Versace",
+      "Vivienne Westwood"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-28.mp3"
+  },
+  {
+    "id": "0029",
+    "category": "Geschichte",
+    "question": "Welches Land war KEINE Kolonialmacht in Amerika?",
+    "correct": "Österreich",
+    "wrong": [
+      "Spanien",
+      "Portugal",
+      "Frankreich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-29.mp3"
+  },
+  {
+    "id": "0030",
+    "category": "Sport",
+    "question": "In welcher Sportart wird KEIN „Puck“ verwendet?",
+    "correct": "Feldhockey",
+    "wrong": [
+      "Eishockey",
+      "Unterwasserhockey",
+      "Airhockey"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-30.mp3"
+  },
+  {
+    "id": "0031",
+    "category": "Popkultur & Comics",
+    "question": "Welcher Begriff gehört NICHT zur Comic-Produktion?",
+    "correct": "Gaffer",
+    "wrong": [
+      "Inker",
+      "Letterer",
+      "Penciller"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-31.mp3"
+  },
+  {
+    "id": "0032",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher dieser Haie ist KEIN Fleischfresser im klassischen Sinne (sondern Planktonfresser)?",
+    "correct": "Walhai",
+    "wrong": [
+      "Weißer Hai",
+      "Bullenhai",
+      "Tigerhai"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-32.mp3"
+  },
+  {
+    "id": "0033",
+    "category": "Geschichte",
+    "question": "Wer war KEINE Leitfigur der Aufklärung?",
+    "correct": "Martin Luther",
+    "wrong": [
+      "Immanuel Kant",
+      "Voltaire",
+      "Jean-Jacques Rousseau"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-33.mp3"
+  },
+  {
+    "id": "0034",
+    "category": "Medizin & Körper",
+    "question": "Welches Verfahren nutzt KEINE Röntgenstrahlen?",
+    "correct": "Magnetresonanztomographie",
+    "wrong": [
+      "Klassisches Röntgenbild",
+      "Computertomographie",
+      "Mammographie"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-34.mp3"
+  },
+  {
+    "id": "0035",
+    "category": "Medizin & Körper",
+    "question": "Welches dieser Organe ist KEIN Teil des Verdauungstrakts?",
+    "correct": "Thymus",
+    "wrong": [
+      "Zwölffingerdarm",
+      "Blinddarm",
+      "Speiseröhre"
+    ],
+    "audio": "0035.mp3"
+  },
+  {
+    "id": "0036",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches Fluggerät fliegt NICHT nach dem „Schwerer als Luft“-Prinzip?",
+    "correct": "Zeppelin",
+    "wrong": [
+      "Hubschrauber",
+      "Segelflugzeug",
+      "Düsenjet"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-36.mp3"
+  },
+  {
+    "id": "0037",
+    "category": "Geschichte",
+    "question": "Welcher Politiker war KEIN deutscher Bundeskanzler?",
+    "correct": "Theodor Heuss",
+    "wrong": [
+      "Konrad Adenauer",
+      "Willy Brandt",
+      "Helmut Kohl"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-37.mp3"
+  },
+  {
+    "id": "0038",
+    "category": "Mythologie",
+    "question": "Welche Figur ist KEIN Sohn des Zeus?",
+    "correct": "Achilles",
+    "wrong": [
+      "Herakles",
+      "Apollon",
+      "Perseus"
+    ],
+    "audio": "0038.mp3"
+  },
+  {
+    "id": "0039",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Teigware ist KEINE Pasta-Sorte?",
+    "correct": "Couscous",
+    "wrong": [
+      "Penne",
+      "Fusilli",
+      "Farfalle"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-39.mp3"
+  },
+  {
+    "id": "0040",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Begriff gehört NICHT zum Grillen?",
+    "correct": "Pochieren",
+    "wrong": [
+      "Direkte Hitze",
+      "Smoken",
+      "Marinieren"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-40.mp3"
+  },
+  {
+    "id": "0041",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welches Land war KEIN Gründungsmitglied der Europäischen Wirtschaftsgemeinschaft (EWG) 1957?",
+    "correct": "Spanien",
+    "wrong": [
+      "Belgien",
+      "Luxemburg",
+      "Niederlande"
+    ],
+    "audio": "0041.mp3"
+  },
+  {
+    "id": "0042",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches dieser Materialien ist KEIN Halbleiter?",
+    "correct": "Kupfer",
+    "wrong": [
+      "Silizium",
+      "Germanium",
+      "Galliumarsenid"
+    ],
+    "audio": "0042.mp3"
+  },
+  {
+    "id": "0043",
+    "category": "Kulinarik & Küche",
+    "question": "Was passiert beim „Blanchieren\" NICHT?",
+    "correct": "Lange schmoren",
+    "wrong": [
+      "Kurz in kochendes Wasser geben",
+      "Mit Eiswasser abschrecken",
+      "Farbe erhalten"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-43.mp3"
+  },
+  {
+    "id": "0044",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher Zustand ist KEIN klassischer Aggregatzustand?",
+    "correct": "kristallin",
+    "wrong": [
+      "fest",
+      "flüssig",
+      "gasförmig"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-44.mp3"
+  },
+  {
+    "id": "0045",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher Vogel ist KEIN Greifvogel?",
+    "correct": "Uhu",
+    "wrong": [
+      "Steinadler",
+      "Wanderfalke",
+      "Fischadler"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-45.mp3"
+  },
+  {
+    "id": "0046",
+    "category": "Kunst & Kultur",
+    "question": "Welche Technik gehört NICHT zur Malerei?",
+    "correct": "Radierung",
+    "wrong": [
+      "Aquarell",
+      "Fresko",
+      "Ölmalerei"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-46.mp3"
+  },
+  {
+    "id": "0047",
+    "category": "Natur & Tierwelt",
+    "question": "Welches dieser Tiere ist KEIN Wiederkäuer?",
+    "correct": "Pferd",
+    "wrong": [
+      "Kuh",
+      "Giraffe",
+      "Schaf"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-47.mp3"
+  },
+  {
+    "id": "0048",
+    "category": "Sport",
+    "question": "Welche Disziplin gehört NICHT zum Zehnkampf der Männer?",
+    "correct": "Hammerwurf",
+    "wrong": [
+      "Stabhochsprung",
+      "Speerwurf",
+      "1500-Meter-Lauf"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-48.mp3"
+  },
+  {
+    "id": "0049",
+    "category": "Popkultur & Comics",
+    "question": "Welcher dieser Helden ist KEIN Mutant aus X-Men?",
+    "correct": "Spider-Man",
+    "wrong": [
+      "Wolverine",
+      "Storm",
+      "Cyclops"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-49.mp3"
+  },
+  {
+    "id": "0050",
+    "category": "Recht & Gesetz",
+    "question": "Was ist KEIN Bestandteil der Kfz-Haftpflichtversicherung?",
+    "correct": "Die Reparatur des eigenen Wagens nach einem selbstverschuldeten Unfall",
+    "wrong": [
+      "Deckung von Sachschäden Dritter",
+      "Deckung von Personenschäden Dritter",
+      "Gesetzlich vorgeschriebener Schutz"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-50.mp3"
+  },
+  {
+    "id": "0051",
+    "category": "Sprache & Linguistik",
+    "question": "Was war das Wort „Kanzler“ ursprünglich NICHT?",
+    "correct": "Ein königlicher Vorkoster",
+    "wrong": [
+      "Ein Schrankenwärter",
+      "Ein Beamter hinter Gittern",
+      "Abgeleitet von \"cancelli\""
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-51.mp3"
+  },
+  {
+    "id": "0052",
+    "category": "Medizin & Körper",
+    "question": "Welcher Sinn wird NICHT den klassischen fünf Sinnen zugeordnet?",
+    "correct": "Zeitsinn",
+    "wrong": [
+      "Sehen",
+      "Riechen",
+      "Tasten"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-52.mp3"
+  },
+  {
+    "id": "0053",
+    "category": "Geschichte",
+    "question": "Welche Erfindung stammt NICHT aus dem Mittelalter?",
+    "correct": "Dampfmaschine",
+    "wrong": [
+      "Brille",
+      "Kompass (in Europa)",
+      "Mechanische Uhr"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-53.mp3"
+  },
+  {
+    "id": "0054",
+    "category": "Geografie",
+    "question": "Welche Insel liegt NICHT im Mittelmeer?",
+    "correct": "Teneriffa",
+    "wrong": [
+      "Korsika",
+      "Malta",
+      "Kreta"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-54.mp3"
+  },
+  {
+    "id": "0055",
+    "category": "Geografie",
+    "question": "Welches Land hat KEINE Landgrenze mit Russland?",
+    "correct": "Rumänien",
+    "wrong": [
+      "Finnland",
+      "Mongolei",
+      "Norwegen"
+    ],
+    "audio": "0055.mp3"
+  },
+  {
+    "id": "0056",
+    "category": "Sprache & Linguistik",
+    "question": "Welches dieser Wörter ist KEIN Palindrom?",
+    "correct": "Salami",
+    "wrong": [
+      "Rentner",
+      "Reliefpfeiler",
+      "Lagerregal"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-56.mp3"
+  },
+  {
+    "id": "0057",
+    "category": "Film & Serien",
+    "question": "Welche Serie basiert NICHT auf einer Buchvorlage?",
+    "correct": "Squid Game",
+    "wrong": [
+      "Game of Thrones",
+      "The Witcher",
+      "Bridgerton"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-57.mp3"
+  },
+  {
+    "id": "0058",
+    "category": "Sport",
+    "question": "Welches Rennen ist KEIN Bestandteil der \"Triple Crown\" des Motorsports?",
+    "correct": "Tour de France",
+    "wrong": [
+      "24 Stunden von Le Mans",
+      "Monaco Grand Prix",
+      "Indianapolis 500"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-58.mp3"
+  },
+  {
+    "id": "0059",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches dieser Hormone wird NICHT in der Bauchspeicheldrüse produziert?",
+    "correct": "Adrenalin",
+    "wrong": [
+      "Insulin",
+      "Glukagon",
+      "Somatostatin"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-59.mp3"
+  },
+  {
+    "id": "0060",
+    "category": "Popkultur & Comics",
+    "question": "Welcher dieser Verlage ist KEIN US-Comic-Gigant?",
+    "correct": "Kodansha",
+    "wrong": [
+      "Marvel",
+      "DC",
+      "Image Comics"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-60.mp3"
+  },
+  {
+    "id": "0061",
+    "category": "Mode & Design",
+    "question": "Welche Faser ist KEINE Naturfaser?",
+    "correct": "Polyester",
+    "wrong": [
+      "Seide",
+      "Kaschmir",
+      "Leinen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-61.mp3"
+  },
+  {
+    "id": "0062",
+    "category": "Sport",
+    "question": "Wer war KEIN deutscher Fußball-Bundestrainer?",
+    "correct": "Lothar Matthäus",
+    "wrong": [
+      "Franz Beckenbauer",
+      "Joachim Löw",
+      "Hansi Flick"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-62.mp3"
+  },
+  {
+    "id": "0063",
+    "category": "Geografie",
+    "question": "Welches Land liegt NICHT in Afrika?",
+    "correct": "Suriname",
+    "wrong": [
+      "Mali",
+      "Tschad",
+      "Sambia"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-63.mp3"
+  },
+  {
+    "id": "0064",
+    "category": "Musik",
+    "question": "Welches Werk stammt NICHT von Johann Sebastian Bach?",
+    "correct": "Die vier Jahreszeiten",
+    "wrong": [
+      "Brandenburgische Konzerte",
+      "Weihnachtsoratorium",
+      "Toccata und Fuge d-Moll"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-64.mp3"
+  },
+  {
+    "id": "0065",
+    "category": "Sprache & Linguistik",
+    "question": "Welches Wort stammt NICHT aus dem Französischen?",
+    "correct": "Kindergarten",
+    "wrong": [
+      "Portemonnaie",
+      "Trottoir",
+      "Balkon"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-65.mp3"
+  },
+  {
+    "id": "0066",
+    "category": "Kunst & Kultur",
+    "question": "Welche Epoche wird NICHT der deutschen Literaturgeschichte zugeordnet?",
+    "correct": "Viktorianismus",
+    "wrong": [
+      "Sturm und Drang",
+      "Weimarer Klassik",
+      "Biedermeier"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-66.mp3"
+  },
+  {
+    "id": "0067",
+    "category": "Musik",
+    "question": "Welches Instrument gehört NICHT zu den Streichern?",
+    "correct": "Gitarre",
+    "wrong": [
+      "Violine",
+      "Bratsche",
+      "Violoncello"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-67.mp3"
+  },
+  {
+    "id": "0068",
+    "category": "Sport",
+    "question": "Welche Farbe hat KEINEN Ring auf der Olympischen Flagge?",
+    "correct": "Weiß",
+    "wrong": [
+      "Blau",
+      "Grün",
+      "Schwarz"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-68.mp3"
+  },
+  {
+    "id": "0069",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Frucht ist KEIN Bestandteil der Roten Grütze",
+    "correct": "Bananen",
+    "wrong": [
+      "Himbeeren",
+      "Johannisbeeren",
+      "Kirschen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-69.mp3"
+  },
+  {
+    "id": "0070",
+    "category": "Film & Serien",
+    "question": "Welche dieser Serien spielt NICHT in der Vergangenheit?",
+    "correct": "Black Mirror",
+    "wrong": [
+      "Vikings",
+      "Peaky Blinders",
+      "Mad Men"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-70.mp3"
+  },
+  {
+    "id": "0071",
+    "category": "Sport",
+    "question": "Welcher Spieler hat NICHT den „Ballon d’Or“ (Weltfußballer) gewonnen?",
+    "correct": "Neymar",
+    "wrong": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Luka Modrić"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-71.mp3"
+  },
+  {
+    "id": "0072",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Merkmal haben Vögel NICHT mit Reptilien gemeinsam?",
+    "correct": "Konstante Körpertemperatur",
+    "wrong": [
+      "Legen von Eiern",
+      "Wirbelsäule",
+      "Kloake"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-72.mp3"
+  },
+  {
+    "id": "0073",
+    "category": "Recht & Gesetz",
+    "question": "Was ist KEINE Form des Testaments?",
+    "correct": "Eine Sprachnachricht bei WhatsApp",
+    "wrong": [
+      "Eigenhändig geschrieben und unterschrieben",
+      "Notariell beurkundet",
+      "Das gemeinschaftliche Testament (Ehegatten)"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-73.mp3"
+  },
+  {
+    "id": "0074",
+    "category": "Recht & Gesetz",
+    "question": "Was ist KEIN rechtmäßig geschütztes Urheberrecht?",
+    "correct": "Eine bloße Idee für ein Spiel, die noch nicht umgesetzt wurde",
+    "wrong": [
+      "Ein geschriebener Roman",
+      "Ein komponiertes Lied",
+      "Ein aufgenommenes Foto"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-74.mp3"
+  },
+  {
+    "id": "0075",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Tier ist KEIN Nagetier?",
+    "correct": "Kaninchen",
+    "wrong": [
+      "Biber",
+      "Eichhörnchen",
+      "Meerschweinchen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-75.mp3"
+  },
+  {
+    "id": "0076",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Autor ist KEIN Russe?",
+    "correct": "Franz Kafka",
+    "wrong": [
+      "Leo Tolstoi",
+      "Fjodor Dostojewski",
+      "Anton Tschechow"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-76.mp3"
+  },
+  {
+    "id": "0077",
+    "category": "Film & Serien",
+    "question": "Welcher dieser Filme spielt NICHT im Weltraum?",
+    "correct": "Inception",
+    "wrong": [
+      "Interstellar",
+      "Gravity",
+      "Apollo 13"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-77.mp3"
+  },
+  {
+    "id": "0078",
+    "category": "Geografie",
+    "question": "Welcher dieser Orte ist KEIN Kap?",
+    "correct": "Kapstadt",
+    "wrong": [
+      "Kap der Guten Hoffnung",
+      "Kap Hoorn",
+      "Kap Canaveral"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-78.mp3"
+  },
+  {
+    "id": "0079",
+    "category": "Film & Serien",
+    "question": "Welche Stadt ist KEIN klassischer Drehort für den „Tatort“?",
+    "correct": "Washington D.C.",
+    "wrong": [
+      "Münster",
+      "Köln",
+      "München"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-79.mp3"
+  },
+  {
+    "id": "0080",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Insekt lebt NICHT in einem Staat?",
+    "correct": "Marienkäfer",
+    "wrong": [
+      "Honigbiene",
+      "Waldameise",
+      "Termite"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-80.mp3"
+  },
+  {
+    "id": "0081",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Comic-Künstler erschuf NICHT die genannten Figuren?",
+    "correct": "Walt Disney (Batman)",
+    "wrong": [
+      "Hergé (Tim & Struppi)",
+      "Uderzo (Asterix)",
+      "Charles M. Schulz (Peanuts)"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-81.mp3"
+  },
+  {
+    "id": "0082",
+    "category": "Kulinarik & Küche",
+    "question": "Welches dieser Gewürze wird NICHT aus einer Wurzel gewonnen?",
+    "correct": "Zimt",
+    "wrong": [
+      "Ingwer",
+      "Kurkuma",
+      "Meerrettich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-82.mp3"
+  },
+  {
+    "id": "0083",
+    "category": "Promis & Gesellschaft",
+    "question": "Wer ist KEIN Kind von König Charles III.?",
+    "correct": "Prinz Andrew",
+    "wrong": [
+      "Prinz William",
+      "Prinz Harry"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-83.mp3"
+  },
+  {
+    "id": "0084",
+    "category": "Gaming",
+    "question": "In welcher Stadt spielen die meisten Grand Theft Auto Teile NICHT?",
+    "correct": "Berlin",
+    "wrong": [
+      "Liberty City",
+      "Los Santos",
+      "Vice City"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-84.mp3"
+  },
+  {
+    "id": "0085",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher dieser Schauspieler ist NICHT britisch?",
+    "correct": "Ryan Reynolds",
+    "wrong": [
+      "Benedict Cumberbatch",
+      "Tom Hiddleston",
+      "Idris Elba"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-85.mp3"
+  },
+  {
+    "id": "0086",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher Faktor ist NICHT abiotisch (unbelebt)?",
+    "correct": "Konkurrenz",
+    "wrong": [
+      "Temperatur",
+      "Licht",
+      "Wasser"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-86.mp3"
+  },
+  {
+    "id": "0087",
+    "category": "Geschichte",
+    "question": "Wer war KEIN Anführer einer Unabhängigkeitsbewegung?",
+    "correct": "Winston Churchill",
+    "wrong": [
+      "Mahatma Gandhi",
+      "Nelson Mandela",
+      "Simon Bolivar"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-87.mp3"
+  },
+  {
+    "id": "0088",
+    "category": "Geografie",
+    "question": "Welches Gewässer ist KEIN Ozean?",
+    "correct": "Kaspisches Meer",
+    "wrong": [
+      "Pazifik",
+      "Indik",
+      "Arktischer Ozean"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-88.mp3"
+  },
+  {
+    "id": "0089",
+    "category": "Musik",
+    "question": "Welcher Künstler ist KEIN King oder Queen of Pop/Rock/Soul?",
+    "correct": "Ed Sheeran",
+    "wrong": [
+      "Michael Jackson (Pop)",
+      "Aretha Franklin (Soul)",
+      "Elvis Presley (Rock 'n' Roll)"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-89.mp3"
+  },
+  {
+    "id": "0090",
+    "category": "Film & Serien",
+    "question": "Welcher dieser Filme wurde NICHT von Alfred Hitchcock inszeniert?",
+    "correct": "Casablanca",
+    "wrong": [
+      "Psycho",
+      "Die Vögel",
+      "Das Fenster zum Hof"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-90.mp3"
+  },
+  {
+    "id": "0091",
+    "category": "Mode & Design",
+    "question": "Was versteht man unter „Vintage“-Mode NICHT?",
+    "correct": "Fabrikneue Kleidung im modernen High-Tech-Look.",
+    "wrong": [
+      "Kleidung aus einer früheren Epoche.",
+      "Gebrauchte Originalstücke.",
+      "Den Stil vergangener Jahrzehnte."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-91.mp3"
+  },
+  {
+    "id": "0092",
+    "category": "Mythologie",
+    "question": "Welche Gottheit gehört NICHT zur hinduistischen Trinität (Trimurti)?",
+    "correct": "Ganesha",
+    "wrong": [
+      "Brahma",
+      "Vishnu",
+      "Shiva"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-92.mp3"
+  },
+  {
+    "id": "0093",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches Fahrzeug wurde NICHT von einem Verbrennungsmotor angetrieben?",
+    "correct": "Lunar Roving Vehicle",
+    "wrong": [
+      "Benz Patent-Motorwagen",
+      "Ford Modell T",
+      "VW Käfer"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-93.mp3"
+  },
+  {
+    "id": "0094",
+    "category": "Sport",
+    "question": "Was darf man beim Basketball NICHT?",
+    "correct": "Mit dem Ball in der Hand mehr als zwei Schritte laufen",
+    "wrong": [
+      "Dribbeln",
+      "Dunken",
+      "Blocken"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-94.mp3"
+  },
+  {
+    "id": "0095",
+    "category": "Geschichte",
+    "question": "Welche Stadt war KEIN bedeutendes Zentrum des antiken Griechenlands?",
+    "correct": "Pompeji",
+    "wrong": [
+      "Athen",
+      "Sparta",
+      "Korinth"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-95.mp3"
+  },
+  {
+    "id": "0096",
+    "category": "Geografie",
+    "question": "Welche Stadt liegt NICHT in den USA?",
+    "correct": "Vancouver",
+    "wrong": [
+      "Portland",
+      "Houston",
+      "Miami"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-96.mp3"
+  },
+  {
+    "id": "0097",
+    "category": "Geografie",
+    "question": "Welches Gebirge liegt NICHT in Europa?",
+    "correct": "Anden",
+    "wrong": [
+      "Pyrenäen",
+      "Karpaten",
+      "Apennin"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-97.mp3"
+  },
+  {
+    "id": "0098",
+    "category": "Geschichte",
+    "question": "Wer war KEIN ägyptischer Pharao?",
+    "correct": "Nebukadnezar",
+    "wrong": [
+      "Ramses II.",
+      "Echnaton",
+      "Tutanchamun"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-98.mp3"
+  },
+  {
+    "id": "0099",
+    "category": "Kunst & Kultur",
+    "question": "Wer tötete NICHT das genannte Ungeheuer?",
+    "correct": "Ödipus (Zerberus)",
+    "wrong": [
+      "Perseus (Medusa)",
+      "Theseus (Minotaurus)",
+      "Herakles (Hydra)"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-99.mp3"
+  },
+  {
+    "id": "0100",
+    "category": "Geschichte",
+    "question": "Welche Organisation wurde NICHT zur Friedenssicherung gegründet?",
+    "correct": "Interpol",
+    "wrong": [
+      "Völkerbund",
+      "Vereinte Nationen",
+      "OSZE"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-100.mp3"
+  },
+  {
+    "id": "0101",
+    "category": "Geschichte",
+    "question": "Welche dieser Gottheiten gehört NICHT zur griechischen Mythologie?",
+    "correct": "Osiris",
+    "wrong": [
+      "Zeus",
+      "Athene",
+      "Hermes"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-101.mp3"
+  },
+  {
+    "id": "0102",
+    "category": "Sprache & Linguistik",
+    "question": "Was bedeutet „akribisch“ NICHT?",
+    "correct": "Schnell",
+    "wrong": [
+      "Äußerst sorgfältig",
+      "Genau",
+      "Gründlich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-102.mp3"
+  },
+  {
+    "id": "0103",
+    "category": "Musik",
+    "question": "Welche Oper wurde NICHT von Giuseppe Verdi geschrieben?",
+    "correct": "Carmen",
+    "wrong": [
+      "Aida",
+      "La Traviata",
+      "Rigoletto"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-103.mp3"
+  },
+  {
+    "id": "0104",
+    "category": "Musik",
+    "question": "Welches Instrument ist KEIN elektronisches Musikinstrument?",
+    "correct": "Blockflöte",
+    "wrong": [
+      "Synthesizer",
+      "Theremin",
+      "E-Piano"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-104.mp3"
+  },
+  {
+    "id": "0105",
+    "category": "Geografie",
+    "question": "Welches Land grenzt NICHT an Frankreich?",
+    "correct": "Portugal",
+    "wrong": [
+      "Spanien",
+      "Belgien",
+      "Italien"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-105.mp3"
+  },
+  {
+    "id": "0106",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher Planet ist NICHT kleiner als die Erde?",
+    "correct": "Neptun",
+    "wrong": [
+      "Merkur",
+      "Mars",
+      "Mond"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-106.mp3"
+  },
+  {
+    "id": "0107",
+    "category": "Musik",
+    "question": "Welches dieser Länder ist NICHT für seine großen Opernhäuser bekannt?",
+    "correct": "Jamaika",
+    "wrong": [
+      "Italien",
+      "Deutschland",
+      "Österreich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-107.mp3"
+  },
+  {
+    "id": "0108",
+    "category": "Musik",
+    "question": "Welcher Komponist stammt NICHT aus Russland?",
+    "correct": "Chopin",
+    "wrong": [
+      "Tschaikowski",
+      "Strawinsky",
+      "Rachmaninow"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-108.mp3"
+  },
+  {
+    "id": "0109",
+    "category": "Geografie",
+    "question": "Welches Land hat KEINEN Anteil an den Alpen?",
+    "correct": "Kroatien",
+    "wrong": [
+      "Österreich",
+      "Frankreich",
+      "Slowenien"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-109.mp3"
+  },
+  {
+    "id": "0110",
+    "category": "Geschichte",
+    "question": "Wer war KEIN Mitglied der britischen Königsfamilie?",
+    "correct": "Prinzessin Victoria von Schweden",
+    "wrong": [
+      "Queen Elizabeth II.",
+      "Prinz Philip",
+      "Prinzessin Diana"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-110.mp3"
+  },
+  {
+    "id": "0111",
+    "category": "Sport",
+    "question": "Welcher dieser Wettbewerbe ist KEIN Vereinsturnier der UEFA?",
+    "correct": "Copa América",
+    "wrong": [
+      "Champions League",
+      "Europa League",
+      "Conference League"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-111.mp3"
+  },
+  {
+    "id": "0112",
+    "category": "Film & Serien",
+    "question": "Welcher Film gehört NICHT zum Marvel Cinematic Universe (MCU)?",
+    "correct": "The Dark Knight",
+    "wrong": [
+      "Black Panther",
+      "Guardians of the Galaxy",
+      "Ant-Man"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-112.mp3"
+  },
+  {
+    "id": "0113",
+    "category": "Film & Serien",
+    "question": "Welcher Film stammt NICHT von James Cameron?",
+    "correct": "Jurassic Park",
+    "wrong": [
+      "Terminator",
+      "Aliens",
+      "Avatar"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-113.mp3"
+  },
+  {
+    "id": "0114",
+    "category": "Geografie",
+    "question": "Welcher Fluss fließt NICHT durch Deutschland?",
+    "correct": "Themse",
+    "wrong": [
+      "Elbe",
+      "Main",
+      "Weser"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-114.mp3"
+  },
+  {
+    "id": "0115",
+    "category": "Sport",
+    "question": "Was darf ein Feldspieler beim Fußball NICHT?",
+    "correct": "Den Ball beim Einwurf mit nur einer Hand werfen",
+    "wrong": [
+      "Den Ball mit der Brust annehmen",
+      "Den Ball mit dem Kopf spielen",
+      "Den Ball mit dem Rücken abschirmen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-115.mp3"
+  },
+  {
+    "id": "0116",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Torte ist KEINE Schokoladentorte?",
+    "correct": "Linzer Torte",
+    "wrong": [
+      "Sachertorte",
+      "Schwarzwälder Kirschtorte",
+      "Death by Chocolate"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-116.mp3"
+  },
+  {
+    "id": "0117",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Kraut gehört NICHT zu den „Frankfurter Grünen Kräutern\"?",
+    "correct": "Basilikum",
+    "wrong": [
+      "Borretsch",
+      "Kerbel",
+      "Pimpinelle"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-117.mp3"
+  },
+  {
+    "id": "0118",
+    "category": "Musik",
+    "question": "Welches Album gilt NICHT als Konzeptalbum?",
+    "correct": "Best of 1980",
+    "wrong": [
+      "Sgt. Pepper’s Lonely Hearts Club Band",
+      "The Wall",
+      "Tommy"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-118.mp3"
+  },
+  {
+    "id": "0119",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher dieser Schauspieler hat KEINEN Oscar gewonnen?",
+    "correct": "Johnny Depp",
+    "wrong": [
+      "Leonardo DiCaprio",
+      "Tom Hanks",
+      "Anthony Hopkins"
+    ],
+    "audio": "0119.mp3"
+  },
+  {
+    "id": "0120",
+    "category": "Sprache & Linguistik",
+    "question": "Was bedeutet das Wort „Katastrophe“ wörtlich NICHT?",
+    "correct": "Weltuntergang",
+    "wrong": [
+      "Niedergang",
+      "Umwendung",
+      "Wendepunkt"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-120.mp3"
+  },
+  {
+    "id": "0121",
+    "category": "Musik",
+    "question": "Welches Intervall gibt es NICHT?",
+    "correct": "Dezimal",
+    "wrong": [
+      "Terz",
+      "Quinte",
+      "Oktave"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-121.mp3"
+  },
+  {
+    "id": "0122",
+    "category": "Mythologie",
+    "question": "Welche Entsprechung von griechischen zu römischen Göttern ist FALSCH?",
+    "correct": "Zeus – Neptun",
+    "wrong": [
+      "Ares – Mars",
+      "Aphrodite – Venus",
+      "Hermes – Merkur"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-122.mp3"
+  },
+  {
+    "id": "0123",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher Planet hat KEINE bekannten Monde?",
+    "correct": "Merkur",
+    "wrong": [
+      "Mars",
+      "Neptun",
+      "Uranus"
+    ],
+    "audio": "0123.mp3"
+  },
+  {
+    "id": "0124",
+    "category": "Kunst & Kultur",
+    "question": "Welche Epoche folgt NICHT unmittelbar auf die Renaissance?",
+    "correct": "Gotik",
+    "wrong": [
+      "Manierismus",
+      "Barock"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-124.mp3"
+  },
+  {
+    "id": "0125",
+    "category": "Politik & Wirtschaft",
+    "question": "Was ist KEINE direkte Steuer in Deutschland?",
+    "correct": "Mehrwertsteuer",
+    "wrong": [
+      "Einkommensteuer",
+      "Erbschaftsteuer",
+      "Körperschaftsteuer"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-125.mp3"
+  },
+  {
+    "id": "0126",
+    "category": "Recht & Gesetz",
+    "question": "Wer gehört NICHT zur gesetzlichen Erbfolge erster Ordnung?",
+    "correct": "Die Geschwister des Erblassers",
+    "wrong": [
+      "Kinder",
+      "Enkelkinder",
+      "Urenkel"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-126.mp3"
+  },
+  {
+    "id": "0127",
+    "category": "Geschichte",
+    "question": "Welcher Baustil ist NICHT typisch für mittelalterliche Kirchen?",
+    "correct": "Barock",
+    "wrong": [
+      "Romanik",
+      "Gotik",
+      "Byzantinisch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-127.mp3"
+  },
+  {
+    "id": "0128",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Künstler ist KEIN Spanier?",
+    "correct": "Henri Matisse",
+    "wrong": [
+      "Pablo Picasso",
+      "Francisco de Goya",
+      "Joan Miró"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-128.mp3"
+  },
+  {
+    "id": "0129",
+    "category": "Recht & Gesetz",
+    "question": "Was ist KEINE rechtliche Pflicht beim Autofahren?",
+    "correct": "Das Hupen bei jeder Fahrt unter einer Brücke",
+    "wrong": [
+      "Das Mitführen des Führerscheins",
+      "Das Anlegen des Sicherheitsgurtes",
+      "Die Bildung einer Rettungsgasse bei Stau"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-129.mp3"
+  },
+  {
+    "id": "0130",
+    "category": "Geografie",
+    "question": "Welcher Berg ist KEIN Vulkan?",
+    "correct": "Mount Everest",
+    "wrong": [
+      "Ätna",
+      "Vesuv",
+      "Fuji"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-130.mp3"
+  },
+  {
+    "id": "0131",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Maler ist KEIN Vertreter des Impressionismus?",
+    "correct": "Salvador Dalí",
+    "wrong": [
+      "Claude Monet",
+      "Auguste Renoir",
+      "Edgar Degas"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-131.mp3"
+  },
+  {
+    "id": "0132",
+    "category": "Geografie",
+    "question": "Welche Insel ist KEIN eigener Staat?",
+    "correct": "Grönland",
+    "wrong": [
+      "Island",
+      "Zypern",
+      "Sri Lanka"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-132.mp3"
+  },
+  {
+    "id": "0133",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher Promi hat KEINE eigene Kosmetiklinie?",
+    "correct": "Helen Mirren",
+    "wrong": [
+      "Rihanna",
+      "Selena Gomez",
+      "Kylie Jenner"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-133.mp3"
+  },
+  {
+    "id": "0134",
+    "category": "Film & Serien",
+    "question": "Welcher dieser Filme wurde NICHT von Quentin Tarantino gedreht?",
+    "correct": "Fight Club",
+    "wrong": [
+      "Pulp Fiction",
+      "Kill Bill",
+      "Django Unchained"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-134.mp3"
+  },
+  {
+    "id": "0135",
+    "category": "Film & Serien",
+    "question": "In welcher Stadt spielt die Serie „Breaking Bad“ NICHT?",
+    "correct": "New York City",
+    "wrong": [
+      "Albuquerque",
+      "Santa Fe",
+      "El Paso"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-135.mp3"
+  },
+  {
+    "id": "0136",
+    "category": "Film & Serien",
+    "question": "Wer ist KEIN berühmter Animationsfilm-Regisseur?",
+    "correct": "Steven Spielberg",
+    "wrong": [
+      "Hayao Miyazaki",
+      "Brad Bird",
+      "John Lasseter"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-136.mp3"
+  },
+  {
+    "id": "0137",
+    "category": "Wissenschaft & Technik",
+    "question": "Welche Krankheit wird NICHT durch Viren verursacht?",
+    "correct": "Tuberkulose",
+    "wrong": [
+      "Grippe",
+      "Masern",
+      "Herpes"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-137.mp3"
+  },
+  {
+    "id": "0138",
+    "category": "Geschichte",
+    "question": "Welches Land wurde NICHT im Zweiten Weltkrieg von Deutschland angegriffen?",
+    "correct": "Schweiz",
+    "wrong": [
+      "Polen",
+      "Frankreich",
+      "Sowjetunion"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-138.mp3"
+  },
+  {
+    "id": "0139",
+    "category": "Medizin & Körper",
+    "question": "Welche dieser Erkrankungen ist KEINE Autoimmunerkrankung?",
+    "correct": "Cholera",
+    "wrong": [
+      "Multiple Sklerose",
+      "Rheuma",
+      "Typ-1-Diabetes"
+    ],
+    "audio": "0139.mp3"
+  },
+  {
+    "id": "0140",
+    "category": "Medizin & Körper",
+    "question": "Welche Aufgabe übernimmt die Leber NICHT?",
+    "correct": "Produktion von Tränenflüssigkeit",
+    "wrong": [
+      "Entgiftung des Blutes.",
+      "Speicherung von Glykogen (Energie).",
+      "Produktion von Gallensaft."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-140.mp3"
+  },
+  {
+    "id": "0141",
+    "category": "Film & Serien",
+    "question": "Welcher Regisseur ist NICHT deutsch (oder deutschstämmig)?",
+    "correct": "Christopher Nolan",
+    "wrong": [
+      "Roland Emmerich",
+      "Wolfgang Petersen",
+      "Werner Herzog"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-141.mp3"
+  },
+  {
+    "id": "0142",
+    "category": "Film & Serien",
+    "question": "In welchem Land spielt der Film „Black Panther“ NICHT?",
+    "correct": "Australien",
+    "wrong": [
+      "Wakanda",
+      "Südkorea",
+      "USA"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-142.mp3"
+  },
+  {
+    "id": "0143",
+    "category": "Geografie",
+    "question": "Welcher Wasserfall liegt NICHT in Afrika?",
+    "correct": "Iguazú-Wasserfälle",
+    "wrong": [
+      "Viktoriafälle",
+      "Tugela Falls",
+      "Blue Nile Falls"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-143.mp3"
+  },
+  {
+    "id": "0144",
+    "category": "Kunst & Kultur",
+    "question": "Welche Farbe ist KEINE Primärfarbe in der traditionellen Farbenlehre der Kunst?",
+    "correct": "Grün",
+    "wrong": [
+      "Rot",
+      "Gelb",
+      "Blau"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-144.mp3"
+  },
+  {
+    "id": "0145",
+    "category": "Kunst & Kultur",
+    "question": "Welches Gebäude ist KEIN Werk von Friedensreich Hundertwasser?",
+    "correct": "Frauenkirche Dresden",
+    "wrong": [
+      "Waldspirale Darmstadt",
+      "Hundertwasserhaus Wien",
+      "Grüne Zitadelle Magdeburg"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-145.mp3"
+  },
+  {
+    "id": "0146",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Triebmittel wird NICHT beim Backen verwendet?",
+    "correct": "Gelatine",
+    "wrong": [
+      "Backpulver",
+      "Hefe",
+      "Natron"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-146.mp3"
+  },
+  {
+    "id": "0147",
+    "category": "Musik",
+    "question": "Welcher Begriff bezeichnet KEIN Tempo in der Musik?",
+    "correct": "Fortissimo",
+    "wrong": [
+      "Allegro",
+      "Andante",
+      "Adagio"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-147.mp3"
+  },
+  {
+    "id": "0148",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welches dieser Länder hat KEIN Zweikammerparlament?",
+    "correct": "Neuseeland",
+    "wrong": [
+      "Deutschland",
+      "Frankreich",
+      "Italien"
+    ],
+    "audio": "0148.mp3"
+  },
+  {
+    "id": "0149",
+    "category": "Politik & Europa",
+    "question": "Welche Stadt ist KEIN Sitz einer wichtigen europäischen Institution?",
+    "correct": "Venedig",
+    "wrong": [
+      "Brüssel",
+      "Straßburg",
+      "Luxemburg"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-149.mp3"
+  },
+  {
+    "id": "0150",
+    "category": "Recht & Gesetz",
+    "question": "Was ist KEIN Synonym für einen Rechtsanwalt?",
+    "correct": "Staatsanwalt",
+    "wrong": [
+      "Juristischer Beistand",
+      "Advokat",
+      "Verteidiger (im Strafprozess)"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-150.mp3"
+  },
+  {
+    "id": "0151",
+    "category": "Sprache & Linguistik",
+    "question": "Welche Aussage über den Begriff „Euphemismus“ ist FALSCH?",
+    "correct": "Es ist eine absichtliche, beleidigende Übersteigerung",
+    "wrong": [
+      "Es handelt sich um eine beschönigende Umschreibung.",
+      "„Heimgang“ statt „Tod“ ist ein klassisches Beispiel.",
+      "Er wird oft genutzt, um Tabuthemen zu umgehen."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-151.mp3"
+  },
+  {
+    "id": "0152",
+    "category": "Musik",
+    "question": "Welches Album stammt NICHT von Madonna?",
+    "correct": "Lemonade",
+    "wrong": [
+      "Like a Virgin",
+      "Ray of Light",
+      "Music"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-152.mp3"
+  },
+  {
+    "id": "0153",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Tier ist KEIN Spinnentier?",
+    "correct": "Libelle",
+    "wrong": [
+      "Skorpion",
+      "Milbe",
+      "Weberknecht"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-153.mp3"
+  },
+  {
+    "id": "0154",
+    "category": "Medizin & Körper",
+    "question": "Was gehört NICHT zum menschlichen Ohr?",
+    "correct": "Linse",
+    "wrong": [
+      "Schnecke",
+      "Steigbügel",
+      "Gleichgewichtsorgan"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-154.mp3"
+  },
+  {
+    "id": "0155",
+    "category": "Natur & Tierwelt",
+    "question": "Welches dieser Ökosysteme ist KEIN Feuchtgebiet?",
+    "correct": "Steppe",
+    "wrong": [
+      "Moor",
+      "Sumpf",
+      "Auwald"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-155.mp3"
+  },
+  {
+    "id": "0156",
+    "category": "Medizin & Körper",
+    "question": "Welches Vitamin ist KEIN fettlösliches Vitamin?",
+    "correct": "Vitamin C",
+    "wrong": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin K"
+    ],
+    "audio": "0156.mp3"
+  },
+  {
+    "id": "0157",
+    "category": "Sprache & Linguistik",
+    "question": "Welche Sprache gilt NICHT als romanische Sprache?",
+    "correct": "Englisch",
+    "wrong": [
+      "Rumänisch",
+      "Portugiesisch",
+      "Rätoromanisch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-157.mp3"
+  },
+  {
+    "id": "0158",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Was ist KEIN Mitglied der „G7“ (Gruppe der Sieben)?",
+    "correct": "Indien",
+    "wrong": [
+      "Japan",
+      "Kanada",
+      "Deutschland"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-158.mp3"
+  },
+  {
+    "id": "0159",
+    "category": "Musik",
+    "question": "Welche Band ist NICHT für ihre geschminkten Gesichter bekannt?",
+    "correct": "Coldplay",
+    "wrong": [
+      "KISS",
+      "Slipknot",
+      "Alice Cooper"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-159.mp3"
+  },
+  {
+    "id": "0160",
+    "category": "Promis & Gesellschaft",
+    "question": "Wer ist KEINE Tochter von Meryl Streep?",
+    "correct": "Dakota Johnson",
+    "wrong": [
+      "Mamie Gummer",
+      "Grace Gummer",
+      "Louisa Jacobson"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-160.mp3"
+  },
+  {
+    "id": "0161",
+    "category": "Promis & Gesellschaft",
+    "question": "Wer war KEIN „James Bond“-Darsteller?",
+    "correct": "Richard Gere",
+    "wrong": [
+      "Sean Connery",
+      "Daniel Craig",
+      "Roger Moore"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-161.mp3"
+  },
+  {
+    "id": "0162",
+    "category": "Film & Serien",
+    "question": "Welcher Schauspieler spielte NICHT den Joker?",
+    "correct": "Robert Downey Jr.",
+    "wrong": [
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Jack Nicholson"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-162.mp3"
+  },
+  {
+    "id": "0163",
+    "category": "Geografie",
+    "question": "Welche Stadt liegt NICHT in Italien?",
+    "correct": "Nizza",
+    "wrong": [
+      "Florenz",
+      "Palermo",
+      "Neapel"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-163.mp3"
+  },
+  {
+    "id": "0164",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Schaumwein darf sich NICHT „Champagner\" nennen?",
+    "correct": "Prosecco",
+    "wrong": [
+      "Moët & Chandon",
+      "Veuve Clicquot",
+      "Dom Pérignon"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-164.mp3"
+  },
+  {
+    "id": "0165",
+    "category": "Geografie",
+    "question": "Welches Meer ist KEIN Nebenmeer des Atlantiks?",
+    "correct": "Rotes Meer",
+    "wrong": [
+      "Nordsee",
+      "Ostsee",
+      "Karibisches Meer"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-165.mp3"
+  },
+  {
+    "id": "0166",
+    "category": "Mythologie",
+    "question": "Welcher ägyptische Gott hat KEINEN Tierkopf?",
+    "correct": "Osiris",
+    "wrong": [
+      "Anubis",
+      "Horus",
+      "Thot"
+    ],
+    "audio": "0166.mp3"
+  },
+  {
+    "id": "0167",
+    "category": "Kunst & Kultur",
+    "question": "Welches dieser Merkmale ist NICHT typisch für den Barock?",
+    "correct": "Strenge Geometrie",
+    "wrong": [
+      "Üppige Formen",
+      "Starke Licht-Schatten-Kontraste",
+      "Dramatik"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-167.mp3"
+  },
+  {
+    "id": "0168",
+    "category": "Recht & Gesetz",
+    "question": "Was ist KEINE Amtssprache des Europäischen Gerichtshofs?",
+    "correct": "Latein",
+    "wrong": [
+      "Deutsch",
+      "Französisch",
+      "Italienisch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-168.mp3"
+  },
+  {
+    "id": "0169",
+    "category": "Gaming",
+    "question": "Welches dieser Spiele wurde NICHT von Hideo Kojima erschaffen?",
+    "correct": "Resident Evil",
+    "wrong": [
+      "Metal Gear Solid",
+      "Death Stranding",
+      "P.T."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-169.mp3"
+  },
+  {
+    "id": "0170",
+    "category": "Geografie",
+    "question": "Welches Land grenzt NICHT an die Ostsee?",
+    "correct": "Norwegen",
+    "wrong": [
+      "Polen",
+      "Estland",
+      "Finnland"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-170.mp3"
+  },
+  {
+    "id": "0171",
+    "category": "Wissenschaft & Technik",
+    "question": "Was ist KEIN Bestandteil eines Kometen?",
+    "correct": "Flüssiges Wasser",
+    "wrong": [
+      "Eis",
+      "Staub",
+      "Gestein"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-171.mp3"
+  },
+  {
+    "id": "0172",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welches Organ ist KEIN Bestandteil der Legislative in Deutschland?",
+    "correct": "Das Bundeskriminalamt",
+    "wrong": [
+      "Der Bundestag",
+      "Der Bundesrat",
+      "Die Landtage"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-172.mp3"
+  },
+  {
+    "id": "0173",
+    "category": "Film & Serien",
+    "question": "Welche Serie handelt NICHT von Superhelden?",
+    "correct": "Succession",
+    "wrong": [
+      "The Boys",
+      "Umbrella Academy",
+      "Invincible"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-173.mp3"
+  },
+  {
+    "id": "0174",
+    "category": "Promis & Gesellschaft",
+    "question": "Welche Band wurde NICHT durch eine Castingshow (wie X-Factor) berühmt?",
+    "correct": "The Rolling Stones",
+    "wrong": [
+      "One Direction",
+      "Little Mix",
+      "Fifth Harmony"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-174.mp3"
+  },
+  {
+    "id": "0175",
+    "category": "Popkultur & Comics",
+    "question": "Welches Attribut gehört NICHT zu einem \"Anti-Helden\"?",
+    "correct": "Unfehlbarkeit",
+    "wrong": [
+      "Gewaltbereitschaft",
+      "Eigennutz",
+      "Moralische Grauzone"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-175.mp3"
+  },
+  {
+    "id": "0176",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Tier hält KEINEN echten Winterschlaf?",
+    "correct": "Eisbär",
+    "wrong": [
+      "Siebenschläfer",
+      "Igel",
+      "Murmeltier"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-176.mp3"
+  },
+  {
+    "id": "0177",
+    "category": "Wissenschaft & Technik",
+    "question": "Wer erfand NICHT den Buchdruck (mit beweglichen Lettern)?",
+    "correct": "Leonardo da Vinci",
+    "wrong": [
+      "Johannes Gutenberg",
+      "Bi Sheng",
+      "Wang Zhen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-177.mp3"
+  },
+  {
+    "id": "0178",
+    "category": "Medizin & Körper",
+    "question": "Was trifft auf das Immunsystem NICHT zu?",
+    "correct": "Es wird durch übermäßigen Stress stärker",
+    "wrong": [
+      "Es bildet Antikörper gegen bekannte Viren.",
+      "Lymphknoten sind wichtige Filterstationen.",
+      "Die Haut ist die erste Barriere gegen Keime."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-178.mp3"
+  },
+  {
+    "id": "0179",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher Speicher ist KEIN flüchtiger Speicher?",
+    "correct": "SSD",
+    "wrong": [
+      "RAM",
+      "Cache",
+      "Register"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-179.mp3"
+  },
+  {
+    "id": "0180",
+    "category": "Mythologie",
+    "question": "Welche Göttin ist NICHT mit Liebe und Schönheit verbunden?",
+    "correct": "Hera",
+    "wrong": [
+      "Aphrodite",
+      "Venus",
+      "Hathor"
+    ],
+    "audio": "0180.mp3"
+  },
+  {
+    "id": "0181",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Was ist KEIN Merkmal eines „Föderalismus“?",
+    "correct": "Die Abschaffung aller regionalen Regierungen",
+    "wrong": [
+      "Aufteilung der Staatsmacht zwischen Bund und Gliedstaaten (Ländern)",
+      "Eigenständige Aufgaben der Bundesländer",
+      "Mitwirkung der Länder an der Bundesgesetzgebung"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-181.mp3"
+  },
+  {
+    "id": "0182",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welche Stadt ist KEINE Landeshauptstadt in Deutschland?",
+    "correct": "Frankfurt am Main",
+    "wrong": [
+      "Hannover",
+      "Mainz",
+      "Schwerin"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-182.mp3"
+  },
+  {
+    "id": "0183",
+    "category": "Geografie",
+    "question": "Welche Insel gehört NICHT zu Italien?",
+    "correct": "Korfu",
+    "wrong": [
+      "Sizilien",
+      "Sardinien",
+      "Elba"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-183.mp3"
+  },
+  {
+    "id": "0184",
+    "category": "Sport",
+    "question": "Welches Stadion steht NICHT in Deutschland?",
+    "correct": "Camp Nou",
+    "wrong": [
+      "Signal Iduna Park",
+      "Allianz Arena",
+      "Rhein-Energie-Stadion"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-184.mp3"
+  },
+  {
+    "id": "0185",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Was ist KEINER der fünf Wahlgrundsätze im deutschen Grundgesetz?",
+    "correct": "Verpflichtend",
+    "wrong": [
+      "Geheim",
+      "Unmittelbar",
+      "Gleich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-185.mp3"
+  },
+  {
+    "id": "0186",
+    "category": "Popkultur & Comics",
+    "question": "Welches Ziel verfolgt Ruffy in \"One Piece\" NICHT?",
+    "correct": "Den Hokage-Titel erlangen",
+    "wrong": [
+      "König der Piraten werden",
+      "Das One Piece finden",
+      "Seine Crew beschützen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-186.mp3"
+  },
+  {
+    "id": "0187",
+    "category": "Sport",
+    "question": "Welches Land führt den ewigen Medaillenspiegel der Sommerspiele NICHT an?",
+    "correct": "Jamaika",
+    "wrong": [
+      "USA",
+      "Russland/Sowjetunion",
+      "China"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-187.mp3"
+  },
+  {
+    "id": "0188",
+    "category": "Medizin & Körper",
+    "question": "Was ist eine Aufgabe der Blutplättchen (Thrombozyten) NICHT?",
+    "correct": "Transport von Sauerstoff",
+    "wrong": [
+      "Blutstillung bei Verletzungen.",
+      "Verschluss von Wunden.",
+      "Bildung eines Blutgerinnsels."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-188.mp3"
+  },
+  {
+    "id": "0189",
+    "category": "Geografie",
+    "question": "Welche Stadt liegt NICHT in der Schweiz?",
+    "correct": "Innsbruck",
+    "wrong": [
+      "Basel",
+      "Genf",
+      "Lugano"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-189.mp3"
+  },
+  {
+    "id": "0190",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Merkmal ist NICHT typisch für Säugetiere?",
+    "correct": "Konstante Eiablage",
+    "wrong": [
+      "Säugen des Nachwuchses",
+      "Fell oder Haare",
+      "Lungenatmung"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-190.mp3"
+  },
+  {
+    "id": "0191",
+    "category": "Sport",
+    "question": "In welcher dieser Städte fanden NOCH NIE Olympische Sommerspiele statt?",
+    "correct": "Hamburg",
+    "wrong": [
+      "Tokio",
+      "Paris",
+      "Atlanta"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-191.mp3"
+  },
+  {
+    "id": "0192",
+    "category": "Kunst & Kultur",
+    "question": "Welches dieser Museen befindet sich NICHT in Paris?",
+    "correct": "Prado",
+    "wrong": [
+      "Louvre",
+      "Musée d'Orsay",
+      "Centre Pompidou"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-192.mp3"
+  },
+  {
+    "id": "0193",
+    "category": "Geografie",
+    "question": "Welcher See ist KEIN Salzsee?",
+    "correct": "Bodensee",
+    "wrong": [
+      "Totes Meer",
+      "Aralsee",
+      "Kaspisches Meer"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-193.mp3"
+  },
+  {
+    "id": "0194",
+    "category": "Film & Serien",
+    "question": "Welcher Film gehört NICHT zur ursprünglichen Star Wars Trilogie?",
+    "correct": "Die dunkle Bedrohung",
+    "wrong": [
+      "Eine neue Hoffnung",
+      "Das Imperium schlägt zurück",
+      "Die Rückkehr der Jedi-Ritter"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-194.mp3"
+  },
+  {
+    "id": "0195",
+    "category": "Popkultur & Comics",
+    "question": "Welches Team gehört NICHT zu DC Comics?",
+    "correct": "Defenders",
+    "wrong": [
+      "Teen Titans",
+      "Suicide Squad",
+      "Doom Patrol"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-195.mp3"
+  },
+  {
+    "id": "0196",
+    "category": "Sport",
+    "question": "Welcher dieser Spieler hat NICHT für den FC Bayern München gespielt?",
+    "correct": "Cristiano Ronaldo",
+    "wrong": [
+      "Robert Lewandowski",
+      "Franz Beckenbauer",
+      "Bastian Schweinsteiger"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-196.mp3"
+  },
+  {
+    "id": "0197",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Wer war NICHT Generalsekretär der Vereinten Nationen?",
+    "correct": "Javier Solana",
+    "wrong": [
+      "Kofi Annan",
+      "Ban Ki-moon",
+      "Boutros Boutros-Ghali"
+    ],
+    "audio": "0197.mp3"
+  },
+  {
+    "id": "0198",
+    "category": "Mode & Design",
+    "question": "Was ist KEIN Ziel von „Sustainable Fashion“?",
+    "correct": "Wöchentlich wechselnde Kollektionen zu Billigpreisen.",
+    "wrong": [
+      "Faire Arbeitsbedingungen in der Produktion.",
+      "Einsatz von Bio-Materialien.",
+      "Langlebigkeit der Produkte."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-198.mp3"
+  },
+  {
+    "id": "0199",
+    "category": "Mode & Design",
+    "question": "Welcher Stoff wird NICHT aus Wolle oder Tierhaaren hergestellt?",
+    "correct": "Viskose",
+    "wrong": [
+      "Angora",
+      "Mohair",
+      "Merino"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-199.mp3"
+  },
+  {
+    "id": "0200",
+    "category": "Musik",
+    "question": "Welcher Komponist war NICHT taub oder schwerhörig?",
+    "correct": "Wolfgang Amadeus Mozart",
+    "wrong": [
+      "Beethoven",
+      "Bedřich Smetana",
+      "Gabriel Fauré"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-200.mp3"
+  },
+  {
+    "id": "0201",
+    "category": "Geschichte",
+    "question": "Welches Jahr ist NICHT mit einer deutschen Revolution verbunden?",
+    "correct": "1954",
+    "wrong": [
+      "1848",
+      "1918",
+      "1989"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-201.mp3"
+  },
+  {
+    "id": "0202",
+    "category": "Geschichte",
+    "question": "Welches Land kämpfte NICHT im Hundertjährigen Krieg?",
+    "correct": "Russland",
+    "wrong": [
+      "England",
+      "Frankreich",
+      "Burgund"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-202.mp3"
+  },
+  {
+    "id": "0203",
+    "category": "Medizin & Körper",
+    "question": "Welches Hormon wird NICHT im Körper produziert?",
+    "correct": "Aspirin",
+    "wrong": [
+      "Adrenalin",
+      "Melatonin",
+      "Östrogen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-203.mp3"
+  },
+  {
+    "id": "0204",
+    "category": "Sprache & Linguistik",
+    "question": "Welches dieser Satzzeichen existiert in der deutschen Grammatik NICHT?",
+    "correct": "Interrobang",
+    "wrong": [
+      "Semikolon",
+      "Apostroph",
+      "Gedankenstrich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-204.mp3"
+  },
+  {
+    "id": "0205",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Begriff beschreibt KEINE Schnittform für Gemüse?",
+    "correct": "Flambé",
+    "wrong": [
+      "Julienne",
+      "Brunoise",
+      "Batonnet"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-205.mp3"
+  },
+  {
+    "id": "0206",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher dieser Stars hat KEINEN leiblichen Bruder, der ebenfalls ein berühmter Schauspieler ist?",
+    "correct": "Tom Cruise",
+    "wrong": [
+      "Ben Affleck",
+      "Liam Hemsworth",
+      "Owen Wilson"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-206.mp3"
+  },
+  {
+    "id": "0207",
+    "category": "Musik",
+    "question": "Welches Teil gehört NICHT zu einer Geige?",
+    "correct": "Bundstab",
+    "wrong": [
+      "Schnecke",
+      "Steg",
+      "F-Loch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-207.mp3"
+  },
+  {
+    "id": "0208",
+    "category": "Kunst & Kultur",
+    "question": "Was ist KEINE Säulenordnung der antiken Architektur?",
+    "correct": "Gotisch",
+    "wrong": [
+      "Dorisch",
+      "Ionisch",
+      "Korinthisch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-208.mp3"
+  },
+  {
+    "id": "0209",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Getränk enthält KEIN Koffein?",
+    "correct": "Kamillentee",
+    "wrong": [
+      "Espresso",
+      "Schwarzer Tee",
+      "Mate"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-209.mp3"
+  },
+  {
+    "id": "0210",
+    "category": "Gaming",
+    "question": "Welcher Begriff gehört NICHT zum Speedrunning?",
+    "correct": "Looting",
+    "wrong": [
+      "Any%",
+      "Glitchless",
+      "TAS"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-210.mp3"
+  },
+  {
+    "id": "0211",
+    "category": "Sprache & Linguistik",
+    "question": "Welches Wort stammt NICHT aus dem Jiddischen?",
+    "correct": "Kartoffel",
+    "wrong": [
+      "Schlamassel",
+      "Maloche",
+      "Tacheles"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-211.mp3"
+  },
+  {
+    "id": "0212",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Küchengerät ist KEIN mechanisches Gerät?",
+    "correct": "Induktionsfeld",
+    "wrong": [
+      "Schneebesen",
+      "Mörser",
+      "Reibe"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-212.mp3"
+  },
+  {
+    "id": "0213",
+    "category": "Sprache & Linguistik",
+    "question": "Was ist ein „Palindrom“ NICHT?",
+    "correct": "Salami",
+    "wrong": [
+      "Otto",
+      "Rentner",
+      "Reliefpfeiler"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-213.mp3"
+  },
+  {
+    "id": "0214",
+    "category": "Geografie",
+    "question": "Welche Inselgruppe liegt NICHT im Atlantik?",
+    "correct": "Seychellen",
+    "wrong": [
+      "Azoren",
+      "Bermudas",
+      "Bahamas"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-214.mp3"
+  },
+  {
+    "id": "0215",
+    "category": "Film & Serien",
+    "question": "Welcher Regisseur ist NICHT für das Horror-Genre bekannt?",
+    "correct": "Wes Anderson",
+    "wrong": [
+      "John Carpenter",
+      "Wes Craven",
+      "Ari Aster"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-215.mp3"
+  },
+  {
+    "id": "0216",
+    "category": "Popkultur & Comics",
+    "question": "Welches dieser Wesen ist KEIN Pokémon?",
+    "correct": "Agumon",
+    "wrong": [
+      "Pikachu",
+      "Schiggy",
+      "Glumanda"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-216.mp3"
+  },
+  {
+    "id": "0217",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher Song stammt NICHT von Taylor Swift?",
+    "correct": "Flowers",
+    "wrong": [
+      "Shake It Off",
+      "Blank Space",
+      "Anti-Hero"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-217.mp3"
+  },
+  {
+    "id": "0218",
+    "category": "Geografie",
+    "question": "Welcher Fluss mündet NICHT in den Atlantik?",
+    "correct": "Nil",
+    "wrong": [
+      "Amazonas",
+      "Kongo",
+      "Mississippi"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-218.mp3"
+  },
+  {
+    "id": "0219",
+    "category": "Geografie",
+    "question": "Welches Land liegt NICHT in Südamerika?",
+    "correct": "Costa Rica",
+    "wrong": [
+      "Peru",
+      "Kolumbien",
+      "Chile"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-219.mp3"
+  },
+  {
+    "id": "0220",
+    "category": "Geografie",
+    "question": "Welcher See liegt NICHT in Nordamerika?",
+    "correct": "Baikalsee",
+    "wrong": [
+      "Eriesee",
+      "Michigansee",
+      "Ontariosee"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-220.mp3"
+  },
+  {
+    "id": "0221",
+    "category": "Politik & Wirtschaft",
+    "question": "Was ist KEIN Ziel der „Sozialen Marktwirtschaft“?",
+    "correct": "Die Abschaffung des Privateigentums",
+    "wrong": [
+      "Wettbewerb",
+      "Sozialer Ausgleich",
+      "Eigentumsgarantie"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-221.mp3"
+  },
+  {
+    "id": "0222",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Wer war KEIN deutscher Bundeskanzler?",
+    "correct": "Johannes Rau",
+    "wrong": [
+      "Konrad Adenauer",
+      "Willy Brandt",
+      "Angela Merkel"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-222.mp3"
+  },
+  {
+    "id": "0223",
+    "category": "Mythologie",
+    "question": "Welcher dieser Götter gehört NICHT zu den zwölf olympischen Hauptgöttern?",
+    "correct": "Hades",
+    "wrong": [
+      "Zeus",
+      "Athene",
+      "Poseidon"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-223.mp3"
+  },
+  {
+    "id": "0224",
+    "category": "Sprache & Linguistik",
+    "question": "Welche Sprache hat NICHT das lateinische Alphabet als Grundlage?",
+    "correct": "Griechisch",
+    "wrong": [
+      "Italienisch",
+      "Polnisch",
+      "Türkisch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-224.mp3"
+  },
+  {
+    "id": "0225",
+    "category": "Kunst & Kultur",
+    "question": "Welches Buch gehört NICHT zur \"Dystopie\"-Literatur?",
+    "correct": "Stolz und Vorurteil",
+    "wrong": [
+      "1984",
+      "Schöne neue Welt",
+      "Fahrenheit 451"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-225.mp3"
+  },
+  {
+    "id": "0226",
+    "category": "Medizin & Körper",
+    "question": "Was passiert bei Schlafmangel NICHT?",
+    "correct": "Verbesserung der sportlichen Höchstleistung",
+    "wrong": [
+      "Konzentrationsstörungen",
+      "Geschwächtes Immunsystem",
+      "Gereiztheit"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-226.mp3"
+  },
+  {
+    "id": "0227",
+    "category": "Geografie",
+    "question": "Welcher Staat hat KEINEN Anteil am Amazonas-Regenwald?",
+    "correct": "Paraguay",
+    "wrong": [
+      "Brasilien",
+      "Peru",
+      "Ecuador"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-227.mp3"
+  },
+  {
+    "id": "0228",
+    "category": "Kunst & Kultur",
+    "question": "Welches Werk stammt NICHT von Johann Wolfgang von Goethe?",
+    "correct": "Die Räuber",
+    "wrong": [
+      "Faust",
+      "Die Leiden des jungen Werther",
+      "Erlkönig"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-228.mp3"
+  },
+  {
+    "id": "0229",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher Vogel ist für seinen Gesang NICHT bekannt?",
+    "correct": "Storch",
+    "wrong": [
+      "Nachtigall",
+      "Amsel",
+      "Feldlerche"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-229.mp3"
+  },
+  {
+    "id": "0230",
+    "category": "Kunst & Kultur",
+    "question": "Welches Werk gehört NICHT zur Pop-Art?",
+    "correct": "Die Beständigkeit der Erinnerung",
+    "wrong": [
+      "Campbell’s Soup Cans",
+      "Marilyn Diptych",
+      "Whaam!"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-230.mp3"
+  },
+  {
+    "id": "0231",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Organ nutzen erwachsene Frösche NICHT primär zur Atmung?",
+    "correct": "Kiemen",
+    "wrong": [
+      "Lunge",
+      "Haut",
+      "Mundhöhlenschleimhaut"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-231.mp3"
+  },
+  {
+    "id": "0232",
+    "category": "Kunst & Kultur",
+    "question": "Wer ist KEIN Charakter aus den Sherlock-Holmes-Romanen?",
+    "correct": "Hercule Poirot",
+    "wrong": [
+      "Dr. Watson",
+      "Professor Moriarty",
+      "Mycroft Holmes"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-232.mp3"
+  },
+  {
+    "id": "0233",
+    "category": "Medizin & Körper",
+    "question": "Welcher Teil gehört NICHT zum menschlichen Auge?",
+    "correct": "Trommelfell",
+    "wrong": [
+      "Netzhaut",
+      "Hornhaut",
+      "Regenbogenhaut"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-233.mp3"
+  },
+  {
+    "id": "0234",
+    "category": "Gaming",
+    "question": "Welcher Begriff beschreibt KEINE Grafik-Technologie?",
+    "correct": "Overclocking",
+    "wrong": [
+      "Raytracing",
+      "Anti-Aliasing",
+      "Tesselation"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-234.mp3"
+  },
+  {
+    "id": "0235",
+    "category": "Medizin & Körper",
+    "question": "Welcher Teil gehört NICHT zum Atmungssystem?",
+    "correct": "Zwölffingerdarm",
+    "wrong": [
+      "Luftröhre",
+      "Bronchien",
+      "Zwerchfell"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-235.mp3"
+  },
+  {
+    "id": "0236",
+    "category": "Film & Serien",
+    "question": "Welcher Film gewann NICHT den Oscar als „Bester Film“?",
+    "correct": "The Wolf of Wall Street",
+    "wrong": [
+      "Der Pate",
+      "Titanic",
+      "Parasite"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-236.mp3"
+  },
+  {
+    "id": "0237",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Tier gehört NICHT zu den Weichtieren (Mollusken)?",
+    "correct": "Seestern",
+    "wrong": [
+      "Schnecke",
+      "Muschel",
+      "Tintenfisch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-237.mp3"
+  },
+  {
+    "id": "0238",
+    "category": "Popkultur & Comics",
+    "question": "Welcher Gegenstand verleiht KEINE Superkräfte?",
+    "correct": "Zauberwürfel",
+    "wrong": [
+      "Grüner Ring",
+      "Super-Serum",
+      "Mjölnir"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-238.mp3"
+  },
+  {
+    "id": "0239",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Zutat gehört NICHT in eine klassische Guacamole?",
+    "correct": "Mayonnaise",
+    "wrong": [
+      "Avocado",
+      "Limettensaft",
+      "Koriander"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-239.mp3"
+  },
+  {
+    "id": "0240",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Zucker ist KEIN Einfachzucker (Monosaccharid)?",
+    "correct": "Saccharose (Haushaltszucker)",
+    "wrong": [
+      "Glukose (Traubenzucker)",
+      "Fruktose (Fruchtzucker)",
+      "Galaktose"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-240.mp3"
+  },
+  {
+    "id": "0241",
+    "category": "Mythologie",
+    "question": "Wer ist Thor in der nordischen Mythologie NICHT?",
+    "correct": "Der Gott des hinterlistigen Schalks",
+    "wrong": [
+      "Gott des Donners.",
+      "Sohn von Odin.",
+      "Besitzer des Hammers Mjölnir."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-241.mp3"
+  },
+  {
+    "id": "0242",
+    "category": "Film & Serien",
+    "question": "Welcher Film war NICHT der erfolgreichste Film des Jahres (Box Office)?",
+    "correct": "The Whale",
+    "wrong": [
+      "Avatar",
+      "Avengers: Endgame",
+      "Titanic"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-242.mp3"
+  },
+  {
+    "id": "0243",
+    "category": "Sprache & Linguistik",
+    "question": "Welches Wort stammt NICHT aus dem Lateinischen?",
+    "correct": "Krieg",
+    "wrong": [
+      "Mauer",
+      "Straße",
+      "Pflanze"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-243.mp3"
+  },
+  {
+    "id": "0244",
+    "category": "Geschichte",
+    "question": "Welches Bauwerk gehört NICHT zum antiken Rom?",
+    "correct": "Akropolis",
+    "wrong": [
+      "Kolosseum",
+      "Pantheon",
+      "Forum Romanum"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-244.mp3"
+  },
+  {
+    "id": "0245",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher dieser Promis ist KEIN Milliardär?",
+    "correct": "Adele",
+    "wrong": [
+      "Jay-Z",
+      "Rihanna",
+      "Paul McCartney"
+    ],
+    "audio": "0245.mp3"
+  },
+  {
+    "id": "0246",
+    "category": "Film & Serien",
+    "question": "Welche Serie gehört NICHT zum Genre „Sitcom“?",
+    "correct": "The Walking Dead",
+    "wrong": [
+      "Friends",
+      "The Big Bang Theory",
+      "How I Met Your Mother"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-246.mp3"
+  },
+  {
+    "id": "0247",
+    "category": "Musik",
+    "question": "Welches Album stammt NICHT von Taylor Swift?",
+    "correct": "Future Nostalgia",
+    "wrong": [
+      "1989",
+      "Midnights",
+      "Folklore"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-247.mp3"
+  },
+  {
+    "id": "0248",
+    "category": "Geografie",
+    "question": "Welches Land ist KEIN Inselstaat?",
+    "correct": "Südkorea",
+    "wrong": [
+      "Island",
+      "Japan",
+      "Madagaskar"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-248.mp3"
+  },
+  {
+    "id": "0249",
+    "category": "Sport",
+    "question": "Was ist KEIN Team in der NBA (Basketball)?",
+    "correct": "New York Yankees",
+    "wrong": [
+      "Los Angeles Lakers",
+      "Chicago Bulls",
+      "Golden State Warriors"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-249.mp3"
+  },
+  {
+    "id": "0250",
+    "category": "Medizin & Körper",
+    "question": "Was misst ein Blutdruckmessgerät NICHT?",
+    "correct": "Den Sauerstoffgehalt im Urin",
+    "wrong": [
+      "Systolischen Wert",
+      "Diastolischen Wert",
+      "Den Druck des Blutes gegen die Gefäßwände"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-250.mp3"
+  },
+  {
+    "id": "0251",
+    "category": "Popkultur & Comics",
+    "question": "Welches Kinderspielzeug war NICHT Vorbild für eine erfolgreiche Filmreihe?",
+    "correct": "Yoyo",
+    "wrong": [
+      "Transformers",
+      "G.I. Joe",
+      "Lego"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-251.mp3"
+  },
+  {
+    "id": "0252",
+    "category": "Medizin & Körper",
+    "question": "Welcher Muskel ist KEIN unwillkürlicher Muskel (den wir nicht steuern)?",
+    "correct": "Bizeps",
+    "wrong": [
+      "Herzmuskel",
+      "Darmmuskulatur",
+      "Gebärmuttermuskulatur"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-252.mp3"
+  },
+  {
+    "id": "0253",
+    "category": "Promis & Gesellschaft",
+    "question": "Welches dieser Kinder gehört NICHT zu William und Catherine (Kate)?",
+    "correct": "Archie",
+    "wrong": [
+      "George",
+      "Charlotte",
+      "Louis"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-253.mp3"
+  },
+  {
+    "id": "0254",
+    "category": "Sport",
+    "question": "Welcher Formel-1-Fahrer ist NICHT Brite?",
+    "correct": "Sebastian Vettel",
+    "wrong": [
+      "Lewis Hamilton",
+      "Jackie Stewart",
+      "Nigel Mansell"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-254.mp3"
+  },
+  {
+    "id": "0255",
+    "category": "Sprache & Linguistik",
+    "question": "Wie nennt man Wörter, die gleich klingen, aber unterschiedliche Bedeutungen haben (z.B. Kiefer), NICHT?",
+    "correct": "Synonyme",
+    "wrong": [
+      "Homonyme",
+      "Teekesselchen",
+      "Polyseme"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-255.mp3"
+  },
+  {
+    "id": "0256",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher Stoff ist NICHT für die Photosynthese notwendig?",
+    "correct": "Sauerstoff",
+    "wrong": [
+      "Sonnenlicht",
+      "Wasser",
+      "Kohlendioxid"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-256.mp3"
+  },
+  {
+    "id": "0257",
+    "category": "Promis & Gesellschaft",
+    "question": "Welches europäische Land hat KEIN Fürstentum oder Großherzogtum?",
+    "correct": "Österreich",
+    "wrong": [
+      "Monaco",
+      "Liechtenstein",
+      "Luxemburg"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-257.mp3"
+  },
+  {
+    "id": "0258",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Glas verwendet man NICHT für Rotwein?",
+    "correct": "Flöte",
+    "wrong": [
+      "Burgunderglas",
+      "Bordeauxglas",
+      "Schwenker"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-258.mp3"
+  },
+  {
+    "id": "0259",
+    "category": "Sport",
+    "question": "Was passiert beim „Boxenstopp“ NICHT?",
+    "correct": "Ölwechsel während des laufenden Rennens",
+    "wrong": [
+      "Reifenwechsel",
+      "Anpassung des Frontflügels",
+      "Reinigung des Visiers"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-259.mp3"
+  },
+  {
+    "id": "0260",
+    "category": "Sport",
+    "question": "Welches dieser Turniere ist KEIN Grand-Slam-Turnier?",
+    "correct": "ATP Finals",
+    "wrong": [
+      "Wimbledon",
+      "French Open",
+      "Australian Open"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-260.mp3"
+  },
+  {
+    "id": "0261",
+    "category": "Sport",
+    "question": "Welches dieser Länder hat NICHT die Fußball-WM der Männer gewonnen?",
+    "correct": "Niederlande",
+    "wrong": [
+      "Uruguay",
+      "Spanien",
+      "Argentinien"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-261.mp3"
+  },
+  {
+    "id": "0262",
+    "category": "Promis & Gesellschaft",
+    "question": "Wer war NICHT mit Tom Cruise verheiratet?",
+    "correct": "Penélope Cruz",
+    "wrong": [
+      "Mimi Rogers",
+      "Nicole Kidman",
+      "Katie Holmes"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-262.mp3"
+  },
+  {
+    "id": "0263",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Pilz ist KEIN Speisepilz?",
+    "correct": "Fliegenpilz",
+    "wrong": [
+      "Steinpilz",
+      "Pfifferling",
+      "Champignon"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-263.mp3"
+  },
+  {
+    "id": "0264",
+    "category": "Gaming",
+    "question": "Welches dieser Spiele erschien NICHT zuerst in der Spielhalle (Arcade)?",
+    "correct": "The Legend of Zelda",
+    "wrong": [
+      "Space Invaders",
+      "Donkey Kong",
+      "Pong"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-264.mp3"
+  },
+  {
+    "id": "0265",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches Metall ist bei Raumtemperatur NICHT fest?",
+    "correct": "Quecksilber",
+    "wrong": [
+      "Eisen",
+      "Gold",
+      "Blei"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-265.mp3"
+  },
+  {
+    "id": "0266",
+    "category": "Geschichte",
+    "question": "Wer war KEIN Herrscher aus dem Haus Habsburg?",
+    "correct": "Friedrich der Große",
+    "wrong": [
+      "Maria Theresia",
+      "Franz Joseph I.",
+      "Maximilian I."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-266.mp3"
+  },
+  {
+    "id": "0267",
+    "category": "Musik",
+    "question": "Welcher Komponist gehört NICHT zur „Wiener Klassik“?",
+    "correct": "Richard Wagner",
+    "wrong": [
+      "Haydn",
+      "Mozart",
+      "Beethoven"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-267.mp3"
+  },
+  {
+    "id": "0268",
+    "category": "Promis & Gesellschaft",
+    "question": "In welchem Land ist KEIN Königshaus an der Macht?",
+    "correct": "Italien",
+    "wrong": [
+      "Spanien",
+      "Schweden",
+      "Niederlande"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-268.mp3"
+  },
+  {
+    "id": "0269",
+    "category": "Popkultur & Comics",
+    "question": "Welcher Reiz löst NICHT die Verwandlung von Hulk aus?",
+    "correct": "Sonnenschein",
+    "wrong": [
+      "Wut",
+      "Stress",
+      "Schmerz"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-269.mp3"
+  },
+  {
+    "id": "0270",
+    "category": "Gaming",
+    "question": "Aus welchem Spiel stammt der Charakter \"Lara Croft\" NICHT?",
+    "correct": "Uncharted",
+    "wrong": [
+      "Tomb Raider",
+      "Rise of the Tomb Raider",
+      "Shadow of the Tomb Raider"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-270.mp3"
+  },
+  {
+    "id": "0271",
+    "category": "Geografie",
+    "question": "Welche Insel liegt NICHT in der Karibik?",
+    "correct": "Mauritius",
+    "wrong": [
+      "Kuba",
+      "Jamaika",
+      "Barbados"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-271.mp3"
+  },
+  {
+    "id": "0272",
+    "category": "Musik",
+    "question": "Welches Instrument hat KEINE Tasten?",
+    "correct": "Harfe",
+    "wrong": [
+      "Klavier",
+      "Orgel",
+      "Akkordeon"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-272.mp3"
+  },
+  {
+    "id": "0273",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher dieser Wissenschaftler hat NICHT den Nobelpreis für Physik gewonnen?",
+    "correct": "Charles Darwin",
+    "wrong": [
+      "Marie Curie",
+      "Werner Heisenberg",
+      "Richard Feynman"
+    ],
+    "audio": "0273.mp3"
+  },
+  {
+    "id": "0274",
+    "category": "Film & Serien",
+    "question": "Welcher Film ist KEIN Klassiker des deutschen Expressionismus?",
+    "correct": "Der Schuh des Manitu",
+    "wrong": [
+      "Das Cabinet des Dr. Caligari",
+      "Nosferatu",
+      "Metropolis"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-274.mp3"
+  },
+  {
+    "id": "0275",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Insekt ist KEIN Hautflügler?",
+    "correct": "Heuschrecke",
+    "wrong": [
+      "Wespe",
+      "Biene",
+      "Ameise"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-275.mp3"
+  },
+  {
+    "id": "0276",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher dieser Stoffe ist KEIN Treibhausgas?",
+    "correct": "Stickstoff (N₂)",
+    "wrong": [
+      "Methan",
+      "Lachgas",
+      "Wasserdampf"
+    ],
+    "audio": "0276.mp3"
+  },
+  {
+    "id": "0277",
+    "category": "Popkultur & Comics",
+    "question": "Welche Fähigkeit besitzt Wolverine NICHT?",
+    "correct": "Fliegen",
+    "wrong": [
+      "Selbstheilung",
+      "Krallen",
+      "Geschärfte Sinne"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-277.mp3"
+  },
+  {
+    "id": "0278",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Gewürz wird NICHT aus einer Wurzel gewonnen?",
+    "correct": "Zimt",
+    "wrong": [
+      "Ingwer",
+      "Kurkuma",
+      "Meerrettich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-278.mp3"
+  },
+  {
+    "id": "0279",
+    "category": "Gaming",
+    "question": "Welche dieser Konsolen stammt NICHT von Nintendo?",
+    "correct": "Mega Drive",
+    "wrong": [
+      "NES",
+      "GameCube",
+      "Wii"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-279.mp3"
+  },
+  {
+    "id": "0280",
+    "category": "Popkultur & Comics",
+    "question": "Welches Element bändigt Aang in \"Avatar\" NICHT?",
+    "correct": "Holz",
+    "wrong": [
+      "Wasser",
+      "Erde",
+      "Feuer"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-280.mp3"
+  },
+  {
+    "id": "0281",
+    "category": "Natur & Tierwelt",
+    "question": "Welche Farbe können Flamingos NICHT durch ihre Nahrung erhalten?",
+    "correct": "Blau",
+    "wrong": [
+      "Rosa",
+      "Rot",
+      "Orange"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-281.mp3"
+  },
+  {
+    "id": "0282",
+    "category": "Kunst & Kultur",
+    "question": "Welche Strömung gehört NICHT zur Klassischen Moderne?",
+    "correct": "Rokoko",
+    "wrong": [
+      "Expressionismus",
+      "Futurismus",
+      "Dadaismus"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-282.mp3"
+  },
+  {
+    "id": "0283",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welches dieser Länder ist KEINE Republik?",
+    "correct": "Norwegen",
+    "wrong": [
+      "Frankreich",
+      "Portugal",
+      "Polen"
+    ],
+    "audio": "0283.mp3"
+  },
+  {
+    "id": "0284",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher Prozess gehört NICHT zum Wasserkreislauf?",
+    "correct": "Photosynthese",
+    "wrong": [
+      "Verdunstung",
+      "Niederschlag",
+      "Versickerung"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-284.mp3"
+  },
+  {
+    "id": "0285",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches Material ist KEIN Isolator für Strom?",
+    "correct": "Graphit",
+    "wrong": [
+      "Gummi",
+      "Glas",
+      "Keramik"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-285.mp3"
+  },
+  {
+    "id": "0286",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Berufsbezeichnung gibt es in einer professionellen Brigade-Küche NICHT?",
+    "correct": "Sommelier",
+    "wrong": [
+      "Saucier",
+      "Gardemanger",
+      "Entremetier"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-286.mp3"
+  },
+  {
+    "id": "0287",
+    "category": "Promis & Gesellschaft",
+    "question": "Welches Model war KEIN „Victoria’s Secret Angel\"?",
+    "correct": "Kate Moss",
+    "wrong": [
+      "Heidi Klum",
+      "Gisele Bündchen",
+      "Adriana Lima"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-287.mp3"
+  },
+  {
+    "id": "0288",
+    "category": "Geografie",
+    "question": "Welche Inselgruppe gehört NICHT zu Portugal?",
+    "correct": "Kanaren",
+    "wrong": [
+      "Azoren",
+      "Madeira",
+      "Porto Santo"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-288.mp3"
+  },
+  {
+    "id": "0289",
+    "category": "Geografie",
+    "question": "Welche Stadt ist KEINE Hauptstadt eines Staates?",
+    "correct": "München",
+    "wrong": [
+      "Wien",
+      "Warschau",
+      "Prag"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-289.mp3"
+  },
+  {
+    "id": "0290",
+    "category": "Gaming",
+    "question": "Welcher Begriff beschreibt NICHT die Kameraperspektive?",
+    "correct": "Surround",
+    "wrong": [
+      "First-Person",
+      "Third-Person",
+      "Isometrisch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-290.mp3"
+  },
+  {
+    "id": "0291",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Tier lebt NICHT in der Tiefsee?",
+    "correct": "Clownfisch",
+    "wrong": [
+      "Anglerfisch",
+      "Riesenkalmar",
+      "Laternenfisch"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-291.mp3"
+  },
+  {
+    "id": "0292",
+    "category": "Geschichte",
+    "question": "Welche Krise war KEINE Zuspitzung des Kalten Krieges?",
+    "correct": "Burenkrieg",
+    "wrong": [
+      "Kubakrise",
+      "Berliner Blockade",
+      "Korea-Krieg"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-292.mp3"
+  },
+  {
+    "id": "0293",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher dieser Stars wurde NICHT in den USA geboren?",
+    "correct": "Ryan Reynolds",
+    "wrong": [
+      "Beyoncé",
+      "Taylor Swift",
+      "Billie Eilish"
+    ],
+    "audio": "0293.mp3"
+  },
+  {
+    "id": "0294",
+    "category": "Promis & Gesellschaft",
+    "question": "Wer war NICHT Mitglied der Boyband „One Direction\"?",
+    "correct": "Justin Timberlake",
+    "wrong": [
+      "Harry Styles",
+      "Niall Horan",
+      "Zayn Malik"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-294.mp3"
+  },
+  {
+    "id": "0295",
+    "category": "Promis & Gesellschaft",
+    "question": "Welches Model ist KEINE Tochter eines berühmten Stars?",
+    "correct": "Naomi Campbell",
+    "wrong": [
+      "Kaia Gerber",
+      "Lila Moss",
+      "Gigi Hadid"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-295.mp3"
+  },
+  {
+    "id": "0296",
+    "category": "Popkultur & Comics",
+    "question": "Welches Mitglied gehört NICHT zu den ursprünglichen sechs Avengers im ersten Film (2012)?",
+    "correct": "Spider-Man",
+    "wrong": [
+      "Iron Man",
+      "Black Widow",
+      "Hawkeye"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-296.mp3"
+  },
+  {
+    "id": "0297",
+    "category": "Gaming",
+    "question": "Welches Spiel basiert NICHT auf dem Bauen mit Blöcken?",
+    "correct": "World of Warcraft",
+    "wrong": [
+      "Minecraft",
+      "Terraria (2D)",
+      "Lego Worlds"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-297.mp3"
+  },
+  {
+    "id": "0298",
+    "category": "Sprache & Linguistik",
+    "question": "Welcher Begriff beschreibt das Geschlecht eines Wortes NICHT?",
+    "correct": "Plural",
+    "wrong": [
+      "Maskulinum",
+      "Femininum",
+      "Neutrum"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-298.mp3"
+  },
+  {
+    "id": "0299",
+    "category": "Geschichte",
+    "question": "Wer war KEINE regierende Königin?",
+    "correct": "Marie Antoinette",
+    "wrong": [
+      "Victoria",
+      "Elisabeth I.",
+      "Maria Theresia"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-299.mp3"
+  },
+  {
+    "id": "0300",
+    "category": "Politik & Recht",
+    "question": "Welches Land ist KEIN Mitglied des Internationalen Strafgerichtshofs?",
+    "correct": "USA",
+    "wrong": [
+      "Deutschland",
+      "Frankreich",
+      "Italien"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-300.mp3"
+  },
+  {
+    "id": "0301",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Tier ist KEIN Beuteltier?",
+    "correct": "Waschbär",
+    "wrong": [
+      "Oppossum",
+      "Koala",
+      "Känguru"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-301.mp3"
+  },
+  {
+    "id": "0302",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welches Land ist KEIN ständiges Mitglied im UN-Sicherheitsrat?",
+    "correct": "Deutschland",
+    "wrong": [
+      "USA",
+      "China",
+      "Frankreich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-302.mp3"
+  },
+  {
+    "id": "0303",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Schnaps wird NICHT aus Getreide hergestellt?",
+    "correct": "Tequila",
+    "wrong": [
+      "Wodka",
+      "Whisky",
+      "Korn"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-303.mp3"
+  },
+  {
+    "id": "0304",
+    "category": "Geografie",
+    "question": "Welcher Fluss fließt NICHT durch Asien?",
+    "correct": "Sambesi",
+    "wrong": [
+      "Jangtsekiang",
+      "Mekong",
+      "Ganges"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-304.mp3"
+  },
+  {
+    "id": "0305",
+    "category": "Medizin & Körper",
+    "question": "Welche Blutgruppe gibt es im AB0-System NICHT?",
+    "correct": "X",
+    "wrong": [
+      "A",
+      "B",
+      "0"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-305.mp3"
+  },
+  {
+    "id": "0306",
+    "category": "Popkultur & Comics",
+    "question": "Wer ist KEIN Gründungsmitglied der Fantastic Four?",
+    "correct": "Silver Surfer",
+    "wrong": [
+      "Mr. Fantastic",
+      "Die Unsichtbare",
+      "Das Ding"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-306.mp3"
+  },
+  {
+    "id": "0307",
+    "category": "Geografie",
+    "question": "Welches Land ist KEIN Mitglied der Benelux-Staaten?",
+    "correct": "Frankreich",
+    "wrong": [
+      "Belgien",
+      "Niederlande",
+      "Luxemburg"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-307.mp3"
+  },
+  {
+    "id": "0308",
+    "category": "Popkultur & Comics",
+    "question": "Welches dieser Animes gehört NICHT zum \"Big Three\" der 2000er?",
+    "correct": "Attack on Titan",
+    "wrong": [
+      "One Piece",
+      "Naruto",
+      "Bleach"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-308.mp3"
+  },
+  {
+    "id": "0309",
+    "category": "Sprache & Linguistik",
+    "question": "Welches Wort stammt NICHT aus dem Arabischen?",
+    "correct": "Fenster",
+    "wrong": [
+      "Alkohol",
+      "Zucker",
+      "Admiral"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-309.mp3"
+  },
+  {
+    "id": "0310",
+    "category": "Popkultur & Comics",
+    "question": "Welches Tier war NICHT Vorbild für einen Batman-Schurken?",
+    "correct": "Giraffe",
+    "wrong": [
+      "Pinguin",
+      "Katze",
+      "Killer Croc"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-310.mp3"
+  },
+  {
+    "id": "0311",
+    "category": "Kunst & Kultur",
+    "question": "Welches Gemälde wurde NICHT von Vincent van Gogh gemalt?",
+    "correct": "Der Schrei",
+    "wrong": [
+      "Sternennacht",
+      "Sonnenblumen",
+      "Das Nachtcafé"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-311.mp3"
+  },
+  {
+    "id": "0312",
+    "category": "Promis & Gesellschaft",
+    "question": "Wer ist NICHT als Musiker und Schauspieler gleichermaßen bekannt?",
+    "correct": "Dwayne Johnson",
+    "wrong": [
+      "Jennifer Lopez",
+      "Lady Gaga",
+      "Will Smith"
+    ],
+    "audio": "0312.mp3"
+  },
+  {
+    "id": "0313",
+    "category": "Medizin & Körper",
+    "question": "Welche Krankheit wird NICHT durch Bakterien verursacht?",
+    "correct": "Influenza",
+    "wrong": [
+      "Scharlach",
+      "Borreliose",
+      "Salmonellenvergiftung"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-313.mp3"
+  },
+  {
+    "id": "0314",
+    "category": "Kunst & Kultur",
+    "question": "Welches Fabelwesen hat KEINEN menschlichen Anteil?",
+    "correct": "Phönix",
+    "wrong": [
+      "Zentaur",
+      "Minotaurus",
+      "Sphinx"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-314.mp3"
+  },
+  {
+    "id": "0315",
+    "category": "Mythologie",
+    "question": "Welche Figur stammt NICHT aus der nordischen Mythologie?",
+    "correct": "Merkur",
+    "wrong": [
+      "Freya",
+      "Tyr",
+      "Heimdall"
+    ],
+    "audio": "0315.mp3"
+  },
+  {
+    "id": "0316",
+    "category": "Film & Serien",
+    "question": "Welche Fernsehshow wurde NICHT von Stefan Raab erfunden oder moderiert?",
+    "correct": "Wetten, dass..?",
+    "wrong": [
+      "TV Total",
+      "Schlag den Raab",
+      "Bundesvision Song Contest"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-316.mp3"
+  },
+  {
+    "id": "0317",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Rebsorte ist KEINE Weißweintraube?",
+    "correct": "Merlot",
+    "wrong": [
+      "Riesling",
+      "Chardonnay",
+      "Sauvignon Blanc"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-317.mp3"
+  },
+  {
+    "id": "0318",
+    "category": "Popkultur & Comics",
+    "question": "Welcher dieser Begriffe gehört NICHT zum Anime-Fandom?",
+    "correct": "Muggle",
+    "wrong": [
+      "Cosplay",
+      "Otaku",
+      "Waifu"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-318.mp3"
+  },
+  {
+    "id": "0319",
+    "category": "Musik",
+    "question": "Was ist KEIN Bestandteil eines Popsongs?",
+    "correct": "Fuge",
+    "wrong": [
+      "Intro",
+      "Refrain",
+      "Bridge"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-319.mp3"
+  },
+  {
+    "id": "0320",
+    "category": "Recht & Gesetz",
+    "question": "Was ist KEIN Merkmal für „Mord“ im deutschen Strafgesetzbuch?",
+    "correct": "Notwehr aus einer direkten Todesgefahr",
+    "wrong": [
+      "Heimtücke",
+      "Habgier",
+      "Grausamkeit"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-320.mp3"
+  },
+  {
+    "id": "0321",
+    "category": "Medizin & Körper",
+    "question": "Welche Geschmacksrichtung erkennt die Zunge NICHT direkt?",
+    "correct": "Metallisch",
+    "wrong": [
+      "Umami",
+      "Bitter",
+      "Sauer"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-321.mp3"
+  },
+  {
+    "id": "0322",
+    "category": "Film & Serien",
+    "question": "Welcher Schauspieler spielte NICHT den James Bond?",
+    "correct": "Brad Pitt",
+    "wrong": [
+      "Sean Connery",
+      "Roger Moore",
+      "Pierce Brosnan"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-322.mp3"
+  },
+  {
+    "id": "0323",
+    "category": "Gaming",
+    "question": "Welcher Begriff bezeichnet NICHT einen Fehler im Spiel?",
+    "correct": "Buff",
+    "wrong": [
+      "Bug",
+      "Glitch",
+      "Clipping-Fehler"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-323.mp3"
+  },
+  {
+    "id": "0324",
+    "category": "Mythologie",
+    "question": "Welches Tier ist NICHT das Reittier oder Begleittier der Göttin Artemis?",
+    "correct": "Pferd",
+    "wrong": [
+      "Hirschkuh",
+      "Bär",
+      "Hund"
+    ],
+    "audio": "0324.mp3"
+  },
+  {
+    "id": "0325",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Wer war KEINE Frau an der Spitze einer G7-Regierung?",
+    "correct": "Christine Lagarde",
+    "wrong": [
+      "Angela Merkel",
+      "Margaret Thatcher",
+      "Giorgia Meloni"
+    ],
+    "audio": "0325.mp3"
+  },
+  {
+    "id": "0326",
+    "category": "Geschichte",
+    "question": "Welches Land gehörte im Ersten Weltkrieg NICHT zu den Mittelmächten?",
+    "correct": "Italien",
+    "wrong": [
+      "Deutsches Kaiserreich",
+      "Österreich-Ungarn",
+      "Osmanisches Reich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-326.mp3"
+  },
+  {
+    "id": "0327",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Künstler war KEIN Bildhauer?",
+    "correct": "Johannes Vermeer",
+    "wrong": [
+      "Donatello",
+      "Auguste Rodin",
+      "Alberto Giacometti"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-327.mp3"
+  },
+  {
+    "id": "0328",
+    "category": "Kulinarik & Küche",
+    "question": "Was ist KEINE italienische Nachspeise?",
+    "correct": "Mousse au Chocolat",
+    "wrong": [
+      "Tiramisu",
+      "Panna Cotta",
+      "Gelato"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-328.mp3"
+  },
+  {
+    "id": "0329",
+    "category": "Natur & Tierwelt",
+    "question": "Welches dieser Tiere ist KEIN Krustentier?",
+    "correct": "Tintenfisch",
+    "wrong": [
+      "Hummer",
+      "Garnele",
+      "Krabbe"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-329.mp3"
+  },
+  {
+    "id": "0330",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches Element ist KEIN Nichtmetall?",
+    "correct": "Aluminium",
+    "wrong": [
+      "Kohlenstoff",
+      "Schwefel",
+      "Phosphor"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-330.mp3"
+  },
+  {
+    "id": "0331",
+    "category": "Sport",
+    "question": "Welcher deutsche Rennfahrer ist NICHT Formel-1-Weltmeister geworden?",
+    "correct": "Nick Heidfeld",
+    "wrong": [
+      "Michael Schumacher",
+      "Sebastian Vettel",
+      "Nico Rosberg"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-331.mp3"
+  },
+  {
+    "id": "0332",
+    "category": "Wissenschaft & Technik",
+    "question": "Welche Strahlung ist NICHT ionisierend?",
+    "correct": "Radiowellen",
+    "wrong": [
+      "Alphastrahlung",
+      "Gammastrahlung",
+      "Röntgenstrahlung"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-332.mp3"
+  },
+  {
+    "id": "0333",
+    "category": "Musik",
+    "question": "Was ist KEINE musikalische Gattung?",
+    "correct": "Kompilate",
+    "wrong": [
+      "Sonate",
+      "Sinfonie",
+      "Konzert"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-333.mp3"
+  },
+  {
+    "id": "0334",
+    "category": "Geschichte",
+    "question": "Welches Ereignis gehört NICHT zur Französischen Revolution?",
+    "correct": "Boston Tea Party",
+    "wrong": [
+      "Sturm auf die Bastille",
+      "Ballhausschwur"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-334.mp3"
+  },
+  {
+    "id": "0335",
+    "category": "Sprache & Linguistik",
+    "question": "Woher stammt das Wort „Veto“ NICHT?",
+    "correct": "Vom griechischen Gott des Zorns",
+    "wrong": [
+      "Aus dem Lateinischen",
+      "Von „Ich verbiete“",
+      "Aus dem römischen Recht"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-335.mp3"
+  },
+  {
+    "id": "0336",
+    "category": "Gaming",
+    "question": "Welchen Beruf übt Mario (von Super Mario) NICHT offiziell aus oder hat ihn ausgeübt?",
+    "correct": "Polizist",
+    "wrong": [
+      "Klempner",
+      "Arzt (Dr. Mario)",
+      "Bauarbeiter"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-336.mp3"
+  },
+  {
+    "id": "0337",
+    "category": "Mythologie",
+    "question": "Welche Aussage über Odin ist FALSCH?",
+    "correct": "Sein Markenzeichen ist ein goldener Dreizack",
+    "wrong": [
+      "Er ist der oberste Gott der nordischen Mythologie.",
+      "Er hat nur ein Auge, da er das andere für Weisheit opferte.",
+      "Seine Raben heißen Hugin und Munin."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-337.mp3"
+  },
+  {
+    "id": "0338",
+    "category": "Geografie",
+    "question": "Welches Land ist KEIN Nachbar von China?",
+    "correct": "Thailand",
+    "wrong": [
+      "Indien",
+      "Mongolei",
+      "Vietnam"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-338.mp3"
+  },
+  {
+    "id": "0339",
+    "category": "Musik",
+    "question": "Welches Instrument ist KEIN typisches Volksmusikinstrument der Alpen?",
+    "correct": "Sitar",
+    "wrong": [
+      "Alphorn",
+      "Zither",
+      "Hackbrett"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-339.mp3"
+  },
+  {
+    "id": "0340",
+    "category": "Film & Serien",
+    "question": "Welcher dieser Regisseure stammt NICHT aus Mexiko?",
+    "correct": "Pedro Almodóvar",
+    "wrong": [
+      "Guillermo del Toro",
+      "Alfonso Cuarón",
+      "Alejandro G. Iñárritu"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-340.mp3"
+  },
+  {
+    "id": "0341",
+    "category": "Politik & Wirtschaft",
+    "question": "Was ist KEIN Begriff aus dem Staatshaushalt?",
+    "correct": "Gelbe Karte",
+    "wrong": [
+      "Neuverschuldung",
+      "Haushaltsüberschuss",
+      "Schwarze Null"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-341.mp3"
+  },
+  {
+    "id": "0342",
+    "category": "Kulinarik & Küche",
+    "question": "Was ist KEINE Konservierungsmethode?",
+    "correct": "Dekantieren",
+    "wrong": [
+      "Einkochen",
+      "Dörren",
+      "Fermentieren"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-342.mp3"
+  },
+  {
+    "id": "0343",
+    "category": "Popkultur & Comics",
+    "question": "Welcher Charakter stammt NICHT aus \"Dragon Ball\"?",
+    "correct": "Sasuke",
+    "wrong": [
+      "Son Goku",
+      "Vegeta",
+      "Piccolo"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-343.mp3"
+  },
+  {
+    "id": "0344",
+    "category": "Musik",
+    "question": "Welcher Song ist KEINE Nationalhymne?",
+    "correct": "Ode an die Freude",
+    "wrong": [
+      "God Save the King",
+      "Das Lied der Deutschen",
+      "La Marseillaise"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-344.mp3"
+  },
+  {
+    "id": "0345",
+    "category": "Kunst & Kultur",
+    "question": "Welches Werk gehört NICHT zur Epoche der Romantik?",
+    "correct": "Effi Briest",
+    "wrong": [
+      "Hymnen an die Nacht",
+      "Der Sandmann",
+      "Aus dem Leben eines Taugenichts"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-345.mp3"
+  },
+  {
+    "id": "0346",
+    "category": "Gaming",
+    "question": "Welches Spiel gehört NICHT zur \"Soulslike\"-Kategorie von FromSoftware?",
+    "correct": "The Elder Scrolls V: Skyrim",
+    "wrong": [
+      "Dark Souls",
+      "Bloodborne",
+      "Elden Ring"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-346.mp3"
+  },
+  {
+    "id": "0347",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher Name ist KEIN Kind von Kim Kardashian und Kanye West?",
+    "correct": "East",
+    "wrong": [
+      "North",
+      "Saint",
+      "Chicago"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-347.mp3"
+  },
+  {
+    "id": "0348",
+    "category": "Film & Serien",
+    "question": "Welcher Film gewann NICHT den Oscar für den besten fremdsprachigen Film für Deutschland?",
+    "correct": "Lola rennt",
+    "wrong": [
+      "Die Blechtrommel",
+      "Das Leben der Anderen",
+      "Im Westen nichts Neues (2022)"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-348.mp3"
+  },
+  {
+    "id": "0349",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welches Land ist KEIN Mitglied der NATO?",
+    "correct": "Österreich",
+    "wrong": [
+      "Norwegen",
+      "Polen",
+      "Türkei"
+    ],
+    "audio": "0349.mp3"
+  },
+  {
+    "id": "0350",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Zutat ist KEIN Bestandteil von Marzipan?",
+    "correct": "Mehl",
+    "wrong": [
+      "Mandeln",
+      "Zucker",
+      "Rosenwasser"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-350.mp3"
+  },
+  {
+    "id": "0351",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches Teilchen befindet sich NICHT im Atomkern?",
+    "correct": "Elektron",
+    "wrong": [
+      "Proton",
+      "Neutron",
+      "Nukleon"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-351.mp3"
+  },
+  {
+    "id": "0352",
+    "category": "Mode & Design",
+    "question": "Welche Aussage über Coco Chanel ist FALSCH?",
+    "correct": "Sie entwarf die legendäre „Birkin Bag“.",
+    "wrong": [
+      "Sie erfand das „Kleine Schwarze“.",
+      "Sie machte Modeschmuck gesellschaftsfähig.",
+      "Ihr Parfüm „Chanel No. 5“ ist eines der meistverkauften der Welt."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-352.mp3"
+  },
+  {
+    "id": "0353",
+    "category": "Musik",
+    "question": "Welches Instrument gehört NICHT zu den Holzbläsern?",
+    "correct": "Trompete",
+    "wrong": [
+      "Querflöte",
+      "Klarinette",
+      "Fagott"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-353.mp3"
+  },
+  {
+    "id": "0354",
+    "category": "Sprache & Linguistik",
+    "question": "Was ist KEIN Satzzeichen?",
+    "correct": "Ampersand",
+    "wrong": [
+      "Semikolon",
+      "Apostroph",
+      "Gedankenstrich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-354.mp3"
+  },
+  {
+    "id": "0355",
+    "category": "Natur & Tierwelt",
+    "question": "Welches dieser Tiere gehört NICHT zur Familie der Katzen (Felidae)?",
+    "correct": "Hyäne",
+    "wrong": [
+      "Gepard",
+      "Luchs",
+      "Jaguar"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-355.mp3"
+  },
+  {
+    "id": "0356",
+    "category": "Film & Serien",
+    "question": "Welche Serie ist KEINE Eigenproduktion von Netflix?",
+    "correct": "The Mandalorian",
+    "wrong": [
+      "Stranger Things",
+      "The Crown",
+      "House of Cards"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-356.mp3"
+  },
+  {
+    "id": "0357",
+    "category": "Mode & Design",
+    "question": "Was bezeichnet der Begriff „Haute Couture“ NICHT?",
+    "correct": "Preiswerte Massenware für Kaufhäuser.",
+    "wrong": [
+      "Gehobene Schneiderkunst aus Paris.",
+      "Maßgeschneiderte Einzelstücke in Handarbeit.",
+      "Einen rechtlich geschützten Begriff in Frankreich."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-357.mp3"
+  },
+  {
+    "id": "0358",
+    "category": "Mode & Design",
+    "question": "Welches Kleidungsstück war KEIN Trend der 1920er Jahre?",
+    "correct": "Die Schlaghose",
+    "wrong": [
+      "Flapper-Kleider",
+      "Stirnbänder mit Federn",
+      "Der Pagenschnitt"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-358.mp3"
+  },
+  {
+    "id": "0359",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher Vogel ist KEIN Zugvogel (in Mitteleuropa)?",
+    "correct": "Haussperling",
+    "wrong": [
+      "Storch",
+      "Schwalbe",
+      "Kuckuck"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-359.mp3"
+  },
+  {
+    "id": "0360",
+    "category": "Musik",
+    "question": "Welches Album wurde NICHT von Pink Floyd veröffentlicht?",
+    "correct": "Nevermind",
+    "wrong": [
+      "The Dark Side of the Moon",
+      "The Wall",
+      "Wish You Were Here"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-360.mp3"
+  },
+  {
+    "id": "0361",
+    "category": "Sport",
+    "question": "Was ist KEINE Disziplin in der Leichtathletik?",
+    "correct": "Synchronspringen",
+    "wrong": [
+      "Hürdenlauf",
+      "Stabhochsprung",
+      "Hammerwurf"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-361.mp3"
+  },
+  {
+    "id": "0362",
+    "category": "Musik",
+    "question": "Welcher Song ist KEIN Weihnachtsklassiker?",
+    "correct": "Summer Wine",
+    "wrong": [
+      "Last Christmas",
+      "All I Want for Christmas Is You",
+      "White Christmas"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-362.mp3"
+  },
+  {
+    "id": "0363",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Cocktail enthält KEINEN Gin?",
+    "correct": "Mojito",
+    "wrong": [
+      "Martini",
+      "Gin Tonic",
+      "Negroni"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-363.mp3"
+  },
+  {
+    "id": "0364",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Öl hat KEINEN hohen Anteil an ungesättigten Fettsäuren?",
+    "correct": "Kokosfett",
+    "wrong": [
+      "Olivenöl",
+      "Rapsöl",
+      "Leinöl"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-364.mp3"
+  },
+  {
+    "id": "0365",
+    "category": "Medizin & Körper",
+    "question": "Welcher Teil gehört NICHT zur menschlichen Wirbelsäule?",
+    "correct": "Speiche",
+    "wrong": [
+      "Halswirbel",
+      "Lendenwirbel",
+      "Bandscheiben"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-365.mp3"
+  },
+  {
+    "id": "0366",
+    "category": "Geschichte",
+    "question": "Welches Land war NICHT Teil der Sowjetunion?",
+    "correct": "Polen",
+    "wrong": [
+      "Ukraine",
+      "Georgien",
+      "Kasachstan"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-366.mp3"
+  },
+  {
+    "id": "0367",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches Bauteil ist KEIN Halbleiter-Bauelement?",
+    "correct": "Glühfaden",
+    "wrong": [
+      "Transistor",
+      "Diode",
+      "Mikrochip"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-367.mp3"
+  },
+  {
+    "id": "0368",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Organ besitzen Haie NICHT?",
+    "correct": "Schwimmblase",
+    "wrong": [
+      "Leber",
+      "Kiemen",
+      "Lorenzinische Ampullen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-368.mp3"
+  },
+  {
+    "id": "0369",
+    "category": "Wissenschaft & Technik",
+    "question": "Welche Galaxie ist NICHT unsere Nachbargalaxie oder Teil der Lokalen Gruppe?",
+    "correct": "Sombrero-Galaxie",
+    "wrong": [
+      "Andromeda-Galaxie",
+      "Dreiecksnebel",
+      "Magellansche Wolken"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-369.mp3"
+  },
+  {
+    "id": "0370",
+    "category": "Geografie",
+    "question": "Welche Stadt liegt NICHT an der Donau?",
+    "correct": "Prag",
+    "wrong": [
+      "Wien",
+      "Budapest",
+      "Belgrad"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-370.mp3"
+  },
+  {
+    "id": "0371",
+    "category": "Geschichte",
+    "question": "Welches dieser Ereignisse fand NICHT im Mittelalter statt?",
+    "correct": "Der Dreißigjährige Krieg",
+    "wrong": [
+      "Die Kreuzzüge",
+      "Die Pest-Pandemie",
+      "Die Gründung erster Universitäten"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-371.mp3"
+  },
+  {
+    "id": "0372",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Ort gehört NICHT zur Unterwelt der griechischen Mythologie?",
+    "correct": "Olymp",
+    "wrong": [
+      "Hades",
+      "Tartaros",
+      "Elysium"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-372.mp3"
+  },
+  {
+    "id": "0373",
+    "category": "Natur & Tierwelt",
+    "question": "Welches dieser Meereslebewesen ist KEIN Nesseltier?",
+    "correct": "Seepferdchen",
+    "wrong": [
+      "Qualle",
+      "Koralle",
+      "Seeanemone"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-373.mp3"
+  },
+  {
+    "id": "0374",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher Wal gehört NICHT zu den Bartenwalen?",
+    "correct": "Pottwal",
+    "wrong": [
+      "Blauwal",
+      "Buckelwal",
+      "Grauwal"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-374.mp3"
+  },
+  {
+    "id": "0375",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher dieser Stars hat KEINE eigene Parfümlinie?",
+    "correct": "Meryl Streep",
+    "wrong": [
+      "Beyoncé",
+      "Justin Bieber",
+      "Britney Spears"
+    ],
+    "audio": "0375.mp3"
+  },
+  {
+    "id": "0376",
+    "category": "Gesellschaft & Menschenrechte",
+    "question": "Was ist KEIN Begriff für den Schutz von Minderheiten?",
+    "correct": "Isolation",
+    "wrong": [
+      "Antidiskriminierungsgesetz",
+      "Inklusion",
+      "Quotenregelung"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-376.mp3"
+  },
+  {
+    "id": "0377",
+    "category": "Medizin & Körper",
+    "question": "Was passiert beim Gähnen NICHT bewiesenermaßen?",
+    "correct": "Es füllt die Lunge mit purem Stickstoff",
+    "wrong": [
+      "Tiefes Einatmen.",
+      "Dehnung der Kiefermuskulatur.",
+      "Es wirkt ansteckend auf andere."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-377.mp3"
+  },
+  {
+    "id": "0378",
+    "category": "Medizin & Körper",
+    "question": "Was ist über das menschliche Gehirn FALSCH?",
+    "correct": "Es kann Schmerz am eigenen Gewebe direkt fühlen",
+    "wrong": [
+      "Es besteht zu einem großen Teil aus Fett und Wasser.",
+      "Das Großhirn ist für Denken und Gedächtnis zuständig.",
+      "Es verbraucht ca. 20 % der Energie des Körpers."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-378.mp3"
+  },
+  {
+    "id": "0379",
+    "category": "Geografie",
+    "question": "Welches Land hat KEINEN Zugang zum Mittelmeer?",
+    "correct": "Jordanien",
+    "wrong": [
+      "Albanien",
+      "Algerien",
+      "Zypern"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-379.mp3"
+  },
+  {
+    "id": "0380",
+    "category": "Recht & Gesetz",
+    "question": "Was ist KEIN gültiger Grund für den Entzug der Fahrerlaubnis?",
+    "correct": "Das Vergessen des Blinkers beim Abbiegen in die eigene Einfahrt",
+    "wrong": [
+      "Trunkenheit am Steuer",
+      "Erreichen von 8 Punkten im Fahreignungsregister",
+      "Unfallflucht"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-380.mp3"
+  },
+  {
+    "id": "0381",
+    "category": "Sport",
+    "question": "Welcher dieser Distanzen ist KEINE offizielle Sprintstrecke in der Leichtathletik?",
+    "correct": "300m",
+    "wrong": [
+      "100m",
+      "200m",
+      "400m"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-381.mp3"
+  },
+  {
+    "id": "0382",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Gericht ist NICHT vegetarisch (im Originalrezept)?",
+    "correct": "Coq au Vin",
+    "wrong": [
+      "Ratatouille",
+      "Falafel",
+      "Gazpacho"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-382.mp3"
+  },
+  {
+    "id": "0383",
+    "category": "Kunst & Kultur",
+    "question": "Welche Figur stammt NICHT aus der griechischen Mythologie?",
+    "correct": "Thor",
+    "wrong": [
+      "Achilles",
+      "Herakles",
+      "Medusa"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-383.mp3"
+  },
+  {
+    "id": "0384",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Was ist KEIN diplomatischer Rang?",
+    "correct": "Feldwebel",
+    "wrong": [
+      "Botschafter",
+      "Gesandter",
+      "Attaché"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-384.mp3"
+  },
+  {
+    "id": "0385",
+    "category": "Gaming",
+    "question": "Welcher dieser Charaktere ist KEIN Kämpfer in \"Super Smash Bros. Ultimate\"?",
+    "correct": "Master Chief",
+    "wrong": [
+      "Steve (Minecraft)",
+      "Sephiroth",
+      "Pac-Man"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-385.mp3"
+  },
+  {
+    "id": "0386",
+    "category": "Wissenschaft & Technik",
+    "question": "Welche Erfindung wird Thomas Edison NICHT zugeschrieben?",
+    "correct": "Telefon",
+    "wrong": [
+      "Glühbirne",
+      "Phonograph",
+      "Kinetoskop"
+    ],
+    "audio": "0386.mp3"
+  },
+  {
+    "id": "0387",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Gebäck wird NICHT frittiert?",
+    "correct": "Brezel",
+    "wrong": [
+      "Berliner",
+      "Donut",
+      "Churros"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-387.mp3"
+  },
+  {
+    "id": "0388",
+    "category": "Sport",
+    "question": "Welche Disziplin gehört NICHT zum modernen Fünfkampf?",
+    "correct": "Speerwurf",
+    "wrong": [
+      "Fechten",
+      "Schwimmen",
+      "Springreiten"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-388.mp3"
+  },
+  {
+    "id": "0389",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches Instrument wird NICHT zur Beobachtung des Weltraums genutzt?",
+    "correct": "Geigerzähler",
+    "wrong": [
+      "Radioteleskop",
+      "Spektrometer",
+      "Infrarotkamera"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-389.mp3"
+  },
+  {
+    "id": "0390",
+    "category": "Kulinarik & Küche",
+    "question": "Welche Zutat ist NICHT im bayerischen Reinheitsgebot für Bier enthalten?",
+    "correct": "Hefe",
+    "wrong": [
+      "Wasser",
+      "Malz",
+      "Hopfen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-390.mp3"
+  },
+  {
+    "id": "0391",
+    "category": "Kunst & Kultur",
+    "question": "Welches dieser Dramen endet NICHT mit dem Tod der Hauptfigur?",
+    "correct": "Nathan der Weise",
+    "wrong": [
+      "Faust II",
+      "Maria Stuart",
+      "Hamlet"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-391.mp3"
+  },
+  {
+    "id": "0392",
+    "category": "Politik & Gesellschaft",
+    "question": "Was ist KEINE Form des politischen Protests?",
+    "correct": "Mittagsschlaf",
+    "wrong": [
+      "Sitzstreik",
+      "Hungerstreik",
+      "Petition"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-392.mp3"
+  },
+  {
+    "id": "0393",
+    "category": "Mode & Design",
+    "question": "Welches Material ist KEIN Lederersatz oder vegane Alternative?",
+    "correct": "Nappa",
+    "wrong": [
+      "Piñatex",
+      "Kork",
+      "Pilzleder"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-393.mp3"
+  },
+  {
+    "id": "0394",
+    "category": "Promis & Gesellschaft",
+    "question": "Welcher dieser Stars startete KEINE Karriere im „Disney Channel“?",
+    "correct": "Billie Eilish",
+    "wrong": [
+      "Miley Cyrus",
+      "Selena Gomez",
+      "Demi Lovato"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-394.mp3"
+  },
+  {
+    "id": "0395",
+    "category": "Medizin & Körper",
+    "question": "Welches Organ gehört NICHT zum Ausscheidungssystem?",
+    "correct": "Milz",
+    "wrong": [
+      "Niere",
+      "Harnblase",
+      "Harnleiter"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-395.mp3"
+  },
+  {
+    "id": "0396",
+    "category": "Popkultur & Comics",
+    "question": "Wer ist KEIN Gott im Marvel-Universum?",
+    "correct": "Iron Man",
+    "wrong": [
+      "Thor",
+      "Loki",
+      "Odin"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-396.mp3"
+  },
+  {
+    "id": "0397",
+    "category": "Kunst & Kultur",
+    "question": "Welches Werk stammt NICHT von William Shakespeare?",
+    "correct": "Don Quijote",
+    "wrong": [
+      "Hamlet",
+      "Macbeth",
+      "Romeo und Julia"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-397.mp3"
+  },
+  {
+    "id": "0398",
+    "category": "Gaming",
+    "question": "Welcher Publisher ist NICHT US-amerikanisch?",
+    "correct": "Ubisoft",
+    "wrong": [
+      "Electronic Arts (EA)",
+      "Activision Blizzard",
+      "Take-Two"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-398.mp3"
+  },
+  {
+    "id": "0399",
+    "category": "Medizin & Körper",
+    "question": "Was ist über Diabetes mellitus FALSCH?",
+    "correct": "Es wird durch den Biss einer Zecke übertragen",
+    "wrong": [
+      "Es handelt sich um eine Störung des Zuckerstoffwechsels.",
+      "Insulin spielt eine zentrale Rolle.",
+      "Es gibt Typ 1 und Typ 2."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-399.mp3"
+  },
+  {
+    "id": "0400",
+    "category": "Sport",
+    "question": "Welche Farbe hat das Trikot des Gesamtführenden bei der Tour de France NICHT?",
+    "correct": "Pink",
+    "wrong": [
+      "Gelb",
+      "Grün",
+      "Weiß"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-400.mp3"
+  },
+  {
+    "id": "0401",
+    "category": "Geografie",
+    "question": "Welche Insel ist KEIN eigener Staat?",
+    "correct": "Mallorca",
+    "wrong": [
+      "Island",
+      "Madagaskar",
+      "Zypern"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-401.mp3"
+  },
+  {
+    "id": "0402",
+    "category": "Sport",
+    "question": "Welches Gerät gehört NICHT zum Turnen der Männer?",
+    "correct": "Schwebebalken",
+    "wrong": [
+      "Barren",
+      "Pauschenpferd",
+      "Ringe"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-402.mp3"
+  },
+  {
+    "id": "0403",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Begriff ist KEIN rhetorisches Stilmittel?",
+    "correct": "Algorithmus",
+    "wrong": [
+      "Alliteration",
+      "Metapher",
+      "Hyperbel"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-403.mp3"
+  },
+  {
+    "id": "0404",
+    "category": "Geschichte",
+    "question": "Welches Bündnis wurde NICHT nach dem Zweiten Weltkrieg gegründet?",
+    "correct": "Völkerbund",
+    "wrong": [
+      "UNO",
+      "NATO",
+      "Warschauer Pakt"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-404.mp3"
+  },
+  {
+    "id": "0405",
+    "category": "Geschichte",
+    "question": "Welches Land war KEINE der vier Besatzungsmächte in Deutschland nach 1945?",
+    "correct": "Kanada",
+    "wrong": [
+      "USA",
+      "Sowjetunion",
+      "Frankreich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-405.mp3"
+  },
+  {
+    "id": "0406",
+    "category": "Mode & Design",
+    "question": "Welcher Trend stammt NICHT aus den 1980er Jahren?",
+    "correct": "Der „New Look“ mit Wespentaille",
+    "wrong": [
+      "Schulterpolster",
+      "Neonfarben und Stulpen",
+      "Vokuhila-Frisuren"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-406.mp3"
+  },
+  {
+    "id": "0407",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher Planet hat KEINE feste Oberfläche?",
+    "correct": "Jupiter",
+    "wrong": [
+      "Venus",
+      "Merkur",
+      "Mars"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-407.mp3"
+  },
+  {
+    "id": "0408",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Geschmackssinn wird NICHT über die Zunge wahrgenommen?",
+    "correct": "Scharf",
+    "wrong": [
+      "Süß",
+      "Sauer",
+      "Umami"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-408.mp3"
+  },
+  {
+    "id": "0409",
+    "category": "Geografie",
+    "question": "Welches Land hat KEINE Landgrenze mit Brasilien?",
+    "correct": "Chile",
+    "wrong": [
+      "Argentinien",
+      "Peru",
+      "Kolumbien"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-409.mp3"
+  },
+  {
+    "id": "0410",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher Prozess dient NICHT der Haltbarmachung von Lebensmitteln?",
+    "correct": "Titrieren",
+    "wrong": [
+      "Pasteurisieren",
+      "Pökeln",
+      "Fermentieren"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-410.mp3"
+  },
+  {
+    "id": "0411",
+    "category": "Geschichte",
+    "question": "Wer war KEIN Teilnehmer der Konferenz von Jalta (1945)?",
+    "correct": "De Gaulle",
+    "wrong": [
+      "Churchill",
+      "Roosevelt",
+      "Stalin"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-411.mp3"
+  },
+  {
+    "id": "0412",
+    "category": "Wissenschaft & Technik",
+    "question": "Welcher Mond gehört NICHT zum Planeten Jupiter?",
+    "correct": "Titan",
+    "wrong": [
+      "Io",
+      "Europa",
+      "Ganymed"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-412.mp3"
+  },
+  {
+    "id": "0413",
+    "category": "Kulinarik & Küche",
+    "question": "Welches Land ist KEIN klassisches „Alte Welt\" Weinbauland?",
+    "correct": "Chile",
+    "wrong": [
+      "Frankreich",
+      "Italien",
+      "Spanien"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-413.mp3"
+  },
+  {
+    "id": "0414",
+    "category": "Geografie",
+    "question": "Welche Stadt ist KEINE Hansestadt?",
+    "correct": "Hannover",
+    "wrong": [
+      "Hamburg",
+      "Bremen",
+      "Rostock"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-414.mp3"
+  },
+  {
+    "id": "0415",
+    "category": "Musik",
+    "question": "Welcher Musiker verstarb NICHT im Alter von 27 Jahren?",
+    "correct": "David Bowie",
+    "wrong": [
+      "Jimi Hendrix",
+      "Janis Joplin",
+      "Amy Winehouse"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-415.mp3"
+  },
+  {
+    "id": "0416",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welche Partei war NOCH NIE Teil einer deutschen Bundesregierung?",
+    "correct": "AfD",
+    "wrong": [
+      "FDP",
+      "Grüne",
+      "CSU"
+    ],
+    "audio": "0416.mp3"
+  },
+  {
+    "id": "0417",
+    "category": "Sport",
+    "question": "Welcher Trainer hat die deutsche Nationalmannschaft NICHT zum WM-Titel geführt?",
+    "correct": "Rudi Völler",
+    "wrong": [
+      "Sepp Herberger",
+      "Helmut Schön",
+      "Joachim Löw"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-417.mp3"
+  },
+  {
+    "id": "0418",
+    "category": "Geschichte",
+    "question": "Welches Land war KEIN Gründungsmitglied der Montanunion (EGKS)?",
+    "correct": "Großbritannien",
+    "wrong": [
+      "Deutschland",
+      "Frankreich",
+      "Italien"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-418.mp3"
+  },
+  {
+    "id": "0419",
+    "category": "Medizin & Körper",
+    "question": "Welcher Knochen ist NICHT Teil des Beins?",
+    "correct": "Elle",
+    "wrong": [
+      "Schienbein",
+      "Wadenbein",
+      "Kniescheibe"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-419.mp3"
+  },
+  {
+    "id": "0420",
+    "category": "Sport",
+    "question": "Was ist KEIN Bestandteil des modernen Fünfkampfs?",
+    "correct": "Radfahren",
+    "wrong": [
+      "Fechten",
+      "Schwimmen",
+      "Laserrun (Laufen & Schießen)"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-420.mp3"
+  },
+  {
+    "id": "0421",
+    "category": "Popkultur & Comics",
+    "question": "Welcher dieser Anime-Klassiker handelt NICHT von Mechas (Riesenrobotern)?",
+    "correct": "Death Note",
+    "wrong": [
+      "Evangelion",
+      "Gundam",
+      "Code Geass"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-421.mp3"
+  },
+  {
+    "id": "0422",
+    "category": "Kunst & Kultur",
+    "question": "Welcher Gott ist in der römischen Mythologie NICHT mit seinem griechischen Pendant korrekt gepaart?",
+    "correct": "Merkur - Apollo",
+    "wrong": [
+      "Jupiter - Zeus",
+      "Mars - Ares",
+      "Venus - Aphrodite"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-422.mp3"
+  },
+  {
+    "id": "0423",
+    "category": "Sport",
+    "question": "Welche dieser Sportarten ist KEINE olympische Wintersportart?",
+    "correct": "Feldhockey",
+    "wrong": [
+      "Eisschnelllauf",
+      "Skeleton",
+      "Curling"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-423.mp3"
+  },
+  {
+    "id": "0424",
+    "category": "Geografie",
+    "question": "Welche Insel ist KEINE der Friesischen Inseln?",
+    "correct": "Rügen",
+    "wrong": [
+      "Sylt",
+      "Norderney",
+      "Borkum"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-424.mp3"
+  },
+  {
+    "id": "0425",
+    "category": "Geografie",
+    "question": "Welches Land hat KEINE Küste am Roten Meer?",
+    "correct": "Oman",
+    "wrong": [
+      "Ägypten",
+      "Saudi-Arabien",
+      "Sudan"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-425.mp3"
+  },
+  {
+    "id": "0426",
+    "category": "Geografie",
+    "question": "Welcher Fluss fließt NICHT durch Frankreich?",
+    "correct": "Ebro",
+    "wrong": [
+      "Seine",
+      "Loire",
+      "Rhône"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-426.mp3"
+  },
+  {
+    "id": "0427",
+    "category": "Musik",
+    "question": "Welcher Song stammt NICHT von den Rolling Stones?",
+    "correct": "Stairway to Heaven",
+    "wrong": [
+      "Satisfaction",
+      "Paint It Black",
+      "Angie"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-427.mp3"
+  },
+  {
+    "id": "0428",
+    "category": "Kulinarik & Küche",
+    "question": "Was gehört NICHT in ein klassisches „Wiener Schnitzel“?",
+    "correct": "Schweinefleisch",
+    "wrong": [
+      "Kalbfleisch",
+      "Eine Panade aus Mehl, Ei und Semmelbröseln",
+      "Ein goldbraunes Ausbacken in Schmalz oder Butter"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-428.mp3"
+  },
+  {
+    "id": "0429",
+    "category": "Gaming",
+    "question": "Welche dieser Figuren gehört NICHT zum Pokémon-Universum?",
+    "correct": "Kirby",
+    "wrong": [
+      "Pikachu",
+      "Glurak",
+      "Mewtu"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-429.mp3"
+  },
+  {
+    "id": "0430",
+    "category": "Sport",
+    "question": "Welcher dieser Rekorde gehört NICHT zu Usain Bolt?",
+    "correct": "Weltrekord Weitsprung",
+    "wrong": [
+      "Weltrekord 100 m",
+      "Weltrekord 200 m",
+      "Weltrekord 4 x 100 m Staffel"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-430.mp3"
+  },
+  {
+    "id": "0431",
+    "category": "Kunst & Kultur",
+    "question": "Welcher dieser Autoren erhielt KEINEN Nobelpreis für Literatur?",
+    "correct": "J.R.R. Tolkien",
+    "wrong": [
+      "Thomas Mann",
+      "Günter Grass",
+      "Ernest Hemingway"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-431.mp3"
+  },
+  {
+    "id": "0432",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welcher US-Präsident gehörte NICHT der Republikanischen Partei an?",
+    "correct": "Jimmy Carter",
+    "wrong": [
+      "Ronald Reagan",
+      "George W. Bush",
+      "Richard Nixon"
+    ],
+    "audio": "0432.mp3"
+  },
+  {
+    "id": "0433",
+    "category": "Sprache & Linguistik",
+    "question": "Welches Wort beschreibt KEINE zeitliche Abfolge?",
+    "correct": "Orthografisch",
+    "wrong": [
+      "Chronologisch",
+      "Sequenziell",
+      "Kontinuierlich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-433.mp3"
+  },
+  {
+    "id": "0434",
+    "category": "Sport",
+    "question": "Was ist beim Snooker KEIN offizieller Ball?",
+    "correct": "Der gestreifte Ball",
+    "wrong": [
+      "Der rote Ball",
+      "Der schwarze Ball",
+      "Der pinke Ball"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-434.mp3"
+  },
+  {
+    "id": "0435",
+    "category": "Musik",
+    "question": "Welches Blechblasinstrument hat KEINE Ventile?",
+    "correct": "Posaune",
+    "wrong": [
+      "Tuba",
+      "Horn",
+      "Kornett"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-435.mp3"
+  },
+  {
+    "id": "0436",
+    "category": "Natur & Tierwelt",
+    "question": "Welches Tier ist KEIN Fleischfresser (Karnivor)?",
+    "correct": "Flusspferd",
+    "wrong": [
+      "Wolf",
+      "Eisbär",
+      "Tiger"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-436.mp3"
+  },
+  {
+    "id": "0437",
+    "category": "Natur & Tierwelt",
+    "question": "Welcher Menschenaffe lebt NICHT in Afrika?",
+    "correct": "Orang-Utan",
+    "wrong": [
+      "Schimpanse",
+      "Gorilla",
+      "Bonobo"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-437.mp3"
+  },
+  {
+    "id": "0438",
+    "category": "Sport",
+    "question": "Welches Land hat NICHT mindestens dreimal die Fußball-WM der Männer gewonnen?",
+    "correct": "England",
+    "wrong": [
+      "Brasilien",
+      "Deutschland",
+      "Italien"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-438.mp3"
+  },
+  {
+    "id": "0439",
+    "category": "Film & Serien",
+    "question": "Welches dieser Wesen ist KEIN Mitglied der „Guardians of the Galaxy“?",
+    "correct": "Chewbacca",
+    "wrong": [
+      "Groot",
+      "Rocket Raccoon",
+      "Star-Lord"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-439.mp3"
+  },
+  {
+    "id": "0440",
+    "category": "Kulinarik & Küche",
+    "question": "Welcher Stoff sorgt NICHT für das Aufgehen von Teig?",
+    "correct": "Stickstoff",
+    "wrong": [
+      "Kohlendioxid",
+      "Wasserdampf",
+      "Luft"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-440.mp3"
+  },
+  {
+    "id": "0441",
+    "category": "Film & Serien",
+    "question": "Welcher Film gehört NICHT zur „Dark Knight“-Trilogie von Christopher Nolan?",
+    "correct": "The Batman",
+    "wrong": [
+      "Batman Begins",
+      "The Dark Knight",
+      "The Dark Knight Rises"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-441.mp3"
+  },
+  {
+    "id": "0442",
+    "category": "Popkultur & Comics",
+    "question": "Welche Identität gehört NICHT zu einem \"The Flash\"?",
+    "correct": "Dick Grayson",
+    "wrong": [
+      "Barry Allen",
+      "Wally West",
+      "Jay Garrick"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-442.mp3"
+  },
+  {
+    "id": "0443",
+    "category": "Geografie",
+    "question": "Welche Insel gehört NICHT zu Japan?",
+    "correct": "Taiwan",
+    "wrong": [
+      "Honshu",
+      "Hokkaido",
+      "Kyushu"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-443.mp3"
+  },
+  {
+    "id": "0444",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches dieser Protokolle ist KEIN Internetprotokoll?",
+    "correct": "USB",
+    "wrong": [
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "audio": "0444.mp3"
+  },
+  {
+    "id": "0445",
+    "category": "Wissenschaft & Technik",
+    "question": "Welches dieser Elemente ist KEIN Edelgas?",
+    "correct": "Stickstoff",
+    "wrong": [
+      "Argon",
+      "Krypton",
+      "Xenon"
+    ],
+    "audio": "0445.mp3"
+  },
+  {
+    "id": "0446",
+    "category": "Musik",
+    "question": "Welches Instrument wird NICHT mit einem Bogen gespielt?",
+    "correct": "Laute",
+    "wrong": [
+      "Kontrabass",
+      "Cello",
+      "Geige"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-446.mp3"
+  },
+  {
+    "id": "0447",
+    "category": "Kunst & Kultur",
+    "question": "Welches Werk stammt NICHT von Franz Kafka?",
+    "correct": "Der Steppenwolf",
+    "wrong": [
+      "Die Verwandlung",
+      "Der Prozess",
+      "Das Schloss"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-447.mp3"
+  },
+  {
+    "id": "0448",
+    "category": "Sprache & Linguistik",
+    "question": "Welches dieser Wörter ist KEIN Anglizismus?",
+    "correct": "Fenster",
+    "wrong": [
+      "Computer",
+      "Manager",
+      "Meeting"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-448.mp3"
+  },
+  {
+    "id": "0449",
+    "category": "Wissenschaft & Technik",
+    "question": "Welche dieser Einheiten ist KEINE SI-Basiseinheit?",
+    "correct": "Newton",
+    "wrong": [
+      "Kelvin",
+      "Ampere",
+      "Mol"
+    ],
+    "audio": "0449.mp3"
+  },
+  {
+    "id": "0450",
+    "category": "Politik & Zeitgeschehen",
+    "question": "Welches Land ist KEIN ständiges Mitglied des UN-Sicherheitsrats?",
+    "correct": "Japan",
+    "wrong": [
+      "USA",
+      "Russland",
+      "Großbritannien"
+    ],
+    "audio": "0450.mp3"
+  },
+  {
+    "id": "0451",
+    "category": "Film & Serien",
+    "question": "Welche Serie ist KEINE deutsche Produktion für einen Streaming-Dienst?",
+    "correct": "La Casa de Papel (Haus des Geldes)",
+    "wrong": [
+      "Dark",
+      "How to Sell Drugs Online (Fast)",
+      "Kleo"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-451.mp3"
+  },
+  {
+    "id": "0452",
+    "category": "Geografie",
+    "question": "Welches Land gehört NICHT zum Baltikum?",
+    "correct": "Polen",
+    "wrong": [
+      "Estland",
+      "Lettland",
+      "Litauen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-452.mp3"
+  },
+  {
+    "id": "0453",
+    "category": "Sprache & Linguistik",
+    "question": "Was ist ein „Oxymoron“ NICHT?",
+    "correct": "Strahlender Sonnenschein",
+    "wrong": [
+      "Offenes Geheimnis",
+      "Alter Knabe",
+      "Eile mit Weile"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-453.mp3"
+  },
+  {
+    "id": "0454",
+    "category": "Geografie",
+    "question": "Welche Wüste liegt NICHT in Afrika?",
+    "correct": "Gobi",
+    "wrong": [
+      "Sahara",
+      "Namib",
+      "Kalahari"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-454.mp3"
+  },
+  {
+    "id": "0455",
+    "category": "Promis & Gesellschaft",
+    "question": "Welche dieser Schauspielerinnen gewann NICHT den Oscar als Beste Hauptdarstellerin?",
+    "correct": "Margot Robbie",
+    "wrong": [
+      "Emma Stone",
+      "Jennifer Lawrence",
+      "Meryl Streep"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-455.mp3"
+  },
+  {
+    "id": "0456",
+    "category": "Sprache & Linguistik",
+    "question": "Was bedeutet „ambivalent“ NICHT?",
+    "correct": "Eindeutig",
+    "wrong": [
+      "Zwiespältig",
+      "Doppelwertig",
+      "In sich widersprüchlich"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-456.mp3"
+  },
+  {
+    "id": "0457",
+    "category": "Mode & Design",
+    "question": "Welche Aussage über Karl Lagerfeld ist UNWAHR?",
+    "correct": "Er erfand den Minirock.",
+    "wrong": [
+      "Er war jahrzehntelang Kreativdirektor bei Chanel.",
+      "Sein Markenzeichen waren Zopf, Sonnenbrille und Stehkragen.",
+      "Er besaß eine berühmte Katze namens Choupette."
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-457.mp3"
+  },
+  {
+    "id": "0458",
+    "category": "Geografie",
+    "question": "Welche Schlucht liegt NICHT in den USA?",
+    "correct": "Copper Canyon",
+    "wrong": [
+      "Grand Canyon",
+      "Antelope Canyon",
+      "Bryce Canyon"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-458.mp3"
+  },
+  {
+    "id": "0459",
+    "category": "Popkultur & Comics",
+    "question": "Welcher Schauspieler spielte NICHT den Hulk im MCU?",
+    "correct": "Eric Bana",
+    "wrong": [
+      "Edward Norton",
+      "Mark Ruffalo"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-459.mp3"
+  },
+  {
+    "id": "0460",
+    "category": "Geografie",
+    "question": "Welche Insel gehört NICHT zu Indonesien?",
+    "correct": "Luzon",
+    "wrong": [
+      "Java",
+      "Sumatra",
+      "Bali"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-460.mp3"
+  },
+  {
+    "id": "0461",
+    "category": "Geschichte",
+    "question": "Welches Land wurde NICHT durch die Napoleonischen Kriege besetzt?",
+    "correct": "Großbritannien",
+    "wrong": [
+      "Spanien",
+      "Italien",
+      "Preußen"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-461.mp3"
+  },
+  {
+    "id": "0462",
+    "category": "Geschichte",
+    "question": "Welche Stadt war KEIN wichtiges Zentrum im Heiligen Römischen Reich?",
+    "correct": "Madrid",
+    "wrong": [
+      "Aachen",
+      "Nürnberg",
+      "Regensburg"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-462.mp3"
+  },
+  {
+    "id": "0463",
+    "category": "Popkultur & Comics",
+    "question": "Welcher Superheld ist NICHT für seinen extremen Reichtum bekannt?",
+    "correct": "Spider-Man",
+    "wrong": [
+      "Iron Man",
+      "Batman",
+      "Black Panther"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-463.mp3"
+  },
+  {
+    "id": "0464",
+    "category": "Kunst & Kultur",
+    "question": "Welches Merkmal ist NICHT typisch für die Architektur der Gotik?",
+    "correct": "Rundbögen",
+    "wrong": [
+      "Spitzbögen",
+      "Strebepfeiler",
+      "Bunte Glasfenster"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-464.mp3"
+  },
+  {
+    "id": "0465",
+    "category": "Kunst & Kultur",
+    "question": "Wer schrieb NICHT unter einem Pseudonym?",
+    "correct": "Ernest Hemingway",
+    "wrong": [
+      "Mark Twain",
+      "George Orwell",
+      "Robert Galbraith"
+    ],
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-465.mp3"
+  }
+]

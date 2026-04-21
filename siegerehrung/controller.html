@@ -1,0 +1,125 @@
+<!-- --- FILE: ./siegerehrung/controller.html --- -->
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="ps siegerehrung">
+  <div class="ps__wrap siegerehrung__wrap">
+    <div class="ps__stage">
+      <div id="self-card" class="lbSelf">
+        <!-- per JS -->
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/siegerehrung/static/controller.css">
+
+<script>
+  // Controller ist reine Anzeige (empfängt nur)
+  function getSelfPlayerId(){
+    return (
+      localStorage.getItem('blitzquiz_player_id') ||
+      localStorage.getItem('player_id') ||
+      localStorage.getItem('playerId') ||
+      sessionStorage.getItem('blitzquiz_player_id') ||
+      sessionStorage.getItem('player_id') ||
+      sessionStorage.getItem('playerId') ||
+      null
+    );
+  }
+
+  function getSelfRunId(){
+    return (
+      localStorage.getItem('blitzquiz_run_id') ||
+      sessionStorage.getItem('blitzquiz_run_id') ||
+      null
+    );
+  }
+
+  function registerController(){
+    socket.emit('register_controller', {
+      player_id: getSelfPlayerId() || "",
+      run_id: getSelfRunId() || ""
+    });
+  }
+
+  registerController();
+  socket.on('connect', () => registerController());
+
+  const selfCard = document.getElementById('self-card');
+
+  function renderDisconnected(){
+    // NEU: Im Fallback NICHTS anzeigen (nur Hintergrund)
+    if (!selfCard) return;
+    selfCard.innerHTML = ``;
+  }
+
+  function renderSelfOnly(playersRanked){
+    if (!selfCard) return;
+
+    const selfId = getSelfPlayerId();
+    const list = Array.isArray(playersRanked) ? playersRanked : [];
+
+    const me = selfId
+      ? list.find(p => String(p.player_id) === String(selfId))
+      : null;
+
+    if (!me) {
+      renderDisconnected();
+      return;
+    }
+
+    const rank = Number(me.rank || me.rankdisplay || 0) || 0;
+    const name = (me.name || '').trim() || 'Unbekannt';
+
+  selfCard.innerHTML = `
+  <div class="lbMedal" aria-hidden="true">
+    <div class="lbMedal__ribbon"></div>
+    <div class="lbMedal__coin">
+      <div class="lbMedal__rank">${rank}.</div>
+    </div>
+  </div>
+  <div class="lbName">${escapeHtml(name)}</div>
+`;
+
+  }
+
+  function escapeHtml(str){
+    return String(str)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#039;');
+  }
+
+  // --------------------------------------------------
+  // Grace-Period (1000ms), danach weiterhin nur Hintergrund (kein "Nicht verbunden")
+  // --------------------------------------------------
+  let disconnectedTimer = setTimeout(() => {
+    renderDisconnected();
+    disconnectedTimer = null;
+  }, 1000);
+
+  socket.on('show_siegerehrung', (data) => {
+    if (!data || !Array.isArray(data.players_ranked)) return;
+
+    if (disconnectedTimer) {
+      clearTimeout(disconnectedTimer);
+      disconnectedTimer = null;
+    }
+
+    renderSelfOnly(data.players_ranked);
+  });
+
+  // Backend signalisiert: zurück zur Lobby (Controller empfängt nur)
+  socket.on('game_finished', () => {
+    window.location.href = '/play';
+  });
+
+  // Fallback initial
+  renderDisconnected();
+</script>
+{% endblock %}
