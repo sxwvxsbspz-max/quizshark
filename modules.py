@@ -7,7 +7,7 @@ def get_phase_sequence():
     'lobby' bleibt bewusst außen vor (Special-Case in app.py).
     """
     return [
-       #"intro",
+       "intro",
 
         #"punktesammler",
         #"songquiz",

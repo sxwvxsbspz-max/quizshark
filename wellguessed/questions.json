@@ -9,33 +9,6 @@
         "lastplayed": ""
     },
     {
-        "id": "wg002",
-        "category": "Geografie",
-        "question": "Wie hoch ist der Eiffelturm in Metern (ohne Antenne)?",
-        "correct": 300,
-        "image": "",
-        "audio": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "wg003",
-        "category": "Natur",
-        "question": "Wie viele Knochen hat ein erwachsener Mensch?",
-        "correct": 206,
-        "image": "",
-        "audio": "",
-        "lastplayed": "2026-04-22T05:19:18Z"
-    },
-    {
-        "id": "wg007",
-        "category": "Sport",
-        "question": "Wie lang ist eine Marathonstrecke in Kilometern (gerundet)?",
-        "correct": 42,
-        "image": "",
-        "audio": "",
-        "lastplayed": ""
-    },
-    {
         "id": "wg004",
         "category": "Film & TV",
         "question": "In welchem Jahr erschien der erste Star-Wars-Film?",
@@ -70,5 +43,32 @@
         "image": "",
         "audio": "",
         "lastplayed": "2026-04-22T05:18:54Z"
+    },
+    {
+        "id": "wg007",
+        "category": "Sport",
+        "question": "Wie lang ist eine Marathonstrecke in Kilometern (gerundet)?",
+        "correct": 42,
+        "image": "",
+        "audio": "",
+        "lastplayed": "2026-04-22T06:33:24Z"
+    },
+    {
+        "id": "wg003",
+        "category": "Natur",
+        "question": "Wie viele Knochen hat ein erwachsener Mensch?",
+        "correct": 206,
+        "image": "",
+        "audio": "",
+        "lastplayed": "2026-04-22T07:43:00Z"
+    },
+    {
+        "id": "wg002",
+        "category": "Geografie",
+        "question": "Wie hoch ist der Eiffelturm in Metern (ohne Antenne)?",
+        "correct": 300,
+        "image": "",
+        "audio": "",
+        "lastplayed": "2026-04-22T07:44:13Z"
     }
 ]

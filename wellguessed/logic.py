@@ -76,7 +76,7 @@ class WellGuessedLogic:
             answer_duration_seconds=30,
             reveal_answers_seconds=3,
             resolution_seconds=2,
-            scoring_show_points_seconds=2,
+            scoring_show_points_seconds=4,  # 2s Rang + 2s Punkte
             scoring_hold_after_update_seconds=2,
         )
 

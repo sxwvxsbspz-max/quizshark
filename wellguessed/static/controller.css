@@ -46,7 +46,7 @@ button { font-family: inherit; }
 .ps-controller {
   width: 100vw;
   height: 100vh;
-  background: var(--bg) url("/freeknowledge/media/controllerbackground.svg") no-repeat center center;
+  background: var(--bg) url("/wellguessed/media/controllerbackground.svg") no-repeat center center;
   background-size: cover;
   color: #fff;
   font-family: "Nunito", Arial, sans-serif;
@@ -63,7 +63,7 @@ button { font-family: inherit; }
 }
 
 .screen--round {
-  background-image: url("/freeknowledge/media/controllerquestionbackground.svg");
+  background-image: url("/wellguessed/media/controllerquestionbackground.svg");
   background-size: cover;
   background-position: center;
 }
@@ -88,7 +88,7 @@ button { font-family: inherit; }
   max-height: 40vh;
   aspect-ratio: 1 / 1;
   margin-bottom: 40px;
-  background: url("/freeknowledge/media/question.svg") no-repeat center center;
+  background: url("/wellguessed/media/question.svg") no-repeat center center;
   background-size: contain;
   opacity: 0.95;
 }

@@ -19,9 +19,11 @@ const psRoot = document.querySelector('.ps');
 
 let timerRAF = null;
 let unveilTO = null;
+let rankPopTO = null;
 let clockOffsetMs = 0;
 let currentPlayerOrder = [];
 let maxTvPlayers = 9;
+let currentRanks = {}; // player_id -> rank (1-based) computed from distances
 
 function nowSyncedMs() { return Date.now() + clockOffsetMs; }
 
@@ -62,7 +64,7 @@ const questionAudio = new Audio();
 questionAudio.preload = 'auto';
 questionAudio.volume = 1.0;
 
-const bgm = new Audio('/freeknowledge/media/gamesounds/background.mp3');
+const bgm = new Audio('/wellguessed/media/gamesounds/background.mp3');
 bgm.preload = 'auto';
 bgm.loop = true;
 bgm.volume = 1.0;
@@ -70,7 +72,7 @@ bgm.volume = 1.0;
 function startBgm() { try { bgm.currentTime = 0; } catch (_) {} bgm.play().catch(() => {}); }
 function stopBgm()  { try { bgm.pause(); bgm.currentTime = 0; } catch (_) {} }
 
-const SFX_BASE = '/freeknowledge/media/gamesounds';
+const SFX_BASE = '/wellguessed/media/gamesounds';
 
 function playSfxOverlap(file) {
   try { const a = new Audio(`${SFX_BASE}/${file}`); a.preload = 'auto'; a.volume = 1.0; a.play().catch(() => {}); } catch (_) {}
@@ -121,6 +123,21 @@ videoPlayer.onended = function () { socket.emit('module_event', { action: 'video
 
 function clearTimer() { if (timerRAF) { cancelAnimationFrame(timerRAF); timerRAF = null; } }
 function clearUnveil() { if (unveilTO) { clearTimeout(unveilTO); unveilTO = null; } }
+function clearRankPopTO() { if (rankPopTO) { clearTimeout(rankPopTO); rankPopTO = null; } }
+
+function computeRanks(details) {
+  const withDist = Object.entries(details)
+    .filter(([, d]) => d.distance !== null && d.distance !== undefined)
+    .map(([pid, d]) => ({ pid, distance: Number(d.distance) }));
+  withDist.sort((a, b) => a.distance - b.distance);
+  const ranks = {};
+  let currentRank = 1;
+  for (let i = 0; i < withDist.length; i++) {
+    if (i > 0 && withDist[i].distance !== withDist[i - 1].distance) currentRank = i + 1;
+    ranks[withDist[i].pid] = currentRank;
+  }
+  return ranks;
+}
 function getPlayerRow(pid)  { return document.getElementById(`player-${pid}`); }
 function getAnswerBox(pid)  { return document.getElementById(`answer-${pid}`); }
 function getCardWrap(pid)   { return document.getElementById(`cardwrap-${pid}`); }
@@ -162,7 +179,7 @@ function setQuestionImage(imageFile) {
   if (!file) {
     if (psRoot) psRoot.classList.add('no-image');
     if (dummyInWrap) dummyInWrap.classList.remove('is-hidden');
-    if (dummyInImg) dummyInImg.src = '/freeknowledge/media/dummy.svg';
+    if (dummyInImg) dummyInImg.src = '/wellguessed/media/dummy.svg';
     return;
   }
   if (psRoot) psRoot.classList.add('has-image');
@@ -266,15 +283,9 @@ function playQuestionAudio(audioFile) {
   questionAudio.play().catch(() => {});
 }
 
-function formatDistance(distance) {
-  if (distance === null || distance === undefined) return null;
-  const n = Number(distance);
-  if (!Number.isFinite(n)) return null;
-  return Number.isInteger(n) ? String(n) : n.toFixed(1);
-}
-
 socket.on('show_question', data => {
-  showGame(); clearTimer(); clearUnveil(); clearAllScorePops(); startBgm();
+  showGame(); clearTimer(); clearUnveil(); clearAllScorePops(); clearRankPopTO(); startBgm();
+  currentRanks = {};
   setTimeout(() => { playQuestionAudio(data.audio); }, 500);
   setQuestionImage(data.image);
   document.getElementById('question-text').innerText = data.text || '';
@@ -334,13 +345,14 @@ socket.on('show_resolution', data => {
   const details = data && data.details ? data.details : null;
   if (!details || typeof details !== 'object') return;
 
+  currentRanks = computeRanks(details);
+
   currentPlayerOrder.forEach(playerId => {
     const row = getPlayerRow(playerId);
     if (!row) return;
     const d = details[playerId];
     if (!d) return;
 
-    // Farbe: Gewinner grün, 0 Punkte rot, dazwischen neutral
     if (d.accepted === true)  row.classList.add('is-correct');
     if (d.accepted === false) row.classList.add('is-wrong');
 
@@ -348,35 +360,56 @@ socket.on('show_resolution', data => {
     if (!box) return;
     box.classList.remove('is-hidden');
     box.setAttribute('aria-hidden', 'false');
-
-    const raw = d.raw_answer ?? '';
-    const distStr = formatDistance(d.distance);
-    // Schätzung + Abstand zur richtigen Antwort anzeigen
-    box.textContent = distStr !== null ? `${raw} (±${distStr})` : String(raw);
+    box.textContent = String(d.raw_answer ?? '');
   });
 });
 
 socket.on('show_scoring', data => {
   const gainedObj = data.gained || {};
-  const anyPoints = Object.values(gainedObj).some(g => Number(g) > 0);
   clearAllScorePops();
-  if (!anyPoints) return;
-  playSfx('pointsUnveiled');
-  Object.entries(gainedObj).forEach(([playerId, g]) => {
-    if (Number(g) > 0) {
-      const row = getPlayerRow(playerId);
-      if (!row) return;
-      const pop = document.createElement('div');
-      pop.className = 'ps__scorePop';
-      pop.textContent = `+${g}`;
-      const wrap = getCardWrap(playerId);
-      const target = wrap || row;
-      if (target) target.appendChild(pop);
-    }
+  clearRankPopTO();
+
+  // Schritt 1: Rang anzeigen
+  const anyRanks = Object.keys(currentRanks).length > 0;
+  if (anyRanks) playSfx('pointsUnveiled');
+
+  currentPlayerOrder.forEach(playerId => {
+    const rank = currentRanks[playerId];
+    if (rank === undefined) return;
+    const row = getPlayerRow(playerId);
+    if (!row) return;
+    const pop = document.createElement('div');
+    pop.className = 'ps__scorePop ps__scorePop--rank';
+    pop.textContent = `${rank}.`;
+    const wrap = getCardWrap(playerId);
+    (wrap || row).appendChild(pop);
   });
+
+  // Schritt 2: Nach 2s Rang durch Punkte ersetzen
+  rankPopTO = setTimeout(() => {
+    rankPopTO = null;
+    clearAllScorePops();
+
+    const anyPoints = Object.values(gainedObj).some(g => Number(g) > 0);
+    if (!anyPoints) return;
+
+    playSfx('pointsUnveiled');
+    Object.entries(gainedObj).forEach(([playerId, g]) => {
+      if (Number(g) > 0) {
+        const row = getPlayerRow(playerId);
+        if (!row) return;
+        const pop = document.createElement('div');
+        pop.className = 'ps__scorePop';
+        pop.textContent = `+${g}`;
+        const wrap = getCardWrap(playerId);
+        (wrap || row).appendChild(pop);
+      }
+    });
+  }, 2000);
 });
 
 socket.on('apply_scoring_update', data => {
+  clearRankPopTO();
   clearAllScorePops();
   updateScoresInPlace(data.players_ranked || []);
   playSfx('pointsUpdated');
@@ -384,7 +417,7 @@ socket.on('apply_scoring_update', data => {
 
 socket.on('play_round_video', data => {
   clearTimer(); clearUnveil(); clearAllScorePops();
-  showVideo(`/freeknowledge/media/frage${data.round}.mp4`);
+  showVideo(`/wellguessed/media/frage${data.round}.mp4`);
 });
 
 updateMaxTvPlayers();
