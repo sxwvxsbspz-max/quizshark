@@ -523,6 +523,103 @@ html, body {
 }
 
 /* =========================
+   KI THINKING OVERLAY
+   ========================= */
+
+.dyk__kiLoadingCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2vw;
+  width: 22vw;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  padding: 1.5vw;
+  background: rgba(255, 255, 255, 0.07);
+  border: 0.12vw solid rgba(255, 255, 255, 0.18);
+  border-radius: 1.5vw;
+}
+
+.dyk__kiLoadingCard.is-hidden {
+  display: none;
+}
+
+.dyk__neuralNet {
+  width: 20vw;
+  height: auto;
+}
+
+@keyframes dyk-node-pulse {
+  0%, 100% { opacity: 0.35; }
+  50%       { opacity: 1;    }
+}
+
+.dyk__netNode                { animation: dyk-node-pulse 2.2s ease-in-out infinite; }
+.dyk__netNode.dyk__netNode--d0 { animation-delay: 0.0s; }
+.dyk__netNode.dyk__netNode--d1 { animation-delay: 0.5s; }
+.dyk__netNode.dyk__netNode--d2 { animation-delay: 1.0s; }
+.dyk__netNode.dyk__netNode--d3 { animation-delay: 1.5s; }
+.dyk__netNode.dyk__netNode--d4 { animation-delay: 2.0s; }
+
+.dyk__kiLoadingText {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: clamp(1.2vw, 1.9vw, 2.8vw);
+  font-weight: 700;
+  text-align: center;
+  opacity: 0.9;
+  letter-spacing: 0.02em;
+}
+
+/* =========================
+   RICHTIGE ANTWORTEN GRID
+   ========================= */
+
+.dyk__answersSection {
+  width: 100%;
+  margin-top: 0.8vw;
+}
+
+.dyk__answersSection.is-hidden {
+  display: none;
+}
+
+.dyk__answersLabel {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: 0.5vw;
+}
+
+.dyk__answersGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.45vw;
+}
+
+.dyk__answerTile {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: clamp(0.83vw, 1.31vw, 1.91vw);
+  font-weight: 700;
+  text-align: center;
+  padding: 0.55vw 0.7vw;
+  border-radius: 0.6vw;
+  background: rgba(255, 255, 255, 0.12);
+  border: 0.12vw solid rgba(255, 255, 255, 0.22);
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dyk__answerTile--more {
+  opacity: 0.5;
+  letter-spacing: 0.15em;
+}
+
+/* =========================
    KI-TIMEOUT OVERLAY
    ========================= */
 

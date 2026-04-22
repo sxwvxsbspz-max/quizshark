@@ -1,113 +1,8 @@
 [
     {
-        "id": "dyk011",
-        "category": "Kunst & Kultur",
-        "question": "Nenne ein Musical, das auch als Film verfilmt wurde.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk014",
-        "category": "Essen & Trinken",
-        "question": "Nenne eine Käsesorte aus Frankreich.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk018",
-        "category": "Wissenschaft",
-        "question": "Nenne einen Planeten in unserem Sonnensystem außer der Erde, dem Mars und dem Jupiter.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk002",
-        "category": "Geografie",
-        "question": "Nenne ein Land in Afrika, das ans Mittelmeer grenzt.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk001",
-        "category": "Geografie",
-        "question": "Nenne einen Fluss in Südamerika außer dem Amazonas.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk012",
-        "category": "Geschichte",
-        "question": "Nenne ein Land, das im Ersten Weltkrieg auf Seiten der Entente kämpfte.",
-        "image": "",
-        "lastplayed": "2026-04-22T13:43:53Z"
-    },
-    {
-        "id": "dyk006",
-        "category": "Sport",
-        "question": "Nenne ein Land, das die Fußball-Weltmeisterschaft gewonnen hat.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk017",
-        "category": "Natur",
-        "question": "Nenne einen Baum, der auch im Winter grün bleibt.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk009",
-        "category": "Wissenschaft",
-        "question": "Nenne ein Organ im menschlichen Körper, das man zweimal hat.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk007",
-        "category": "Sport",
-        "question": "Nenne eine Sportart, bei der man einen Schläger benutzt.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
         "id": "dyk003",
         "category": "Geografie",
         "question": "Nenne eine Hauptstadt in Asien außer Peking und Tokio.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk005",
-        "category": "Natur",
-        "question": "Nenne ein Säugetier, das Eier legt.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk010",
-        "category": "Kunst & Kultur",
-        "question": "Nenne einen deutschen Dichter oder Schriftsteller aus dem 18. oder 19. Jahrhundert.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk004",
-        "category": "Natur",
-        "question": "Nenne ein Tier, das sowohl an Land als auch im Wasser lebt.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk019",
-        "category": "Sport",
-        "question": "Nenne eine Olympische Sportart aus dem Sommer-Programm, die mit Wasser zu tun hat.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk015",
-        "category": "Essen & Trinken",
-        "question": "Nenne ein Gewürz, das in der indischen Küche häufig verwendet wird.",
         "image": "",
         "lastplayed": ""
     },
@@ -119,18 +14,46 @@
         "lastplayed": ""
     },
     {
-        "id": "dyk016",
-        "category": "Geografie",
-        "question": "Nenne eine Insel im Mittelmeer.",
+        "id": "dyk007",
+        "category": "Sport",
+        "question": "Nenne eine Sportart, bei der man einen Schläger benutzt.",
         "image": "",
-        "lastplayed": "2026-04-22T13:42:24Z"
+        "lastplayed": ""
+    },
+    {
+        "id": "dyk001",
+        "category": "Geografie",
+        "question": "Nenne einen Fluss in Südamerika außer dem Amazonas.",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "dyk004",
+        "category": "Natur",
+        "question": "Nenne ein Tier, das sowohl an Land als auch im Wasser lebt.",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "dyk005",
+        "category": "Natur",
+        "question": "Nenne ein Säugetier, das Eier legt.",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "dyk009",
+        "category": "Wissenschaft",
+        "question": "Nenne ein Organ im menschlichen Körper, das man zweimal hat.",
+        "image": "",
+        "lastplayed": ""
     },
     {
         "id": "dyk013",
         "category": "Geschichte",
         "question": "Nenne einen deutschen Bundeskanzler außer Konrad Adenauer und Helmut Kohl.",
         "image": "",
-        "lastplayed": "2026-04-22T13:42:49Z"
+        "lastplayed": "2026-04-22T15:39:26Z"
     },
     {
         "id": "dyk008",
@@ -138,5 +61,82 @@
         "question": "Nenne ein chemisches Element, das bei Raumtemperatur flüssig ist.",
         "image": "",
         "lastplayed": "2026-04-22T13:43:20Z"
+    },
+    {
+        "id": "dyk012",
+        "category": "Geschichte",
+        "question": "Nenne ein Land, das im Ersten Weltkrieg auf Seiten der Entente kämpfte.",
+        "image": "",
+        "lastplayed": "2026-04-22T13:43:53Z"
+    },
+    {
+        "id": "dyk002",
+        "category": "Geografie",
+        "question": "Nenne ein Land in Afrika, das ans Mittelmeer grenzt.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:20:03Z"
+    },
+    {
+        "id": "dyk015",
+        "category": "Essen & Trinken",
+        "question": "Nenne ein Gewürz, das in der indischen Küche häufig verwendet wird.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:20:31Z"
+    },
+    {
+        "id": "dyk017",
+        "category": "Natur",
+        "question": "Nenne einen Baum, der auch im Winter grün bleibt.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:20:59Z"
+    },
+    {
+        "id": "dyk018",
+        "category": "Wissenschaft",
+        "question": "Nenne einen Planeten in unserem Sonnensystem außer der Erde, dem Mars und dem Jupiter.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:33:31Z"
+    },
+    {
+        "id": "dyk011",
+        "category": "Kunst & Kultur",
+        "question": "Nenne ein Musical, das auch als Film verfilmt wurde.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:33:55Z"
+    },
+    {
+        "id": "dyk019",
+        "category": "Sport",
+        "question": "Nenne eine Olympische Sportart aus dem Sommer-Programm, die mit Wasser zu tun hat.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:34:22Z"
+    },
+    {
+        "id": "dyk010",
+        "category": "Kunst & Kultur",
+        "question": "Nenne einen deutschen Dichter oder Schriftsteller aus dem 18. oder 19. Jahrhundert.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:37:51Z"
+    },
+    {
+        "id": "dyk006",
+        "category": "Sport",
+        "question": "Nenne ein Land, das die Fußball-Weltmeisterschaft gewonnen hat.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:38:14Z"
+    },
+    {
+        "id": "dyk016",
+        "category": "Geografie",
+        "question": "Nenne eine Insel im Mittelmeer.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:38:37Z"
+    },
+    {
+        "id": "dyk014",
+        "category": "Essen & Trinken",
+        "question": "Nenne eine Käsesorte aus Frankreich.",
+        "image": "",
+        "lastplayed": "2026-04-22T15:39:04Z"
     }
 ]

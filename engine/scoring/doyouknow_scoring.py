@@ -140,20 +140,6 @@ class DoYouKnowScoring(ScoringBase):
 
         ki_results, ki_examples = result[0]
 
-        # Prefer correct player answers as examples, fill up with KI suggestions
-        correct_answers = [
-            player_answers[pid]
-            for pid in players
-            if ki_results.get(pid, False) and player_answers[pid]
-        ]
-        combined_examples = correct_answers[:3]
-        if len(combined_examples) < 3:
-            for e in ki_examples:
-                if e not in combined_examples:
-                    combined_examples.append(e)
-                if len(combined_examples) >= 3:
-                    break
-
         gained: Dict[str, int] = {}
         details: Dict[str, dict] = {}
 
@@ -170,6 +156,6 @@ class DoYouKnowScoring(ScoringBase):
                 "evaluation_method": "ai",
             }
 
-        details["_examples"] = combined_examples
+        details["_examples"] = ki_examples[:3]
 
         return gained, details

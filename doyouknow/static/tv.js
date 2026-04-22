@@ -10,9 +10,12 @@ const videoPlayer = document.getElementById('phase-video');
 const answersWrap = document.getElementById('options-grid');
 const timerWrap   = document.querySelector('.ps__timer');
 
-/* ---------- Beispiele-Box ---------- */
-const examplesBox   = document.getElementById('examples-box');
-const examplesValue = document.getElementById('examples-value');
+/* ---------- Richtige-Antworten-Grid ---------- */
+const answersSection = document.getElementById('answers-section');
+const answersGrid    = document.getElementById('answers-grid');
+
+/* ---------- KI Loading Overlay ---------- */
+const kiLoadingOverlay = document.getElementById('ki-loading-overlay');
 
 /* ---------- KI-Timeout Overlay ---------- */
 const kiTimeoutOverlay = document.getElementById('ki-timeout-overlay');
@@ -135,8 +138,9 @@ const sfxPointsUnveiled      = new Audio(`${SFX_BASE}/pointsunveiled.mp3`);
 const sfxPointsUpdated       = new Audio(`${SFX_BASE}/pointsupdated.mp3`);
 const sfxRevealPlayerAnswers = new Audio(`${SFX_BASE}/reveal_player_answers.mp3`);
 const sfxShowResolution      = new Audio(`${SFX_BASE}/show_resolution.mp3`);
+const sfxAi                  = new Audio(`${SFX_BASE}/ai.mp3`);
 
-[sfxAnswerUnveiled, sfxPointsUnveiled, sfxPointsUpdated, sfxRevealPlayerAnswers, sfxShowResolution].forEach(a => {
+[sfxAnswerUnveiled, sfxPointsUnveiled, sfxPointsUpdated, sfxRevealPlayerAnswers, sfxShowResolution, sfxAi].forEach(a => {
   a.preload = 'auto';
   a.volume = 1.0;
 });
@@ -162,6 +166,9 @@ function playSfx(key) {
       return;
     case 'showResolution':
       playSfxSingle(sfxShowResolution);
+      return;
+    case 'ai':
+      playSfxSingle(sfxAi);
       return;
     case 'pointsUnveiled':
       playSfxSingle(sfxPointsUnveiled);
@@ -237,14 +244,53 @@ function hideMcGrid() {
   if (answersWrap) answersWrap.classList.add('is-hidden');
 }
 
-function hideExamplesBox() {
-  if (examplesBox) examplesBox.classList.add('is-hidden');
-  if (examplesValue) examplesValue.textContent = '—';
+const MAX_TILES = 11;
+
+function hideAnswersSection() {
+  if (answersSection) {
+    answersSection.classList.add('is-hidden');
+    answersSection.setAttribute('aria-hidden', 'true');
+  }
+  if (answersGrid) answersGrid.innerHTML = '';
 }
 
-function showExamplesBox(text) {
-  if (examplesBox) examplesBox.classList.remove('is-hidden');
-  if (examplesValue) examplesValue.textContent = (text ?? '—');
+function renderAnswersGrid(correctPlayerAnswers, kiExamples) {
+  if (!answersGrid || !answersSection) return;
+
+  // Deduplizieren (case-insensitive), Spielerantworten zuerst, dann KI
+  const seen = new Set();
+  const all = [];
+  [...correctPlayerAnswers, ...(kiExamples || [])].forEach(ans => {
+    const norm = String(ans || '').trim().toLowerCase();
+    if (!norm || seen.has(norm)) return;
+    seen.add(norm);
+    all.push(String(ans).trim());
+  });
+
+  // Alphabetisch sortieren
+  all.sort((a, b) => a.localeCompare(b, 'de', { sensitivity: 'base' }));
+
+  const hasTruncation = all.length > MAX_TILES;
+  const visible = hasTruncation ? all.slice(0, MAX_TILES) : all;
+
+  answersGrid.innerHTML = '';
+
+  visible.forEach(ans => {
+    const tile = document.createElement('div');
+    tile.className = 'dyk__answerTile';
+    tile.textContent = ans;
+    answersGrid.appendChild(tile);
+  });
+
+  if (hasTruncation) {
+    const more = document.createElement('div');
+    more.className = 'dyk__answerTile dyk__answerTile--more';
+    more.textContent = '…';
+    answersGrid.appendChild(more);
+  }
+
+  answersSection.classList.remove('is-hidden');
+  answersSection.setAttribute('aria-hidden', 'false');
 }
 
 function hideTimer() {
@@ -257,13 +303,13 @@ function showTimer() {
 
 function onQuestionIntro() {
   hideMcGrid();
-  hideExamplesBox();
+  hideAnswersSection();
   hideTimer();
 }
 
 function onOpenAnswers() {
   hideMcGrid();
-  hideExamplesBox();
+  hideAnswersSection();
   showTimer();
 }
 
@@ -441,7 +487,7 @@ socket.on('show_question', data => {
   clearTimer();
   clearUnveil();
   clearAllScorePops();
-  hideExamplesBox();
+  hideAnswersSection();
 
   startBgm();
   setQuestionImage(data.image);
@@ -473,6 +519,12 @@ socket.on('open_answers', data => {
 
 socket.on('close_answers', () => {
   stopTimerVisual();
+  // KI-Thinking-Overlay einblenden
+  if (kiLoadingOverlay) {
+    kiLoadingOverlay.classList.remove('is-hidden');
+    kiLoadingOverlay.setAttribute('aria-hidden', 'false');
+  }
+  playSfx('ai');
 });
 
 socket.on('player_logged_in', data => {
@@ -523,42 +575,49 @@ socket.on('reveal_player_answers', data => {
 socket.on('show_resolution', data => {
   stopBgm();
   playSfx('showResolution');
+  // KI-Thinking-Overlay ausblenden
+  if (kiLoadingOverlay) {
+    kiLoadingOverlay.classList.add('is-hidden');
+    kiLoadingOverlay.setAttribute('aria-hidden', 'true');
+  }
 
   stopTimerVisual();
   clearAllScorePops();
   hideMcGrid();
 
-  // Beispiele anzeigen
-  const examples = (data && Array.isArray(data.examples) && data.examples.length > 0)
-    ? data.examples
-    : null;
+  const details = data && data.details ? data.details : null;
+  const kiExamples = Array.isArray(data && data.examples) ? data.examples : [];
 
-  if (examples) {
-    showExamplesBox(examples.join(', '));
+  // Spieler-Avatare markieren + richtige Antworten sammeln
+  const correctPlayerAnswers = [];
+
+  if (details && typeof details === 'object') {
+    currentPlayerOrder.forEach(playerId => {
+      const row = getPlayerRow(playerId);
+      if (!row) return;
+
+      const d = details[playerId];
+      if (!d) return;
+
+      if (d.accepted === true)  row.classList.add('is-correct');
+      if (d.accepted === false) row.classList.add('is-wrong');
+
+      const box = getAnswerBox(playerId);
+      if (box) {
+        box.classList.remove('is-hidden');
+        box.setAttribute('aria-hidden', 'false');
+        const raw = d.raw_answer ?? d.rawAnswer ?? '';
+        box.textContent = String(raw ?? '');
+      }
+
+      if (d.accepted === true && (d.raw_answer || d.rawAnswer)) {
+        correctPlayerAnswers.push(d.raw_answer ?? d.rawAnswer);
+      }
+    });
   }
 
-  const details = data && data.details ? data.details : null;
-  if (!details || typeof details !== 'object') return;
-
-  currentPlayerOrder.forEach(playerId => {
-    const row = getPlayerRow(playerId);
-    if (!row) return;
-
-    const d = details[playerId];
-    if (!d) return;
-
-    if (d.accepted === true)  row.classList.add('is-correct');
-    if (d.accepted === false) row.classList.add('is-wrong');
-
-    const box = getAnswerBox(playerId);
-    if (!box) return;
-
-    box.classList.remove('is-hidden');
-    box.setAttribute('aria-hidden', 'false');
-
-    const raw = d.raw_answer ?? d.rawAnswer ?? '';
-    box.textContent = String(raw ?? '');
-  });
+  // Antworten-Grid rendern (richtige Spielerantworten + KI-Vorschläge)
+  renderAnswersGrid(correctPlayerAnswers, kiExamples);
 });
 
 socket.on('ki_timeout', data => {

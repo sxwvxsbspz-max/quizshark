@@ -50,10 +50,72 @@
           <!-- Answers / Freitext -->
           <div class="ps__midRow">
 
-            <!-- Beispiele-Box (z.B. Orinoco, Rio de la Plata, …) -->
-            <div id="examples-box" class="fk__answerBox is-hidden" aria-hidden="true">
-              <div class="fk__answerLabel">z.B.</div>
-              <div id="examples-value" class="fk__answerValue">—</div>
+            <!-- KI Thinking Kachel -->
+            <div id="ki-loading-overlay" class="dyk__kiLoadingCard is-hidden" aria-hidden="true">
+              <svg class="dyk__neuralNet" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <filter id="dyk-glow" x="-60%" y="-60%" width="220%" height="220%">
+                    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+                    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                  </filter>
+                  <path id="dyk-p1"  d="M50,75  L160,45"/>
+                  <path id="dyk-p2"  d="M50,75  L160,110"/>
+                  <path id="dyk-p3"  d="M50,75  L160,175"/>
+                  <path id="dyk-p4"  d="M50,145 L160,45"/>
+                  <path id="dyk-p5"  d="M50,145 L160,110"/>
+                  <path id="dyk-p6"  d="M50,145 L160,175"/>
+                  <path id="dyk-p7"  d="M160,45  L270,85"/>
+                  <path id="dyk-p8"  d="M160,45  L270,135"/>
+                  <path id="dyk-p9"  d="M160,110 L270,85"/>
+                  <path id="dyk-p10" d="M160,110 L270,135"/>
+                  <path id="dyk-p11" d="M160,175 L270,85"/>
+                  <path id="dyk-p12" d="M160,175 L270,135"/>
+                </defs>
+                <g stroke="rgba(255,255,255,0.2)" stroke-width="1.2" fill="none">
+                  <line x1="50"  y1="75"  x2="160" y2="45"/>
+                  <line x1="50"  y1="75"  x2="160" y2="110"/>
+                  <line x1="50"  y1="75"  x2="160" y2="175"/>
+                  <line x1="50"  y1="145" x2="160" y2="45"/>
+                  <line x1="50"  y1="145" x2="160" y2="110"/>
+                  <line x1="50"  y1="145" x2="160" y2="175"/>
+                  <line x1="160" y1="45"  x2="270" y2="85"/>
+                  <line x1="160" y1="45"  x2="270" y2="135"/>
+                  <line x1="160" y1="110" x2="270" y2="85"/>
+                  <line x1="160" y1="110" x2="270" y2="135"/>
+                  <line x1="160" y1="175" x2="270" y2="85"/>
+                  <line x1="160" y1="175" x2="270" y2="135"/>
+                </g>
+                <circle r="4.5" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.0s"><mpath href="#dyk-p1"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0.3s"><mpath href="#dyk-p2"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.7s"><mpath href="#dyk-p3"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.5s" repeatCount="indefinite" begin="0.2s"><mpath href="#dyk-p4"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.9s"><mpath href="#dyk-p5"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0.5s"><mpath href="#dyk-p6"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.1s"><mpath href="#dyk-p7"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.5s" repeatCount="indefinite" begin="0.6s"><mpath href="#dyk-p8"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.4s"><mpath href="#dyk-p9"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0.8s"><mpath href="#dyk-p10"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.2s"><mpath href="#dyk-p11"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#dyk-glow)"><animateMotion dur="1.5s" repeatCount="indefinite" begin="0.6s"><mpath href="#dyk-p12"/></animateMotion></circle>
+                <g fill="white" filter="url(#dyk-glow)">
+                  <circle class="dyk__netNode dyk__netNode--d0" cx="50"  cy="75"  r="9"/>
+                  <circle class="dyk__netNode dyk__netNode--d1" cx="50"  cy="145" r="9"/>
+                  <circle class="dyk__netNode dyk__netNode--d2" cx="160" cy="45"  r="9"/>
+                  <circle class="dyk__netNode dyk__netNode--d3" cx="160" cy="110" r="9"/>
+                  <circle class="dyk__netNode dyk__netNode--d4" cx="160" cy="175" r="9"/>
+                  <circle class="dyk__netNode dyk__netNode--d1" cx="270" cy="85"  r="9"/>
+                  <circle class="dyk__netNode dyk__netNode--d3" cx="270" cy="135" r="9"/>
+                </g>
+              </svg>
+              <div class="dyk__kiLoadingText">Die KI wertet jetzt die Ergebnisse aus…</div>
+            </div>
+
+            <!-- Richtige-Antworten-Grid (erscheint nach Resolution) -->
+            <div id="answers-section" class="dyk__answersSection is-hidden" aria-hidden="true">
+              <div class="dyk__answersLabel">Richtige Antworten, z.B.:</div>
+              <div id="answers-grid" class="dyk__answersGrid">
+                <!-- Kacheln per JS -->
+              </div>
             </div>
 
             <!-- MC-Grid dauerhaft versteckt -->
