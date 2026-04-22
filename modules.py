@@ -7,36 +7,37 @@ def get_phase_sequence():
     'lobby' bleibt bewusst außen vor (Special-Case in app.py).
     """
     return [
-       "intro",
+       #"intro",
 
-        "punktesammler",
-        "songquiz",
-        "speedround",
-           "leaderboard",
+        #"punktesammler",
+        #"songquiz",
+        #"speedround",
+         #  "leaderboard",
 
         #"soundtracks",
-        "freeknowledge",
-        "imagememory",   
-           "leaderboard",
+        #"freeknowledge",
+        #"imagememory",   
+         #  "leaderboard",
            
         #"pause",
         #   "leaderboard",
 
         #"soundyear",
-        "imagequiz",
-        "soundmemory",      
-           "leaderboard",
+        #"imagequiz",
+        #"soundmemory",      
+         #  "leaderboard",
 
-        "customquiz",
+        #"customquiz",
         #"haveiever",
-        "oddoneout",
-        "vollereinsatz",
-           "leaderboard",
+        #"oddoneout",
+        "wellguessed",
+        #"vollereinsatz",
+        #   "leaderboard",
 
-        "jokerrules",
-        "awardjokers",
-        "finale",
-        "siegerehrung",
+        #"jokerrules",
+        #"awardjokers",
+        #"finale",
+        #"siegerehrung",
     ]
 
 
@@ -95,6 +96,9 @@ def get_modules():
         },
         "freeknowledge": {
             "logic": "freeknowledge.logic:FreeKnowledgeLogic",
+        },
+        "wellguessed": {
+            "logic": "wellguessed.logic:WellGuessedLogic",
         },
         "oddoneout": {
             "logic": "oddoneout.logic:OddOneOutLogic",

@@ -1,4 +1,3 @@
-<!-- --- FILE: ./soundyear/tv.html --- -->
 {% extends "templates/base.html" %}
 
 {% block content %}
@@ -8,7 +7,7 @@
   <!-- FULLSCREEN Video Layer -->
   <div id="video-layer" class="ps__videoLayer">
     <video id="phase-video" autoplay class="ps__video">
-      <source src="/soundyear/media/intro.mp4" type="video/mp4">
+      <source src="/freeknowledge/media/intro.mp4" type="video/mp4">
     </video>
   </div>
 
@@ -27,7 +26,6 @@
               <div id="question-text" class="ps__question">Lädt Frage...</div>
             </div>
 
-            <!-- Timer (NEU: soft hidden statt display:none) -->
             <div class="ps__timer is-invisible" aria-hidden="true"></div>
           </div>
 
@@ -36,34 +34,29 @@
             <img
               id="question-image"
               class="ps__questionImg"
-              src="/soundyear/media/dummy.svg"
+              src=""
               alt=""
             >
           </div>
 
-        <!-- Answers / Freitext-Jahr -->
-<div class="ps__midRow">
+          <!-- Richtige Antwort -->
+          <div class="ps__midRow">
 
-  <!-- Freitext: Richtige Antwort als Jahr-Box -->
-  <div id="year-answer-box" class="sy__yearBox is-hidden" aria-hidden="true">
-    <div class="sy__yearLabel">Richtige Antwort</div>
-    <div id="year-answer-value" class="sy__yearValue">—</div>
-  </div>
+            <div id="correct-answer-box" class="fk__answerBox is-hidden" aria-hidden="true">
+              <div class="fk__answerLabel">Richtige Antwort</div>
+              <div id="correct-answer-value" class="fk__answerValue">—</div>
+            </div>
 
-  <!-- MC-Grid bleibt als "Slot" optional drin, ist aber dauerhaft versteckt -->
-  <div id="options-grid" class="ps__answers is-hidden">
-    <!-- Antworten per JS -->
-  </div>
+            <div id="options-grid" class="ps__answers is-hidden">
+            </div>
 
-</div>
+          </div>
 
-
-          <!-- BOTTOM SLOT: Dummy INSIDE box when no image -->
           <div id="dummy-inbox-wrap" class="ps__dummyInBoxWrap is-hidden" aria-hidden="true">
             <img
               id="dummy-inbox-img"
               class="ps__dummyInBoxImg"
-              src="/soundyear/media/dummy.svg"
+              src="/freeknowledge/media/dummy.svg"
               alt=""
             >
           </div>
@@ -74,7 +67,6 @@
       <!-- RIGHT: Player list -->
       <div class="ps__sidebar">
         <div id="player-sidebar" class="ps__players">
-          <!-- Spieler per JS -->
         </div>
       </div>
 
@@ -85,8 +77,6 @@
 {% endblock %}
 
 {% block scripts %}
-<link rel="stylesheet" href="/soundyear/static/tv.css">
-<script src="/soundyear/static/tv.js"></script>
+<link rel="stylesheet" href="/wellguessed/static/tv.css">
+<script src="/wellguessed/static/tv.js"></script>
 {% endblock %}
-
--

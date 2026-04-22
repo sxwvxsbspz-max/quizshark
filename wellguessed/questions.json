@@ -1,0 +1,74 @@
+[
+    {
+        "id": "wg001",
+        "category": "Geschichte",
+        "question": "In welchem Jahr wurde das Brandenburger Tor fertiggestellt?",
+        "correct": 1791,
+        "image": "",
+        "audio": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "wg002",
+        "category": "Geografie",
+        "question": "Wie hoch ist der Eiffelturm in Metern (ohne Antenne)?",
+        "correct": 300,
+        "image": "",
+        "audio": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "wg003",
+        "category": "Natur",
+        "question": "Wie viele Knochen hat ein erwachsener Mensch?",
+        "correct": 206,
+        "image": "",
+        "audio": "",
+        "lastplayed": "2026-04-22T05:19:18Z"
+    },
+    {
+        "id": "wg007",
+        "category": "Sport",
+        "question": "Wie lang ist eine Marathonstrecke in Kilometern (gerundet)?",
+        "correct": 42,
+        "image": "",
+        "audio": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "wg004",
+        "category": "Film & TV",
+        "question": "In welchem Jahr erschien der erste Star-Wars-Film?",
+        "correct": 1977,
+        "image": "",
+        "audio": "",
+        "lastplayed": "2026-04-22T05:16:15Z"
+    },
+    {
+        "id": "wg008",
+        "category": "Geschichte",
+        "question": "In welchem Jahr fiel die Berliner Mauer?",
+        "correct": 1989,
+        "image": "",
+        "audio": "",
+        "lastplayed": "2026-04-22T05:18:16Z"
+    },
+    {
+        "id": "wg006",
+        "category": "Geografie",
+        "question": "Wie viele Länder hat die Europäische Union (Stand 2024)?",
+        "correct": 27,
+        "image": "",
+        "audio": "",
+        "lastplayed": "2026-04-22T05:18:35Z"
+    },
+    {
+        "id": "wg005",
+        "category": "Wissenschaft",
+        "question": "Bei wie viel Grad Celsius siedet Wasser auf Meereshöhe?",
+        "correct": 100,
+        "image": "",
+        "audio": "",
+        "lastplayed": "2026-04-22T05:18:54Z"
+    }
+]

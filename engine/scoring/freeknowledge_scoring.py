@@ -1,9 +1,13 @@
 # --- FILE: ./engine/scoring/freeknowledge_scoring.py ---
 
+import logging
 from typing import Dict, Any, Optional, Tuple, List
 
 from engine.scoring.scoring_base import ScoringBase
+from engine.scoring import ki_scoring
 from engine.text.normalize_answer import normalize_answer
+
+logger = logging.getLogger(__name__)
 
 
 class FreeKnowledgeScoring(ScoringBase):
@@ -179,14 +183,34 @@ class FreeKnowledgeScoring(ScoringBase):
         display_correct = question.get("correct")
         candidates = self._get_candidate_answers(question)
 
+        # KI-Bewertung versuchen; bei Fehler/Timeout auf lokale Logik zurückfallen
+        player_answers = {
+            pid: self._extract_raw_answer(answers.get(pid))
+            for pid in players
+        }
+        ai_results: Optional[Dict[str, bool]] = None
+        try:
+            ai_results = ki_scoring.evaluate_answers(question, player_answers)
+            logger.debug("KI-Bewertung erfolgreich")
+        except Exception as exc:
+            logger.warning("KI-Bewertung fehlgeschlagen, Fallback auf lokal: %s", exc)
+
         for player_id in players.keys():
-            raw_answer = self._extract_raw_answer(answers.get(player_id))
+            raw_answer = player_answers[player_id]
             normalized_answer = normalize_answer(raw_answer)
 
-            accepted, match_type, matched_answer, matched_normalized = self._find_match(
-                normalized_answer,
-                candidates,
-            )
+            if ai_results is not None:
+                accepted = ai_results.get(player_id, False)
+                match_type = "ai"
+                matched_answer = display_correct if accepted else None
+                matched_normalized = None
+                evaluation_method = "ai"
+            else:
+                accepted, match_type, matched_answer, matched_normalized = self._find_match(
+                    normalized_answer,
+                    candidates,
+                )
+                evaluation_method = "local"
 
             points = self.POINTS_CORRECT if accepted else self.POINTS_WRONG
             gained[player_id] = points
@@ -200,6 +224,7 @@ class FreeKnowledgeScoring(ScoringBase):
                 "matched_normalized": matched_normalized,
                 "correct": display_correct,
                 "points": points,
+                "evaluation_method": evaluation_method,
             }
 
         return gained, details
