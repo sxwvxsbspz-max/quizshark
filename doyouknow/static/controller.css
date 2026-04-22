@@ -1,0 +1,430 @@
+/* --- FILE: ./freeknowledge/static/controller.css --- */
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("../../static/fonts/OpenDyslexic-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Global Reset */
+.ps-controller, .ps-controller * { box-sizing: border-box; }
+
+/* FIX für Formular-Elemente */
+button {
+  font-family: inherit;
+}
+
+:root{
+  --bg: #00167a;
+  --white20: rgba(255,255,255,0.20);
+
+  --yellow: #FFF500;
+  --blue:   #1F80FF;
+  --green:  #9EFF1F99;
+  --orange: #FFA51F99;
+
+  --yellowFill: #FFF50099;
+  --blueFill:   #1F80FF99;
+  --greenFill:  #9EFF1F99;
+  --orangeFill: #FFA51F99;
+
+  /* Feedback */
+  --correctGreen: rgb(46,204,113);
+  --wrongRed: rgb(231,76,60);
+
+  /* Timer-Bar */
+  --barBg: rgba(255,255,255,0.18);
+  --barFill: rgba(255,255,255,0.92);
+}
+
+/* =========================================================
+   ROOT / SCREENS
+   ========================================================= */
+
+.ps-controller{
+  width:100vw;
+  height:100vh;
+
+  background: var(--bg) url("/freeknowledge/media/controllerbackground.svg") no-repeat center center;
+  background-size: cover;
+
+  color:#fff;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.screen{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: transparent;
+}
+
+.ps-controller__video{
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+  display:block;
+}
+
+/* =========================================================
+   ROUND SCREEN
+   ========================================================= */
+
+.screen--round{
+  background-image: url("/freeknowledge/media/controllerquestionbackground.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.round-label{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  font-family: "OpenDyslexic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: clamp(66px, 10vw, 110px);
+  line-height: 1.1;
+  letter-spacing: -0.1em;
+
+  color:#fff;
+}
+
+.round-label::before{
+  content: "";
+  display: block;
+  width: min(50vw, 900px);
+  max-height: 40vh;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 40px;
+  background: url("/freeknowledge/media/question.svg") no-repeat center center;
+  background-size: contain;
+  opacity: 0.95;
+}
+
+/* =========================================================
+   QA SCREEN
+   ========================================================= */
+
+.screen--qa{
+  background: transparent;
+  align-items: stretch;
+}
+
+.qa-inner{
+  width:100%;
+  height:100%;
+  padding: 18px 16px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap: 12px;
+}
+
+/* =========================================================
+   META BOX
+   ========================================================= */
+
+.psc__metaBox{
+  width:min(600px, 96vw);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.16);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.35);
+  padding: 12px 16px;
+}
+
+.psc__playerMeta{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  gap: 14px;
+}
+
+.psc__metaRow{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap: 14px;
+}
+
+.psc__metaValue{
+  display:flex;
+  align-items:baseline;
+  justify-content:flex-end;
+  gap: 10px;
+
+  text-align:right;
+  white-space: nowrap;
+
+  font-size: 1.75rem;
+  font-weight: 500;
+
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+
+  color: rgba(255,255,255,0.95);
+}
+
+.psc__scorePopInline{
+  color: rgb(46,204,113);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-shadow: 0 0 14px rgba(46,204,113,0.55);
+}
+
+.psc__metaName{
+  flex: 1 1 auto;
+  min-width: 0;
+
+  text-align: left;
+  font-weight: 500;
+  color: rgba(255,255,255,0.95);
+
+  font-size: 1.75rem;
+
+  line-height: 1.1;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =========================================================
+   QUESTION + TIMER
+   ========================================================= */
+
+.psc__questionBlock{
+  width:min(600px, 96vw);
+  display:flex;
+  flex-direction:column;
+  gap: 8px;
+  align-items:stretch;
+}
+
+.question{
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.14);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+
+  text-align:center;
+
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.16;
+
+  color: rgba(255,255,255,0.95);
+}
+
+.question.is-correct{
+  background: var(--correctGreen);
+}
+
+.question.is-wrong{
+  background: var(--wrongRed);
+}
+
+/* =========================================================
+   TIMER BAR
+   ========================================================= */
+
+.psc__timebar{
+  width: min(600px, 96vw);
+  height: 10px;
+  border-radius: 999px;
+  background: var(--barBg);
+  overflow:hidden;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+}
+
+.psc__timebarFill{
+  height: 100%;
+  width: var(--p, 0%);
+  background: var(--barFill);
+  border-radius: 999px;
+  transition: width 90ms linear;
+}
+
+/* =========================================================
+   IMAGE SLOT
+   ========================================================= */
+
+.question-image-wrap{
+  width:min(600px, 96vw);
+  height: clamp(180px, 26vh, 340px);
+  border-radius: 18px;
+  overflow:hidden;
+  background: rgba(255,255,255,0.10);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+}
+
+.question-image{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+  opacity:0.95;
+}
+
+.question-image-wrap.is-hidden{
+  display:none !important;
+}
+
+/* =========================================================
+   TITLE SCREEN
+   ========================================================= */
+
+.sr-title-wordmark{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  max-height:75vh;
+  width: min(90vw, 900px);
+}
+
+.sr-title-speedy,
+.sr-title-brain{
+  font-family: "OpenDyslexic", Arial, sans-serif;
+  font-weight: 400;
+  color:#fff;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.kern-p,
+.kern-r{
+  display: inline-block;
+  margin-right: -0.12em;
+}
+
+.sr-title-speedy{
+  margin-top: 12px;
+  font-size: clamp(66px, 10vw, 110px);
+  letter-spacing: -0.1em;
+  transform: translateX(-20px);
+}
+
+.sr-title-brain{
+  margin-top: -2px;
+  font-size: clamp(66px, 10vw, 110px);
+  letter-spacing: -0.1em;
+  transform: translateX(20px);
+}
+
+.sr-title-logo{
+  width: min(50vw, 900px);
+  height: auto;
+  max-height: 40vh;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+
+/* =========================================================
+   FREETEXT INPUT
+   ========================================================= */
+
+.syc__form{
+  width: min(600px, 96vw);
+  margin-top: 8px;
+}
+
+.syc__inputWrap{
+  display:flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.syc__input{
+  flex: 1 1 auto;
+  min-width: 0;
+
+  padding: 16px 14px;
+  border-radius: 18px;
+
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.12;
+
+  color: rgba(255,255,255,0.95);
+  background: rgba(255,255,255,0.14);
+  border: 2px solid rgba(255,255,255,0.35);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+
+  outline: none;
+}
+
+.syc__input::placeholder{
+  color: rgba(255,255,255,0.65);
+}
+
+.syc__submit{
+  flex: 0 0 auto;
+  padding: 16px 18px;
+  border-radius: 18px;
+
+  font-size: 1.18rem;
+  font-weight: 900;
+
+  color: rgba(255,255,255,0.95);
+  background: rgba(255,255,255,0.16);
+  border: 2px solid rgba(255,255,255,0.35);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+
+  cursor: pointer;
+}
+
+.syc__input.is-locked,
+.syc__submit.is-locked{
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.syc__hint{
+  margin-top: 8px;
+  text-align: center;
+  font-size: 1.05rem;
+  opacity: 0.85;
+}
+
+.is-hidden{
+  display:none !important;
+}

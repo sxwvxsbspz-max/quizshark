@@ -1980,3 +1980,1668 @@ fehler:        0
 json-updates:  15
 mp3 im Ordner: 178
 ============================================================
+
+============================================================
+[2026-04-22 13:40:27] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/soundmemory/media/audio
+Questions:     /home/aleranzer/quizshark/soundmemory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=song_0005 id=1 -> existiert bereits (question-song_0005-1.mp3)
+[SKIP] image_id=song_0005 id=3 -> existiert bereits (question-song_0005-3.mp3)
+[SKIP] image_id=song_0005 id=4 -> existiert bereits (question-song_0005-4.mp3)
+[SKIP] image_id=song_0005 id=5 -> existiert bereits (question-song_0005-5.mp3)
+[SKIP] image_id=song_0005 id=6 -> existiert bereits (question-song_0005-6.mp3)
+[SKIP] image_id=song_0005 id=7 -> existiert bereits (question-song_0005-7.mp3)
+[SKIP] image_id=song_0005 id=8 -> existiert bereits (question-song_0005-8.mp3)
+[SKIP] image_id=song_0005 id=9 -> existiert bereits (question-song_0005-9.mp3)
+[SKIP] image_id=song_0005 id=10 -> existiert bereits (question-song_0005-10.mp3)
+[SKIP] image_id=song_0005 id=11 -> existiert bereits (question-song_0005-11.mp3)
+[SKIP] image_id=song_0005 id=12 -> existiert bereits (question-song_0005-12.mp3)
+[SKIP] image_id=song_0005 id=13 -> existiert bereits (question-song_0005-13.mp3)
+[SKIP] image_id=song_0005 id=14 -> existiert bereits (question-song_0005-14.mp3)
+[SKIP] image_id=song_0005 id=15 -> existiert bereits (question-song_0005-15.mp3)
+[SKIP] image_id=song_0005 id=2 -> existiert bereits (question-song_0005-2.mp3)
+[SKIP] image_id=song_0007 id=1 -> existiert bereits (question-song_0007-1.mp3)
+[SKIP] image_id=song_0007 id=2 -> existiert bereits (question-song_0007-2.mp3)
+[SKIP] image_id=song_0007 id=3 -> existiert bereits (question-song_0007-3.mp3)
+[SKIP] image_id=song_0007 id=4 -> existiert bereits (question-song_0007-4.mp3)
+[SKIP] image_id=song_0007 id=5 -> existiert bereits (question-song_0007-5.mp3)
+[SKIP] image_id=song_0007 id=6 -> existiert bereits (question-song_0007-6.mp3)
+[SKIP] image_id=song_0007 id=7 -> existiert bereits (question-song_0007-7.mp3)
+[SKIP] image_id=song_0007 id=8 -> existiert bereits (question-song_0007-8.mp3)
+[SKIP] image_id=song_0007 id=9 -> existiert bereits (question-song_0007-9.mp3)
+[SKIP] image_id=song_0007 id=10 -> existiert bereits (question-song_0007-10.mp3)
+[SKIP] image_id=song_0007 id=11 -> existiert bereits (question-song_0007-11.mp3)
+[SKIP] image_id=song_0007 id=12 -> existiert bereits (question-song_0007-12.mp3)
+[SKIP] image_id=song_0007 id=13 -> existiert bereits (question-song_0007-13.mp3)
+[SKIP] image_id=song_0007 id=14 -> existiert bereits (question-song_0007-14.mp3)
+[SKIP] image_id=song_0007 id=15 -> existiert bereits (question-song_0007-15.mp3)
+[SKIP] image_id=song_0006 id=1 -> existiert bereits (question-song_0006-1.mp3)
+[SKIP] image_id=song_0006 id=2 -> existiert bereits (question-song_0006-2.mp3)
+[SKIP] image_id=song_0006 id=3 -> existiert bereits (question-song_0006-3.mp3)
+[SKIP] image_id=song_0006 id=4 -> existiert bereits (question-song_0006-4.mp3)
+[SKIP] image_id=song_0006 id=5 -> existiert bereits (question-song_0006-5.mp3)
+[SKIP] image_id=song_0006 id=6 -> existiert bereits (question-song_0006-6.mp3)
+[SKIP] image_id=song_0006 id=7 -> existiert bereits (question-song_0006-7.mp3)
+[SKIP] image_id=song_0006 id=8 -> existiert bereits (question-song_0006-8.mp3)
+[SKIP] image_id=song_0006 id=9 -> existiert bereits (question-song_0006-9.mp3)
+[SKIP] image_id=song_0006 id=10 -> existiert bereits (question-song_0006-10.mp3)
+[SKIP] image_id=song_0006 id=11 -> existiert bereits (question-song_0006-11.mp3)
+[SKIP] image_id=song_0006 id=12 -> existiert bereits (question-song_0006-12.mp3)
+[SKIP] image_id=song_0006 id=13 -> existiert bereits (question-song_0006-13.mp3)
+[SKIP] image_id=song_0006 id=14 -> existiert bereits (question-song_0006-14.mp3)
+[SKIP] image_id=song_0006 id=15 -> existiert bereits (question-song_0006-15.mp3)
+[SKIP] image_id=song_0008 id=1 -> existiert bereits (question-song_0008-1.mp3)
+[SKIP] image_id=song_0008 id=2 -> existiert bereits (question-song_0008-2.mp3)
+[SKIP] image_id=song_0008 id=3 -> existiert bereits (question-song_0008-3.mp3)
+[SKIP] image_id=song_0008 id=4 -> existiert bereits (question-song_0008-4.mp3)
+[SKIP] image_id=song_0008 id=5 -> existiert bereits (question-song_0008-5.mp3)
+[SKIP] image_id=song_0008 id=6 -> existiert bereits (question-song_0008-6.mp3)
+[SKIP] image_id=song_0008 id=7 -> existiert bereits (question-song_0008-7.mp3)
+[SKIP] image_id=song_0008 id=8 -> existiert bereits (question-song_0008-8.mp3)
+[SKIP] image_id=song_0008 id=9 -> existiert bereits (question-song_0008-9.mp3)
+[SKIP] image_id=song_0008 id=10 -> existiert bereits (question-song_0008-10.mp3)
+[SKIP] image_id=song_0008 id=11 -> existiert bereits (question-song_0008-11.mp3)
+[SKIP] image_id=song_0008 id=12 -> existiert bereits (question-song_0008-12.mp3)
+[SKIP] image_id=song_0008 id=13 -> existiert bereits (question-song_0008-13.mp3)
+[SKIP] image_id=song_0008 id=14 -> existiert bereits (question-song_0008-14.mp3)
+[SKIP] image_id=song_0010 id=1 -> existiert bereits (question-song_0010-1.mp3)
+[SKIP] image_id=song_0010 id=2 -> existiert bereits (question-song_0010-2.mp3)
+[SKIP] image_id=song_0010 id=3 -> existiert bereits (question-song_0010-3.mp3)
+[SKIP] image_id=song_0010 id=4 -> existiert bereits (question-song_0010-4.mp3)
+[SKIP] image_id=song_0010 id=5 -> existiert bereits (question-song_0010-5.mp3)
+[SKIP] image_id=song_0010 id=6 -> existiert bereits (question-song_0010-6.mp3)
+[SKIP] image_id=song_0010 id=7 -> existiert bereits (question-song_0010-7.mp3)
+[SKIP] image_id=song_0010 id=8 -> existiert bereits (question-song_0010-8.mp3)
+[SKIP] image_id=song_0010 id=9 -> existiert bereits (question-song_0010-9.mp3)
+[SKIP] image_id=song_0010 id=10 -> existiert bereits (question-song_0010-10.mp3)
+[SKIP] image_id=song_0010 id=11 -> existiert bereits (question-song_0010-11.mp3)
+[SKIP] image_id=song_0010 id=12 -> existiert bereits (question-song_0010-12.mp3)
+[SKIP] image_id=song_0010 id=13 -> existiert bereits (question-song_0010-13.mp3)
+[SKIP] image_id=song_0010 id=14 -> existiert bereits (question-song_0010-14.mp3)
+[SKIP] image_id=song_0010 id=15 -> existiert bereits (question-song_0010-15.mp3)
+[SKIP] image_id=song_0009 id=1 -> existiert bereits (question-song_0009-1.mp3)
+[SKIP] image_id=song_0009 id=2 -> existiert bereits (question-song_0009-2.mp3)
+[SKIP] image_id=song_0009 id=3 -> existiert bereits (question-song_0009-3.mp3)
+[SKIP] image_id=song_0009 id=4 -> existiert bereits (question-song_0009-4.mp3)
+[SKIP] image_id=song_0009 id=5 -> existiert bereits (question-song_0009-5.mp3)
+[SKIP] image_id=song_0009 id=6 -> existiert bereits (question-song_0009-6.mp3)
+[SKIP] image_id=song_0009 id=7 -> existiert bereits (question-song_0009-7.mp3)
+[SKIP] image_id=song_0009 id=8 -> existiert bereits (question-song_0009-8.mp3)
+[SKIP] image_id=song_0009 id=9 -> existiert bereits (question-song_0009-9.mp3)
+[SKIP] image_id=song_0009 id=10 -> existiert bereits (question-song_0009-10.mp3)
+[SKIP] image_id=song_0009 id=11 -> existiert bereits (question-song_0009-11.mp3)
+[SKIP] image_id=song_0009 id=12 -> existiert bereits (question-song_0009-12.mp3)
+[SKIP] image_id=song_0009 id=13 -> existiert bereits (question-song_0009-13.mp3)
+[SKIP] image_id=song_0009 id=14 -> existiert bereits (question-song_0009-14.mp3)
+[SKIP] image_id=song_0009 id=15 -> existiert bereits (question-song_0009-15.mp3)
+[SKIP] image_id=song_0011 id=1 -> existiert bereits (question-song_0011-1.mp3)
+[SKIP] image_id=song_0011 id=2 -> existiert bereits (question-song_0011-2.mp3)
+[SKIP] image_id=song_0011 id=3 -> existiert bereits (question-song_0011-3.mp3)
+[SKIP] image_id=song_0011 id=4 -> existiert bereits (question-song_0011-4.mp3)
+[SKIP] image_id=song_0011 id=5 -> existiert bereits (question-song_0011-5.mp3)
+[SKIP] image_id=song_0011 id=6 -> existiert bereits (question-song_0011-6.mp3)
+[SKIP] image_id=song_0011 id=7 -> existiert bereits (question-song_0011-7.mp3)
+[SKIP] image_id=song_0011 id=8 -> existiert bereits (question-song_0011-8.mp3)
+[SKIP] image_id=song_0011 id=9 -> existiert bereits (question-song_0011-9.mp3)
+[SKIP] image_id=song_0011 id=10 -> existiert bereits (question-song_0011-10.mp3)
+[SKIP] image_id=song_0011 id=11 -> existiert bereits (question-song_0011-11.mp3)
+[SKIP] image_id=song_0011 id=12 -> existiert bereits (question-song_0011-12.mp3)
+[SKIP] image_id=song_0011 id=13 -> existiert bereits (question-song_0011-13.mp3)
+[SKIP] image_id=song_0011 id=14 -> existiert bereits (question-song_0011-14.mp3)
+[SKIP] image_id=song_0011 id=15 -> existiert bereits (question-song_0011-15.mp3)
+[SKIP] image_id=song_0002 id=1 -> existiert bereits (question-song_0002-1.mp3)
+[SKIP] image_id=song_0002 id=3 -> existiert bereits (question-song_0002-3.mp3)
+[SKIP] image_id=song_0002 id=4 -> existiert bereits (question-song_0002-4.mp3)
+[SKIP] image_id=song_0002 id=5 -> existiert bereits (question-song_0002-5.mp3)
+[SKIP] image_id=song_0002 id=6 -> existiert bereits (question-song_0002-6.mp3)
+[SKIP] image_id=song_0002 id=7 -> existiert bereits (question-song_0002-7.mp3)
+[SKIP] image_id=song_0002 id=8 -> existiert bereits (question-song_0002-8.mp3)
+[SKIP] image_id=song_0002 id=9 -> existiert bereits (question-song_0002-9.mp3)
+[SKIP] image_id=song_0002 id=10 -> existiert bereits (question-song_0002-10.mp3)
+[SKIP] image_id=song_0002 id=11 -> existiert bereits (question-song_0002-11.mp3)
+[SKIP] image_id=song_0002 id=12 -> existiert bereits (question-song_0002-12.mp3)
+[SKIP] image_id=song_0002 id=13 -> existiert bereits (question-song_0002-13.mp3)
+[SKIP] image_id=song_0002 id=14 -> existiert bereits (question-song_0002-14.mp3)
+[SKIP] image_id=song_0002 id=15 -> existiert bereits (question-song_0002-15.mp3)
+[SKIP] image_id=song_0002 id=2 -> existiert bereits (question-song_0002-2.mp3)
+[SKIP] image_id=song_0001 id=1 -> existiert bereits (question-song_0001-1.mp3)
+[SKIP] image_id=song_0001 id=2 -> existiert bereits (question-song_0001-2.mp3)
+[SKIP] image_id=song_0001 id=4 -> existiert bereits (question-song_0001-4.mp3)
+[SKIP] image_id=song_0001 id=5 -> existiert bereits (question-song_0001-5.mp3)
+[SKIP] image_id=song_0001 id=6 -> existiert bereits (question-song_0001-6.mp3)
+[SKIP] image_id=song_0001 id=7 -> existiert bereits (question-song_0001-7.mp3)
+[SKIP] image_id=song_0001 id=8 -> existiert bereits (question-song_0001-8.mp3)
+[SKIP] image_id=song_0001 id=9 -> existiert bereits (question-song_0001-9.mp3)
+[SKIP] image_id=song_0001 id=10 -> existiert bereits (question-song_0001-10.mp3)
+[SKIP] image_id=song_0001 id=11 -> existiert bereits (question-song_0001-11.mp3)
+[SKIP] image_id=song_0001 id=12 -> existiert bereits (question-song_0001-12.mp3)
+[SKIP] image_id=song_0001 id=13 -> existiert bereits (question-song_0001-13.mp3)
+[SKIP] image_id=song_0001 id=14 -> existiert bereits (question-song_0001-14.mp3)
+[SKIP] image_id=song_0001 id=3 -> existiert bereits (question-song_0001-3.mp3)
+[SKIP] image_id=song_0003 id=1 -> existiert bereits (question-song_0003-1.mp3)
+[SKIP] image_id=song_0003 id=3 -> existiert bereits (question-song_0003-3.mp3)
+[SKIP] image_id=song_0003 id=4 -> existiert bereits (question-song_0003-4.mp3)
+[SKIP] image_id=song_0003 id=5 -> existiert bereits (question-song_0003-5.mp3)
+[SKIP] image_id=song_0003 id=6 -> existiert bereits (question-song_0003-6.mp3)
+[SKIP] image_id=song_0003 id=7 -> existiert bereits (question-song_0003-7.mp3)
+[SKIP] image_id=song_0003 id=8 -> existiert bereits (question-song_0003-8.mp3)
+[SKIP] image_id=song_0003 id=9 -> existiert bereits (question-song_0003-9.mp3)
+[SKIP] image_id=song_0003 id=10 -> existiert bereits (question-song_0003-10.mp3)
+[SKIP] image_id=song_0003 id=11 -> existiert bereits (question-song_0003-11.mp3)
+[SKIP] image_id=song_0003 id=12 -> existiert bereits (question-song_0003-12.mp3)
+[SKIP] image_id=song_0003 id=13 -> existiert bereits (question-song_0003-13.mp3)
+[SKIP] image_id=song_0003 id=14 -> existiert bereits (question-song_0003-14.mp3)
+[SKIP] image_id=song_0003 id=15 -> existiert bereits (question-song_0003-15.mp3)
+[SKIP] image_id=song_0003 id=2 -> existiert bereits (question-song_0003-2.mp3)
+[SKIP] image_id=song_0012 id=1 -> existiert bereits (question-song_0012-1.mp3)
+[SKIP] image_id=song_0012 id=2 -> existiert bereits (question-song_0012-2.mp3)
+[SKIP] image_id=song_0012 id=3 -> existiert bereits (question-song_0012-3.mp3)
+[SKIP] image_id=song_0012 id=4 -> existiert bereits (question-song_0012-4.mp3)
+[SKIP] image_id=song_0012 id=5 -> existiert bereits (question-song_0012-5.mp3)
+[SKIP] image_id=song_0012 id=6 -> existiert bereits (question-song_0012-6.mp3)
+[SKIP] image_id=song_0012 id=7 -> existiert bereits (question-song_0012-7.mp3)
+[SKIP] image_id=song_0012 id=8 -> existiert bereits (question-song_0012-8.mp3)
+[SKIP] image_id=song_0012 id=9 -> existiert bereits (question-song_0012-9.mp3)
+[SKIP] image_id=song_0012 id=10 -> existiert bereits (question-song_0012-10.mp3)
+[SKIP] image_id=song_0012 id=11 -> existiert bereits (question-song_0012-11.mp3)
+[SKIP] image_id=song_0012 id=12 -> existiert bereits (question-song_0012-12.mp3)
+[SKIP] image_id=song_0012 id=13 -> existiert bereits (question-song_0012-13.mp3)
+[SKIP] image_id=song_0012 id=14 -> existiert bereits (question-song_0012-14.mp3)
+[SKIP] image_id=song_0012 id=15 -> existiert bereits (question-song_0012-15.mp3)
+[SKIP] image_id=song_0004 id=1 -> existiert bereits (question-song_0004-1.mp3)
+[SKIP] image_id=song_0004 id=2 -> existiert bereits (question-song_0004-2.mp3)
+[SKIP] image_id=song_0004 id=4 -> existiert bereits (question-song_0004-4.mp3)
+[SKIP] image_id=song_0004 id=5 -> existiert bereits (question-song_0004-5.mp3)
+[SKIP] image_id=song_0004 id=6 -> existiert bereits (question-song_0004-6.mp3)
+[SKIP] image_id=song_0004 id=7 -> existiert bereits (question-song_0004-7.mp3)
+[SKIP] image_id=song_0004 id=8 -> existiert bereits (question-song_0004-8.mp3)
+[SKIP] image_id=song_0004 id=9 -> existiert bereits (question-song_0004-9.mp3)
+[SKIP] image_id=song_0004 id=10 -> existiert bereits (question-song_0004-10.mp3)
+[SKIP] image_id=song_0004 id=11 -> existiert bereits (question-song_0004-11.mp3)
+[SKIP] image_id=song_0004 id=12 -> existiert bereits (question-song_0004-12.mp3)
+[SKIP] image_id=song_0004 id=13 -> existiert bereits (question-song_0004-13.mp3)
+[SKIP] image_id=song_0004 id=14 -> existiert bereits (question-song_0004-14.mp3)
+[SKIP] image_id=song_0004 id=15 -> existiert bereits (question-song_0004-15.mp3)
+[SKIP] image_id=song_0004 id=3 -> existiert bereits (question-song_0004-3.mp3)
+[JSON] image_id=song_0013 id=1 audio gesetzt -> question-song_0013-1.mp3
+[GEN ] image_id=song_0013 id=1 -> question-song_0013-1.mp3
+[OK  ] image_id=song_0013 id=1 -> erzeugt
+[JSON] image_id=song_0013 id=2 audio gesetzt -> question-song_0013-2.mp3
+[GEN ] image_id=song_0013 id=2 -> question-song_0013-2.mp3
+[OK  ] image_id=song_0013 id=2 -> erzeugt
+[JSON] image_id=song_0013 id=3 audio gesetzt -> question-song_0013-3.mp3
+[GEN ] image_id=song_0013 id=3 -> question-song_0013-3.mp3
+[OK  ] image_id=song_0013 id=3 -> erzeugt
+[JSON] image_id=song_0013 id=4 audio gesetzt -> question-song_0013-4.mp3
+[GEN ] image_id=song_0013 id=4 -> question-song_0013-4.mp3
+[OK  ] image_id=song_0013 id=4 -> erzeugt
+[JSON] image_id=song_0013 id=5 audio gesetzt -> question-song_0013-5.mp3
+[GEN ] image_id=song_0013 id=5 -> question-song_0013-5.mp3
+[OK  ] image_id=song_0013 id=5 -> erzeugt
+[JSON] image_id=song_0013 id=6 audio gesetzt -> question-song_0013-6.mp3
+[GEN ] image_id=song_0013 id=6 -> question-song_0013-6.mp3
+[OK  ] image_id=song_0013 id=6 -> erzeugt
+[JSON] image_id=song_0013 id=7 audio gesetzt -> question-song_0013-7.mp3
+[GEN ] image_id=song_0013 id=7 -> question-song_0013-7.mp3
+[OK  ] image_id=song_0013 id=7 -> erzeugt
+[JSON] image_id=song_0013 id=8 audio gesetzt -> question-song_0013-8.mp3
+[GEN ] image_id=song_0013 id=8 -> question-song_0013-8.mp3
+[OK  ] image_id=song_0013 id=8 -> erzeugt
+[JSON] image_id=song_0013 id=9 audio gesetzt -> question-song_0013-9.mp3
+[GEN ] image_id=song_0013 id=9 -> question-song_0013-9.mp3
+[OK  ] image_id=song_0013 id=9 -> erzeugt
+[JSON] image_id=song_0013 id=10 audio gesetzt -> question-song_0013-10.mp3
+[GEN ] image_id=song_0013 id=10 -> question-song_0013-10.mp3
+[OK  ] image_id=song_0013 id=10 -> erzeugt
+[JSON] image_id=song_0013 id=11 audio gesetzt -> question-song_0013-11.mp3
+[GEN ] image_id=song_0013 id=11 -> question-song_0013-11.mp3
+[OK  ] image_id=song_0013 id=11 -> erzeugt
+[JSON] image_id=song_0013 id=12 audio gesetzt -> question-song_0013-12.mp3
+[GEN ] image_id=song_0013 id=12 -> question-song_0013-12.mp3
+[OK  ] image_id=song_0013 id=12 -> erzeugt
+[JSON] image_id=song_0013 id=13 audio gesetzt -> question-song_0013-13.mp3
+[GEN ] image_id=song_0013 id=13 -> question-song_0013-13.mp3
+[OK  ] image_id=song_0013 id=13 -> erzeugt
+[JSON] image_id=song_0013 id=14 audio gesetzt -> question-song_0013-14.mp3
+[GEN ] image_id=song_0013 id=14 -> question-song_0013-14.mp3
+[OK  ] image_id=song_0013 id=14 -> erzeugt
+[JSON] image_id=song_0013 id=15 audio gesetzt -> question-song_0013-15.mp3
+[GEN ] image_id=song_0013 id=15 -> question-song_0013-15.mp3
+[OK  ] image_id=song_0013 id=15 -> erzeugt
+------------------------------------------------------------
+[2026-04-22 13:40:50] ENDE
+fragen gesehen: 193
+produziert:    15
+übersprungen:  178
+fehler:        0
+json-updates:  15
+mp3 im Ordner: 193
+============================================================
+
+============================================================
+[2026-04-22 13:42:12] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/soundmemory/media/audio
+Questions:     /home/aleranzer/quizshark/soundmemory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=song_0005 id=1 -> existiert bereits (question-song_0005-1.mp3)
+[SKIP] image_id=song_0005 id=3 -> existiert bereits (question-song_0005-3.mp3)
+[SKIP] image_id=song_0005 id=4 -> existiert bereits (question-song_0005-4.mp3)
+[SKIP] image_id=song_0005 id=5 -> existiert bereits (question-song_0005-5.mp3)
+[SKIP] image_id=song_0005 id=6 -> existiert bereits (question-song_0005-6.mp3)
+[SKIP] image_id=song_0005 id=7 -> existiert bereits (question-song_0005-7.mp3)
+[SKIP] image_id=song_0005 id=8 -> existiert bereits (question-song_0005-8.mp3)
+[SKIP] image_id=song_0005 id=9 -> existiert bereits (question-song_0005-9.mp3)
+[SKIP] image_id=song_0005 id=10 -> existiert bereits (question-song_0005-10.mp3)
+[SKIP] image_id=song_0005 id=11 -> existiert bereits (question-song_0005-11.mp3)
+[SKIP] image_id=song_0005 id=12 -> existiert bereits (question-song_0005-12.mp3)
+[SKIP] image_id=song_0005 id=13 -> existiert bereits (question-song_0005-13.mp3)
+[SKIP] image_id=song_0005 id=14 -> existiert bereits (question-song_0005-14.mp3)
+[SKIP] image_id=song_0005 id=15 -> existiert bereits (question-song_0005-15.mp3)
+[SKIP] image_id=song_0005 id=2 -> existiert bereits (question-song_0005-2.mp3)
+[SKIP] image_id=song_0007 id=1 -> existiert bereits (question-song_0007-1.mp3)
+[SKIP] image_id=song_0007 id=2 -> existiert bereits (question-song_0007-2.mp3)
+[SKIP] image_id=song_0007 id=3 -> existiert bereits (question-song_0007-3.mp3)
+[SKIP] image_id=song_0007 id=4 -> existiert bereits (question-song_0007-4.mp3)
+[SKIP] image_id=song_0007 id=5 -> existiert bereits (question-song_0007-5.mp3)
+[SKIP] image_id=song_0007 id=6 -> existiert bereits (question-song_0007-6.mp3)
+[SKIP] image_id=song_0007 id=7 -> existiert bereits (question-song_0007-7.mp3)
+[SKIP] image_id=song_0007 id=8 -> existiert bereits (question-song_0007-8.mp3)
+[SKIP] image_id=song_0007 id=9 -> existiert bereits (question-song_0007-9.mp3)
+[SKIP] image_id=song_0007 id=10 -> existiert bereits (question-song_0007-10.mp3)
+[SKIP] image_id=song_0007 id=11 -> existiert bereits (question-song_0007-11.mp3)
+[SKIP] image_id=song_0007 id=12 -> existiert bereits (question-song_0007-12.mp3)
+[SKIP] image_id=song_0007 id=13 -> existiert bereits (question-song_0007-13.mp3)
+[SKIP] image_id=song_0007 id=14 -> existiert bereits (question-song_0007-14.mp3)
+[SKIP] image_id=song_0007 id=15 -> existiert bereits (question-song_0007-15.mp3)
+[SKIP] image_id=song_0006 id=1 -> existiert bereits (question-song_0006-1.mp3)
+[SKIP] image_id=song_0006 id=2 -> existiert bereits (question-song_0006-2.mp3)
+[SKIP] image_id=song_0006 id=3 -> existiert bereits (question-song_0006-3.mp3)
+[SKIP] image_id=song_0006 id=4 -> existiert bereits (question-song_0006-4.mp3)
+[SKIP] image_id=song_0006 id=5 -> existiert bereits (question-song_0006-5.mp3)
+[SKIP] image_id=song_0006 id=6 -> existiert bereits (question-song_0006-6.mp3)
+[SKIP] image_id=song_0006 id=7 -> existiert bereits (question-song_0006-7.mp3)
+[SKIP] image_id=song_0006 id=8 -> existiert bereits (question-song_0006-8.mp3)
+[SKIP] image_id=song_0006 id=9 -> existiert bereits (question-song_0006-9.mp3)
+[SKIP] image_id=song_0006 id=10 -> existiert bereits (question-song_0006-10.mp3)
+[SKIP] image_id=song_0006 id=11 -> existiert bereits (question-song_0006-11.mp3)
+[SKIP] image_id=song_0006 id=12 -> existiert bereits (question-song_0006-12.mp3)
+[SKIP] image_id=song_0006 id=13 -> existiert bereits (question-song_0006-13.mp3)
+[SKIP] image_id=song_0006 id=14 -> existiert bereits (question-song_0006-14.mp3)
+[SKIP] image_id=song_0006 id=15 -> existiert bereits (question-song_0006-15.mp3)
+[SKIP] image_id=song_0008 id=1 -> existiert bereits (question-song_0008-1.mp3)
+[SKIP] image_id=song_0008 id=2 -> existiert bereits (question-song_0008-2.mp3)
+[SKIP] image_id=song_0008 id=3 -> existiert bereits (question-song_0008-3.mp3)
+[SKIP] image_id=song_0008 id=4 -> existiert bereits (question-song_0008-4.mp3)
+[SKIP] image_id=song_0008 id=5 -> existiert bereits (question-song_0008-5.mp3)
+[SKIP] image_id=song_0008 id=6 -> existiert bereits (question-song_0008-6.mp3)
+[SKIP] image_id=song_0008 id=7 -> existiert bereits (question-song_0008-7.mp3)
+[SKIP] image_id=song_0008 id=8 -> existiert bereits (question-song_0008-8.mp3)
+[SKIP] image_id=song_0008 id=9 -> existiert bereits (question-song_0008-9.mp3)
+[SKIP] image_id=song_0008 id=10 -> existiert bereits (question-song_0008-10.mp3)
+[SKIP] image_id=song_0008 id=11 -> existiert bereits (question-song_0008-11.mp3)
+[SKIP] image_id=song_0008 id=12 -> existiert bereits (question-song_0008-12.mp3)
+[SKIP] image_id=song_0008 id=13 -> existiert bereits (question-song_0008-13.mp3)
+[SKIP] image_id=song_0008 id=14 -> existiert bereits (question-song_0008-14.mp3)
+[SKIP] image_id=song_0010 id=1 -> existiert bereits (question-song_0010-1.mp3)
+[SKIP] image_id=song_0010 id=2 -> existiert bereits (question-song_0010-2.mp3)
+[SKIP] image_id=song_0010 id=3 -> existiert bereits (question-song_0010-3.mp3)
+[SKIP] image_id=song_0010 id=4 -> existiert bereits (question-song_0010-4.mp3)
+[SKIP] image_id=song_0010 id=5 -> existiert bereits (question-song_0010-5.mp3)
+[SKIP] image_id=song_0010 id=6 -> existiert bereits (question-song_0010-6.mp3)
+[SKIP] image_id=song_0010 id=7 -> existiert bereits (question-song_0010-7.mp3)
+[SKIP] image_id=song_0010 id=8 -> existiert bereits (question-song_0010-8.mp3)
+[SKIP] image_id=song_0010 id=9 -> existiert bereits (question-song_0010-9.mp3)
+[SKIP] image_id=song_0010 id=10 -> existiert bereits (question-song_0010-10.mp3)
+[SKIP] image_id=song_0010 id=11 -> existiert bereits (question-song_0010-11.mp3)
+[SKIP] image_id=song_0010 id=12 -> existiert bereits (question-song_0010-12.mp3)
+[SKIP] image_id=song_0010 id=13 -> existiert bereits (question-song_0010-13.mp3)
+[SKIP] image_id=song_0010 id=14 -> existiert bereits (question-song_0010-14.mp3)
+[SKIP] image_id=song_0010 id=15 -> existiert bereits (question-song_0010-15.mp3)
+[SKIP] image_id=song_0009 id=1 -> existiert bereits (question-song_0009-1.mp3)
+[SKIP] image_id=song_0009 id=2 -> existiert bereits (question-song_0009-2.mp3)
+[SKIP] image_id=song_0009 id=3 -> existiert bereits (question-song_0009-3.mp3)
+[SKIP] image_id=song_0009 id=4 -> existiert bereits (question-song_0009-4.mp3)
+[SKIP] image_id=song_0009 id=5 -> existiert bereits (question-song_0009-5.mp3)
+[SKIP] image_id=song_0009 id=6 -> existiert bereits (question-song_0009-6.mp3)
+[SKIP] image_id=song_0009 id=7 -> existiert bereits (question-song_0009-7.mp3)
+[SKIP] image_id=song_0009 id=8 -> existiert bereits (question-song_0009-8.mp3)
+[SKIP] image_id=song_0009 id=9 -> existiert bereits (question-song_0009-9.mp3)
+[SKIP] image_id=song_0009 id=10 -> existiert bereits (question-song_0009-10.mp3)
+[SKIP] image_id=song_0009 id=11 -> existiert bereits (question-song_0009-11.mp3)
+[SKIP] image_id=song_0009 id=12 -> existiert bereits (question-song_0009-12.mp3)
+[SKIP] image_id=song_0009 id=13 -> existiert bereits (question-song_0009-13.mp3)
+[SKIP] image_id=song_0009 id=14 -> existiert bereits (question-song_0009-14.mp3)
+[SKIP] image_id=song_0009 id=15 -> existiert bereits (question-song_0009-15.mp3)
+[SKIP] image_id=song_0011 id=1 -> existiert bereits (question-song_0011-1.mp3)
+[SKIP] image_id=song_0011 id=2 -> existiert bereits (question-song_0011-2.mp3)
+[SKIP] image_id=song_0011 id=3 -> existiert bereits (question-song_0011-3.mp3)
+[SKIP] image_id=song_0011 id=4 -> existiert bereits (question-song_0011-4.mp3)
+[SKIP] image_id=song_0011 id=5 -> existiert bereits (question-song_0011-5.mp3)
+[SKIP] image_id=song_0011 id=6 -> existiert bereits (question-song_0011-6.mp3)
+[SKIP] image_id=song_0011 id=7 -> existiert bereits (question-song_0011-7.mp3)
+[SKIP] image_id=song_0011 id=8 -> existiert bereits (question-song_0011-8.mp3)
+[SKIP] image_id=song_0011 id=9 -> existiert bereits (question-song_0011-9.mp3)
+[SKIP] image_id=song_0011 id=10 -> existiert bereits (question-song_0011-10.mp3)
+[SKIP] image_id=song_0011 id=11 -> existiert bereits (question-song_0011-11.mp3)
+[SKIP] image_id=song_0011 id=12 -> existiert bereits (question-song_0011-12.mp3)
+[SKIP] image_id=song_0011 id=13 -> existiert bereits (question-song_0011-13.mp3)
+[SKIP] image_id=song_0011 id=14 -> existiert bereits (question-song_0011-14.mp3)
+[SKIP] image_id=song_0011 id=15 -> existiert bereits (question-song_0011-15.mp3)
+[SKIP] image_id=song_0002 id=1 -> existiert bereits (question-song_0002-1.mp3)
+[SKIP] image_id=song_0002 id=3 -> existiert bereits (question-song_0002-3.mp3)
+[SKIP] image_id=song_0002 id=4 -> existiert bereits (question-song_0002-4.mp3)
+[SKIP] image_id=song_0002 id=5 -> existiert bereits (question-song_0002-5.mp3)
+[SKIP] image_id=song_0002 id=6 -> existiert bereits (question-song_0002-6.mp3)
+[SKIP] image_id=song_0002 id=7 -> existiert bereits (question-song_0002-7.mp3)
+[SKIP] image_id=song_0002 id=8 -> existiert bereits (question-song_0002-8.mp3)
+[SKIP] image_id=song_0002 id=9 -> existiert bereits (question-song_0002-9.mp3)
+[SKIP] image_id=song_0002 id=10 -> existiert bereits (question-song_0002-10.mp3)
+[SKIP] image_id=song_0002 id=11 -> existiert bereits (question-song_0002-11.mp3)
+[SKIP] image_id=song_0002 id=12 -> existiert bereits (question-song_0002-12.mp3)
+[SKIP] image_id=song_0002 id=13 -> existiert bereits (question-song_0002-13.mp3)
+[SKIP] image_id=song_0002 id=14 -> existiert bereits (question-song_0002-14.mp3)
+[SKIP] image_id=song_0002 id=15 -> existiert bereits (question-song_0002-15.mp3)
+[SKIP] image_id=song_0002 id=2 -> existiert bereits (question-song_0002-2.mp3)
+[SKIP] image_id=song_0001 id=1 -> existiert bereits (question-song_0001-1.mp3)
+[SKIP] image_id=song_0001 id=2 -> existiert bereits (question-song_0001-2.mp3)
+[SKIP] image_id=song_0001 id=4 -> existiert bereits (question-song_0001-4.mp3)
+[SKIP] image_id=song_0001 id=5 -> existiert bereits (question-song_0001-5.mp3)
+[SKIP] image_id=song_0001 id=6 -> existiert bereits (question-song_0001-6.mp3)
+[SKIP] image_id=song_0001 id=7 -> existiert bereits (question-song_0001-7.mp3)
+[SKIP] image_id=song_0001 id=8 -> existiert bereits (question-song_0001-8.mp3)
+[SKIP] image_id=song_0001 id=9 -> existiert bereits (question-song_0001-9.mp3)
+[SKIP] image_id=song_0001 id=10 -> existiert bereits (question-song_0001-10.mp3)
+[SKIP] image_id=song_0001 id=11 -> existiert bereits (question-song_0001-11.mp3)
+[SKIP] image_id=song_0001 id=12 -> existiert bereits (question-song_0001-12.mp3)
+[SKIP] image_id=song_0001 id=13 -> existiert bereits (question-song_0001-13.mp3)
+[SKIP] image_id=song_0001 id=14 -> existiert bereits (question-song_0001-14.mp3)
+[SKIP] image_id=song_0001 id=3 -> existiert bereits (question-song_0001-3.mp3)
+[SKIP] image_id=song_0003 id=1 -> existiert bereits (question-song_0003-1.mp3)
+[SKIP] image_id=song_0003 id=3 -> existiert bereits (question-song_0003-3.mp3)
+[SKIP] image_id=song_0003 id=4 -> existiert bereits (question-song_0003-4.mp3)
+[SKIP] image_id=song_0003 id=5 -> existiert bereits (question-song_0003-5.mp3)
+[SKIP] image_id=song_0003 id=6 -> existiert bereits (question-song_0003-6.mp3)
+[SKIP] image_id=song_0003 id=7 -> existiert bereits (question-song_0003-7.mp3)
+[SKIP] image_id=song_0003 id=8 -> existiert bereits (question-song_0003-8.mp3)
+[SKIP] image_id=song_0003 id=9 -> existiert bereits (question-song_0003-9.mp3)
+[SKIP] image_id=song_0003 id=10 -> existiert bereits (question-song_0003-10.mp3)
+[SKIP] image_id=song_0003 id=11 -> existiert bereits (question-song_0003-11.mp3)
+[SKIP] image_id=song_0003 id=12 -> existiert bereits (question-song_0003-12.mp3)
+[SKIP] image_id=song_0003 id=13 -> existiert bereits (question-song_0003-13.mp3)
+[SKIP] image_id=song_0003 id=14 -> existiert bereits (question-song_0003-14.mp3)
+[SKIP] image_id=song_0003 id=15 -> existiert bereits (question-song_0003-15.mp3)
+[SKIP] image_id=song_0003 id=2 -> existiert bereits (question-song_0003-2.mp3)
+[SKIP] image_id=song_0012 id=1 -> existiert bereits (question-song_0012-1.mp3)
+[SKIP] image_id=song_0012 id=2 -> existiert bereits (question-song_0012-2.mp3)
+[SKIP] image_id=song_0012 id=3 -> existiert bereits (question-song_0012-3.mp3)
+[SKIP] image_id=song_0012 id=4 -> existiert bereits (question-song_0012-4.mp3)
+[SKIP] image_id=song_0012 id=5 -> existiert bereits (question-song_0012-5.mp3)
+[SKIP] image_id=song_0012 id=6 -> existiert bereits (question-song_0012-6.mp3)
+[SKIP] image_id=song_0012 id=7 -> existiert bereits (question-song_0012-7.mp3)
+[SKIP] image_id=song_0012 id=8 -> existiert bereits (question-song_0012-8.mp3)
+[SKIP] image_id=song_0012 id=9 -> existiert bereits (question-song_0012-9.mp3)
+[SKIP] image_id=song_0012 id=10 -> existiert bereits (question-song_0012-10.mp3)
+[SKIP] image_id=song_0012 id=11 -> existiert bereits (question-song_0012-11.mp3)
+[SKIP] image_id=song_0012 id=12 -> existiert bereits (question-song_0012-12.mp3)
+[SKIP] image_id=song_0012 id=13 -> existiert bereits (question-song_0012-13.mp3)
+[SKIP] image_id=song_0012 id=14 -> existiert bereits (question-song_0012-14.mp3)
+[SKIP] image_id=song_0012 id=15 -> existiert bereits (question-song_0012-15.mp3)
+[SKIP] image_id=song_0004 id=1 -> existiert bereits (question-song_0004-1.mp3)
+[SKIP] image_id=song_0004 id=2 -> existiert bereits (question-song_0004-2.mp3)
+[SKIP] image_id=song_0004 id=4 -> existiert bereits (question-song_0004-4.mp3)
+[SKIP] image_id=song_0004 id=5 -> existiert bereits (question-song_0004-5.mp3)
+[SKIP] image_id=song_0004 id=6 -> existiert bereits (question-song_0004-6.mp3)
+[SKIP] image_id=song_0004 id=7 -> existiert bereits (question-song_0004-7.mp3)
+[SKIP] image_id=song_0004 id=8 -> existiert bereits (question-song_0004-8.mp3)
+[SKIP] image_id=song_0004 id=9 -> existiert bereits (question-song_0004-9.mp3)
+[SKIP] image_id=song_0004 id=10 -> existiert bereits (question-song_0004-10.mp3)
+[SKIP] image_id=song_0004 id=11 -> existiert bereits (question-song_0004-11.mp3)
+[SKIP] image_id=song_0004 id=12 -> existiert bereits (question-song_0004-12.mp3)
+[SKIP] image_id=song_0004 id=13 -> existiert bereits (question-song_0004-13.mp3)
+[SKIP] image_id=song_0004 id=14 -> existiert bereits (question-song_0004-14.mp3)
+[SKIP] image_id=song_0004 id=15 -> existiert bereits (question-song_0004-15.mp3)
+[SKIP] image_id=song_0004 id=3 -> existiert bereits (question-song_0004-3.mp3)
+[SKIP] image_id=song_0013 id=1 -> existiert bereits (question-song_0013-1.mp3)
+[SKIP] image_id=song_0013 id=2 -> existiert bereits (question-song_0013-2.mp3)
+[SKIP] image_id=song_0013 id=3 -> existiert bereits (question-song_0013-3.mp3)
+[SKIP] image_id=song_0013 id=4 -> existiert bereits (question-song_0013-4.mp3)
+[SKIP] image_id=song_0013 id=5 -> existiert bereits (question-song_0013-5.mp3)
+[SKIP] image_id=song_0013 id=6 -> existiert bereits (question-song_0013-6.mp3)
+[SKIP] image_id=song_0013 id=7 -> existiert bereits (question-song_0013-7.mp3)
+[SKIP] image_id=song_0013 id=8 -> existiert bereits (question-song_0013-8.mp3)
+[SKIP] image_id=song_0013 id=9 -> existiert bereits (question-song_0013-9.mp3)
+[SKIP] image_id=song_0013 id=10 -> existiert bereits (question-song_0013-10.mp3)
+[SKIP] image_id=song_0013 id=11 -> existiert bereits (question-song_0013-11.mp3)
+[SKIP] image_id=song_0013 id=12 -> existiert bereits (question-song_0013-12.mp3)
+[SKIP] image_id=song_0013 id=13 -> existiert bereits (question-song_0013-13.mp3)
+[SKIP] image_id=song_0013 id=14 -> existiert bereits (question-song_0013-14.mp3)
+[SKIP] image_id=song_0013 id=15 -> existiert bereits (question-song_0013-15.mp3)
+[JSON] image_id=song_0014 id=1 audio gesetzt -> question-song_0014-1.mp3
+[GEN ] image_id=song_0014 id=1 -> question-song_0014-1.mp3
+[OK  ] image_id=song_0014 id=1 -> erzeugt
+[JSON] image_id=song_0014 id=2 audio gesetzt -> question-song_0014-2.mp3
+[GEN ] image_id=song_0014 id=2 -> question-song_0014-2.mp3
+[OK  ] image_id=song_0014 id=2 -> erzeugt
+[JSON] image_id=song_0014 id=3 audio gesetzt -> question-song_0014-3.mp3
+[GEN ] image_id=song_0014 id=3 -> question-song_0014-3.mp3
+[OK  ] image_id=song_0014 id=3 -> erzeugt
+[JSON] image_id=song_0014 id=4 audio gesetzt -> question-song_0014-4.mp3
+[GEN ] image_id=song_0014 id=4 -> question-song_0014-4.mp3
+[OK  ] image_id=song_0014 id=4 -> erzeugt
+[JSON] image_id=song_0014 id=5 audio gesetzt -> question-song_0014-5.mp3
+[GEN ] image_id=song_0014 id=5 -> question-song_0014-5.mp3
+[OK  ] image_id=song_0014 id=5 -> erzeugt
+[JSON] image_id=song_0014 id=6 audio gesetzt -> question-song_0014-6.mp3
+[GEN ] image_id=song_0014 id=6 -> question-song_0014-6.mp3
+[OK  ] image_id=song_0014 id=6 -> erzeugt
+[JSON] image_id=song_0014 id=7 audio gesetzt -> question-song_0014-7.mp3
+[GEN ] image_id=song_0014 id=7 -> question-song_0014-7.mp3
+[OK  ] image_id=song_0014 id=7 -> erzeugt
+[JSON] image_id=song_0014 id=8 audio gesetzt -> question-song_0014-8.mp3
+[GEN ] image_id=song_0014 id=8 -> question-song_0014-8.mp3
+[OK  ] image_id=song_0014 id=8 -> erzeugt
+[JSON] image_id=song_0014 id=9 audio gesetzt -> question-song_0014-9.mp3
+[GEN ] image_id=song_0014 id=9 -> question-song_0014-9.mp3
+[OK  ] image_id=song_0014 id=9 -> erzeugt
+[JSON] image_id=song_0014 id=10 audio gesetzt -> question-song_0014-10.mp3
+[GEN ] image_id=song_0014 id=10 -> question-song_0014-10.mp3
+[OK  ] image_id=song_0014 id=10 -> erzeugt
+[JSON] image_id=song_0014 id=11 audio gesetzt -> question-song_0014-11.mp3
+[GEN ] image_id=song_0014 id=11 -> question-song_0014-11.mp3
+[OK  ] image_id=song_0014 id=11 -> erzeugt
+[JSON] image_id=song_0014 id=12 audio gesetzt -> question-song_0014-12.mp3
+[GEN ] image_id=song_0014 id=12 -> question-song_0014-12.mp3
+[OK  ] image_id=song_0014 id=12 -> erzeugt
+[JSON] image_id=song_0014 id=13 audio gesetzt -> question-song_0014-13.mp3
+[GEN ] image_id=song_0014 id=13 -> question-song_0014-13.mp3
+[OK  ] image_id=song_0014 id=13 -> erzeugt
+[JSON] image_id=song_0014 id=14 audio gesetzt -> question-song_0014-14.mp3
+[GEN ] image_id=song_0014 id=14 -> question-song_0014-14.mp3
+[OK  ] image_id=song_0014 id=14 -> erzeugt
+[JSON] image_id=song_0014 id=15 audio gesetzt -> question-song_0014-15.mp3
+[GEN ] image_id=song_0014 id=15 -> question-song_0014-15.mp3
+[OK  ] image_id=song_0014 id=15 -> erzeugt
+------------------------------------------------------------
+[2026-04-22 13:42:35] ENDE
+fragen gesehen: 208
+produziert:    15
+übersprungen:  193
+fehler:        0
+json-updates:  15
+mp3 im Ordner: 208
+============================================================
+
+============================================================
+[2026-04-22 13:44:22] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/soundmemory/media/audio
+Questions:     /home/aleranzer/quizshark/soundmemory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=song_0005 id=1 -> existiert bereits (question-song_0005-1.mp3)
+[SKIP] image_id=song_0005 id=3 -> existiert bereits (question-song_0005-3.mp3)
+[SKIP] image_id=song_0005 id=4 -> existiert bereits (question-song_0005-4.mp3)
+[SKIP] image_id=song_0005 id=5 -> existiert bereits (question-song_0005-5.mp3)
+[SKIP] image_id=song_0005 id=6 -> existiert bereits (question-song_0005-6.mp3)
+[SKIP] image_id=song_0005 id=7 -> existiert bereits (question-song_0005-7.mp3)
+[SKIP] image_id=song_0005 id=8 -> existiert bereits (question-song_0005-8.mp3)
+[SKIP] image_id=song_0005 id=9 -> existiert bereits (question-song_0005-9.mp3)
+[SKIP] image_id=song_0005 id=10 -> existiert bereits (question-song_0005-10.mp3)
+[SKIP] image_id=song_0005 id=11 -> existiert bereits (question-song_0005-11.mp3)
+[SKIP] image_id=song_0005 id=12 -> existiert bereits (question-song_0005-12.mp3)
+[SKIP] image_id=song_0005 id=13 -> existiert bereits (question-song_0005-13.mp3)
+[SKIP] image_id=song_0005 id=14 -> existiert bereits (question-song_0005-14.mp3)
+[SKIP] image_id=song_0005 id=15 -> existiert bereits (question-song_0005-15.mp3)
+[SKIP] image_id=song_0005 id=2 -> existiert bereits (question-song_0005-2.mp3)
+[SKIP] image_id=song_0007 id=1 -> existiert bereits (question-song_0007-1.mp3)
+[SKIP] image_id=song_0007 id=2 -> existiert bereits (question-song_0007-2.mp3)
+[SKIP] image_id=song_0007 id=3 -> existiert bereits (question-song_0007-3.mp3)
+[SKIP] image_id=song_0007 id=4 -> existiert bereits (question-song_0007-4.mp3)
+[SKIP] image_id=song_0007 id=5 -> existiert bereits (question-song_0007-5.mp3)
+[SKIP] image_id=song_0007 id=6 -> existiert bereits (question-song_0007-6.mp3)
+[SKIP] image_id=song_0007 id=7 -> existiert bereits (question-song_0007-7.mp3)
+[SKIP] image_id=song_0007 id=8 -> existiert bereits (question-song_0007-8.mp3)
+[SKIP] image_id=song_0007 id=9 -> existiert bereits (question-song_0007-9.mp3)
+[SKIP] image_id=song_0007 id=10 -> existiert bereits (question-song_0007-10.mp3)
+[SKIP] image_id=song_0007 id=11 -> existiert bereits (question-song_0007-11.mp3)
+[SKIP] image_id=song_0007 id=12 -> existiert bereits (question-song_0007-12.mp3)
+[SKIP] image_id=song_0007 id=13 -> existiert bereits (question-song_0007-13.mp3)
+[SKIP] image_id=song_0007 id=14 -> existiert bereits (question-song_0007-14.mp3)
+[SKIP] image_id=song_0007 id=15 -> existiert bereits (question-song_0007-15.mp3)
+[SKIP] image_id=song_0006 id=1 -> existiert bereits (question-song_0006-1.mp3)
+[SKIP] image_id=song_0006 id=2 -> existiert bereits (question-song_0006-2.mp3)
+[SKIP] image_id=song_0006 id=3 -> existiert bereits (question-song_0006-3.mp3)
+[SKIP] image_id=song_0006 id=4 -> existiert bereits (question-song_0006-4.mp3)
+[SKIP] image_id=song_0006 id=5 -> existiert bereits (question-song_0006-5.mp3)
+[SKIP] image_id=song_0006 id=6 -> existiert bereits (question-song_0006-6.mp3)
+[SKIP] image_id=song_0006 id=7 -> existiert bereits (question-song_0006-7.mp3)
+[SKIP] image_id=song_0006 id=8 -> existiert bereits (question-song_0006-8.mp3)
+[SKIP] image_id=song_0006 id=9 -> existiert bereits (question-song_0006-9.mp3)
+[SKIP] image_id=song_0006 id=10 -> existiert bereits (question-song_0006-10.mp3)
+[SKIP] image_id=song_0006 id=11 -> existiert bereits (question-song_0006-11.mp3)
+[SKIP] image_id=song_0006 id=12 -> existiert bereits (question-song_0006-12.mp3)
+[SKIP] image_id=song_0006 id=13 -> existiert bereits (question-song_0006-13.mp3)
+[SKIP] image_id=song_0006 id=14 -> existiert bereits (question-song_0006-14.mp3)
+[SKIP] image_id=song_0006 id=15 -> existiert bereits (question-song_0006-15.mp3)
+[SKIP] image_id=song_0008 id=1 -> existiert bereits (question-song_0008-1.mp3)
+[SKIP] image_id=song_0008 id=2 -> existiert bereits (question-song_0008-2.mp3)
+[SKIP] image_id=song_0008 id=3 -> existiert bereits (question-song_0008-3.mp3)
+[SKIP] image_id=song_0008 id=4 -> existiert bereits (question-song_0008-4.mp3)
+[SKIP] image_id=song_0008 id=5 -> existiert bereits (question-song_0008-5.mp3)
+[SKIP] image_id=song_0008 id=6 -> existiert bereits (question-song_0008-6.mp3)
+[SKIP] image_id=song_0008 id=7 -> existiert bereits (question-song_0008-7.mp3)
+[SKIP] image_id=song_0008 id=8 -> existiert bereits (question-song_0008-8.mp3)
+[SKIP] image_id=song_0008 id=9 -> existiert bereits (question-song_0008-9.mp3)
+[SKIP] image_id=song_0008 id=10 -> existiert bereits (question-song_0008-10.mp3)
+[SKIP] image_id=song_0008 id=11 -> existiert bereits (question-song_0008-11.mp3)
+[SKIP] image_id=song_0008 id=12 -> existiert bereits (question-song_0008-12.mp3)
+[SKIP] image_id=song_0008 id=13 -> existiert bereits (question-song_0008-13.mp3)
+[SKIP] image_id=song_0008 id=14 -> existiert bereits (question-song_0008-14.mp3)
+[SKIP] image_id=song_0010 id=1 -> existiert bereits (question-song_0010-1.mp3)
+[SKIP] image_id=song_0010 id=2 -> existiert bereits (question-song_0010-2.mp3)
+[SKIP] image_id=song_0010 id=3 -> existiert bereits (question-song_0010-3.mp3)
+[SKIP] image_id=song_0010 id=4 -> existiert bereits (question-song_0010-4.mp3)
+[SKIP] image_id=song_0010 id=5 -> existiert bereits (question-song_0010-5.mp3)
+[SKIP] image_id=song_0010 id=6 -> existiert bereits (question-song_0010-6.mp3)
+[SKIP] image_id=song_0010 id=7 -> existiert bereits (question-song_0010-7.mp3)
+[SKIP] image_id=song_0010 id=8 -> existiert bereits (question-song_0010-8.mp3)
+[SKIP] image_id=song_0010 id=9 -> existiert bereits (question-song_0010-9.mp3)
+[SKIP] image_id=song_0010 id=10 -> existiert bereits (question-song_0010-10.mp3)
+[SKIP] image_id=song_0010 id=11 -> existiert bereits (question-song_0010-11.mp3)
+[SKIP] image_id=song_0010 id=12 -> existiert bereits (question-song_0010-12.mp3)
+[SKIP] image_id=song_0010 id=13 -> existiert bereits (question-song_0010-13.mp3)
+[SKIP] image_id=song_0010 id=14 -> existiert bereits (question-song_0010-14.mp3)
+[SKIP] image_id=song_0010 id=15 -> existiert bereits (question-song_0010-15.mp3)
+[SKIP] image_id=song_0009 id=1 -> existiert bereits (question-song_0009-1.mp3)
+[SKIP] image_id=song_0009 id=2 -> existiert bereits (question-song_0009-2.mp3)
+[SKIP] image_id=song_0009 id=3 -> existiert bereits (question-song_0009-3.mp3)
+[SKIP] image_id=song_0009 id=4 -> existiert bereits (question-song_0009-4.mp3)
+[SKIP] image_id=song_0009 id=5 -> existiert bereits (question-song_0009-5.mp3)
+[SKIP] image_id=song_0009 id=6 -> existiert bereits (question-song_0009-6.mp3)
+[SKIP] image_id=song_0009 id=7 -> existiert bereits (question-song_0009-7.mp3)
+[SKIP] image_id=song_0009 id=8 -> existiert bereits (question-song_0009-8.mp3)
+[SKIP] image_id=song_0009 id=9 -> existiert bereits (question-song_0009-9.mp3)
+[SKIP] image_id=song_0009 id=10 -> existiert bereits (question-song_0009-10.mp3)
+[SKIP] image_id=song_0009 id=11 -> existiert bereits (question-song_0009-11.mp3)
+[SKIP] image_id=song_0009 id=12 -> existiert bereits (question-song_0009-12.mp3)
+[SKIP] image_id=song_0009 id=13 -> existiert bereits (question-song_0009-13.mp3)
+[SKIP] image_id=song_0009 id=14 -> existiert bereits (question-song_0009-14.mp3)
+[SKIP] image_id=song_0009 id=15 -> existiert bereits (question-song_0009-15.mp3)
+[SKIP] image_id=song_0011 id=1 -> existiert bereits (question-song_0011-1.mp3)
+[SKIP] image_id=song_0011 id=2 -> existiert bereits (question-song_0011-2.mp3)
+[SKIP] image_id=song_0011 id=3 -> existiert bereits (question-song_0011-3.mp3)
+[SKIP] image_id=song_0011 id=4 -> existiert bereits (question-song_0011-4.mp3)
+[SKIP] image_id=song_0011 id=5 -> existiert bereits (question-song_0011-5.mp3)
+[SKIP] image_id=song_0011 id=6 -> existiert bereits (question-song_0011-6.mp3)
+[SKIP] image_id=song_0011 id=7 -> existiert bereits (question-song_0011-7.mp3)
+[SKIP] image_id=song_0011 id=8 -> existiert bereits (question-song_0011-8.mp3)
+[SKIP] image_id=song_0011 id=9 -> existiert bereits (question-song_0011-9.mp3)
+[SKIP] image_id=song_0011 id=10 -> existiert bereits (question-song_0011-10.mp3)
+[SKIP] image_id=song_0011 id=11 -> existiert bereits (question-song_0011-11.mp3)
+[SKIP] image_id=song_0011 id=12 -> existiert bereits (question-song_0011-12.mp3)
+[SKIP] image_id=song_0011 id=13 -> existiert bereits (question-song_0011-13.mp3)
+[SKIP] image_id=song_0011 id=14 -> existiert bereits (question-song_0011-14.mp3)
+[SKIP] image_id=song_0011 id=15 -> existiert bereits (question-song_0011-15.mp3)
+[SKIP] image_id=song_0002 id=1 -> existiert bereits (question-song_0002-1.mp3)
+[SKIP] image_id=song_0002 id=3 -> existiert bereits (question-song_0002-3.mp3)
+[SKIP] image_id=song_0002 id=4 -> existiert bereits (question-song_0002-4.mp3)
+[SKIP] image_id=song_0002 id=5 -> existiert bereits (question-song_0002-5.mp3)
+[SKIP] image_id=song_0002 id=6 -> existiert bereits (question-song_0002-6.mp3)
+[SKIP] image_id=song_0002 id=7 -> existiert bereits (question-song_0002-7.mp3)
+[SKIP] image_id=song_0002 id=8 -> existiert bereits (question-song_0002-8.mp3)
+[SKIP] image_id=song_0002 id=9 -> existiert bereits (question-song_0002-9.mp3)
+[SKIP] image_id=song_0002 id=10 -> existiert bereits (question-song_0002-10.mp3)
+[SKIP] image_id=song_0002 id=11 -> existiert bereits (question-song_0002-11.mp3)
+[SKIP] image_id=song_0002 id=12 -> existiert bereits (question-song_0002-12.mp3)
+[SKIP] image_id=song_0002 id=13 -> existiert bereits (question-song_0002-13.mp3)
+[SKIP] image_id=song_0002 id=14 -> existiert bereits (question-song_0002-14.mp3)
+[SKIP] image_id=song_0002 id=15 -> existiert bereits (question-song_0002-15.mp3)
+[SKIP] image_id=song_0002 id=2 -> existiert bereits (question-song_0002-2.mp3)
+[SKIP] image_id=song_0001 id=1 -> existiert bereits (question-song_0001-1.mp3)
+[SKIP] image_id=song_0001 id=2 -> existiert bereits (question-song_0001-2.mp3)
+[SKIP] image_id=song_0001 id=4 -> existiert bereits (question-song_0001-4.mp3)
+[SKIP] image_id=song_0001 id=5 -> existiert bereits (question-song_0001-5.mp3)
+[SKIP] image_id=song_0001 id=6 -> existiert bereits (question-song_0001-6.mp3)
+[SKIP] image_id=song_0001 id=7 -> existiert bereits (question-song_0001-7.mp3)
+[SKIP] image_id=song_0001 id=8 -> existiert bereits (question-song_0001-8.mp3)
+[SKIP] image_id=song_0001 id=9 -> existiert bereits (question-song_0001-9.mp3)
+[SKIP] image_id=song_0001 id=10 -> existiert bereits (question-song_0001-10.mp3)
+[SKIP] image_id=song_0001 id=11 -> existiert bereits (question-song_0001-11.mp3)
+[SKIP] image_id=song_0001 id=12 -> existiert bereits (question-song_0001-12.mp3)
+[SKIP] image_id=song_0001 id=13 -> existiert bereits (question-song_0001-13.mp3)
+[SKIP] image_id=song_0001 id=14 -> existiert bereits (question-song_0001-14.mp3)
+[SKIP] image_id=song_0001 id=3 -> existiert bereits (question-song_0001-3.mp3)
+[SKIP] image_id=song_0003 id=1 -> existiert bereits (question-song_0003-1.mp3)
+[SKIP] image_id=song_0003 id=3 -> existiert bereits (question-song_0003-3.mp3)
+[SKIP] image_id=song_0003 id=4 -> existiert bereits (question-song_0003-4.mp3)
+[SKIP] image_id=song_0003 id=5 -> existiert bereits (question-song_0003-5.mp3)
+[SKIP] image_id=song_0003 id=6 -> existiert bereits (question-song_0003-6.mp3)
+[SKIP] image_id=song_0003 id=7 -> existiert bereits (question-song_0003-7.mp3)
+[SKIP] image_id=song_0003 id=8 -> existiert bereits (question-song_0003-8.mp3)
+[SKIP] image_id=song_0003 id=9 -> existiert bereits (question-song_0003-9.mp3)
+[SKIP] image_id=song_0003 id=10 -> existiert bereits (question-song_0003-10.mp3)
+[SKIP] image_id=song_0003 id=11 -> existiert bereits (question-song_0003-11.mp3)
+[SKIP] image_id=song_0003 id=12 -> existiert bereits (question-song_0003-12.mp3)
+[SKIP] image_id=song_0003 id=13 -> existiert bereits (question-song_0003-13.mp3)
+[SKIP] image_id=song_0003 id=14 -> existiert bereits (question-song_0003-14.mp3)
+[SKIP] image_id=song_0003 id=15 -> existiert bereits (question-song_0003-15.mp3)
+[SKIP] image_id=song_0003 id=2 -> existiert bereits (question-song_0003-2.mp3)
+[SKIP] image_id=song_0012 id=1 -> existiert bereits (question-song_0012-1.mp3)
+[SKIP] image_id=song_0012 id=2 -> existiert bereits (question-song_0012-2.mp3)
+[SKIP] image_id=song_0012 id=3 -> existiert bereits (question-song_0012-3.mp3)
+[SKIP] image_id=song_0012 id=4 -> existiert bereits (question-song_0012-4.mp3)
+[SKIP] image_id=song_0012 id=5 -> existiert bereits (question-song_0012-5.mp3)
+[SKIP] image_id=song_0012 id=6 -> existiert bereits (question-song_0012-6.mp3)
+[SKIP] image_id=song_0012 id=7 -> existiert bereits (question-song_0012-7.mp3)
+[SKIP] image_id=song_0012 id=8 -> existiert bereits (question-song_0012-8.mp3)
+[SKIP] image_id=song_0012 id=9 -> existiert bereits (question-song_0012-9.mp3)
+[SKIP] image_id=song_0012 id=10 -> existiert bereits (question-song_0012-10.mp3)
+[SKIP] image_id=song_0012 id=11 -> existiert bereits (question-song_0012-11.mp3)
+[SKIP] image_id=song_0012 id=12 -> existiert bereits (question-song_0012-12.mp3)
+[SKIP] image_id=song_0012 id=13 -> existiert bereits (question-song_0012-13.mp3)
+[SKIP] image_id=song_0012 id=14 -> existiert bereits (question-song_0012-14.mp3)
+[SKIP] image_id=song_0012 id=15 -> existiert bereits (question-song_0012-15.mp3)
+[SKIP] image_id=song_0004 id=1 -> existiert bereits (question-song_0004-1.mp3)
+[SKIP] image_id=song_0004 id=2 -> existiert bereits (question-song_0004-2.mp3)
+[SKIP] image_id=song_0004 id=4 -> existiert bereits (question-song_0004-4.mp3)
+[SKIP] image_id=song_0004 id=5 -> existiert bereits (question-song_0004-5.mp3)
+[SKIP] image_id=song_0004 id=6 -> existiert bereits (question-song_0004-6.mp3)
+[SKIP] image_id=song_0004 id=7 -> existiert bereits (question-song_0004-7.mp3)
+[SKIP] image_id=song_0004 id=8 -> existiert bereits (question-song_0004-8.mp3)
+[SKIP] image_id=song_0004 id=9 -> existiert bereits (question-song_0004-9.mp3)
+[SKIP] image_id=song_0004 id=10 -> existiert bereits (question-song_0004-10.mp3)
+[SKIP] image_id=song_0004 id=11 -> existiert bereits (question-song_0004-11.mp3)
+[SKIP] image_id=song_0004 id=12 -> existiert bereits (question-song_0004-12.mp3)
+[SKIP] image_id=song_0004 id=13 -> existiert bereits (question-song_0004-13.mp3)
+[SKIP] image_id=song_0004 id=14 -> existiert bereits (question-song_0004-14.mp3)
+[SKIP] image_id=song_0004 id=15 -> existiert bereits (question-song_0004-15.mp3)
+[SKIP] image_id=song_0004 id=3 -> existiert bereits (question-song_0004-3.mp3)
+[SKIP] image_id=song_0013 id=1 -> existiert bereits (question-song_0013-1.mp3)
+[SKIP] image_id=song_0013 id=2 -> existiert bereits (question-song_0013-2.mp3)
+[SKIP] image_id=song_0013 id=3 -> existiert bereits (question-song_0013-3.mp3)
+[SKIP] image_id=song_0013 id=4 -> existiert bereits (question-song_0013-4.mp3)
+[SKIP] image_id=song_0013 id=5 -> existiert bereits (question-song_0013-5.mp3)
+[SKIP] image_id=song_0013 id=6 -> existiert bereits (question-song_0013-6.mp3)
+[SKIP] image_id=song_0013 id=7 -> existiert bereits (question-song_0013-7.mp3)
+[SKIP] image_id=song_0013 id=8 -> existiert bereits (question-song_0013-8.mp3)
+[SKIP] image_id=song_0013 id=9 -> existiert bereits (question-song_0013-9.mp3)
+[SKIP] image_id=song_0013 id=10 -> existiert bereits (question-song_0013-10.mp3)
+[SKIP] image_id=song_0013 id=11 -> existiert bereits (question-song_0013-11.mp3)
+[SKIP] image_id=song_0013 id=12 -> existiert bereits (question-song_0013-12.mp3)
+[SKIP] image_id=song_0013 id=13 -> existiert bereits (question-song_0013-13.mp3)
+[SKIP] image_id=song_0013 id=14 -> existiert bereits (question-song_0013-14.mp3)
+[SKIP] image_id=song_0013 id=15 -> existiert bereits (question-song_0013-15.mp3)
+[SKIP] image_id=song_0014 id=1 -> existiert bereits (question-song_0014-1.mp3)
+[SKIP] image_id=song_0014 id=2 -> existiert bereits (question-song_0014-2.mp3)
+[SKIP] image_id=song_0014 id=3 -> existiert bereits (question-song_0014-3.mp3)
+[SKIP] image_id=song_0014 id=4 -> existiert bereits (question-song_0014-4.mp3)
+[SKIP] image_id=song_0014 id=5 -> existiert bereits (question-song_0014-5.mp3)
+[SKIP] image_id=song_0014 id=6 -> existiert bereits (question-song_0014-6.mp3)
+[SKIP] image_id=song_0014 id=7 -> existiert bereits (question-song_0014-7.mp3)
+[SKIP] image_id=song_0014 id=8 -> existiert bereits (question-song_0014-8.mp3)
+[SKIP] image_id=song_0014 id=9 -> existiert bereits (question-song_0014-9.mp3)
+[SKIP] image_id=song_0014 id=10 -> existiert bereits (question-song_0014-10.mp3)
+[SKIP] image_id=song_0014 id=11 -> existiert bereits (question-song_0014-11.mp3)
+[SKIP] image_id=song_0014 id=12 -> existiert bereits (question-song_0014-12.mp3)
+[SKIP] image_id=song_0014 id=13 -> existiert bereits (question-song_0014-13.mp3)
+[SKIP] image_id=song_0014 id=14 -> existiert bereits (question-song_0014-14.mp3)
+[SKIP] image_id=song_0014 id=15 -> existiert bereits (question-song_0014-15.mp3)
+[JSON] image_id=song_0015 id=1 audio gesetzt -> question-song_0015-1.mp3
+[GEN ] image_id=song_0015 id=1 -> question-song_0015-1.mp3
+[OK  ] image_id=song_0015 id=1 -> erzeugt
+[JSON] image_id=song_0015 id=2 audio gesetzt -> question-song_0015-2.mp3
+[GEN ] image_id=song_0015 id=2 -> question-song_0015-2.mp3
+[OK  ] image_id=song_0015 id=2 -> erzeugt
+[JSON] image_id=song_0015 id=3 audio gesetzt -> question-song_0015-3.mp3
+[GEN ] image_id=song_0015 id=3 -> question-song_0015-3.mp3
+[OK  ] image_id=song_0015 id=3 -> erzeugt
+[JSON] image_id=song_0015 id=4 audio gesetzt -> question-song_0015-4.mp3
+[GEN ] image_id=song_0015 id=4 -> question-song_0015-4.mp3
+[OK  ] image_id=song_0015 id=4 -> erzeugt
+[JSON] image_id=song_0015 id=5 audio gesetzt -> question-song_0015-5.mp3
+[GEN ] image_id=song_0015 id=5 -> question-song_0015-5.mp3
+[OK  ] image_id=song_0015 id=5 -> erzeugt
+[JSON] image_id=song_0015 id=6 audio gesetzt -> question-song_0015-6.mp3
+[GEN ] image_id=song_0015 id=6 -> question-song_0015-6.mp3
+[OK  ] image_id=song_0015 id=6 -> erzeugt
+[JSON] image_id=song_0015 id=7 audio gesetzt -> question-song_0015-7.mp3
+[GEN ] image_id=song_0015 id=7 -> question-song_0015-7.mp3
+[OK  ] image_id=song_0015 id=7 -> erzeugt
+[JSON] image_id=song_0015 id=8 audio gesetzt -> question-song_0015-8.mp3
+[GEN ] image_id=song_0015 id=8 -> question-song_0015-8.mp3
+[OK  ] image_id=song_0015 id=8 -> erzeugt
+[JSON] image_id=song_0015 id=9 audio gesetzt -> question-song_0015-9.mp3
+[GEN ] image_id=song_0015 id=9 -> question-song_0015-9.mp3
+[OK  ] image_id=song_0015 id=9 -> erzeugt
+[JSON] image_id=song_0015 id=10 audio gesetzt -> question-song_0015-10.mp3
+[GEN ] image_id=song_0015 id=10 -> question-song_0015-10.mp3
+[OK  ] image_id=song_0015 id=10 -> erzeugt
+[JSON] image_id=song_0015 id=11 audio gesetzt -> question-song_0015-11.mp3
+[GEN ] image_id=song_0015 id=11 -> question-song_0015-11.mp3
+[OK  ] image_id=song_0015 id=11 -> erzeugt
+[JSON] image_id=song_0015 id=12 audio gesetzt -> question-song_0015-12.mp3
+[GEN ] image_id=song_0015 id=12 -> question-song_0015-12.mp3
+[OK  ] image_id=song_0015 id=12 -> erzeugt
+[JSON] image_id=song_0015 id=13 audio gesetzt -> question-song_0015-13.mp3
+[GEN ] image_id=song_0015 id=13 -> question-song_0015-13.mp3
+[OK  ] image_id=song_0015 id=13 -> erzeugt
+[JSON] image_id=song_0015 id=14 audio gesetzt -> question-song_0015-14.mp3
+[GEN ] image_id=song_0015 id=14 -> question-song_0015-14.mp3
+[OK  ] image_id=song_0015 id=14 -> erzeugt
+[JSON] image_id=song_0015 id=15 audio gesetzt -> question-song_0015-15.mp3
+[GEN ] image_id=song_0015 id=15 -> question-song_0015-15.mp3
+[OK  ] image_id=song_0015 id=15 -> erzeugt
+------------------------------------------------------------
+[2026-04-22 13:44:44] ENDE
+fragen gesehen: 223
+produziert:    15
+übersprungen:  208
+fehler:        0
+json-updates:  15
+mp3 im Ordner: 223
+============================================================
+
+============================================================
+[2026-04-22 13:46:40] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/soundmemory/media/audio
+Questions:     /home/aleranzer/quizshark/soundmemory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=song_0005 id=1 -> existiert bereits (question-song_0005-1.mp3)
+[SKIP] image_id=song_0005 id=3 -> existiert bereits (question-song_0005-3.mp3)
+[SKIP] image_id=song_0005 id=4 -> existiert bereits (question-song_0005-4.mp3)
+[SKIP] image_id=song_0005 id=5 -> existiert bereits (question-song_0005-5.mp3)
+[SKIP] image_id=song_0005 id=6 -> existiert bereits (question-song_0005-6.mp3)
+[SKIP] image_id=song_0005 id=7 -> existiert bereits (question-song_0005-7.mp3)
+[SKIP] image_id=song_0005 id=8 -> existiert bereits (question-song_0005-8.mp3)
+[SKIP] image_id=song_0005 id=9 -> existiert bereits (question-song_0005-9.mp3)
+[SKIP] image_id=song_0005 id=10 -> existiert bereits (question-song_0005-10.mp3)
+[SKIP] image_id=song_0005 id=11 -> existiert bereits (question-song_0005-11.mp3)
+[SKIP] image_id=song_0005 id=12 -> existiert bereits (question-song_0005-12.mp3)
+[SKIP] image_id=song_0005 id=13 -> existiert bereits (question-song_0005-13.mp3)
+[SKIP] image_id=song_0005 id=14 -> existiert bereits (question-song_0005-14.mp3)
+[SKIP] image_id=song_0005 id=15 -> existiert bereits (question-song_0005-15.mp3)
+[SKIP] image_id=song_0005 id=2 -> existiert bereits (question-song_0005-2.mp3)
+[SKIP] image_id=song_0007 id=1 -> existiert bereits (question-song_0007-1.mp3)
+[SKIP] image_id=song_0007 id=2 -> existiert bereits (question-song_0007-2.mp3)
+[SKIP] image_id=song_0007 id=3 -> existiert bereits (question-song_0007-3.mp3)
+[SKIP] image_id=song_0007 id=4 -> existiert bereits (question-song_0007-4.mp3)
+[SKIP] image_id=song_0007 id=5 -> existiert bereits (question-song_0007-5.mp3)
+[SKIP] image_id=song_0007 id=6 -> existiert bereits (question-song_0007-6.mp3)
+[SKIP] image_id=song_0007 id=7 -> existiert bereits (question-song_0007-7.mp3)
+[SKIP] image_id=song_0007 id=8 -> existiert bereits (question-song_0007-8.mp3)
+[SKIP] image_id=song_0007 id=9 -> existiert bereits (question-song_0007-9.mp3)
+[SKIP] image_id=song_0007 id=10 -> existiert bereits (question-song_0007-10.mp3)
+[SKIP] image_id=song_0007 id=11 -> existiert bereits (question-song_0007-11.mp3)
+[SKIP] image_id=song_0007 id=12 -> existiert bereits (question-song_0007-12.mp3)
+[SKIP] image_id=song_0007 id=13 -> existiert bereits (question-song_0007-13.mp3)
+[SKIP] image_id=song_0007 id=14 -> existiert bereits (question-song_0007-14.mp3)
+[SKIP] image_id=song_0007 id=15 -> existiert bereits (question-song_0007-15.mp3)
+[SKIP] image_id=song_0006 id=1 -> existiert bereits (question-song_0006-1.mp3)
+[SKIP] image_id=song_0006 id=2 -> existiert bereits (question-song_0006-2.mp3)
+[SKIP] image_id=song_0006 id=3 -> existiert bereits (question-song_0006-3.mp3)
+[SKIP] image_id=song_0006 id=4 -> existiert bereits (question-song_0006-4.mp3)
+[SKIP] image_id=song_0006 id=5 -> existiert bereits (question-song_0006-5.mp3)
+[SKIP] image_id=song_0006 id=6 -> existiert bereits (question-song_0006-6.mp3)
+[SKIP] image_id=song_0006 id=7 -> existiert bereits (question-song_0006-7.mp3)
+[SKIP] image_id=song_0006 id=8 -> existiert bereits (question-song_0006-8.mp3)
+[SKIP] image_id=song_0006 id=9 -> existiert bereits (question-song_0006-9.mp3)
+[SKIP] image_id=song_0006 id=10 -> existiert bereits (question-song_0006-10.mp3)
+[SKIP] image_id=song_0006 id=11 -> existiert bereits (question-song_0006-11.mp3)
+[SKIP] image_id=song_0006 id=12 -> existiert bereits (question-song_0006-12.mp3)
+[SKIP] image_id=song_0006 id=13 -> existiert bereits (question-song_0006-13.mp3)
+[SKIP] image_id=song_0006 id=14 -> existiert bereits (question-song_0006-14.mp3)
+[SKIP] image_id=song_0006 id=15 -> existiert bereits (question-song_0006-15.mp3)
+[SKIP] image_id=song_0008 id=1 -> existiert bereits (question-song_0008-1.mp3)
+[SKIP] image_id=song_0008 id=2 -> existiert bereits (question-song_0008-2.mp3)
+[SKIP] image_id=song_0008 id=3 -> existiert bereits (question-song_0008-3.mp3)
+[SKIP] image_id=song_0008 id=4 -> existiert bereits (question-song_0008-4.mp3)
+[SKIP] image_id=song_0008 id=5 -> existiert bereits (question-song_0008-5.mp3)
+[SKIP] image_id=song_0008 id=6 -> existiert bereits (question-song_0008-6.mp3)
+[SKIP] image_id=song_0008 id=7 -> existiert bereits (question-song_0008-7.mp3)
+[SKIP] image_id=song_0008 id=8 -> existiert bereits (question-song_0008-8.mp3)
+[SKIP] image_id=song_0008 id=9 -> existiert bereits (question-song_0008-9.mp3)
+[SKIP] image_id=song_0008 id=10 -> existiert bereits (question-song_0008-10.mp3)
+[SKIP] image_id=song_0008 id=11 -> existiert bereits (question-song_0008-11.mp3)
+[SKIP] image_id=song_0008 id=12 -> existiert bereits (question-song_0008-12.mp3)
+[SKIP] image_id=song_0008 id=13 -> existiert bereits (question-song_0008-13.mp3)
+[SKIP] image_id=song_0008 id=14 -> existiert bereits (question-song_0008-14.mp3)
+[SKIP] image_id=song_0010 id=1 -> existiert bereits (question-song_0010-1.mp3)
+[SKIP] image_id=song_0010 id=2 -> existiert bereits (question-song_0010-2.mp3)
+[SKIP] image_id=song_0010 id=3 -> existiert bereits (question-song_0010-3.mp3)
+[SKIP] image_id=song_0010 id=4 -> existiert bereits (question-song_0010-4.mp3)
+[SKIP] image_id=song_0010 id=5 -> existiert bereits (question-song_0010-5.mp3)
+[SKIP] image_id=song_0010 id=6 -> existiert bereits (question-song_0010-6.mp3)
+[SKIP] image_id=song_0010 id=7 -> existiert bereits (question-song_0010-7.mp3)
+[SKIP] image_id=song_0010 id=8 -> existiert bereits (question-song_0010-8.mp3)
+[SKIP] image_id=song_0010 id=9 -> existiert bereits (question-song_0010-9.mp3)
+[SKIP] image_id=song_0010 id=10 -> existiert bereits (question-song_0010-10.mp3)
+[SKIP] image_id=song_0010 id=11 -> existiert bereits (question-song_0010-11.mp3)
+[SKIP] image_id=song_0010 id=12 -> existiert bereits (question-song_0010-12.mp3)
+[SKIP] image_id=song_0010 id=13 -> existiert bereits (question-song_0010-13.mp3)
+[SKIP] image_id=song_0010 id=14 -> existiert bereits (question-song_0010-14.mp3)
+[SKIP] image_id=song_0010 id=15 -> existiert bereits (question-song_0010-15.mp3)
+[SKIP] image_id=song_0009 id=1 -> existiert bereits (question-song_0009-1.mp3)
+[SKIP] image_id=song_0009 id=2 -> existiert bereits (question-song_0009-2.mp3)
+[SKIP] image_id=song_0009 id=3 -> existiert bereits (question-song_0009-3.mp3)
+[SKIP] image_id=song_0009 id=4 -> existiert bereits (question-song_0009-4.mp3)
+[SKIP] image_id=song_0009 id=5 -> existiert bereits (question-song_0009-5.mp3)
+[SKIP] image_id=song_0009 id=6 -> existiert bereits (question-song_0009-6.mp3)
+[SKIP] image_id=song_0009 id=7 -> existiert bereits (question-song_0009-7.mp3)
+[SKIP] image_id=song_0009 id=8 -> existiert bereits (question-song_0009-8.mp3)
+[SKIP] image_id=song_0009 id=9 -> existiert bereits (question-song_0009-9.mp3)
+[SKIP] image_id=song_0009 id=10 -> existiert bereits (question-song_0009-10.mp3)
+[SKIP] image_id=song_0009 id=11 -> existiert bereits (question-song_0009-11.mp3)
+[SKIP] image_id=song_0009 id=12 -> existiert bereits (question-song_0009-12.mp3)
+[SKIP] image_id=song_0009 id=13 -> existiert bereits (question-song_0009-13.mp3)
+[SKIP] image_id=song_0009 id=14 -> existiert bereits (question-song_0009-14.mp3)
+[SKIP] image_id=song_0009 id=15 -> existiert bereits (question-song_0009-15.mp3)
+[SKIP] image_id=song_0011 id=1 -> existiert bereits (question-song_0011-1.mp3)
+[SKIP] image_id=song_0011 id=2 -> existiert bereits (question-song_0011-2.mp3)
+[SKIP] image_id=song_0011 id=3 -> existiert bereits (question-song_0011-3.mp3)
+[SKIP] image_id=song_0011 id=4 -> existiert bereits (question-song_0011-4.mp3)
+[SKIP] image_id=song_0011 id=5 -> existiert bereits (question-song_0011-5.mp3)
+[SKIP] image_id=song_0011 id=6 -> existiert bereits (question-song_0011-6.mp3)
+[SKIP] image_id=song_0011 id=7 -> existiert bereits (question-song_0011-7.mp3)
+[SKIP] image_id=song_0011 id=8 -> existiert bereits (question-song_0011-8.mp3)
+[SKIP] image_id=song_0011 id=9 -> existiert bereits (question-song_0011-9.mp3)
+[SKIP] image_id=song_0011 id=10 -> existiert bereits (question-song_0011-10.mp3)
+[SKIP] image_id=song_0011 id=11 -> existiert bereits (question-song_0011-11.mp3)
+[SKIP] image_id=song_0011 id=12 -> existiert bereits (question-song_0011-12.mp3)
+[SKIP] image_id=song_0011 id=13 -> existiert bereits (question-song_0011-13.mp3)
+[SKIP] image_id=song_0011 id=14 -> existiert bereits (question-song_0011-14.mp3)
+[SKIP] image_id=song_0011 id=15 -> existiert bereits (question-song_0011-15.mp3)
+[SKIP] image_id=song_0002 id=1 -> existiert bereits (question-song_0002-1.mp3)
+[SKIP] image_id=song_0002 id=3 -> existiert bereits (question-song_0002-3.mp3)
+[SKIP] image_id=song_0002 id=4 -> existiert bereits (question-song_0002-4.mp3)
+[SKIP] image_id=song_0002 id=5 -> existiert bereits (question-song_0002-5.mp3)
+[SKIP] image_id=song_0002 id=6 -> existiert bereits (question-song_0002-6.mp3)
+[SKIP] image_id=song_0002 id=7 -> existiert bereits (question-song_0002-7.mp3)
+[SKIP] image_id=song_0002 id=8 -> existiert bereits (question-song_0002-8.mp3)
+[SKIP] image_id=song_0002 id=9 -> existiert bereits (question-song_0002-9.mp3)
+[SKIP] image_id=song_0002 id=10 -> existiert bereits (question-song_0002-10.mp3)
+[SKIP] image_id=song_0002 id=11 -> existiert bereits (question-song_0002-11.mp3)
+[SKIP] image_id=song_0002 id=12 -> existiert bereits (question-song_0002-12.mp3)
+[SKIP] image_id=song_0002 id=13 -> existiert bereits (question-song_0002-13.mp3)
+[SKIP] image_id=song_0002 id=14 -> existiert bereits (question-song_0002-14.mp3)
+[SKIP] image_id=song_0002 id=15 -> existiert bereits (question-song_0002-15.mp3)
+[SKIP] image_id=song_0002 id=2 -> existiert bereits (question-song_0002-2.mp3)
+[SKIP] image_id=song_0001 id=1 -> existiert bereits (question-song_0001-1.mp3)
+[SKIP] image_id=song_0001 id=2 -> existiert bereits (question-song_0001-2.mp3)
+[SKIP] image_id=song_0001 id=4 -> existiert bereits (question-song_0001-4.mp3)
+[SKIP] image_id=song_0001 id=5 -> existiert bereits (question-song_0001-5.mp3)
+[SKIP] image_id=song_0001 id=6 -> existiert bereits (question-song_0001-6.mp3)
+[SKIP] image_id=song_0001 id=7 -> existiert bereits (question-song_0001-7.mp3)
+[SKIP] image_id=song_0001 id=8 -> existiert bereits (question-song_0001-8.mp3)
+[SKIP] image_id=song_0001 id=9 -> existiert bereits (question-song_0001-9.mp3)
+[SKIP] image_id=song_0001 id=10 -> existiert bereits (question-song_0001-10.mp3)
+[SKIP] image_id=song_0001 id=11 -> existiert bereits (question-song_0001-11.mp3)
+[SKIP] image_id=song_0001 id=12 -> existiert bereits (question-song_0001-12.mp3)
+[SKIP] image_id=song_0001 id=13 -> existiert bereits (question-song_0001-13.mp3)
+[SKIP] image_id=song_0001 id=14 -> existiert bereits (question-song_0001-14.mp3)
+[SKIP] image_id=song_0001 id=3 -> existiert bereits (question-song_0001-3.mp3)
+[SKIP] image_id=song_0003 id=1 -> existiert bereits (question-song_0003-1.mp3)
+[SKIP] image_id=song_0003 id=3 -> existiert bereits (question-song_0003-3.mp3)
+[SKIP] image_id=song_0003 id=4 -> existiert bereits (question-song_0003-4.mp3)
+[SKIP] image_id=song_0003 id=5 -> existiert bereits (question-song_0003-5.mp3)
+[SKIP] image_id=song_0003 id=6 -> existiert bereits (question-song_0003-6.mp3)
+[SKIP] image_id=song_0003 id=7 -> existiert bereits (question-song_0003-7.mp3)
+[SKIP] image_id=song_0003 id=8 -> existiert bereits (question-song_0003-8.mp3)
+[SKIP] image_id=song_0003 id=9 -> existiert bereits (question-song_0003-9.mp3)
+[SKIP] image_id=song_0003 id=10 -> existiert bereits (question-song_0003-10.mp3)
+[SKIP] image_id=song_0003 id=11 -> existiert bereits (question-song_0003-11.mp3)
+[SKIP] image_id=song_0003 id=12 -> existiert bereits (question-song_0003-12.mp3)
+[SKIP] image_id=song_0003 id=13 -> existiert bereits (question-song_0003-13.mp3)
+[SKIP] image_id=song_0003 id=14 -> existiert bereits (question-song_0003-14.mp3)
+[SKIP] image_id=song_0003 id=15 -> existiert bereits (question-song_0003-15.mp3)
+[SKIP] image_id=song_0003 id=2 -> existiert bereits (question-song_0003-2.mp3)
+[SKIP] image_id=song_0012 id=1 -> existiert bereits (question-song_0012-1.mp3)
+[SKIP] image_id=song_0012 id=2 -> existiert bereits (question-song_0012-2.mp3)
+[SKIP] image_id=song_0012 id=3 -> existiert bereits (question-song_0012-3.mp3)
+[SKIP] image_id=song_0012 id=4 -> existiert bereits (question-song_0012-4.mp3)
+[SKIP] image_id=song_0012 id=5 -> existiert bereits (question-song_0012-5.mp3)
+[SKIP] image_id=song_0012 id=6 -> existiert bereits (question-song_0012-6.mp3)
+[SKIP] image_id=song_0012 id=7 -> existiert bereits (question-song_0012-7.mp3)
+[SKIP] image_id=song_0012 id=8 -> existiert bereits (question-song_0012-8.mp3)
+[SKIP] image_id=song_0012 id=9 -> existiert bereits (question-song_0012-9.mp3)
+[SKIP] image_id=song_0012 id=10 -> existiert bereits (question-song_0012-10.mp3)
+[SKIP] image_id=song_0012 id=11 -> existiert bereits (question-song_0012-11.mp3)
+[SKIP] image_id=song_0012 id=12 -> existiert bereits (question-song_0012-12.mp3)
+[SKIP] image_id=song_0012 id=13 -> existiert bereits (question-song_0012-13.mp3)
+[SKIP] image_id=song_0012 id=14 -> existiert bereits (question-song_0012-14.mp3)
+[SKIP] image_id=song_0012 id=15 -> existiert bereits (question-song_0012-15.mp3)
+[SKIP] image_id=song_0004 id=1 -> existiert bereits (question-song_0004-1.mp3)
+[SKIP] image_id=song_0004 id=2 -> existiert bereits (question-song_0004-2.mp3)
+[SKIP] image_id=song_0004 id=4 -> existiert bereits (question-song_0004-4.mp3)
+[SKIP] image_id=song_0004 id=5 -> existiert bereits (question-song_0004-5.mp3)
+[SKIP] image_id=song_0004 id=6 -> existiert bereits (question-song_0004-6.mp3)
+[SKIP] image_id=song_0004 id=7 -> existiert bereits (question-song_0004-7.mp3)
+[SKIP] image_id=song_0004 id=8 -> existiert bereits (question-song_0004-8.mp3)
+[SKIP] image_id=song_0004 id=9 -> existiert bereits (question-song_0004-9.mp3)
+[SKIP] image_id=song_0004 id=10 -> existiert bereits (question-song_0004-10.mp3)
+[SKIP] image_id=song_0004 id=11 -> existiert bereits (question-song_0004-11.mp3)
+[SKIP] image_id=song_0004 id=12 -> existiert bereits (question-song_0004-12.mp3)
+[SKIP] image_id=song_0004 id=13 -> existiert bereits (question-song_0004-13.mp3)
+[SKIP] image_id=song_0004 id=14 -> existiert bereits (question-song_0004-14.mp3)
+[SKIP] image_id=song_0004 id=15 -> existiert bereits (question-song_0004-15.mp3)
+[SKIP] image_id=song_0004 id=3 -> existiert bereits (question-song_0004-3.mp3)
+[SKIP] image_id=song_0013 id=1 -> existiert bereits (question-song_0013-1.mp3)
+[SKIP] image_id=song_0013 id=2 -> existiert bereits (question-song_0013-2.mp3)
+[SKIP] image_id=song_0013 id=3 -> existiert bereits (question-song_0013-3.mp3)
+[SKIP] image_id=song_0013 id=4 -> existiert bereits (question-song_0013-4.mp3)
+[SKIP] image_id=song_0013 id=5 -> existiert bereits (question-song_0013-5.mp3)
+[SKIP] image_id=song_0013 id=6 -> existiert bereits (question-song_0013-6.mp3)
+[SKIP] image_id=song_0013 id=7 -> existiert bereits (question-song_0013-7.mp3)
+[SKIP] image_id=song_0013 id=8 -> existiert bereits (question-song_0013-8.mp3)
+[SKIP] image_id=song_0013 id=9 -> existiert bereits (question-song_0013-9.mp3)
+[SKIP] image_id=song_0013 id=10 -> existiert bereits (question-song_0013-10.mp3)
+[SKIP] image_id=song_0013 id=11 -> existiert bereits (question-song_0013-11.mp3)
+[SKIP] image_id=song_0013 id=12 -> existiert bereits (question-song_0013-12.mp3)
+[SKIP] image_id=song_0013 id=13 -> existiert bereits (question-song_0013-13.mp3)
+[SKIP] image_id=song_0013 id=14 -> existiert bereits (question-song_0013-14.mp3)
+[SKIP] image_id=song_0013 id=15 -> existiert bereits (question-song_0013-15.mp3)
+[SKIP] image_id=song_0014 id=1 -> existiert bereits (question-song_0014-1.mp3)
+[SKIP] image_id=song_0014 id=2 -> existiert bereits (question-song_0014-2.mp3)
+[SKIP] image_id=song_0014 id=3 -> existiert bereits (question-song_0014-3.mp3)
+[SKIP] image_id=song_0014 id=4 -> existiert bereits (question-song_0014-4.mp3)
+[SKIP] image_id=song_0014 id=5 -> existiert bereits (question-song_0014-5.mp3)
+[SKIP] image_id=song_0014 id=6 -> existiert bereits (question-song_0014-6.mp3)
+[SKIP] image_id=song_0014 id=7 -> existiert bereits (question-song_0014-7.mp3)
+[SKIP] image_id=song_0014 id=8 -> existiert bereits (question-song_0014-8.mp3)
+[SKIP] image_id=song_0014 id=9 -> existiert bereits (question-song_0014-9.mp3)
+[SKIP] image_id=song_0014 id=10 -> existiert bereits (question-song_0014-10.mp3)
+[SKIP] image_id=song_0014 id=11 -> existiert bereits (question-song_0014-11.mp3)
+[SKIP] image_id=song_0014 id=12 -> existiert bereits (question-song_0014-12.mp3)
+[SKIP] image_id=song_0014 id=13 -> existiert bereits (question-song_0014-13.mp3)
+[SKIP] image_id=song_0014 id=14 -> existiert bereits (question-song_0014-14.mp3)
+[SKIP] image_id=song_0014 id=15 -> existiert bereits (question-song_0014-15.mp3)
+[SKIP] image_id=song_0015 id=1 -> existiert bereits (question-song_0015-1.mp3)
+[SKIP] image_id=song_0015 id=2 -> existiert bereits (question-song_0015-2.mp3)
+[SKIP] image_id=song_0015 id=3 -> existiert bereits (question-song_0015-3.mp3)
+[SKIP] image_id=song_0015 id=4 -> existiert bereits (question-song_0015-4.mp3)
+[SKIP] image_id=song_0015 id=5 -> existiert bereits (question-song_0015-5.mp3)
+[SKIP] image_id=song_0015 id=6 -> existiert bereits (question-song_0015-6.mp3)
+[SKIP] image_id=song_0015 id=7 -> existiert bereits (question-song_0015-7.mp3)
+[SKIP] image_id=song_0015 id=8 -> existiert bereits (question-song_0015-8.mp3)
+[SKIP] image_id=song_0015 id=9 -> existiert bereits (question-song_0015-9.mp3)
+[SKIP] image_id=song_0015 id=10 -> existiert bereits (question-song_0015-10.mp3)
+[SKIP] image_id=song_0015 id=11 -> existiert bereits (question-song_0015-11.mp3)
+[SKIP] image_id=song_0015 id=12 -> existiert bereits (question-song_0015-12.mp3)
+[SKIP] image_id=song_0015 id=13 -> existiert bereits (question-song_0015-13.mp3)
+[SKIP] image_id=song_0015 id=14 -> existiert bereits (question-song_0015-14.mp3)
+[SKIP] image_id=song_0015 id=15 -> existiert bereits (question-song_0015-15.mp3)
+[JSON] image_id=song_0016 id=1 audio gesetzt -> question-song_0016-1.mp3
+[GEN ] image_id=song_0016 id=1 -> question-song_0016-1.mp3
+[OK  ] image_id=song_0016 id=1 -> erzeugt
+[JSON] image_id=song_0016 id=2 audio gesetzt -> question-song_0016-2.mp3
+[GEN ] image_id=song_0016 id=2 -> question-song_0016-2.mp3
+[OK  ] image_id=song_0016 id=2 -> erzeugt
+[JSON] image_id=song_0016 id=3 audio gesetzt -> question-song_0016-3.mp3
+[GEN ] image_id=song_0016 id=3 -> question-song_0016-3.mp3
+[OK  ] image_id=song_0016 id=3 -> erzeugt
+[JSON] image_id=song_0016 id=4 audio gesetzt -> question-song_0016-4.mp3
+[GEN ] image_id=song_0016 id=4 -> question-song_0016-4.mp3
+[OK  ] image_id=song_0016 id=4 -> erzeugt
+[JSON] image_id=song_0016 id=5 audio gesetzt -> question-song_0016-5.mp3
+[GEN ] image_id=song_0016 id=5 -> question-song_0016-5.mp3
+[OK  ] image_id=song_0016 id=5 -> erzeugt
+[JSON] image_id=song_0016 id=6 audio gesetzt -> question-song_0016-6.mp3
+[GEN ] image_id=song_0016 id=6 -> question-song_0016-6.mp3
+[OK  ] image_id=song_0016 id=6 -> erzeugt
+[JSON] image_id=song_0016 id=7 audio gesetzt -> question-song_0016-7.mp3
+[GEN ] image_id=song_0016 id=7 -> question-song_0016-7.mp3
+[OK  ] image_id=song_0016 id=7 -> erzeugt
+[JSON] image_id=song_0016 id=8 audio gesetzt -> question-song_0016-8.mp3
+[GEN ] image_id=song_0016 id=8 -> question-song_0016-8.mp3
+[OK  ] image_id=song_0016 id=8 -> erzeugt
+[JSON] image_id=song_0016 id=9 audio gesetzt -> question-song_0016-9.mp3
+[GEN ] image_id=song_0016 id=9 -> question-song_0016-9.mp3
+[OK  ] image_id=song_0016 id=9 -> erzeugt
+[JSON] image_id=song_0016 id=10 audio gesetzt -> question-song_0016-10.mp3
+[GEN ] image_id=song_0016 id=10 -> question-song_0016-10.mp3
+[OK  ] image_id=song_0016 id=10 -> erzeugt
+[JSON] image_id=song_0016 id=11 audio gesetzt -> question-song_0016-11.mp3
+[GEN ] image_id=song_0016 id=11 -> question-song_0016-11.mp3
+[OK  ] image_id=song_0016 id=11 -> erzeugt
+[JSON] image_id=song_0016 id=12 audio gesetzt -> question-song_0016-12.mp3
+[GEN ] image_id=song_0016 id=12 -> question-song_0016-12.mp3
+[OK  ] image_id=song_0016 id=12 -> erzeugt
+[JSON] image_id=song_0016 id=13 audio gesetzt -> question-song_0016-13.mp3
+[GEN ] image_id=song_0016 id=13 -> question-song_0016-13.mp3
+[OK  ] image_id=song_0016 id=13 -> erzeugt
+[JSON] image_id=song_0016 id=14 audio gesetzt -> question-song_0016-14.mp3
+[GEN ] image_id=song_0016 id=14 -> question-song_0016-14.mp3
+[OK  ] image_id=song_0016 id=14 -> erzeugt
+[JSON] image_id=song_0016 id=15 audio gesetzt -> question-song_0016-15.mp3
+[GEN ] image_id=song_0016 id=15 -> question-song_0016-15.mp3
+[OK  ] image_id=song_0016 id=15 -> erzeugt
+------------------------------------------------------------
+[2026-04-22 13:47:02] ENDE
+fragen gesehen: 238
+produziert:    15
+übersprungen:  223
+fehler:        0
+json-updates:  15
+mp3 im Ordner: 238
+============================================================
+
+============================================================
+[2026-04-22 13:50:20] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/soundmemory/media/audio
+Questions:     /home/aleranzer/quizshark/soundmemory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=song_0005 id=1 -> existiert bereits (question-song_0005-1.mp3)
+[SKIP] image_id=song_0005 id=3 -> existiert bereits (question-song_0005-3.mp3)
+[SKIP] image_id=song_0005 id=4 -> existiert bereits (question-song_0005-4.mp3)
+[SKIP] image_id=song_0005 id=5 -> existiert bereits (question-song_0005-5.mp3)
+[SKIP] image_id=song_0005 id=6 -> existiert bereits (question-song_0005-6.mp3)
+[SKIP] image_id=song_0005 id=7 -> existiert bereits (question-song_0005-7.mp3)
+[SKIP] image_id=song_0005 id=8 -> existiert bereits (question-song_0005-8.mp3)
+[SKIP] image_id=song_0005 id=9 -> existiert bereits (question-song_0005-9.mp3)
+[SKIP] image_id=song_0005 id=10 -> existiert bereits (question-song_0005-10.mp3)
+[SKIP] image_id=song_0005 id=11 -> existiert bereits (question-song_0005-11.mp3)
+[SKIP] image_id=song_0005 id=12 -> existiert bereits (question-song_0005-12.mp3)
+[SKIP] image_id=song_0005 id=13 -> existiert bereits (question-song_0005-13.mp3)
+[SKIP] image_id=song_0005 id=14 -> existiert bereits (question-song_0005-14.mp3)
+[SKIP] image_id=song_0005 id=15 -> existiert bereits (question-song_0005-15.mp3)
+[SKIP] image_id=song_0005 id=2 -> existiert bereits (question-song_0005-2.mp3)
+[SKIP] image_id=song_0007 id=1 -> existiert bereits (question-song_0007-1.mp3)
+[SKIP] image_id=song_0007 id=2 -> existiert bereits (question-song_0007-2.mp3)
+[SKIP] image_id=song_0007 id=3 -> existiert bereits (question-song_0007-3.mp3)
+[SKIP] image_id=song_0007 id=4 -> existiert bereits (question-song_0007-4.mp3)
+[SKIP] image_id=song_0007 id=5 -> existiert bereits (question-song_0007-5.mp3)
+[SKIP] image_id=song_0007 id=6 -> existiert bereits (question-song_0007-6.mp3)
+[SKIP] image_id=song_0007 id=7 -> existiert bereits (question-song_0007-7.mp3)
+[SKIP] image_id=song_0007 id=8 -> existiert bereits (question-song_0007-8.mp3)
+[SKIP] image_id=song_0007 id=9 -> existiert bereits (question-song_0007-9.mp3)
+[SKIP] image_id=song_0007 id=10 -> existiert bereits (question-song_0007-10.mp3)
+[SKIP] image_id=song_0007 id=11 -> existiert bereits (question-song_0007-11.mp3)
+[SKIP] image_id=song_0007 id=12 -> existiert bereits (question-song_0007-12.mp3)
+[SKIP] image_id=song_0007 id=13 -> existiert bereits (question-song_0007-13.mp3)
+[SKIP] image_id=song_0007 id=14 -> existiert bereits (question-song_0007-14.mp3)
+[SKIP] image_id=song_0007 id=15 -> existiert bereits (question-song_0007-15.mp3)
+[SKIP] image_id=song_0006 id=1 -> existiert bereits (question-song_0006-1.mp3)
+[SKIP] image_id=song_0006 id=2 -> existiert bereits (question-song_0006-2.mp3)
+[SKIP] image_id=song_0006 id=3 -> existiert bereits (question-song_0006-3.mp3)
+[SKIP] image_id=song_0006 id=4 -> existiert bereits (question-song_0006-4.mp3)
+[SKIP] image_id=song_0006 id=5 -> existiert bereits (question-song_0006-5.mp3)
+[SKIP] image_id=song_0006 id=6 -> existiert bereits (question-song_0006-6.mp3)
+[SKIP] image_id=song_0006 id=7 -> existiert bereits (question-song_0006-7.mp3)
+[SKIP] image_id=song_0006 id=8 -> existiert bereits (question-song_0006-8.mp3)
+[SKIP] image_id=song_0006 id=9 -> existiert bereits (question-song_0006-9.mp3)
+[SKIP] image_id=song_0006 id=10 -> existiert bereits (question-song_0006-10.mp3)
+[SKIP] image_id=song_0006 id=11 -> existiert bereits (question-song_0006-11.mp3)
+[SKIP] image_id=song_0006 id=12 -> existiert bereits (question-song_0006-12.mp3)
+[SKIP] image_id=song_0006 id=13 -> existiert bereits (question-song_0006-13.mp3)
+[SKIP] image_id=song_0006 id=14 -> existiert bereits (question-song_0006-14.mp3)
+[SKIP] image_id=song_0006 id=15 -> existiert bereits (question-song_0006-15.mp3)
+[SKIP] image_id=song_0008 id=1 -> existiert bereits (question-song_0008-1.mp3)
+[SKIP] image_id=song_0008 id=2 -> existiert bereits (question-song_0008-2.mp3)
+[SKIP] image_id=song_0008 id=3 -> existiert bereits (question-song_0008-3.mp3)
+[SKIP] image_id=song_0008 id=4 -> existiert bereits (question-song_0008-4.mp3)
+[SKIP] image_id=song_0008 id=5 -> existiert bereits (question-song_0008-5.mp3)
+[SKIP] image_id=song_0008 id=6 -> existiert bereits (question-song_0008-6.mp3)
+[SKIP] image_id=song_0008 id=7 -> existiert bereits (question-song_0008-7.mp3)
+[SKIP] image_id=song_0008 id=8 -> existiert bereits (question-song_0008-8.mp3)
+[SKIP] image_id=song_0008 id=9 -> existiert bereits (question-song_0008-9.mp3)
+[SKIP] image_id=song_0008 id=10 -> existiert bereits (question-song_0008-10.mp3)
+[SKIP] image_id=song_0008 id=11 -> existiert bereits (question-song_0008-11.mp3)
+[SKIP] image_id=song_0008 id=12 -> existiert bereits (question-song_0008-12.mp3)
+[SKIP] image_id=song_0008 id=13 -> existiert bereits (question-song_0008-13.mp3)
+[SKIP] image_id=song_0008 id=14 -> existiert bereits (question-song_0008-14.mp3)
+[SKIP] image_id=song_0010 id=1 -> existiert bereits (question-song_0010-1.mp3)
+[SKIP] image_id=song_0010 id=2 -> existiert bereits (question-song_0010-2.mp3)
+[SKIP] image_id=song_0010 id=3 -> existiert bereits (question-song_0010-3.mp3)
+[SKIP] image_id=song_0010 id=4 -> existiert bereits (question-song_0010-4.mp3)
+[SKIP] image_id=song_0010 id=5 -> existiert bereits (question-song_0010-5.mp3)
+[SKIP] image_id=song_0010 id=6 -> existiert bereits (question-song_0010-6.mp3)
+[SKIP] image_id=song_0010 id=7 -> existiert bereits (question-song_0010-7.mp3)
+[SKIP] image_id=song_0010 id=8 -> existiert bereits (question-song_0010-8.mp3)
+[SKIP] image_id=song_0010 id=9 -> existiert bereits (question-song_0010-9.mp3)
+[SKIP] image_id=song_0010 id=10 -> existiert bereits (question-song_0010-10.mp3)
+[SKIP] image_id=song_0010 id=11 -> existiert bereits (question-song_0010-11.mp3)
+[SKIP] image_id=song_0010 id=12 -> existiert bereits (question-song_0010-12.mp3)
+[SKIP] image_id=song_0010 id=13 -> existiert bereits (question-song_0010-13.mp3)
+[SKIP] image_id=song_0010 id=14 -> existiert bereits (question-song_0010-14.mp3)
+[SKIP] image_id=song_0010 id=15 -> existiert bereits (question-song_0010-15.mp3)
+[SKIP] image_id=song_0009 id=1 -> existiert bereits (question-song_0009-1.mp3)
+[SKIP] image_id=song_0009 id=2 -> existiert bereits (question-song_0009-2.mp3)
+[SKIP] image_id=song_0009 id=3 -> existiert bereits (question-song_0009-3.mp3)
+[SKIP] image_id=song_0009 id=4 -> existiert bereits (question-song_0009-4.mp3)
+[SKIP] image_id=song_0009 id=5 -> existiert bereits (question-song_0009-5.mp3)
+[SKIP] image_id=song_0009 id=6 -> existiert bereits (question-song_0009-6.mp3)
+[SKIP] image_id=song_0009 id=7 -> existiert bereits (question-song_0009-7.mp3)
+[SKIP] image_id=song_0009 id=8 -> existiert bereits (question-song_0009-8.mp3)
+[SKIP] image_id=song_0009 id=9 -> existiert bereits (question-song_0009-9.mp3)
+[SKIP] image_id=song_0009 id=10 -> existiert bereits (question-song_0009-10.mp3)
+[SKIP] image_id=song_0009 id=11 -> existiert bereits (question-song_0009-11.mp3)
+[SKIP] image_id=song_0009 id=12 -> existiert bereits (question-song_0009-12.mp3)
+[SKIP] image_id=song_0009 id=13 -> existiert bereits (question-song_0009-13.mp3)
+[SKIP] image_id=song_0009 id=14 -> existiert bereits (question-song_0009-14.mp3)
+[SKIP] image_id=song_0009 id=15 -> existiert bereits (question-song_0009-15.mp3)
+[SKIP] image_id=song_0011 id=1 -> existiert bereits (question-song_0011-1.mp3)
+[SKIP] image_id=song_0011 id=2 -> existiert bereits (question-song_0011-2.mp3)
+[SKIP] image_id=song_0011 id=3 -> existiert bereits (question-song_0011-3.mp3)
+[SKIP] image_id=song_0011 id=4 -> existiert bereits (question-song_0011-4.mp3)
+[SKIP] image_id=song_0011 id=5 -> existiert bereits (question-song_0011-5.mp3)
+[SKIP] image_id=song_0011 id=6 -> existiert bereits (question-song_0011-6.mp3)
+[SKIP] image_id=song_0011 id=7 -> existiert bereits (question-song_0011-7.mp3)
+[SKIP] image_id=song_0011 id=8 -> existiert bereits (question-song_0011-8.mp3)
+[SKIP] image_id=song_0011 id=9 -> existiert bereits (question-song_0011-9.mp3)
+[SKIP] image_id=song_0011 id=10 -> existiert bereits (question-song_0011-10.mp3)
+[SKIP] image_id=song_0011 id=11 -> existiert bereits (question-song_0011-11.mp3)
+[SKIP] image_id=song_0011 id=12 -> existiert bereits (question-song_0011-12.mp3)
+[SKIP] image_id=song_0011 id=13 -> existiert bereits (question-song_0011-13.mp3)
+[SKIP] image_id=song_0011 id=14 -> existiert bereits (question-song_0011-14.mp3)
+[SKIP] image_id=song_0011 id=15 -> existiert bereits (question-song_0011-15.mp3)
+[SKIP] image_id=song_0002 id=1 -> existiert bereits (question-song_0002-1.mp3)
+[SKIP] image_id=song_0002 id=3 -> existiert bereits (question-song_0002-3.mp3)
+[SKIP] image_id=song_0002 id=4 -> existiert bereits (question-song_0002-4.mp3)
+[SKIP] image_id=song_0002 id=5 -> existiert bereits (question-song_0002-5.mp3)
+[SKIP] image_id=song_0002 id=6 -> existiert bereits (question-song_0002-6.mp3)
+[SKIP] image_id=song_0002 id=7 -> existiert bereits (question-song_0002-7.mp3)
+[SKIP] image_id=song_0002 id=8 -> existiert bereits (question-song_0002-8.mp3)
+[SKIP] image_id=song_0002 id=9 -> existiert bereits (question-song_0002-9.mp3)
+[SKIP] image_id=song_0002 id=10 -> existiert bereits (question-song_0002-10.mp3)
+[SKIP] image_id=song_0002 id=11 -> existiert bereits (question-song_0002-11.mp3)
+[SKIP] image_id=song_0002 id=12 -> existiert bereits (question-song_0002-12.mp3)
+[SKIP] image_id=song_0002 id=13 -> existiert bereits (question-song_0002-13.mp3)
+[SKIP] image_id=song_0002 id=14 -> existiert bereits (question-song_0002-14.mp3)
+[SKIP] image_id=song_0002 id=15 -> existiert bereits (question-song_0002-15.mp3)
+[SKIP] image_id=song_0002 id=2 -> existiert bereits (question-song_0002-2.mp3)
+[SKIP] image_id=song_0001 id=1 -> existiert bereits (question-song_0001-1.mp3)
+[SKIP] image_id=song_0001 id=2 -> existiert bereits (question-song_0001-2.mp3)
+[SKIP] image_id=song_0001 id=4 -> existiert bereits (question-song_0001-4.mp3)
+[SKIP] image_id=song_0001 id=5 -> existiert bereits (question-song_0001-5.mp3)
+[SKIP] image_id=song_0001 id=6 -> existiert bereits (question-song_0001-6.mp3)
+[SKIP] image_id=song_0001 id=7 -> existiert bereits (question-song_0001-7.mp3)
+[SKIP] image_id=song_0001 id=8 -> existiert bereits (question-song_0001-8.mp3)
+[SKIP] image_id=song_0001 id=9 -> existiert bereits (question-song_0001-9.mp3)
+[SKIP] image_id=song_0001 id=10 -> existiert bereits (question-song_0001-10.mp3)
+[SKIP] image_id=song_0001 id=11 -> existiert bereits (question-song_0001-11.mp3)
+[SKIP] image_id=song_0001 id=12 -> existiert bereits (question-song_0001-12.mp3)
+[SKIP] image_id=song_0001 id=13 -> existiert bereits (question-song_0001-13.mp3)
+[SKIP] image_id=song_0001 id=14 -> existiert bereits (question-song_0001-14.mp3)
+[SKIP] image_id=song_0001 id=3 -> existiert bereits (question-song_0001-3.mp3)
+[SKIP] image_id=song_0003 id=1 -> existiert bereits (question-song_0003-1.mp3)
+[SKIP] image_id=song_0003 id=3 -> existiert bereits (question-song_0003-3.mp3)
+[SKIP] image_id=song_0003 id=4 -> existiert bereits (question-song_0003-4.mp3)
+[SKIP] image_id=song_0003 id=5 -> existiert bereits (question-song_0003-5.mp3)
+[SKIP] image_id=song_0003 id=6 -> existiert bereits (question-song_0003-6.mp3)
+[SKIP] image_id=song_0003 id=7 -> existiert bereits (question-song_0003-7.mp3)
+[SKIP] image_id=song_0003 id=8 -> existiert bereits (question-song_0003-8.mp3)
+[SKIP] image_id=song_0003 id=9 -> existiert bereits (question-song_0003-9.mp3)
+[SKIP] image_id=song_0003 id=10 -> existiert bereits (question-song_0003-10.mp3)
+[SKIP] image_id=song_0003 id=11 -> existiert bereits (question-song_0003-11.mp3)
+[SKIP] image_id=song_0003 id=12 -> existiert bereits (question-song_0003-12.mp3)
+[SKIP] image_id=song_0003 id=13 -> existiert bereits (question-song_0003-13.mp3)
+[SKIP] image_id=song_0003 id=14 -> existiert bereits (question-song_0003-14.mp3)
+[SKIP] image_id=song_0003 id=15 -> existiert bereits (question-song_0003-15.mp3)
+[SKIP] image_id=song_0003 id=2 -> existiert bereits (question-song_0003-2.mp3)
+[SKIP] image_id=song_0012 id=1 -> existiert bereits (question-song_0012-1.mp3)
+[SKIP] image_id=song_0012 id=2 -> existiert bereits (question-song_0012-2.mp3)
+[SKIP] image_id=song_0012 id=3 -> existiert bereits (question-song_0012-3.mp3)
+[SKIP] image_id=song_0012 id=4 -> existiert bereits (question-song_0012-4.mp3)
+[SKIP] image_id=song_0012 id=5 -> existiert bereits (question-song_0012-5.mp3)
+[SKIP] image_id=song_0012 id=6 -> existiert bereits (question-song_0012-6.mp3)
+[SKIP] image_id=song_0012 id=7 -> existiert bereits (question-song_0012-7.mp3)
+[SKIP] image_id=song_0012 id=8 -> existiert bereits (question-song_0012-8.mp3)
+[SKIP] image_id=song_0012 id=9 -> existiert bereits (question-song_0012-9.mp3)
+[SKIP] image_id=song_0012 id=10 -> existiert bereits (question-song_0012-10.mp3)
+[SKIP] image_id=song_0012 id=11 -> existiert bereits (question-song_0012-11.mp3)
+[SKIP] image_id=song_0012 id=12 -> existiert bereits (question-song_0012-12.mp3)
+[SKIP] image_id=song_0012 id=13 -> existiert bereits (question-song_0012-13.mp3)
+[SKIP] image_id=song_0012 id=14 -> existiert bereits (question-song_0012-14.mp3)
+[SKIP] image_id=song_0012 id=15 -> existiert bereits (question-song_0012-15.mp3)
+[SKIP] image_id=song_0004 id=1 -> existiert bereits (question-song_0004-1.mp3)
+[SKIP] image_id=song_0004 id=2 -> existiert bereits (question-song_0004-2.mp3)
+[SKIP] image_id=song_0004 id=4 -> existiert bereits (question-song_0004-4.mp3)
+[SKIP] image_id=song_0004 id=5 -> existiert bereits (question-song_0004-5.mp3)
+[SKIP] image_id=song_0004 id=6 -> existiert bereits (question-song_0004-6.mp3)
+[SKIP] image_id=song_0004 id=7 -> existiert bereits (question-song_0004-7.mp3)
+[SKIP] image_id=song_0004 id=8 -> existiert bereits (question-song_0004-8.mp3)
+[SKIP] image_id=song_0004 id=9 -> existiert bereits (question-song_0004-9.mp3)
+[SKIP] image_id=song_0004 id=10 -> existiert bereits (question-song_0004-10.mp3)
+[SKIP] image_id=song_0004 id=11 -> existiert bereits (question-song_0004-11.mp3)
+[SKIP] image_id=song_0004 id=12 -> existiert bereits (question-song_0004-12.mp3)
+[SKIP] image_id=song_0004 id=13 -> existiert bereits (question-song_0004-13.mp3)
+[SKIP] image_id=song_0004 id=14 -> existiert bereits (question-song_0004-14.mp3)
+[SKIP] image_id=song_0004 id=15 -> existiert bereits (question-song_0004-15.mp3)
+[SKIP] image_id=song_0004 id=3 -> existiert bereits (question-song_0004-3.mp3)
+[SKIP] image_id=song_0013 id=1 -> existiert bereits (question-song_0013-1.mp3)
+[SKIP] image_id=song_0013 id=2 -> existiert bereits (question-song_0013-2.mp3)
+[SKIP] image_id=song_0013 id=3 -> existiert bereits (question-song_0013-3.mp3)
+[SKIP] image_id=song_0013 id=4 -> existiert bereits (question-song_0013-4.mp3)
+[SKIP] image_id=song_0013 id=5 -> existiert bereits (question-song_0013-5.mp3)
+[SKIP] image_id=song_0013 id=6 -> existiert bereits (question-song_0013-6.mp3)
+[SKIP] image_id=song_0013 id=7 -> existiert bereits (question-song_0013-7.mp3)
+[SKIP] image_id=song_0013 id=8 -> existiert bereits (question-song_0013-8.mp3)
+[SKIP] image_id=song_0013 id=9 -> existiert bereits (question-song_0013-9.mp3)
+[SKIP] image_id=song_0013 id=10 -> existiert bereits (question-song_0013-10.mp3)
+[SKIP] image_id=song_0013 id=11 -> existiert bereits (question-song_0013-11.mp3)
+[SKIP] image_id=song_0013 id=12 -> existiert bereits (question-song_0013-12.mp3)
+[SKIP] image_id=song_0013 id=13 -> existiert bereits (question-song_0013-13.mp3)
+[SKIP] image_id=song_0013 id=14 -> existiert bereits (question-song_0013-14.mp3)
+[SKIP] image_id=song_0013 id=15 -> existiert bereits (question-song_0013-15.mp3)
+[SKIP] image_id=song_0014 id=1 -> existiert bereits (question-song_0014-1.mp3)
+[SKIP] image_id=song_0014 id=2 -> existiert bereits (question-song_0014-2.mp3)
+[SKIP] image_id=song_0014 id=3 -> existiert bereits (question-song_0014-3.mp3)
+[SKIP] image_id=song_0014 id=4 -> existiert bereits (question-song_0014-4.mp3)
+[SKIP] image_id=song_0014 id=5 -> existiert bereits (question-song_0014-5.mp3)
+[SKIP] image_id=song_0014 id=6 -> existiert bereits (question-song_0014-6.mp3)
+[SKIP] image_id=song_0014 id=7 -> existiert bereits (question-song_0014-7.mp3)
+[SKIP] image_id=song_0014 id=8 -> existiert bereits (question-song_0014-8.mp3)
+[SKIP] image_id=song_0014 id=9 -> existiert bereits (question-song_0014-9.mp3)
+[SKIP] image_id=song_0014 id=10 -> existiert bereits (question-song_0014-10.mp3)
+[SKIP] image_id=song_0014 id=11 -> existiert bereits (question-song_0014-11.mp3)
+[SKIP] image_id=song_0014 id=12 -> existiert bereits (question-song_0014-12.mp3)
+[SKIP] image_id=song_0014 id=13 -> existiert bereits (question-song_0014-13.mp3)
+[SKIP] image_id=song_0014 id=14 -> existiert bereits (question-song_0014-14.mp3)
+[SKIP] image_id=song_0014 id=15 -> existiert bereits (question-song_0014-15.mp3)
+[SKIP] image_id=song_0015 id=1 -> existiert bereits (question-song_0015-1.mp3)
+[SKIP] image_id=song_0015 id=2 -> existiert bereits (question-song_0015-2.mp3)
+[SKIP] image_id=song_0015 id=3 -> existiert bereits (question-song_0015-3.mp3)
+[SKIP] image_id=song_0015 id=4 -> existiert bereits (question-song_0015-4.mp3)
+[SKIP] image_id=song_0015 id=5 -> existiert bereits (question-song_0015-5.mp3)
+[SKIP] image_id=song_0015 id=6 -> existiert bereits (question-song_0015-6.mp3)
+[SKIP] image_id=song_0015 id=7 -> existiert bereits (question-song_0015-7.mp3)
+[SKIP] image_id=song_0015 id=8 -> existiert bereits (question-song_0015-8.mp3)
+[SKIP] image_id=song_0015 id=9 -> existiert bereits (question-song_0015-9.mp3)
+[SKIP] image_id=song_0015 id=10 -> existiert bereits (question-song_0015-10.mp3)
+[SKIP] image_id=song_0015 id=11 -> existiert bereits (question-song_0015-11.mp3)
+[SKIP] image_id=song_0015 id=12 -> existiert bereits (question-song_0015-12.mp3)
+[SKIP] image_id=song_0015 id=13 -> existiert bereits (question-song_0015-13.mp3)
+[SKIP] image_id=song_0015 id=14 -> existiert bereits (question-song_0015-14.mp3)
+[SKIP] image_id=song_0015 id=15 -> existiert bereits (question-song_0015-15.mp3)
+[SKIP] image_id=song_0016 id=1 -> existiert bereits (question-song_0016-1.mp3)
+[SKIP] image_id=song_0016 id=2 -> existiert bereits (question-song_0016-2.mp3)
+[SKIP] image_id=song_0016 id=3 -> existiert bereits (question-song_0016-3.mp3)
+[SKIP] image_id=song_0016 id=4 -> existiert bereits (question-song_0016-4.mp3)
+[SKIP] image_id=song_0016 id=5 -> existiert bereits (question-song_0016-5.mp3)
+[SKIP] image_id=song_0016 id=6 -> existiert bereits (question-song_0016-6.mp3)
+[SKIP] image_id=song_0016 id=7 -> existiert bereits (question-song_0016-7.mp3)
+[SKIP] image_id=song_0016 id=8 -> existiert bereits (question-song_0016-8.mp3)
+[SKIP] image_id=song_0016 id=9 -> existiert bereits (question-song_0016-9.mp3)
+[SKIP] image_id=song_0016 id=10 -> existiert bereits (question-song_0016-10.mp3)
+[SKIP] image_id=song_0016 id=11 -> existiert bereits (question-song_0016-11.mp3)
+[SKIP] image_id=song_0016 id=12 -> existiert bereits (question-song_0016-12.mp3)
+[SKIP] image_id=song_0016 id=13 -> existiert bereits (question-song_0016-13.mp3)
+[SKIP] image_id=song_0016 id=14 -> existiert bereits (question-song_0016-14.mp3)
+[SKIP] image_id=song_0016 id=15 -> existiert bereits (question-song_0016-15.mp3)
+[JSON] image_id=song_0017 id=1 audio gesetzt -> question-song_0017-1.mp3
+[GEN ] image_id=song_0017 id=1 -> question-song_0017-1.mp3
+[OK  ] image_id=song_0017 id=1 -> erzeugt
+[JSON] image_id=song_0017 id=2 audio gesetzt -> question-song_0017-2.mp3
+[GEN ] image_id=song_0017 id=2 -> question-song_0017-2.mp3
+[OK  ] image_id=song_0017 id=2 -> erzeugt
+[JSON] image_id=song_0017 id=3 audio gesetzt -> question-song_0017-3.mp3
+[GEN ] image_id=song_0017 id=3 -> question-song_0017-3.mp3
+[OK  ] image_id=song_0017 id=3 -> erzeugt
+[JSON] image_id=song_0017 id=4 audio gesetzt -> question-song_0017-4.mp3
+[GEN ] image_id=song_0017 id=4 -> question-song_0017-4.mp3
+[OK  ] image_id=song_0017 id=4 -> erzeugt
+[JSON] image_id=song_0017 id=5 audio gesetzt -> question-song_0017-5.mp3
+[GEN ] image_id=song_0017 id=5 -> question-song_0017-5.mp3
+[OK  ] image_id=song_0017 id=5 -> erzeugt
+[JSON] image_id=song_0017 id=6 audio gesetzt -> question-song_0017-6.mp3
+[GEN ] image_id=song_0017 id=6 -> question-song_0017-6.mp3
+[OK  ] image_id=song_0017 id=6 -> erzeugt
+[JSON] image_id=song_0017 id=7 audio gesetzt -> question-song_0017-7.mp3
+[GEN ] image_id=song_0017 id=7 -> question-song_0017-7.mp3
+[OK  ] image_id=song_0017 id=7 -> erzeugt
+[JSON] image_id=song_0017 id=8 audio gesetzt -> question-song_0017-8.mp3
+[GEN ] image_id=song_0017 id=8 -> question-song_0017-8.mp3
+[OK  ] image_id=song_0017 id=8 -> erzeugt
+[JSON] image_id=song_0017 id=9 audio gesetzt -> question-song_0017-9.mp3
+[GEN ] image_id=song_0017 id=9 -> question-song_0017-9.mp3
+[OK  ] image_id=song_0017 id=9 -> erzeugt
+[JSON] image_id=song_0017 id=10 audio gesetzt -> question-song_0017-10.mp3
+[GEN ] image_id=song_0017 id=10 -> question-song_0017-10.mp3
+[OK  ] image_id=song_0017 id=10 -> erzeugt
+[JSON] image_id=song_0017 id=11 audio gesetzt -> question-song_0017-11.mp3
+[GEN ] image_id=song_0017 id=11 -> question-song_0017-11.mp3
+[OK  ] image_id=song_0017 id=11 -> erzeugt
+[JSON] image_id=song_0017 id=12 audio gesetzt -> question-song_0017-12.mp3
+[GEN ] image_id=song_0017 id=12 -> question-song_0017-12.mp3
+[OK  ] image_id=song_0017 id=12 -> erzeugt
+[JSON] image_id=song_0017 id=13 audio gesetzt -> question-song_0017-13.mp3
+[GEN ] image_id=song_0017 id=13 -> question-song_0017-13.mp3
+[OK  ] image_id=song_0017 id=13 -> erzeugt
+[JSON] image_id=song_0017 id=14 audio gesetzt -> question-song_0017-14.mp3
+[GEN ] image_id=song_0017 id=14 -> question-song_0017-14.mp3
+[OK  ] image_id=song_0017 id=14 -> erzeugt
+[JSON] image_id=song_0017 id=15 audio gesetzt -> question-song_0017-15.mp3
+[GEN ] image_id=song_0017 id=15 -> question-song_0017-15.mp3
+[OK  ] image_id=song_0017 id=15 -> erzeugt
+------------------------------------------------------------
+[2026-04-22 13:50:41] ENDE
+fragen gesehen: 253
+produziert:    15
+übersprungen:  238
+fehler:        0
+json-updates:  15
+mp3 im Ordner: 253
+============================================================
+
+============================================================
+[2026-04-22 13:55:06] START elevenlabsv3.py (SoundMemory)
+Audio-Ordner: /home/aleranzer/quizshark/soundmemory/media/audio
+Questions:     /home/aleranzer/quizshark/soundmemory/questions.json
+FORCE_REGEN:   False
+Voice:         re2r5d74PqDzicySNW0I | Model: eleven_v3 | Stability: 0.5
+============================================================
+[SKIP] image_id=song_0005 id=1 -> existiert bereits (question-song_0005-1.mp3)
+[SKIP] image_id=song_0005 id=3 -> existiert bereits (question-song_0005-3.mp3)
+[SKIP] image_id=song_0005 id=4 -> existiert bereits (question-song_0005-4.mp3)
+[SKIP] image_id=song_0005 id=5 -> existiert bereits (question-song_0005-5.mp3)
+[SKIP] image_id=song_0005 id=6 -> existiert bereits (question-song_0005-6.mp3)
+[SKIP] image_id=song_0005 id=7 -> existiert bereits (question-song_0005-7.mp3)
+[SKIP] image_id=song_0005 id=8 -> existiert bereits (question-song_0005-8.mp3)
+[SKIP] image_id=song_0005 id=9 -> existiert bereits (question-song_0005-9.mp3)
+[SKIP] image_id=song_0005 id=10 -> existiert bereits (question-song_0005-10.mp3)
+[SKIP] image_id=song_0005 id=11 -> existiert bereits (question-song_0005-11.mp3)
+[SKIP] image_id=song_0005 id=12 -> existiert bereits (question-song_0005-12.mp3)
+[SKIP] image_id=song_0005 id=13 -> existiert bereits (question-song_0005-13.mp3)
+[SKIP] image_id=song_0005 id=14 -> existiert bereits (question-song_0005-14.mp3)
+[SKIP] image_id=song_0005 id=15 -> existiert bereits (question-song_0005-15.mp3)
+[SKIP] image_id=song_0005 id=2 -> existiert bereits (question-song_0005-2.mp3)
+[SKIP] image_id=song_0007 id=1 -> existiert bereits (question-song_0007-1.mp3)
+[SKIP] image_id=song_0007 id=2 -> existiert bereits (question-song_0007-2.mp3)
+[SKIP] image_id=song_0007 id=3 -> existiert bereits (question-song_0007-3.mp3)
+[SKIP] image_id=song_0007 id=4 -> existiert bereits (question-song_0007-4.mp3)
+[SKIP] image_id=song_0007 id=5 -> existiert bereits (question-song_0007-5.mp3)
+[SKIP] image_id=song_0007 id=6 -> existiert bereits (question-song_0007-6.mp3)
+[SKIP] image_id=song_0007 id=7 -> existiert bereits (question-song_0007-7.mp3)
+[SKIP] image_id=song_0007 id=8 -> existiert bereits (question-song_0007-8.mp3)
+[SKIP] image_id=song_0007 id=9 -> existiert bereits (question-song_0007-9.mp3)
+[SKIP] image_id=song_0007 id=10 -> existiert bereits (question-song_0007-10.mp3)
+[SKIP] image_id=song_0007 id=11 -> existiert bereits (question-song_0007-11.mp3)
+[SKIP] image_id=song_0007 id=12 -> existiert bereits (question-song_0007-12.mp3)
+[SKIP] image_id=song_0007 id=13 -> existiert bereits (question-song_0007-13.mp3)
+[SKIP] image_id=song_0007 id=14 -> existiert bereits (question-song_0007-14.mp3)
+[SKIP] image_id=song_0007 id=15 -> existiert bereits (question-song_0007-15.mp3)
+[SKIP] image_id=song_0006 id=1 -> existiert bereits (question-song_0006-1.mp3)
+[SKIP] image_id=song_0006 id=2 -> existiert bereits (question-song_0006-2.mp3)
+[SKIP] image_id=song_0006 id=3 -> existiert bereits (question-song_0006-3.mp3)
+[SKIP] image_id=song_0006 id=4 -> existiert bereits (question-song_0006-4.mp3)
+[SKIP] image_id=song_0006 id=5 -> existiert bereits (question-song_0006-5.mp3)
+[SKIP] image_id=song_0006 id=6 -> existiert bereits (question-song_0006-6.mp3)
+[SKIP] image_id=song_0006 id=7 -> existiert bereits (question-song_0006-7.mp3)
+[SKIP] image_id=song_0006 id=8 -> existiert bereits (question-song_0006-8.mp3)
+[SKIP] image_id=song_0006 id=9 -> existiert bereits (question-song_0006-9.mp3)
+[SKIP] image_id=song_0006 id=10 -> existiert bereits (question-song_0006-10.mp3)
+[SKIP] image_id=song_0006 id=11 -> existiert bereits (question-song_0006-11.mp3)
+[SKIP] image_id=song_0006 id=12 -> existiert bereits (question-song_0006-12.mp3)
+[SKIP] image_id=song_0006 id=13 -> existiert bereits (question-song_0006-13.mp3)
+[SKIP] image_id=song_0006 id=14 -> existiert bereits (question-song_0006-14.mp3)
+[SKIP] image_id=song_0006 id=15 -> existiert bereits (question-song_0006-15.mp3)
+[SKIP] image_id=song_0008 id=1 -> existiert bereits (question-song_0008-1.mp3)
+[SKIP] image_id=song_0008 id=2 -> existiert bereits (question-song_0008-2.mp3)
+[SKIP] image_id=song_0008 id=3 -> existiert bereits (question-song_0008-3.mp3)
+[SKIP] image_id=song_0008 id=4 -> existiert bereits (question-song_0008-4.mp3)
+[SKIP] image_id=song_0008 id=5 -> existiert bereits (question-song_0008-5.mp3)
+[SKIP] image_id=song_0008 id=6 -> existiert bereits (question-song_0008-6.mp3)
+[SKIP] image_id=song_0008 id=7 -> existiert bereits (question-song_0008-7.mp3)
+[SKIP] image_id=song_0008 id=8 -> existiert bereits (question-song_0008-8.mp3)
+[SKIP] image_id=song_0008 id=9 -> existiert bereits (question-song_0008-9.mp3)
+[SKIP] image_id=song_0008 id=10 -> existiert bereits (question-song_0008-10.mp3)
+[SKIP] image_id=song_0008 id=11 -> existiert bereits (question-song_0008-11.mp3)
+[SKIP] image_id=song_0008 id=12 -> existiert bereits (question-song_0008-12.mp3)
+[SKIP] image_id=song_0008 id=13 -> existiert bereits (question-song_0008-13.mp3)
+[SKIP] image_id=song_0008 id=14 -> existiert bereits (question-song_0008-14.mp3)
+[SKIP] image_id=song_0010 id=1 -> existiert bereits (question-song_0010-1.mp3)
+[SKIP] image_id=song_0010 id=2 -> existiert bereits (question-song_0010-2.mp3)
+[SKIP] image_id=song_0010 id=3 -> existiert bereits (question-song_0010-3.mp3)
+[SKIP] image_id=song_0010 id=4 -> existiert bereits (question-song_0010-4.mp3)
+[SKIP] image_id=song_0010 id=5 -> existiert bereits (question-song_0010-5.mp3)
+[SKIP] image_id=song_0010 id=6 -> existiert bereits (question-song_0010-6.mp3)
+[SKIP] image_id=song_0010 id=7 -> existiert bereits (question-song_0010-7.mp3)
+[SKIP] image_id=song_0010 id=8 -> existiert bereits (question-song_0010-8.mp3)
+[SKIP] image_id=song_0010 id=9 -> existiert bereits (question-song_0010-9.mp3)
+[SKIP] image_id=song_0010 id=10 -> existiert bereits (question-song_0010-10.mp3)
+[SKIP] image_id=song_0010 id=11 -> existiert bereits (question-song_0010-11.mp3)
+[SKIP] image_id=song_0010 id=12 -> existiert bereits (question-song_0010-12.mp3)
+[SKIP] image_id=song_0010 id=13 -> existiert bereits (question-song_0010-13.mp3)
+[SKIP] image_id=song_0010 id=14 -> existiert bereits (question-song_0010-14.mp3)
+[SKIP] image_id=song_0010 id=15 -> existiert bereits (question-song_0010-15.mp3)
+[SKIP] image_id=song_0009 id=1 -> existiert bereits (question-song_0009-1.mp3)
+[SKIP] image_id=song_0009 id=2 -> existiert bereits (question-song_0009-2.mp3)
+[SKIP] image_id=song_0009 id=3 -> existiert bereits (question-song_0009-3.mp3)
+[SKIP] image_id=song_0009 id=4 -> existiert bereits (question-song_0009-4.mp3)
+[SKIP] image_id=song_0009 id=5 -> existiert bereits (question-song_0009-5.mp3)
+[SKIP] image_id=song_0009 id=6 -> existiert bereits (question-song_0009-6.mp3)
+[SKIP] image_id=song_0009 id=7 -> existiert bereits (question-song_0009-7.mp3)
+[SKIP] image_id=song_0009 id=8 -> existiert bereits (question-song_0009-8.mp3)
+[SKIP] image_id=song_0009 id=9 -> existiert bereits (question-song_0009-9.mp3)
+[SKIP] image_id=song_0009 id=10 -> existiert bereits (question-song_0009-10.mp3)
+[SKIP] image_id=song_0009 id=11 -> existiert bereits (question-song_0009-11.mp3)
+[SKIP] image_id=song_0009 id=12 -> existiert bereits (question-song_0009-12.mp3)
+[SKIP] image_id=song_0009 id=13 -> existiert bereits (question-song_0009-13.mp3)
+[SKIP] image_id=song_0009 id=14 -> existiert bereits (question-song_0009-14.mp3)
+[SKIP] image_id=song_0009 id=15 -> existiert bereits (question-song_0009-15.mp3)
+[SKIP] image_id=song_0011 id=1 -> existiert bereits (question-song_0011-1.mp3)
+[SKIP] image_id=song_0011 id=2 -> existiert bereits (question-song_0011-2.mp3)
+[SKIP] image_id=song_0011 id=3 -> existiert bereits (question-song_0011-3.mp3)
+[SKIP] image_id=song_0011 id=4 -> existiert bereits (question-song_0011-4.mp3)
+[SKIP] image_id=song_0011 id=5 -> existiert bereits (question-song_0011-5.mp3)
+[SKIP] image_id=song_0011 id=6 -> existiert bereits (question-song_0011-6.mp3)
+[SKIP] image_id=song_0011 id=7 -> existiert bereits (question-song_0011-7.mp3)
+[SKIP] image_id=song_0011 id=8 -> existiert bereits (question-song_0011-8.mp3)
+[SKIP] image_id=song_0011 id=9 -> existiert bereits (question-song_0011-9.mp3)
+[SKIP] image_id=song_0011 id=10 -> existiert bereits (question-song_0011-10.mp3)
+[SKIP] image_id=song_0011 id=11 -> existiert bereits (question-song_0011-11.mp3)
+[SKIP] image_id=song_0011 id=12 -> existiert bereits (question-song_0011-12.mp3)
+[SKIP] image_id=song_0011 id=13 -> existiert bereits (question-song_0011-13.mp3)
+[SKIP] image_id=song_0011 id=14 -> existiert bereits (question-song_0011-14.mp3)
+[SKIP] image_id=song_0011 id=15 -> existiert bereits (question-song_0011-15.mp3)
+[SKIP] image_id=song_0002 id=1 -> existiert bereits (question-song_0002-1.mp3)
+[SKIP] image_id=song_0002 id=3 -> existiert bereits (question-song_0002-3.mp3)
+[SKIP] image_id=song_0002 id=4 -> existiert bereits (question-song_0002-4.mp3)
+[SKIP] image_id=song_0002 id=5 -> existiert bereits (question-song_0002-5.mp3)
+[SKIP] image_id=song_0002 id=6 -> existiert bereits (question-song_0002-6.mp3)
+[SKIP] image_id=song_0002 id=7 -> existiert bereits (question-song_0002-7.mp3)
+[SKIP] image_id=song_0002 id=8 -> existiert bereits (question-song_0002-8.mp3)
+[SKIP] image_id=song_0002 id=9 -> existiert bereits (question-song_0002-9.mp3)
+[SKIP] image_id=song_0002 id=10 -> existiert bereits (question-song_0002-10.mp3)
+[SKIP] image_id=song_0002 id=11 -> existiert bereits (question-song_0002-11.mp3)
+[SKIP] image_id=song_0002 id=12 -> existiert bereits (question-song_0002-12.mp3)
+[SKIP] image_id=song_0002 id=13 -> existiert bereits (question-song_0002-13.mp3)
+[SKIP] image_id=song_0002 id=14 -> existiert bereits (question-song_0002-14.mp3)
+[SKIP] image_id=song_0002 id=15 -> existiert bereits (question-song_0002-15.mp3)
+[SKIP] image_id=song_0002 id=2 -> existiert bereits (question-song_0002-2.mp3)
+[SKIP] image_id=song_0001 id=1 -> existiert bereits (question-song_0001-1.mp3)
+[SKIP] image_id=song_0001 id=2 -> existiert bereits (question-song_0001-2.mp3)
+[SKIP] image_id=song_0001 id=4 -> existiert bereits (question-song_0001-4.mp3)
+[SKIP] image_id=song_0001 id=5 -> existiert bereits (question-song_0001-5.mp3)
+[SKIP] image_id=song_0001 id=6 -> existiert bereits (question-song_0001-6.mp3)
+[SKIP] image_id=song_0001 id=7 -> existiert bereits (question-song_0001-7.mp3)
+[SKIP] image_id=song_0001 id=8 -> existiert bereits (question-song_0001-8.mp3)
+[SKIP] image_id=song_0001 id=9 -> existiert bereits (question-song_0001-9.mp3)
+[SKIP] image_id=song_0001 id=10 -> existiert bereits (question-song_0001-10.mp3)
+[SKIP] image_id=song_0001 id=11 -> existiert bereits (question-song_0001-11.mp3)
+[SKIP] image_id=song_0001 id=12 -> existiert bereits (question-song_0001-12.mp3)
+[SKIP] image_id=song_0001 id=13 -> existiert bereits (question-song_0001-13.mp3)
+[SKIP] image_id=song_0001 id=14 -> existiert bereits (question-song_0001-14.mp3)
+[SKIP] image_id=song_0001 id=3 -> existiert bereits (question-song_0001-3.mp3)
+[SKIP] image_id=song_0003 id=1 -> existiert bereits (question-song_0003-1.mp3)
+[SKIP] image_id=song_0003 id=3 -> existiert bereits (question-song_0003-3.mp3)
+[SKIP] image_id=song_0003 id=4 -> existiert bereits (question-song_0003-4.mp3)
+[SKIP] image_id=song_0003 id=5 -> existiert bereits (question-song_0003-5.mp3)
+[SKIP] image_id=song_0003 id=6 -> existiert bereits (question-song_0003-6.mp3)
+[SKIP] image_id=song_0003 id=7 -> existiert bereits (question-song_0003-7.mp3)
+[SKIP] image_id=song_0003 id=8 -> existiert bereits (question-song_0003-8.mp3)
+[SKIP] image_id=song_0003 id=9 -> existiert bereits (question-song_0003-9.mp3)
+[SKIP] image_id=song_0003 id=10 -> existiert bereits (question-song_0003-10.mp3)
+[SKIP] image_id=song_0003 id=11 -> existiert bereits (question-song_0003-11.mp3)
+[SKIP] image_id=song_0003 id=12 -> existiert bereits (question-song_0003-12.mp3)
+[SKIP] image_id=song_0003 id=13 -> existiert bereits (question-song_0003-13.mp3)
+[SKIP] image_id=song_0003 id=14 -> existiert bereits (question-song_0003-14.mp3)
+[SKIP] image_id=song_0003 id=15 -> existiert bereits (question-song_0003-15.mp3)
+[SKIP] image_id=song_0003 id=2 -> existiert bereits (question-song_0003-2.mp3)
+[SKIP] image_id=song_0012 id=1 -> existiert bereits (question-song_0012-1.mp3)
+[SKIP] image_id=song_0012 id=2 -> existiert bereits (question-song_0012-2.mp3)
+[SKIP] image_id=song_0012 id=3 -> existiert bereits (question-song_0012-3.mp3)
+[SKIP] image_id=song_0012 id=4 -> existiert bereits (question-song_0012-4.mp3)
+[SKIP] image_id=song_0012 id=5 -> existiert bereits (question-song_0012-5.mp3)
+[SKIP] image_id=song_0012 id=6 -> existiert bereits (question-song_0012-6.mp3)
+[SKIP] image_id=song_0012 id=7 -> existiert bereits (question-song_0012-7.mp3)
+[SKIP] image_id=song_0012 id=8 -> existiert bereits (question-song_0012-8.mp3)
+[SKIP] image_id=song_0012 id=9 -> existiert bereits (question-song_0012-9.mp3)
+[SKIP] image_id=song_0012 id=10 -> existiert bereits (question-song_0012-10.mp3)
+[SKIP] image_id=song_0012 id=11 -> existiert bereits (question-song_0012-11.mp3)
+[SKIP] image_id=song_0012 id=12 -> existiert bereits (question-song_0012-12.mp3)
+[SKIP] image_id=song_0012 id=13 -> existiert bereits (question-song_0012-13.mp3)
+[SKIP] image_id=song_0012 id=14 -> existiert bereits (question-song_0012-14.mp3)
+[SKIP] image_id=song_0012 id=15 -> existiert bereits (question-song_0012-15.mp3)
+[SKIP] image_id=song_0004 id=1 -> existiert bereits (question-song_0004-1.mp3)
+[SKIP] image_id=song_0004 id=2 -> existiert bereits (question-song_0004-2.mp3)
+[SKIP] image_id=song_0004 id=4 -> existiert bereits (question-song_0004-4.mp3)
+[SKIP] image_id=song_0004 id=5 -> existiert bereits (question-song_0004-5.mp3)
+[SKIP] image_id=song_0004 id=6 -> existiert bereits (question-song_0004-6.mp3)
+[SKIP] image_id=song_0004 id=7 -> existiert bereits (question-song_0004-7.mp3)
+[SKIP] image_id=song_0004 id=8 -> existiert bereits (question-song_0004-8.mp3)
+[SKIP] image_id=song_0004 id=9 -> existiert bereits (question-song_0004-9.mp3)
+[SKIP] image_id=song_0004 id=10 -> existiert bereits (question-song_0004-10.mp3)
+[SKIP] image_id=song_0004 id=11 -> existiert bereits (question-song_0004-11.mp3)
+[SKIP] image_id=song_0004 id=12 -> existiert bereits (question-song_0004-12.mp3)
+[SKIP] image_id=song_0004 id=13 -> existiert bereits (question-song_0004-13.mp3)
+[SKIP] image_id=song_0004 id=14 -> existiert bereits (question-song_0004-14.mp3)
+[SKIP] image_id=song_0004 id=15 -> existiert bereits (question-song_0004-15.mp3)
+[SKIP] image_id=song_0004 id=3 -> existiert bereits (question-song_0004-3.mp3)
+[SKIP] image_id=song_0013 id=1 -> existiert bereits (question-song_0013-1.mp3)
+[SKIP] image_id=song_0013 id=2 -> existiert bereits (question-song_0013-2.mp3)
+[SKIP] image_id=song_0013 id=3 -> existiert bereits (question-song_0013-3.mp3)
+[SKIP] image_id=song_0013 id=4 -> existiert bereits (question-song_0013-4.mp3)
+[SKIP] image_id=song_0013 id=5 -> existiert bereits (question-song_0013-5.mp3)
+[SKIP] image_id=song_0013 id=6 -> existiert bereits (question-song_0013-6.mp3)
+[SKIP] image_id=song_0013 id=7 -> existiert bereits (question-song_0013-7.mp3)
+[SKIP] image_id=song_0013 id=8 -> existiert bereits (question-song_0013-8.mp3)
+[SKIP] image_id=song_0013 id=9 -> existiert bereits (question-song_0013-9.mp3)
+[SKIP] image_id=song_0013 id=10 -> existiert bereits (question-song_0013-10.mp3)
+[SKIP] image_id=song_0013 id=11 -> existiert bereits (question-song_0013-11.mp3)
+[SKIP] image_id=song_0013 id=12 -> existiert bereits (question-song_0013-12.mp3)
+[SKIP] image_id=song_0013 id=13 -> existiert bereits (question-song_0013-13.mp3)
+[SKIP] image_id=song_0013 id=14 -> existiert bereits (question-song_0013-14.mp3)
+[SKIP] image_id=song_0013 id=15 -> existiert bereits (question-song_0013-15.mp3)
+[SKIP] image_id=song_0014 id=1 -> existiert bereits (question-song_0014-1.mp3)
+[SKIP] image_id=song_0014 id=2 -> existiert bereits (question-song_0014-2.mp3)
+[SKIP] image_id=song_0014 id=3 -> existiert bereits (question-song_0014-3.mp3)
+[SKIP] image_id=song_0014 id=4 -> existiert bereits (question-song_0014-4.mp3)
+[SKIP] image_id=song_0014 id=5 -> existiert bereits (question-song_0014-5.mp3)
+[SKIP] image_id=song_0014 id=6 -> existiert bereits (question-song_0014-6.mp3)
+[SKIP] image_id=song_0014 id=7 -> existiert bereits (question-song_0014-7.mp3)
+[SKIP] image_id=song_0014 id=8 -> existiert bereits (question-song_0014-8.mp3)
+[SKIP] image_id=song_0014 id=9 -> existiert bereits (question-song_0014-9.mp3)
+[SKIP] image_id=song_0014 id=10 -> existiert bereits (question-song_0014-10.mp3)
+[SKIP] image_id=song_0014 id=11 -> existiert bereits (question-song_0014-11.mp3)
+[SKIP] image_id=song_0014 id=12 -> existiert bereits (question-song_0014-12.mp3)
+[SKIP] image_id=song_0014 id=13 -> existiert bereits (question-song_0014-13.mp3)
+[SKIP] image_id=song_0014 id=14 -> existiert bereits (question-song_0014-14.mp3)
+[SKIP] image_id=song_0014 id=15 -> existiert bereits (question-song_0014-15.mp3)
+[SKIP] image_id=song_0015 id=1 -> existiert bereits (question-song_0015-1.mp3)
+[SKIP] image_id=song_0015 id=2 -> existiert bereits (question-song_0015-2.mp3)
+[SKIP] image_id=song_0015 id=3 -> existiert bereits (question-song_0015-3.mp3)
+[SKIP] image_id=song_0015 id=4 -> existiert bereits (question-song_0015-4.mp3)
+[SKIP] image_id=song_0015 id=5 -> existiert bereits (question-song_0015-5.mp3)
+[SKIP] image_id=song_0015 id=6 -> existiert bereits (question-song_0015-6.mp3)
+[SKIP] image_id=song_0015 id=7 -> existiert bereits (question-song_0015-7.mp3)
+[SKIP] image_id=song_0015 id=8 -> existiert bereits (question-song_0015-8.mp3)
+[SKIP] image_id=song_0015 id=9 -> existiert bereits (question-song_0015-9.mp3)
+[SKIP] image_id=song_0015 id=10 -> existiert bereits (question-song_0015-10.mp3)
+[SKIP] image_id=song_0015 id=11 -> existiert bereits (question-song_0015-11.mp3)
+[SKIP] image_id=song_0015 id=12 -> existiert bereits (question-song_0015-12.mp3)
+[SKIP] image_id=song_0015 id=13 -> existiert bereits (question-song_0015-13.mp3)
+[SKIP] image_id=song_0015 id=14 -> existiert bereits (question-song_0015-14.mp3)
+[SKIP] image_id=song_0015 id=15 -> existiert bereits (question-song_0015-15.mp3)
+[SKIP] image_id=song_0016 id=1 -> existiert bereits (question-song_0016-1.mp3)
+[SKIP] image_id=song_0016 id=2 -> existiert bereits (question-song_0016-2.mp3)
+[SKIP] image_id=song_0016 id=3 -> existiert bereits (question-song_0016-3.mp3)
+[SKIP] image_id=song_0016 id=4 -> existiert bereits (question-song_0016-4.mp3)
+[SKIP] image_id=song_0016 id=5 -> existiert bereits (question-song_0016-5.mp3)
+[SKIP] image_id=song_0016 id=6 -> existiert bereits (question-song_0016-6.mp3)
+[SKIP] image_id=song_0016 id=7 -> existiert bereits (question-song_0016-7.mp3)
+[SKIP] image_id=song_0016 id=8 -> existiert bereits (question-song_0016-8.mp3)
+[SKIP] image_id=song_0016 id=9 -> existiert bereits (question-song_0016-9.mp3)
+[SKIP] image_id=song_0016 id=10 -> existiert bereits (question-song_0016-10.mp3)
+[SKIP] image_id=song_0016 id=11 -> existiert bereits (question-song_0016-11.mp3)
+[SKIP] image_id=song_0016 id=12 -> existiert bereits (question-song_0016-12.mp3)
+[SKIP] image_id=song_0016 id=13 -> existiert bereits (question-song_0016-13.mp3)
+[SKIP] image_id=song_0016 id=14 -> existiert bereits (question-song_0016-14.mp3)
+[SKIP] image_id=song_0016 id=15 -> existiert bereits (question-song_0016-15.mp3)
+[SKIP] image_id=song_0017 id=1 -> existiert bereits (question-song_0017-1.mp3)
+[SKIP] image_id=song_0017 id=2 -> existiert bereits (question-song_0017-2.mp3)
+[SKIP] image_id=song_0017 id=3 -> existiert bereits (question-song_0017-3.mp3)
+[SKIP] image_id=song_0017 id=4 -> existiert bereits (question-song_0017-4.mp3)
+[SKIP] image_id=song_0017 id=5 -> existiert bereits (question-song_0017-5.mp3)
+[SKIP] image_id=song_0017 id=6 -> existiert bereits (question-song_0017-6.mp3)
+[SKIP] image_id=song_0017 id=7 -> existiert bereits (question-song_0017-7.mp3)
+[SKIP] image_id=song_0017 id=8 -> existiert bereits (question-song_0017-8.mp3)
+[SKIP] image_id=song_0017 id=9 -> existiert bereits (question-song_0017-9.mp3)
+[SKIP] image_id=song_0017 id=10 -> existiert bereits (question-song_0017-10.mp3)
+[SKIP] image_id=song_0017 id=11 -> existiert bereits (question-song_0017-11.mp3)
+[SKIP] image_id=song_0017 id=12 -> existiert bereits (question-song_0017-12.mp3)
+[SKIP] image_id=song_0017 id=13 -> existiert bereits (question-song_0017-13.mp3)
+[SKIP] image_id=song_0017 id=14 -> existiert bereits (question-song_0017-14.mp3)
+[SKIP] image_id=song_0017 id=15 -> existiert bereits (question-song_0017-15.mp3)
+[JSON] image_id=song_0018 id=1 audio gesetzt -> question-song_0018-1.mp3
+[GEN ] image_id=song_0018 id=1 -> question-song_0018-1.mp3
+[OK  ] image_id=song_0018 id=1 -> erzeugt
+[JSON] image_id=song_0018 id=2 audio gesetzt -> question-song_0018-2.mp3
+[GEN ] image_id=song_0018 id=2 -> question-song_0018-2.mp3
+[OK  ] image_id=song_0018 id=2 -> erzeugt
+[JSON] image_id=song_0018 id=3 audio gesetzt -> question-song_0018-3.mp3
+[GEN ] image_id=song_0018 id=3 -> question-song_0018-3.mp3
+[OK  ] image_id=song_0018 id=3 -> erzeugt
+[JSON] image_id=song_0018 id=4 audio gesetzt -> question-song_0018-4.mp3
+[GEN ] image_id=song_0018 id=4 -> question-song_0018-4.mp3
+[OK  ] image_id=song_0018 id=4 -> erzeugt
+[JSON] image_id=song_0018 id=5 audio gesetzt -> question-song_0018-5.mp3
+[GEN ] image_id=song_0018 id=5 -> question-song_0018-5.mp3
+[OK  ] image_id=song_0018 id=5 -> erzeugt
+[JSON] image_id=song_0018 id=6 audio gesetzt -> question-song_0018-6.mp3
+[GEN ] image_id=song_0018 id=6 -> question-song_0018-6.mp3
+[OK  ] image_id=song_0018 id=6 -> erzeugt
+[JSON] image_id=song_0018 id=7 audio gesetzt -> question-song_0018-7.mp3
+[GEN ] image_id=song_0018 id=7 -> question-song_0018-7.mp3
+[OK  ] image_id=song_0018 id=7 -> erzeugt
+[JSON] image_id=song_0018 id=8 audio gesetzt -> question-song_0018-8.mp3
+[GEN ] image_id=song_0018 id=8 -> question-song_0018-8.mp3
+[OK  ] image_id=song_0018 id=8 -> erzeugt
+[JSON] image_id=song_0018 id=9 audio gesetzt -> question-song_0018-9.mp3
+[GEN ] image_id=song_0018 id=9 -> question-song_0018-9.mp3
+[OK  ] image_id=song_0018 id=9 -> erzeugt
+[JSON] image_id=song_0018 id=10 audio gesetzt -> question-song_0018-10.mp3
+[GEN ] image_id=song_0018 id=10 -> question-song_0018-10.mp3
+[OK  ] image_id=song_0018 id=10 -> erzeugt
+[JSON] image_id=song_0018 id=11 audio gesetzt -> question-song_0018-11.mp3
+[GEN ] image_id=song_0018 id=11 -> question-song_0018-11.mp3
+[OK  ] image_id=song_0018 id=11 -> erzeugt
+[JSON] image_id=song_0018 id=12 audio gesetzt -> question-song_0018-12.mp3
+[GEN ] image_id=song_0018 id=12 -> question-song_0018-12.mp3
+[OK  ] image_id=song_0018 id=12 -> erzeugt
+[JSON] image_id=song_0018 id=13 audio gesetzt -> question-song_0018-13.mp3
+[GEN ] image_id=song_0018 id=13 -> question-song_0018-13.mp3
+[OK  ] image_id=song_0018 id=13 -> erzeugt
+[JSON] image_id=song_0018 id=14 audio gesetzt -> question-song_0018-14.mp3
+[GEN ] image_id=song_0018 id=14 -> question-song_0018-14.mp3
+[OK  ] image_id=song_0018 id=14 -> erzeugt
+[JSON] image_id=song_0018 id=15 audio gesetzt -> question-song_0018-15.mp3
+[GEN ] image_id=song_0018 id=15 -> question-song_0018-15.mp3
+[OK  ] image_id=song_0018 id=15 -> erzeugt
+------------------------------------------------------------
+[2026-04-22 13:55:31] ENDE
+fragen gesehen: 268
+produziert:    15
+übersprungen:  253
+fehler:        0
+json-updates:  15
+mp3 im Ordner: 268
+============================================================

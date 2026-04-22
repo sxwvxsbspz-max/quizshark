@@ -30,7 +30,8 @@ def get_phase_sequence():
         #"customquiz",
         #"haveiever",
         #"oddoneout",
-        "wellguessed",
+        #"wellguessed",
+        "doyouknow",
         #"vollereinsatz",
         #   "leaderboard",
 
@@ -96,6 +97,9 @@ def get_modules():
         },
         "freeknowledge": {
             "logic": "freeknowledge.logic:FreeKnowledgeLogic",
+        },
+        "doyouknow": {
+            "logic": "doyouknow.logic:DoYouKnowLogic",
         },
         "wellguessed": {
             "logic": "wellguessed.logic:WellGuessedLogic",

@@ -138,6 +138,30 @@ function computeRanks(details) {
   }
   return ranks;
 }
+
+// t=0 → grün, t=0.5 → gelb, t=1 → rot
+function interpolateRankColor(t) {
+  const green  = [57, 255, 20];
+  const yellow = [255, 245, 0];
+  const red    = [255, 46, 46];
+  let from, to, lt;
+  if (t <= 0.5) { from = green;  to = yellow; lt = t * 2; }
+  else          { from = yellow; to = red;    lt = (t - 0.5) * 2; }
+  const r = Math.round(from[0] + (to[0] - from[0]) * lt);
+  const g = Math.round(from[1] + (to[1] - from[1]) * lt);
+  const b = Math.round(from[2] + (to[2] - from[2]) * lt);
+  return [r, g, b];
+}
+
+function applyRankColor(playerId, t) {
+  const [r, g, b] = interpolateRankColor(t);
+  const color  = `rgb(${r},${g},${b})`;
+  const shadow = `0 0 0.52vw rgba(${r},${g},${b},0.55), 0 0 1.04vw rgba(${r},${g},${b},0.85)`;
+  const card = document.querySelector(`#player-${playerId} .ps__playerCard`);
+  const box  = getAnswerBox(playerId);
+  if (card) { card.style.borderColor = color; card.style.boxShadow = shadow; }
+  if (box)  { box.style.borderColor  = color; box.style.boxShadow  = shadow; }
+}
 function getPlayerRow(pid)  { return document.getElementById(`player-${pid}`); }
 function getAnswerBox(pid)  { return document.getElementById(`answer-${pid}`); }
 function getCardWrap(pid)   { return document.getElementById(`cardwrap-${pid}`); }
@@ -347,14 +371,31 @@ socket.on('show_resolution', data => {
 
   currentRanks = computeRanks(details);
 
+  // Distanz-Range für t-Berechnung
+  const distances = Object.values(details)
+    .map(d => d.distance)
+    .filter(d => d !== null && d !== undefined)
+    .map(Number);
+  const minDist = distances.length ? Math.min(...distances) : 0;
+  const maxDist = distances.length ? Math.max(...distances) : 0;
+  const allTied = (maxDist === minDist);
+
   currentPlayerOrder.forEach(playerId => {
     const row = getPlayerRow(playerId);
     if (!row) return;
     const d = details[playerId];
     if (!d) return;
 
-    if (d.accepted === true)  row.classList.add('is-correct');
-    if (d.accepted === false) row.classList.add('is-wrong');
+    // t: 0 = nächster (grün), 1 = weitester (rot)
+    let t;
+    if (d.distance === null || d.distance === undefined) {
+      t = 1; // keine Antwort → rot
+    } else if (allTied) {
+      t = 0; // alle gleich → alle grün
+    } else {
+      t = (Number(d.distance) - minDist) / (maxDist - minDist);
+    }
+    applyRankColor(playerId, t);
 
     const box = getAnswerBox(playerId);
     if (!box) return;
