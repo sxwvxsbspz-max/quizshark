@@ -23,6 +23,7 @@ def get_phase_sequence():
         #   "leaderboard",
 
         #"soundyear",
+        "songster",
         #"imagequiz",
         #"soundmemory",      
          #  "leaderboard",
@@ -32,7 +33,7 @@ def get_phase_sequence():
         #"oddoneout",
         #"wellguessed",
         #"doyouknow",
-        "yourcategory",
+        #"yourcategory",
         #"vollereinsatz",
         #   "leaderboard",
 
@@ -80,6 +81,9 @@ def get_modules():
         },
         "soundyear": {
             "logic": "soundyear.logic:SoundyearLogic",
+        },
+        "songster": {
+            "logic": "songster.logic:SongsterLogic",
         },
         "vollereinsatz": {
             "logic": "vollereinsatz.logic:VollereinsatzLogic",

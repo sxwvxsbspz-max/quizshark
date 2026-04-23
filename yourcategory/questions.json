@@ -270,5 +270,39 @@
         "lastplayed": "2026-04-23T06:37:14Z",
         "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
         "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "9033f005",
+        "category": "Handcreme",
+        "categoryaudio": "category-handcreme.mp3",
+        "question": "Welche der folgenden Inhaltsstoffe in Handcremes ist bekannt dafür, die Hautbarriere zu stärken und den Feuchtigkeitshaushalt zu regulieren?",
+        "correct": "Ceramide",
+        "wrong": [
+            "Glycerin",
+            "Alkohol",
+            "Parabene"
+        ],
+        "audio": "question-9033f005.mp3",
+        "image": "",
+        "lastplayed": "2026-04-23T07:01:20Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "c0f9b322",
+        "category": "PowerPoint",
+        "categoryaudio": "category-powerpoint.mp3",
+        "question": "Welches der folgenden Formate unterstützt Microsoft PowerPoint nicht für den Export von Präsentationen?",
+        "correct": ".pdf",
+        "wrong": [
+            ".pptx",
+            ".ppt",
+            ".jpeg"
+        ],
+        "audio": "question-c0f9b322.mp3",
+        "image": "",
+        "lastplayed": "2026-04-23T07:06:15Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
     }
 ]

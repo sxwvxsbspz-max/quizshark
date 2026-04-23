@@ -1,0 +1,360 @@
+html {
+  font-size: 0.41666vw; /* 16px bei 3840px */
+}
+
+html, body {
+  margin: 0; padding: 0;
+  width: 100%; height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+.ps, .ps * { box-sizing: border-box; }
+
+:root {
+  --bg:        #00167a;
+  --white20:   rgba(255,255,255,0.20);
+  --yellow:    #FFF500;
+  --yellowFill:#FFF50099;
+  --green:     #39FF14;
+  --red:       #FF2E2E;
+  --tileW:     100%;          /* Tiles füllen die gesamte Panel-Breite */
+  --tileH:     3.64vw;        /* ~140px bei 4K – einzeilig */
+  --tileRadius:1.04vw;        /* 40px */
+  --gap:       0.52vw;        /* 20px */
+  --pad:       1.82vw;        /* 70px Innenabstand des Panels */
+}
+
+/* ================================================================
+   BASE LAYOUT
+   ================================================================ */
+
+.ps {
+  width: 100vw; height: 100vh;
+  overflow: hidden;
+  font-family: "Nunito", Arial, sans-serif;
+  background: var(--bg);
+  color: #fff;
+}
+
+.ps__videoLayer {
+  position: fixed; inset: 0;
+  background: #000; z-index: 10;
+}
+.ps__video { width: 100vw; height: 100vh; object-fit: cover; display: block; }
+
+.ps__gameLayer {
+  position: fixed; inset: 0; z-index: 2;
+  background: var(--bg) url("/songster/media/background.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.ps__wrap {
+  width: 100%; height: 100%;
+  display: flex;
+  gap: 2.24vw;
+  padding: 2.08vw;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* LEFT Panel */
+.ps__panel {
+  flex: 1;
+  height: calc(100vh - 4.16vw);
+  border-radius: var(--tileRadius);
+  background: var(--white20);
+  box-shadow: 0 0.57vw 1.56vw rgba(0,0,0,0.35);
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ps__panelInner {
+  width: 100%; height: 100%;
+  padding: var(--pad);
+  display: flex;
+  flex-direction: column;
+  gap: 0.78vw;
+}
+
+/* RIGHT sidebar – 1:1 aus soundyear */
+.ps__sidebar {
+  width: 52.08vw;
+  height: calc(100vh - 4.16vw);
+  display: flex;
+  align-items: flex-start;
+}
+
+.ps__players {
+  width: 43.22vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.52vw;
+  align-items: flex-end;
+}
+
+.ps__player {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.52vw;
+}
+
+/* Answer-Box links (zeigt Jahresspanne) */
+.ps__answerBox {
+  flex: 0 0 21.61vw;
+  width: 21.61vw;
+  height: 3.64vw;
+  border-radius: 1.04vw;
+  background: rgba(255,255,255,0.12);
+  border: 0.22vw solid rgba(255,255,255,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.95);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* CardWrap rechts */
+.ps__playerCardWrap {
+  flex: 0 0 21.61vw;
+  width: 21.61vw;
+  position: relative;
+}
+
+.ps__playerCard {
+  width: 100%;
+  height: 3.64vw;
+  padding: 0 1.04vw;
+  border-radius: 1.04vw;
+  background: rgba(255,255,255,0.16);
+  border: 0.22vw solid rgba(255,255,255,0.0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.47vw;
+  overflow: hidden;
+}
+
+.ps__playerName {
+  font-size: 4.5rem; font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  flex: 1 1 auto; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+.ps__playerScore {
+  font-size: 4.5rem; font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  font-variant-numeric: tabular-nums;
+  flex: 0 0 auto; min-width: 2.86vw;
+  text-align: right; white-space: nowrap;
+}
+
+.ps__player.is-answered .ps__playerCard {
+  border-color: rgba(255,255,255,0.70);
+}
+.ps__player.is-correct .ps__playerCard {
+  border-color: var(--green);
+  box-shadow: 0 0 0.52vw rgba(57,255,20,0.55), 0 0 1.04vw rgba(57,255,20,0.85);
+}
+.ps__player.is-wrong .ps__playerCard {
+  border-color: var(--red);
+  box-shadow: 0 0 0.52vw rgba(255,46,46,0.45), 0 0 1.04vw rgba(255,46,46,0.75);
+}
+
+.ps__scorePop {
+  font-size: 4rem; font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  font-variant-numeric: tabular-nums;
+  position: absolute;
+  left: calc(100% + 0.62vw);
+  top: 50%; transform: translateY(-50%);
+  pointer-events: none; white-space: nowrap;
+}
+
+/* ================================================================
+   ROUND LABEL
+   ================================================================ */
+.sng__roundLabel {
+  font-size: 4rem; font-weight: 700;
+  color: rgba(255,255,255,0.65);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  flex: 0 0 auto;
+}
+
+/* ================================================================
+   TIMELINE
+   ================================================================ */
+
+.sng__timelineWrap {
+  flex: 1 1 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Komposition bleibt zentriert */
+  position: relative;
+}
+
+.sng__timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--gap);
+  width: 100%;
+  /* Kein overflow-scroll: alles passt rein (max 15 Songs + Anker) */
+}
+
+/* ----------------------------------------------------------------
+   Tiles
+   ---------------------------------------------------------------- */
+
+.sng__tile {
+  box-sizing: border-box;
+  width: var(--tileW);
+  min-height: var(--tileH);
+  border-radius: var(--tileRadius);
+  padding: 0.52vw 1.3vw;
+  display: flex;
+  align-items: center;
+  gap: 1.04vw;
+  transition: transform 400ms cubic-bezier(.34,1.56,.64,1),
+              box-shadow 300ms ease,
+              background 300ms ease,
+              border-color 300ms ease;
+  position: relative;
+}
+
+/* Weißes Tile: Anker oder bereits gespielt */
+.sng__tile--white {
+  background: rgba(255,255,255,0.18);
+  border: 0.22vw solid rgba(255,255,255,0.35);
+}
+
+/* Gelbes Tile: aktuell gespielter Song */
+.sng__tile--yellow {
+  background: var(--yellowFill);
+  border: 0.22vw solid var(--yellow);
+  box-shadow: 0 0 1.3vw rgba(255,245,0,0.45);
+}
+
+/* Grün (richtig) / Rot (falsch) während Auflösung */
+.sng__tile--green {
+  background: rgba(57,255,20,0.25);
+  border: 0.22vw solid var(--green);
+  box-shadow: 0 0 1.3vw rgba(57,255,20,0.5);
+}
+.sng__tile--red {
+  background: rgba(255,46,46,0.22);
+  border: 0.22vw solid var(--red);
+  box-shadow: 0 0 1.3vw rgba(255,46,46,0.45);
+}
+
+/* Tile, das gerade fliegt */
+.sng__tile--flying {
+  position: fixed;
+  z-index: 100;
+  pointer-events: none;
+  will-change: transform;
+  transition: transform 700ms cubic-bezier(.34,1.2,.64,1) !important;
+}
+
+/* ----------------------------------------------------------------
+   Tile Inhalte
+   ---------------------------------------------------------------- */
+
+.sng__tileYear {
+  font-size: 5.8rem; font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  color: rgba(255,255,255,0.95);
+  flex: 0 0 auto;
+  min-width: 6vw;
+}
+
+/* Einzeilig: Interpret — Titel */
+.sng__tileOneLine {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 4rem; font-weight: 500;
+  color: rgba(255,255,255,0.90);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.sng__tileAnchorLabel {
+  font-size: 3.2rem; font-weight: 400;
+  color: rgba(255,255,255,0.50);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  flex: 1 1 auto;
+}
+
+/* ----------------------------------------------------------------
+   Audio-Animation (EQ-Bars)
+   ---------------------------------------------------------------- */
+
+.sng__eq {
+  flex: 0 0 auto;
+  width: 4vw; height: 2vw;
+  overflow: visible;
+}
+
+.sng__eq .bar {
+  fill: rgba(255,255,255,0.85);
+  transform-origin: bottom center;
+  animation: eqBounce 800ms ease-in-out infinite;
+  animation-play-state: paused;
+}
+
+.sng__tile--yellow .sng__eq .bar,
+.sng__tile--green  .sng__eq .bar,
+.sng__tile--red    .sng__eq .bar {
+  animation-play-state: running;
+}
+
+.sng__eq .bar:nth-child(1) { animation-duration: 700ms; }
+.sng__eq .bar:nth-child(2) { animation-duration: 850ms; }
+.sng__eq .bar:nth-child(3) { animation-duration: 650ms; }
+.sng__eq .bar:nth-child(4) { animation-duration: 900ms; }
+.sng__eq .bar:nth-child(5) { animation-duration: 720ms; }
+.sng__eq .bar:nth-child(6) { animation-duration: 820ms; }
+
+@keyframes eqBounce {
+  0%,100% { transform: scaleY(0.25); }
+  50%      { transform: scaleY(1.0);  }
+}
+
+/* Placeholder während Fly-Animation */
+.sng__tile--placeholder {
+  background: transparent;
+  border: 0.22vw dashed rgba(255,255,255,0.20);
+  pointer-events: none;
+}
+
+/* ================================================================
+   UTILITIES
+   ================================================================ */
+
+.is-hidden   { display: none !important; }
+.is-invisible { visibility: hidden; opacity: 0; pointer-events: none; }

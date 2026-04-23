@@ -1,0 +1,444 @@
+/* =========================================================
+   FONTS
+   ========================================================= */
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("../../static/fonts/OpenDyslexic-Regular.otf") format("opentype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+
+.sng-ctrl__currentTile .sng-ctrl__fixedYear {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: rgba(255,255,255,0.95);
+  font-variant-numeric: tabular-nums;
+  flex: 0 0 auto;
+  min-width: 42px;
+}
+
+.sng-ctrl__currentTile .sng-ctrl__fixedOneLine {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.85);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ps-controller, .ps-controller * { box-sizing: border-box; }
+button { font-family: inherit; }
+
+:root {
+  --bg:        #00167a;
+  --white20:   rgba(255,255,255,0.20);
+  --yellow:    #FFF500;
+  --yellowFill:rgba(255,245,0,0.22);
+  --yellowBorder:#FFF500;
+  --green:     rgb(46,204,113);
+  --red:       rgb(231,76,60);
+  --barBg:     rgba(255,255,255,0.18);
+  --barFill:   rgba(255,255,255,0.92);
+  --tileBg:    rgba(255,255,255,0.14);
+  --tileRadius:12px;
+  --tileH:     46px;
+  --gap:       6px;
+}
+
+/* =========================================================
+   ROOT / SCREENS
+   ========================================================= */
+.ps-controller {
+  width: 100vw; height: 100vh;
+  background: var(--bg) url("/songster/media/controllerbackground.svg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.screen {
+  position: fixed; inset: 0;
+  display: flex;
+  align-items: center; justify-content: center;
+  background: transparent;
+}
+
+.screen--round {
+  background-image: url("/songster/media/controllerquestionbackground.svg");
+  background-size: cover; background-position: center;
+}
+
+.round-label {
+  font-family: "OpenDyslexic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: clamp(66px, 10vw, 110px);
+  line-height: 1.1;
+  letter-spacing: -0.1em;
+  color: #fff;
+}
+
+.round-label::before {
+  content: "";
+  display: block;
+  width: min(50vw, 900px);
+  max-height: 40vh;
+  aspect-ratio: 1/1;
+  margin-bottom: 40px;
+  background: url("/songster/media/question.svg") no-repeat center center;
+  background-size: contain;
+  opacity: 0.95;
+}
+
+.screen--qa { align-items: stretch; }
+
+.qa-inner {
+  width: 100%; height: 100%;
+  padding: 16px 14px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+/* =========================================================
+   META-BOX
+   ========================================================= */
+.psc__metaBox {
+  width: min(600px, 96vw);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.16);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.35);
+  padding: 10px 16px;
+  flex: 0 0 auto;
+}
+
+.psc__playerMeta {
+  display: flex; flex-direction: row;
+  align-items: center; justify-content: space-between;
+  gap: 14px;
+}
+
+.psc__metaName {
+  flex: 1 1 auto; min-width: 0;
+  font-size: 1.75rem; font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.psc__metaRow { display: flex; align-items: center; justify-content: flex-end; }
+.psc__metaValue {
+  font-size: 1.75rem; font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.psc__scorePopInline { color: var(--green); font-weight: 700; }
+
+/* =========================================================
+   TIMER BAR
+   ========================================================= */
+.psc__timebar {
+  width: min(600px, 96vw);
+  height: 8px;
+  border-radius: 999px;
+  background: var(--barBg);
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.psc__timebarFill {
+  height: 100%; width: 0%;
+  background: var(--barFill);
+  border-radius: 999px;
+  transition: width 90ms linear;
+}
+
+/* =========================================================
+   TIMELINE AREA
+   ========================================================= */
+.sng-ctrl__area {
+  width: min(600px, 96vw);
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  /* Damit der drag-handle nach oben und unten schiebbar ist */
+  position: relative;
+  padding-bottom: 4px;
+}
+
+/* =========================================================
+   CURRENT TILE (gelb, oben)
+   ========================================================= */
+.sng-ctrl__currentTile {
+  width: 100%;
+  flex: 0 0 auto;
+  min-height: var(--tileH);
+  border-radius: var(--tileRadius);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: grab;
+  position: relative;
+  z-index: 1;
+  transition: background 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+}
+.sng-ctrl__currentTile:active { cursor: grabbing; }
+
+.sng-ctrl__currentTile--yellow {
+  background: var(--yellowFill);
+  border: 2px solid var(--yellowBorder);
+  box-shadow: 0 0 18px rgba(255,245,0,0.35);
+}
+
+.sng-ctrl__currentTile--correct {
+  background: rgba(46,204,113,0.22);
+  border: 2px solid var(--green);
+  box-shadow: 0 0 18px rgba(46,204,113,0.4);
+}
+
+.sng-ctrl__currentTile--wrong {
+  background: rgba(231,76,60,0.22);
+  border: 2px solid var(--red);
+  box-shadow: 0 0 18px rgba(231,76,60,0.4);
+}
+
+.sng-ctrl__currentTile--submitted {
+  border: 3px solid rgba(255,255,255,0.90);
+  box-shadow: 0 0 20px rgba(255,255,255,0.30);
+}
+
+.sng-ctrl__currentTile--locked {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* EQ animation im Controller */
+.sng-ctrl__eq {
+  flex: 0 0 auto;
+  width: 36px; height: 26px;
+}
+
+.sng-ctrl__eq .bar {
+  fill: rgba(255,255,255,0.85);
+  transform-origin: bottom center;
+  animation: ctrlEqBounce 800ms ease-in-out infinite;
+  animation-play-state: paused;
+}
+
+.sng-ctrl__currentTile--yellow .sng-ctrl__eq .bar,
+.sng-ctrl__currentTile--correct .sng-ctrl__eq .bar,
+.sng-ctrl__currentTile--wrong   .sng-ctrl__eq .bar {
+  animation-play-state: running;
+}
+
+.sng-ctrl__eq .bar:nth-child(1) { animation-duration: 700ms; }
+.sng-ctrl__eq .bar:nth-child(2) { animation-duration: 850ms; }
+.sng-ctrl__eq .bar:nth-child(3) { animation-duration: 650ms; }
+.sng-ctrl__eq .bar:nth-child(4) { animation-duration: 900ms; }
+.sng-ctrl__eq .bar:nth-child(5) { animation-duration: 720ms; }
+
+@keyframes ctrlEqBounce {
+  0%,100% { transform: scaleY(0.25); }
+  50%     { transform: scaleY(1.0); }
+}
+
+.sng-ctrl__tileText {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sng-ctrl__tileQuestion {
+  font-size: 1.1rem; font-weight: 700;
+  color: rgba(255,255,255,0.95);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.sng-ctrl__tileRevealYear {
+  font-size: 1.5rem; font-weight: 900;
+  color: rgba(255,255,255,0.95);
+  font-variant-numeric: tabular-nums;
+}
+
+.sng-ctrl__tileRevealTitle {
+  font-size: 1.0rem; font-weight: 700;
+  color: rgba(255,255,255,0.90);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.sng-ctrl__tileRevealArtist {
+  font-size: 0.9rem; font-weight: 400;
+  color: rgba(255,255,255,0.70);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* DRAG HANDLE */
+.sng-ctrl__dragHandle {
+  flex: 0 0 auto;
+  width: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px;
+  align-content: center;
+  justify-content: center;
+  cursor: grab;
+  touch-action: none;
+}
+
+.sng-ctrl__dragHandle:active { cursor: grabbing; }
+
+.sng-ctrl__handleDot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.60);
+}
+
+/* =========================================================
+   TIMELINE (feste Tiles: Anker + platzierte Songs)
+   ========================================================= */
+.sng-ctrl__timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+/* Feste Tiles in der Timeline */
+.sng-ctrl__fixedTile {
+  width: 100%;
+  min-height: var(--tileH);
+  border-radius: var(--tileRadius);
+  background: rgba(255,255,255,0.14);
+  border: 2px solid rgba(255,255,255,0.28);
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+  transition: transform 180ms ease;
+}
+
+.sng-ctrl__fixedTile--anchor {
+  background: rgba(255,255,255,0.22);
+  border-color: rgba(255,255,255,0.55);
+}
+
+.sng-ctrl__fixedYear {
+  font-size: 1.1rem; font-weight: 900;
+  color: rgba(255,255,255,0.95);
+  font-variant-numeric: tabular-nums;
+  flex: 0 0 auto;
+  min-width: 42px;
+}
+
+.sng-ctrl__fixedLabel {
+  font-size: 0.78rem; font-weight: 500;
+  color: rgba(255,255,255,0.60);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  flex: 1 1 auto;
+}
+
+.sng-ctrl__fixedOneLine {
+  flex: 1 1 auto; min-width: 0;
+  font-size: 0.82rem; font-weight: 500;
+  color: rgba(255,255,255,0.85);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* Jahresspanne-Anzeige nach Auflösung */
+.sng-ctrl__yearRange {
+  width: 100%;
+  text-align: center;
+  font-size: 1.0rem; font-weight: 700;
+  color: rgba(255,245,0,0.85);
+  padding: 4px 0;
+  flex: 0 0 auto;
+}
+.sng-ctrl__yearRange.is-hidden { display: none; }
+
+/* =========================================================
+   CONFIRM BUTTON
+   ========================================================= */
+.sng-ctrl__confirm {
+  width: min(600px, 96vw);
+  padding: 16px 22px;
+  border-radius: 18px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1.18rem; font-weight: 900;
+  color: rgba(255,255,255,0.95);
+  background: rgba(255,255,255,0.28);
+  border: 2px solid rgba(255,255,255,0.45);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  flex: 0 0 auto;
+  transition: opacity 180ms ease, background 180ms ease;
+}
+
+.sng-ctrl__confirm:disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* =========================================================
+   TITLE SCREEN
+   ========================================================= */
+.sr-title-wordmark {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center;
+  max-height: 75vh; width: min(90vw, 900px);
+}
+
+.sr-title-speedy {
+  font-family: "OpenDyslexic", Arial, sans-serif;
+  font-weight: 400; color: #fff;
+  font-size: clamp(66px, 10vw, 110px);
+  letter-spacing: -0.1em;
+  margin-top: 12px;
+}
+
+.kern-p { display: inline-block; margin-right: -0.12em; }
+
+.sr-title-logo {
+  width: min(50vw, 900px); height: auto;
+  max-height: 40vh; object-fit: contain;
+  margin-bottom: 18px; display: block;
+}
+
+/* =========================================================
+   UTILITIES
+   ========================================================= */
+.is-hidden { display: none !important; }

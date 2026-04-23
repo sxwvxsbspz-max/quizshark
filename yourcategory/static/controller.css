@@ -22,15 +22,27 @@
   color: rgba(255,255,255,0.95);
 }
 
+/* Reset extra margin on the form so spacing equals qa-inner gap everywhere */
+#yc-input-screen .syc__form {
+  margin-top: 0;
+}
+
+/* OK button = opt-0 orange style */
+#yc-input-screen .syc__submit {
+  border-color: var(--orange);
+  background: var(--orangeFill);
+  color: #fff;
+}
+
 /* Suggestion buttons container */
 .yc-ctrl__suggestions {
   width: min(600px, 96vw);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
 }
 
-/* Individual suggestion button */
+/* Individual suggestion button — matches .opt base style */
 .yc-ctrl__sugBtn {
   width: 100%;
   padding: 16px 14px;
@@ -41,35 +53,34 @@
   line-height: 1.12;
   text-align: center;
 
-  color: rgba(255,255,255,0.95);
-  background: rgba(255,255,255,0.14);
+  color: #fff;
   border: 2px solid rgba(255,255,255,0.35);
   box-shadow: 0 14px 28px rgba(0,0,0,0.18);
 
   cursor: pointer;
-  transition: background 0.15s, transform 0.1s;
+  transition: background 180ms ease, border-color 200ms ease;
 }
 
-.yc-ctrl__sugBtn:active {
-  transform: scale(0.97);
-  background: rgba(255,255,255,0.22);
-}
+/* opt-1 blue, opt-2 green, opt-3 yellow */
+.yc-ctrl__sugBtn:nth-child(1) { border-color: var(--blue);   background: var(--blueFill); }
+.yc-ctrl__sugBtn:nth-child(2) { border-color: var(--green);  background: var(--greenFill); }
+.yc-ctrl__sugBtn:nth-child(3) { border-color: var(--yellow); background: var(--yellowFill); }
 
 .yc-ctrl__sugBtn.is-locked {
   pointer-events: none;
   opacity: 0.45;
 }
 
-/* Grüner Highlight auf dem gewählten Element */
+/* Selected = weißer Rahmen wie bei Punktesammler MC */
 .yc-ctrl__sugBtn.is-selected {
-  border: 4px solid rgb(46,204,113) !important;
-  background: rgba(46,204,113,0.22) !important;
+  border-color: rgba(255,255,255,1.0) !important;
   opacity: 1 !important;
 }
 
 .syc__input.is-selected {
-  border-color: rgb(46,204,113) !important;
-  box-shadow: 0 0 0 3px rgb(46,204,113) !important;
+  border-color: rgba(255,255,255,1.0) !important;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.6) !important;
+  opacity: 1 !important;
   outline: none;
 }
 

@@ -1,0 +1,63 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+
+<div class="ps-controller">
+
+  <!-- TITLE SCREEN -->
+  <div id="title-screen" class="screen" style="
+    background-image: url('/songster/media/controllerbackground.svg');
+    background-size: cover; background-position: center;">
+    <div class="sr-title-wordmark">
+      <img class="sr-title-logo" src="/songster/media/roundlogo.svg" alt="" aria-hidden="true">
+      <div class="sr-title-speedy"><span class="kern-p">S</span>ongster</div>
+    </div>
+  </div>
+
+  <!-- ROUND SCREEN -->
+  <div id="round-screen" class="screen screen--round" style="display:none;">
+    <div class="round-label" id="round-label">Track 1</div>
+  </div>
+
+  <!-- QUESTION / ANSWERS SCREEN -->
+  <div id="qa-screen" class="screen screen--qa" style="display:none;">
+    <div class="qa-inner">
+
+      <!-- META-BOX (Name + Punkte) -->
+      <div class="psc__metaBox">
+        <div class="psc__playerMeta">
+          <div class="psc__metaName" id="player-name">—</div>
+          <div class="psc__metaRow">
+            <div class="psc__metaValue" id="player-score">—</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timer-Bar -->
+      <div class="psc__timebar" aria-hidden="true">
+        <div class="psc__timebarFill" id="timebar-fill"></div>
+      </div>
+
+      <!-- TIMELINE AREA: gelbes Tile + feste Tiles in einer Liste -->
+      <div class="sng-ctrl__area" id="ctrl-area">
+        <div class="sng-ctrl__timeline" id="ctrl-timeline">
+          <!-- wird per JS gebaut (gelbe Box ist immer erster Eintrag) -->
+        </div>
+      </div>
+
+      <!-- Bestätigen-Button -->
+      <button class="sng-ctrl__confirm" id="confirm-btn" disabled>
+        Bestätigen
+      </button>
+
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/songster/static/controller.css">
+<script src="/songster/static/controller.js"></script>
+{% endblock %}

@@ -1,0 +1,423 @@
+// Songster TV – Hitster-Mechanik
+
+socket.emit('register_tv');
+socket.on('connect', () => socket.emit('register_tv'));
+
+// ----------------------------------------------------------------
+// DOM
+// ----------------------------------------------------------------
+const videoLayer  = document.getElementById('video-layer');
+const gameLayer   = document.getElementById('game-layer');
+const videoPlayer = document.getElementById('phase-video');
+const tvTimeline  = document.getElementById('tv-timeline');
+const roundLabel  = document.getElementById('round-label');
+
+// ----------------------------------------------------------------
+// Server-Clock Sync
+// ----------------------------------------------------------------
+let clockOffsetMs = 0;
+function nowSyncedMs() { return Date.now() + clockOffsetMs; }
+
+socket.on('server_time', d => {
+  if (d && typeof d.server_now === 'number') clockOffsetMs = d.server_now - Date.now();
+});
+
+// ----------------------------------------------------------------
+// Audio
+// ----------------------------------------------------------------
+const questionAudio = new Audio();
+questionAudio.preload = 'auto';
+questionAudio.volume = 1.0;
+questionAudio.loop = true;
+
+const SFX_BASE = '/songster/media/gamesounds';
+const bgm = new Audio(`${SFX_BASE}/background.mp3`);
+bgm.preload = 'auto'; bgm.loop = true; bgm.volume = 1.0;
+
+function startBgm()  { try { bgm.currentTime = 0; } catch(_){} bgm.play().catch(()=>{}); }
+function stopBgm()   { try { bgm.pause(); bgm.currentTime = 0; } catch(_){} }
+
+function playSfxOnce(file) {
+  try { const a = new Audio(`${SFX_BASE}/${file}`); a.volume = 1.0; a.play().catch(()=>{}); } catch(_){}
+}
+
+function playQuestionAudio(url) {
+  if (!url) return;
+  try { questionAudio.pause(); questionAudio.currentTime = 0; } catch(_){}
+  questionAudio.src = url;
+  questionAudio.load();
+  questionAudio.play().catch(()=>{});
+}
+
+function stopQuestionAudio() {
+  try { questionAudio.pause(); questionAudio.currentTime = 0; } catch(_){}
+}
+
+// ----------------------------------------------------------------
+// Layer
+// ----------------------------------------------------------------
+function showVideo(src) {
+  gameLayer.style.display = 'none';
+  videoLayer.style.display = 'block';
+  stopQuestionAudio(); stopBgm();
+  if (src) { videoPlayer.src = src; videoPlayer.load(); }
+  videoPlayer.play().catch(()=>{});
+}
+
+function showGame() {
+  videoLayer.style.display = 'none';
+  gameLayer.style.display = 'block';
+}
+
+videoPlayer.onended = () => socket.emit('module_event', { action: 'video_finished' });
+
+// ----------------------------------------------------------------
+// State
+// ----------------------------------------------------------------
+let currentRound            = 0;
+let anchorYear              = null;
+let currentYellowYear       = null;   // Jahr des aktuellen Songs (enthüllt)
+let currentYellowTitle      = null;
+let currentYellowArtist     = null;
+let currentYellowPlacedYear = null;   // Jahr das nach der Runde gelb bleibt
+let currentPlayerOrder      = [];
+let maxTvPlayers            = 12;
+
+// ----------------------------------------------------------------
+// Player sidebar
+// ----------------------------------------------------------------
+function computeMaxTvPlayers() {
+  const sidebar = document.getElementById('player-sidebar');
+  if (!sidebar) return 12;
+  const sidebarH = (sidebar.closest('.ps__sidebar') || sidebar).getBoundingClientRect().height;
+  let sampleCard = sidebar.querySelector('.ps__playerCard');
+  if (!sampleCard) {
+    const tmp = document.createElement('div');
+    tmp.className = 'ps__player';
+    tmp.innerHTML = '<div class="ps__playerCard"><div class="ps__playerName">X</div><div class="ps__playerScore">0</div></div>';
+    sidebar.appendChild(tmp);
+    sampleCard = tmp.querySelector('.ps__playerCard');
+    const h = sampleCard ? sampleCard.getBoundingClientRect().height : 0;
+    tmp.remove();
+    if (!h) return 12;
+    return Math.max(1, Math.floor((sidebarH + 5) / (h + 5)));
+  }
+  const h = sampleCard.getBoundingClientRect().height;
+  return h ? Math.max(1, Math.floor((sidebarH + 5) / (h + 5))) : 12;
+}
+
+function renderPlayers(playersRanked) {
+  const sidebar = document.getElementById('player-sidebar');
+  if (!sidebar) return;
+  maxTvPlayers = computeMaxTvPlayers();
+  const list = (playersRanked || []).slice(0, maxTvPlayers);
+  currentPlayerOrder = list.map(p => p.player_id);
+
+  sidebar.innerHTML = '';
+  list.forEach(p => {
+    const row = document.createElement('div');
+    row.className = 'ps__player';
+    row.id = `player-${p.player_id}`;
+    row.innerHTML = `
+      <div id="answer-${p.player_id}" class="ps__answerBox is-hidden" aria-hidden="true"></div>
+      <div id="cardwrap-${p.player_id}" class="ps__playerCardWrap">
+        <div class="ps__playerCard">
+          <div class="ps__playerName">${p.name}</div>
+          <div class="ps__playerScore">${p.score}</div>
+        </div>
+      </div>
+    `;
+    sidebar.appendChild(row);
+  });
+}
+
+function updateScores(playersRanked) {
+  (playersRanked || []).forEach(p => {
+    const row = document.getElementById(`player-${p.player_id}`);
+    if (!row) return;
+    const scoreEl = row.querySelector('.ps__playerScore');
+    if (scoreEl) scoreEl.textContent = p.score;
+  });
+}
+
+function clearScorePops() {
+  document.querySelectorAll('.ps__scorePop').forEach(n => n.remove());
+}
+
+function setYearRange(playerId, text) {
+  const el = document.getElementById(`answer-${playerId}`);
+  if (!el) return;
+  if (text) {
+    el.textContent = text;
+    el.classList.remove('is-hidden');
+    el.setAttribute('aria-hidden', 'false');
+  } else {
+    el.classList.add('is-hidden');
+    el.setAttribute('aria-hidden', 'true');
+    el.textContent = '';
+  }
+}
+
+function clearYearRanges() {
+  document.querySelectorAll('.ps__answerBox').forEach(el => {
+    el.classList.add('is-hidden');
+    el.setAttribute('aria-hidden', 'true');
+    el.textContent = '';
+  });
+}
+
+function clearPlayerClasses() {
+  document.querySelectorAll('.ps__player').forEach(row => {
+    row.classList.remove('is-answered', 'is-correct', 'is-wrong');
+    clearScorePops();
+  });
+  clearYearRanges();
+}
+
+// ----------------------------------------------------------------
+// Timeline rendering
+// ----------------------------------------------------------------
+
+function buildAudioSvg() {
+  return `<svg class="sng__eq" viewBox="0 0 180 50" aria-hidden="true">
+    <rect class="bar" x="5"   y="5" width="20" height="40" rx="4"/>
+    <rect class="bar" x="35"  y="5" width="20" height="40" rx="4"/>
+    <rect class="bar" x="65"  y="5" width="20" height="40" rx="4"/>
+    <rect class="bar" x="95"  y="5" width="20" height="40" rx="4"/>
+    <rect class="bar" x="125" y="5" width="20" height="40" rx="4"/>
+    <rect class="bar" x="155" y="5" width="20" height="40" rx="4"/>
+  </svg>`;
+}
+
+function buildTile(tile, variant) {
+  const yearStr = tile.year != null ? String(tile.year) : '?';
+
+  if (variant === 'yellow') {
+    return `<div class="sng__tile sng__tile--yellow" id="tile-current" data-year="${tile.year}">
+      ${buildAudioSvg()}
+      <div class="sng__tileYear" id="tile-current-year" style="visibility:hidden">—</div>
+      <div class="sng__tileOneLine" id="tile-current-info" style="visibility:hidden">
+        <span id="tile-current-artist"></span><span id="tile-current-sep" style="display:none"> — </span><span id="tile-current-title"></span>
+      </div>
+    </div>`;
+  }
+
+  if (tile.is_anchor) {
+    return `<div class="sng__tile sng__tile--white" id="tile-anchor" data-year="${tile.year}">
+      <div class="sng__tileYear">${yearStr}</div>
+      <div class="sng__tileAnchorLabel">Ausgangsjahr</div>
+    </div>`;
+  }
+
+  // Bereits gespielter Song – gelb wenn es der zuletzt platzierte ist, sonst weiß
+  const isPlaced = (tile.year === currentYellowPlacedYear);
+  const cls = isPlaced ? 'sng__tile--yellow' : 'sng__tile--white';
+  const artistPart = tile.artist || '';
+  const titlePart  = tile.title  || '';
+  const sep        = (artistPart && titlePart) ? ' — ' : '';
+  return `<div class="sng__tile ${cls}" id="tile-y${tile.year}" data-year="${tile.year}">
+    <div class="sng__tileYear">${yearStr}</div>
+    <div class="sng__tileOneLine">${artistPart}${sep}${titlePart}</div>
+  </div>`;
+}
+
+
+function redrawTimeline(tvTimelineData, hasCurrentSong, currentSongYear) {
+  const container = document.getElementById('tv-timeline');
+  if (!container) return;
+  let html = '';
+  if (hasCurrentSong) {
+    html += buildTile({year: currentSongYear}, 'yellow');
+  }
+  (tvTimelineData || []).forEach(tile => {
+    html += buildTile(tile, tile.is_anchor ? 'anchor' : 'played');
+  });
+  container.innerHTML = html;
+}
+
+// ----------------------------------------------------------------
+// Socket Events
+// ----------------------------------------------------------------
+
+socket.on('play_round_video', data => {
+  clearScorePops();
+  currentRound = Number(data.round || 1);
+  showVideo(`/songster/media/frage${currentRound}.mp4`);
+});
+
+socket.on('show_question', data => {
+  showGame();
+  clearPlayerClasses();
+  clearScorePops();
+  stopBgm();
+
+  anchorYear              = data.anchor_year;
+  currentYellowYear       = null;
+  currentYellowTitle      = null;
+  currentYellowArtist     = null;
+  currentYellowPlacedYear = null;
+
+  if (roundLabel) roundLabel.textContent = `Track ${data.round || currentRound}`;
+
+  renderPlayers(data.players_ranked);
+  redrawTimeline(data.tv_timeline, true, null);
+
+  setTimeout(() => playQuestionAudio(data.audio), 500);
+});
+
+socket.on('open_answers', () => {
+  // Timer läuft auf dem Controller, TV zeigt nur Audio-Animation
+});
+
+socket.on('close_answers', () => {
+  // nichts zu tun
+});
+
+socket.on('player_logged_in', data => {
+  const row = document.getElementById(`player-${data.player_id}`);
+  if (row) row.classList.add('is-answered');
+  playSfxOnce('answerentered.mp3');
+});
+
+socket.on('reveal_player_answers', data => {
+  playSfxOnce('reveal_player_answers.mp3');
+  const pa = data.player_answers || {};
+  Object.entries(pa).forEach(([pid, ans]) => {
+    const row = document.getElementById(`player-${pid}`);
+    if (row) row.classList.add('is-answered');
+    setYearRange(pid, ans.year_range || '');
+  });
+});
+
+socket.on('unveil_correct', data => {
+  playSfxOnce('unveil_correct.mp3');
+  stopQuestionAudio();
+
+  currentYellowYear   = data.correct_year;
+  currentYellowTitle  = data.title || '';
+  currentYellowArtist = data.artist || '';
+
+  // Jahr/Titel/Interpret auf dem gelben Tile einblenden
+  const yearEl   = document.getElementById('tile-current-year');
+  const infoEl   = document.getElementById('tile-current-info');
+  const titleEl  = document.getElementById('tile-current-title');
+  const artistEl = document.getElementById('tile-current-artist');
+  const sepEl    = document.getElementById('tile-current-sep');
+
+  if (yearEl)   { yearEl.textContent   = String(currentYellowYear); yearEl.style.visibility   = 'visible'; }
+  if (artistEl) { artistEl.textContent = currentYellowArtist; }
+  if (titleEl)  { titleEl.textContent  = currentYellowTitle; }
+  if (sepEl)    { sepEl.style.display  = (currentYellowArtist && currentYellowTitle) ? 'inline' : 'none'; }
+  if (infoEl)   { infoEl.style.visibility = 'visible'; }
+});
+
+socket.on('show_resolution', data => {
+  playSfxOnce('show_resolution.mp3');
+
+  const correctYear     = data.correct_year;
+  const playerResults   = data.player_results || {};
+  const newTvTimeline   = data.tv_timeline || [];
+
+  // Spieler grün/rot markieren
+  Object.entries(playerResults).forEach(([pid, res]) => {
+    const row = document.getElementById(`player-${pid}`);
+    if (!row) return;
+    row.classList.remove('is-answered');
+    if (res.correct) row.classList.add('is-correct');
+    else             row.classList.add('is-wrong');
+  });
+
+  // FLIP-Animation: gelbes Tile fliegt an korrekte Position
+  _flyYellowTile(newTvTimeline, correctYear);
+});
+
+function _flyYellowTile(newTvTimeline, correctYear) {
+  const currentTile = document.getElementById('tile-current');
+  if (!currentTile) {
+    // Kein gelbes Tile vorhanden → einfach neu rendern
+    redrawTimeline(newTvTimeline, false, null);
+    return;
+  }
+
+  // 1) Startposition sichern
+  const fromRect = currentTile.getBoundingClientRect();
+
+  // 2) Neue Timeline rendern (ohne gelbes Tile)
+  redrawTimeline(newTvTimeline, false, null);
+
+  // 3) Zielposition ermitteln (das Tile für correctYear in der neuen Timeline)
+  const targetTile = document.getElementById(`tile-y${correctYear}`);
+  if (!targetTile) return;
+  const toRect = targetTile.getBoundingClientRect();
+
+  // 4) Fliegendes Tile erstellen
+  const flyEl = document.createElement('div');
+  flyEl.className = 'sng__tile sng__tile--yellow sng__tile--flying';
+  flyEl.style.width  = `${fromRect.width}px`;
+  flyEl.style.height = `${fromRect.height}px`;
+  flyEl.style.left   = `${fromRect.left}px`;
+  flyEl.style.top    = `${fromRect.top}px`;
+  flyEl.style.borderRadius = getComputedStyle(currentTile).borderRadius;
+  flyEl.style.overflow = 'hidden';
+  const sep = (currentYellowArtist && currentYellowTitle) ? ' — ' : '';
+  flyEl.innerHTML = `
+    ${buildAudioSvg()}
+    <div class="sng__tileYear">${correctYear}</div>
+    <div class="sng__tileOneLine">${currentYellowArtist}${sep}${currentYellowTitle}</div>
+  `;
+  document.getElementById('game-layer').appendChild(flyEl);
+
+  // 5) Ziel-Tile temporär ausblenden
+  targetTile.style.visibility = 'hidden';
+
+  // 6) Animieren (nächstem Frame warten für Transition)
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      const dx = toRect.left - fromRect.left;
+      const dy = toRect.top  - fromRect.top;
+      flyEl.style.transform = `translate(${dx}px, ${dy}px)`;
+
+      flyEl.addEventListener('transitionend', () => {
+        flyEl.remove();
+        currentYellowPlacedYear = correctYear;
+        if (targetTile) {
+          targetTile.classList.remove('sng__tile--white');
+          targetTile.classList.add('sng__tile--yellow');
+          targetTile.style.visibility = 'visible';
+        }
+      }, { once: true });
+    });
+  });
+}
+
+socket.on('show_scoring', data => {
+  const gained = data.gained || {};
+  clearScorePops();
+
+  const anyPoints = Object.values(gained).some(g => Number(g) > 0);
+  if (anyPoints) {
+    playSfxOnce('pointsunveiled.mp3');
+    Object.entries(gained).forEach(([pid, g]) => {
+      if (Number(g) > 0) {
+        const target = document.getElementById(`cardwrap-${pid}`) || document.getElementById(`player-${pid}`);
+        if (!target) return;
+        const pop = document.createElement('div');
+        pop.className = 'ps__scorePop';
+        pop.textContent = `+${g}`;
+        target.appendChild(pop);
+      }
+    });
+  }
+});
+
+socket.on('apply_scoring_update', data => {
+  clearScorePops();
+  updateScores(data.players_ranked || []);
+  playSfxOnce('pointsupdated.mp3');
+});
+
+// ----------------------------------------------------------------
+// Init
+// ----------------------------------------------------------------
+window.addEventListener('resize', () => { maxTvPlayers = computeMaxTvPlayers(); });
+showVideo();

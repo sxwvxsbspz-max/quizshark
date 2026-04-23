@@ -1,0 +1,52 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+
+<div class="ps">
+
+  <!-- FULLSCREEN Video Layer -->
+  <div id="video-layer" class="ps__videoLayer">
+    <video id="phase-video" autoplay class="ps__video">
+      <source src="/songster/media/intro.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- Game Layer -->
+  <div id="game-layer" class="ps__gameLayer" style="display:none;">
+    <div class="ps__wrap">
+
+      <!-- LEFT: Timeline Panel -->
+      <div class="ps__panel">
+        <div class="ps__panelInner">
+
+          <!-- Runden-Label -->
+          <div class="sng__roundLabel" id="round-label">Track 1</div>
+
+          <!-- Timeline -->
+          <div class="sng__timelineWrap" id="timeline-wrap">
+            <div class="sng__timeline" id="tv-timeline">
+              <!-- Tiles werden per JS gesetzt -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT: Spielerliste -->
+      <div class="ps__sidebar">
+        <div id="player-sidebar" class="ps__players">
+          <!-- per JS -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/songster/static/tv.css">
+<script src="/songster/static/tv.js"></script>
+{% endblock %}

@@ -165,6 +165,25 @@ function stopBgmInput() {
   bgmInputStarted = false;
 }
 
+let bgmAi = null;
+let bgmAiStarted = false;
+
+function startBgmAi() {
+  if (bgmAiStarted) return;
+  bgmAiStarted = true;
+  bgmAi = new Audio(SFX_BASE + 'ai.mp3');
+  bgmAi.preload = 'auto';
+  bgmAi.loop    = true;
+  bgmAi.volume  = 1.0;
+  bgmAi.play().catch(() => {});
+}
+
+function stopBgmAi() {
+  if (!bgmAi) return;
+  try { bgmAi.pause(); bgmAi.currentTime = 0; } catch (_) {}
+  bgmAiStarted = false;
+}
+
 const bgm = new Audio('/punktesammler/media/gamesounds/background.mp3');
 bgm.preload = 'auto';
 bgm.loop    = true;
@@ -316,6 +335,7 @@ function updateGenProgress(progress, total) {
 socket.on('yc_generating', data => {
   stopBgmInput();
   stopInspirationCycle();
+  startBgmAi();
   showLayer(layerGenerating);
   updateGenProgress(data.progress || 0, data.total || 0);
   if (data.players_ranked) {
@@ -348,6 +368,7 @@ socket.on('yc_error', data => {
 // ---------------------------------------------------------------------------
 
 socket.on('yc_announcement', async data => {
+  stopBgmAi();
   // Bar befüllen und einblenden
   if (annBarCategory) annBarCategory.textContent = data.category || '—';
   if (annBarPlayer)   annBarPlayer.textContent   = data.player_name || '—';
