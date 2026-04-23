@@ -1,0 +1,124 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="ps-controller">
+
+  <!-- TITLE SCREEN -->
+  <div id="title-screen" class="screen" style="
+    background-image: url('/pre_lobby/media/controllerbackground.svg');
+    background-size: cover;
+    background-position: center;
+  ">
+    <div class="sr-title-wordmark">
+      <img class="sr-title-logo" src="/yourcategory/media/gamesounds/roundlogo.svg" alt="" aria-hidden="true">
+      <div class="sr-title-speedy">Deine</div>
+      <div class="sr-title-brain">Kategorie</div>
+    </div>
+  </div>
+
+  <!-- YC INPUT SCREEN -->
+  <div id="yc-input-screen" class="screen screen--ycinput" style="display:none;">
+    <div class="qa-inner">
+
+      <!-- Meta Box -->
+      <div class="psc__metaBox">
+        <div class="psc__playerMeta">
+          <div class="psc__metaName" id="input-player-name">—</div>
+          <div class="psc__metaRow">
+            <div class="psc__metaValue" id="input-player-score">—</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timer Bar -->
+      <div class="psc__timebar" aria-hidden="true">
+        <div class="psc__timebarFill" id="input-timebar-fill"></div>
+      </div>
+
+      <!-- Headline -->
+      <div class="yc-ctrl__headline">Deine Wunschkategorie:</div>
+
+      <!-- Text Input -->
+      <form id="category-form" class="syc__form" autocomplete="off" novalidate>
+        <div class="syc__inputWrap">
+          <input
+            id="category-input"
+            class="syc__input"
+            type="text"
+            maxlength="80"
+            placeholder="Kategorie eingeben …"
+            aria-label="Wunschkategorie eingeben"
+          >
+          <button id="category-submit" class="syc__submit" type="submit">OK</button>
+        </div>
+        <div id="category-hint" class="syc__hint is-hidden" aria-hidden="true">
+          Bitte eine Kategorie eingeben.
+        </div>
+      </form>
+
+      <!-- Suggestion Buttons -->
+      <div class="yc-ctrl__orLabel">oder wähle eine dieser Kategorien</div>
+      <div class="yc-ctrl__suggestions" id="suggestion-buttons">
+        <!-- populated by JS -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ROUND SCREEN -->
+  <div id="round-screen" class="screen screen--round" style="display:none;">
+    <div class="round-label" id="round-label">Frage 1</div>
+  </div>
+
+  <!-- QA SCREEN (MC) -->
+  <div id="qa-screen" class="screen screen--qa" style="display:none;">
+    <div class="qa-inner">
+
+      <!-- Meta Box -->
+      <div class="psc__metaBox">
+        <div class="psc__playerMeta">
+          <div class="psc__metaName" id="player-name">—</div>
+          <div class="psc__metaRow">
+            <div class="psc__metaValue" id="player-score">
+              <span class="psc__scorePopInline" style="display:none;">+0</span>
+              <span class="psc__scoreValue">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timer Bar -->
+      <div class="psc__timebar" aria-hidden="true">
+        <div class="psc__timebarFill" id="timebar-fill"></div>
+      </div>
+
+      <!-- Question -->
+      <div class="psc__questionBlock">
+        <div class="question" id="question-text">Lade Frage …</div>
+      </div>
+
+      <!-- Image (optional) -->
+      <div id="question-image-wrap" class="question-image-wrap is-hidden">
+        <img id="question-image" class="question-image" src="" alt="">
+      </div>
+
+      <!-- MC Buttons -->
+      <div id="options-grid" class="options is-invisible">
+        <button class="opt opt-0 is-locked" data-index="0">A</button>
+        <button class="opt opt-1 is-locked" data-index="1">B</button>
+        <button class="opt opt-2 is-locked" data-index="2">C</button>
+        <button class="opt opt-3 is-locked" data-index="3">D</button>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/freeknowledge/static/controller.css">
+<link rel="stylesheet" href="/punktesammler/static/controller.css">
+<link rel="stylesheet" href="/yourcategory/static/controller.css">
+<script src="/yourcategory/static/controller.js"></script>
+{% endblock %}

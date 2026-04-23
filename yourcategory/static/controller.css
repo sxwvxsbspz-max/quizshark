@@ -1,0 +1,99 @@
+/* === YOURCATEGORY CONTROLLER CSS === */
+
+/* Override background for input screen */
+.screen--ycinput {
+  background-image: url('/pre_lobby/media/controllerbackground.svg');
+  background-size: cover;
+  background-position: center;
+  align-items: stretch;
+}
+
+/* Headline */
+.yc-ctrl__headline {
+  width: min(600px, 96vw);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.8);
+  text-align: left;
+  padding: 0 2px;
+}
+
+/* "oder wähle…" label */
+.yc-ctrl__orLabel {
+  width: min(600px, 96vw);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Suggestion buttons container */
+.yc-ctrl__suggestions {
+  width: min(600px, 96vw);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Individual suggestion button */
+.yc-ctrl__sugBtn {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 18px;
+
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+
+  color: rgba(255,255,255,0.95);
+  background: rgba(255,255,255,0.13);
+  border: 2px solid rgba(255,255,255,0.28);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.yc-ctrl__sugBtn:active {
+  transform: scale(0.97);
+  background: rgba(255,255,255,0.22);
+}
+
+.yc-ctrl__sugBtn.is-locked {
+  pointer-events: none;
+  opacity: 0.45;
+}
+
+/* Submitted confirmation overlay */
+.yc-ctrl__submitted {
+  width: min(600px, 96vw);
+  margin-top: 8px;
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(46,204,113,0.22);
+  border: 2px solid rgba(46,204,113,0.45);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgb(46,204,113);
+}
+
+/* Waiting message (generating / announcement phase) */
+.yc-ctrl__waiting {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.8);
+  text-align: center;
+  padding: 24px 16px;
+}
+
+/* "Deine Kategorie" title wordmark */
+.sr-title-speedy {
+  font-size: clamp(52px, 9vw, 100px);
+}
+
+.sr-title-brain {
+  font-size: clamp(52px, 9vw, 100px);
+}

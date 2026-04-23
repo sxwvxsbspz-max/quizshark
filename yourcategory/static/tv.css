@@ -1,0 +1,260 @@
+/* === YOURCATEGORY TV CSS === */
+
+.yc-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+:root {
+  --yc-bg: #00167a;
+}
+
+.yc-tv {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: var(--yc-bg);
+  font-family: "Nunito", Arial, sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.yc-tv__layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Shared wave background */
+.yc-lobby-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.yc-lobby-bg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #08263c;
+  background-image: linear-gradient(to bottom, rgba(14,65,102,0.86), #0e4166);
+}
+
+/* ============================================================
+   LAYER 1 – CATEGORY INPUT (PS-style)
+   ============================================================ */
+
+/* PS background for the input phase */
+.yc-input-phase {
+  background: #00167a url("/punktesammler/media/background.svg") no-repeat center center / cover;
+}
+
+
+/* Announcement tile (shown in answers area during yc_announcement) */
+.yc-ann__ingame {
+  grid-column: 1 / -1;
+  width: 100%;
+  padding: 0.73vw;
+  border-radius: 1.04vw;
+  border: 0.17vw solid rgba(255,255,255,0.35);
+  box-shadow: 0 0.36vw 0.73vw rgba(0,0,0,0.18);
+  background: rgba(255,255,255,0.10);
+  min-height: 7.81vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+}
+
+.yc-ann__ingame-from {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+}
+
+.yc-ann__ingame-player {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+}
+
+/* Inspiration stage: single large cycling category display */
+.yc-insp-stage {
+  flex: 1 1 auto;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 14vw;
+  border-radius: 1.04vw;
+  background: rgba(255,255,255,0.10);
+  border: 0.17vw solid rgba(255,255,255,0.18);
+}
+
+.yc-insp-item {
+  position: absolute;
+  width: 90%;
+  text-align: center;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: clamp(3.5rem, 4.5vw, 8.5rem);
+  font-weight: 900;
+  line-height: 1.2;
+  color: rgba(255,255,255,0.92);
+  pointer-events: none;
+}
+
+@keyframes ycInspIn {
+  from { transform: translateX(-55%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+
+@keyframes ycInspOut {
+  from { transform: translateX(0);    opacity: 1; }
+  to   { transform: translateX(55%);  opacity: 0; }
+}
+
+.yc-insp-item.is-entering {
+  animation: ycInspIn 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.yc-insp-item.is-leaving {
+  animation: ycInspOut 0.45s cubic-bezier(0.55, 0.06, 0.68, 0.19) forwards;
+}
+
+/* ============================================================
+   LAYER 2 – GENERATING (PS-style)
+   ============================================================ */
+
+.yc-gen__content {
+  flex: 1 1 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  text-align: center;
+  padding: 2vw 0;
+}
+
+.yc-gen__progress {
+  font-size: clamp(2.5rem, 3vw, 5.5rem);
+  font-weight: 700;
+  color: rgba(255,255,255,0.85);
+  font-variant-numeric: tabular-nums;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.yc-gen__barWrap {
+  width: 90%;
+  height: 1.8rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.18);
+  overflow: hidden;
+}
+
+.yc-gen__barFill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, #4cbeff, #9eff1f);
+  border-radius: 999px;
+  transition: width 0.6s ease;
+}
+
+.yc-gen__current {
+  font-size: clamp(2rem, 2.5vw, 4.5rem);
+  font-weight: 500;
+  color: rgba(255,255,255,0.7);
+  min-height: 1.4em;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.yc-gen__error {
+  font-size: clamp(1.8rem, 2.2vw, 3.5rem);
+  font-weight: 700;
+  color: rgba(255,160,80,0.95);
+  background: rgba(255,120,0,0.15);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  animation: ycErrorFade 4s ease forwards;
+}
+
+@keyframes ycErrorFade {
+  0%   { opacity: 1; }
+  70%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* ============================================================
+   LAYER 3 – ANNOUNCEMENT
+   ============================================================ */
+
+.yc-ann__center {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 6rem;
+  text-align: center;
+}
+
+.yc-ann__counter {
+  font-size: clamp(2rem, 2.5vw, 4rem);
+  font-weight: 700;
+  color: rgba(255,255,255,0.65);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.yc-ann__from {
+  font-size: clamp(2.5rem, 3vw, 5rem);
+  font-weight: 700;
+  color: rgba(255,255,255,0.8);
+}
+
+.yc-ann__player {
+  font-size: clamp(4rem, 6vw, 10rem);
+  font-weight: 900;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 0.4rem 2rem rgba(76,190,255,0.6);
+}
+
+.yc-ann__category {
+  font-size: clamp(3rem, 4.5vw, 7.5rem);
+  font-weight: 900;
+  line-height: 1.1;
+  color: rgba(255,255,255,0.9);
+  padding: 1.5rem 3rem;
+  border-radius: 1.8rem;
+  background: rgba(255,255,255,0.14);
+  border: 0.25rem solid rgba(255,255,255,0.22);
+  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.3);
+  max-width: 90%;
+}
+
+/* ============================================================
+   LAYER 4 – GAME (MC wie Punktesammler)
+   The #game-layer carries class "ps" so all .ps__* rules apply
+   with correct box-sizing. Override only what differs from PS:
+   position (absolute inside .yc-tv, not fixed) and background.
+   ============================================================ */
+
+#game-layer {
+  position: absolute !important;
+  background: #00167a url("/punktesammler/media/background.svg") no-repeat center center / cover;
+}

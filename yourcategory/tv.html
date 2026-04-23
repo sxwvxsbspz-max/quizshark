@@ -1,0 +1,178 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="yc-tv">
+
+  <!-- ================================================================
+       LAYER 0: VIDEO (Intro + Fragenvideos wie Punktesammler)
+       ================================================================ -->
+  <div id="yc-video-layer" class="yc-tv__layer" style="background:#000;">
+    <video id="yc-phase-video" autoplay class="yc-video">
+      <source src="/yourcategory/media/gamesounds/intro.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- ================================================================
+       LAYER 1: CATEGORY INPUT
+       ================================================================ -->
+  <div id="yc-input-layer" class="yc-tv__layer ps yc-input-phase" style="display:none;">
+    <div class="ps__wrap">
+
+      <!-- LEFT: Big Panel -->
+      <div class="ps__panel">
+        <div class="ps__panelInner">
+
+          <div class="ps__topRow">
+            <div class="ps__questionWrap">
+              <div class="ps__question">Wählt jetzt eure Wunschkategorie</div>
+            </div>
+            <div class="ps__timer" id="input-timer-circle" aria-hidden="true"></div>
+          </div>
+
+          <div class="ps__midRow">
+            <div id="input-inspiration-stage" class="yc-insp-stage">
+              <!-- populated by JS -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT: Player list -->
+      <div class="ps__sidebar">
+        <div id="input-player-sidebar" class="ps__players"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================================================================
+       LAYER 2: GENERATING / LOADING
+       ================================================================ -->
+  <div id="yc-generating-layer" class="yc-tv__layer ps yc-input-phase" style="display:none;">
+    <div class="ps__wrap">
+
+      <!-- LEFT: Panel with generation info -->
+      <div class="ps__panel">
+        <div class="ps__panelInner">
+
+          <div class="ps__topRow">
+            <div class="ps__questionWrap">
+              <div class="ps__question">KI generiert Fragen …</div>
+            </div>
+          </div>
+
+          <div class="ps__midRow">
+            <div class="yc-gen__content">
+              <div class="yc-gen__progress" id="gen-progress-text">0 von 0 fertig</div>
+              <div class="yc-gen__barWrap" aria-hidden="true">
+                <div class="yc-gen__barFill" id="gen-bar-fill"></div>
+              </div>
+              <div class="yc-gen__current" id="gen-current-text"></div>
+              <div class="yc-gen__error" id="gen-error-text" style="display:none;"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT: Player list -->
+      <div class="ps__sidebar">
+        <div id="gen-player-sidebar" class="ps__players"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================================================================
+       LAYER 3: ANNOUNCEMENT (vor jeder Frage)
+       ================================================================ -->
+  <div id="yc-announcement-layer" class="yc-tv__layer" style="display:none;">
+
+    <div class="yc-lobby-bg" aria-hidden="true">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="yc-bg3">
+            <stop offset="0%"   style="stop-color:rgba(249,249,130,0.06)"></stop>
+            <stop offset="50%"  style="stop-color:rgba(76,255,190,0.4)"></stop>
+            <stop offset="100%" style="stop-color:rgba(209,72,115,0.1)"></stop>
+          </linearGradient>
+          <path id="yc-wave3" fill="url(#yc-bg3)"
+            d="M-363.852,502.589c0,0,236.988-41.997,505.475,0s371.981,38.998,575.971,0
+               s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"/>
+        </defs>
+        <g>
+          <use xlink:href="#yc-wave3" opacity=".4">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+              dur="9s" calcMode="spline" values="100 230;-400 200;100 230"
+              keyTimes="0;.5;1" keySplines="0.42,0,0.58,1;0.42,0,0.58,1" repeatCount="indefinite"/>
+          </use>
+          <use xlink:href="#yc-wave3" opacity=".75">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+              dur="6s" calcMode="spline" values="-150 220;300 200;-150 220"
+              keyTimes="0;.45;1" keySplines="0.42,0,0.58,1;0.42,0,0.58,1" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </svg>
+    </div>
+
+    <div class="yc-ann__center">
+      <div class="yc-ann__counter" id="ann-counter">Frage 1 von 1</div>
+      <div class="yc-ann__from">Die nächste Kategorie wurde ausgesucht von:</div>
+      <div class="yc-ann__player" id="ann-player">—</div>
+      <div class="yc-ann__category" id="ann-category">—</div>
+    </div>
+
+  </div>
+
+  <!-- ================================================================
+       LAYER 4: GAME LAYER (MC – wie Punktesammler)
+       ================================================================ -->
+  <div id="game-layer" class="yc-tv__layer ps" style="display:none;">
+
+    <div class="ps__wrap">
+
+      <!-- LEFT -->
+      <div class="ps__panel">
+        <div class="ps__panelInner">
+
+          <div class="ps__topRow">
+            <div class="ps__questionWrap">
+              <div id="question-text" class="ps__question">Lädt Frage …</div>
+            </div>
+            <div id="game-timer" class="ps__timer is-invisible" aria-hidden="true"></div>
+          </div>
+
+          <div id="question-image-wrap" class="ps__questionImageWrap is-hidden" aria-hidden="true">
+            <img id="question-image" class="ps__questionImg" src="/punktesammler/media/dummy.svg" alt="">
+          </div>
+
+          <div class="ps__midRow">
+            <div id="options-grid" class="ps__answers is-invisible"></div>
+          </div>
+
+          <div id="dummy-inbox-wrap" class="ps__dummyInBoxWrap is-hidden" aria-hidden="true">
+            <img id="dummy-inbox-img" class="ps__dummyInBoxImg" src="/punktesammler/media/dummy.svg" alt="">
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="ps__sidebar">
+        <div id="player-sidebar" class="ps__players"></div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="/punktesammler/static/tv.css">
+<link rel="stylesheet" href="/yourcategory/static/tv.css">
+<script src="/yourcategory/static/tv.js"></script>
+{% endblock %}

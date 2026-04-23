@@ -31,7 +31,8 @@ def get_phase_sequence():
         #"haveiever",
         #"oddoneout",
         #"wellguessed",
-        "doyouknow",
+        #"doyouknow",
+        "yourcategory",
         #"vollereinsatz",
         #   "leaderboard",
 
@@ -109,7 +110,10 @@ def get_modules():
         },
         "pause": {
             "logic": "pause.logic:PauseLogic",
-        },        
+        },
+        "yourcategory": {
+            "logic": "yourcategory.logic:YourCategoryLogic",
+        },
         "finale": {
             "logic": "finale.logic:FinaleLogic",
         },

@@ -1,0 +1,594 @@
+[
+    {
+        "id": "dummy001",
+        "category": "Weltall",
+        "question": "Welcher Planet in unserem Sonnensystem hat die meisten bekannten Monde?",
+        "correct": "Saturn",
+        "wrong": [
+            "Jupiter",
+            "Uranus",
+            "Neptun"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy002",
+        "category": "Kulinarik",
+        "question": "Aus welchem Land stammt das Gericht Bibimbap ursprünglich?",
+        "correct": "Südkorea",
+        "wrong": [
+            "Japan",
+            "China",
+            "Vietnam"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy003",
+        "category": "Filmgeschichte",
+        "question": "Welcher Regisseur drehte den Film 'Schindlers Liste' aus dem Jahr 1993?",
+        "correct": "Steven Spielberg",
+        "wrong": [
+            "Martin Scorsese",
+            "Francis Ford Coppola",
+            "Stanley Kubrick"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy004",
+        "category": "Chemie",
+        "question": "Welches Element hat das chemische Symbol 'W'?",
+        "correct": "Wolfram",
+        "wrong": [
+            "Wismut",
+            "Wasserstoff",
+            "Xenon"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy005",
+        "category": "Fußball",
+        "question": "In welchem Jahr gewann Deutschland zuletzt die Fußball-Weltmeisterschaft?",
+        "correct": "2014",
+        "wrong": [
+            "2010",
+            "2006",
+            "2002"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy006",
+        "category": "Literatur",
+        "question": "Wer schrieb den Roman 'Der Prozess'?",
+        "correct": "Franz Kafka",
+        "wrong": [
+            "Thomas Mann",
+            "Hermann Hesse",
+            "Robert Musil"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy007",
+        "category": "Tiere",
+        "question": "Welches Tier hat den höchsten Blutdruck aller Säugetiere?",
+        "correct": "Giraffe",
+        "wrong": [
+            "Elefant",
+            "Blauwal",
+            "Gepard"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy008",
+        "category": "Musikgeschichte",
+        "question": "Wie viele Symphonien vollendete Ludwig van Beethoven?",
+        "correct": "9",
+        "wrong": [
+            "6",
+            "12",
+            "7"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy009",
+        "category": "Geographie",
+        "question": "Welches ist das flächenmäßig größte Land der Welt?",
+        "correct": "Russland",
+        "wrong": [
+            "Kanada",
+            "China",
+            "Brasilien"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "dummy010",
+        "category": "Videospiele",
+        "question": "In welchem Jahr erschien das erste 'The Legend of Zelda'-Spiel?",
+        "correct": "1986",
+        "wrong": [
+            "1983",
+            "1989",
+            "1991"
+        ],
+        "audio": "",
+        "image": "",
+        "lastplayed": "",
+        "submitted_by": "demo",
+        "submitted_by_name": "Demo"
+    },
+    {
+        "id": "b0296bb9",
+        "category": "Google",
+        "question": "Welches der folgenden Produkte wurde nicht von Google entwickelt?",
+        "correct": "Microsoft Office",
+        "wrong": [
+            "Google Drive",
+            "Google Chrome",
+            "Google Photos"
+        ],
+        "audio": "question-b0296bb9.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T19:24:07Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "07283fb0",
+        "category": "Der Mensch",
+        "question": "Welches Organ im menschlichen Körper ist hauptsächlich für die Produktion von Insulin verantwortlich?",
+        "correct": "Bauchspeicheldrüse",
+        "wrong": [
+            "Leber",
+            "Niere",
+            "Milz"
+        ],
+        "audio": "question-07283fb0.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T19:24:10Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "7a6043fb",
+        "category": "Schokolade",
+        "question": "Welche der folgenden Schokoladensorten enthält einen höheren Anteil an Kakaomasse als die anderen?",
+        "correct": "Dunkle Schokolade",
+        "wrong": [
+            "Milchschokolade",
+            "Weiße Schokolade",
+            "Nougatschokolade"
+        ],
+        "audio": "question-7a6043fb.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T19:29:42Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "fba590c4",
+        "category": "GEld",
+        "question": "Was ist die Hauptfunktion von Zentralbanken im internationalen Finanzsystem?",
+        "correct": "Die Steuerung der Geldpolitik und die Stabilisierung der nationalen Währung.",
+        "wrong": [
+            "Die direkte Vergabe von Krediten an den Endverbraucher.",
+            "Die Durchführung von Geschäften an internationalen Aktienmärkten.",
+            "Die Erhebung von Steuern für die nationale Regierung."
+        ],
+        "audio": "question-fba590c4.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T19:29:46Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "c3910db4",
+        "category": "Essen & Trinken",
+        "question": "Welches dieser Lebensmittel enthält von Natur aus kein Gluten?",
+        "correct": "Reis",
+        "wrong": [
+            "Weizen",
+            "Gerste",
+            "Roggen"
+        ],
+        "audio": "question-c3910db4.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T19:44:43Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "494f25b6",
+        "category": "123",
+        "question": "Welche mathematische Eigenschaft beschreibt die Zahl 123 in Bezug auf ihre Primfaktorzerlegung?",
+        "correct": "Es ist das Produkt der Primzahlen 3, 41 und 1.",
+        "wrong": [
+            "Es ist eine Primzahl.",
+            "Es ist das Produkt von 2 und 61.",
+            "Es ist gleich 4 hoch 3 minus 1."
+        ],
+        "audio": "question-494f25b6.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T19:44:47Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "381b0743",
+        "category": "Kinderlieder",
+        "question": "Welcher deutscher Kinderliedklassiker handelt von einem kleinen Jungen, der auf einem großen weißen Schiff reist?",
+        "correct": "Der Junge mit der Mundharmonika",
+        "wrong": [
+            "Die Gedanken sind frei",
+            "Alle meine Entchen",
+            "Hänsel und Gretel"
+        ],
+        "audio": "question-381b0743.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:08:45Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "b1805f3f",
+        "category": "Derber Sex",
+        "question": "Welche sexuelle Praktik wird oft als eine Form des 'derben' Sex betrachtet, die körperliche Grenzen und Sicherheitsaspekte impliziert?",
+        "correct": "BDSM",
+        "wrong": [
+            "Treppenhaussex",
+            "Einführung von Tantra",
+            "Küssen mit Zunge"
+        ],
+        "audio": "question-b1805f3f.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:08:50Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "bc3e85df",
+        "category": "Geschlechtskrankheiten",
+        "question": "Welche der folgenden Geschlechtskrankheiten wird durch ein Virus verursacht?",
+        "correct": "HIV/AIDS",
+        "wrong": [
+            "Syphilis",
+            "Gonorrhoe",
+            "Trichomoniasis"
+        ],
+        "audio": "question-bc3e85df.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:16:43Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "6237efb9",
+        "category": "Sexstellungen",
+        "question": "Welche Sexualstellung ist typischerweise bekannt dafür, dass sie eine tiefere Penetration ermöglicht und auch oft mit einer besseren Stimulation des G-Punkts in Verbindung gebracht wird?",
+        "correct": "Reiterstellung",
+        "wrong": [
+            "Missionarsstellung",
+            "Löffelchenstellung",
+            "69-Stellung"
+        ],
+        "audio": "question-6237efb9.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:16:48Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "d6d8cf3a",
+        "category": "Sprache",
+        "question": "Welches dieser deutschen Wörter ist im Ursprung kein Lehnwort aus einer anderen Sprache?",
+        "correct": "Hand",
+        "wrong": [
+            "Computer",
+            "Restaurant",
+            "Büro"
+        ],
+        "audio": "question-d6d8cf3a.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:20:05Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "88c96da2",
+        "category": "Papier",
+        "question": "Was ist der Hauptbestandteil von Papier, der seine Struktur und Festigkeit verleiht?",
+        "correct": "Zellulose",
+        "wrong": [
+            "Lignin",
+            "Stärke",
+            "Eiweiß"
+        ],
+        "audio": "question-88c96da2.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:20:08Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "81e07214",
+        "category": "Microlax",
+        "question": "Welche der folgenden Aussagen beschreibt korrekt den Wirkmechanismus von Microlax?",
+        "correct": "Microlax wirkt als osmotisches Abführmittel, welches Wasser in den Darm zieht und den Stuhl weicher macht.",
+        "wrong": [
+            "Microlax fördert die Produktion von Gallenflüssigkeit zur Regulierung der Verdauung.",
+            "Microlax enthält Ballaststoffe, die das Stuhlvolumen erhöhen.",
+            "Microlax wirkt durch eine Stimulation der Darmmuskulatur und beschleunigt die Peristaltik."
+        ],
+        "audio": "question-81e07214.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:29:09Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "1c889dc9",
+        "category": "Mäuse",
+        "question": "Welche der folgenden Eigenschaften ist charakteristisch für die Maus als Tierart?",
+        "correct": "Mäuse besitzen eine hohe Fortpflanzungsrate und können bis zu fünf Jahre alt werden unter optimalen Bedingungen.",
+        "wrong": [
+            "Mäuse sind ausschließlich Pflanzenfresser und können keine tierischen Proteine verstoffwechseln.",
+            "Die meisten Mäusearten leben in sozialen Gruppen, die in Hierarchien organisiert sind, ähnlich wie bei Menschenaffen.",
+            "Mäuse haben eine durchschnittliche Körpertemperatur von 42 Grad Celsius, was sie zu einer der warmblütigsten Tierarten macht."
+        ],
+        "audio": "question-1c889dc9.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:29:12Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "19594a73",
+        "category": "Essen & Trinken",
+        "question": "Welches der folgenden Gewürze wird traditionell für die Herstellung von Tandoori-Gewürzmischungen verwendet?",
+        "correct": "Koriander",
+        "wrong": [
+            "Kreuzkümmel",
+            "Zimt",
+            "Safran"
+        ],
+        "audio": "question-19594a73.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:33:36Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "f5f7dc6f",
+        "category": "Der Mensch",
+        "question": "Welches Organ im menschlichen Körper hat die Hauptfunktion, den Blutdruck zu regulieren und den Flüssigkeits- sowie Elektrolythaushalt auszugleichen?",
+        "correct": "Niere",
+        "wrong": [
+            "Leber",
+            "Lunge",
+            "Herz"
+        ],
+        "audio": "question-f5f7dc6f.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:33:40Z",
+        "submitted_by": "2e0cf756-29c8-4f27-981d-146f7fed2868",
+        "submitted_by_name": "Alex"
+    },
+    {
+        "id": "16aa2c74",
+        "category": "Geldbeutel",
+        "question": "Welche der folgenden Materialien wird traditionell nicht für die Herstellung von Geldbeuteln verwendet?",
+        "correct": "Leder",
+        "wrong": [
+            "Stoff",
+            "Kunstleder",
+            "Metall"
+        ],
+        "audio": "question-16aa2c74.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:41:18Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "e2b7cc09",
+        "category": "Film & Fernsehen",
+        "question": "Welcher Film von Stanley Kubrick basiert auf dem Roman \"Der Drogi\" von Anthony Burgess?",
+        "correct": "Uhrwerk Orange",
+        "wrong": [
+            "2001: Odyssee im Weltraum",
+            "Das letzte Urteil",
+            "Barry Lyndon"
+        ],
+        "audio": "question-e2b7cc09.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:41:21Z",
+        "submitted_by": "2e0cf756-29c8-4f27-981d-146f7fed2868",
+        "submitted_by_name": "Alex"
+    },
+    {
+        "id": "6076ce43",
+        "category": "Geschichte",
+        "question": "Welcher Vertrag beendete offiziell den Ersten Weltkrieg und legte die Bedingungen für den Frieden fest?",
+        "correct": "Vertrag von Versailles",
+        "wrong": [
+            "Vertrag von Trianon",
+            "Vertrag von Saint-Germain",
+            "Vertrag von Brest-Litowsk"
+        ],
+        "audio": "question-6076ce43.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:47:39Z",
+        "submitted_by": "2e0cf756-29c8-4f27-981d-146f7fed2868",
+        "submitted_by_name": "Alex"
+    },
+    {
+        "id": "c52ab006",
+        "category": "Wetter",
+        "question": "Welches Wetterphänomen entsteht typischerweise, wenn kalte Luft mit warmer, feuchter Luft aufeinandertreffen und dabei große Mengen Wasser aus der Atmosphäre abgeben?",
+        "correct": "Gewitter",
+        "wrong": [
+            "Nebelschwaden",
+            "Schneeregen",
+            "Hitzewelle"
+        ],
+        "audio": "question-c52ab006.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:47:43Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "78faaf61",
+        "category": "Literatur",
+        "question": "Welches Werk gilt als Hauptwerk des deutschen Dichters Johann Wolfgang von Goethe?",
+        "correct": "Faust",
+        "wrong": [
+            "Die Juden",
+            "Der Process",
+            "Die Verwandlung"
+        ],
+        "audio": "question-78faaf61.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:50:37Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "b70d74fd",
+        "category": "Politik & Zeitgeschehen",
+        "question": "Welches Land hat im Jahr 2022 die Präsidentschaftswahlen abgehalten, die von internationaler Beobachtung aufgrund von Vorwürfen der Manipulation und des Wahlbetrugs besonders kritisch verfolgt wurden?",
+        "correct": "Venezuela",
+        "wrong": [
+            "Bolivien",
+            "Mexiko",
+            "Argentinien"
+        ],
+        "audio": "question-b70d74fd.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:50:41Z",
+        "submitted_by": "2e0cf756-29c8-4f27-981d-146f7fed2868",
+        "submitted_by_name": "Alex"
+    },
+    {
+        "id": "e76983f1",
+        "category": "Politik & Zeitgeschehen",
+        "question": "Welcher Politiker hat im Jahr 2021 das Amt des Bundeskanzlers der Bundesrepublik Deutschland übernommen?",
+        "correct": "Olaf Scholz",
+        "wrong": [
+            "Armin Laschet",
+            "Angela Merkel",
+            "Christian Lindner"
+        ],
+        "audio": "question-e76983f1.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:53:57Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "88f59d4b",
+        "category": "Promis & Boulevard",
+        "question": "Welcher deutsche Schauspieler wurde 2021 für seine Rolle in einem internationalen Streaming-Dienst-Serie mit dem Deutschen Fernsehpreis ausgezeichnet?",
+        "correct": "Julius Weckauf",
+        "wrong": [
+            "Elyas M'Barek",
+            "Moritz Bleibtreu",
+            "Fahri Yardim"
+        ],
+        "audio": "question-88f59d4b.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T20:54:01Z",
+        "submitted_by": "2e0cf756-29c8-4f27-981d-146f7fed2868",
+        "submitted_by_name": "Alex"
+    },
+    {
+        "id": "ba441a56",
+        "category": "Mir fällt keine ein!",
+        "question": "Welche der folgenden Techniken wird häufig zur Verbesserung der Kreativität verwendet, wenn jemand keine Ideen hat?",
+        "correct": "Brainstorming",
+        "wrong": [
+            "Mind Mapping",
+            "Kreativitätstechniken nach Edward de Bono",
+            "SWOT-Analyse"
+        ],
+        "audio": "question-ba441a56.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T21:00:12Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    },
+    {
+        "id": "2a9bde7a",
+        "category": "Wissenschaft",
+        "question": "Was beschreibt das Plancksche Wirkungsquantum in der Quantenmechanik?",
+        "correct": "Es beschreibt die Beziehung zwischen Energie und Frequenz eines Photons.",
+        "wrong": [
+            "Es beschreibt die Gravitation zwischen zwei Massen.",
+            "Es definiert die Geschwindigkeit von Licht in Vakuum.",
+            "Es ist eine Maßeinheit für die Temperatur von Gasen."
+        ],
+        "audio": "question-2a9bde7a.mp3",
+        "image": "",
+        "lastplayed": "2026-04-22T21:00:15Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "6f33b172",
+        "category": "Loperamid",
+        "question": "Welches der folgenden Hauptanwendungsgebiete hat Loperamid in der klinischen Praxis?",
+        "correct": "Behandlung von akuten Durchfallerkrankungen",
+        "wrong": [
+            "Behandlung von chronischen Schmerzen",
+            "Behandlung von Atemwegserkrankungen",
+            "Behandlung von Herzrhythmusstörungen"
+        ],
+        "audio": "question-6f33b172.mp3",
+        "image": "",
+        "lastplayed": "2026-04-23T05:23:36Z",
+        "submitted_by": "62aa7b8c-c4fd-4d97-a498-e7fa55588132",
+        "submitted_by_name": "Atlas"
+    }
+]
