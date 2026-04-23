@@ -135,7 +135,7 @@ function updateHeader(playersRanked, gainedMap, opts = {}) {
   if (gained > 0 || opts.forcePop) {
     if (gained > 0) myScorePop = gained;
     if (playerScoreEl) playerScoreEl.innerHTML =
-      `<span class="psc__scorePopInline">+${myScorePop}</span>${score}`;
+      `<span class="psc__scorePopInline">+${myScorePop}</span><span>${score}</span>`;
   } else {
     myScorePop = 0;
     if (playerScoreEl) playerScoreEl.textContent = score;
@@ -172,17 +172,15 @@ function buildYellowTileHTML() {
   let contentHTML;
 
   if (yellowReveal.year != null) {
-    const oneLine = [yellowReveal.artist, yellowReveal.title].filter(Boolean).join(' — ');
+    const sep = (yellowReveal.artist && yellowReveal.title) ? ' — ' : '';
     contentHTML = `
       <div class="sng-ctrl__fixedYear">${yellowReveal.year}</div>
-      <div class="sng-ctrl__fixedOneLine">${oneLine}</div>
+      <div class="sng-ctrl__fixedOneLine"><span class="sng-ctrl__tileArtist">${yellowReveal.artist || ''}</span>${sep}${yellowReveal.title || ''}</div>
     `;
   } else {
     contentHTML = `
       ${buildEqSvg()}
-      <div class="sng-ctrl__tileText">
-        <div class="sng-ctrl__tileQuestion">Song läuft …</div>
-      </div>
+      <div class="sng-ctrl__fixedOneLine">Aktueller Song</div>
     `;
   }
 
@@ -212,61 +210,38 @@ function buildFixedTileHTML(tile) {
       <div class="sng-ctrl__fixedLabel">Ausgangsjahr</div>
     </div>`;
   }
-  const oneLine = [tile.artist, tile.title].filter(Boolean).join(' — ');
+  const artistPart = tile.artist || '';
+  const titlePart  = tile.title  || '';
+  const sep        = (artistPart && titlePart) ? ' — ' : '';
   return `<div class="sng-ctrl__fixedTile">
     <div class="sng-ctrl__fixedYear">${tile.year}</div>
-    <div class="sng-ctrl__fixedOneLine">${oneLine}</div>
+    <div class="sng-ctrl__fixedOneLine"><span class="sng-ctrl__tileArtist">${artistPart}</span>${sep}${titlePart}</div>
   </div>`;
 }
 
-// Renders DOM order: [YellowTile, T1, T2, ..., Tn]
-// Then applies CSS transforms so yellow appears at currentSlot position.
 function renderTimeline() {
   if (!ctrlTimeline) return;
 
-  let html = buildYellowTileHTML();
-  playerTimeline.forEach(tile => { html += buildFixedTileHTML(tile); });
-  ctrlTimeline.innerHTML = html;
+  const clampedSlot = Math.max(0, Math.min(playerTimeline.length, currentSlot));
+  let html = '';
 
-  _applySlotTransforms(currentSlot, 0, false);
+  playerTimeline.slice(0, clampedSlot).forEach(tile => {
+    html += buildFixedTileHTML(tile);
+  });
+
+  html += buildYellowTileHTML();
+
+  playerTimeline.slice(clampedSlot).forEach(tile => {
+    html += buildFixedTileHTML(tile);
+  });
+
+  ctrlTimeline.innerHTML = html;
 
   const yellowEl = document.getElementById('ctrl-yellow-tile');
   if (yellowEl && !locked && !hasSubmitted) {
     yellowEl.addEventListener('touchstart', onDragStart, { passive: false });
-    yellowEl.addEventListener('mousedown',  onDragStart, { passive: false });
+    yellowEl.addEventListener('mousedown', onDragStart, { passive: false });
   }
-}
-
-// Returns the height of one step: tile height + gap.
-function _getStepSize() {
-  const yellowEl = document.getElementById('ctrl-yellow-tile');
-  if (!yellowEl) return 70;
-  const h = yellowEl.getBoundingClientRect().height;
-  const gapVal = parseInt(
-    getComputedStyle(document.documentElement).getPropertyValue('--gap')
-  ) || 8;
-  return h + gapVal;
-}
-
-// DOM layout: Yellow always first, then T1..Tn.
-// For slot=k: yellow translateY(k*step), tiles 0..k-1 translateY(-step), rest no transform.
-function _applySlotTransforms(slot, extraDy, withTransition) {
-  const yellowEl = document.getElementById('ctrl-yellow-tile');
-  if (!yellowEl) return;
-
-  const step = _getStepSize();
-  const n    = playerTimeline.length;
-  const s    = Math.max(0, Math.min(n, slot));
-  const tr   = withTransition ? 'transform 200ms ease' : 'none';
-
-  yellowEl.style.transition = tr;
-  yellowEl.style.transform  = `translateY(${s * step + extraDy}px)`;
-
-  const fixedEls = ctrlTimeline ? ctrlTimeline.querySelectorAll('.sng-ctrl__fixedTile') : [];
-  fixedEls.forEach((el, i) => {
-    el.style.transition = tr;
-    el.style.transform  = i < s ? `translateY(${-step}px)` : '';
-  });
 }
 
 // ----------------------------------------------------------------
@@ -283,16 +258,15 @@ function onDragStart(e) {
   e.preventDefault();
   isDragging    = true;
   dragStartSlot = currentSlot;
-  dragStep      = _getStepSize();
+
+  const yellowEl = document.getElementById('ctrl-yellow-tile');
+  const gapVal = parseInt(
+    getComputedStyle(document.documentElement).getPropertyValue('--gap')
+  ) || 8;
+  dragStep = yellowEl ? yellowEl.getBoundingClientRect().height + gapVal : 70;
 
   const touch = e.touches ? e.touches[0] : e;
   dragStartY = touch.clientY;
-
-  const yellowEl = document.getElementById('ctrl-yellow-tile');
-  if (yellowEl) {
-    yellowEl.style.transition = 'none';
-    yellowEl.style.zIndex     = '10';
-  }
 
   document.addEventListener('touchmove', onDragMove, { passive: false });
   document.addEventListener('touchend',  onDragEnd,  { once: true, passive: true });
@@ -314,19 +288,7 @@ function onDragMove(e) {
 
   if (newSlot !== currentSlot) {
     currentSlot = newSlot;
-
-    // Yellow snaps to slot position
-    const yellowEl = document.getElementById('ctrl-yellow-tile');
-    if (yellowEl) {
-      yellowEl.style.transition = 'transform 80ms ease';
-      yellowEl.style.transform  = `translateY(${newSlot * dragStep}px)`;
-    }
-
-    const fixedEls = ctrlTimeline ? ctrlTimeline.querySelectorAll('.sng-ctrl__fixedTile') : [];
-    fixedEls.forEach((el, i) => {
-      el.style.transition = 'transform 80ms ease';
-      el.style.transform  = i < newSlot ? `translateY(${-dragStep}px)` : '';
-    });
+    renderTimeline();
   }
 }
 
@@ -336,11 +298,8 @@ function onDragEnd() {
   document.removeEventListener('touchmove', onDragMove);
   document.removeEventListener('mousemove', onDragMove);
 
-  const yellowEl = document.getElementById('ctrl-yellow-tile');
-  if (yellowEl) yellowEl.style.zIndex = '';
-
-  // Snap yellow to final slot with transition
-  _applySlotTransforms(currentSlot, 0, true);
+  socket.emit('module_event', { action: 'update_draft', payload: { slot_index: currentSlot } });
+  renderTimeline();
 }
 
 // ----------------------------------------------------------------
@@ -425,7 +384,6 @@ socket.on('play_round_video', data => {
 socket.on('show_question', data => {
   showQA();
   stopTimebar();
-  lockUI();
 
   anchorYear = data.anchor_year;
   const myId = localStorage.getItem(LS_PLAYER_ID_KEY);
@@ -433,6 +391,7 @@ socket.on('show_question', data => {
 
   updateHeader(data.players_ranked, null, { forceClear: true });
   resetRound();
+  unlockUI();
 });
 
 socket.on('open_answers', data => {
@@ -467,7 +426,6 @@ socket.on('show_resolution', data => {
     artist: data.artist || '',
   };
 
-  // playerTimeline stays as-is until show_question resets it
   renderTimeline();
 });
 

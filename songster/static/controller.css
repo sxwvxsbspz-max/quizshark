@@ -49,7 +49,7 @@ button { font-family: inherit; }
   --bg:        #00167a;
   --white20:   rgba(255,255,255,0.20);
   --yellow:    #FFF500;
-  --yellowFill:rgba(255,245,0,0.22);
+  --yellowFill:rgba(255,245,0,0.60);
   --yellowBorder:#FFF500;
   --green:     rgb(46,204,113);
   --red:       rgb(231,76,60);
@@ -57,7 +57,7 @@ button { font-family: inherit; }
   --barFill:   rgba(255,255,255,0.92);
   --tileBg:    rgba(255,255,255,0.14);
   --tileRadius:12px;
-  --tileH:     46px;
+  --tileH:     33px;
   --gap:       6px;
 }
 
@@ -148,8 +148,17 @@ button { font-family: inherit; }
   font-size: 1.75rem; font-weight: 500;
   color: rgba(255,255,255,0.95);
   font-variant-numeric: tabular-nums; white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 10px;
 }
-.psc__scorePopInline { color: var(--green); font-weight: 700; }
+.psc__scorePopInline {
+  color: var(--green); font-weight: 700;
+  text-shadow: 0 0 14px rgba(46,204,113,0.55);
+}
+
+.sng-ctrl__tileArtist { font-weight: 700; }
 
 /* =========================================================
    TIMER BAR
@@ -193,12 +202,13 @@ button { font-family: inherit; }
 .sng-ctrl__currentTile {
   width: 100%;
   flex: 0 0 auto;
-  min-height: var(--tileH);
+  height: var(--tileH);
   border-radius: var(--tileRadius);
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 6px 12px;
+  padding: 3px 12px;
+  overflow: hidden;
   touch-action: none;
   user-select: none;
   -webkit-user-select: none;
@@ -335,22 +345,18 @@ button { font-family: inherit; }
 /* Feste Tiles in der Timeline */
 .sng-ctrl__fixedTile {
   width: 100%;
-  min-height: var(--tileH);
+  height: var(--tileH);
   border-radius: var(--tileRadius);
-  background: rgba(255,255,255,0.14);
-  border: 2px solid rgba(255,255,255,0.28);
-  padding: 6px 12px;
+  background: rgba(255,255,255,0.22);
+  border: 2px solid rgba(255,255,255,0.55);
+  padding: 3px 12px;
   display: flex;
   align-items: center;
   gap: 10px;
+  overflow: hidden;
   position: relative;
   z-index: 1;
   transition: transform 180ms ease;
-}
-
-.sng-ctrl__fixedTile--anchor {
-  background: rgba(255,255,255,0.22);
-  border-color: rgba(255,255,255,0.55);
 }
 
 .sng-ctrl__fixedYear {

@@ -11,12 +11,54 @@ const gameLayer   = document.getElementById('game-layer');
 const videoPlayer = document.getElementById('phase-video');
 const tvTimeline  = document.getElementById('tv-timeline');
 const roundLabel  = document.getElementById('round-label');
+const timerWrap   = document.getElementById('tv-timer');
 
 // ----------------------------------------------------------------
 // Server-Clock Sync
 // ----------------------------------------------------------------
 let clockOffsetMs = 0;
 function nowSyncedMs() { return Date.now() + clockOffsetMs; }
+
+// ----------------------------------------------------------------
+// Timer
+// ----------------------------------------------------------------
+let timerRAF = null;
+
+function clearTimer() {
+  if (timerRAF) { cancelAnimationFrame(timerRAF); timerRAF = null; }
+}
+
+function startTimerVisual(seconds, startedAt) {
+  clearTimer();
+  if (timerWrap) timerWrap.style.setProperty('--p', '0%');
+  const durMs = Math.max(0.001, Number(seconds || 1)) * 1000;
+  const startMs = (typeof startedAt === 'number' && startedAt > 1e9) ? startedAt : null;
+  if (startMs) {
+    const endMs = startMs + durMs;
+    const tick = () => {
+      const now = nowSyncedMs();
+      const pct = Math.min(100, Math.max(0, (now - startMs) / durMs * 100));
+      if (timerWrap) timerWrap.style.setProperty('--p', `${pct}%`);
+      if (now < endMs) timerRAF = requestAnimationFrame(tick);
+      else clearTimer();
+    };
+    timerRAF = requestAnimationFrame(tick);
+    return;
+  }
+  const t0 = performance.now();
+  const tick = now => {
+    const pct = Math.min(100, (now - t0) / durMs * 100);
+    if (timerWrap) timerWrap.style.setProperty('--p', `${pct}%`);
+    if (pct < 100) timerRAF = requestAnimationFrame(tick);
+    else clearTimer();
+  };
+  timerRAF = requestAnimationFrame(tick);
+}
+
+function stopTimerVisual() {
+  clearTimer();
+  if (timerWrap) { timerWrap.style.setProperty('--p', '0%'); timerWrap.classList.add('is-invisible'); }
+}
 
 socket.on('server_time', d => {
   if (d && typeof d.server_now === 'number') clockOffsetMs = d.server_now - Date.now();
@@ -194,10 +236,19 @@ function buildTile(tile, variant) {
 
   if (variant === 'yellow') {
     return `<div class="sng__tile sng__tile--yellow" id="tile-current" data-year="${tile.year}">
-      ${buildAudioSvg()}
-      <div class="sng__tileYear" id="tile-current-year" style="visibility:hidden">—</div>
-      <div class="sng__tileOneLine" id="tile-current-info" style="visibility:hidden">
-        <span id="tile-current-artist"></span><span id="tile-current-sep" style="display:none"> — </span><span id="tile-current-title"></span>
+      <div class="sng__tileYearSlot">
+        <svg class="sng__eq" id="tile-current-eq" viewBox="0 0 180 50" aria-hidden="true">
+          <rect class="bar" x="5"   y="5" width="20" height="40" rx="4"/>
+          <rect class="bar" x="35"  y="5" width="20" height="40" rx="4"/>
+          <rect class="bar" x="65"  y="5" width="20" height="40" rx="4"/>
+          <rect class="bar" x="95"  y="5" width="20" height="40" rx="4"/>
+          <rect class="bar" x="125" y="5" width="20" height="40" rx="4"/>
+          <rect class="bar" x="155" y="5" width="20" height="40" rx="4"/>
+        </svg>
+        <div class="sng__tileYear" id="tile-current-year" style="display:none">—</div>
+      </div>
+      <div class="sng__tileOneLine" id="tile-current-info">
+        <span id="tile-current-loading">Song läuft…</span><span id="tile-current-artist" style="display:none"></span><span id="tile-current-sep" style="display:none"> — </span><span id="tile-current-title" style="display:none"></span>
       </div>
     </div>`;
   }
@@ -250,6 +301,7 @@ socket.on('show_question', data => {
   clearPlayerClasses();
   clearScorePops();
   stopBgm();
+  stopTimerVisual();
 
   anchorYear              = data.anchor_year;
   currentYellowYear       = null;
@@ -265,12 +317,13 @@ socket.on('show_question', data => {
   setTimeout(() => playQuestionAudio(data.audio), 500);
 });
 
-socket.on('open_answers', () => {
-  // Timer läuft auf dem Controller, TV zeigt nur Audio-Animation
+socket.on('open_answers', data => {
+  if (timerWrap) timerWrap.classList.remove('is-invisible');
+  startTimerVisual(data.duration || 28, data.started_at);
 });
 
 socket.on('close_answers', () => {
-  // nichts zu tun
+  stopTimerVisual();
 });
 
 socket.on('player_logged_in', data => {
@@ -297,18 +350,19 @@ socket.on('unveil_correct', data => {
   currentYellowTitle  = data.title || '';
   currentYellowArtist = data.artist || '';
 
-  // Jahr/Titel/Interpret auf dem gelben Tile einblenden
-  const yearEl   = document.getElementById('tile-current-year');
-  const infoEl   = document.getElementById('tile-current-info');
-  const titleEl  = document.getElementById('tile-current-title');
-  const artistEl = document.getElementById('tile-current-artist');
-  const sepEl    = document.getElementById('tile-current-sep');
+  const eqEl      = document.getElementById('tile-current-eq');
+  const yearEl    = document.getElementById('tile-current-year');
+  const loadingEl = document.getElementById('tile-current-loading');
+  const artistEl  = document.getElementById('tile-current-artist');
+  const titleEl   = document.getElementById('tile-current-title');
+  const sepEl     = document.getElementById('tile-current-sep');
 
-  if (yearEl)   { yearEl.textContent   = String(currentYellowYear); yearEl.style.visibility   = 'visible'; }
-  if (artistEl) { artistEl.textContent = currentYellowArtist; }
-  if (titleEl)  { titleEl.textContent  = currentYellowTitle; }
-  if (sepEl)    { sepEl.style.display  = (currentYellowArtist && currentYellowTitle) ? 'inline' : 'none'; }
-  if (infoEl)   { infoEl.style.visibility = 'visible'; }
+  if (eqEl)      eqEl.style.display = 'none';
+  if (yearEl)    { yearEl.textContent = String(currentYellowYear); yearEl.style.display = ''; }
+  if (loadingEl) loadingEl.style.display = 'none';
+  if (artistEl)  { artistEl.textContent = currentYellowArtist; artistEl.style.display = 'inline'; }
+  if (titleEl)   { titleEl.textContent  = currentYellowTitle;  titleEl.style.display  = 'inline'; }
+  if (sepEl)     sepEl.style.display = (currentYellowArtist && currentYellowTitle) ? 'inline' : 'none';
 });
 
 socket.on('show_resolution', data => {

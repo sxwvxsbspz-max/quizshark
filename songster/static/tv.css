@@ -29,7 +29,7 @@ html, body {
   --green:     #39FF14;
   --red:       #FF2E2E;
   --tileW:     100%;          /* Tiles füllen die gesamte Panel-Breite */
-  --tileH:     3.64vw;        /* ~140px bei 4K – einzeilig */
+  --tileH:     2.55vw;        /* ~98px bei 4K – 30% kleiner */
   --tileRadius:1.04vw;        /* 40px */
   --gap:       0.52vw;        /* 20px */
   --pad:       1.82vw;        /* 70px Innenabstand des Panels */
@@ -194,14 +194,48 @@ html, body {
 }
 
 /* ================================================================
-   ROUND LABEL
+   TOP ROW: Question + Timer
    ================================================================ */
-.sng__roundLabel {
-  font-size: 4rem; font-weight: 700;
-  color: rgba(255,255,255,0.65);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+
+.ps__topRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.82vw;
   flex: 0 0 auto;
+}
+
+.ps__questionWrap {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ps__question {
+  margin: 0;
+  padding: 0.57vw 1.67vw;
+  border-radius: 1.04vw;
+  background: var(--white20);
+  color: rgba(255,255,255,0.95);
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  min-height: 7.81vw;
+  display: flex;
+  align-items: center;
+}
+
+.ps__timer {
+  flex: 0 0 auto;
+  width: 7.81vw;
+  height: 7.81vw;
+  border-radius: 999px;
+  --p: 0%;
+  background: conic-gradient(
+    rgba(255,255,255,0.98) 0 var(--p),
+    rgba(255,255,255,0.14) var(--p) 100%
+  );
+  transition: opacity 220ms ease, transform 220ms ease;
 }
 
 /* ================================================================
@@ -311,12 +345,23 @@ html, body {
 }
 
 /* ----------------------------------------------------------------
+   Year-Slot: hält EQ-Animation oder Jahreszahl (gelbes Tile)
+   ---------------------------------------------------------------- */
+
+.sng__tileYearSlot {
+  flex: 0 0 auto;
+  min-width: 6vw;
+  display: flex;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------------
    Audio-Animation (EQ-Bars)
    ---------------------------------------------------------------- */
 
 .sng__eq {
   flex: 0 0 auto;
-  width: 4vw; height: 2vw;
+  width: 5.5vw; height: 1.8vw;
   overflow: visible;
 }
 

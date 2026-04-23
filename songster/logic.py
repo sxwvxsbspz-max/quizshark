@@ -219,7 +219,8 @@ class SongsterLogic:
         self.tv_timeline       = []               # [{year, is_anchor, title, artist}], sortiert
         self.player_timelines  = {}               # player_id → [{...}], sortiert
         self.current_q         = None             # {id, audio, year, title, artist}
-        self.player_slots      = {}               # player_id → slot_index (aktuelle Runde)
+        self.player_slots      = {}               # player_id → slot_index (bestätigt)
+        self.draft_slots       = {}               # player_id → slot_index (letzter Drag, nicht bestätigt)
         self._last_results     = {}               # player_id → {correct, slot_index}
         self._timers           = []
 
@@ -296,6 +297,9 @@ class SongsterLogic:
                 # Runden-Video abgespielt → Frage anzeigen
                 self._show_question()
 
+        elif action == "update_draft" and self.state in ("question_intro", "answers_open") and player_id:
+            self.draft_slots[player_id] = int((payload or {}).get("slot_index", 0))
+
         elif action == "submit_answer" and self.state == "answers_open" and player_id:
             self._on_submit(player_id, payload or {})
 
@@ -313,6 +317,7 @@ class SongsterLogic:
 
         self.current_round += 1
         self.player_slots  = {}
+        self.draft_slots   = {}
         self._last_results = {}
         self.state = "video"
         self._emit_all("play_round_video", {"round": self.current_round})
@@ -353,10 +358,10 @@ class SongsterLogic:
     def _close_answers(self):
         if self.state != "answers_open":
             return
-        # Spieler ohne Antwort: Slot 0 (ganz oben = ältester)
+        # Spieler ohne bestätigte Antwort: letzten Drag-Slot verwenden, sonst 0
         for pid in self.players:
             if pid not in self.player_slots:
-                self.player_slots[pid] = 0
+                self.player_slots[pid] = self.draft_slots.get(pid, 0)
         self.state = "revealing"
         self._emit_all("close_answers", {})
         self._after(TIMING_REVEAL, self._reveal_answers)
