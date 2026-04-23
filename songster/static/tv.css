@@ -29,7 +29,7 @@ html, body {
   --green:     #39FF14;
   --red:       #FF2E2E;
   --tileW:     100%;          /* Tiles füllen die gesamte Panel-Breite */
-  --tileH:     2.55vw;        /* ~98px bei 4K – 30% kleiner */
+  --tileH:     1.6vw;         /* Fallback-Min, Content treibt tatsächliche Höhe */
   --tileRadius:1.04vw;        /* 40px */
   --gap:       0.52vw;        /* 20px */
   --pad:       1.82vw;        /* 70px Innenabstand des Panels */
@@ -270,7 +270,8 @@ html, body {
   width: var(--tileW);
   min-height: var(--tileH);
   border-radius: var(--tileRadius);
-  padding: 0.52vw 1.3vw;
+  padding: 0.1vw 1.3vw;
+  line-height: 1;
   display: flex;
   align-items: center;
   gap: 1.04vw;
@@ -361,7 +362,7 @@ html, body {
 
 .sng__eq {
   flex: 0 0 auto;
-  width: 5.5vw; height: 1.8vw;
+  width: 5.5vw; height: 5.8rem;
   overflow: visible;
 }
 

@@ -13,7 +13,7 @@ MAX_ROUNDS           = 15
 ANCHOR_YEAR_MARGIN   = 10   # Ausgangsjahr: frühestens ältester+10, spätestens neuester-10
 
 TIMING_INTRO         = 3.0   # show_question → open_answers
-TIMING_ANSWER        = 28.0  # Antwortzeit
+TIMING_ANSWER        = 25.0  # Antwortzeit
 TIMING_REVEAL        = 2.0   # close_answers → reveal_player_answers
 TIMING_UNVEIL        = 1.5   # reveal → unveil_correct
 TIMING_RESOLUTION    = 1.2   # unveil → show_resolution

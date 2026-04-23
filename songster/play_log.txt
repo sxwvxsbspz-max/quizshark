@@ -42,3 +42,8 @@
 [2026-04-23T15:59:30Z] OK       id=00307 2013  Katy Perry ft. Juicy J – Dark Horse
 [2026-04-23T16:21:02Z] OK       id=00342 2024  Taylor Swift ft. Post Malone – Fortnight
 [2026-04-23T16:21:49Z] OK       id=00144 2014  Sia – Chandelier
+[2026-04-23T16:25:53Z] OK       id=00115 2019  Billie Eilish – bad guy
+[2026-04-23T16:26:41Z] OK       id=00335 2021  Elton John & Dua Lipa – Cold Heart (Pnau Remix)
+[2026-04-23T16:27:03Z] OK       id=00392 1986  Poison – Talk Dirty to Me
+[2026-04-23T16:33:01Z] OK       id=00380 1987  Salt-N-Pepa – Push It
+[2026-04-23T16:33:45Z] OK       id=00160 1978  CHIC – Le Freak
