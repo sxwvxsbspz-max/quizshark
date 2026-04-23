@@ -10,14 +10,18 @@ socket.on('connect', () => socket.emit('register_tv'));
 const layerVideo      = document.getElementById('yc-video-layer');
 const layerInput      = document.getElementById('yc-input-layer');
 const layerGenerating = document.getElementById('yc-generating-layer');
-const layerAnnounce   = document.getElementById('yc-announcement-layer');
 const layerGame       = document.getElementById('game-layer');
 const phaseVideo      = document.getElementById('yc-phase-video');
+const annBar          = document.getElementById('yc-ann-bar');
+const annBarCategory  = document.getElementById('ann-bar-category');
+const annBarPlayer    = document.getElementById('ann-bar-player');
 
 function showLayer(el) {
-  [layerVideo, layerInput, layerGenerating, layerAnnounce, layerGame].forEach(l => {
+  [layerVideo, layerInput, layerGenerating, layerGame].forEach(l => {
     if (l) l.style.display = (l === el) ? '' : 'none';
   });
+  // Bar ausblenden wenn wir den Game-Layer verlassen
+  if (el !== layerGame && annBar) annBar.classList.add('is-hidden');
 }
 
 function showVideo(src) {
@@ -300,19 +304,12 @@ socket.on('yc_player_submitted', data => {
 
 const genProgressText = document.getElementById('gen-progress-text');
 const genBarFill      = document.getElementById('gen-bar-fill');
-const genCurrentText  = document.getElementById('gen-current-text');
-const genErrorText    = document.getElementById('gen-error-text');
 
-let _genErrorTimeout = null;
-
-function updateGenProgress(progress, total, current, player) {
+function updateGenProgress(progress, total) {
   if (genProgressText) genProgressText.textContent = `${progress} von ${total} fertig`;
   if (genBarFill) {
     const pct = total > 0 ? Math.round((progress / total) * 100) : 0;
     genBarFill.style.width = pct + '%';
-  }
-  if (genCurrentText) {
-    genCurrentText.textContent = current ? `"${current}"` : '';
   }
 }
 
@@ -320,7 +317,7 @@ socket.on('yc_generating', data => {
   stopBgmInput();
   stopInspirationCycle();
   showLayer(layerGenerating);
-  updateGenProgress(data.progress || 0, data.total || 0, data.current_category, data.current_player);
+  updateGenProgress(data.progress || 0, data.total || 0);
   if (data.players_ranked) {
     const sb = document.getElementById('gen-player-sidebar');
     if (sb && !sb.children.length) {
@@ -344,49 +341,22 @@ socket.on('yc_error', data => {
   else                           soundFile = `technicalerror${num}.mp3`;
 
   playOnce(SFX_BASE + soundFile);
-
-  if (genErrorText) {
-    if (_genErrorTimeout) clearTimeout(_genErrorTimeout);
-    genErrorText.style.display = '';
-    genErrorText.style.animation = 'none';
-
-    let msg;
-    if (type === 'content_policy') msg = `${data.player_name}: Kategorie nicht erlaubt 🚫`;
-    else if (type === 'nonsense')  msg = `${data.player_name}: Keine Frage möglich 🤔`;
-    else                           msg = `${data.player_name}: Technischer Fehler ⚡`;
-
-    genErrorText.textContent = msg;
-    // Trigger reflow to restart animation
-    void genErrorText.offsetWidth;
-    genErrorText.style.animation = '';
-
-    _genErrorTimeout = setTimeout(() => {
-      if (genErrorText) genErrorText.style.display = 'none';
-    }, 4200);
-  }
 });
 
 // ---------------------------------------------------------------------------
-// LAYER 3: Announcement
+// LAYER 3: Announcement → zeigt Bar im Game-Layer, bleibt während der Frage
 // ---------------------------------------------------------------------------
 
-const annCounter  = document.getElementById('ann-counter');
-const annPlayer   = document.getElementById('ann-player');
-const annCategory = document.getElementById('ann-category');
-
 socket.on('yc_announcement', async data => {
-  // Show announcement inside the game layer (question area + player sidebar)
-  document.getElementById('question-text').innerText =
-    `Nächste Kategorie: ${data.category || '—'}`;
+  // Bar befüllen und einblenden
+  if (annBarCategory) annBarCategory.textContent = data.category || '—';
+  if (annBarPlayer)   annBarPlayer.textContent   = data.player_name || '—';
+  if (annBar)         annBar.classList.remove('is-hidden');
 
-  answersWrap.innerHTML = `
-    <div class="yc-ann__ingame">
-      <div class="yc-ann__ingame-from">Ausgesucht von:</div>
-      <div class="yc-ann__ingame-player">${data.player_name || '—'}</div>
-    </div>`;
-
-  answersWrap.classList.remove('is-invisible');
-  if (timerWrap) timerWrap.classList.add('is-invisible');
+  // Frage-Bereich leeren / Timer verstecken bis show_question kommt
+  document.getElementById('question-text').innerText = '';
+  if (answersWrap) { answersWrap.innerHTML = ''; answersWrap.classList.add('is-invisible'); }
+  if (timerWrap)   timerWrap.classList.add('is-invisible');
 
   const ranked = data.players_ranked || [];
   maxTvPlayers = computeMaxTvPlayers();
@@ -396,11 +366,15 @@ socket.on('yc_announcement', async data => {
 
   showLayer(layerGame);
 
-  // Play announcement audio, then player name audio
   if (data.announcement_audio) {
     await playOnceReturn(SFX_BASE + data.announcement_audio);
   }
-
+  if (data.category_audio) {
+    await playOnceReturn(MEDIA_BASE + data.category_audio);
+  }
+  if (data.categoryfrom_audio) {
+    await playOnceReturn(SFX_BASE + data.categoryfrom_audio);
+  }
   const nameSrc = getPlayerAudioSrc(data.player_name);
   if (nameSrc) {
     await playOnceReturn(nameSrc);

@@ -1,4 +1,5 @@
 import os
+import re
 import random
 import json
 import uuid
@@ -21,6 +22,7 @@ _11LABS_KEY_PATH = os.path.join(_PROJECT_ROOT, "11labsapi.json")
 _PS_QUESTIONS    = os.path.join(_PROJECT_ROOT, "punktesammler", "questions.json")
 _OWN_QUESTIONS   = os.path.join(_MODULE_DIR, "questions.json")
 _AUDIO_DIR       = os.path.join(_MODULE_DIR, "media", "audio")
+_GAMESOUNDS_DIR  = os.path.join(_MODULE_DIR, "media", "gamesounds")
 _PS_AUDIO_URL    = "/punktesammler/media/audio"
 
 # ---------------------------------------------------------------------------
@@ -91,9 +93,9 @@ def _call_gpt(category: str) -> dict:
         f'Erstelle eine Multiple-Choice-Quiz-Frage auf Deutsch zum Thema "{category}".\n\n'
         'Anforderungen:\n'
         '- Frage und Antworten auf Deutsch\n'
-        '- Eher Anspruchsvoll, aber nicht sehr schwer (Nicht super leicht!)\n'
+        '- Anspruchsvoll bis schwer\n'
         '- Richtige Antwort zu 100%% korrekt und eindeutig\n'
-        '- 3 falsche Antworten: plausibel, aber eindeutig falsch\n'
+        '- 3 falsche Antworten: sehr plausibel, aber eindeutig falsch\n'
         '- Keine offensichtlich einfachen oder kindergeeigneten Fragen\n\n'
         'Antworte NUR mit einem JSON-Objekt ohne Markdown:\n'
         '{"question": "...", "correct": "...", "wrong": ["...", "...", "..."]}'
@@ -162,6 +164,50 @@ def _validate(q: dict) -> dict:
 # ---------------------------------------------------------------------------
 # ELEVENLABS TTS
 # ---------------------------------------------------------------------------
+
+def _safe_category_filename(category: str) -> str:
+    """Converts a category name to a safe mp3 filename, e.g. 'Süd Korea' → 'sued-korea.mp3'"""
+    import unicodedata
+    s = str(category).strip().lower()
+    s = s.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
+    s = unicodedata.normalize("NFD", s)
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return f"category-{s}.mp3"
+
+
+def _generate_category_tts(category: str) -> str:
+    """Generates TTS for a category name. Caches — returns existing file if already present."""
+    filename = _safe_category_filename(category)
+    out_path = os.path.join(_AUDIO_DIR, filename)
+    if os.path.exists(out_path):
+        return filename
+
+    os.makedirs(_AUDIO_DIR, exist_ok=True)
+    url = (
+        f"https://api.elevenlabs.io/v1/text-to-speech/{_VOICE_ID}"
+        f"?output_format={_OUTPUT_FORMAT}"
+    )
+    headers = {
+        "xi-api-key": _11labs_key(),
+        "Content-Type": "application/json",
+        "Accept": "audio/mpeg",
+    }
+    body = {
+        "text": f"(euphorisch) {category}!",
+        "model_id": _MODEL_ID,
+        "voice_settings": {"stability": 0.5},
+    }
+
+    r = requests.post(url, json=body, headers=headers, timeout=30)
+    if r.status_code != 200:
+        raise RuntimeError(f"ElevenLabs HTTP {r.status_code}: {r.text[:200]}")
+
+    with open(out_path, "wb") as f:
+        f.write(r.content)
+
+    return filename
+
 
 def _generate_tts(text: str, audio_id: str) -> str:
     """Calls ElevenLabs, saves MP3 to AUDIO_DIR. Returns filename."""
@@ -298,7 +344,7 @@ class YourCategoryLogic:
     GPT_TIMEOUT_SECONDS       = 20
     TTS_TIMEOUT_SECONDS       = 30
     ERROR_WAIT_SECONDS        = 4
-    ANNOUNCEMENT_WAIT_SECONDS = 7
+    ANNOUNCEMENT_WAIT_SECONDS = 20
     INTRO_DELAY_SECONDS       = 3
     ANSWER_DURATION_SECONDS   = 15
     REVEAL_DELAY_SECONDS      = 2
@@ -509,11 +555,23 @@ class YourCategoryLogic:
                 raw       = self._gpt_threaded(category)
                 validated = _validate(raw)
                 q_id      = uuid.uuid4().hex[:8]
-                audio     = self._tts_threaded(validated["question"], q_id)
+
+                # Fragen-TTS und Kategorie-TTS parallel
+                audio_result        = [None]
+                cat_audio_result    = [None]
+                def _gen_q():  audio_result[0]     = self._tts_threaded(validated["question"], q_id)
+                def _gen_cat(): cat_audio_result[0] = self._category_tts_threaded(category)
+                t_q   = threading.Thread(target=_gen_q,   daemon=True)
+                t_cat = threading.Thread(target=_gen_cat, daemon=True)
+                t_q.start(); t_cat.start()
+                t_q.join(); t_cat.join()
+                audio     = audio_result[0]
+                cat_audio = cat_audio_result[0] or ""
 
                 q_data = {
                     "id":                q_id,
                     "category":          category,
+                    "categoryaudio":     cat_audio,
                     "question":          validated["question"],
                     "correct":           validated["correct"],
                     "wrong":             validated["wrong"],
@@ -555,6 +613,7 @@ class YourCategoryLogic:
             q_data = {
                 "id":                ps_q["id"],
                 "category":          ps_q.get("category", ""),
+                "categoryaudio":     self._category_tts_threaded(ps_q.get("category", "")),
                 "question":          ps_q["question"],
                 "correct":           ps_q["correct"],
                 "wrong":             list(ps_q["wrong"]),
@@ -586,6 +645,7 @@ class YourCategoryLogic:
                 fb_data = {
                     "id":                fallback["id"],
                     "category":          fallback.get("category", ""),
+                    "categoryaudio":     self._category_tts_threaded(fallback.get("category", "")),
                     "question":          fallback["question"],
                     "correct":           fallback["correct"],
                     "wrong":             list(fallback["wrong"]),
@@ -640,6 +700,20 @@ class YourCategoryLogic:
             raise error[0]
         return result[0]
 
+    def _category_tts_threaded(self, category: str) -> str:
+        result, error = [None], [None]
+        def _run():
+            try:
+                result[0] = _generate_category_tts(category)
+            except Exception as e:
+                error[0] = e
+        t = threading.Thread(target=_run, daemon=True)
+        t.start()
+        t.join(timeout=self.TTS_TIMEOUT_SECONDS)
+        if error[0] is not None:
+            return ""
+        return result[0] or ""
+
     def _pick_ps_fallback(self, pid: str) -> dict | None:
         """Gibt eine zufällige PS-Frage zurück, die noch nicht in generated_questions ist."""
         used_ids = {q["id"] for q in self.generated_questions}
@@ -692,7 +766,8 @@ class YourCategoryLogic:
         self.state          = "ANNOUNCEMENT"
         self.player_answers = {}
 
-        ann_num = random.randint(1, 10)
+        ann_num  = random.randint(1, 16)
+        from_num = random.randint(1, 14)
         ann_payload_tv = {
             "state":              "ANNOUNCEMENT",
             "player_id":          q["submitted_by"],
@@ -701,9 +776,12 @@ class YourCategoryLogic:
             "question_number":    self.current_question_index + 1,
             "total_questions":    len(self.generated_questions),
             "announcement_audio": f"categoryannouncement{ann_num}.mp3",
+            "category_audio":     q.get("categoryaudio", ""),
+            "categoryfrom_audio": f"categoryfrom{from_num}.mp3",
             "players_ranked":     self._ranked(),
         }
-        ann_payload_ctrl = {k: v for k, v in ann_payload_tv.items() if k != "announcement_audio"}
+        ann_payload_ctrl = {k: v for k, v in ann_payload_tv.items()
+                            if k not in ("announcement_audio", "category_audio", "categoryfrom_audio")}
 
         self._announcement_event = threading.Event()
         self.socketio.emit("yc_announcement", ann_payload_tv,   room="tv_room")

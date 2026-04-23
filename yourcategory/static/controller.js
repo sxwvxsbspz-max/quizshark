@@ -248,27 +248,18 @@ function updateInputPlayerHeader(ranked) {
 }
 
 /* ---------- Category Input UI ---------- */
-function lockCategoryInput() {
+function lockCategoryInput(selectedEl) {
   categoryLocked = true;
   categorySubmitted = true;
   if (categoryInput)  { categoryInput.disabled = true;  categoryInput.classList.add("is-locked"); }
   if (categorySubmit) { categorySubmit.disabled = true; categorySubmit.classList.add("is-locked"); }
-  btns.forEach(b => b.classList.add("is-locked"));
 
-  // Show suggestion buttons locked
   if (suggestionBtns) {
     suggestionBtns.querySelectorAll('.yc-ctrl__sugBtn').forEach(b => b.classList.add('is-locked'));
   }
 
-  // Add confirmation message
-  const existing = document.getElementById('yc-submitted-msg');
-  if (!existing && ycInputScreen) {
-    const msg = document.createElement('div');
-    msg.id = 'yc-submitted-msg';
-    msg.className = 'yc-ctrl__submitted';
-    msg.textContent = '✔ Kategorie eingereicht!';
-    ycInputScreen.querySelector('.qa-inner').appendChild(msg);
-  }
+  // Gewähltes Element grün hervorheben
+  if (selectedEl) selectedEl.classList.add('is-selected');
 }
 
 function renderSuggestionButtons(options) {
@@ -280,16 +271,16 @@ function renderSuggestionButtons(options) {
     btn.textContent = opt.category;
     btn.addEventListener('pointerup', () => {
       if (categoryLocked || categorySubmitted) return;
-      submitQuestionChoice(opt.id);
+      submitQuestionChoice(opt.id, btn);
     });
     suggestionBtns.appendChild(btn);
   });
 }
 
-function submitQuestionChoice(questionId) {
+function submitQuestionChoice(questionId, btn) {
   if (categoryLocked || categorySubmitted) return;
   if (!questionId) return;
-  lockCategoryInput();
+  lockCategoryInput(btn);
   socket.emit("module_event", {
     action:  "submit_category",
     payload: { question_id: questionId },
@@ -312,12 +303,9 @@ socket.on('yc_category_input', data => {
   if (categoryForm)   { categoryForm.style.display = ''; }
   if (categoryHint) categoryHint.classList.add('is-hidden');
 
-  const existing = document.getElementById('yc-submitted-msg');
-  if (existing) existing.remove();
-
-  // Check if already submitted (reconnect)
+  // Check if already submitted (reconnect) – kein selectedEl bekannt, einfach alles sperren
   if (myId && (data.submitted || []).includes(myId)) {
-    lockCategoryInput();
+    lockCategoryInput(null);
   }
 
   // Start timer
@@ -457,7 +445,7 @@ function submitTypedCategory() {
     }
     return;
   }
-  lockCategoryInput();
+  lockCategoryInput(categoryInput);
   socket.emit("module_event", {
     action:  "submit_category",
     payload: { category: cat },

@@ -55,35 +55,48 @@
 }
 
 
-/* Announcement tile (shown in answers area during yc_announcement) */
-.yc-ann__ingame {
-  grid-column: 1 / -1;
+/* Announcement-Bar: erscheint über Frage + Timer, bleibt während der Frage stehen */
+.yc-ann__bar {
   width: 100%;
-  padding: 0.73vw;
-  border-radius: 1.04vw;
-  border: 0.17vw solid rgba(255,255,255,0.35);
-  box-shadow: 0 0.36vw 0.73vw rgba(0,0,0,0.18);
-  background: rgba(255,255,255,0.10);
-  min-height: 7.81vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 0.5vw;
+  gap: 0.8vw;
+  padding: 0.55vw 1vw;
+  border-radius: 0.8vw;
+  background: rgba(255,255,255,0.10);
+  border: 0.13vw solid rgba(255,255,255,0.22);
+  margin-bottom: 0.6vw;
+  flex-shrink: 0;
 }
 
-.yc-ann__ingame-from {
-  font-size: 2.8rem;
+.yc-ann__bar.is-hidden {
+  display: none;
+}
+
+.yc-ann__bar-label,
+.yc-ann__bar-sep {
+  font-size: clamp(3.15rem, 3.6vw, 5.85rem);
   font-weight: 600;
-  color: rgba(255,255,255,0.75);
+  color: #fff;
+  white-space: nowrap;
 }
 
-.yc-ann__ingame-player {
-  font-size: 6rem;
+.yc-ann__bar-cat,
+.yc-ann__bar-player {
+  font-size: clamp(3.6rem, 4.275vw, 6.75rem);
   font-weight: 800;
   color: #fff;
-  line-height: 1.1;
+  background: rgba(255,255,255,0.15);
+  border: 0.11vw solid rgba(255,255,255,0.28);
+  border-radius: 0.5vw;
+  padding: 0.2vw 0.7vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
+.yc-ann__bar-cat    { max-width: 35vw; }
+.yc-ann__bar-player { max-width: 20vw; }
 
 /* Inspiration stage: single large cycling category display */
 .yc-insp-stage {
@@ -160,95 +173,60 @@
   border-radius: 999px;
   background: rgba(255,255,255,0.18);
   overflow: hidden;
+  position: relative;
 }
 
 .yc-gen__barFill {
   height: 100%;
   width: 0%;
-  background: linear-gradient(to right, #4cbeff, #9eff1f);
   border-radius: 999px;
   transition: width 0.6s ease;
-}
-
-.yc-gen__current {
-  font-size: clamp(2rem, 2.5vw, 4.5rem);
-  font-weight: 500;
-  color: rgba(255,255,255,0.7);
-  min-height: 1.4em;
-  font-family: "Nunito", Arial, sans-serif;
-}
-
-.yc-gen__error {
-  font-size: clamp(1.8rem, 2.2vw, 3.5rem);
-  font-weight: 700;
-  color: rgba(255,160,80,0.95);
-  background: rgba(255,120,0,0.15);
-  border-radius: 1rem;
-  padding: 1rem 2rem;
-  animation: ycErrorFade 4s ease forwards;
-}
-
-@keyframes ycErrorFade {
-  0%   { opacity: 1; }
-  70%  { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-/* ============================================================
-   LAYER 3 – ANNOUNCEMENT
-   ============================================================ */
-
-.yc-ann__center {
+  background: linear-gradient(to right, #4cbeff, #9eff1f);
   position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2.5rem;
-  padding: 6rem;
-  text-align: center;
+  overflow: hidden;
 }
 
-.yc-ann__counter {
-  font-size: clamp(2rem, 2.5vw, 4rem);
-  font-weight: 700;
-  color: rgba(255,255,255,0.65);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+.yc-gen__barFill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0px,
+    transparent 16px,
+    rgba(0,0,0,0.18) 16px,
+    rgba(0,0,0,0.18) 22px
+  );
+  background-size: 22px 100%;
+  animation: yc-bar-dash 0.65s linear infinite;
 }
 
-.yc-ann__from {
-  font-size: clamp(2.5rem, 3vw, 5rem);
-  font-weight: 700;
-  color: rgba(255,255,255,0.8);
+@keyframes yc-bar-dash {
+  from { background-position: 22px 0; }
+  to   { background-position: 0px 0; }
 }
 
-.yc-ann__player {
-  font-size: clamp(4rem, 6vw, 10rem);
-  font-weight: 900;
-  line-height: 1;
-  color: #fff;
-  text-shadow: 0 0.4rem 2rem rgba(76,190,255,0.6);
+/* Neural Net */
+.yc-gen__net {
+  width: 20vw;
+  height: auto;
+  margin-top: 1vw;
 }
 
-.yc-ann__category {
-  font-size: clamp(3rem, 4.5vw, 7.5rem);
-  font-weight: 900;
-  line-height: 1.1;
-  color: rgba(255,255,255,0.9);
-  padding: 1.5rem 3rem;
-  border-radius: 1.8rem;
-  background: rgba(255,255,255,0.14);
-  border: 0.25rem solid rgba(255,255,255,0.22);
-  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.3);
-  max-width: 90%;
+@keyframes yc-node-pulse {
+  0%, 100% { opacity: 0.35; }
+  50%       { opacity: 1;    }
 }
+
+.yc-gen__node                    { animation: yc-node-pulse 2.2s ease-in-out infinite; }
+.yc-gen__node.yc-gen__node--d0  { animation-delay: 0.0s; }
+.yc-gen__node.yc-gen__node--d1  { animation-delay: 0.5s; }
+.yc-gen__node.yc-gen__node--d2  { animation-delay: 1.0s; }
+.yc-gen__node.yc-gen__node--d3  { animation-delay: 1.5s; }
+.yc-gen__node.yc-gen__node--d4  { animation-delay: 2.0s; }
 
 /* ============================================================
-   LAYER 4 – GAME (MC wie Punktesammler)
+   LAYER 3 – GAME (MC wie Punktesammler)
    The #game-layer carries class "ps" so all .ps__* rules apply
    with correct box-sizing. Override only what differs from PS:
    position (absolute inside .yc-tv, not fixed) and background.

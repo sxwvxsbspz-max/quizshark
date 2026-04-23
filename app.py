@@ -472,6 +472,7 @@ def handle_module_event(data):
 
     SYSTEM_ACTIONS = {
         "video_finished",
+        "announcement_finished",
         "timer_expired",
         "unveil_finished",
         "module_finished",

@@ -68,8 +68,61 @@
               <div class="yc-gen__barWrap" aria-hidden="true">
                 <div class="yc-gen__barFill" id="gen-bar-fill"></div>
               </div>
-              <div class="yc-gen__current" id="gen-current-text"></div>
-              <div class="yc-gen__error" id="gen-error-text" style="display:none;"></div>
+              <svg class="yc-gen__net" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <defs>
+                  <filter id="yc-glow" x="-60%" y="-60%" width="220%" height="220%">
+                    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+                    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                  </filter>
+                  <path id="yc-p1"  d="M50,65  L160,35"/>
+                  <path id="yc-p2"  d="M50,65  L160,100"/>
+                  <path id="yc-p3"  d="M50,65  L160,165"/>
+                  <path id="yc-p4"  d="M50,135 L160,35"/>
+                  <path id="yc-p5"  d="M50,135 L160,100"/>
+                  <path id="yc-p6"  d="M50,135 L160,165"/>
+                  <path id="yc-p7"  d="M160,35  L270,75"/>
+                  <path id="yc-p8"  d="M160,35  L270,125"/>
+                  <path id="yc-p9"  d="M160,100 L270,75"/>
+                  <path id="yc-p10" d="M160,100 L270,125"/>
+                  <path id="yc-p11" d="M160,165 L270,75"/>
+                  <path id="yc-p12" d="M160,165 L270,125"/>
+                </defs>
+                <g stroke="rgba(255,255,255,0.18)" stroke-width="1.2" fill="none">
+                  <line x1="50"  y1="65"  x2="160" y2="35"/>
+                  <line x1="50"  y1="65"  x2="160" y2="100"/>
+                  <line x1="50"  y1="65"  x2="160" y2="165"/>
+                  <line x1="50"  y1="135" x2="160" y2="35"/>
+                  <line x1="50"  y1="135" x2="160" y2="100"/>
+                  <line x1="50"  y1="135" x2="160" y2="165"/>
+                  <line x1="160" y1="35"  x2="270" y2="75"/>
+                  <line x1="160" y1="35"  x2="270" y2="125"/>
+                  <line x1="160" y1="100" x2="270" y2="75"/>
+                  <line x1="160" y1="100" x2="270" y2="125"/>
+                  <line x1="160" y1="165" x2="270" y2="75"/>
+                  <line x1="160" y1="165" x2="270" y2="125"/>
+                </g>
+                <circle r="4.5" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.0s"><mpath href="#yc-p1"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0.3s"><mpath href="#yc-p2"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.7s"><mpath href="#yc-p3"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.5s" repeatCount="indefinite" begin="0.2s"><mpath href="#yc-p4"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.9s"><mpath href="#yc-p5"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0.5s"><mpath href="#yc-p6"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.1s"><mpath href="#yc-p7"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.5s" repeatCount="indefinite" begin="0.6s"><mpath href="#yc-p8"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.4s"><mpath href="#yc-p9"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0.8s"><mpath href="#yc-p10"/></animateMotion></circle>
+                <circle r="4.5" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.2s"><mpath href="#yc-p11"/></animateMotion></circle>
+                <circle r="4.0" fill="white" filter="url(#yc-glow)"><animateMotion dur="1.5s" repeatCount="indefinite" begin="0.6s"><mpath href="#yc-p12"/></animateMotion></circle>
+                <g fill="white" filter="url(#yc-glow)">
+                  <circle class="yc-gen__node yc-gen__node--d0" cx="50"  cy="65"  r="9"/>
+                  <circle class="yc-gen__node yc-gen__node--d1" cx="50"  cy="135" r="9"/>
+                  <circle class="yc-gen__node yc-gen__node--d2" cx="160" cy="35"  r="9"/>
+                  <circle class="yc-gen__node yc-gen__node--d3" cx="160" cy="100" r="9"/>
+                  <circle class="yc-gen__node yc-gen__node--d4" cx="160" cy="165" r="9"/>
+                  <circle class="yc-gen__node yc-gen__node--d1" cx="270" cy="75"  r="9"/>
+                  <circle class="yc-gen__node yc-gen__node--d3" cx="270" cy="125" r="9"/>
+                </g>
+              </svg>
             </div>
           </div>
 
@@ -85,50 +138,7 @@
   </div>
 
   <!-- ================================================================
-       LAYER 3: ANNOUNCEMENT (vor jeder Frage)
-       ================================================================ -->
-  <div id="yc-announcement-layer" class="yc-tv__layer" style="display:none;">
-
-    <div class="yc-lobby-bg" aria-hidden="true">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
-        <defs>
-          <linearGradient id="yc-bg3">
-            <stop offset="0%"   style="stop-color:rgba(249,249,130,0.06)"></stop>
-            <stop offset="50%"  style="stop-color:rgba(76,255,190,0.4)"></stop>
-            <stop offset="100%" style="stop-color:rgba(209,72,115,0.1)"></stop>
-          </linearGradient>
-          <path id="yc-wave3" fill="url(#yc-bg3)"
-            d="M-363.852,502.589c0,0,236.988-41.997,505.475,0s371.981,38.998,575.971,0
-               s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"/>
-        </defs>
-        <g>
-          <use xlink:href="#yc-wave3" opacity=".4">
-            <animateTransform attributeName="transform" attributeType="XML" type="translate"
-              dur="9s" calcMode="spline" values="100 230;-400 200;100 230"
-              keyTimes="0;.5;1" keySplines="0.42,0,0.58,1;0.42,0,0.58,1" repeatCount="indefinite"/>
-          </use>
-          <use xlink:href="#yc-wave3" opacity=".75">
-            <animateTransform attributeName="transform" attributeType="XML" type="translate"
-              dur="6s" calcMode="spline" values="-150 220;300 200;-150 220"
-              keyTimes="0;.45;1" keySplines="0.42,0,0.58,1;0.42,0,0.58,1" repeatCount="indefinite"/>
-          </use>
-        </g>
-      </svg>
-    </div>
-
-    <div class="yc-ann__center">
-      <div class="yc-ann__counter" id="ann-counter">Frage 1 von 1</div>
-      <div class="yc-ann__from">Die nächste Kategorie wurde ausgesucht von:</div>
-      <div class="yc-ann__player" id="ann-player">—</div>
-      <div class="yc-ann__category" id="ann-category">—</div>
-    </div>
-
-  </div>
-
-  <!-- ================================================================
-       LAYER 4: GAME LAYER (MC – wie Punktesammler)
+       LAYER 3: GAME LAYER (MC – wie Punktesammler)
        ================================================================ -->
   <div id="game-layer" class="yc-tv__layer ps" style="display:none;">
 
@@ -137,6 +147,14 @@
       <!-- LEFT -->
       <div class="ps__panel">
         <div class="ps__panelInner">
+
+          <!-- Announcement-Bar (erscheint vor jeder Frage, bleibt stehen) -->
+          <div id="yc-ann-bar" class="yc-ann__bar is-hidden">
+            <span class="yc-ann__bar-label">Kategorie:</span>
+            <span class="yc-ann__bar-cat" id="ann-bar-category">—</span>
+            <span class="yc-ann__bar-sep">von:</span>
+            <span class="yc-ann__bar-player" id="ann-bar-player">—</span>
+          </div>
 
           <div class="ps__topRow">
             <div class="ps__questionWrap">
