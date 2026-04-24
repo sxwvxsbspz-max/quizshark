@@ -26,9 +26,9 @@ class HaveIEverQuestionSource:
         self,
         questions_path: str,
         use_standard: bool = True,
-        use_adult: bool = False,
-        use_boringadult: bool = False,
-        use_veryadult: bool = False,
+        use_adult: bool = True,
+        use_boringadult: bool = True,
+        use_veryadult: bool = True,
     ):
         self.questions_path = questions_path
 

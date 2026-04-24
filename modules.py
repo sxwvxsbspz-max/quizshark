@@ -9,38 +9,44 @@ def get_phase_sequence():
     return [
        #"intro",
 
-        #"punktesammler",
-        #"songquiz",
+        "punktesammler",
+        "songquiz",
         #"speedround",
          #  "leaderboard",
 
         #"soundtracks",
-        #"freeknowledge",
-        #"imagememory",   
-         #  "leaderboard",
+        "freeknowledge",
+    
+           "leaderboard",
+        "imagememory",     
            
         #"pause",
         #   "leaderboard",
 
         #"soundyear",
         "songster",
+          "leaderboard",
+          "pause",  
+
         #"imagequiz",
-        #"soundmemory",      
+        "soundmemory",      
          #  "leaderboard",
 
         #"customquiz",
-        #"haveiever",
-        #"oddoneout",
-        #"wellguessed",
-        #"doyouknow",
-        #"yourcategory",
-        #"vollereinsatz",
-        #   "leaderboard",
+        "oddoneout",
+        "haveiever",
+        "wellguessed",
+           "leaderboard",
+           
+        "doyouknow",
+        "yourcategory",
+        "vollereinsatz",
+           "leaderboard",
 
         #"jokerrules",
-        #"awardjokers",
-        #"finale",
-        #"siegerehrung",
+        "awardjokers",
+        "finale",
+        "siegerehrung",
     ]
 
 

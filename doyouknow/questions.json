@@ -1,142 +1,1178 @@
 [
-    {
-        "id": "dyk020",
-        "category": "Geschichte",
-        "question": "Nenne ein Land, in dem während des 20. Jahrhunderts eine Revolution stattgefunden hat.",
-        "image": "",
-        "lastplayed": "2026-04-24T10:20:47Z"
-    },
-    {
-        "id": "dyk003",
-        "category": "Geografie",
-        "question": "Nenne eine Hauptstadt in Asien außer Peking und Tokio.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk009",
-        "category": "Wissenschaft",
-        "question": "Nenne ein Organ im menschlichen Körper, das man zweimal hat.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk001",
-        "category": "Geografie",
-        "question": "Nenne einen Fluss in Südamerika außer dem Amazonas.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk005",
-        "category": "Natur",
-        "question": "Nenne ein Säugetier, das Eier legt.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk008",
-        "category": "Wissenschaft",
-        "question": "Nenne ein chemisches Element, das bei Raumtemperatur flüssig ist.",
-        "image": "",
-        "lastplayed": "2026-04-22T13:43:20Z"
-    },
-    {
-        "id": "dyk002",
-        "category": "Geografie",
-        "question": "Nenne ein Land in Afrika, das ans Mittelmeer grenzt.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:20:03Z"
-    },
-    {
-        "id": "dyk015",
-        "category": "Essen & Trinken",
-        "question": "Nenne ein Gewürz, das in der indischen Küche häufig verwendet wird.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:20:31Z"
-    },
-    {
-        "id": "dyk017",
-        "category": "Natur",
-        "question": "Nenne einen Baum, der auch im Winter grün bleibt.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:20:59Z"
-    },
-    {
-        "id": "dyk018",
-        "category": "Wissenschaft",
-        "question": "Nenne einen Planeten in unserem Sonnensystem außer der Erde, dem Mars und dem Jupiter.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:33:31Z"
-    },
-    {
-        "id": "dyk011",
-        "category": "Kunst & Kultur",
-        "question": "Nenne ein Musical, das auch als Film verfilmt wurde.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:33:55Z"
-    },
-    {
-        "id": "dyk019",
-        "category": "Sport",
-        "question": "Nenne eine Olympische Sportart aus dem Sommer-Programm, die mit Wasser zu tun hat.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:34:22Z"
-    },
-    {
-        "id": "dyk010",
-        "category": "Kunst & Kultur",
-        "question": "Nenne einen deutschen Dichter oder Schriftsteller aus dem 18. oder 19. Jahrhundert.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:37:51Z"
-    },
-    {
-        "id": "dyk006",
-        "category": "Sport",
-        "question": "Nenne ein Land, das die Fußball-Weltmeisterschaft gewonnen hat.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:38:14Z"
-    },
-    {
-        "id": "dyk016",
-        "category": "Geografie",
-        "question": "Nenne eine Insel im Mittelmeer.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:38:37Z"
-    },
-    {
-        "id": "dyk014",
-        "category": "Essen & Trinken",
-        "question": "Nenne eine Käsesorte aus Frankreich.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:39:04Z"
-    },
-    {
-        "id": "dyk013",
-        "category": "Geschichte",
-        "question": "Nenne einen deutschen Bundeskanzler außer Konrad Adenauer und Helmut Kohl.",
-        "image": "",
-        "lastplayed": "2026-04-22T15:39:26Z"
-    },
-    {
-        "id": "dyk007",
-        "category": "Sport",
-        "question": "Nenne eine Sportart, bei der man einen Schläger benutzt.",
-        "image": "",
-        "lastplayed": "2026-04-24T08:02:18Z"
-    },
-    {
-        "id": "dyk012",
-        "category": "Geschichte",
-        "question": "Nenne ein Land, das im Ersten Weltkrieg auf Seiten der Entente kämpfte.",
-        "image": "",
-        "lastplayed": "2026-04-24T08:02:48Z"
-    },
-    {
-        "id": "dyk004",
-        "category": "Natur",
-        "question": "Nenne ein Tier, das sowohl an Land als auch im Wasser lebt.",
-        "image": "",
-        "lastplayed": "2026-04-24T10:20:19Z"
-    }
+  {
+    "id": "00001",
+    "category": "Geschichte",
+    "question": "Nenne ein Land, in dem während des 20. Jahrhunderts eine Revolution stattgefunden hat.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00001.mp3"
+  },
+  {
+    "id": "00002",
+    "category": "Geografie",
+    "question": "Nenne eine Hauptstadt in Asien außer Bangkok, Peking und Tokio.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00002.mp3"
+  },
+  {
+    "id": "00003",
+    "category": "Wissenschaft",
+    "question": "Nenne ein Organ im menschlichen Körper, das man zweimal hat.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00003.mp3"
+  },
+  {
+    "id": "00004",
+    "category": "Geografie",
+    "question": "Nenne einen Fluss in Südamerika außer dem Amazonas.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00004.mp3"
+  },
+  {
+    "id": "00005",
+    "category": "Natur",
+    "question": "Nenne ein Säugetier, das Eier legt.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00005.mp3"
+  },
+  {
+    "id": "00006",
+    "category": "Wissenschaft",
+    "question": "Nenne ein chemisches Element, das bei Raumtemperatur flüssig ist.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00006.mp3"
+  },
+  {
+    "id": "00007",
+    "category": "Geografie",
+    "question": "Nenne ein Land in Afrika, das ans Mittelmeer grenzt.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00007.mp3"
+  },
+  {
+    "id": "00008",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein Gewürz, das in der indischen Küche häufig verwendet wird.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00008.mp3"
+  },
+  {
+    "id": "00009",
+    "category": "Natur",
+    "question": "Nenne einen Baum, der auch im Winter grün bleibt.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00009.mp3"
+  },
+  {
+    "id": "00010",
+    "category": "Wissenschaft",
+    "question": "Nenne einen Planeten in unserem Sonnensystem außer der Erde, dem Mars und dem Jupiter.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00010.mp3"
+  },
+  {
+    "id": "00011",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein Musical, das auch als Film verfilmt wurde.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00011.mp3"
+  },
+  {
+    "id": "00012",
+    "category": "Sport",
+    "question": "Nenne eine Olympische Sportart aus dem Sommer-Programm, die mit Wasser zu tun hat.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00012.mp3"
+  },
+  {
+    "id": "00013",
+    "category": "Kunst & Kultur",
+    "question": "Nenne einen deutschen Dichter oder Schriftsteller aus dem 18. oder 19. Jahrhundert.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00013.mp3"
+  },
+  {
+    "id": "00014",
+    "category": "Sport",
+    "question": "Nenne ein Land, das die Fußball-Weltmeisterschaft gewonnen hat.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00014.mp3"
+  },
+  {
+    "id": "00015",
+    "category": "Geografie",
+    "question": "Nenne eine Insel im Mittelmeer.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00015.mp3"
+  },
+  {
+    "id": "00016",
+    "category": "Essen & Trinken",
+    "question": "Nenne eine Käsesorte aus Frankreich außer Camembert.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00016.mp3"
+  },
+  {
+    "id": "00017",
+    "category": "Geschichte",
+    "question": "Nenne einen deutschen Bundeskanzler außer Konrad Adenauer und Helmut Kohl.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00017.mp3"
+  },
+  {
+    "id": "00018",
+    "category": "Sport",
+    "question": "Nenne eine Sportart, bei der man einen Schläger benutzt außer Tennis und Tischtennis.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00018.mp3"
+  },
+  {
+    "id": "00019",
+    "category": "Geschichte",
+    "question": "Nenne ein Land, das im Ersten Weltkrieg auf Seiten der Entente kämpfte.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00019.mp3"
+  },
+  {
+    "id": "00020",
+    "category": "Natur",
+    "question": "Nenne ein Tier, das sowohl an Land als auch im Wasser lebt",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00020.mp3"
+  },
+  {
+    "id": "00021",
+    "category": "Geografie",
+    "question": "Nenne einen Fluss in Italien außer Po",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00021.mp3"
+  },
+  {
+    "id": "00022",
+    "category": "Geografie",
+    "question": "Nenne einen Fluss in Spanien",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00022.mp3"
+  },
+  {
+    "id": "00023",
+    "category": "Geografie",
+    "question": "Nenne einen Berg in Frankreich außer Mont Blanc",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00023.mp3"
+  },
+  {
+    "id": "00024",
+    "category": "Geografie",
+    "question": "Nenne einen Berg in der Schweiz außer Matterhorn",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00024.mp3"
+  },
+  {
+    "id": "00025",
+    "category": "Geografie",
+    "question": "Nenne einen Berg in Österreich außer Großglockner",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00025.mp3"
+  },
+  {
+    "id": "00026",
+    "category": "Geografie",
+    "question": "Nenne einen Berg in den USA",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00026.mp3"
+  },
+  {
+    "id": "00027",
+    "category": "Geografie",
+    "question": "Nenne einen Berg im Himalaya außer Mount Everest",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00027.mp3"
+  },
+  {
+    "id": "00028",
+    "category": "Geografie",
+    "question": "Nenne eine Hauptstadt in Europa außer Berlin, Paris, London und Rom.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00028.mp3"
+  },
+  {
+    "id": "00029",
+    "category": "Geografie",
+    "question": "Nenne eine Insel im Mittelmeer außer Mallorca",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00029.mp3"
+  },
+  {
+    "id": "00030",
+    "category": "Geografie",
+    "question": "Nenne einen Fluss in Deutschland außer Rhein, Donau, Elbe und Weser.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00030.mp3"
+  },
+  {
+    "id": "00031",
+    "category": "Geografie",
+    "question": "Nenne ein Land in Afrika außer Ägypten, Marokko und Südafrika.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00031.mp3"
+  },
+  {
+    "id": "00032",
+    "category": "Geografie",
+    "question": "Nenne ein Land in Südamerika außer Brasilien, Argentinien, Chile und Peru.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00032.mp3"
+  },
+  {
+    "id": "00033",
+    "category": "Wissenschaft",
+    "question": "Nenne ein chemisches Element, das bei Raumtemperatur flüssig ist",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00033.mp3"
+  },
+  {
+    "id": "00034",
+    "category": "Wissenschaft",
+    "question": "Nenne ein Edelgas außer Helium",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00034.mp3"
+  },
+  {
+    "id": "00035",
+    "category": "Wissenschaft",
+    "question": "Nenne einen Planeten außer Erde, Mars, Saturn und Jupiter.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00035.mp3"
+  },
+  {
+    "id": "00036",
+    "category": "Geschichte",
+    "question": "Nenne einen römischen Kaiser",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00036.mp3"
+  },
+  {
+    "id": "00037",
+    "category": "Geschichte",
+    "question": "Nenne eine europäische Monarchie außer Großbritannien, Spanien und Schweden.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00037.mp3"
+  },
+  {
+    "id": "00038",
+    "category": "Sport",
+    "question": "Nenne eine olympische Sportart außer Fußball, Leichtathletik und Schwimmen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00038.mp3"
+  },
+  {
+    "id": "00039",
+    "category": "Sport",
+    "question": "Nenne einen Fußballverein aus England außer Manchester United, Liverpool und Chelsea.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00039.mp3"
+  },
+  {
+    "id": "00040",
+    "category": "Kunst & Kultur",
+    "question": "Nenne einen Maler außer Leonardo da Vinci, Vincent van Gogh und Pablo Picasso.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00040.mp3"
+  },
+  {
+    "id": "00041",
+    "category": "Kunst & Kultur",
+    "question": "Nenne einen Filmregisseur außer Steven Spielberg, Christopher Nolan und Quentin Tarantino.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00041.mp3"
+  },
+  {
+    "id": "00042",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein Musical außer Der König der Löwen, Cats und Phantom der Oper.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00042.mp3"
+  },
+  {
+    "id": "00043",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein italienisches Gericht außer Pizza, Spaghetti und Lasagne.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00043.mp3"
+  },
+  {
+    "id": "00044",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein alkoholisches Getränk außer Bier, Wein und Wodka.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00044.mp3"
+  },
+  {
+    "id": "00045",
+    "category": "Natur",
+    "question": "Nenne ein Meeresäugetier außer Delfin und Wal",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00045.mp3"
+  },
+  {
+    "id": "00046",
+    "category": "Natur",
+    "question": "Nenne einen Vogel außer Adler, Taube und Spatz.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00046.mp3"
+  },
+  {
+    "id": "00047",
+    "category": "Natur",
+    "question": "Nenne ein Säugetier außer Hund, Katze und Pferd.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00047.mp3"
+  },
+  {
+    "id": "00048",
+    "category": "Sport",
+    "question": "Nenne einen Tennisspieler außer Roger Federer, Rafael Nadal und Novak Djokovic.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00048.mp3"
+  },
+  {
+    "id": "00049",
+    "category": "Sport",
+    "question": "Nenne einen Formel-1-Fahrer außer Michael Schumacher, Lewis Hamilton und Max Verstappen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00049.mp3"
+  },
+  {
+    "id": "00050",
+    "category": "Natur",
+    "question": "Nenne einen Baum außer Eiche, Buche und Fichte.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00050.mp3"
+  },
+  {
+    "id": "00051",
+    "category": "Natur",
+    "question": "Nenne eine Blumenart außer Rose, Tulpe und Sonnenblume.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00051.mp3"
+  },
+  {
+    "id": "00052",
+    "category": "Geografie",
+    "question": "Nenne ein Land in Asien außer China, Japan, Indien und Russland.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00052.mp3"
+  },
+  {
+    "id": "00053",
+    "category": "Geografie",
+    "question": "Nenne einen See in Afrika außer dem Viktoriasee.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00053.mp3"
+  },
+  {
+    "id": "00054",
+    "category": "Geografie",
+    "question": "Nenne ein Land, das sowohl an den Atlantik als auch ans Mittelmeer grenzt.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00054.mp3"
+  },
+  {
+    "id": "00055",
+    "category": "Geografie",
+    "question": "Nenne eine Wüste außer der Sahara und der Gobi.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00055.mp3"
+  },
+  {
+    "id": "00056",
+    "category": "Geografie",
+    "question": "Nenne einen Ozean außer dem Atlantik und dem Pazifik.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00056.mp3"
+  },
+  {
+    "id": "00057",
+    "category": "Geografie",
+    "question": "Nenne eine Hauptstadt in Südamerika außer Brasília und Buenos Aires.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00057.mp3"
+  },
+  {
+    "id": "00058",
+    "category": "Geografie",
+    "question": "Nenne einen Fluss in Russland.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00058.mp3"
+  },
+  {
+    "id": "00059",
+    "category": "Geografie",
+    "question": "Nenne ein Land, das keinen Zugang zum Meer hat, außer der Schweiz und Österreich.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00059.mp3"
+  },
+  {
+    "id": "00060",
+    "category": "Geografie",
+    "question": "Nenne eine Insel im Pazifik außer Hawaii.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00060.mp3"
+  },
+  {
+    "id": "00061",
+    "category": "Geschichte",
+    "question": "Nenne einen US-Präsidenten aus dem 20. Jahrhundert außer John F. Kennedy und Franklin D. Roosevelt.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00061.mp3"
+  },
+  {
+    "id": "00062",
+    "category": "Geschichte",
+    "question": "Nenne eine antike Hochkultur außer den Ägyptern, Griechen und Römern.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00062.mp3"
+  },
+  {
+    "id": "00063",
+    "category": "Geschichte",
+    "question": "Nenne ein Land, das im Zweiten Weltkrieg neutral geblieben ist.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00063.mp3"
+  },
+  {
+    "id": "00064",
+    "category": "Geschichte",
+    "question": "Nenne eine französische Königin oder Herrscherin.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00064.mp3"
+  },
+  {
+    "id": "00065",
+    "category": "Geschichte",
+    "question": "Nenne einen deutschen Bundespräsidenten außer Theodor Heuss und Richard von Weizsäcker.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00065.mp3"
+  },
+  {
+    "id": "00066",
+    "category": "Geschichte",
+    "question": "Nenne ein Ereignis aus dem 19. Jahrhundert, das Europa politisch verändert hat.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00066.mp3"
+  },
+  {
+    "id": "00067",
+    "category": "Wissenschaft",
+    "question": "Nenne einen Nobelpreisträger für Physik außer Albert Einstein und Marie Curie.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00067.mp3"
+  },
+  {
+    "id": "00068",
+    "category": "Wissenschaft",
+    "question": "Nenne ein Organ im menschlichen Körper, das man nur einmal hat.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00068.mp3"
+  },
+  {
+    "id": "00069",
+    "category": "Wissenschaft",
+    "question": "Nenne einen Knochen im menschlichen Körper außer dem Femur und dem Schädel.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00069.mp3"
+  },
+  {
+    "id": "00070",
+    "category": "Wissenschaft",
+    "question": "Nenne ein Metall außer Gold, Silber und Eisen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00070.mp3"
+  },
+  {
+    "id": "00071",
+    "category": "Wissenschaft",
+    "question": "Nenne eine Einheit im internationalen Maßsystem außer Meter, Kilogramm und Sekunde.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00071.mp3"
+  },
+  {
+    "id": "00072",
+    "category": "Wissenschaft",
+    "question": "Nenne einen Wissenschaftszweig, der sich mit Lebewesen befasst, außer Biologie und Medizin.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00072.mp3"
+  },
+  {
+    "id": "00073",
+    "category": "Natur",
+    "question": "Nenne ein Tier, das als eines der giftigsten der Welt gilt, außer der Kobra.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00073.mp3"
+  },
+  {
+    "id": "00074",
+    "category": "Natur",
+    "question": "Nenne ein Insekt außer Biene, Ameise und Schmetterling.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00074.mp3"
+  },
+  {
+    "id": "00075",
+    "category": "Natur",
+    "question": "Nenne einen Fisch, der im Süßwasser lebt, außer dem Karpfen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00075.mp3"
+  },
+  {
+    "id": "00076",
+    "category": "Natur",
+    "question": "Nenne ein Tier, das einen Winterschlaf hält, außer dem Bären.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00076.mp3"
+  },
+  {
+    "id": "00077",
+    "category": "Natur",
+    "question": "Nenne eine Pflanze, die fleischfressend ist.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00077.mp3"
+  },
+  {
+    "id": "00078",
+    "category": "Sport",
+    "question": "Nenne einen deutschen Fußballverein außer Bayern München, Borussia Dortmund und Schalke 04.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00078.mp3"
+  },
+  {
+    "id": "00079",
+    "category": "Sport",
+    "question": "Nenne eine Kampfsportart außer Karate, Judo und Boxen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00079.mp3"
+  },
+  {
+    "id": "00080",
+    "category": "Sport",
+    "question": "Nenne einen Leichtathletik-Disziplin außer 100-Meter-Lauf, Marathon und Hochsprung.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00080.mp3"
+  },
+  {
+    "id": "00081",
+    "category": "Sport",
+    "question": "Nenne ein Land, das die Rugby-Weltmeisterschaft gewonnen hat.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00081.mp3"
+  },
+  {
+    "id": "00082",
+    "category": "Sport",
+    "question": "Nenne einen Basketballverein aus der NBA außer den Los Angeles Lakers und den Chicago Bulls.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00082.mp3"
+  },
+  {
+    "id": "00083",
+    "category": "Sport",
+    "question": "Nenne einen Wintersport außer Ski Alpin, Biathlon und Eishockey.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00083.mp3"
+  },
+  {
+    "id": "00084",
+    "category": "Kunst & Kultur",
+    "question": "Nenne einen Schriftsteller, der den Nobelpreis für Literatur gewonnen hat, außer Günter Grass.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00084.mp3"
+  },
+  {
+    "id": "00085",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein Werk von Beethoven außer der Neunten Sinfonie.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00085.mp3"
+  },
+  {
+    "id": "00086",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein Musikgenre außer Rock, Pop und Jazz.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00086.mp3"
+  },
+  {
+    "id": "00087",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein antikes Weltwunder außer den Pyramiden von Gizeh.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00087.mp3"
+  },
+  {
+    "id": "00088",
+    "category": "Kunst & Kultur",
+    "question": "Nenne einen James-Bond-Darsteller außer Sean Connery und Daniel Craig.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00088.mp3"
+  },
+  {
+    "id": "00089",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein berühmtes Gemälde außer der Mona Lisa und der Sixtinischen Kapelle.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00089.mp3"
+  },
+  {
+    "id": "00090",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein japanisches Gericht außer Sushi und Ramen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00090.mp3"
+  },
+  {
+    "id": "00091",
+    "category": "Essen & Trinken",
+    "question": "Nenne eine Obstsorte, die in den Tropen wächst, außer Banane und Mango.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00091.mp3"
+  },
+  {
+    "id": "00092",
+    "category": "Essen & Trinken",
+    "question": "Nenne eine Hülsenfrucht außer Bohnen und Linsen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00092.mp3"
+  },
+  {
+    "id": "00093",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein typisch deutsches Gericht außer Sauerkraut und Bratwurst.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00093.mp3"
+  },
+  {
+    "id": "00094",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein Getreide außer Weizen, Mais und Reis.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00094.mp3"
+  },
+  {
+    "id": "00095",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein Land, das für seinen Wein weltweit bekannt ist, außer Frankreich und Italien.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00095.mp3"
+  },
+  {
+    "id": "00096",
+    "category": "Geschichte",
+    "question": "Nenne ein Land, das früher Teil der Sowjetunion war.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00096.mp3"
+  },
+  {
+    "id": "00097",
+    "category": "Wissenschaft",
+    "question": "Nenne ein erneuerbares Energieerzeugungsverfahren außer Solar- und Windenergie.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00097.mp3"
+  },
+  {
+    "id": "00098",
+    "category": "Geografie",
+    "question": "Nenne einen aktiven Vulkan außer dem Vesuv und dem Ätna.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00098.mp3"
+  },
+  {
+    "id": "00099",
+    "category": "Natur",
+    "question": "Nenne ein Tier, das auf dem Boden keine eigene Körperwärme erzeugt, außer der Schlange.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00099.mp3"
+  },
+  {
+    "id": "00100",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein Werk von Shakespeare außer Hamlet und Romeo und Julia.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00100.mp3"
+  },
+  {
+    "id": "00101",
+    "category": "Sport",
+    "question": "Nenne eine Stadt, die die Olympischen Sommerspiele ausgetragen hat, außer London, Paris und Los Angeles.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00101.mp3"
+  },
+  {
+    "id": "00102",
+    "category": "Geografie",
+    "question": "Nenne einen See in Europa außer dem Bodensee und dem Genfer See.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00102.mp3"
+  },
+  {
+    "id": "00103",
+    "category": "Geografie",
+    "question": "Nenne ein Land in Osteuropa außer Polen, Tschechien und Ungarn.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00103.mp3"
+  },
+  {
+    "id": "00104",
+    "category": "Geografie",
+    "question": "Nenne eine Halbinsel in Europa außer der Iberischen Halbinsel und der Skandinavischen Halbinsel.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00104.mp3"
+  },
+  {
+    "id": "00105",
+    "category": "Geografie",
+    "question": "Nenne einen Fluss in Frankreich außer der Seine.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00105.mp3"
+  },
+  {
+    "id": "00106",
+    "category": "Geografie",
+    "question": "Nenne ein Land in der Karibik außer Kuba und Jamaika.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00106.mp3"
+  },
+  {
+    "id": "00107",
+    "category": "Geografie",
+    "question": "Nenne ein Gebirge in Europa außer den Alpen und den Pyrenäen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00107.mp3"
+  },
+  {
+    "id": "00108",
+    "category": "Geografie",
+    "question": "Nenne eine Hauptstadt in Afrika außer Kairo und Kapstadt.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00108.mp3"
+  },
+  {
+    "id": "00109",
+    "category": "Geografie",
+    "question": "Nenne ein Land in Südostasien außer Thailand und Vietnam.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00109.mp3"
+  },
+  {
+    "id": "00110",
+    "category": "Geografie",
+    "question": "Nenne ein Meer außer dem Mittelmeer, dem Roten Meer und dem Nordmeer.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00110.mp3"
+  },
+  {
+    "id": "00111",
+    "category": "Geografie",
+    "question": "Nenne einen Fluss in Nordamerika außer dem Mississippi.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00111.mp3"
+  },
+  {
+    "id": "00112",
+    "category": "Geschichte",
+    "question": "Nenne einen chinesischen Kaiser oder Dynastienamen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00112.mp3"
+  },
+  {
+    "id": "00113",
+    "category": "Geschichte",
+    "question": "Nenne eine Entdeckerin oder einen Entdecker aus dem Zeitalter der Entdeckungen außer Christoph Kolumbus.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00113.mp3"
+  },
+  {
+    "id": "00114",
+    "category": "Geschichte",
+    "question": "Nenne ein Land, das einmal eine britische Kolonie war, außer Indien und Australien.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00114.mp3"
+  },
+  {
+    "id": "00115",
+    "category": "Geschichte",
+    "question": "Nenne eine bedeutende Schlacht aus dem Mittelalter.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00115.mp3"
+  },
+  {
+    "id": "00116",
+    "category": "Geschichte",
+    "question": "Nenne einen Papst, der im 20. Jahrhundert amtierte.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00116.mp3"
+  },
+  {
+    "id": "00117",
+    "category": "Geschichte",
+    "question": "Nenne einen Herrscher des Osmanischen Reiches außer Suleiman dem Prächtigen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00117.mp3"
+  },
+  {
+    "id": "00118",
+    "category": "Geschichte",
+    "question": "Nenne eine bedeutende Erfindung aus dem 19. Jahrhundert außer der Dampfmaschine und dem Telefon.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00118.mp3"
+  },
+  {
+    "id": "00119",
+    "category": "Geschichte",
+    "question": "Nenne ein Land, das einmal eine Kolonie Frankreichs war, außer Algerien.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00119.mp3"
+  },
+  {
+    "id": "00120",
+    "category": "Wissenschaft",
+    "question": "Nenne ein Molekül, das im menschlichen Körper eine zentrale Rolle spielt, außer der DNA.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00120.mp3"
+  },
+  {
+    "id": "00121",
+    "category": "Wissenschaft",
+    "question": "Nenne ein Tier, das zur Klasse der Reptilien gehört, außer dem Krokodil und der Schildkröte.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00121.mp3"
+  },
+  {
+    "id": "00122",
+    "category": "Wissenschaft",
+    "question": "Nenne eine Theorie oder ein Gesetz aus der Physik außer der Relativitätstheorie.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00122.mp3"
+  },
+  {
+    "id": "00123",
+    "category": "Wissenschaft",
+    "question": "Nenne ein radioaktives Element außer Uran und Plutonium.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00123.mp3"
+  },
+  {
+    "id": "00124",
+    "category": "Wissenschaft",
+    "question": "Nenne einen Mond eines Planeten in unserem Sonnensystem außer dem Erdmond.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00124.mp3"
+  },
+  {
+    "id": "00125",
+    "category": "Wissenschaft",
+    "question": "Nenne eine Blutgruppe außer A und 0.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00125.mp3"
+  },
+  {
+    "id": "00126",
+    "category": "Wissenschaft",
+    "question": "Nenne eine Programmiersprache außer Python, Java und C++.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00126.mp3"
+  },
+  {
+    "id": "00127",
+    "category": "Natur",
+    "question": "Nenne ein Tier, das in der Arktis oder Antarktis lebt, außer dem Eisbären und dem Pinguin.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00127.mp3"
+  },
+  {
+    "id": "00128",
+    "category": "Natur",
+    "question": "Nenne ein Meerestier, das kein Fisch ist, außer dem Delfin und dem Tintenfisch.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00128.mp3"
+  },
+  {
+    "id": "00129",
+    "category": "Natur",
+    "question": "Nenne eine Tierart, die auf der Roten Liste als vom Aussterben bedroht gilt, außer dem Tiger.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00129.mp3"
+  },
+  {
+    "id": "00130",
+    "category": "Natur",
+    "question": "Nenne einen Pilz, der essbar ist, außer dem Champignon.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00130.mp3"
+  },
+  {
+    "id": "00131",
+    "category": "Natur",
+    "question": "Nenne ein Tier, das ausschließlich in Australien vorkommt, außer dem Känguru.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00131.mp3"
+  },
+  {
+    "id": "00132",
+    "category": "Natur",
+    "question": "Nenne ein Tier, das größer als ein Elefant werden kann.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00132.mp3"
+  },
+  {
+    "id": "00133",
+    "category": "Sport",
+    "question": "Nenne einen spanischen Fußballverein außer Real Madrid und FC Barcelona.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00133.mp3"
+  },
+  {
+    "id": "00134",
+    "category": "Sport",
+    "question": "Nenne einen Golfer, der das Masters in Augusta gewonnen hat, außer Tiger Woods.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00134.mp3"
+  },
+  {
+    "id": "00135",
+    "category": "Sport",
+    "question": "Nenne eine Schwimmdisziplin außer Freistil und Brust.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00135.mp3"
+  },
+  {
+    "id": "00136",
+    "category": "Sport",
+    "question": "Nenne einen italienischen Fußballverein außer Juventus Turin und AC Milan.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00136.mp3"
+  },
+  {
+    "id": "00137",
+    "category": "Sport",
+    "question": "Nenne eine Sportart, bei der Punkte durch Überqueren einer Linie erzielt werden, außer Fußball.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00137.mp3"
+  },
+  {
+    "id": "00138",
+    "category": "Sport",
+    "question": "Nenne ein Land, das bei den Sommerspielen besonders viele Goldmedaillen gewonnen hat, außer den USA.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00138.mp3"
+  },
+  {
+    "id": "00139",
+    "category": "Sport",
+    "question": "Nenne einen Boxweltmeister außer Muhammad Ali und Mike Tyson.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00139.mp3"
+  },
+  {
+    "id": "00140",
+    "category": "Kunst & Kultur",
+    "question": "Nenne eine Oper außer Carmen und der Zauberflöte.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00140.mp3"
+  },
+  {
+    "id": "00141",
+    "category": "Kunst & Kultur",
+    "question": "Nenne einen Architekturstil außer Barock und Gotik.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00141.mp3"
+  },
+  {
+    "id": "00142",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein berühmtes Museum außer dem Louvre und dem British Museum.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00142.mp3"
+  },
+  {
+    "id": "00143",
+    "category": "Kunst & Kultur",
+    "question": "Nenne einen Komponisten aus der Romantik außer Brahms und Schubert.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00143.mp3"
+  },
+  {
+    "id": "00144",
+    "category": "Kunst & Kultur",
+    "question": "Nenne ein Disney-Animationsfilm außer Der König der Löwen und Frozen.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00144.mp3"
+  },
+  {
+    "id": "00145",
+    "category": "Kunst & Kultur",
+    "question": "Nenne eine Skulptur oder Statue, die weltweit bekannt ist, außer dem David von Michelangelo.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00145.mp3"
+  },
+  {
+    "id": "00146",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein Gericht aus der spanischen Küche außer Paella.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00146.mp3"
+  },
+  {
+    "id": "00147",
+    "category": "Essen & Trinken",
+    "question": "Nenne ein Gemüse, das unter der Erde wächst, außer der Kartoffel und der Karotte.",
+    "image": "",
+    "lastplayed": "",
+    "audio": "question-00147.mp3"
+  }
 ]

@@ -1793,3 +1793,47 @@ SONG:  Enya – Orinoco Flow  (1988)
     Ergebnis:  FALSCH  ✗
     Timeline:  [1983, 1984, 2000, 2016]
 [2026-04-24T12:36:52Z] OK       id=00296 2010  Katy Perry – Teenage Dream
+
+============================================================
+[2026-04-24T12:37:24Z] RUNDE 12
+SONG:  Katy Perry – Teenage Dream  (2010)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1983 (slot 0)
+    Prüfung:   2010 < 1983 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1983, 1984, 2000, 2016]
+[2026-04-24T12:37:44Z] OK       id=00409 1993  Robin S. – Show Me Love
+
+============================================================
+[2026-04-24T12:38:16Z] RUNDE 13
+SONG:  Robin S. – Show Me Love  (1993)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1983 (slot 0)
+    Prüfung:   1993 < 1983 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1983, 1984, 2000, 2016]
+[2026-04-24T12:38:37Z] OK       id=00275 2005  Sean Paul – Temperature
+
+============================================================
+[2026-04-24T12:39:09Z] RUNDE 14
+SONG:  Sean Paul – Temperature  (2005)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1983 (slot 0)
+    Prüfung:   2005 < 1983 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1983, 1984, 2000, 2016]
+[2026-04-24T12:52:16Z] OK       id=00498 2019  Maroon 5 – Memories
+
+============================================================
+[2026-04-24T12:52:34Z] RUNDE 1
+SONG:  Maroon 5 – Memories  (2019)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1995 und 2011 (slot 1)
+    Prüfung:   1995 < 2019 < 2011 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1995, 2011]
+[2026-04-24T12:52:55Z] OK       id=00472 2012  Imagine Dragons – Radioactive
