@@ -86,6 +86,7 @@ function playSfxOnce(file) {
 function playQuestionAudio(url) {
   if (!url) return;
   try { questionAudio.pause(); questionAudio.currentTime = 0; } catch(_){}
+  questionAudio.volume = 1.0;
   questionAudio.src = url;
   questionAudio.load();
   questionAudio.play().catch(()=>{});
@@ -369,6 +370,17 @@ socket.on('unveil_correct', data => {
   }, { once: true });
   yearAnnounceAudio.play().catch(() => {});
   stopQuestionAudio();
+  questionAudio.volume = 0;
+  questionAudio.play().catch(() => {});
+  setTimeout(() => {
+    const t0 = performance.now();
+    const fade = () => {
+      const pct = Math.min(1, (performance.now() - t0) / 2000);
+      questionAudio.volume = pct * 0.2;
+      if (pct < 1) requestAnimationFrame(fade);
+    };
+    requestAnimationFrame(fade);
+  }, 2000);
 
   currentYellowYear   = data.correct_year;
   currentYellowTitle  = data.title || '';

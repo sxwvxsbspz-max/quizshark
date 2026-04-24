@@ -71,6 +71,7 @@ html, body {
 /* LEFT GROUP: wraps Timer-Panel + Timeline-Panel with small inner gap */
 .ps__leftGroup {
   flex: 1;
+  min-width: 0;
   display: flex;
   gap: 0.52vw;
   align-items: flex-start;
@@ -119,6 +120,7 @@ html, body {
 /* LEFT Panel */
 .ps__panel {
   flex: 1;
+  min-width: 0;
   height: 100%;
   border-radius: var(--tileRadius);
   background: var(--white20);
@@ -126,7 +128,7 @@ html, body {
   display: flex;
   align-items: stretch;
   justify-content: center;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .ps__panelInner {
@@ -139,6 +141,7 @@ html, body {
 
 /* RIGHT sidebar – 1:1 aus soundyear */
 .ps__sidebar {
+  flex: 0 0 43.27vw;
   width: 43.27vw;
   height: calc(100vh - 4.16vw);
   display: flex;
