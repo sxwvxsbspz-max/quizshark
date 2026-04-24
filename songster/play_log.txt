@@ -708,3 +708,135 @@ SONG:  Beastie Boys – Sabotage  (1994)
     Prüfung:   1994 < 1985 → ✗
     Ergebnis:  FALSCH  ✗
     Timeline:  [1985, 1993, 1995]
+[2026-04-24T07:24:08Z] OK       id=00478 2013  Beyoncé feat. Jay-Z – Drunk in Love
+
+============================================================
+[2026-04-24T07:24:41Z] RUNDE 3
+SONG:  Beyoncé feat. Jay-Z – Drunk in Love  (2013)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1993 und 1995 (slot 2)
+    Prüfung:   1993 < 2013 < 1995 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1985, 1993, 1995]
+[2026-04-24T07:24:52Z] OK       id=00183 1973  Dolly Parton – Jolene
+
+============================================================
+[2026-04-24T07:25:14Z] RUNDE 4
+SONG:  Dolly Parton – Jolene  (1973)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1985 (slot 0)
+    Prüfung:   1973 < 1985 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1985, 1993, 1995]
+[2026-04-24T07:25:26Z] OK       id=00510 2020  Harry Styles – Golden
+
+============================================================
+[2026-04-24T07:25:58Z] RUNDE 5
+SONG:  Harry Styles – Golden  (2020)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1973 (slot 0)
+    Prüfung:   2020 < 1973 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1973, 1985, 1993, 1995]
+[2026-04-24T07:26:10Z] OK       id=00127 2024  Sabrina Carpenter – Espresso
+
+============================================================
+[2026-04-24T07:26:43Z] RUNDE 6
+SONG:  Sabrina Carpenter – Espresso  (2024)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 1995 (slot 4)
+    Prüfung:   2024 > 1995 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1973, 1985, 1993, 1995]
+[2026-04-24T07:26:55Z] OK       id=00312 2015  Twenty One Pilots – Stressed Out
+
+============================================================
+[2026-04-24T07:27:28Z] RUNDE 7
+SONG:  Twenty One Pilots – Stressed Out  (2015)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1973 (slot 0)
+    Prüfung:   2015 < 1973 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1973, 1985, 1993, 1995, 2024]
+[2026-04-24T07:27:39Z] OK       id=00236 1992  Snow – Informer
+
+============================================================
+[2026-04-24T07:28:12Z] RUNDE 8
+SONG:  Snow – Informer  (1992)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1973 (slot 0)
+    Prüfung:   1992 < 1973 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1973, 1985, 1993, 1995, 2024]
+[2026-04-24T07:28:24Z] OK       id=00486 2016  Desiigner – Panda
+
+============================================================
+[2026-04-24T07:28:39Z] RUNDE 9
+SONG:  Desiigner – Panda  (2016)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1973 (slot 0)
+    Prüfung:   2016 < 1973 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1973, 1985, 1993, 1995, 2024]
+[2026-04-24T07:28:51Z] OK       id=00467 2010  Bruno Mars – Just the Way You Are
+
+============================================================
+[2026-04-24T07:29:23Z] RUNDE 10
+SONG:  Bruno Mars – Just the Way You Are  (2010)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1995 und 2024 (slot 4)
+    Prüfung:   1995 < 2010 < 2024 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1973, 1985, 1993, 1995, 2024]
+[2026-04-24T07:29:35Z] OK       id=00207 1984  Don Henley – The Boys of Summer
+
+============================================================
+[2026-04-24T07:30:08Z] RUNDE 11
+SONG:  Don Henley – The Boys of Summer  (1984)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1993 und 1995 (slot 3)
+    Prüfung:   1993 < 1984 < 1995 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1973, 1985, 1993, 1995, 2010, 2024]
+[2026-04-24T07:30:19Z] OK       id=00289 2008  Rihanna – Disturbia
+
+============================================================
+[2026-04-24T07:30:52Z] RUNDE 12
+SONG:  Rihanna – Disturbia  (2008)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1973 (slot 0)
+    Prüfung:   2008 < 1973 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1973, 1985, 1993, 1995, 2010, 2024]
+[2026-04-24T07:31:04Z] OK       id=00216 1987  U2 – I Still Haven't Found What I'm Looking For
+
+============================================================
+[2026-04-24T07:31:14Z] RUNDE 13
+SONG:  U2 – I Still Haven't Found What I'm Looking For  (1987)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2010 und 2024 (slot 5)
+    Prüfung:   2010 < 1987 < 2024 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1973, 1985, 1993, 1995, 2010, 2024]
+[2026-04-24T07:31:26Z] OK       id=00340 2023  Teddy Swims – Lose Control
+
+============================================================
+[2026-04-24T07:31:58Z] RUNDE 14
+SONG:  Teddy Swims – Lose Control  (2023)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1973 (slot 0)
+    Prüfung:   2023 < 1973 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1973, 1985, 1993, 1995, 2010, 2024]

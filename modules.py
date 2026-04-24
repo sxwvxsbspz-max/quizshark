@@ -23,7 +23,7 @@ def get_phase_sequence():
         #   "leaderboard",
 
         #"soundyear",
-        "songster",
+        #"songster",
         #"imagequiz",
         #"soundmemory",      
          #  "leaderboard",
@@ -32,7 +32,7 @@ def get_phase_sequence():
         #"haveiever",
         #"oddoneout",
         #"wellguessed",
-        #"doyouknow",
+        "doyouknow",
         #"yourcategory",
         #"vollereinsatz",
         #   "leaderboard",
