@@ -9,8 +9,8 @@ from engine.audio.resolve_audio import resolve_audio_ref
 
 # ---------- Konfiguration ----------
 POINTS_CORRECT       = 50
-MAX_ROUNDS           = 15
-MAX_CORRECT_WINS     = 10   # Spiel endet sobald ein Spieler so viele richtige hat
+MAX_ROUNDS           = 14
+MAX_CORRECT_WINS     = 9    # Spiel endet sobald ein Spieler so viele richtige hat
 ANCHOR_YEAR_MARGIN   = 10   # Ausgangsjahr: frühestens ältester+10, spätestens neuester-10
 
 TIMING_INTRO         = 3.0   # show_question → open_answers
@@ -110,7 +110,8 @@ class SongsterQuestionSource:
             return (1970, 2020)
         return (min(years), max(years))
 
-    def next_question(self, played_years: set, anchor_year: int):
+    def next_question(self, played_years: set, anchor_years):
+        anchor_years = {anchor_years} if isinstance(anchor_years, int) else set(anchor_years)
         questions = load_json_questions(self.questions_path)
         if not questions:
             return None
@@ -119,7 +120,7 @@ class SongsterQuestionSource:
             q for q in questions
             if q.get("year") and
                _safe_int(q["year"]) not in played_years and
-               _safe_int(q["year"]) != anchor_year
+               _safe_int(q["year"]) not in anchor_years
         ]
         if not eligible:
             return None
@@ -216,6 +217,7 @@ class SongsterLogic:
         self.state             = "idle"           # idle → video → question_intro → answers_open → ...
         self.current_round     = 0
         self.anchor_year       = None
+        self.anchor_years      = set()
         self.played_years      = set()
         self.tv_timeline       = []               # [{year, is_anchor, title, artist}], sortiert
         self.player_timelines  = {}               # player_id → [{...}], sortiert
@@ -240,11 +242,21 @@ class SongsterLogic:
         hi = max_y - ANCHOR_YEAR_MARGIN
         if lo >= hi:
             lo, hi = min_y, max_y
-        self.anchor_year = random.randint(lo, hi)
-        anchor_tile = {"year": self.anchor_year, "is_anchor": True, "title": None, "artist": None}
-        self.tv_timeline = [anchor_tile]
+        y1 = random.randint(lo, hi)
+        y2 = y1
+        for _ in range(30):
+            y2 = random.randint(lo, hi)
+            if y2 != y1:
+                break
+        self.anchor_year  = min(y1, y2)
+        self.anchor_years = {y1, y2}
+        anchor_tiles = [
+            {"year": y1, "is_anchor": True, "title": None, "artist": None},
+            {"year": y2, "is_anchor": True, "title": None, "artist": None},
+        ]
+        self.tv_timeline = _sort_timeline(anchor_tiles)
         for pid in self.player_timelines:
-            self.player_timelines[pid] = [dict(anchor_tile)]
+            self.player_timelines[pid] = _sort_timeline([dict(t) for t in anchor_tiles])
 
     # ------------------------------------------------------------------
     # Timer helpers
@@ -333,7 +345,7 @@ class SongsterLogic:
         self._emit_all("play_round_video", {"round": self.current_round})
 
     def _show_question(self):
-        q = self.source.next_question(self.played_years, self.anchor_year)
+        q = self.source.next_question(self.played_years, self.anchor_years)
         if q is None:
             self._finish_game()
             return
@@ -519,7 +531,7 @@ class SongsterLogic:
         return {
             "round":             self.current_round,
             "audio":             self.current_q["audio"] if self.current_q else None,
-            "anchor_year":       self.anchor_year,
+            "anchor_year":       sorted(self.anchor_years),
             "tv_timeline":       self.tv_timeline,
             "player_timelines":  self.player_timelines,
             "players_ranked":    self._players_ranked(),

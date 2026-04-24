@@ -654,3 +654,57 @@ SONG:  Montell Jordan – This Is How We Do It  (1995)
     Ergebnis:  FALSCH  ✗
     Timeline:  [1988, 2002, 2005, 2007]
 [2026-04-24T07:19:42Z] OK       id=00079 1972  Stevie Wonder – Superstition
+
+============================================================
+[2026-04-24T07:20:15Z] RUNDE 6
+SONG:  Stevie Wonder – Superstition  (1972)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1972 < 1988 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 2002, 2005, 2007]
+[2026-04-24T07:20:26Z] OK       id=00504 2022  Noah Kahan – Stick Season
+
+============================================================
+[2026-04-24T07:20:59Z] RUNDE 7
+SONG:  Noah Kahan – Stick Season  (2022)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1972 (slot 0)
+    Prüfung:   2022 < 1972 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1972, 1988, 2002, 2005, 2007]
+[2026-04-24T07:21:11Z] OK       id=00515 2023  Dua Lipa – Houdini
+
+============================================================
+[2026-04-24T07:21:43Z] RUNDE 8
+SONG:  Dua Lipa – Houdini  (2023)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1972 (slot 0)
+    Prüfung:   2023 < 1972 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1972, 1988, 2002, 2005, 2007]
+[2026-04-24T07:23:11Z] OK       id=00238 1993  4 Non Blondes – What's Up?
+
+============================================================
+[2026-04-24T07:23:31Z] RUNDE 1
+SONG:  4 Non Blondes – What's Up?  (1993)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1985 und 1995 (slot 1)
+    Prüfung:   1985 < 1993 < 1995 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1985, 1995]
+[2026-04-24T07:23:42Z] OK       id=00243 1994  Beastie Boys – Sabotage
+
+============================================================
+[2026-04-24T07:23:56Z] RUNDE 2
+SONG:  Beastie Boys – Sabotage  (1994)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1985 (slot 0)
+    Prüfung:   1994 < 1985 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1985, 1993, 1995]
