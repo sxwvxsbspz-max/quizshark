@@ -229,6 +229,10 @@ class SongsterLogic:
         self._last_results     = {}               # player_id → {correct, slot_index}
         self._timers           = []
 
+        # Sofortpause
+        self._sofortpause_requested: bool = False
+        self._pause_resume_target: str = None
+
         for pid in self.players:
             self.player_timelines[pid] = []
 
@@ -280,6 +284,41 @@ class SongsterLogic:
         self._timers.clear()
 
     # ------------------------------------------------------------------
+    # Sofortpause helpers
+    # ------------------------------------------------------------------
+
+    def _emit_show_pause(self, to=None):
+        payload = {"mode": "sofortpause"}
+        if to:
+            self.socketio.emit("show_pause", payload, to=to)
+            return
+        self.socketio.emit("show_pause", payload, room="tv_room")
+        self.socketio.emit("show_pause", payload, room="controller_room")
+
+    def _emit_hide_pause(self, to=None):
+        if to:
+            self.socketio.emit("hide_pause", {}, to=to)
+            return
+        self.socketio.emit("hide_pause", {}, room="tv_room")
+        self.socketio.emit("hide_pause", {}, room="controller_room")
+
+    def _enter_pause(self, resume_target):
+        self._cancel_timers()
+        self._sofortpause_requested = False
+        self._pause_resume_target = resume_target
+        self.state = "pause"
+        self._emit_show_pause()
+
+    def _resume_from_pause(self):
+        self._emit_hide_pause()
+        target = self._pause_resume_target
+        self._pause_resume_target = None
+        if target == "SHOW_QUESTION":
+            self._show_question()
+        else:
+            self._start_round()
+
+    # ------------------------------------------------------------------
     # Emit helpers
     # ------------------------------------------------------------------
 
@@ -295,6 +334,9 @@ class SongsterLogic:
     # ------------------------------------------------------------------
 
     def sync_controller_state(self, sid):
+        if self.state == "pause":
+            self._emit_show_pause(to=sid)
+            return
         if self.state in ("question_intro", "answers_open", "revealing", "resolution", "scoring"):
             if self.current_q:
                 self.socketio.emit("show_question", self._question_payload(), to=sid)
@@ -304,13 +346,31 @@ class SongsterLogic:
             self.socketio.emit("close_answers", {}, to=sid)
 
     def handle_event(self, player_id, action, payload):
+        if action == "request_pause":
+            self._sofortpause_requested = True
+            if self.state == "idle":
+                self._enter_pause(resume_target="START_ROUND")
+            elif self.state == "video":
+                self._enter_pause(resume_target="SHOW_QUESTION")
+            return
+
+        if action == "resume_pause":
+            if self.state == "pause":
+                self._resume_from_pause()
+            return
+
         if action == "video_finished":
             if self.state == "idle":
-                # Intro-Video abgespielt → erste Runde
+                if self._sofortpause_requested:
+                    self._enter_pause(resume_target="START_ROUND")
+                    return
                 self._start_round()
             elif self.state == "video":
-                # Runden-Video abgespielt → Frage anzeigen
+                if self._sofortpause_requested:
+                    self._enter_pause(resume_target="SHOW_QUESTION")
+                    return
                 self._show_question()
+            return
 
         elif action == "year_audio_ended" and self.state == "revealing":
             self._cancel_timers()
@@ -330,6 +390,10 @@ class SongsterLogic:
     # ------------------------------------------------------------------
 
     def _start_round(self):
+        if self._sofortpause_requested:
+            self._enter_pause(resume_target="START_ROUND")
+            return
+
         if self.current_round >= MAX_ROUNDS:
             self._finish_game()
             return

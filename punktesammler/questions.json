@@ -1,229 +1,5 @@
 [
     {
-        "id": "00265",
-        "category": "Literatur",
-        "question": "In welcher Sprache wurde das Tagebuch der Anne Frank ursprünglich verfasst?",
-        "correct": "Niederländisch",
-        "wrong": [
-            "Deutsch",
-            "Englisch",
-            "Jiddisch"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T05:24:13Z",
-        "audio": "00265.mp3"
-    },
-    {
-        "id": "00305",
-        "category": "Wissenschaft",
-        "question": "An welchem Ort befindet sich das tiefste von Menschen gegrabene Loch der Welt?",
-        "correct": "Kola-Halbinsel",
-        "wrong": [
-            "Marianengraben",
-            "Nevada-Testgelände",
-            "Witwatersrand-Goldmine"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T05:41:23Z",
-        "audio": "00305.mp3"
-    },
-    {
-        "id": "00308",
-        "category": "Geschichte",
-        "question": "Welche Stadt war Sitz des Völkerbundes?",
-        "correct": "Genf",
-        "wrong": [
-            "Den Haag",
-            "Paris",
-            "Brüssel"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T06:38:27Z",
-        "audio": "00308.mp3"
-    },
-    {
-        "id": "00317",
-        "category": "Geschichte",
-        "question": "Wer war der erste römische Kaiser?",
-        "correct": "Augustus",
-        "wrong": [
-            "Cäsar",
-            "Tiberius",
-            "Nero"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T06:37:51Z",
-        "audio": "00317.mp3"
-    },
-    {
-        "id": "00318",
-        "category": "Literatur",
-        "question": "Welcher Dichter schrieb die 'Ode an die Freude'?",
-        "correct": "Friedrich Schiller",
-        "wrong": [
-            "Johann Wolfgang von Goethe",
-            "Friedrich Hölderlin",
-            "Rainer Maria Rilke"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T05:47:27Z",
-        "audio": "00318.mp3"
-    },
-    {
-        "id": "00329",
-        "category": "Natur",
-        "question": "Welches Tier verbringt fast sein ganzes Leben kopfüber an Bäumen hängend?",
-        "correct": "Faultier",
-        "wrong": [
-            "Koala",
-            "Gibbon",
-            "Baumkänguru"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00329.mp3"
-    },
-    {
-        "id": "00331",
-        "category": "Film & Fernsehen",
-        "question": "Wie heißt der Butler der Familie Wayne in Batman?",
-        "correct": "Alfred Pennyworth",
-        "wrong": [
-            "Jarvis",
-            "Geoffrey",
-            "Hudson"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T05:33:15Z",
-        "audio": "00331.mp3"
-    },
-    {
-        "id": "00335",
-        "category": "Essen & Trinken",
-        "question": "Wie nennt man das Vorbereiten der Zutaten in der Profiküche vor dem Kochen?",
-        "correct": "Mise en Place",
-        "wrong": [
-            "Hors-d'œuvre",
-            "Plat du Jour",
-            "À la Carte"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T07:03:08Z",
-        "audio": "00335.mp3"
-    },
-    {
-        "id": "00337",
-        "category": "Reisen & Tourismus",
-        "question": "Welches Gebirge trennt Europa und Asien und ist ein Ziel für Abenteuerreisen?",
-        "correct": "Ural",
-        "wrong": [
-            "Alpen",
-            "Anden",
-            "Himalaya"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T05:46:58Z",
-        "audio": "00337.mp3"
-    },
-    {
-        "id": "00341",
-        "category": "Geschichte",
-        "question": "Welche Stadt war Hauptstadt des Byzantinischen Reiches?",
-        "correct": "Konstantinopel",
-        "wrong": [
-            "Nikääa",
-            "Antiochia",
-            "Alexandria"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-08T19:34:41Z",
-        "audio": "00341.mp3"
-    },
-    {
-        "id": "00343",
-        "category": "Essen & Trinken",
-        "question": "Welches Gemüse ist die Hauptzutat für den 'Waldorf-Salat'?",
-        "correct": "Sellerie",
-        "wrong": [
-            "Fenchel",
-            "Rote Bete",
-            "Weißkohl"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T06:26:40Z",
-        "audio": "00343.mp3"
-    },
-    {
-        "id": "00344",
-        "category": "Geschichte",
-        "question": "In welchem Jahr begann die Französische Revolution?",
-        "correct": "1789",
-        "wrong": [
-            "1776",
-            "1804",
-            "1815"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T07:07:10Z",
-        "audio": "00344.mp3"
-    },
-    {
-        "id": "00347",
-        "category": "Geschichte",
-        "question": "Wer verfasste die amerikanische Unabhängigkeitserklärung von 1776?",
-        "correct": "Thomas Jefferson",
-        "wrong": [
-            "Benjamin Franklin",
-            "Abraham Lincoln",
-            "George Washington"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-23T07:02:31Z",
-        "audio": "00347.mp3"
-    },
-    {
-        "id": "00348",
-        "category": "Geografie",
-        "question": "Wie heißt die höchste Erhebung Australiens?",
-        "correct": "Mount Kosciuszko",
-        "wrong": [
-            "Uluru",
-            "Mount Cook",
-            "Mount Everest"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00348.mp3"
-    },
-    {
-        "id": "00349",
-        "category": "Technik & Digitales",
-        "question": "Wie nennt man bösartige Software, die Daten verschlüsselt und Lösegeld fordert?",
-        "correct": "Ransomware",
-        "wrong": [
-            "Adware",
-            "Spyware",
-            "Bloatware"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00349.mp3"
-    },
-    {
-        "id": "00350",
-        "category": "Film & Fernsehen",
-        "question": "Wer ist der Schöpfer der 'Star Wars'-Saga?",
-        "correct": "George Lucas",
-        "wrong": [
-            "Steven Spielberg",
-            "James Cameron",
-            "Ridley Scott"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00350.mp3"
-    },
-    {
         "id": "00351",
         "category": "Wissenschaft",
         "question": "Was ist laut Definition kein Oxid?",
@@ -252,76 +28,6 @@
         "audio": "00353.mp3"
     },
     {
-        "id": "00356",
-        "category": "Geschichte",
-        "question": "Welche Stadt war Hauptstadt der DDR?",
-        "correct": "Ost-Berlin",
-        "wrong": [
-            "Leipzig",
-            "Dresden",
-            "Potsdam"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00356.mp3"
-    },
-    {
-        "id": "00357",
-        "category": "Geografie",
-        "question": "Welche Stadt liegt am längsten Fluss Südamerikas?",
-        "correct": "Manaus",
-        "wrong": [
-            "Lima",
-            "Bogotá",
-            "Caracas"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00357.mp3"
-    },
-    {
-        "id": "00359",
-        "category": "Logik & Rätsel",
-        "question": "Einige Monate haben 31 Tage, einige haben 30. Wie viele haben 28 Tage?",
-        "correct": "12",
-        "wrong": [
-            "Nur einer",
-            "Keiner",
-            "6"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00359.mp3"
-    },
-    {
-        "id": "00360",
-        "category": "Religion & Mythologie",
-        "question": "Wie heißt das wichtigste hinduistische Fest, das als 'Lichterfest' bekannt ist?",
-        "correct": "Diwali",
-        "wrong": [
-            "Holi",
-            "Kumbh Mela",
-            "Navratri"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00360.mp3"
-    },
-    {
-        "id": "00361",
-        "category": "Der Mensch",
-        "question": "Welcher Teil des Auges ist für die Farbwahrnehmung zuständig?",
-        "correct": "Zapfen",
-        "wrong": [
-            "Stäbchen",
-            "Hornhaut",
-            "Linse"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00361.mp3"
-    },
-    {
         "id": "00362",
         "category": "Geografie",
         "question": "Welche Hauptstadt liegt am nächsten zum Nordpol?",
@@ -334,34 +40,6 @@
         "image": "",
         "lastplayed": "",
         "audio": "00362.mp3"
-    },
-    {
-        "id": "00363",
-        "category": "Tiere",
-        "question": "Welche Schlange ist die längste Giftschlange der Welt?",
-        "correct": "Königskobra",
-        "wrong": [
-            "Schwarze Mamba",
-            "Netzpython",
-            "Diamant-Klapperschlange"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00363.mp3"
-    },
-    {
-        "id": "00365",
-        "category": "Natur",
-        "question": "Was ist der häufigste Bestandteil der Erdkruste?",
-        "correct": "Sauerstoff",
-        "wrong": [
-            "Silizium",
-            "Aluminium",
-            "Eisen"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00365.mp3"
     },
     {
         "id": "00367",
@@ -378,34 +56,6 @@
         "audio": "00367.mp3"
     },
     {
-        "id": "00368",
-        "category": "Lifestyle, Mode & Design",
-        "question": "Welches Kleidungsstück trug Audrey Hepburn ikonisch in 'Frühstück bei Tiffany'?",
-        "correct": "Das Kleine Schwarze",
-        "wrong": [
-            "Einen gelben Regenmantel",
-            "Einen Hosenanzug",
-            "Ein Hochzeitskleid"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00368.mp3"
-    },
-    {
-        "id": "00369",
-        "category": "Natur",
-        "question": "Welches Tier kann seine Farbe zur Tarnung blitzschnell ändern?",
-        "correct": "Tintenfisch",
-        "wrong": [
-            "Leopard",
-            "Papagei",
-            "Laubfrosch"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00369.mp3"
-    },
-    {
         "id": "00370",
         "category": "Wirtschaft & Marken",
         "question": "Welcher Konzern kaufte 2006 die Video-Plattform YouTube?",
@@ -418,34 +68,6 @@
         "image": "",
         "lastplayed": "",
         "audio": "00370.mp3"
-    },
-    {
-        "id": "00372",
-        "category": "Natur",
-        "question": "Welche Baumart bildet die größten Früchte der Welt?",
-        "correct": "Seychellenpalme",
-        "wrong": [
-            "Brotfruchtbaum",
-            "Kokospalme",
-            "Jackfruchtbaum"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00372.mp3"
-    },
-    {
-        "id": "00374",
-        "category": "Geschichte",
-        "question": "Welcher Vertrag beendete offiziell den Ersten Weltkrieg?",
-        "correct": "Versailler Vertrag",
-        "wrong": [
-            "Potsdamer Abkommen",
-            "Vertrag von Maastricht",
-            "Pariser Verträge"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00374.mp3"
     },
     {
         "id": "00376",
@@ -462,34 +84,6 @@
         "audio": "00376.mp3"
     },
     {
-        "id": "00377",
-        "category": "Tiere",
-        "question": "Welcher Meeressäuger ist für seinen langen, stoßzahnähnlichen Eckzahn bekannt?",
-        "correct": "Narwal",
-        "wrong": [
-            "Beluga",
-            "Walross",
-            "Manati"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00377.mp3"
-    },
-    {
-        "id": "00378",
-        "category": "Wissenschaft",
-        "question": "Welche Einheit misst Druck im SI-System?",
-        "correct": "Pascal",
-        "wrong": [
-            "Bar",
-            "Torr",
-            "Atmosphären"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00378.mp3"
-    },
-    {
         "id": "00379",
         "category": "Literatur",
         "question": "Welches Instrument spielt Sherlock Holmes in den Romanen von Arthur Conan Doyle?",
@@ -502,62 +96,6 @@
         "image": "",
         "lastplayed": "",
         "audio": "00379.mp3"
-    },
-    {
-        "id": "00380",
-        "category": "Geografie",
-        "question": "Welcher Ozean ist der kleinste der Erde?",
-        "correct": "Arktischer Ozean",
-        "wrong": [
-            "Indischer Ozean",
-            "Atlantischer Ozean",
-            "Antarktischer Ozean"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00380.mp3"
-    },
-    {
-        "id": "00382",
-        "category": "Sport",
-        "question": "In welcher Sportart wird um den „Ryder Cup“ gekämpft?",
-        "correct": "Golf",
-        "wrong": [
-            "Tennis",
-            "Segeln",
-            "Polo"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00382.mp3"
-    },
-    {
-        "id": "00383",
-        "category": "Technik & Digitales",
-        "question": "Wie heißt der Erfinder des World Wide Web?",
-        "correct": "Tim Berners-Lee",
-        "wrong": [
-            "Bill Gates",
-            "Vint Cerf",
-            "Linus Torvalds"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00383.mp3"
-    },
-    {
-        "id": "00384",
-        "category": "Promis & Boulevard",
-        "question": "Welche Schauspielerin gewann 2024 einen Oscar für ihre Hauptrolle in 'Poor Things'?",
-        "correct": "Emma Stone",
-        "wrong": [
-            "Lily Gladstone",
-            "Margot Robbie",
-            "Jennifer Lawrence"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00384.mp3"
     },
     {
         "id": "00385",
@@ -574,20 +112,6 @@
         "audio": "00385.mp3"
     },
     {
-        "id": "00386",
-        "category": "Wissenschaft",
-        "question": "Welche Einheit misst elektrische Kapazität?",
-        "correct": "Farad",
-        "wrong": [
-            "Ohm",
-            "Volt",
-            "Henry"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00386.mp3"
-    },
-    {
         "id": "00387",
         "category": "Film & Fernsehen",
         "question": "Welcher Regisseur drehte „Pulp Fiction“ und „Kill Bill“?",
@@ -600,34 +124,6 @@
         "image": "",
         "lastplayed": "",
         "audio": "00387.mp3"
-    },
-    {
-        "id": "00388",
-        "category": "Essen & Trinken",
-        "question": "Welches Land ist berühmt für 'Kimchi'?",
-        "correct": "Südkorea",
-        "wrong": [
-            "Japan",
-            "Thailand",
-            "Vietnam"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00388.mp3"
-    },
-    {
-        "id": "00390",
-        "category": "Literatur",
-        "question": "Welcher Roman von Ken Follett handelt vom Bau einer Kathedrale im Mittelalter?",
-        "correct": "Die Säulen der Erde",
-        "wrong": [
-            "Das Fundament der Ewigkeit",
-            "Eisfieber",
-            "Die Nadel"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00390.mp3"
     },
     {
         "id": "00391",
@@ -656,34 +152,6 @@
         "image": "",
         "lastplayed": "",
         "audio": "00392.mp3"
-    },
-    {
-        "id": "00393",
-        "category": "Tiere",
-        "question": "Welche Haiart gilt als die größte der Welt?",
-        "correct": "Walhai",
-        "wrong": [
-            "Weißer Hai",
-            "Hammerhai",
-            "Tigerhai"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00393.mp3"
-    },
-    {
-        "id": "00394",
-        "category": "Wissenschaft",
-        "question": "Welches Element ist ein Alkalimetall?",
-        "correct": "Natrium",
-        "wrong": [
-            "Magnesium",
-            "Aluminium",
-            "Silizium"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "00394.mp3"
     },
     {
         "id": "00395",
@@ -780,7 +248,7 @@
             "IBM PC"
         ],
         "image": "",
-        "lastplayed": "",
+        "lastplayed": "2026-04-24T21:12:08Z",
         "audio": "00404.mp3"
     },
     {
@@ -14614,5 +14082,537 @@
         "image": "",
         "lastplayed": "2026-04-08T19:34:17Z",
         "audio": "00355.mp3"
+    },
+    {
+        "id": "00341",
+        "category": "Geschichte",
+        "question": "Welche Stadt war Hauptstadt des Byzantinischen Reiches?",
+        "correct": "Konstantinopel",
+        "wrong": [
+            "Nikääa",
+            "Antiochia",
+            "Alexandria"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-08T19:34:41Z",
+        "audio": "00341.mp3"
+    },
+    {
+        "id": "00265",
+        "category": "Literatur",
+        "question": "In welcher Sprache wurde das Tagebuch der Anne Frank ursprünglich verfasst?",
+        "correct": "Niederländisch",
+        "wrong": [
+            "Deutsch",
+            "Englisch",
+            "Jiddisch"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T05:24:13Z",
+        "audio": "00265.mp3"
+    },
+    {
+        "id": "00331",
+        "category": "Film & Fernsehen",
+        "question": "Wie heißt der Butler der Familie Wayne in Batman?",
+        "correct": "Alfred Pennyworth",
+        "wrong": [
+            "Jarvis",
+            "Geoffrey",
+            "Hudson"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T05:33:15Z",
+        "audio": "00331.mp3"
+    },
+    {
+        "id": "00305",
+        "category": "Wissenschaft",
+        "question": "An welchem Ort befindet sich das tiefste von Menschen gegrabene Loch der Welt?",
+        "correct": "Kola-Halbinsel",
+        "wrong": [
+            "Marianengraben",
+            "Nevada-Testgelände",
+            "Witwatersrand-Goldmine"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T05:41:23Z",
+        "audio": "00305.mp3"
+    },
+    {
+        "id": "00337",
+        "category": "Reisen & Tourismus",
+        "question": "Welches Gebirge trennt Europa und Asien und ist ein Ziel für Abenteuerreisen?",
+        "correct": "Ural",
+        "wrong": [
+            "Alpen",
+            "Anden",
+            "Himalaya"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T05:46:58Z",
+        "audio": "00337.mp3"
+    },
+    {
+        "id": "00318",
+        "category": "Literatur",
+        "question": "Welcher Dichter schrieb die 'Ode an die Freude'?",
+        "correct": "Friedrich Schiller",
+        "wrong": [
+            "Johann Wolfgang von Goethe",
+            "Friedrich Hölderlin",
+            "Rainer Maria Rilke"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T05:47:27Z",
+        "audio": "00318.mp3"
+    },
+    {
+        "id": "00343",
+        "category": "Essen & Trinken",
+        "question": "Welches Gemüse ist die Hauptzutat für den 'Waldorf-Salat'?",
+        "correct": "Sellerie",
+        "wrong": [
+            "Fenchel",
+            "Rote Bete",
+            "Weißkohl"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T06:26:40Z",
+        "audio": "00343.mp3"
+    },
+    {
+        "id": "00317",
+        "category": "Geschichte",
+        "question": "Wer war der erste römische Kaiser?",
+        "correct": "Augustus",
+        "wrong": [
+            "Cäsar",
+            "Tiberius",
+            "Nero"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T06:37:51Z",
+        "audio": "00317.mp3"
+    },
+    {
+        "id": "00308",
+        "category": "Geschichte",
+        "question": "Welche Stadt war Sitz des Völkerbundes?",
+        "correct": "Genf",
+        "wrong": [
+            "Den Haag",
+            "Paris",
+            "Brüssel"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T06:38:27Z",
+        "audio": "00308.mp3"
+    },
+    {
+        "id": "00347",
+        "category": "Geschichte",
+        "question": "Wer verfasste die amerikanische Unabhängigkeitserklärung von 1776?",
+        "correct": "Thomas Jefferson",
+        "wrong": [
+            "Benjamin Franklin",
+            "Abraham Lincoln",
+            "George Washington"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T07:02:31Z",
+        "audio": "00347.mp3"
+    },
+    {
+        "id": "00335",
+        "category": "Essen & Trinken",
+        "question": "Wie nennt man das Vorbereiten der Zutaten in der Profiküche vor dem Kochen?",
+        "correct": "Mise en Place",
+        "wrong": [
+            "Hors-d'œuvre",
+            "Plat du Jour",
+            "À la Carte"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T07:03:08Z",
+        "audio": "00335.mp3"
+    },
+    {
+        "id": "00344",
+        "category": "Geschichte",
+        "question": "In welchem Jahr begann die Französische Revolution?",
+        "correct": "1789",
+        "wrong": [
+            "1776",
+            "1804",
+            "1815"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-23T07:07:10Z",
+        "audio": "00344.mp3"
+    },
+    {
+        "id": "00369",
+        "category": "Natur",
+        "question": "Welches Tier kann seine Farbe zur Tarnung blitzschnell ändern?",
+        "correct": "Tintenfisch",
+        "wrong": [
+            "Leopard",
+            "Papagei",
+            "Laubfrosch"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:49:50Z",
+        "audio": "00369.mp3"
+    },
+    {
+        "id": "00329",
+        "category": "Natur",
+        "question": "Welches Tier verbringt fast sein ganzes Leben kopfüber an Bäumen hängend?",
+        "correct": "Faultier",
+        "wrong": [
+            "Koala",
+            "Gibbon",
+            "Baumkänguru"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:50:18Z",
+        "audio": "00329.mp3"
+    },
+    {
+        "id": "00374",
+        "category": "Geschichte",
+        "question": "Welcher Vertrag beendete offiziell den Ersten Weltkrieg?",
+        "correct": "Versailler Vertrag",
+        "wrong": [
+            "Potsdamer Abkommen",
+            "Vertrag von Maastricht",
+            "Pariser Verträge"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:50:41Z",
+        "audio": "00374.mp3"
+    },
+    {
+        "id": "00357",
+        "category": "Geografie",
+        "question": "Welche Stadt liegt am längsten Fluss Südamerikas?",
+        "correct": "Manaus",
+        "wrong": [
+            "Lima",
+            "Bogotá",
+            "Caracas"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:51:07Z",
+        "audio": "00357.mp3"
+    },
+    {
+        "id": "00372",
+        "category": "Natur",
+        "question": "Welche Baumart bildet die größten Früchte der Welt?",
+        "correct": "Seychellenpalme",
+        "wrong": [
+            "Brotfruchtbaum",
+            "Kokospalme",
+            "Jackfruchtbaum"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:51:32Z",
+        "audio": "00372.mp3"
+    },
+    {
+        "id": "00368",
+        "category": "Lifestyle, Mode & Design",
+        "question": "Welches Kleidungsstück trug Audrey Hepburn ikonisch in 'Frühstück bei Tiffany'?",
+        "correct": "Das Kleine Schwarze",
+        "wrong": [
+            "Einen gelben Regenmantel",
+            "Einen Hosenanzug",
+            "Ein Hochzeitskleid"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:52:01Z",
+        "audio": "00368.mp3"
+    },
+    {
+        "id": "00350",
+        "category": "Film & Fernsehen",
+        "question": "Wer ist der Schöpfer der 'Star Wars'-Saga?",
+        "correct": "George Lucas",
+        "wrong": [
+            "Steven Spielberg",
+            "James Cameron",
+            "Ridley Scott"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:37:28Z",
+        "audio": "00350.mp3"
+    },
+    {
+        "id": "00363",
+        "category": "Tiere",
+        "question": "Welche Schlange ist die längste Giftschlange der Welt?",
+        "correct": "Königskobra",
+        "wrong": [
+            "Schwarze Mamba",
+            "Netzpython",
+            "Diamant-Klapperschlange"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:39:48Z",
+        "audio": "00363.mp3"
+    },
+    {
+        "id": "00380",
+        "category": "Geografie",
+        "question": "Welcher Ozean ist der kleinste der Erde?",
+        "correct": "Arktischer Ozean",
+        "wrong": [
+            "Indischer Ozean",
+            "Atlantischer Ozean",
+            "Antarktischer Ozean"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:40:22Z",
+        "audio": "00380.mp3"
+    },
+    {
+        "id": "00384",
+        "category": "Promis & Boulevard",
+        "question": "Welche Schauspielerin gewann 2024 einen Oscar für ihre Hauptrolle in 'Poor Things'?",
+        "correct": "Emma Stone",
+        "wrong": [
+            "Lily Gladstone",
+            "Margot Robbie",
+            "Jennifer Lawrence"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:54:31Z",
+        "audio": "00384.mp3"
+    },
+    {
+        "id": "00360",
+        "category": "Religion & Mythologie",
+        "question": "Wie heißt das wichtigste hinduistische Fest, das als 'Lichterfest' bekannt ist?",
+        "correct": "Diwali",
+        "wrong": [
+            "Holi",
+            "Kumbh Mela",
+            "Navratri"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:54:57Z",
+        "audio": "00360.mp3"
+    },
+    {
+        "id": "00383",
+        "category": "Technik & Digitales",
+        "question": "Wie heißt der Erfinder des World Wide Web?",
+        "correct": "Tim Berners-Lee",
+        "wrong": [
+            "Bill Gates",
+            "Vint Cerf",
+            "Linus Torvalds"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:55:24Z",
+        "audio": "00383.mp3"
+    },
+    {
+        "id": "00349",
+        "category": "Technik & Digitales",
+        "question": "Wie nennt man bösartige Software, die Daten verschlüsselt und Lösegeld fordert?",
+        "correct": "Ransomware",
+        "wrong": [
+            "Adware",
+            "Spyware",
+            "Bloatware"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:55:56Z",
+        "audio": "00349.mp3"
+    },
+    {
+        "id": "00348",
+        "category": "Geografie",
+        "question": "Wie heißt die höchste Erhebung Australiens?",
+        "correct": "Mount Kosciuszko",
+        "wrong": [
+            "Uluru",
+            "Mount Cook",
+            "Mount Everest"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:56:22Z",
+        "audio": "00348.mp3"
+    },
+    {
+        "id": "00390",
+        "category": "Literatur",
+        "question": "Welcher Roman von Ken Follett handelt vom Bau einer Kathedrale im Mittelalter?",
+        "correct": "Die Säulen der Erde",
+        "wrong": [
+            "Das Fundament der Ewigkeit",
+            "Eisfieber",
+            "Die Nadel"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:56:50Z",
+        "audio": "00390.mp3"
+    },
+    {
+        "id": "00382",
+        "category": "Sport",
+        "question": "In welcher Sportart wird um den „Ryder Cup“ gekämpft?",
+        "correct": "Golf",
+        "wrong": [
+            "Tennis",
+            "Segeln",
+            "Polo"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:01:43Z",
+        "audio": "00382.mp3"
+    },
+    {
+        "id": "00356",
+        "category": "Geschichte",
+        "question": "Welche Stadt war Hauptstadt der DDR?",
+        "correct": "Ost-Berlin",
+        "wrong": [
+            "Leipzig",
+            "Dresden",
+            "Potsdam"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:02:08Z",
+        "audio": "00356.mp3"
+    },
+    {
+        "id": "00361",
+        "category": "Der Mensch",
+        "question": "Welcher Teil des Auges ist für die Farbwahrnehmung zuständig?",
+        "correct": "Zapfen",
+        "wrong": [
+            "Stäbchen",
+            "Hornhaut",
+            "Linse"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:02:36Z",
+        "audio": "00361.mp3"
+    },
+    {
+        "id": "00378",
+        "category": "Wissenschaft",
+        "question": "Welche Einheit misst Druck im SI-System?",
+        "correct": "Pascal",
+        "wrong": [
+            "Bar",
+            "Torr",
+            "Atmosphären"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:03:06Z",
+        "audio": "00378.mp3"
+    },
+    {
+        "id": "00393",
+        "category": "Tiere",
+        "question": "Welche Haiart gilt als die größte der Welt?",
+        "correct": "Walhai",
+        "wrong": [
+            "Weißer Hai",
+            "Hammerhai",
+            "Tigerhai"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:03:31Z",
+        "audio": "00393.mp3"
+    },
+    {
+        "id": "00365",
+        "category": "Natur",
+        "question": "Was ist der häufigste Bestandteil der Erdkruste?",
+        "correct": "Sauerstoff",
+        "wrong": [
+            "Silizium",
+            "Aluminium",
+            "Eisen"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:03:57Z",
+        "audio": "00365.mp3"
+    },
+    {
+        "id": "00359",
+        "category": "Logik & Rätsel",
+        "question": "Einige Monate haben 31 Tage, einige haben 30. Wie viele haben 28 Tage?",
+        "correct": "12",
+        "wrong": [
+            "Nur einer",
+            "Keiner",
+            "6"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:10:01Z",
+        "audio": "00359.mp3"
+    },
+    {
+        "id": "00394",
+        "category": "Wissenschaft",
+        "question": "Welches Element ist ein Alkalimetall?",
+        "correct": "Natrium",
+        "wrong": [
+            "Magnesium",
+            "Aluminium",
+            "Silizium"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:10:26Z",
+        "audio": "00394.mp3"
+    },
+    {
+        "id": "00388",
+        "category": "Essen & Trinken",
+        "question": "Welches Land ist berühmt für 'Kimchi'?",
+        "correct": "Südkorea",
+        "wrong": [
+            "Japan",
+            "Thailand",
+            "Vietnam"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:10:54Z",
+        "audio": "00388.mp3"
+    },
+    {
+        "id": "00386",
+        "category": "Wissenschaft",
+        "question": "Welche Einheit misst elektrische Kapazität?",
+        "correct": "Farad",
+        "wrong": [
+            "Ohm",
+            "Volt",
+            "Henry"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:11:18Z",
+        "audio": "00386.mp3"
+    },
+    {
+        "id": "00377",
+        "category": "Tiere",
+        "question": "Welcher Meeressäuger ist für seinen langen, stoßzahnähnlichen Eckzahn bekannt?",
+        "correct": "Narwal",
+        "wrong": [
+            "Beluga",
+            "Walross",
+            "Manati"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:11:44Z",
+        "audio": "00377.mp3"
     }
 ]

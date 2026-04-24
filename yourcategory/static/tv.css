@@ -95,8 +95,15 @@
   text-overflow: ellipsis;
 }
 
-.yc-ann__bar-cat    { max-width: 35vw; }
-.yc-ann__bar-player { max-width: 20vw; }
+.yc-ann__bar-cat    { max-width: 35vw; min-width: 0; flex-shrink: 1; }
+.yc-ann__bar-player { max-width: 20vw; min-width: 0; flex-shrink: 1; }
+
+/* Prevent long category names from pushing the sidebar off-screen */
+#game-layer .ps__panel,
+#yc-input-layer .ps__panel,
+#yc-generating-layer .ps__panel {
+  min-width: 0;
+}
 
 /* Inspiration stage: single large cycling category display */
 .yc-insp-stage {

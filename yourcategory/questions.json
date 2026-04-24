@@ -304,5 +304,413 @@
         "lastplayed": "2026-04-23T07:06:15Z",
         "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
         "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "10fe63f4",
+        "category": "Physikalische Einheiten",
+        "categoryaudio": "category-physikalische-einheiten.mp3",
+        "question": "Welche der folgenden physikalischen Einheiten ist die SI-Einheit für die elektrische Spannung?",
+        "correct": "Volt",
+        "wrong": [
+            "Ohm",
+            "Watt",
+            "Farad"
+        ],
+        "audio": "question-10fe63f4.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T18:36:43Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "Alexopolus"
+    },
+    {
+        "id": "3530f78e",
+        "category": "Sexpraktiken",
+        "categoryaudio": "category-sexpraktiken.mp3",
+        "question": "Welche der folgenden Sexpraktiken ist in der Regel nicht als sicher im Hinblick auf die Übertragung sexuell übertragbarer Infektionen (STIs) einzustufen?",
+        "correct": "Ungeschützter Vaginal- oder Analverkehr",
+        "wrong": [
+            "Masturbation mit Hand",
+            "Oralverkehr mit Kondom",
+            "Vaginalverkehr mit Verwendung von Gleitgel"
+        ],
+        "audio": "question-3530f78e.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T18:36:49Z",
+        "submitted_by": "0e26c4aa-4c64-44c9-8604-3894d230d75b",
+        "submitted_by_name": "Frida"
+    },
+    {
+        "id": "3eb0d686",
+        "category": "Politik",
+        "categoryaudio": "category-politik.mp3",
+        "question": "Welche der folgenden Aussagen beschreibt am genauesten die Funktion des Bundesrates in Deutschland?",
+        "correct": "Der Bundesrat vertritt die Interessen der Bundesländer und wirkt an der Gesetzgebung auf Bundesebene mit.",
+        "wrong": [
+            "Der Bundesrat hat das Recht, Gesetze zu verabschieden, die der Bundestag ablehnt.",
+            "Der Bundesrat fungiert als oberstes Gericht der Bundesländer in politischen Angelegenheiten.",
+            "Der Bundesrat ist ausschließlich für die Verwaltung von Bundesmitteln zuständig."
+        ],
+        "audio": "question-3eb0d686.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T18:36:52Z",
+        "submitted_by": "d0914fe3-6e89-436e-8227-0d8fae8a01e3",
+        "submitted_by_name": "Martin"
+    },
+    {
+        "id": "04cab45a",
+        "category": "Gay Wissen",
+        "categoryaudio": "category-gay-wissen.mp3",
+        "question": "Welches der folgenden Länder legalisierte als erstes die Ehe für gleichgeschlechtliche Paare?",
+        "correct": "Niederlande",
+        "wrong": [
+            "Schweden",
+            "Vereinigte Staaten",
+            "Kanada"
+        ],
+        "audio": "question-04cab45a.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T18:36:56Z",
+        "submitted_by": "5d280ca8-ff81-4637-bff4-96822f75939e",
+        "submitted_by_name": "RehNeh"
+    },
+    {
+        "id": "c8e046ed",
+        "category": "Gummibärchen-Sorten",
+        "categoryaudio": "category-gummibaerchen-sorten.mp3",
+        "question": "Welche der folgenden Gummibärchen-Sorten wird nicht von Haribo produziert?",
+        "correct": "Bobby Bärchen",
+        "wrong": [
+            "Goldbären",
+            "Fruchtgummi Bärchen",
+            "Sauerbären"
+        ],
+        "audio": "question-c8e046ed.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T19:42:47Z",
+        "submitted_by": "4f80e6bc-38b8-40b3-b66d-1d9848640c21",
+        "submitted_by_name": "Gummibär"
+    },
+    {
+        "id": "d64a4f94",
+        "category": "Politik",
+        "categoryaudio": "category-politik.mp3",
+        "question": "Welches internationale Abkommen war ein wichtiger Schritt zur Bekämpfung des Klimawandels und wurde erstmals 2015 in Paris verabschiedet?",
+        "correct": "Pariser Abkommen",
+        "wrong": [
+            "Kyoto-Protokoll",
+            "Montreal-Protokoll",
+            "Rio-Erklärung"
+        ],
+        "audio": "question-d64a4f94.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T19:42:51Z",
+        "submitted_by": "d0914fe3-6e89-436e-8227-0d8fae8a01e3",
+        "submitted_by_name": "Martin"
+    },
+    {
+        "id": "4d9ed4f1",
+        "category": "Medikamente",
+        "categoryaudio": "category-medikamente.mp3",
+        "question": "Welche der folgenden Aussagen über die Bioverfügbarkeit von Medikamenten ist zutreffend?",
+        "correct": "Die Bioverfügbarkeit beschreibt den Anteil eines Wirkstoffes, der nach der Verabreichung unverändert im systemischen Kreislaufsystem nachweisbar ist.",
+        "wrong": [
+            "Die Bioverfügbarkeit ist unabhängig von der Verabreichungsform eines Medikaments.",
+            "Die Bioverfügbarkeit betrifft nur Medikamente, die intravenös verabreicht werden.",
+            "Eine hohe Bioverfügbarkeit bedeutet immer eine schnelle Wirkung des Medikaments."
+        ],
+        "audio": "question-4d9ed4f1.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T19:42:55Z",
+        "submitted_by": "d0bd09e2-fbfc-4ef9-95b5-1ce0ddc0d8c5",
+        "submitted_by_name": "Analphabet"
+    },
+    {
+        "id": "1cf0bf03",
+        "category": "Hawaiianische Geschichte",
+        "categoryaudio": "category-hawaiianische-geschichte.mp3",
+        "question": "Welches Ereignis im Jahr 1893 führte zur Absetzung der letzten Monarchin von Hawaii, Königin Liliʻuokalani?",
+        "correct": "Der Putsch der Hawaiianischen Geschäftsinteressen",
+        "wrong": [
+            "Die Erschließung des Kauai-Zuckerrohranbaus",
+            "Die Unterzeichnung des Vertrages von Annexation",
+            "Der Angriff der japanischen Marine auf Pearl Harbor"
+        ],
+        "audio": "question-1cf0bf03.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T19:42:59Z",
+        "submitted_by": "0e26c4aa-4c64-44c9-8604-3894d230d75b",
+        "submitted_by_name": "Aaandiii"
+    },
+    {
+        "id": "d0f13194",
+        "category": "Schwule Funfacts",
+        "categoryaudio": "category-schwule-funfacts.mp3",
+        "question": "Was war der erste Bundesstaat in den USA, der gleichgeschlechtliche Ehen legalisierte?",
+        "correct": "Massachusetts",
+        "wrong": [
+            "Kalifornien",
+            "New York",
+            "Vermont"
+        ],
+        "audio": "question-d0f13194.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T19:43:02Z",
+        "submitted_by": "5d280ca8-ff81-4637-bff4-96822f75939e",
+        "submitted_by_name": "KackiKacki"
+    },
+    {
+        "id": "3bfc159e",
+        "category": "Lokomotive",
+        "categoryaudio": "category-lokomotive.mp3",
+        "question": "Welches dieser Bauteile ist entscheidend für die Energieumwandlung in einer Dampflok?",
+        "correct": "Kessel",
+        "wrong": [
+            "Zugführerstand",
+            "Läutewerk",
+            "Antriebsmotor"
+        ],
+        "audio": "question-3bfc159e.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T19:43:04Z",
+        "submitted_by": "5eadff17-d56e-4714-b230-b2f06ef2a430",
+        "submitted_by_name": "Tristanolopolis"
+    },
+    {
+        "id": "7629f206",
+        "category": "Schwere Textaufgaben Mathematik",
+        "categoryaudio": "category-schwere-textaufgaben-mathematik.mp3",
+        "question": "Ein Rechteck hat eine Länge von 12 cm und eine Breite von 5 cm. Ein Quadrat hat eine Seitenlänge, die so lang ist wie die Breite des Rechtecks. Wie viel größer ist die Fläche des Rechtecks als die Fläche des Quadrats?",
+        "correct": "42 cm²",
+        "wrong": [
+            "25 cm²",
+            "30 cm²",
+            "60 cm²"
+        ],
+        "audio": "question-7629f206.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T19:43:10Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "SharkKing"
+    },
+    {
+        "id": "a6d31cae",
+        "category": "Gewichtheben",
+        "categoryaudio": "category-gewichtheben.mp3",
+        "question": "Was ist der Weltrekord im olympischen Gewichtheben für das Herren-Snatch in der Kategorie über 105 kg (Stand 2023)?",
+        "correct": "223 kg",
+        "wrong": [
+            "210 kg",
+            "215 kg",
+            "230 kg"
+        ],
+        "audio": "question-a6d31cae.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T20:51:34Z",
+        "submitted_by": "d0bd09e2-fbfc-4ef9-95b5-1ce0ddc0d8c5",
+        "submitted_by_name": "Otto"
+    },
+    {
+        "id": "a42df060",
+        "category": "Token Optimierung bei KI Modellen",
+        "categoryaudio": "category-token-optimierung-bei-ki-modellen.mp3",
+        "question": "Welche der folgenden Methoden wird häufig zur Token-Optimierung bei KI-Modellen eingesetzt, um die Verarbeitungszeit und den Speicherbedarf zu reduzieren?",
+        "correct": "Kollaps von häufigen Wortkombinationen in n-gramm Darstellungen",
+        "wrong": [
+            "Erhöhung der Token-Länge zur Verbesserung der Kontextualisierung",
+            "Verwendung von kompletten Sätzen als Eingabe für die Verarbeitung",
+            "Ignorieren von seltenen Tokens während des Trainingsprozesses"
+        ],
+        "audio": "question-a42df060.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T20:51:38Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "SharkKing"
+    },
+    {
+        "id": "1afd311d",
+        "category": "Historische Verträge",
+        "categoryaudio": "category-historische-vertraege.mp3",
+        "question": "Welcher Vertrag beendete offiziell den Ersten Weltkrieg und wurde am 28. Juni 1919 unterzeichnet?",
+        "correct": "Vertrag von Versailles",
+        "wrong": [
+            "Vertrag von Trianon",
+            "Vertrag von Saint-Germain",
+            "Vertrag von Brest-Litowsk"
+        ],
+        "audio": "question-1afd311d.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T20:51:41Z",
+        "submitted_by": "d0914fe3-6e89-436e-8227-0d8fae8a01e3",
+        "submitted_by_name": "Martin"
+    },
+    {
+        "id": "f9373709",
+        "category": "Wörter in Mandarin",
+        "categoryaudio": "category-woerter-in-mandarin.mp3",
+        "question": "Welches Wort im Mandarin entspricht dem deutschen Begriff 'Essen'?",
+        "correct": "吃 (chī)",
+        "wrong": [
+            "喝 (hē)",
+            "喝 (hè)",
+            "煮 (zhǔ)"
+        ],
+        "audio": "question-f9373709.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T20:51:43Z",
+        "submitted_by": "0e26c4aa-4c64-44c9-8604-3894d230d75b",
+        "submitted_by_name": "Aaandiii"
+    },
+    {
+        "id": "f61a226e",
+        "category": "Flugzeuge",
+        "categoryaudio": "category-flugzeuge.mp3",
+        "question": "Welches der folgenden Flugzeuge war das erste, das die Schallgeschwindigkeit im horizontalen Flug überschritt?",
+        "correct": "Bell X-1",
+        "wrong": [
+            "North American P-51 Mustang",
+            "McDonnell Douglas F-4 Phantom II",
+            "Concorde"
+        ],
+        "audio": "question-f61a226e.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T20:51:46Z",
+        "submitted_by": "4f80e6bc-38b8-40b3-b66d-1d9848640c21",
+        "submitted_by_name": "Nemo"
+    },
+    {
+        "id": "4fe156e6",
+        "category": "Herz-Reizleitungs-System",
+        "categoryaudio": "category-herz-reizleitungs-system.mp3",
+        "question": "Welcher Bestandteil des Herz-Reizleitungs-Systems ist maßgeblich für die Überleitung der Erregung vom Vorhof zum Ventrikel verantwortlich?",
+        "correct": "AV-Knoten",
+        "wrong": [
+            "Sinoatrial-Knoten",
+            "Hiss-Bündel",
+            "Purkinje-Fasern"
+        ],
+        "audio": "question-4fe156e6.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T20:51:49Z",
+        "submitted_by": "5d280ca8-ff81-4637-bff4-96822f75939e",
+        "submitted_by_name": "ZRrürznwos"
+    },
+    {
+        "id": "8096baf9",
+        "category": "Stargate",
+        "categoryaudio": "category-stargate.mp3",
+        "question": "Welches Element ist das Hauptmerkmal der Stargates, das es ermöglicht, interstellare Reisen zu initiieren?",
+        "correct": "Ein Dialekreis aus einem speziellen, nicht auf der Erde gefundenen Metall",
+        "wrong": [
+            "Ein holographischer Projektor",
+            "Ein Quantenfeldgenerator",
+            "Ein hyperdimensionales Energiefeld"
+        ],
+        "audio": "question-8096baf9.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T20:51:52Z",
+        "submitted_by": "5eadff17-d56e-4714-b230-b2f06ef2a430",
+        "submitted_by_name": "Tristanolopolis"
+    },
+    {
+        "id": "4b98574e",
+        "category": "Schwule Sex Praktiken, schwer",
+        "categoryaudio": "category-schwule-sex-praktiken-schwer.mp3",
+        "question": "Welche Sexualpraktik beschreibt den Austausch von Geschlechtsverkehr zwischen zwei Männern, bei dem einer der Partner passiv und der andere aktiv ist?",
+        "correct": "Analer Geschlechtsverkehr",
+        "wrong": [
+            "Oralsex",
+            "Fingern",
+            "Küssen"
+        ],
+        "audio": "question-4b98574e.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T21:57:38Z",
+        "submitted_by": "0ef7e50e-bf18-4032-b27a-50e0e0fe9852",
+        "submitted_by_name": "QuizLord"
+    },
+    {
+        "id": "cb764698",
+        "category": "Innere Medizin",
+        "categoryaudio": "category-innere-medizin.mp3",
+        "question": "Welche der folgenden Erkrankungen ist charakteristisch für eine systemische Sklerose?",
+        "correct": "Fibrose der Haut und innerer Organe",
+        "wrong": [
+            "Verschlüsse der koronaren Arterien",
+            "Zerstörung von Insulin produzierenden Zellen",
+            "Entzündung der Gelenke und Haut"
+        ],
+        "audio": "question-cb764698.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T21:57:41Z",
+        "submitted_by": "b99e048d-f64f-4164-a094-a534cf2730b8",
+        "submitted_by_name": "Lio Rex"
+    },
+    {
+        "id": "034a6a05",
+        "category": "Chinesische Philosophen",
+        "categoryaudio": "category-chinesische-philosophen.mp3",
+        "question": "Welcher chinesische Philosoph ist für das Konzept des 'Dao' (Weg) bekannt und gilt als Begründer des Daoismus?",
+        "correct": "Laozi",
+        "wrong": [
+            "Confucius",
+            "Zhuangzi",
+            "Mozi"
+        ],
+        "audio": "question-034a6a05.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T21:57:44Z",
+        "submitted_by": "4f80e6bc-38b8-40b3-b66d-1d9848640c21",
+        "submitted_by_name": "Miss Kitty"
+    },
+    {
+        "id": "14a1181e",
+        "category": "Gregorianischer Kalender",
+        "categoryaudio": "category-gregorianischer-kalender.mp3",
+        "question": "Wann wurde der Gregorianische Kalender offiziell eingeführt und von welchem Papst?",
+        "correct": "1582, Papst Gregor XIII",
+        "wrong": [
+            "1500, Papst Julius II",
+            "1600, Papst Leo X",
+            "1700, Papst Benedikt XIV"
+        ],
+        "audio": "question-14a1181e.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T21:57:47Z",
+        "submitted_by": "0e26c4aa-4c64-44c9-8604-3894d230d75b",
+        "submitted_by_name": "♥️QuizMaus♥️"
+    },
+    {
+        "id": "fece065f",
+        "category": "Elektronische Stellwerke",
+        "categoryaudio": "category-elektronische-stellwerke.mp3",
+        "question": "Was ist eine grundlegende Funktion elektronischer Stellwerke im Eisenbahnbetrieb?",
+        "correct": "Die automatische Überwachung und Steuerung von Weichen und Signalen zur Gewährleistung der Betriebssicherheit.",
+        "wrong": [
+            "Die manuelle Steuerung aller Signale und Weichen durch den Lokführer.",
+            "Die ausschließliche Verwendung von analogen Technologien zur Steuerung der Zugbewegungen.",
+            "Die direkte Kommunikation mit Passagieren zur Information über Zugverspätungen."
+        ],
+        "audio": "question-fece065f.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T21:57:50Z",
+        "submitted_by": "5eadff17-d56e-4714-b230-b2f06ef2a430",
+        "submitted_by_name": "😈"
+    },
+    {
+        "id": "3d58adf7",
+        "category": "Star Trek Voyager",
+        "categoryaudio": "category-star-trek-voyager.mp3",
+        "question": "Welches Raumschiff wird von der USS Voyager während ihrer Reise durch den Delta-Quadranten als temporäres Hauptquartier genutzt?",
+        "correct": "Die USS Equinox",
+        "wrong": [
+            "Die USS Columbia",
+            "Die USS Intrepid",
+            "Die USS Excelsior"
+        ],
+        "audio": "question-3d58adf7.mp3",
+        "image": "",
+        "lastplayed": "2026-04-24T21:57:54Z",
+        "submitted_by": "1dd72110-b011-4088-85fa-24f625475df3",
+        "submitted_by_name": "MyDay 😜"
     }
 ]

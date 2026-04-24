@@ -3,6 +3,7 @@ import random
 
 from engine.standard_quiz_engine import StandardQuizEngine, StandardQuizTiming
 from engine.questions_json import load_json_questions, save_json_questions, lastplayed_ts, now_iso_utc
+from engine.audio.resolve_audio import resolve_audio_ref
 
 from engine.flows.freetext_doyouknow import FreetextDoYouKnowFlow
 from engine.scoring.doyouknow_scoring import DoYouKnowScoring
@@ -27,9 +28,22 @@ class DoYouKnowQuestionSource:
         q["lastplayed"] = now_iso_utc()
         save_json_questions(self.questions_path, questions)
 
+        audio_ref = q.get("audio")
+        audio_url = None
+        if audio_ref not in ("", None):
+            resolved = resolve_audio_ref(
+                audio_ref,
+                title=None,
+                artist=None,
+                year=None,
+                local_audio_base_url="/doyouknow/media/audio",
+                allow_passthrough_urls=True,
+            )
+            audio_url = resolved.url
+
         return {
             "text": q.get("question") or "",
-            "audio": None,
+            "audio": audio_url,
             "image": q.get("image") or "",
             "correct": None,
             "alsocorrect": [],

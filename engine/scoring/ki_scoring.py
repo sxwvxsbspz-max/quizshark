@@ -6,8 +6,28 @@ from typing import Optional
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 _API_KEY_PATH = os.path.join(PROJECT_ROOT, "openaiapi.json")
 
-_MODEL = "gpt-4o-mini"
+_MODEL = "gpt-4o"
 _MAX_TOKENS = 300
+
+_SYSTEM_PROMPT = """\
+Du bist Schiedsrichter in einem Quizspiel. Du bewertest Spielerantworten als richtig (true) oder falsch (false).
+
+WICHTIG – höchste Priorität:
+Enthält eine Spielerantwort sexuelle, pornografische oder gewalttätige Begriffe oder Beleidigungen, gib für diesen Spieler immer false zurück – unabhängig von der Frage.
+
+Bewertungsregel:
+Eine Antwort gilt als richtig, wenn erkennbar ist, dass der Spieler die richtige Antwort eingeben wollte – d.h. der wesentliche, eindeutig identifizierende Teil der richtigen Antwort ist erkennbar gemeint.
+
+Das bedeutet konkret:
+- Tipp- und Rechtschreibfehler sind akzeptiert, solange die Absicht eindeutig erkennbar ist
+- Groß-/Kleinschreibung spielt keine Rolle
+- Fehlende oder vertauschte Umlaute (ae statt ä, ue statt ü, ss statt ß) sind akzeptiert
+- Kurzformen sind akzeptiert, wenn sie eindeutig auf die richtige Antwort verweisen
+- Halbwissen reicht nicht: bei "Alexander Fleming" wäre "Fleming" richtig, "Alexander" falsch
+- Leere Antworten sind immer falsch
+
+Antworte AUSSCHLIESSLICH mit einem JSON-Objekt ohne Markdown oder Erklärungen.\
+"""
 
 
 def _load_api_key() -> str:
@@ -28,14 +48,14 @@ def _load_api_key() -> str:
     return key
 
 
-def _build_prompt(question: dict, player_answers: dict) -> str:
+def _build_user_prompt(question: dict, player_answers: dict) -> str:
     question_text = question.get("question", "")
     correct = question.get("correct", "")
     also = question.get("alsocorrect") or []
 
     also_text = ""
     if also:
-        also_text = f"\nWeitere akzeptierte Antworten: {', '.join(str(a) for a in also if a)}"
+        also_text = f"\nAuch akzeptiert: {', '.join(str(a) for a in also if a)}"
 
     answers_lines = "\n".join(
         f'  "{pid}": "{answer}"' for pid, answer in player_answers.items()
@@ -44,17 +64,11 @@ def _build_prompt(question: dict, player_answers: dict) -> str:
     example = "{" + ", ".join(f'"{pid}": true' for pid in player_answers) + "}"
 
     return (
-        f"Du bewertest Antworten in einem Quizspiel.\n\n"
         f"Frage: {question_text}\n"
         f"Richtige Antwort: {correct}"
         f"{also_text}\n\n"
         f"Spielerantworten:\n{answers_lines}\n\n"
-        f"Bewertungsregeln:\n"
-        f"- Großzügig bei Rechtschreibfehlern und Tippfehlern\n"
-        f"- Akzeptiere sinngemäß richtige Antworten (Kurzformen, alternative Schreibweisen)\n"
-        f"- Lehne eindeutig falsche Antworten ab\n"
-        f"- Leere Antworten sind immer falsch\n\n"
-        f"Antworte NUR mit einem JSON-Objekt ohne Markdown, z.B.: {example}"
+        f"Antworte NUR mit: {example}"
     )
 
 
@@ -62,12 +76,16 @@ def _do_api_call(question: dict, player_answers: dict) -> dict:
     from openai import OpenAI
 
     client = OpenAI(api_key=_load_api_key())
-    prompt = _build_prompt(question, player_answers)
+    user_prompt = _build_user_prompt(question, player_answers)
 
     response = client.chat.completions.create(
         model=_MODEL,
         max_tokens=_MAX_TOKENS,
-        messages=[{"role": "user", "content": prompt}],
+        temperature=0,
+        messages=[
+            {"role": "system", "content": _SYSTEM_PROMPT},
+            {"role": "user", "content": user_prompt},
+        ],
     )
 
     raw = response.choices[0].message.content.strip()

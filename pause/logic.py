@@ -23,7 +23,7 @@ class PauseLogic:
         self.on_game_finished = on_game_finished
 
         self.state = "INTRO"
-        self.duration_seconds = 300
+        self.duration_seconds = 120
 
         self.started_at = None
         self.ends_at = None

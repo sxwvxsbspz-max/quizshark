@@ -7,18 +7,18 @@ def get_phase_sequence():
     'lobby' bleibt bewusst außen vor (Special-Case in app.py).
     """
     return [
-       "intro",
+       #"intro",
 
-        "punktesammler",
-        "songquiz",
+    #    "punktesammler",
+    #    "songquiz",
         #"speedround",
          #  "leaderboard",
 
         #"soundtracks",
-        "freeknowledge",
+    #    "freeknowledge",
     
-           "leaderboard",
-        "imagememory",     
+    #       "leaderboard",
+    #    "imagememory",     
            
         #"pause",
         #   "leaderboard",
@@ -26,10 +26,9 @@ def get_phase_sequence():
         #"soundyear",
         "songster",
           "leaderboard",
-        "imagequiz",
           "pause",  
 
-        
+        #"imagequiz",
         "soundmemory",      
          #  "leaderboard",
 
@@ -38,7 +37,7 @@ def get_phase_sequence():
         "haveiever",
         "wellguessed",
            "leaderboard",
-           
+
         "doyouknow",
         "yourcategory",
         "vollereinsatz",

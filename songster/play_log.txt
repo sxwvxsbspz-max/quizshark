@@ -1837,3 +1837,1486 @@ SONG:  Maroon 5 – Memories  (2019)
     Ergebnis:  FALSCH  ✗
     Timeline:  [1995, 2011]
 [2026-04-24T12:52:55Z] OK       id=00472 2012  Imagine Dragons – Radioactive
+[2026-04-24T17:27:13Z] OK       id=00302 2012  Rihanna – Diamonds
+
+============================================================
+[2026-04-24T17:27:22Z] RUNDE 1
+SONG:  Rihanna – Diamonds  (2012)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1989 und 2001 (slot 1)
+    Prüfung:   1989 < 2012 < 2001 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1989, 2001]
+[2026-04-24T18:03:33Z] OK       id=00151 1997  Celine Dion – My Heart Will Go On
+
+============================================================
+[2026-04-24T18:04:05Z] RUNDE 1
+SONG:  Celine Dion – My Heart Will Go On  (1997)
+============================================================
+  Spieler Chantal:
+    Antwort:   vor 1999 (slot 0)
+    Prüfung:   1997 < 1999 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1999, 2000]
+  Spieler Tristanolopolis:
+    Antwort:   vor 1999 (slot 0)
+    Prüfung:   1997 < 1999 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1999, 2000]
+  Spieler Alexopolus:
+    Antwort:   vor 1999 (slot 0)
+    Prüfung:   1997 < 1999 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1999, 2000]
+  Spieler Frida:
+    Antwort:   nach 2000 (slot 2)
+    Prüfung:   1997 > 2000 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1999, 2000]
+  Spieler Martin:
+    Antwort:   vor 1999 (slot 0)
+    Prüfung:   1997 < 1999 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1999, 2000]
+  Spieler Tüte:
+    Antwort:   vor 1999 (slot 0)
+    Prüfung:   1997 < 1999 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1999, 2000]
+  Spieler RehNeh:
+    Antwort:   vor 1999 (slot 0)
+    Prüfung:   1997 < 1999 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1999, 2000]
+[2026-04-24T18:04:29Z] OK       id=00016 1990  Madonna – Vogue
+
+============================================================
+[2026-04-24T18:04:45Z] RUNDE 2
+SONG:  Madonna – Vogue  (1990)
+============================================================
+  Spieler Frida:
+    Antwort:   vor 1999 (slot 0)
+    Prüfung:   1990 < 1999 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1999, 2000]
+  Spieler Alexopolus:
+    Antwort:   vor 1997 (slot 0)
+    Prüfung:   1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1997, 1999, 2000]
+  Spieler Tüte:
+    Antwort:   vor 1997 (slot 0)
+    Prüfung:   1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1997, 1999, 2000]
+  Spieler Chantal:
+    Antwort:   vor 1997 (slot 0)
+    Prüfung:   1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1997, 1999, 2000]
+  Spieler Tristanolopolis:
+    Antwort:   vor 1997 (slot 0)
+    Prüfung:   1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1997, 1999, 2000]
+  Spieler Martin:
+    Antwort:   vor 1997 (slot 0)
+    Prüfung:   1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1997, 1999, 2000]
+  Spieler RehNeh:
+    Antwort:   vor 1997 (slot 0)
+    Prüfung:   1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1997, 1999, 2000]
+[2026-04-24T18:05:12Z] OK       id=00015 2020  The Weeknd – Blinding Lights
+
+============================================================
+[2026-04-24T18:05:44Z] RUNDE 3
+SONG:  The Weeknd – Blinding Lights  (2020)
+============================================================
+  Spieler RehNeh:
+    Antwort:   nach 2000 (slot 4)
+    Prüfung:   2020 > 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000]
+  Spieler Tristanolopolis:
+    Antwort:   nach 2000 (slot 4)
+    Prüfung:   2020 > 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000]
+  Spieler Alexopolus:
+    Antwort:   nach 2000 (slot 4)
+    Prüfung:   2020 > 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000]
+  Spieler Tüte:
+    Antwort:   nach 2000 (slot 4)
+    Prüfung:   2020 > 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000]
+  Spieler Chantal:
+    Antwort:   vor 1990 (slot 0)
+    Prüfung:   2020 < 1990 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000]
+  Spieler Frida:
+    Antwort:   nach 2000 (slot 3)
+    Prüfung:   2020 > 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1999, 2000]
+  Spieler Martin:
+    Antwort:   nach 2000 (slot 4)
+    Prüfung:   2020 > 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000]
+[2026-04-24T18:06:12Z] OK       id=00110 2017  Camila Cabello – Havana
+
+============================================================
+[2026-04-24T18:06:44Z] RUNDE 4
+SONG:  Camila Cabello – Havana  (2017)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2000 und 2020 (slot 4)
+    Prüfung:   2000 < 2017 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+  Spieler RehNeh:
+    Antwort:   nach 2020 (slot 5)
+    Prüfung:   2017 > 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+  Spieler Chantal:
+    Antwort:   nach 2000 (slot 4)
+    Prüfung:   2017 > 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000]
+  Spieler Tüte:
+    Antwort:   nach 2020 (slot 5)
+    Prüfung:   2017 > 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+  Spieler Martin:
+    Antwort:   nach 2020 (slot 5)
+    Prüfung:   2017 > 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2000 und 2020 (slot 4)
+    Prüfung:   2000 < 2017 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+  Spieler Frida:
+    Antwort:   zwischen 2000 und 2020 (slot 3)
+    Prüfung:   2000 < 2017 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1999, 2000, 2020]
+[2026-04-24T18:07:07Z] OK       id=00345 2024  Beyoncé – TEXAS HOLD 'EM
+
+============================================================
+[2026-04-24T18:07:39Z] RUNDE 5
+SONG:  Beyoncé – TEXAS HOLD 'EM  (2024)
+============================================================
+  Spieler Tristanolopolis:
+    Antwort:   nach 2020 (slot 6)
+    Prüfung:   2024 > 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2017, 2020]
+  Spieler RehNeh:
+    Antwort:   nach 2020 (slot 5)
+    Prüfung:   2024 > 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+  Spieler Tüte:
+    Antwort:   nach 2020 (slot 5)
+    Prüfung:   2024 > 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+  Spieler Alexopolus:
+    Antwort:   zwischen 2017 und 2020 (slot 5)
+    Prüfung:   2017 < 2024 < 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2017, 2020]
+  Spieler Chantal:
+    Antwort:   nach 2017 (slot 5)
+    Prüfung:   2024 > 2017 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2017]
+  Spieler Frida:
+    Antwort:   zwischen 2017 und 2020 (slot 4)
+    Prüfung:   2017 < 2024 < 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1999, 2000, 2017, 2020]
+  Spieler Martin:
+    Antwort:   zwischen 1999 und 2000 (slot 3)
+    Prüfung:   1999 < 2024 < 2000 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+[2026-04-24T18:07:59Z] OK       id=00467 2010  Bruno Mars – Just the Way You Are
+
+============================================================
+[2026-04-24T18:08:31Z] RUNDE 6
+SONG:  Bruno Mars – Just the Way You Are  (2010)
+============================================================
+  Spieler RehNeh:
+    Antwort:   zwischen 2000 und 2020 (slot 4)
+    Prüfung:   2000 < 2010 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2020, 2024]
+  Spieler Alexopolus:
+    Antwort:   zwischen 2000 und 2017 (slot 4)
+    Prüfung:   2000 < 2010 < 2017 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2017, 2020]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2000 und 2017 (slot 4)
+    Prüfung:   2000 < 2010 < 2017 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2017, 2020, 2024]
+  Spieler Martin:
+    Antwort:   zwischen 2000 und 2020 (slot 4)
+    Prüfung:   2000 < 2010 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2020]
+  Spieler Chantal:
+    Antwort:   zwischen 2017 und 2024 (slot 5)
+    Prüfung:   2017 < 2010 < 2024 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2017, 2024]
+  Spieler Frida:
+    Antwort:   zwischen 2000 und 2017 (slot 3)
+    Prüfung:   2000 < 2010 < 2017 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1999, 2000, 2017, 2020]
+  Spieler Tüte:
+    Antwort:   zwischen 1997 und 1999 (slot 2)
+    Prüfung:   1997 < 2010 < 1999 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2020, 2024]
+[2026-04-24T18:08:51Z] OK       id=00286 2008  Duffy – Mercy
+
+============================================================
+[2026-04-24T18:09:23Z] RUNDE 7
+SONG:  Duffy – Mercy  (2008)
+============================================================
+  Spieler Chantal:
+    Antwort:   zwischen 2017 und 2024 (slot 5)
+    Prüfung:   2017 < 2008 < 2024 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2017, 2024]
+  Spieler Alexopolus:
+    Antwort:   zwischen 2000 und 2010 (slot 4)
+    Prüfung:   2000 < 2008 < 2010 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2010, 2017, 2020]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2000 und 2010 (slot 4)
+    Prüfung:   2000 < 2008 < 2010 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2010, 2017, 2020, 2024]
+  Spieler Martin:
+    Antwort:   zwischen 1999 und 2000 (slot 3)
+    Prüfung:   1999 < 2008 < 2000 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2010, 2020]
+  Spieler RehNeh:
+    Antwort:   zwischen 2000 und 2010 (slot 4)
+    Prüfung:   2000 < 2008 < 2010 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2010, 2020, 2024]
+  Spieler Frida:
+    Antwort:   zwischen 2000 und 2010 (slot 3)
+    Prüfung:   2000 < 2008 < 2010 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1999, 2000, 2010, 2017, 2020]
+  Spieler Tüte:
+    Antwort:   zwischen 2000 und 2020 (slot 4)
+    Prüfung:   2000 < 2008 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2020, 2024]
+[2026-04-24T18:09:43Z] OK       id=00355 1971  Rod Stewart – Maggie May
+
+============================================================
+[2026-04-24T18:10:08Z] RUNDE 8
+SONG:  Rod Stewart – Maggie May  (1971)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1990 (slot 0)
+    Prüfung:   1971 < 1990 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2008, 2010, 2017, 2020]
+  Spieler RehNeh:
+    Antwort:   vor 1990 (slot 0)
+    Prüfung:   1971 < 1990 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2008, 2010, 2020, 2024]
+  Spieler Tüte:
+    Antwort:   vor 1990 (slot 0)
+    Prüfung:   1971 < 1990 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2008, 2020, 2024]
+  Spieler Frida:
+    Antwort:   vor 1990 (slot 0)
+    Prüfung:   1971 < 1990 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1999, 2000, 2008, 2010, 2017, 2020]
+  Spieler Martin:
+    Antwort:   vor 1990 (slot 0)
+    Prüfung:   1971 < 1990 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2010, 2020]
+  Spieler Chantal:
+    Antwort:   vor 1990 (slot 0)
+    Prüfung:   1971 < 1990 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2017, 2024]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 1990 und 1997 (slot 1)
+    Prüfung:   1990 < 1971 < 1997 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1990, 1997, 1999, 2000, 2008, 2010, 2017, 2020, 2024]
+[2026-04-24T18:10:28Z] OK       id=00299 2011  David Guetta ft. Sia – Titanium
+
+============================================================
+[2026-04-24T18:11:00Z] RUNDE 9
+SONG:  David Guetta ft. Sia – Titanium  (2011)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2010 und 2017 (slot 7)
+    Prüfung:   2010 < 2011 < 2017 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1971, 1990, 1997, 1999, 2000, 2008, 2010, 2017, 2020]
+  Spieler Tüte:
+    Antwort:   zwischen 2008 und 2020 (slot 6)
+    Prüfung:   2008 < 2011 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1971, 1990, 1997, 1999, 2000, 2008, 2020, 2024]
+  Spieler RehNeh:
+    Antwort:   zwischen 2010 und 2020 (slot 7)
+    Prüfung:   2010 < 2011 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1971, 1990, 1997, 1999, 2000, 2008, 2010, 2020, 2024]
+  Spieler Chantal:
+    Antwort:   zwischen 2000 und 2017 (slot 5)
+    Prüfung:   2000 < 2011 < 2017 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1971, 1990, 1997, 1999, 2000, 2017, 2024]
+  Spieler Martin:
+    Antwort:   zwischen 2000 und 2010 (slot 5)
+    Prüfung:   2000 < 2011 < 2010 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1971, 1990, 1997, 1999, 2000, 2010, 2020]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2010 und 2017 (slot 6)
+    Prüfung:   2010 < 2011 < 2017 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 1997, 1999, 2000, 2008, 2010, 2017, 2020, 2024]
+  Spieler Frida:
+    Antwort:   zwischen 2010 und 2017 (slot 6)
+    Prüfung:   2010 < 2011 < 2017 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1971, 1990, 1999, 2000, 2008, 2010, 2017, 2020]
+[2026-04-24T19:07:57Z] OK       id=00293 2009  Miley Cyrus – Party in the U.S.A.
+
+============================================================
+[2026-04-24T19:08:29Z] RUNDE 1
+SONG:  Miley Cyrus – Party in the U.S.A.  (2009)
+============================================================
+  Spieler SharkKing:
+    Antwort:   nach 2006 (slot 2)
+    Prüfung:   2009 > 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006]
+  Spieler Tristanolopolis:
+    Antwort:   nach 2006 (slot 2)
+    Prüfung:   2009 > 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006]
+  Spieler Aaandiii:
+    Antwort:   nach 2006 (slot 2)
+    Prüfung:   2009 > 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006]
+  Spieler Gummibär:
+    Antwort:   nach 2006 (slot 2)
+    Prüfung:   2009 > 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006]
+  Spieler Martin:
+    Antwort:   nach 2006 (slot 2)
+    Prüfung:   2009 > 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006]
+  Spieler Analphabet:
+    Antwort:   nach 2006 (slot 2)
+    Prüfung:   2009 > 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006]
+  Spieler KackiKacki:
+    Antwort:   nach 2006 (slot 2)
+    Prüfung:   2009 > 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006]
+[2026-04-24T19:08:53Z] OK       id=00087 2007  OneRepublic – Apologize
+
+============================================================
+[2026-04-24T19:09:25Z] RUNDE 2
+SONG:  OneRepublic – Apologize  (2007)
+============================================================
+  Spieler Gummibär:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2007 > 2009 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler SharkKing:
+    Antwort:   zwischen 2006 und 2009 (slot 2)
+    Prüfung:   2006 < 2007 < 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009]
+  Spieler Analphabet:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2007 > 2009 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler Martin:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2007 > 2009 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler Tristanolopolis:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2007 > 2009 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 2007 < 2006 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler KackiKacki:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2007 > 2009 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+[2026-04-24T19:09:52Z] OK       id=00397 1981  Phil Collins – In the Air Tonight
+
+============================================================
+[2026-04-24T19:10:21Z] RUNDE 3
+SONG:  Phil Collins – In the Air Tonight  (1981)
+============================================================
+  Spieler Gummibär:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 1981 < 2006 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler Analphabet:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 1981 < 2006 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler Martin:
+    Antwort:   vor 1982 (slot 0)
+    Prüfung:   1981 < 1982 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 1981 < 2006 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler KackiKacki:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 1981 < 2006 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+  Spieler SharkKing:
+    Antwort:   vor 1982 (slot 0)
+    Prüfung:   1981 < 1982 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2007, 2009]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 1981 < 2006 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009]
+[2026-04-24T19:10:50Z] OK       id=00488 2016  The Weeknd feat. Daft Punk – Starboy
+
+============================================================
+[2026-04-24T19:11:17Z] RUNDE 4
+SONG:  The Weeknd feat. Daft Punk – Starboy  (2016)
+============================================================
+  Spieler KackiKacki:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2016 > 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009]
+  Spieler Tristanolopolis:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2016 > 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009]
+  Spieler Martin:
+    Antwort:   nach 2009 (slot 4)
+    Prüfung:   2016 > 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 2006, 2009]
+  Spieler Aaandiii:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2016 > 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009]
+  Spieler Gummibär:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2016 > 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009]
+  Spieler SharkKing:
+    Antwort:   nach 2009 (slot 5)
+    Prüfung:   2016 > 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 2006, 2007, 2009]
+  Spieler Analphabet:
+    Antwort:   nach 2009 (slot 3)
+    Prüfung:   2016 > 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009]
+[2026-04-24T19:11:40Z] OK       id=00019 2003  Linkin Park – Numb
+
+============================================================
+[2026-04-24T19:12:10Z] RUNDE 5
+SONG:  Linkin Park – Numb  (2003)
+============================================================
+  Spieler KackiKacki:
+    Antwort:   zwischen 2006 und 2009 (slot 2)
+    Prüfung:   2006 < 2003 < 2009 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009, 2016]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 2003 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009, 2016]
+  Spieler Gummibär:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 2003 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009, 2016]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 2003 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009, 2016]
+  Spieler Martin:
+    Antwort:   zwischen 2009 und 2016 (slot 4)
+    Prüfung:   2009 < 2003 < 2016 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1981, 1982, 2006, 2009, 2016]
+  Spieler Analphabet:
+    Antwort:   zwischen 2009 und 2016 (slot 3)
+    Prüfung:   2009 < 2003 < 2016 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2006, 2009, 2016]
+  Spieler SharkKing:
+    Antwort:   zwischen 1982 und 2006 (slot 2)
+    Prüfung:   1982 < 2003 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 2006, 2007, 2009, 2016]
+[2026-04-24T19:12:30Z] OK       id=00468 2011  Rihanna – S&M
+
+============================================================
+[2026-04-24T19:13:01Z] RUNDE 6
+SONG:  Rihanna – S&M  (2011)
+============================================================
+  Spieler KackiKacki:
+    Antwort:   zwischen 2009 und 2016 (slot 3)
+    Prüfung:   2009 < 2011 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009, 2016]
+  Spieler Analphabet:
+    Antwort:   zwischen 2009 und 2016 (slot 3)
+    Prüfung:   2009 < 2011 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009, 2016]
+  Spieler Aaandiii:
+    Antwort:   zwischen 2009 und 2016 (slot 4)
+    Prüfung:   2009 < 2011 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2003, 2006, 2009, 2016]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2009 und 2016 (slot 4)
+    Prüfung:   2009 < 2011 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2003, 2006, 2009, 2016]
+  Spieler Martin:
+    Antwort:   zwischen 2009 und 2016 (slot 4)
+    Prüfung:   2009 < 2011 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 2006, 2009, 2016]
+  Spieler SharkKing:
+    Antwort:   zwischen 2009 und 2016 (slot 6)
+    Prüfung:   2009 < 2011 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 2003, 2006, 2007, 2009, 2016]
+  Spieler Gummibär:
+    Antwort:   nach 2016 (slot 5)
+    Prüfung:   2011 > 2016 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2003, 2006, 2009, 2016]
+[2026-04-24T19:13:22Z] OK       id=00067 1983  Michael Jackson – Billie Jean
+
+============================================================
+[2026-04-24T19:13:43Z] RUNDE 7
+SONG:  Michael Jackson – Billie Jean  (1983)
+============================================================
+  Spieler KackiKacki:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 1983 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009, 2011, 2016]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1982 und 2003 (slot 1)
+    Prüfung:   1982 < 1983 < 2003 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2003, 2006, 2009, 2011, 2016]
+  Spieler Martin:
+    Antwort:   zwischen 1982 und 2006 (slot 2)
+    Prüfung:   1982 < 1983 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 2006, 2009, 2011, 2016]
+  Spieler Gummibär:
+    Antwort:   zwischen 1982 und 2003 (slot 1)
+    Prüfung:   1982 < 1983 < 2003 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2003, 2006, 2009, 2016]
+  Spieler SharkKing:
+    Antwort:   vor 1981 (slot 0)
+    Prüfung:   1983 < 1981 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1981, 1982, 2003, 2006, 2007, 2009, 2011, 2016]
+  Spieler Analphabet:
+    Antwort:   zwischen 1982 und 2006 (slot 1)
+    Prüfung:   1982 < 1983 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2006, 2009, 2011, 2016]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2003 und 2006 (slot 2)
+    Prüfung:   2003 < 1983 < 2006 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 2003, 2006, 2009, 2011, 2016]
+[2026-04-24T19:14:03Z] OK       id=00402 1991  Rozalla – Everybody's Free (To Feel Good)
+
+============================================================
+[2026-04-24T19:14:32Z] RUNDE 8
+SONG:  Rozalla – Everybody's Free (To Feel Good)  (1991)
+============================================================
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 1982 und 2003 (slot 1)
+    Prüfung:   1982 < 1991 < 2003 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 2003, 2006, 2009, 2011, 2016]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1983 und 2003 (slot 2)
+    Prüfung:   1983 < 1991 < 2003 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1983, 2003, 2006, 2009, 2011, 2016]
+  Spieler KackiKacki:
+    Antwort:   zwischen 1983 und 2006 (slot 2)
+    Prüfung:   1983 < 1991 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1983, 2006, 2009, 2011, 2016]
+  Spieler Gummibär:
+    Antwort:   zwischen 1983 und 2003 (slot 2)
+    Prüfung:   1983 < 1991 < 2003 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1983, 2003, 2006, 2009, 2016]
+  Spieler SharkKing:
+    Antwort:   zwischen 1982 und 2003 (slot 2)
+    Prüfung:   1982 < 1991 < 2003 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 2003, 2006, 2007, 2009, 2011, 2016]
+  Spieler Analphabet:
+    Antwort:   zwischen 1983 und 2006 (slot 2)
+    Prüfung:   1983 < 1991 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1983, 2006, 2009, 2011, 2016]
+  Spieler Martin:
+    Antwort:   zwischen 1983 und 2006 (slot 3)
+    Prüfung:   1983 < 1991 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 1983, 2006, 2009, 2011, 2016]
+[2026-04-24T19:14:53Z] OK       id=00353 1971  The Who – Baba O'Riley
+
+============================================================
+[2026-04-24T19:15:24Z] RUNDE 9
+SONG:  The Who – Baba O'Riley  (1971)
+============================================================
+  Spieler KackiKacki:
+    Antwort:   zwischen 1991 und 2006 (slot 3)
+    Prüfung:   1991 < 1971 < 2006 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1983, 1991, 2006, 2009, 2011, 2016]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 1982 und 1991 (slot 1)
+    Prüfung:   1982 < 1971 < 1991 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1991, 2003, 2006, 2009, 2011, 2016]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1983 und 1991 (slot 2)
+    Prüfung:   1983 < 1971 < 1991 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1983, 1991, 2003, 2006, 2009, 2011, 2016]
+  Spieler SharkKing:
+    Antwort:   vor 1981 (slot 0)
+    Prüfung:   1971 < 1981 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1981, 1982, 1991, 2003, 2006, 2007, 2009, 2011, 2016]
+  Spieler Martin:
+    Antwort:   zwischen 1981 und 1982 (slot 1)
+    Prüfung:   1981 < 1971 < 1982 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1981, 1982, 1983, 1991, 2006, 2009, 2011, 2016]
+  Spieler Gummibär:
+    Antwort:   vor 1982 (slot 0)
+    Prüfung:   1971 < 1982 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1983, 1991, 2003, 2006, 2009, 2016]
+  Spieler Analphabet:
+    Antwort:   zwischen 1983 und 1991 (slot 2)
+    Prüfung:   1983 < 1971 < 1991 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1983, 1991, 2006, 2009, 2011, 2016]
+[2026-04-24T20:15:55Z] OK       id=00330 2020  The Weeknd – Save Your Tears
+
+============================================================
+[2026-04-24T20:16:27Z] RUNDE 1
+SONG:  The Weeknd – Save Your Tears  (2020)
+============================================================
+  Spieler SharkKing:
+    Antwort:   nach 1997 (slot 2)
+    Prüfung:   2020 > 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997]
+  Spieler ZRrürznwos:
+    Antwort:   nach 1997 (slot 2)
+    Prüfung:   2020 > 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997]
+  Spieler Tristanolopolis:
+    Antwort:   nach 1997 (slot 2)
+    Prüfung:   2020 > 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997]
+  Spieler Otto:
+    Antwort:   nach 1997 (slot 2)
+    Prüfung:   2020 > 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997]
+  Spieler Nemo:
+    Antwort:   nach 1997 (slot 2)
+    Prüfung:   2020 > 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997]
+  Spieler Martin:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   2020 < 1988 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997]
+  Spieler Aaandiii:
+    Antwort:   nach 1997 (slot 2)
+    Prüfung:   2020 > 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997]
+[2026-04-24T20:16:52Z] OK       id=00270 2002  Nelly – Hot in Herre
+
+============================================================
+[2026-04-24T20:17:12Z] RUNDE 2
+SONG:  Nelly – Hot in Herre  (2002)
+============================================================
+  Spieler ZRrürznwos:
+    Antwort:   zwischen 1997 und 2020 (slot 2)
+    Prüfung:   1997 < 2002 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2020]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1997 und 2020 (slot 2)
+    Prüfung:   1997 < 2002 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2020]
+  Spieler Martin:
+    Antwort:   nach 1997 (slot 2)
+    Prüfung:   2002 > 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997]
+  Spieler SharkKing:
+    Antwort:   zwischen 1997 und 2020 (slot 2)
+    Prüfung:   1997 < 2002 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2020]
+  Spieler Nemo:
+    Antwort:   zwischen 1997 und 2020 (slot 2)
+    Prüfung:   1997 < 2002 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2020]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 1997 und 2020 (slot 2)
+    Prüfung:   1997 < 2002 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2020]
+  Spieler Otto:
+    Antwort:   zwischen 1997 und 2020 (slot 2)
+    Prüfung:   1997 < 2002 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2020]
+[2026-04-24T20:17:39Z] OK       id=00500 2024  Chappell Roan – Good Luck, Babe!
+
+============================================================
+[2026-04-24T20:18:10Z] RUNDE 3
+SONG:  Chappell Roan – Good Luck, Babe!  (2024)
+============================================================
+  Spieler ZRrürznwos:
+    Antwort:   nach 2020 (slot 4)
+    Prüfung:   2024 > 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020]
+  Spieler SharkKing:
+    Antwort:   nach 2020 (slot 4)
+    Prüfung:   2024 > 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020]
+  Spieler Aaandiii:
+    Antwort:   nach 2020 (slot 4)
+    Prüfung:   2024 > 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020]
+  Spieler Martin:
+    Antwort:   nach 2002 (slot 3)
+    Prüfung:   2024 > 2002 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2002 und 2020 (slot 3)
+    Prüfung:   2002 < 2024 < 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2020]
+  Spieler Otto:
+    Antwort:   zwischen 2002 und 2020 (slot 3)
+    Prüfung:   2002 < 2024 < 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2020]
+  Spieler Nemo:
+    Antwort:   zwischen 2002 und 2020 (slot 3)
+    Prüfung:   2002 < 2024 < 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2020]
+[2026-04-24T20:18:39Z] OK       id=00073 2016  Fifth Harmony ft. Ty Dolla $ign – Work from Home
+
+============================================================
+[2026-04-24T20:19:05Z] RUNDE 4
+SONG:  Fifth Harmony ft. Ty Dolla $ign – Work from Home  (2016)
+============================================================
+  Spieler SharkKing:
+    Antwort:   zwischen 2002 und 2020 (slot 3)
+    Prüfung:   2002 < 2016 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020, 2024]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2002 und 2020 (slot 3)
+    Prüfung:   2002 < 2016 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020]
+  Spieler Nemo:
+    Antwort:   zwischen 2002 und 2020 (slot 3)
+    Prüfung:   2002 < 2016 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020]
+  Spieler Otto:
+    Antwort:   zwischen 2002 und 2020 (slot 3)
+    Prüfung:   2002 < 2016 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020]
+  Spieler Martin:
+    Antwort:   zwischen 2002 und 2024 (slot 3)
+    Prüfung:   2002 < 2016 < 2024 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2024]
+  Spieler ZRrürznwos:
+    Antwort:   zwischen 2020 und 2024 (slot 4)
+    Prüfung:   2020 < 2016 < 2024 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2020, 2024]
+  Spieler Aaandiii:
+    Antwort:   zwischen 2020 und 2024 (slot 4)
+    Prüfung:   2020 < 2016 < 2024 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2020, 2024]
+[2026-04-24T20:19:29Z] OK       id=00231 1990  Deee-Lite – Groove Is in the Heart
+
+============================================================
+[2026-04-24T20:20:01Z] RUNDE 5
+SONG:  Deee-Lite – Groove Is in the Heart  (1990)
+============================================================
+  Spieler ZRrürznwos:
+    Antwort:   zwischen 1988 und 1997 (slot 1)
+    Prüfung:   1988 < 1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020, 2024]
+  Spieler SharkKing:
+    Antwort:   zwischen 2002 und 2016 (slot 3)
+    Prüfung:   2002 < 1990 < 2016 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020, 2024]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1988 und 1997 (slot 1)
+    Prüfung:   1988 < 1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2020, 2024]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2002 und 2016 (slot 3)
+    Prüfung:   2002 < 1990 < 2016 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Martin:
+    Antwort:   zwischen 1988 und 1997 (slot 1)
+    Prüfung:   1988 < 1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2016, 2024]
+  Spieler Nemo:
+    Antwort:   zwischen 2016 und 2020 (slot 4)
+    Prüfung:   2016 < 1990 < 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Otto:
+    Antwort:   zwischen 1988 und 1997 (slot 1)
+    Prüfung:   1988 < 1990 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+[2026-04-24T20:20:21Z] OK       id=00083 2003  The White Stripes – Seven Nation Army
+
+============================================================
+[2026-04-24T20:20:53Z] RUNDE 6
+SONG:  The White Stripes – Seven Nation Army  (2003)
+============================================================
+  Spieler ZRrürznwos:
+    Antwort:   zwischen 2002 und 2020 (slot 4)
+    Prüfung:   2002 < 2003 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1997, 2002, 2020, 2024]
+  Spieler SharkKing:
+    Antwort:   zwischen 2002 und 2016 (slot 3)
+    Prüfung:   2002 < 2003 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2016, 2020, 2024]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 1988 und 1997 (slot 1)
+    Prüfung:   1988 < 2003 < 1997 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1990 und 1997 (slot 2)
+    Prüfung:   1990 < 2003 < 1997 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1997, 2002, 2020, 2024]
+  Spieler Otto:
+    Antwort:   zwischen 1997 und 2002 (slot 3)
+    Prüfung:   1997 < 2003 < 2002 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1997, 2002, 2016, 2020]
+  Spieler Martin:
+    Antwort:   zwischen 1997 und 2002 (slot 3)
+    Prüfung:   1997 < 2003 < 2002 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1997, 2002, 2016, 2024]
+  Spieler Nemo:
+    Antwort:   zwischen 1988 und 1997 (slot 1)
+    Prüfung:   1988 < 2003 < 1997 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+[2026-04-24T20:21:13Z] OK       id=00485 2015  Lukas Graham – 7 Years
+
+============================================================
+[2026-04-24T20:21:45Z] RUNDE 7
+SONG:  Lukas Graham – 7 Years  (2015)
+============================================================
+  Spieler Aaandiii:
+    Antwort:   zwischen 2020 und 2024 (slot 5)
+    Prüfung:   2020 < 2015 < 2024 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1997, 2002, 2020, 2024]
+  Spieler Martin:
+    Antwort:   zwischen 2016 und 2024 (slot 5)
+    Prüfung:   2016 < 2015 < 2024 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1997, 2002, 2016, 2024]
+  Spieler Nemo:
+    Antwort:   nach 2020 (slot 5)
+    Prüfung:   2015 > 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2016 und 2020 (slot 4)
+    Prüfung:   2016 < 2015 < 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Otto:
+    Antwort:   zwischen 2002 und 2016 (slot 4)
+    Prüfung:   2002 < 2015 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1997, 2002, 2016, 2020]
+  Spieler SharkKing:
+    Antwort:   zwischen 2003 und 2016 (slot 4)
+    Prüfung:   2003 < 2015 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2003, 2016, 2020, 2024]
+  Spieler ZRrürznwos:
+    Antwort:   zwischen 2003 und 2020 (slot 5)
+    Prüfung:   2003 < 2015 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1997, 2002, 2003, 2020, 2024]
+[2026-04-24T20:22:05Z] OK       id=00164 1991  R.E.M. – Losing My Religion
+
+============================================================
+[2026-04-24T20:22:34Z] RUNDE 8
+SONG:  R.E.M. – Losing My Religion  (1991)
+============================================================
+  Spieler SharkKing:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1991 < 1988 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2003, 2015, 2016, 2020, 2024]
+  Spieler ZRrürznwos:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1991 < 1988 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1997, 2002, 2003, 2015, 2020, 2024]
+  Spieler Tristanolopolis:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1991 < 1988 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Nemo:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1991 < 1988 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Martin:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1991 < 1988 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1997, 2002, 2016, 2024]
+  Spieler Aaandiii:
+    Antwort:   zwischen 1990 und 1997 (slot 2)
+    Prüfung:   1990 < 1991 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1997, 2002, 2020, 2024]
+  Spieler Otto:
+    Antwort:   zwischen 1990 und 1997 (slot 2)
+    Prüfung:   1990 < 1991 < 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1997, 2002, 2015, 2016, 2020]
+[2026-04-24T20:22:55Z] OK       id=00465 2007  Britney Spears – Piece of Me
+
+============================================================
+[2026-04-24T20:23:22Z] RUNDE 9
+SONG:  Britney Spears – Piece of Me  (2007)
+============================================================
+  Spieler Martin:
+    Antwort:   zwischen 2002 und 2016 (slot 4)
+    Prüfung:   2002 < 2007 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1997, 2002, 2016, 2024]
+  Spieler SharkKing:
+    Antwort:   zwischen 2003 und 2015 (slot 4)
+    Prüfung:   2003 < 2007 < 2015 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2003, 2015, 2016, 2020, 2024]
+  Spieler Tristanolopolis:
+    Antwort:   zwischen 2002 und 2016 (slot 3)
+    Prüfung:   2002 < 2007 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Aaandiii:
+    Antwort:   zwischen 2002 und 2020 (slot 5)
+    Prüfung:   2002 < 2007 < 2020 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1991, 1997, 2002, 2020, 2024]
+  Spieler Otto:
+    Antwort:   zwischen 2002 und 2015 (slot 5)
+    Prüfung:   2002 < 2007 < 2015 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1991, 1997, 2002, 2015, 2016, 2020]
+  Spieler ZRrürznwos:
+    Antwort:   zwischen 2003 und 2015 (slot 5)
+    Prüfung:   2003 < 2007 < 2015 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1997, 2002, 2003, 2015, 2020, 2024]
+  Spieler Nemo:
+    Antwort:   zwischen 2016 und 2020 (slot 4)
+    Prüfung:   2016 < 2007 < 2020 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+[2026-04-24T20:23:42Z] OK       id=00113 1987  Guns N' Roses – Sweet Child o' Mine
+
+============================================================
+[2026-04-24T20:24:10Z] RUNDE 10
+SONG:  Guns N' Roses – Sweet Child o' Mine  (1987)
+============================================================
+  Spieler Nemo:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1987 < 1988 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2016, 2020]
+  Spieler Aaandiii:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1987 < 1988 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1991, 1997, 2002, 2007, 2020, 2024]
+  Spieler Tristanolopolis:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1987 < 1988 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2007, 2016, 2020]
+  Spieler Martin:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1987 < 1988 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1990, 1997, 2002, 2007, 2016, 2024]
+  Spieler Otto:
+    Antwort:   zwischen 1991 und 1997 (slot 3)
+    Prüfung:   1991 < 1987 < 1997 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1991, 1997, 2002, 2007, 2015, 2016, 2020]
+  Spieler ZRrürznwos:
+    Antwort:   zwischen 1988 und 1990 (slot 1)
+    Prüfung:   1988 < 1987 < 1990 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 1990, 1997, 2002, 2003, 2007, 2015, 2020, 2024]
+  Spieler SharkKing:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1987 < 1988 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1997, 2002, 2003, 2007, 2015, 2016, 2020, 2024]
+[2026-04-24T21:24:26Z] OK       id=00071 1976  Eagles – Hotel California
+
+============================================================
+[2026-04-24T21:24:47Z] RUNDE 1
+SONG:  Eagles – Hotel California  (1976)
+============================================================
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   vor 2008 (slot 0)
+    Prüfung:   1976 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2008, 2012]
+  Spieler Miss Kitty:
+    Antwort:   vor 2008 (slot 0)
+    Prüfung:   1976 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2008, 2012]
+  Spieler 😈:
+    Antwort:   vor 2008 (slot 0)
+    Prüfung:   1976 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2008, 2012]
+  Spieler QuizLord:
+    Antwort:   vor 2008 (slot 0)
+    Prüfung:   1976 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2008, 2012]
+  Spieler MyDay 😜:
+    Antwort:   vor 2008 (slot 0)
+    Prüfung:   1976 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2008, 2012]
+  Spieler Lio Rex:
+    Antwort:   vor 2008 (slot 0)
+    Prüfung:   1976 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2008, 2012]
+[2026-04-24T21:25:12Z] OK       id=00049 2013  Katy Perry – Roar
+
+============================================================
+[2026-04-24T21:25:39Z] RUNDE 2
+SONG:  Katy Perry – Roar  (2013)
+============================================================
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   nach 2012 (slot 3)
+    Prüfung:   2013 > 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012]
+  Spieler Lio Rex:
+    Antwort:   zwischen 2008 und 2012 (slot 2)
+    Prüfung:   2008 < 2013 < 2012 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012]
+  Spieler MyDay 😜:
+    Antwort:   nach 2012 (slot 3)
+    Prüfung:   2013 > 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012]
+  Spieler Miss Kitty:
+    Antwort:   nach 2012 (slot 3)
+    Prüfung:   2013 > 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012]
+  Spieler 😈:
+    Antwort:   nach 2012 (slot 3)
+    Prüfung:   2013 > 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012]
+  Spieler QuizLord:
+    Antwort:   nach 2012 (slot 3)
+    Prüfung:   2013 > 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012]
+[2026-04-24T21:26:06Z] OK       id=00297 2011  Lady Gaga – Born This Way
+
+============================================================
+[2026-04-24T21:26:35Z] RUNDE 3
+SONG:  Lady Gaga – Born This Way  (2011)
+============================================================
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   nach 2013 (slot 4)
+    Prüfung:   2011 > 2013 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012, 2013]
+  Spieler MyDay 😜:
+    Antwort:   nach 2013 (slot 4)
+    Prüfung:   2011 > 2013 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012, 2013]
+  Spieler Lio Rex:
+    Antwort:   nach 2012 (slot 3)
+    Prüfung:   2011 > 2012 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012]
+  Spieler 😈:
+    Antwort:   nach 2013 (slot 4)
+    Prüfung:   2011 > 2013 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012, 2013]
+  Spieler QuizLord:
+    Antwort:   zwischen 2008 und 2012 (slot 2)
+    Prüfung:   2008 < 2011 < 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2013]
+  Spieler Miss Kitty:
+    Antwort:   nach 2013 (slot 4)
+    Prüfung:   2011 > 2013 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012, 2013]
+[2026-04-24T21:27:03Z] OK       id=00112 2018  Marshmello ft. Bastille – Happier
+
+============================================================
+[2026-04-24T21:27:31Z] RUNDE 4
+SONG:  Marshmello ft. Bastille – Happier  (2018)
+============================================================
+  Spieler QuizLord:
+    Antwort:   nach 2013 (slot 5)
+    Prüfung:   2018 > 2013 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2011, 2012, 2013]
+  Spieler MyDay 😜:
+    Antwort:   nach 2013 (slot 4)
+    Prüfung:   2018 > 2013 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2013]
+  Spieler 😈:
+    Antwort:   zwischen 1976 und 2008 (slot 1)
+    Prüfung:   1976 < 2018 < 2008 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012, 2013]
+  Spieler Lio Rex:
+    Antwort:   nach 2012 (slot 3)
+    Prüfung:   2018 > 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012]
+  Spieler Miss Kitty:
+    Antwort:   nach 2013 (slot 4)
+    Prüfung:   2018 > 2013 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2013]
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   nach 2013 (slot 4)
+    Prüfung:   2018 > 2013 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2013]
+[2026-04-24T21:27:55Z] OK       id=00453 2009  Pitbull – I Know You Want Me (Calle Ocho)
+
+============================================================
+[2026-04-24T21:28:21Z] RUNDE 5
+SONG:  Pitbull – I Know You Want Me (Calle Ocho)  (2009)
+============================================================
+  Spieler 😈:
+    Antwort:   zwischen 2008 und 2012 (slot 2)
+    Prüfung:   2008 < 2009 < 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2013]
+  Spieler Lio Rex:
+    Antwort:   zwischen 2012 und 2018 (slot 3)
+    Prüfung:   2012 < 2009 < 2018 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012, 2018]
+  Spieler QuizLord:
+    Antwort:   zwischen 2013 und 2018 (slot 5)
+    Prüfung:   2013 < 2009 < 2018 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2011, 2012, 2013, 2018]
+  Spieler Miss Kitty:
+    Antwort:   zwischen 2013 und 2018 (slot 4)
+    Prüfung:   2013 < 2009 < 2018 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012, 2013, 2018]
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   zwischen 2013 und 2018 (slot 4)
+    Prüfung:   2013 < 2009 < 2018 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 2008, 2012, 2013, 2018]
+  Spieler MyDay 😜:
+    Antwort:   zwischen 2008 und 2012 (slot 2)
+    Prüfung:   2008 < 2009 < 2012 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2013, 2018]
+[2026-04-24T21:28:41Z] OK       id=00022 1984  George Michael – Careless Whisper
+
+============================================================
+[2026-04-24T21:28:59Z] RUNDE 6
+SONG:  George Michael – Careless Whisper  (1984)
+============================================================
+  Spieler 😈:
+    Antwort:   zwischen 1976 und 2008 (slot 1)
+    Prüfung:   1976 < 1984 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2009, 2012, 2013]
+  Spieler MyDay 😜:
+    Antwort:   zwischen 1976 und 2008 (slot 1)
+    Prüfung:   1976 < 1984 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2009, 2012, 2013, 2018]
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   zwischen 1976 und 2008 (slot 1)
+    Prüfung:   1976 < 1984 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2013, 2018]
+  Spieler Lio Rex:
+    Antwort:   zwischen 1976 und 2008 (slot 1)
+    Prüfung:   1976 < 1984 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2018]
+  Spieler QuizLord:
+    Antwort:   zwischen 1976 und 2008 (slot 1)
+    Prüfung:   1976 < 1984 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2011, 2012, 2013, 2018]
+  Spieler Miss Kitty:
+    Antwort:   zwischen 1976 und 2008 (slot 1)
+    Prüfung:   1976 < 1984 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 2008, 2012, 2013, 2018]
+[2026-04-24T21:29:19Z] OK       id=00129 2017  Ed Sheeran – Shape of You
+
+============================================================
+[2026-04-24T21:29:44Z] RUNDE 7
+SONG:  Ed Sheeran – Shape of You  (2017)
+============================================================
+  Spieler MyDay 😜:
+    Antwort:   zwischen 2013 und 2018 (slot 6)
+    Prüfung:   2013 < 2017 < 2018 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2009, 2012, 2013, 2018]
+  Spieler 😈:
+    Antwort:   nach 2013 (slot 6)
+    Prüfung:   2017 > 2013 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2009, 2012, 2013]
+  Spieler Miss Kitty:
+    Antwort:   zwischen 2013 und 2018 (slot 5)
+    Prüfung:   2013 < 2017 < 2018 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2012, 2013, 2018]
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   zwischen 2013 und 2018 (slot 5)
+    Prüfung:   2013 < 2017 < 2018 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2012, 2013, 2018]
+  Spieler Lio Rex:
+    Antwort:   zwischen 2012 und 2018 (slot 4)
+    Prüfung:   2012 < 2017 < 2018 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2012, 2018]
+  Spieler QuizLord:
+    Antwort:   zwischen 2013 und 2018 (slot 6)
+    Prüfung:   2013 < 2017 < 2018 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2011, 2012, 2013, 2018]
+[2026-04-24T21:30:05Z] OK       id=00122 2002  Eminem – Lose Yourself
+
+============================================================
+[2026-04-24T21:30:30Z] RUNDE 8
+SONG:  Eminem – Lose Yourself  (2002)
+============================================================
+  Spieler MyDay 😜:
+    Antwort:   zwischen 1984 und 2008 (slot 2)
+    Prüfung:   1984 < 2002 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2009, 2012, 2013, 2017, 2018]
+  Spieler 😈:
+    Antwort:   zwischen 1984 und 2008 (slot 2)
+    Prüfung:   1984 < 2002 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2009, 2012, 2013, 2017]
+  Spieler Miss Kitty:
+    Antwort:   zwischen 1984 und 2008 (slot 2)
+    Prüfung:   1984 < 2002 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2012, 2013, 2017, 2018]
+  Spieler Lio Rex:
+    Antwort:   zwischen 2008 und 2012 (slot 3)
+    Prüfung:   2008 < 2002 < 2012 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 1984, 2008, 2012, 2017, 2018]
+  Spieler QuizLord:
+    Antwort:   zwischen 1984 und 2008 (slot 2)
+    Prüfung:   1984 < 2002 < 2008 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2008, 2011, 2012, 2013, 2017, 2018]
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   zwischen 2008 und 2012 (slot 3)
+    Prüfung:   2008 < 2002 < 2012 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 1984, 2008, 2012, 2013, 2017, 2018]
+[2026-04-24T21:30:50Z] OK       id=00354 1971  David Bowie – Life on Mars?
+
+============================================================
+[2026-04-24T21:31:17Z] RUNDE 9
+SONG:  David Bowie – Life on Mars?  (1971)
+============================================================
+  Spieler 😈:
+    Antwort:   vor 1976 (slot 0)
+    Prüfung:   1971 < 1976 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2002, 2008, 2009, 2012, 2013, 2017]
+  Spieler QuizLord:
+    Antwort:   vor 1976 (slot 0)
+    Prüfung:   1971 < 1976 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2002, 2008, 2011, 2012, 2013, 2017, 2018]
+  Spieler ♥️QuizMaus♥️:
+    Antwort:   zwischen 1976 und 1984 (slot 1)
+    Prüfung:   1976 < 1971 < 1984 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 1984, 2008, 2012, 2013, 2017, 2018]
+  Spieler MyDay 😜:
+    Antwort:   vor 1976 (slot 0)
+    Prüfung:   1971 < 1976 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2002, 2008, 2009, 2012, 2013, 2017, 2018]
+  Spieler Miss Kitty:
+    Antwort:   vor 1976 (slot 0)
+    Prüfung:   1971 < 1976 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1976, 1984, 2002, 2008, 2012, 2013, 2017, 2018]
+  Spieler Lio Rex:
+    Antwort:   zwischen 1976 und 1984 (slot 1)
+    Prüfung:   1976 < 1971 < 1984 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1976, 1984, 2008, 2012, 2017, 2018]

@@ -141,8 +141,8 @@ html, body {
 
 /* RIGHT sidebar – 1:1 aus soundyear */
 .ps__sidebar {
-  flex: 0 0 43.27vw;
-  width: 43.27vw;
+  flex: 0 0 38.84vw;
+  width: 38.84vw;
   height: calc(100vh - 4.16vw);
   display: flex;
   align-items: flex-start;
@@ -237,7 +237,7 @@ html, body {
 }
 
 .ps__scorePop {
-  font-size: 4rem; font-weight: 500;
+  font-size: 4.5rem; font-weight: 500;
   color: rgba(255,255,255,0.95);
   font-variant-numeric: tabular-nums;
   position: absolute;

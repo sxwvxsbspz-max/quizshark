@@ -1,345 +1,5 @@
 [
     {
-        "id": "00150",
-        "category": "2020er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Greedy",
-        "wrong": [
-            "Tate McRae Dance",
-            "I Would Want Myself Too",
-            "Greedy For Love"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Greedy",
-        "artist": "Tate McRae",
-        "year": "2023"
-    },
-    {
-        "id": "00152",
-        "category": "80er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "INXS",
-        "wrong": [
-            "Midnight Oil",
-            "Men at Work",
-            "The Cars"
-        ],
-        "image": "",
-        "lastplayed": "2026-04-08T19:31:50Z",
-        "audio": "itunes_auto",
-        "title": "Need You Tonight",
-        "artist": "INXS",
-        "year": "1987"
-    },
-    {
-        "id": "00153",
-        "category": "2000er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Crazy In Love",
-        "wrong": [
-            "Uh Oh Uh Oh",
-            "Got Me Looking So Crazy",
-            "Beyoncé Beats"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Crazy In Love",
-        "artist": "Beyoncé ft. Jay-Z",
-        "year": "2003"
-    },
-    {
-        "id": "00154",
-        "category": "2000er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Sportfreunde Stiller",
-        "wrong": [
-            "Die Ärzte",
-            "Die Toten Hosen",
-            "Revolverheld"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Ein Kompliment",
-        "artist": "Sportfreunde Stiller",
-        "year": "2002"
-    },
-    {
-        "id": "00155",
-        "category": "90er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "What Is Love",
-        "wrong": [
-            "Don't Hurt Me",
-            "Baby Don't Hurt Me",
-            "No More"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "What Is Love",
-        "artist": "Haddaway",
-        "year": "1993"
-    },
-    {
-        "id": "00156",
-        "category": "90er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Stay (I Missed You)",
-        "wrong": [
-            "Over My Shoulder",
-            "Missed You",
-            "Stay With Me"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Stay (I Missed You)",
-        "artist": "Lisa Loeb",
-        "year": "1994"
-    },
-    {
-        "id": "00157",
-        "category": "80er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Ultravox",
-        "wrong": [
-            "Visage",
-            "Spandau Ballet",
-            "Duran Duran"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Vienna",
-        "artist": "Ultravox",
-        "year": "1980"
-    },
-    {
-        "id": "00158",
-        "category": "80er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Bruce Springsteen",
-        "wrong": [
-            "Bob Seger",
-            "Billy Joel",
-            "Tom Petty"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Born in the U.S.A.",
-        "artist": "Bruce Springsteen",
-        "year": "1984"
-    },
-    {
-        "id": "00159",
-        "category": "Vor 1980",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Dolly Parton",
-        "wrong": [
-            "Loretta Lynn",
-            "Tammy Wynette",
-            "Linda Ronstadt"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Jolene",
-        "artist": "Dolly Parton",
-        "year": "1973"
-    },
-    {
-        "id": "00160",
-        "category": "Hits vor 1980",
-        "question": "Wie heißt dieser Song?",
-        "correct": "California Dreaming",
-        "wrong": [
-            "All The Leaves Are Brown",
-            "Winter's Day",
-            "Sky Is Grey"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "California Dreaming",
-        "artist": "The Mamas & the Papas",
-        "year": "1965"
-    },
-    {
-        "id": "00161",
-        "category": "2000er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "No Doubt",
-        "wrong": [
-            "Garbage",
-            "The Cardigans",
-            "Texas"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "It's My Life",
-        "artist": "No Doubt",
-        "year": "2003"
-    },
-    {
-        "id": "00162",
-        "category": "90er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Scorpions",
-        "wrong": [
-            "Bon Jovi",
-            "Aerosmith",
-            "Guns N' Roses"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Wind of Change",
-        "artist": "Scorpions",
-        "year": "1990"
-    },
-    {
-        "id": "00163",
-        "category": "2000er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Crazy",
-        "wrong": [
-            "Does That Make Me Crazy",
-            "Gnarls Barkley Soul",
-            "Possibly Maybe"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Crazy",
-        "artist": "Gnarls Barkley",
-        "year": "2006"
-    },
-    {
-        "id": "00164",
-        "category": "2020er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Olivia Rodrigo",
-        "wrong": [
-            "Paramore",
-            "Avril Lavigne",
-            "Billie Eilish"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "good 4 u",
-        "artist": "Olivia Rodrigo",
-        "year": "2021"
-    },
-    {
-        "id": "00165",
-        "category": "2010er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Faded",
-        "wrong": [
-            "Alan Walker Dream",
-            "Where Are You Now",
-            "Atlantis"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Faded",
-        "artist": "Alan Walker",
-        "year": "2015"
-    },
-    {
-        "id": "00166",
-        "category": "Hits vor 1980",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Knockin' on Heaven's Door",
-        "wrong": [
-            "Mama Take This Badge",
-            "Getting Dark",
-            "Heaven's Door"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Knockin' on Heaven's Door",
-        "artist": "Bob Dylan",
-        "year": "1973"
-    },
-    {
-        "id": "00167",
-        "category": "90er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Black or White",
-        "wrong": [
-            "It Don't Matter",
-            "My Baby",
-            "Protection"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Black or White",
-        "artist": "Michael Jackson",
-        "year": "1991"
-    },
-    {
-        "id": "00168",
-        "category": "2010er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Calvin Harris ft. Rihanna",
-        "wrong": [
-            "David Guetta",
-            "Avicii",
-            "Zedd"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "This Is What You Came For",
-        "artist": "Calvin Harris",
-        "year": "2016"
-    },
-    {
-        "id": "00169",
-        "category": "2020er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Hype Boy",
-        "wrong": [
-            "NewJeans K-Pop",
-            "Hype Hype",
-            "NewJeans Love"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Hype Boy",
-        "artist": "NewJeans",
-        "year": "2022"
-    },
-    {
-        "id": "00170",
-        "category": "2010er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Lewis Capaldi",
-        "wrong": [
-            "Ed Sheeran",
-            "James Arthur",
-            "Sam Smith"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Someone You Loved",
-        "artist": "Lewis Capaldi",
-        "year": "2018"
-    },
-    {
         "id": "00171",
         "category": "Vor 1980",
         "question": "Von wem ist dieser Song?",
@@ -357,57 +17,6 @@
         "year": "1967"
     },
     {
-        "id": "00172",
-        "category": "2020er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Peggy Gou",
-        "wrong": [
-            "Honey Dijon",
-            "The Blessed Madonna",
-            "Purple Disco Machine"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "(It Goes Like) Nanana",
-        "artist": "Peggy Gou",
-        "year": "2023"
-    },
-    {
-        "id": "00173",
-        "category": "2010er Hits",
-        "question": "Wie heißt dieser Song?",
-        "correct": "Old Town Road",
-        "wrong": [
-            "Lil Nas X Ride",
-            "Can't Nobody Tell Me Nothing",
-            "Horses In The Back"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Old Town Road",
-        "artist": "Lil Nas X",
-        "year": "2019"
-    },
-    {
-        "id": "00174",
-        "category": "90er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "Tic Tac Toe",
-        "wrong": [
-            "Lucilectric",
-            "Blümchen",
-            "Sabrina Setlur"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Verpiss' dich",
-        "artist": "Tic Tac Toe",
-        "year": "1996"
-    },
-    {
         "id": "00175",
         "category": "2010er Hits",
         "question": "Wie heißt dieser Song?",
@@ -423,23 +32,6 @@
         "title": "Thinking Out Loud",
         "artist": "Ed Sheeran",
         "year": "2014"
-    },
-    {
-        "id": "00176",
-        "category": "2000er Hits",
-        "question": "Von wem ist dieser Song?",
-        "correct": "The White Stripes",
-        "wrong": [
-            "The Strokes",
-            "The Hives",
-            "Franz Ferdinand"
-        ],
-        "image": "",
-        "lastplayed": "",
-        "audio": "itunes_auto",
-        "title": "Seven Nation Army",
-        "artist": "The White Stripes",
-        "year": "2003"
     },
     {
         "id": "00177",
@@ -469,7 +61,7 @@
             "Luis Fonsi"
         ],
         "image": "",
-        "lastplayed": "",
+        "lastplayed": "2026-04-24T21:15:25Z",
         "audio": "itunes_auto",
         "title": "Mi Gente",
         "artist": "J Balvin",
@@ -17848,5 +17440,413 @@
         "title": "Sweet Caroline",
         "artist": "Neil Diamond",
         "year": "1969"
+    },
+    {
+        "id": "00152",
+        "category": "80er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "INXS",
+        "wrong": [
+            "Midnight Oil",
+            "Men at Work",
+            "The Cars"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-08T19:31:50Z",
+        "audio": "itunes_auto",
+        "title": "Need You Tonight",
+        "artist": "INXS",
+        "year": "1987"
+    },
+    {
+        "id": "00150",
+        "category": "2020er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Greedy",
+        "wrong": [
+            "Tate McRae Dance",
+            "I Would Want Myself Too",
+            "Greedy For Love"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:52:41Z",
+        "audio": "itunes_auto",
+        "title": "Greedy",
+        "artist": "Tate McRae",
+        "year": "2023"
+    },
+    {
+        "id": "00153",
+        "category": "2000er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Crazy In Love",
+        "wrong": [
+            "Uh Oh Uh Oh",
+            "Got Me Looking So Crazy",
+            "Beyoncé Beats"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:53:10Z",
+        "audio": "itunes_auto",
+        "title": "Crazy In Love",
+        "artist": "Beyoncé ft. Jay-Z",
+        "year": "2003"
+    },
+    {
+        "id": "00158",
+        "category": "80er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Bruce Springsteen",
+        "wrong": [
+            "Bob Seger",
+            "Billy Joel",
+            "Tom Petty"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:53:37Z",
+        "audio": "itunes_auto",
+        "title": "Born in the U.S.A.",
+        "artist": "Bruce Springsteen",
+        "year": "1984"
+    },
+    {
+        "id": "00154",
+        "category": "2000er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Sportfreunde Stiller",
+        "wrong": [
+            "Die Ärzte",
+            "Die Toten Hosen",
+            "Revolverheld"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:54:02Z",
+        "audio": "itunes_auto",
+        "title": "Ein Kompliment",
+        "artist": "Sportfreunde Stiller",
+        "year": "2002"
+    },
+    {
+        "id": "00156",
+        "category": "90er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Stay (I Missed You)",
+        "wrong": [
+            "Over My Shoulder",
+            "Missed You",
+            "Stay With Me"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:54:33Z",
+        "audio": "itunes_auto",
+        "title": "Stay (I Missed You)",
+        "artist": "Lisa Loeb",
+        "year": "1994"
+    },
+    {
+        "id": "00160",
+        "category": "Hits vor 1980",
+        "question": "Wie heißt dieser Song?",
+        "correct": "California Dreaming",
+        "wrong": [
+            "All The Leaves Are Brown",
+            "Winter's Day",
+            "Sky Is Grey"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T17:55:00Z",
+        "audio": "itunes_auto",
+        "title": "California Dreaming",
+        "artist": "The Mamas & the Papas",
+        "year": "1965"
+    },
+    {
+        "id": "00157",
+        "category": "80er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Ultravox",
+        "wrong": [
+            "Visage",
+            "Spandau Ballet",
+            "Duran Duran"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:57:28Z",
+        "audio": "itunes_auto",
+        "title": "Vienna",
+        "artist": "Ultravox",
+        "year": "1980"
+    },
+    {
+        "id": "00155",
+        "category": "90er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "What Is Love",
+        "wrong": [
+            "Don't Hurt Me",
+            "Baby Don't Hurt Me",
+            "No More"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:57:59Z",
+        "audio": "itunes_auto",
+        "title": "What Is Love",
+        "artist": "Haddaway",
+        "year": "1993"
+    },
+    {
+        "id": "00159",
+        "category": "Vor 1980",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Dolly Parton",
+        "wrong": [
+            "Loretta Lynn",
+            "Tammy Wynette",
+            "Linda Ronstadt"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:58:24Z",
+        "audio": "itunes_auto",
+        "title": "Jolene",
+        "artist": "Dolly Parton",
+        "year": "1973"
+    },
+    {
+        "id": "00161",
+        "category": "2000er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "No Doubt",
+        "wrong": [
+            "Garbage",
+            "The Cardigans",
+            "Texas"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:58:54Z",
+        "audio": "itunes_auto",
+        "title": "It's My Life",
+        "artist": "No Doubt",
+        "year": "2003"
+    },
+    {
+        "id": "00163",
+        "category": "2000er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Crazy",
+        "wrong": [
+            "Does That Make Me Crazy",
+            "Gnarls Barkley Soul",
+            "Possibly Maybe"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:59:30Z",
+        "audio": "itunes_auto",
+        "title": "Crazy",
+        "artist": "Gnarls Barkley",
+        "year": "2006"
+    },
+    {
+        "id": "00162",
+        "category": "90er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Scorpions",
+        "wrong": [
+            "Bon Jovi",
+            "Aerosmith",
+            "Guns N' Roses"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T18:59:54Z",
+        "audio": "itunes_auto",
+        "title": "Wind of Change",
+        "artist": "Scorpions",
+        "year": "1990"
+    },
+    {
+        "id": "00167",
+        "category": "90er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Black or White",
+        "wrong": [
+            "It Don't Matter",
+            "My Baby",
+            "Protection"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:04:38Z",
+        "audio": "itunes_auto",
+        "title": "Black or White",
+        "artist": "Michael Jackson",
+        "year": "1991"
+    },
+    {
+        "id": "00166",
+        "category": "Hits vor 1980",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Knockin' on Heaven's Door",
+        "wrong": [
+            "Mama Take This Badge",
+            "Getting Dark",
+            "Heaven's Door"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:05:01Z",
+        "audio": "itunes_auto",
+        "title": "Knockin' on Heaven's Door",
+        "artist": "Bob Dylan",
+        "year": "1973"
+    },
+    {
+        "id": "00164",
+        "category": "2020er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Olivia Rodrigo",
+        "wrong": [
+            "Paramore",
+            "Avril Lavigne",
+            "Billie Eilish"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:05:24Z",
+        "audio": "itunes_auto",
+        "title": "good 4 u",
+        "artist": "Olivia Rodrigo",
+        "year": "2021"
+    },
+    {
+        "id": "00170",
+        "category": "2010er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Lewis Capaldi",
+        "wrong": [
+            "Ed Sheeran",
+            "James Arthur",
+            "Sam Smith"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:05:48Z",
+        "audio": "itunes_auto",
+        "title": "Someone You Loved",
+        "artist": "Lewis Capaldi",
+        "year": "2018"
+    },
+    {
+        "id": "00168",
+        "category": "2010er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Calvin Harris ft. Rihanna",
+        "wrong": [
+            "David Guetta",
+            "Avicii",
+            "Zedd"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:06:17Z",
+        "audio": "itunes_auto",
+        "title": "This Is What You Came For",
+        "artist": "Calvin Harris",
+        "year": "2016"
+    },
+    {
+        "id": "00165",
+        "category": "2010er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Faded",
+        "wrong": [
+            "Alan Walker Dream",
+            "Where Are You Now",
+            "Atlantis"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T20:06:45Z",
+        "audio": "itunes_auto",
+        "title": "Faded",
+        "artist": "Alan Walker",
+        "year": "2015"
+    },
+    {
+        "id": "00172",
+        "category": "2020er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Peggy Gou",
+        "wrong": [
+            "Honey Dijon",
+            "The Blessed Madonna",
+            "Purple Disco Machine"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:12:48Z",
+        "audio": "itunes_auto",
+        "title": "(It Goes Like) Nanana",
+        "artist": "Peggy Gou",
+        "year": "2023"
+    },
+    {
+        "id": "00174",
+        "category": "90er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "Tic Tac Toe",
+        "wrong": [
+            "Lucilectric",
+            "Blümchen",
+            "Sabrina Setlur"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:13:19Z",
+        "audio": "itunes_auto",
+        "title": "Verpiss' dich",
+        "artist": "Tic Tac Toe",
+        "year": "1996"
+    },
+    {
+        "id": "00176",
+        "category": "2000er Hits",
+        "question": "Von wem ist dieser Song?",
+        "correct": "The White Stripes",
+        "wrong": [
+            "The Strokes",
+            "The Hives",
+            "Franz Ferdinand"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:13:55Z",
+        "audio": "itunes_auto",
+        "title": "Seven Nation Army",
+        "artist": "The White Stripes",
+        "year": "2003"
+    },
+    {
+        "id": "00169",
+        "category": "2020er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Hype Boy",
+        "wrong": [
+            "NewJeans K-Pop",
+            "Hype Hype",
+            "NewJeans Love"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:14:28Z",
+        "audio": "itunes_auto",
+        "title": "Hype Boy",
+        "artist": "NewJeans",
+        "year": "2022"
+    },
+    {
+        "id": "00173",
+        "category": "2010er Hits",
+        "question": "Wie heißt dieser Song?",
+        "correct": "Old Town Road",
+        "wrong": [
+            "Lil Nas X Ride",
+            "Can't Nobody Tell Me Nothing",
+            "Horses In The Back"
+        ],
+        "image": "",
+        "lastplayed": "2026-04-24T21:15:02Z",
+        "audio": "itunes_auto",
+        "title": "Old Town Road",
+        "artist": "Lil Nas X",
+        "year": "2019"
     }
 ]

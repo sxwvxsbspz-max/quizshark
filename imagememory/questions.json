@@ -1,577 +1,11 @@
 [
     {
-        "image_id": "img_0003",
-        "title": "Badesee und Liegewiese",
-        "category": "Other",
-        "image": "memoryimage0003.png",
-        "audio": "",
-        "lastplayed": "2026-04-08T19:40:09Z",
-        "questions": [
-            {
-                "id": 1,
-                "question": "Welche Nummer steht auf dem roten Tretboot?",
-                "correct": "27",
-                "wrong": [
-                    "21",
-                    "17",
-                    "72"
-                ],
-                "audio": "question-img_0003-1.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 2,
-                "question": "Welche Farbgebung hat der Sonnenschirm auf der Liegewiese?",
-                "correct": "blau-weiß gestreift",
-                "wrong": [
-                    "gelb-weiß gestreift",
-                    "einfarbig blau",
-                    "rot-weiß gestreift"
-                ],
-                "audio": "question-img_0003-2.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 3,
-                "question": "Welche Farbe hat das Etikett auf der Glasflasche?",
-                "correct": "gelb",
-                "wrong": [
-                    "grün",
-                    "weiß",
-                    "rot"
-                ],
-                "audio": "question-img_0003-3.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 4,
-                "question": "Welche Farbe haben die Flip-Flops vor der Bank?",
-                "correct": "schwarz",
-                "wrong": [
-                    "blau",
-                    "weiß",
-                    "grün"
-                ],
-                "audio": "question-img_0003-4.mp3",
-                "lastplayed": "2026-04-08T19:40:09Z"
-            },
-            {
-                "id": 5,
-                "question": "Welche Farbe dominiert das Handtuch auf dem Gras?",
-                "correct": "gelb",
-                "wrong": [
-                    "rot",
-                    "blau",
-                    "grün"
-                ],
-                "audio": "question-img_0003-5.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 6,
-                "question": "Welche Farbe hat der Sattel des Fahrrads?",
-                "correct": "braun",
-                "wrong": [
-                    "schwarz",
-                    "grau",
-                    "weiß"
-                ],
-                "audio": "question-img_0003-6.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 8,
-                "question": "Welche Farbe hat der Deckel der Trinkflasche?",
-                "correct": "blau",
-                "wrong": [
-                    "rot",
-                    "grün",
-                    "schwarz"
-                ],
-                "audio": "question-img_0003-8.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 9,
-                "question": "Welche Farbe hat der Rucksack neben der Bank?",
-                "correct": "dunkelgrün",
-                "wrong": [
-                    "schwarz",
-                    "grau",
-                    "blau"
-                ],
-                "audio": "question-img_0003-9.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 10,
-                "question": "Welche Farbe hat der Volleyball auf der Wiese?",
-                "correct": "orange",
-                "wrong": [
-                    "gelb",
-                    "weiß",
-                    "rot"
-                ],
-                "audio": "question-img_0003-10.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 11,
-                "question": "Aus welchem Material ist das Armband der Uhr?",
-                "correct": "Leder",
-                "wrong": [
-                    "Metall",
-                    "Gummi",
-                    "Stoff"
-                ],
-                "audio": "question-img_0003-11.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 12,
-                "question": "Was kostet ein Eis?",
-                "correct": "2,50 €",
-                "wrong": [
-                    "1,50 €",
-                    "3,00 €",
-                    "2,00 €"
-                ],
-                "audio": "question-img_0003-12.mp3",
-                "lastplayed": ""
-            },
-            {
-                "id": 7,
-                "question": "In welcher Form ist das aufblasbare Schwimmtier?",
-                "correct": "Flamingo",
-                "wrong": [
-                    "Schwan",
-                    "Einhorn",
-                    "Krokodil"
-                ],
-                "audio": "question-img_0003-7.mp3",
-                "lastplayed": "2026-01-18T20:00:15Z"
-            }
-        ]
-    },
-    {
-        "image_id": "img_0008",
-        "title": "",
-        "category": "Other",
-        "image": "memoryimage0008.png",
-        "audio": "",
-        "lastplayed": "2026-01-19T20:46:48Z",
-        "questions": [
-            {
-                "id": 1,
-                "category": "Other",
-                "question": "Welche Farbe hat das Auto?",
-                "correct": "rot",
-                "wrong": [
-                    "blau",
-                    "schwarz",
-                    "weiß"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-1.mp3"
-            },
-            {
-                "id": 2,
-                "category": "Other",
-                "question": "Welche Farbe zeigt die Ampel?",
-                "correct": "rot",
-                "wrong": [
-                    "grün",
-                    "gelb",
-                    "aus"
-                ],
-                "image": "",
-                "lastplayed": "2026-01-19T20:46:48Z",
-                "audio": "question-img_0008-2.mp3"
-            },
-            {
-                "id": 3,
-                "category": "Other",
-                "question": "Wie viele Streifen hat der Zebrastreifen?",
-                "correct": "fünf",
-                "wrong": [
-                    "vier",
-                    "sechs",
-                    "sieben"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-3.mp3"
-            },
-            {
-                "id": 4,
-                "category": "Other",
-                "question": "Welche Richtung zeigt der Pfeil auf dem Verkehrsschild?",
-                "correct": "nach rechts",
-                "wrong": [
-                    "nach links",
-                    "nach unten",
-                    "nach oben"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-4.mp3"
-            },
-            {
-                "id": 5,
-                "category": "Other",
-                "question": "Welche Farbe hat der Lieferwagen?",
-                "correct": "gelb",
-                "wrong": [
-                    "weiß",
-                    "grau",
-                    "blau"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-5.mp3"
-            },
-            {
-                "id": 6,
-                "category": "Other",
-                "question": "Welche Farbe hat die Jacke des Fußgängers?",
-                "correct": "grün",
-                "wrong": [
-                    "blau",
-                    "schwarz",
-                    "rot"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-6.mp3"
-            },
-            {
-                "id": 7,
-                "category": "Other",
-                "question": "Welche Farbe hat der Motorroller?",
-                "correct": "schwarz",
-                "wrong": [
-                    "rot",
-                    "grau",
-                    "blau"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-7.mp3"
-            },
-            {
-                "id": 8,
-                "category": "Other",
-                "question": "Welcher Text steht auf dem Straßenschild?",
-                "correct": "Tempo 30",
-                "wrong": [
-                    "Tempo 50",
-                    "Zone 20",
-                    "Tempo 40"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-8.mp3"
-            },
-            {
-                "id": 9,
-                "category": "Other",
-                "question": "Welche Lichtfarbe hat die Straßenlaterne?",
-                "correct": "warmgelb",
-                "wrong": [
-                    "weiß",
-                    "blau",
-                    "grün"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-9.mp3"
-            },
-            {
-                "id": 10,
-                "category": "Other",
-                "question": "Wo liegt der Kanaldeckel?",
-                "correct": "mittig auf der Fahrbahn",
-                "wrong": [
-                    "auf dem Gehweg",
-                    "am Bordstein",
-                    "in der Parkbucht"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-10.mp3"
-            },
-            {
-                "id": 11,
-                "category": "Other",
-                "question": "Welches Symbol zeigt das Haltestellenschild?",
-                "correct": "ein gelbes H",
-                "wrong": [
-                    "ein blaues B",
-                    "ein rotes X",
-                    "ein weißes S"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-11.mp3"
-            },
-            {
-                "id": 12,
-                "category": "Other",
-                "question": "Welche Farbe hat der Lieferkarton auf dem Gehweg?",
-                "correct": "weiß",
-                "wrong": [
-                    "braun",
-                    "grau",
-                    "gelb"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-12.mp3"
-            },
-            {
-                "id": 13,
-                "category": "Other",
-                "question": "Welche Farbgebung hat die Baustellenbake?",
-                "correct": "weiß-rot gestreift",
-                "wrong": [
-                    "gelb-schwarz gestreift",
-                    "blau-weiß gestreift",
-                    "einfarbig rot"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0008-13.mp3"
-            }
-        ]
-    },
-    {
-        "image_id": "img_0007",
-        "title": "",
-        "category": "Other",
-        "image": "memoryimage0007.png",
-        "audio": "",
-        "lastplayed": "2026-01-19T21:23:44Z",
-        "questions": [
-            {
-                "id": 1,
-                "category": "Other",
-                "question": "Welche Farbe hat der Einkaufskorb im Gang?",
-                "correct": "rot",
-                "wrong": [
-                    "blau",
-                    "schwarz",
-                    "grün"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-1.mp3"
-            },
-            {
-                "id": 2,
-                "category": "Other",
-                "question": "Welche Gewichtsangabe steht auf der Spaghetti-Packung?",
-                "correct": "500 g",
-                "wrong": [
-                    "400 g",
-                    "750 g",
-                    "1 kg"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-2.mp3"
-            },
-            {
-                "id": 3,
-                "category": "Other",
-                "question": "Welche Farbe hat der Deckel der Mineralwasserflasche?",
-                "correct": "weiß",
-                "wrong": [
-                    "blau",
-                    "grün",
-                    "rot"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-3.mp3"
-            },
-            {
-                "id": 4,
-                "category": "Other",
-                "question": "Welcher Preis steht auf dem Preisschild?",
-                "correct": "1,99 €",
-                "wrong": [
-                    "2,49 €",
-                    "1,49 €",
-                    "0,99 €"
-                ],
-                "image": "",
-                "lastplayed": "2026-01-19T21:23:44Z",
-                "audio": "question-img_0007-4.mp3"
-            },
-            {
-                "id": 5,
-                "category": "Other",
-                "question": "Wie viele Bananen hat die Bananenstaude?",
-                "correct": "vier",
-                "wrong": [
-                    "drei",
-                    "fünf",
-                    "sechs"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-5.mp3"
-            },
-            {
-                "id": 6,
-                "category": "Other",
-                "question": "Welche Farbe hat der Griff des Einkaufswagens?",
-                "correct": "rot",
-                "wrong": [
-                    "schwarz",
-                    "grau",
-                    "blau"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-6.mp3"
-            },
-            {
-                "id": 7,
-                "category": "Other",
-                "question": "Welcher Fettgehalt steht auf der Milchtüte?",
-                "correct": "1,5 %",
-                "wrong": [
-                    "3,5 %",
-                    "0,1 %",
-                    "2,8 %"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-7.mp3"
-            },
-            {
-                "id": 8,
-                "category": "Other",
-                "question": "Welche Suppe ist auf der roten Dose abgebildet?",
-                "correct": "Tomatensuppe",
-                "wrong": [
-                    "Gemüsesuppe",
-                    "Linsensuppe",
-                    "Hühnersuppe"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-8.mp3"
-            },
-            {
-                "id": 9,
-                "category": "Other",
-                "question": "Welches Gewicht zeigt die digitale Waage?",
-                "correct": "0,842 kg",
-                "wrong": [
-                    "0,742 kg",
-                    "1,042 kg",
-                    "0,582 kg"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-9.mp3"
-            },
-            {
-                "id": 10,
-                "category": "Other",
-                "question": "Welche Sorte Pizza liegt im Tiefkühlfach?",
-                "correct": "Salami",
-                "wrong": [
-                    "Margherita",
-                    "Funghi",
-                    "Hawaii"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-10.mp3"
-            },
-            {
-                "id": 11,
-                "category": "Other",
-                "question": "Welche Farbe hat die Kassentrennleiste?",
-                "correct": "blau",
-                "wrong": [
-                    "rot",
-                    "schwarz",
-                    "gelb"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-11.mp3"
-            },
-            {
-                "id": 12,
-                "category": "Other",
-                "question": "Welche Farbe hat das Kassenband?",
-                "correct": "schwarz",
-                "wrong": [
-                    "grau",
-                    "blau",
-                    "grün"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-12.mp3"
-            },
-            {
-                "id": 13,
-                "category": "Other",
-                "question": "Welche Farbe hat die Schürze des Mitarbeiters?",
-                "correct": "grün",
-                "wrong": [
-                    "rot",
-                    "blau",
-                    "schwarz"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-13.mp3"
-            },
-            {
-                "id": 14,
-                "category": "Other",
-                "question": "Welcher Text steht auf dem Schild über dem Gang?",
-                "correct": "Backwaren",
-                "wrong": [
-                    "Getränke",
-                    "Obst & Gemüse",
-                    "Tiefkühlkost"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-14.mp3"
-            },
-            {
-                "id": 15,
-                "category": "Other",
-                "question": "Welche Farbe hat der Papierstreifen aus dem Bon-Drucker?",
-                "correct": "weiß",
-                "wrong": [
-                    "gelb",
-                    "grau",
-                    "blau"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0007-15.mp3"
-            }
-        ]
-    },
-    {
         "image_id": "img_0005",
         "title": "",
         "category": "Other",
         "image": "memoryimage0005.png",
         "audio": "",
-        "lastplayed": "2026-01-24T10:50:11Z",
+        "lastplayed": "2026-04-24T21:21:03Z",
         "questions": [
             {
                 "id": 1,
@@ -588,20 +22,6 @@
                 "audio": "question-img_0005-1.mp3"
             },
             {
-                "id": 2,
-                "category": "Other",
-                "question": "Welche Farbe haben die Badeschlappen?",
-                "correct": "blau",
-                "wrong": [
-                    "schwarz",
-                    "weiß",
-                    "grün"
-                ],
-                "image": "",
-                "lastplayed": "2026-01-24T10:50:11Z",
-                "audio": "question-img_0005-2.mp3"
-            },
-            {
                 "id": 3,
                 "category": "Other",
                 "question": "Welche Farbe hat die Schwimmnudel im Becken?",
@@ -612,7 +32,7 @@
                     "grün"
                 ],
                 "image": "",
-                "lastplayed": "",
+                "lastplayed": "2026-04-24T21:21:03Z",
                 "audio": "question-img_0005-3.mp3"
             },
             {
@@ -782,198 +202,20 @@
                 "image": "",
                 "lastplayed": "",
                 "audio": "question-img_0005-15.mp3"
-            }
-        ]
-    },
-    {
-        "image_id": "img_0009",
-        "title": "",
-        "category": "Other",
-        "image": "memoryimage0009.png",
-        "audio": "",
-        "lastplayed": "2026-01-24T18:45:21Z",
-        "questions": [
-            {
-                "id": 1,
-                "category": "Other",
-                "question": "Welche Farbe hat der Bürostuhl?",
-                "correct": "schwarz",
-                "wrong": [
-                    "grau",
-                    "blau",
-                    "weiß"
-                ],
-                "image": "",
-                "lastplayed": "2026-01-24T18:45:21Z",
-                "audio": "question-img_0009-1.mp3"
             },
             {
                 "id": 2,
                 "category": "Other",
-                "question": "In welchem Zustand befindet sich der Laptop-Bildschirm?",
-                "correct": "dunkler Sperrbildschirm",
-                "wrong": [
-                    "Video läuft",
-                    "E-Mail geöffnet",
-                    "Startmenü sichtbar"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-2.mp3"
-            },
-            {
-                "id": 3,
-                "category": "Other",
-                "question": "Wo steht die Kaffeetasse?",
-                "correct": "rechts neben dem Laptop",
-                "wrong": [
-                    "links neben dem Laptop",
-                    "auf dem Regal",
-                    "auf dem Boden"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-3.mp3"
-            },
-            {
-                "id": 4,
-                "category": "Other",
-                "question": "Welche Farbe hat der Einband des Notizbuchs?",
+                "question": "Welche Farbe haben die Badeschlappen?",
                 "correct": "blau",
                 "wrong": [
-                    "grün",
                     "schwarz",
-                    "rot"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-4.mp3"
-            },
-            {
-                "id": 5,
-                "category": "Other",
-                "question": "Welche Farbe hat der Textmarker?",
-                "correct": "gelb",
-                "wrong": [
-                    "orange",
-                    "grün",
-                    "pink"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-5.mp3"
-            },
-            {
-                "id": 6,
-                "category": "Other",
-                "question": "Was ist auf dem Monitor zu sehen?",
-                "correct": "eine Tabellenansicht mit Gittern",
-                "wrong": [
-                    "eine Präsentation",
-                    "ein Video",
-                    "ein schwarzes Display"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-6.mp3"
-            },
-            {
-                "id": 7,
-                "category": "Other",
-                "question": "Welche Farbe hat die Tastatur?",
-                "correct": "schwarz",
-                "wrong": [
                     "weiß",
-                    "grau",
-                    "silber"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-7.mp3"
-            },
-            {
-                "id": 8,
-                "category": "Other",
-                "question": "Wo liegt die Computermaus?",
-                "correct": "rechts neben der Tastatur",
-                "wrong": [
-                    "links neben der Tastatur",
-                    "auf dem Monitorfuß",
-                    "auf dem Notizbuch"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-8.mp3"
-            },
-            {
-                "id": 9,
-                "category": "Other",
-                "question": "Welche Pflanze steht auf dem Schreibtisch?",
-                "correct": "ein Kaktus",
-                "wrong": [
-                    "eine Palme",
-                    "eine Orchidee",
-                    "ein Farn"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-9.mp3"
-            },
-            {
-                "id": 10,
-                "category": "Other",
-                "question": "Ist die Schreibtischlampe eingeschaltet?",
-                "correct": "ja",
-                "wrong": [
-                    "nein",
-                    "defekt",
-                    "nicht sichtbar"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-10.mp3"
-            },
-            {
-                "id": 11,
-                "category": "Other",
-                "question": "Was ist durch das Fenster zu sehen?",
-                "correct": "ein grauer Himmel",
-                "wrong": [
-                    "blauer Himmel",
-                    "Hochhäuser",
-                    "Bäume"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-11.mp3"
-            },
-            {
-                "id": 12,
-                "category": "Other",
-                "question": "Welche Farbe hat der linke Aktenordner im Regal?",
-                "correct": "rot",
-                "wrong": [
-                    "blau",
-                    "schwarz",
                     "grün"
                 ],
                 "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-12.mp3"
-            },
-            {
-                "id": 13,
-                "category": "Other",
-                "question": "Wie liegt das Smartphone auf dem Tisch?",
-                "correct": "mit dem Display nach oben",
-                "wrong": [
-                    "mit dem Display nach unten",
-                    "an einem Ladekabel",
-                    "in einer Halterung"
-                ],
-                "image": "",
-                "lastplayed": "",
-                "audio": "question-img_0009-13.mp3"
+                "lastplayed": "2026-01-24T10:50:11Z",
+                "audio": "question-img_0005-2.mp3"
             }
         ]
     },
@@ -5871,6 +5113,764 @@
                 "image": "",
                 "lastplayed": "",
                 "audio": "question-img_0029-12.mp3"
+            }
+        ]
+    },
+    {
+        "image_id": "img_0003",
+        "title": "Badesee und Liegewiese",
+        "category": "Other",
+        "image": "memoryimage0003.png",
+        "audio": "",
+        "lastplayed": "2026-04-08T19:40:09Z",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Welche Nummer steht auf dem roten Tretboot?",
+                "correct": "27",
+                "wrong": [
+                    "21",
+                    "17",
+                    "72"
+                ],
+                "audio": "question-img_0003-1.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 2,
+                "question": "Welche Farbgebung hat der Sonnenschirm auf der Liegewiese?",
+                "correct": "blau-weiß gestreift",
+                "wrong": [
+                    "gelb-weiß gestreift",
+                    "einfarbig blau",
+                    "rot-weiß gestreift"
+                ],
+                "audio": "question-img_0003-2.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 3,
+                "question": "Welche Farbe hat das Etikett auf der Glasflasche?",
+                "correct": "gelb",
+                "wrong": [
+                    "grün",
+                    "weiß",
+                    "rot"
+                ],
+                "audio": "question-img_0003-3.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 4,
+                "question": "Welche Farbe haben die Flip-Flops vor der Bank?",
+                "correct": "schwarz",
+                "wrong": [
+                    "blau",
+                    "weiß",
+                    "grün"
+                ],
+                "audio": "question-img_0003-4.mp3",
+                "lastplayed": "2026-04-08T19:40:09Z"
+            },
+            {
+                "id": 5,
+                "question": "Welche Farbe dominiert das Handtuch auf dem Gras?",
+                "correct": "gelb",
+                "wrong": [
+                    "rot",
+                    "blau",
+                    "grün"
+                ],
+                "audio": "question-img_0003-5.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 6,
+                "question": "Welche Farbe hat der Sattel des Fahrrads?",
+                "correct": "braun",
+                "wrong": [
+                    "schwarz",
+                    "grau",
+                    "weiß"
+                ],
+                "audio": "question-img_0003-6.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 8,
+                "question": "Welche Farbe hat der Deckel der Trinkflasche?",
+                "correct": "blau",
+                "wrong": [
+                    "rot",
+                    "grün",
+                    "schwarz"
+                ],
+                "audio": "question-img_0003-8.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 9,
+                "question": "Welche Farbe hat der Rucksack neben der Bank?",
+                "correct": "dunkelgrün",
+                "wrong": [
+                    "schwarz",
+                    "grau",
+                    "blau"
+                ],
+                "audio": "question-img_0003-9.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 10,
+                "question": "Welche Farbe hat der Volleyball auf der Wiese?",
+                "correct": "orange",
+                "wrong": [
+                    "gelb",
+                    "weiß",
+                    "rot"
+                ],
+                "audio": "question-img_0003-10.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 11,
+                "question": "Aus welchem Material ist das Armband der Uhr?",
+                "correct": "Leder",
+                "wrong": [
+                    "Metall",
+                    "Gummi",
+                    "Stoff"
+                ],
+                "audio": "question-img_0003-11.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 12,
+                "question": "Was kostet ein Eis?",
+                "correct": "2,50 €",
+                "wrong": [
+                    "1,50 €",
+                    "3,00 €",
+                    "2,00 €"
+                ],
+                "audio": "question-img_0003-12.mp3",
+                "lastplayed": ""
+            },
+            {
+                "id": 7,
+                "question": "In welcher Form ist das aufblasbare Schwimmtier?",
+                "correct": "Flamingo",
+                "wrong": [
+                    "Schwan",
+                    "Einhorn",
+                    "Krokodil"
+                ],
+                "audio": "question-img_0003-7.mp3",
+                "lastplayed": "2026-01-18T20:00:15Z"
+            }
+        ]
+    },
+    {
+        "image_id": "img_0008",
+        "title": "",
+        "category": "Other",
+        "image": "memoryimage0008.png",
+        "audio": "",
+        "lastplayed": "2026-04-24T18:00:17Z",
+        "questions": [
+            {
+                "id": 1,
+                "category": "Other",
+                "question": "Welche Farbe hat das Auto?",
+                "correct": "rot",
+                "wrong": [
+                    "blau",
+                    "schwarz",
+                    "weiß"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-1.mp3"
+            },
+            {
+                "id": 3,
+                "category": "Other",
+                "question": "Wie viele Streifen hat der Zebrastreifen?",
+                "correct": "fünf",
+                "wrong": [
+                    "vier",
+                    "sechs",
+                    "sieben"
+                ],
+                "image": "",
+                "lastplayed": "2026-04-24T18:00:17Z",
+                "audio": "question-img_0008-3.mp3"
+            },
+            {
+                "id": 4,
+                "category": "Other",
+                "question": "Welche Richtung zeigt der Pfeil auf dem Verkehrsschild?",
+                "correct": "nach rechts",
+                "wrong": [
+                    "nach links",
+                    "nach unten",
+                    "nach oben"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-4.mp3"
+            },
+            {
+                "id": 5,
+                "category": "Other",
+                "question": "Welche Farbe hat der Lieferwagen?",
+                "correct": "gelb",
+                "wrong": [
+                    "weiß",
+                    "grau",
+                    "blau"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-5.mp3"
+            },
+            {
+                "id": 6,
+                "category": "Other",
+                "question": "Welche Farbe hat die Jacke des Fußgängers?",
+                "correct": "grün",
+                "wrong": [
+                    "blau",
+                    "schwarz",
+                    "rot"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-6.mp3"
+            },
+            {
+                "id": 7,
+                "category": "Other",
+                "question": "Welche Farbe hat der Motorroller?",
+                "correct": "schwarz",
+                "wrong": [
+                    "rot",
+                    "grau",
+                    "blau"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-7.mp3"
+            },
+            {
+                "id": 8,
+                "category": "Other",
+                "question": "Welcher Text steht auf dem Straßenschild?",
+                "correct": "Tempo 30",
+                "wrong": [
+                    "Tempo 50",
+                    "Zone 20",
+                    "Tempo 40"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-8.mp3"
+            },
+            {
+                "id": 9,
+                "category": "Other",
+                "question": "Welche Lichtfarbe hat die Straßenlaterne?",
+                "correct": "warmgelb",
+                "wrong": [
+                    "weiß",
+                    "blau",
+                    "grün"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-9.mp3"
+            },
+            {
+                "id": 10,
+                "category": "Other",
+                "question": "Wo liegt der Kanaldeckel?",
+                "correct": "mittig auf der Fahrbahn",
+                "wrong": [
+                    "auf dem Gehweg",
+                    "am Bordstein",
+                    "in der Parkbucht"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-10.mp3"
+            },
+            {
+                "id": 11,
+                "category": "Other",
+                "question": "Welches Symbol zeigt das Haltestellenschild?",
+                "correct": "ein gelbes H",
+                "wrong": [
+                    "ein blaues B",
+                    "ein rotes X",
+                    "ein weißes S"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-11.mp3"
+            },
+            {
+                "id": 12,
+                "category": "Other",
+                "question": "Welche Farbe hat der Lieferkarton auf dem Gehweg?",
+                "correct": "weiß",
+                "wrong": [
+                    "braun",
+                    "grau",
+                    "gelb"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-12.mp3"
+            },
+            {
+                "id": 13,
+                "category": "Other",
+                "question": "Welche Farbgebung hat die Baustellenbake?",
+                "correct": "weiß-rot gestreift",
+                "wrong": [
+                    "gelb-schwarz gestreift",
+                    "blau-weiß gestreift",
+                    "einfarbig rot"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0008-13.mp3"
+            },
+            {
+                "id": 2,
+                "category": "Other",
+                "question": "Welche Farbe zeigt die Ampel?",
+                "correct": "rot",
+                "wrong": [
+                    "grün",
+                    "gelb",
+                    "aus"
+                ],
+                "image": "",
+                "lastplayed": "2026-01-19T20:46:48Z",
+                "audio": "question-img_0008-2.mp3"
+            }
+        ]
+    },
+    {
+        "image_id": "img_0007",
+        "title": "",
+        "category": "Other",
+        "image": "memoryimage0007.png",
+        "audio": "",
+        "lastplayed": "2026-04-24T19:04:29Z",
+        "questions": [
+            {
+                "id": 1,
+                "category": "Other",
+                "question": "Welche Farbe hat der Einkaufskorb im Gang?",
+                "correct": "rot",
+                "wrong": [
+                    "blau",
+                    "schwarz",
+                    "grün"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-1.mp3"
+            },
+            {
+                "id": 2,
+                "category": "Other",
+                "question": "Welche Gewichtsangabe steht auf der Spaghetti-Packung?",
+                "correct": "500 g",
+                "wrong": [
+                    "400 g",
+                    "750 g",
+                    "1 kg"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-2.mp3"
+            },
+            {
+                "id": 3,
+                "category": "Other",
+                "question": "Welche Farbe hat der Deckel der Mineralwasserflasche?",
+                "correct": "weiß",
+                "wrong": [
+                    "blau",
+                    "grün",
+                    "rot"
+                ],
+                "image": "",
+                "lastplayed": "2026-04-24T19:04:29Z",
+                "audio": "question-img_0007-3.mp3"
+            },
+            {
+                "id": 5,
+                "category": "Other",
+                "question": "Wie viele Bananen hat die Bananenstaude?",
+                "correct": "vier",
+                "wrong": [
+                    "drei",
+                    "fünf",
+                    "sechs"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-5.mp3"
+            },
+            {
+                "id": 6,
+                "category": "Other",
+                "question": "Welche Farbe hat der Griff des Einkaufswagens?",
+                "correct": "rot",
+                "wrong": [
+                    "schwarz",
+                    "grau",
+                    "blau"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-6.mp3"
+            },
+            {
+                "id": 7,
+                "category": "Other",
+                "question": "Welcher Fettgehalt steht auf der Milchtüte?",
+                "correct": "1,5 %",
+                "wrong": [
+                    "3,5 %",
+                    "0,1 %",
+                    "2,8 %"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-7.mp3"
+            },
+            {
+                "id": 8,
+                "category": "Other",
+                "question": "Welche Suppe ist auf der roten Dose abgebildet?",
+                "correct": "Tomatensuppe",
+                "wrong": [
+                    "Gemüsesuppe",
+                    "Linsensuppe",
+                    "Hühnersuppe"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-8.mp3"
+            },
+            {
+                "id": 9,
+                "category": "Other",
+                "question": "Welches Gewicht zeigt die digitale Waage?",
+                "correct": "0,842 kg",
+                "wrong": [
+                    "0,742 kg",
+                    "1,042 kg",
+                    "0,582 kg"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-9.mp3"
+            },
+            {
+                "id": 10,
+                "category": "Other",
+                "question": "Welche Sorte Pizza liegt im Tiefkühlfach?",
+                "correct": "Salami",
+                "wrong": [
+                    "Margherita",
+                    "Funghi",
+                    "Hawaii"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-10.mp3"
+            },
+            {
+                "id": 11,
+                "category": "Other",
+                "question": "Welche Farbe hat die Kassentrennleiste?",
+                "correct": "blau",
+                "wrong": [
+                    "rot",
+                    "schwarz",
+                    "gelb"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-11.mp3"
+            },
+            {
+                "id": 12,
+                "category": "Other",
+                "question": "Welche Farbe hat das Kassenband?",
+                "correct": "schwarz",
+                "wrong": [
+                    "grau",
+                    "blau",
+                    "grün"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-12.mp3"
+            },
+            {
+                "id": 13,
+                "category": "Other",
+                "question": "Welche Farbe hat die Schürze des Mitarbeiters?",
+                "correct": "grün",
+                "wrong": [
+                    "rot",
+                    "blau",
+                    "schwarz"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-13.mp3"
+            },
+            {
+                "id": 14,
+                "category": "Other",
+                "question": "Welcher Text steht auf dem Schild über dem Gang?",
+                "correct": "Backwaren",
+                "wrong": [
+                    "Getränke",
+                    "Obst & Gemüse",
+                    "Tiefkühlkost"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-14.mp3"
+            },
+            {
+                "id": 15,
+                "category": "Other",
+                "question": "Welche Farbe hat der Papierstreifen aus dem Bon-Drucker?",
+                "correct": "weiß",
+                "wrong": [
+                    "gelb",
+                    "grau",
+                    "blau"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0007-15.mp3"
+            },
+            {
+                "id": 4,
+                "category": "Other",
+                "question": "Welcher Preis steht auf dem Preisschild?",
+                "correct": "1,99 €",
+                "wrong": [
+                    "2,49 €",
+                    "1,49 €",
+                    "0,99 €"
+                ],
+                "image": "",
+                "lastplayed": "2026-01-19T21:23:44Z",
+                "audio": "question-img_0007-4.mp3"
+            }
+        ]
+    },
+    {
+        "image_id": "img_0009",
+        "title": "",
+        "category": "Other",
+        "image": "memoryimage0009.png",
+        "audio": "",
+        "lastplayed": "2026-04-24T20:12:12Z",
+        "questions": [
+            {
+                "id": 2,
+                "category": "Other",
+                "question": "In welchem Zustand befindet sich der Laptop-Bildschirm?",
+                "correct": "dunkler Sperrbildschirm",
+                "wrong": [
+                    "Video läuft",
+                    "E-Mail geöffnet",
+                    "Startmenü sichtbar"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-2.mp3"
+            },
+            {
+                "id": 3,
+                "category": "Other",
+                "question": "Wo steht die Kaffeetasse?",
+                "correct": "rechts neben dem Laptop",
+                "wrong": [
+                    "links neben dem Laptop",
+                    "auf dem Regal",
+                    "auf dem Boden"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-3.mp3"
+            },
+            {
+                "id": 4,
+                "category": "Other",
+                "question": "Welche Farbe hat der Einband des Notizbuchs?",
+                "correct": "blau",
+                "wrong": [
+                    "grün",
+                    "schwarz",
+                    "rot"
+                ],
+                "image": "",
+                "lastplayed": "2026-04-24T20:12:12Z",
+                "audio": "question-img_0009-4.mp3"
+            },
+            {
+                "id": 5,
+                "category": "Other",
+                "question": "Welche Farbe hat der Textmarker?",
+                "correct": "gelb",
+                "wrong": [
+                    "orange",
+                    "grün",
+                    "pink"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-5.mp3"
+            },
+            {
+                "id": 6,
+                "category": "Other",
+                "question": "Was ist auf dem Monitor zu sehen?",
+                "correct": "eine Tabellenansicht mit Gittern",
+                "wrong": [
+                    "eine Präsentation",
+                    "ein Video",
+                    "ein schwarzes Display"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-6.mp3"
+            },
+            {
+                "id": 7,
+                "category": "Other",
+                "question": "Welche Farbe hat die Tastatur?",
+                "correct": "schwarz",
+                "wrong": [
+                    "weiß",
+                    "grau",
+                    "silber"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-7.mp3"
+            },
+            {
+                "id": 8,
+                "category": "Other",
+                "question": "Wo liegt die Computermaus?",
+                "correct": "rechts neben der Tastatur",
+                "wrong": [
+                    "links neben der Tastatur",
+                    "auf dem Monitorfuß",
+                    "auf dem Notizbuch"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-8.mp3"
+            },
+            {
+                "id": 9,
+                "category": "Other",
+                "question": "Welche Pflanze steht auf dem Schreibtisch?",
+                "correct": "ein Kaktus",
+                "wrong": [
+                    "eine Palme",
+                    "eine Orchidee",
+                    "ein Farn"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-9.mp3"
+            },
+            {
+                "id": 10,
+                "category": "Other",
+                "question": "Ist die Schreibtischlampe eingeschaltet?",
+                "correct": "ja",
+                "wrong": [
+                    "nein",
+                    "defekt",
+                    "nicht sichtbar"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-10.mp3"
+            },
+            {
+                "id": 11,
+                "category": "Other",
+                "question": "Was ist durch das Fenster zu sehen?",
+                "correct": "ein grauer Himmel",
+                "wrong": [
+                    "blauer Himmel",
+                    "Hochhäuser",
+                    "Bäume"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-11.mp3"
+            },
+            {
+                "id": 12,
+                "category": "Other",
+                "question": "Welche Farbe hat der linke Aktenordner im Regal?",
+                "correct": "rot",
+                "wrong": [
+                    "blau",
+                    "schwarz",
+                    "grün"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-12.mp3"
+            },
+            {
+                "id": 13,
+                "category": "Other",
+                "question": "Wie liegt das Smartphone auf dem Tisch?",
+                "correct": "mit dem Display nach oben",
+                "wrong": [
+                    "mit dem Display nach unten",
+                    "an einem Ladekabel",
+                    "in einer Halterung"
+                ],
+                "image": "",
+                "lastplayed": "",
+                "audio": "question-img_0009-13.mp3"
+            },
+            {
+                "id": 1,
+                "category": "Other",
+                "question": "Welche Farbe hat der Bürostuhl?",
+                "correct": "schwarz",
+                "wrong": [
+                    "grau",
+                    "blau",
+                    "weiß"
+                ],
+                "image": "",
+                "lastplayed": "2026-01-24T18:45:21Z",
+                "audio": "question-img_0009-1.mp3"
             }
         ]
     }
