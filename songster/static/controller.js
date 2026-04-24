@@ -469,7 +469,7 @@ socket.on('show_result', data => {
 });
 
 socket.on('show_scoring', data => {
-  updateHeader(data.players_ranked, data.gained || {}, { forcePop: true });
+  updateHeader(data.players_ranked, data.gained || {});
   stopTimebar();
 });
 

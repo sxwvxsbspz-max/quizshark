@@ -124,8 +124,19 @@ let currentYellowArtist     = null;
 let currentYellowPlacedYear = null;   // Jahr das nach der Runde gelb bleibt
 let currentPlayerOrder      = [];
 let maxTvPlayers            = 12;
-let yearAnnounceAudio       = null;   // läuft noch während show_resolution kommt
+let yearAnnounceAudio       = null;
 let pendingScoreGained      = false;  // wurde in show_scoring gesetzt
+
+// Fly-Synchronisation
+let pendingFlyData  = null;   // Daten aus show_resolution (vorab geladen)
+let yearAudioEnded  = false;  // MP3 ist fertig
+let flyStarted      = false;  // Flug bereits gestartet (Guard)
+
+function startFly() {
+  if (flyStarted || !pendingFlyData) return;
+  flyStarted = true;
+  _flyYellowTile(pendingFlyData.tvTimeline, pendingFlyData.correctYear, null);
+}
 
 // ----------------------------------------------------------------
 // Player sidebar
@@ -310,6 +321,9 @@ socket.on('show_question', data => {
   currentYellowTitle      = null;
   currentYellowArtist     = null;
   currentYellowPlacedYear = null;
+  pendingFlyData          = null;
+  yearAudioEnded          = false;
+  flyStarted              = false;
 
   if (roundLabel) roundLabel.textContent = `Track ${data.round || currentRound}`;
 
@@ -345,8 +359,14 @@ socket.on('reveal_player_answers', data => {
 });
 
 socket.on('unveil_correct', data => {
+  yearAudioEnded = false;
   yearAnnounceAudio = new Audio(`${SFX_BASE}/year-${data.correct_year}.mp3`);
   yearAnnounceAudio.volume = 1.0;
+  yearAnnounceAudio.addEventListener('ended', () => {
+    yearAudioEnded = true;
+    socket.emit('module_event', { action: 'year_audio_ended' });
+    startFly();
+  }, { once: true });
   yearAnnounceAudio.play().catch(() => {});
   stopQuestionAudio();
 
@@ -370,31 +390,24 @@ socket.on('unveil_correct', data => {
 });
 
 socket.on('show_resolution', data => {
-  const correctYear   = data.correct_year;
+  pendingFlyData = { tvTimeline: data.tv_timeline || [], correctYear: data.correct_year };
+  if (yearAudioEnded) startFly();
+});
+
+socket.on('trigger_fly', () => {
+  startFly();
+});
+
+socket.on('show_result', data => {
+  playSfxOnce('show_resolution.mp3');
   const playerResults = data.player_results || {};
-  const newTvTimeline = data.tv_timeline || [];
-
-  const doReveal = () => {
-    playSfxOnce('show_resolution.mp3');
-    Object.entries(playerResults).forEach(([pid, res]) => {
-      const row = document.getElementById(`player-${pid}`);
-      if (!row) return;
-      row.classList.remove('is-answered');
-      if (res.correct) row.classList.add('is-correct');
-      else             row.classList.add('is-wrong');
-    });
-  };
-
-  const doFly = () => {
-    playSfxOnce('swoosh.mp3');
-    _flyYellowTile(newTvTimeline, correctYear, () => setTimeout(doReveal, 2000));
-  };
-
-  if (yearAnnounceAudio && !yearAnnounceAudio.ended) {
-    yearAnnounceAudio.addEventListener('ended', doFly, { once: true });
-  } else {
-    doFly();
-  }
+  Object.entries(playerResults).forEach(([pid, res]) => {
+    const row = document.getElementById(`player-${pid}`);
+    if (!row) return;
+    row.classList.remove('is-answered');
+    if (res.correct) row.classList.add('is-correct');
+    else             row.classList.add('is-wrong');
+  });
 });
 
 function _flyYellowTile(newTvTimeline, correctYear, onLanded) {
@@ -415,6 +428,19 @@ function _flyYellowTile(newTvTimeline, correctYear, onLanded) {
   const targetTile = document.getElementById(`tile-y${correctYear}`);
   if (!targetTile) return;
   const toRect = targetTile.getBoundingClientRect();
+
+  // Kachel muss sich nicht bewegen → Animation überspringen
+  const dx0 = toRect.left - fromRect.left;
+  const dy0 = toRect.top  - fromRect.top;
+  if (Math.abs(dx0) < 5 && Math.abs(dy0) < 5) {
+    currentYellowPlacedYear = correctYear;
+    targetTile.classList.remove('sng__tile--white');
+    targetTile.classList.add('sng__tile--yellow');
+    if (onLanded) onLanded();
+    return;
+  }
+
+  playSfxOnce('swoosh.mp3');
 
   // 4) Fliegendes Tile erstellen
   const flyEl = document.createElement('div');
@@ -438,9 +464,7 @@ function _flyYellowTile(newTvTimeline, correctYear, onLanded) {
   // 6) Animieren (nächstem Frame warten für Transition)
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
-      const dx = toRect.left - fromRect.left;
-      const dy = toRect.top  - fromRect.top;
-      flyEl.style.transform = `translate(${dx}px, ${dy}px)`;
+      flyEl.style.transform = `translate(${dx0}px, ${dy0}px)`;
 
       flyEl.addEventListener('transitionend', () => {
         flyEl.remove();

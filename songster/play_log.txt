@@ -1328,3 +1328,226 @@ SONG:  Macklemore & Ryan Lewis ft. Wanz – Thrift Shop  (2012)
     Prüfung:   2012 < 1983 → ✗
     Ergebnis:  FALSCH  ✗
     Timeline:  [1983, 1985, 2000, 2007, 2008, 2010]
+[2026-04-24T11:50:33Z] OK       id=00373 1985  Duran Duran – A View to a Kill
+
+============================================================
+[2026-04-24T11:50:48Z] RUNDE 1
+SONG:  Duran Duran – A View to a Kill  (1985)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2006 und 2011 (slot 1)
+    Prüfung:   2006 < 1985 < 2011 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [2006, 2011]
+[2026-04-24T11:51:01Z] OK       id=00449 2008  Kings of Leon – Sex on Fire
+
+============================================================
+[2026-04-24T11:51:19Z] RUNDE 2
+SONG:  Kings of Leon – Sex on Fire  (2008)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2006 und 2011 (slot 1)
+    Prüfung:   2006 < 2008 < 2011 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2006, 2011]
+[2026-04-24T11:51:32Z] OK       id=00399 1990  DNA feat. Suzanne Vega – Tom's Diner
+
+============================================================
+[2026-04-24T11:51:56Z] RUNDE 3
+SONG:  DNA feat. Suzanne Vega – Tom's Diner  (1990)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 2006 (slot 0)
+    Prüfung:   1990 < 2006 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2006, 2008, 2011]
+[2026-04-24T11:52:09Z] OK       id=00048 1975  Queen – Bohemian Rhapsody
+
+============================================================
+[2026-04-24T11:52:40Z] RUNDE 4
+SONG:  Queen – Bohemian Rhapsody  (1975)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1990 (slot 0)
+    Prüfung:   1975 < 1990 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1990, 2006, 2008, 2011]
+[2026-04-24T11:52:53Z] OK       id=00485 2015  Lukas Graham – 7 Years
+
+============================================================
+[2026-04-24T11:53:19Z] RUNDE 5
+SONG:  Lukas Graham – 7 Years  (2015)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 2011 (slot 5)
+    Prüfung:   2015 > 2011 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1975, 1990, 2006, 2008, 2011]
+[2026-04-24T11:53:31Z] OK       id=00106 1971  John Lennon – Imagine
+
+============================================================
+[2026-04-24T11:53:50Z] RUNDE 6
+SONG:  John Lennon – Imagine  (1971)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1975 (slot 0)
+    Prüfung:   1971 < 1975 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1975, 1990, 2006, 2008, 2011, 2015]
+[2026-04-24T11:54:02Z] OK       id=00047 1984  Prince – Purple Rain
+
+============================================================
+[2026-04-24T11:54:19Z] RUNDE 7
+SONG:  Prince – Purple Rain  (1984)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1975 und 1990 (slot 2)
+    Prüfung:   1975 < 1984 < 1990 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1971, 1975, 1990, 2006, 2008, 2011, 2015]
+[2026-04-24T11:54:31Z] OK       id=00245 1995  Seal – Kiss from a Rose
+[2026-04-24T11:59:42Z] OK       id=00074 1978  Earth, Wind & Fire – September
+
+============================================================
+[2026-04-24T11:59:53Z] RUNDE 1
+SONG:  Earth, Wind & Fire – September  (1978)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1993 (slot 0)
+    Prüfung:   1978 < 1993 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1993, 2005]
+[2026-04-24T12:00:14Z] OK       id=00336 2021  Lil Nas X & Jack Harlow – INDUSTRY BABY
+
+============================================================
+[2026-04-24T12:00:23Z] RUNDE 2
+SONG:  Lil Nas X & Jack Harlow – INDUSTRY BABY  (2021)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1993 und 2005 (slot 2)
+    Prüfung:   1993 < 2021 < 2005 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1978, 1993, 2005]
+[2026-04-24T12:00:44Z] OK       id=00434 2004  Franz Ferdinand – Take Me Out
+
+============================================================
+[2026-04-24T12:00:51Z] RUNDE 3
+SONG:  Franz Ferdinand – Take Me Out  (2004)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1978 und 1993 (slot 1)
+    Prüfung:   1978 < 2004 < 1993 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1978, 1993, 2005]
+[2026-04-24T12:01:12Z] OK       id=00094 2020  24kGoldn ft. iann dior – Mood
+
+============================================================
+[2026-04-24T12:01:28Z] RUNDE 4
+SONG:  24kGoldn ft. iann dior – Mood  (2020)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1993 und 2005 (slot 2)
+    Prüfung:   1993 < 2020 < 2005 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1978, 1993, 2005]
+[2026-04-24T12:01:48Z] OK       id=00250 1995  2Pac ft. Dr. Dre – California Love
+
+============================================================
+[2026-04-24T12:02:04Z] RUNDE 5
+SONG:  2Pac ft. Dr. Dre – California Love  (1995)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1978 und 1993 (slot 1)
+    Prüfung:   1978 < 1995 < 1993 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1978, 1993, 2005]
+[2026-04-24T12:02:25Z] OK       id=00170 1992  Snap! – Rhythm Is a Dancer
+
+============================================================
+[2026-04-24T12:02:34Z] RUNDE 6
+SONG:  Snap! – Rhythm Is a Dancer  (1992)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1993 und 2005 (slot 2)
+    Prüfung:   1993 < 1992 < 2005 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1978, 1993, 2005]
+[2026-04-24T12:02:54Z] OK       id=00085 2006  Gnarls Barkley – Crazy
+
+============================================================
+[2026-04-24T12:03:03Z] RUNDE 7
+SONG:  Gnarls Barkley – Crazy  (2006)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 2005 (slot 3)
+    Prüfung:   2006 > 2005 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1978, 1993, 2005]
+[2026-04-24T12:03:23Z] OK       id=00087 2007  OneRepublic – Apologize
+
+============================================================
+[2026-04-24T12:03:55Z] RUNDE 8
+SONG:  OneRepublic – Apologize  (2007)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1978 (slot 0)
+    Prüfung:   2007 < 1978 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1978, 1993, 2005, 2006]
+[2026-04-24T12:04:16Z] OK       id=00118 1985  Simple Minds – Don't You (Forget About Me)
+
+============================================================
+[2026-04-24T12:04:43Z] RUNDE 9
+SONG:  Simple Minds – Don't You (Forget About Me)  (1985)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1978 und 1993 (slot 1)
+    Prüfung:   1978 < 1985 < 1993 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1978, 1993, 2005, 2006]
+[2026-04-24T12:05:04Z] OK       id=00129 2017  Ed Sheeran – Shape of You
+
+============================================================
+[2026-04-24T12:05:35Z] RUNDE 10
+SONG:  Ed Sheeran – Shape of You  (2017)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1978 (slot 0)
+    Prüfung:   2017 < 1978 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1978, 1985, 1993, 2005, 2006]
+[2026-04-24T12:05:56Z] OK       id=00059 2009  JAY-Z ft. Alicia Keys – Empire State of Mind
+
+============================================================
+[2026-04-24T12:06:28Z] RUNDE 11
+SONG:  JAY-Z ft. Alicia Keys – Empire State of Mind  (2009)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1978 (slot 0)
+    Prüfung:   2009 < 1978 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1978, 1985, 1993, 2005, 2006]
+[2026-04-24T12:06:48Z] OK       id=00050 2015  The Weeknd – Can't Feel My Face
+[2026-04-24T12:08:08Z] OK       id=00177 1970  Simon & Garfunkel – Bridge Over Troubled Water
+
+============================================================
+[2026-04-24T12:08:27Z] RUNDE 1
+SONG:  Simon & Garfunkel – Bridge Over Troubled Water  (1970)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1987 (slot 0)
+    Prüfung:   1970 < 1987 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1987, 2002]
+[2026-04-24T12:08:48Z] OK       id=00484 2015  Ed Sheeran – Photograph
+
+============================================================
+[2026-04-24T12:08:56Z] RUNDE 2
+SONG:  Ed Sheeran – Photograph  (2015)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 2002 (slot 3)
+    Prüfung:   2015 > 2002 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1970, 1987, 2002]
+[2026-04-24T12:09:17Z] OK       id=00400 1991  CeCe Peniston – Finally

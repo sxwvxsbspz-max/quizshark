@@ -13,15 +13,16 @@ MAX_ROUNDS           = 14
 MAX_CORRECT_WINS     = 9    # Spiel endet sobald ein Spieler so viele richtige hat
 ANCHOR_YEAR_MARGIN   = 10   # Ausgangsjahr: frühestens ältester+10, spätestens neuester-10
 
-TIMING_INTRO         = 3.0   # show_question → open_answers
-TIMING_ANSWER        = 25.0  # Antwortzeit
-TIMING_REVEAL        = 2.0   # close_answers → reveal_player_answers
-TIMING_UNVEIL        = 1.5   # reveal → unveil_correct
-TIMING_RESOLUTION    = 1.2   # unveil → show_resolution
-TIMING_SHOW_RESULT   = 5.0   # show_resolution → show_result (wenn TV grün/rot zeigt)
-TIMING_SCORING       = 8.0   # show_resolution → show_scoring (inkl. Jahres-Audio + Tile-Flug + 2s Pause)
-TIMING_SCORE_UPDATE  = 2.0   # show_scoring → apply_scoring_update
-TIMING_NEXT_ROUND    = 2.0   # apply_scoring_update → nächste Runde
+TIMING_INTRO           = 3.0   # show_question → open_answers
+TIMING_ANSWER          = 25.0  # Antwortzeit
+TIMING_REVEAL          = 2.0   # close_answers → reveal_player_answers
+TIMING_UNVEIL          = 1.5   # reveal → unveil_correct
+TIMING_RESOLUTION      = 0.3   # unveil_correct → show_resolution (Daten vorladen)
+TIMING_FALLBACK_FLY    = 7.0   # unveil_correct → trigger_fly (Fallback wenn TV stumm bleibt)
+TIMING_SHOW_RESULT     = 1.0   # year_audio_ended/trigger_fly → show_result (grün/rot)
+TIMING_SCORING         = 4.0   # year_audio_ended/trigger_fly → show_scoring
+TIMING_SCORE_UPDATE    = 2.0   # show_scoring → apply_scoring_update
+TIMING_NEXT_ROUND      = 3.0   # apply_scoring_update → nächste Runde
 
 APPLE_HARD_DELETE    = {"itunes_no_preview", "itunes_no_results"}
 
@@ -311,6 +312,10 @@ class SongsterLogic:
                 # Runden-Video abgespielt → Frage anzeigen
                 self._show_question()
 
+        elif action == "year_audio_ended" and self.state == "revealing":
+            self._cancel_timers()
+            self._do_trigger_fly()
+
         elif action == "update_draft" and self.state in ("question_intro", "answers_open") and player_id:
             self.draft_slots[player_id] = int((payload or {}).get("slot_index", 0))
 
@@ -407,7 +412,8 @@ class SongsterLogic:
             "title":        q["title"],
             "artist":       q["artist"],
         })
-        self._after(TIMING_RESOLUTION, self._show_resolution)
+        self._after(TIMING_RESOLUTION, self._preload_resolution)
+        self._after(TIMING_FALLBACK_FLY, self._do_trigger_fly)
 
     def _log_resolution(self, q_year, q_title, q_artist, player_results, player_timelines_snapshot):
         try:
@@ -451,11 +457,12 @@ class SongsterLogic:
         except Exception as e:
             pass
 
-    def _show_resolution(self):
-        q     = self.current_q
+    def _preload_resolution(self):
+        if self.state != "revealing":
+            return
+        q      = self.current_q
         q_year = q["year"]
 
-        # Ergebnisse bewerten
         player_results = {}
         timelines_snapshot = {}
         for pid, slot in self.player_slots.items():
@@ -466,21 +473,16 @@ class SongsterLogic:
         self._last_results = player_results
         self._log_resolution(q_year, q["title"], q["artist"], player_results, timelines_snapshot)
 
-        # Song-Tile für alle Timelines anlegen
         new_tile = {"year": q_year, "is_anchor": False, "title": q["title"], "artist": q["artist"]}
-
-        # TV-Timeline: Song immer hinzufügen
         self.tv_timeline = _sort_timeline(self.tv_timeline + [dict(new_tile)])
         self.played_years.add(q_year)
-
-        # Spieler-Timelines: nur bei korrekter Einordnung
         for pid, res in player_results.items():
             if res["correct"]:
                 self.player_timelines[pid] = _sort_timeline(
                     self.player_timelines[pid] + [dict(new_tile)]
                 )
 
-        self.state = "resolution"
+        # Daten ans TV schicken damit es bei MP3-Ende sofort fliegen kann
         self._emit_all("show_resolution", {
             "correct_year":     q_year,
             "title":            q["title"],
@@ -489,7 +491,13 @@ class SongsterLogic:
             "tv_timeline":      self.tv_timeline,
             "player_timelines": self.player_timelines,
         })
-        self._after(TIMING_SHOW_RESULT, self._show_result, player_results)
+
+    def _do_trigger_fly(self):
+        if self.state != "revealing":
+            return
+        self.state = "resolution"
+        self._emit_all("trigger_fly", {})
+        self._after(TIMING_SHOW_RESULT, self._show_result, self._last_results)
         self._after(TIMING_SCORING, self._show_scoring)
 
     def _show_result(self, player_results):
