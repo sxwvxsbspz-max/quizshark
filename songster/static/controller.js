@@ -164,7 +164,7 @@ function buildYellowTileHTML() {
   };
 
   const stateClass = stateClassMap[yellowState] || 'sng-ctrl__currentTile--yellow';
-  const lockedCls = locked ? ' sng-ctrl__currentTile--locked' : '';
+  const lockedCls = (locked && yellowState === 'playing') ? ' sng-ctrl__currentTile--locked' : '';
   const submittedCls = (hasSubmitted && yellowState === 'playing')
     ? ' sng-ctrl__currentTile--submitted'
     : '';

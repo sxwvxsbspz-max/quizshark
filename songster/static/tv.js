@@ -415,8 +415,7 @@ function _flyYellowTile(newTvTimeline, correctYear) {
   flyEl.style.overflow = 'hidden';
   const sep = (currentYellowArtist && currentYellowTitle) ? ' — ' : '';
   flyEl.innerHTML = `
-    ${buildAudioSvg()}
-    <div class="sng__tileYear">${correctYear}</div>
+    <div class="sng__tileYearSlot"><div class="sng__tileYear">${correctYear}</div></div>
     <div class="sng__tileOneLine">${currentYellowArtist}${sep}${currentYellowTitle}</div>
   `;
   document.getElementById('game-layer').appendChild(flyEl);

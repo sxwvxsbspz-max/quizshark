@@ -226,15 +226,15 @@ button { font-family: inherit; }
 }
 
 .sng-ctrl__currentTile--correct {
-  background: rgba(46,204,113,0.22);
+  background: rgba(46,204,113,0.60);
   border: 2px solid var(--green);
-  box-shadow: 0 0 18px rgba(46,204,113,0.4);
+  box-shadow: 0 0 18px rgba(46,204,113,0.5);
 }
 
 .sng-ctrl__currentTile--wrong {
-  background: rgba(231,76,60,0.22);
+  background: rgba(231,76,60,0.60);
   border: 2px solid var(--red);
-  box-shadow: 0 0 18px rgba(231,76,60,0.4);
+  box-shadow: 0 0 18px rgba(231,76,60,0.5);
 }
 
 .sng-ctrl__currentTile--submitted {
@@ -249,8 +249,8 @@ button { font-family: inherit; }
 
 /* EQ animation im Controller */
 .sng-ctrl__eq {
-  flex: 0 0 auto;
-  width: 36px; height: 26px;
+  flex: 0 0 42px;
+  width: 42px; height: 22px;
 }
 
 .sng-ctrl__eq .bar {
@@ -312,13 +312,11 @@ button { font-family: inherit; }
 /* DRAG HANDLE */
 .sng-ctrl__dragHandle {
   flex: 0 0 auto;
-  width: 28px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 6px);
+  grid-template-rows: repeat(3, 6px);
   gap: 4px;
-  padding: 4px;
-  align-content: center;
-  justify-content: center;
+  padding: 2px 4px;
   cursor: grab;
   touch-action: none;
 }
@@ -328,7 +326,7 @@ button { font-family: inherit; }
 .sng-ctrl__handleDot {
   width: 6px; height: 6px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.60);
+  background: #fff;
 }
 
 /* =========================================================
@@ -369,7 +367,7 @@ button { font-family: inherit; }
 
 .sng-ctrl__fixedLabel {
   font-size: 0.78rem; font-weight: 500;
-  color: rgba(255,255,255,0.60);
+  color: rgba(255,255,255,0.95);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   flex: 1 1 auto;
