@@ -15,26 +15,33 @@
   <div id="game-layer" class="ps__gameLayer" style="display:none;">
     <div class="ps__wrap">
 
-      <!-- LEFT: Timeline Panel -->
-      <div class="ps__panel">
-        <div class="ps__panelInner">
+      <!-- LEFT GROUP: Timer-Panel + Timeline-Panel -->
+      <div class="ps__leftGroup">
 
-          <!-- Top Row: Frage + Timer -->
-          <div class="ps__topRow">
-            <div class="ps__questionWrap">
-              <div id="round-label" class="ps__question">Track 1</div>
-            </div>
+        <!-- LEFT-NARROW: Timer + Track Label -->
+        <div class="ps__timerPanel">
+          <div class="ps__timerPanelInner">
             <div class="ps__timer is-invisible" id="tv-timer" aria-hidden="true"></div>
-          </div>
-
-          <!-- Timeline -->
-          <div class="sng__timelineWrap" id="timeline-wrap">
-            <div class="sng__timeline" id="tv-timeline">
-              <!-- Tiles werden per JS gesetzt -->
+            <div class="ps__trackLabelWrap">
+              <div id="round-label" class="ps__trackLabel">Track 1</div>
             </div>
           </div>
-
         </div>
+
+        <!-- MIDDLE: Timeline Panel -->
+        <div class="ps__panel">
+          <div class="ps__panelInner">
+
+            <!-- Timeline -->
+            <div class="sng__timelineWrap" id="timeline-wrap">
+              <div class="sng__timeline" id="tv-timeline">
+                <!-- Tiles werden per JS gesetzt -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
 
       <!-- RIGHT: Spielerliste -->

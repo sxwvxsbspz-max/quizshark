@@ -10,6 +10,7 @@ from engine.audio.resolve_audio import resolve_audio_ref
 # ---------- Konfiguration ----------
 POINTS_CORRECT       = 50
 MAX_ROUNDS           = 15
+MAX_CORRECT_WINS     = 10   # Spiel endet sobald ein Spieler so viele richtige hat
 ANCHOR_YEAR_MARGIN   = 10   # Ausgangsjahr: frühestens ältester+10, spätestens neuester-10
 
 TIMING_INTRO         = 3.0   # show_question → open_answers
@@ -315,6 +316,15 @@ class SongsterLogic:
             self._finish_game()
             return
 
+        # Spieler-Timeline enthält Anker-Tile + korrekte Songs → -1 für reine Treffer
+        max_correct = max(
+            (len(tl) - 1 for tl in self.player_timelines.values()),
+            default=0,
+        )
+        if max_correct >= MAX_CORRECT_WINS:
+            self._finish_game()
+            return
+
         self.current_round += 1
         self.player_slots  = {}
         self.draft_slots   = {}
@@ -386,17 +396,62 @@ class SongsterLogic:
         })
         self._after(TIMING_RESOLUTION, self._show_resolution)
 
+    def _log_resolution(self, q_year, q_title, q_artist, player_results, player_timelines_snapshot):
+        try:
+            lines = [
+                f"\n{'='*60}",
+                f"[{_utc_iso()}] RUNDE {self.current_round}",
+                f"SONG:  {q_artist} – {q_title}  ({q_year})",
+                f"{'='*60}",
+            ]
+            for pid, res in player_results.items():
+                slot = res["slot_index"]
+                correct = res["correct"]
+                tl = player_timelines_snapshot.get(pid, [])
+                years = [_safe_int(t["year"]) for t in tl]
+                n = len(years)
+
+                if n == 0:
+                    position_desc = f"slot {slot} in leerer Timeline"
+                    check_desc = "Timeline leer → immer korrekt"
+                elif slot <= 0:
+                    position_desc = f"vor {years[0]} (slot {slot})"
+                    check_desc = f"{q_year} < {years[0]} → {'✓' if q_year < years[0] else '✗'}"
+                elif slot >= n:
+                    position_desc = f"nach {years[-1]} (slot {slot})"
+                    check_desc = f"{q_year} > {years[-1]} → {'✓' if q_year > years[-1] else '✗'}"
+                else:
+                    position_desc = f"zwischen {years[slot-1]} und {years[slot]} (slot {slot})"
+                    check_desc = (f"{years[slot-1]} < {q_year} < {years[slot]} → "
+                                  f"{'✓' if years[slot-1] < q_year < years[slot] else '✗'}")
+
+                pname = self.players.get(pid, {}).get("name", pid)
+                verdict = "RICHTIG ✓" if correct else "FALSCH  ✗"
+                lines.append(f"  Spieler {pname}:")
+                lines.append(f"    Antwort:   {position_desc}")
+                lines.append(f"    Prüfung:   {check_desc}")
+                lines.append(f"    Ergebnis:  {verdict}")
+                lines.append(f"    Timeline:  {years}")
+
+            with open(self.source.play_log_path, "a", encoding="utf-8") as f:
+                f.write("\n".join(lines) + "\n")
+        except Exception as e:
+            pass
+
     def _show_resolution(self):
         q     = self.current_q
         q_year = q["year"]
 
         # Ergebnisse bewerten
         player_results = {}
+        timelines_snapshot = {}
         for pid, slot in self.player_slots.items():
             tl = _sort_timeline(self.player_timelines.get(pid, []))
+            timelines_snapshot[pid] = list(tl)
             correct = _is_correct_placement(slot, q_year, tl)
             player_results[pid] = {"correct": correct, "slot_index": slot}
         self._last_results = player_results
+        self._log_resolution(q_year, q["title"], q["artist"], player_results, timelines_snapshot)
 
         # Song-Tile für alle Timelines anlegen
         new_tile = {"year": q_year, "is_anchor": False, "title": q["title"], "artist": q["artist"]}

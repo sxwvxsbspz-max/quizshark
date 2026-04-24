@@ -65,3 +65,592 @@
 [2026-04-24T05:25:20Z] OK       id=00205 1984  Cyndi Lauper – Time After Time
 [2026-04-24T05:25:41Z] OK       id=00308 2013  John Legend – All of Me
 [2026-04-24T05:26:05Z] OK       id=00232 1991  Guns N' Roses – November Rain
+[2026-04-24T05:29:25Z] OK       id=00152 2007  Mark Ronson ft. Amy Winehouse – Valerie
+[2026-04-24T05:29:52Z] OK       id=00194 1980  Kool & The Gang – Celebration
+[2026-04-24T05:30:12Z] OK       id=00499 2019  Post Malone – Circles
+[2026-04-24T05:30:48Z] OK       id=00306 2013  Pharrell Williams – Happy
+[2026-04-24T05:31:17Z] OK       id=00153 1990  Depeche Mode – Enjoy the Silence
+[2026-04-24T05:31:48Z] OK       id=00214 1987  Belinda Carlisle – Heaven Is a Place on Earth
+[2026-04-24T05:32:32Z] OK       id=00388 1984  Kenny Loggins – Footloose
+[2026-04-24T05:33:17Z] OK       id=00027 1981  Journey – Don't Stop Believin'
+[2026-04-24T05:34:01Z] OK       id=00453 2009  Pitbull – I Know You Want Me (Calle Ocho)
+[2026-04-24T05:34:46Z] OK       id=00224 1989  Young MC – Bust a Move
+[2026-04-24T05:35:30Z] OK       id=00237 1992  Boyz II Men – End of the Road
+[2026-04-24T05:36:14Z] OK       id=00493 2017  Cardi B – Bodak Yellow
+[2026-04-24T05:36:59Z] OK       id=00175 2014  Meghan Trainor – All About That Bass
+[2026-04-24T05:37:43Z] OK       id=00420 1997  Daft Punk – Around the World
+[2026-04-24T05:38:28Z] OK       id=00015 2020  The Weeknd – Blinding Lights
+[2026-04-24T05:43:10Z] OK       id=00462 2007  Foo Fighters – The Pretender
+[2026-04-24T05:43:54Z] OK       id=00241 1993  Ace of Base – The Sign
+[2026-04-24T05:44:39Z] OK       id=00351 1977  Stevie Wonder – Sir Duke
+[2026-04-24T05:45:23Z] OK       id=00317 2016  Clean Bandit ft. Sean Paul & Anne-Marie – Rockabye
+[2026-04-24T05:46:08Z] OK       id=00433 2003  Hoobastank – The Reason
+[2026-04-24T05:46:52Z] OK       id=00012 1995  Coolio – Gangsta's Paradise
+[2026-04-24T05:47:42Z] OK       id=00437 2002  R. Kelly – Ignition (Remix)
+[2026-04-24T05:48:26Z] OK       id=00255 1998  Fatboy Slim – Praise You
+[2026-04-24T05:49:10Z] OK       id=00026 2004  Green Day – Boulevard of Broken Dreams
+[2026-04-24T05:49:55Z] OK       id=00338 2022  Rema – Calm Down
+[2026-04-24T05:50:39Z] OK       id=00366 1982  John Mellencamp – Jack & Diane
+[2026-04-24T05:51:24Z] OK       id=00234 1992  House of Pain – Jump Around
+[2026-04-24T05:52:08Z] OK       id=00259 1999  TLC – No Scrubs
+[2026-04-24T05:52:53Z] OK       id=00387 1983  Yes – Owner of a Lonely Heart
+[2026-04-24T05:53:37Z] OK       id=00128 1991  Michael Jackson – Black or White
+[2026-04-24T05:58:39Z] OK       id=00062 2020  BTS – Dynamite
+[2026-04-24T05:59:23Z] OK       id=00454 2008  The Temper Trap – Sweet Disposition
+[2026-04-24T06:00:08Z] OK       id=00104 2017  Dua Lipa – New Rules
+[2026-04-24T06:00:52Z] OK       id=00362 1979  Patrick Hernandez – Born to Be Alive
+[2026-04-24T06:01:37Z] OK       id=00337 2021  GAYLE – abcdefu
+[2026-04-24T06:02:21Z] OK       id=00429 1999  Destiny's Child – Jumpin', Jumpin'
+[2026-04-24T06:03:06Z] OK       id=00325 2019  Tones and I – Dance Monkey
+[2026-04-24T06:03:50Z] OK       id=00078 2010  Bruno Mars – Grenade
+[2026-04-24T06:04:35Z] OK       id=00293 2009  Miley Cyrus – Party in the U.S.A.
+[2026-04-24T06:05:19Z] OK       id=00272 2003  50 Cent – In da Club
+[2026-04-24T06:06:03Z] OK       id=00137 1983  Eurythmics – Sweet Dreams (Are Made of This)
+[2026-04-24T06:06:48Z] OK       id=00481 2014  MAGIC! – Rude
+[2026-04-24T06:07:32Z] OK       id=00163 2006  Amy Winehouse – Rehab
+[2026-04-24T06:08:17Z] OK       id=00065 2016  Sia – Cheap Thrills
+[2026-04-24T06:09:01Z] OK       id=00406 1992  Nirvana – Come as You Are
+[2026-04-24T06:11:29Z] OK       id=00158 1980  Queen – Another One Bites the Dust
+[2026-04-24T06:11:58Z] OK       id=00343 2024  Hozier – Too Sweet
+[2026-04-24T06:12:35Z] OK       id=00287 2008  Coldplay – Viva la Vida
+[2026-04-24T06:12:58Z] OK       id=00197 1981  Olivia Newton-John – Physical
+[2026-04-24T06:13:42Z] OK       id=00209 1985  Huey Lewis & The News – The Power of Love
+[2026-04-24T06:14:27Z] OK       id=00017 2018  Lady Gaga & Bradley Cooper – Shallow
+[2026-04-24T06:15:11Z] OK       id=00089 2016  Drake ft. Wizkid & Kyla – One Dance
+[2026-04-24T06:15:55Z] OK       id=00161 2013  Hozier – Take Me to Church
+[2026-04-24T06:16:40Z] OK       id=00022 1984  George Michael – Careless Whisper
+[2026-04-24T06:17:24Z] OK       id=00240 1993  Counting Crows – Mr. Jones
+[2026-04-24T06:18:09Z] OK       id=00072 2021  The Kid LAROI & Justin Bieber – Stay
+[2026-04-24T06:18:53Z] OK       id=00230 1990  Scorpions – Wind of Change
+[2026-04-24T06:19:38Z] OK       id=00064 1974  David Bowie – Rebel Rebel
+[2026-04-24T06:20:22Z] OK       id=00109 1995  Los del Río – Macarena
+[2026-04-24T06:21:07Z] OK       id=00132 1989  Depeche Mode – Personal Jesus
+[2026-04-24T06:29:02Z] OK       id=00058 2000  Linkin Park – In the End
+
+============================================================
+[2026-04-24T06:29:18Z] RUNDE 1
+SONG:  Linkin Park – In the End  (2000)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 2009 (slot 0)
+    Prüfung:   2000 < 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2009]
+[2026-04-24T06:29:30Z] OK       id=00385 1988  Fine Young Cannibals – She Drives Me Crazy
+
+============================================================
+[2026-04-24T06:29:41Z] RUNDE 2
+SONG:  Fine Young Cannibals – She Drives Me Crazy  (1988)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 2000 (slot 0)
+    Prüfung:   1988 < 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2000, 2009]
+[2026-04-24T06:29:52Z] OK       id=00257 1999  Smash Mouth – All Star
+
+============================================================
+[2026-04-24T06:30:07Z] RUNDE 3
+SONG:  Smash Mouth – All Star  (1999)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1988 und 2000 (slot 1)
+    Prüfung:   1988 < 1999 < 2000 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 2000, 2009]
+[2026-04-24T06:30:19Z] OK       id=00042 1987  Whitney Houston – I Wanna Dance with Somebody (Who Loves Me)
+
+============================================================
+[2026-04-24T06:30:39Z] RUNDE 4
+SONG:  Whitney Houston – I Wanna Dance with Somebody (Who Loves Me)  (1987)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1988 (slot 0)
+    Prüfung:   1987 < 1988 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 1999, 2000, 2009]
+[2026-04-24T06:30:51Z] OK       id=00036 1982  Toto – Africa
+
+============================================================
+[2026-04-24T06:31:19Z] RUNDE 5
+SONG:  Toto – Africa  (1982)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1987 (slot 0)
+    Prüfung:   1982 < 1987 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1987, 1988, 1999, 2000, 2009]
+[2026-04-24T06:31:31Z] OK       id=00044 2004  Kelly Clarkson – Since U Been Gone
+
+============================================================
+[2026-04-24T06:32:04Z] RUNDE 6
+SONG:  Kelly Clarkson – Since U Been Gone  (2004)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1982 (slot 0)
+    Prüfung:   2004 < 1982 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1987, 1988, 1999, 2000, 2009]
+[2026-04-24T06:32:16Z] OK       id=00299 2011  David Guetta ft. Sia – Titanium
+
+============================================================
+[2026-04-24T06:32:38Z] RUNDE 7
+SONG:  David Guetta ft. Sia – Titanium  (2011)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 2009 (slot 6)
+    Prüfung:   2011 > 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1987, 1988, 1999, 2000, 2009]
+[2026-04-24T06:32:49Z] OK       id=00389 1984  Sade – Smooth Operator
+
+============================================================
+[2026-04-24T06:33:16Z] RUNDE 8
+SONG:  Sade – Smooth Operator  (1984)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1982 und 1987 (slot 1)
+    Prüfung:   1982 < 1984 < 1987 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1987, 1988, 1999, 2000, 2009, 2011]
+[2026-04-24T06:33:28Z] OK       id=00148 2010  Katy Perry – Firework
+
+============================================================
+[2026-04-24T06:33:58Z] RUNDE 9
+SONG:  Katy Perry – Firework  (2010)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2009 und 2011 (slot 7)
+    Prüfung:   2009 < 2010 < 2011 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1984, 1987, 1988, 1999, 2000, 2009, 2011]
+[2026-04-24T06:34:10Z] OK       id=00302 2012  Rihanna – Diamonds
+
+============================================================
+[2026-04-24T06:34:43Z] RUNDE 10
+SONG:  Rihanna – Diamonds  (2012)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1982 (slot 0)
+    Prüfung:   2012 < 1982 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1984, 1987, 1988, 1999, 2000, 2009, 2010, 2011]
+[2026-04-24T06:34:55Z] OK       id=00460 2005  The Fray – How to Save a Life
+
+============================================================
+[2026-04-24T06:35:26Z] RUNDE 11
+SONG:  The Fray – How to Save a Life  (2005)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2009 und 2010 (slot 7)
+    Prüfung:   2009 < 2005 < 2010 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1984, 1987, 1988, 1999, 2000, 2009, 2010, 2011]
+[2026-04-24T06:35:38Z] OK       id=00311 2014  Clean Bandit ft. Jess Glynne – Rather Be
+
+============================================================
+[2026-04-24T06:36:10Z] RUNDE 12
+SONG:  Clean Bandit ft. Jess Glynne – Rather Be  (2014)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 2011 (slot 9)
+    Prüfung:   2014 > 2011 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1984, 1987, 1988, 1999, 2000, 2009, 2010, 2011]
+[2026-04-24T06:36:22Z] OK       id=00474 2013  Macklemore & Ryan Lewis feat. Ray Dalton – Can't Hold Us
+
+============================================================
+[2026-04-24T06:36:55Z] RUNDE 13
+SONG:  Macklemore & Ryan Lewis feat. Ray Dalton – Can't Hold Us  (2013)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1999 und 2000 (slot 5)
+    Prüfung:   1999 < 2013 < 2000 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1984, 1987, 1988, 1999, 2000, 2009, 2010, 2011, 2014]
+[2026-04-24T06:37:07Z] OK       id=00376 1986  The Bangles – Manic Monday
+
+============================================================
+[2026-04-24T06:37:28Z] RUNDE 14
+SONG:  The Bangles – Manic Monday  (1986)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1984 und 1987 (slot 2)
+    Prüfung:   1984 < 1986 < 1987 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1982, 1984, 1987, 1988, 1999, 2000, 2009, 2010, 2011, 2014]
+[2026-04-24T06:37:39Z] OK       id=00249 1996  Mark Morrison – Return of the Mack
+
+============================================================
+[2026-04-24T06:38:12Z] RUNDE 15
+SONG:  Mark Morrison – Return of the Mack  (1996)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1982 (slot 0)
+    Prüfung:   1996 < 1982 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1982, 1984, 1986, 1987, 1988, 1999, 2000, 2009, 2010, 2011, 2014]
+[2026-04-24T06:53:38Z] OK       id=00073 2016  Fifth Harmony ft. Ty Dolla $ign – Work from Home
+
+============================================================
+[2026-04-24T06:53:58Z] RUNDE 1
+SONG:  Fifth Harmony ft. Ty Dolla $ign – Work from Home  (2016)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 1985 (slot 1)
+    Prüfung:   2016 > 1985 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1985]
+[2026-04-24T06:54:10Z] OK       id=00142 1973  Aerosmith – Dream On
+
+============================================================
+[2026-04-24T06:54:38Z] RUNDE 2
+SONG:  Aerosmith – Dream On  (1973)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1985 und 2016 (slot 1)
+    Prüfung:   1985 < 1973 < 2016 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1985, 2016]
+[2026-04-24T06:54:50Z] OK       id=00361 1979  The Police – Message in a Bottle
+
+============================================================
+[2026-04-24T06:55:17Z] RUNDE 3
+SONG:  The Police – Message in a Bottle  (1979)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1985 (slot 0)
+    Prüfung:   1979 < 1985 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1985, 2016]
+[2026-04-24T06:55:29Z] OK       id=00169 1983  Cyndi Lauper – Girls Just Want to Have Fun
+
+============================================================
+[2026-04-24T06:56:02Z] RUNDE 4
+SONG:  Cyndi Lauper – Girls Just Want to Have Fun  (1983)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1979 und 1985 (slot 1)
+    Prüfung:   1979 < 1983 < 1985 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1979, 1985, 2016]
+[2026-04-24T06:56:14Z] OK       id=00452 2009  Lady Gaga – Paparazzi
+
+============================================================
+[2026-04-24T06:56:46Z] RUNDE 5
+SONG:  Lady Gaga – Paparazzi  (2009)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1985 und 2016 (slot 3)
+    Prüfung:   1985 < 2009 < 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1979, 1983, 1985, 2016]
+[2026-04-24T06:56:58Z] OK       id=00135 2024  Billie Eilish – Birds of a Feather
+
+============================================================
+[2026-04-24T06:57:31Z] RUNDE 6
+SONG:  Billie Eilish – Birds of a Feather  (2024)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2009 und 2016 (slot 4)
+    Prüfung:   2009 < 2024 < 2016 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1979, 1983, 1985, 2009, 2016]
+[2026-04-24T06:57:42Z] OK       id=00413 1993  2 Unlimited – No Limit
+
+============================================================
+[2026-04-24T06:58:10Z] RUNDE 7
+SONG:  2 Unlimited – No Limit  (1993)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1985 und 2009 (slot 3)
+    Prüfung:   1985 < 1993 < 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1979, 1983, 1985, 2009, 2016]
+[2026-04-24T06:58:22Z] OK       id=00424 1998  Moloko – Sing It Back
+
+============================================================
+[2026-04-24T06:58:54Z] RUNDE 8
+SONG:  Moloko – Sing It Back  (1998)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1993 und 2009 (slot 4)
+    Prüfung:   1993 < 1998 < 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1979, 1983, 1985, 1993, 2009, 2016]
+[2026-04-24T06:59:06Z] OK       id=00124 2001  Destiny's Child – Survivor
+
+============================================================
+[2026-04-24T06:59:39Z] RUNDE 9
+SONG:  Destiny's Child – Survivor  (2001)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1998 und 2009 (slot 5)
+    Prüfung:   1998 < 2001 < 2009 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1979, 1983, 1985, 1993, 1998, 2009, 2016]
+[2026-04-24T06:59:50Z] OK       id=00051 2020  Dua Lipa – Levitating
+
+============================================================
+[2026-04-24T07:00:23Z] RUNDE 10
+SONG:  Dua Lipa – Levitating  (2020)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 2016 (slot 8)
+    Prüfung:   2020 > 2016 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1979, 1983, 1985, 1993, 1998, 2001, 2009, 2016]
+[2026-04-24T07:00:35Z] OK       id=00003 1994  The Cranberries – Zombie
+
+============================================================
+[2026-04-24T07:01:08Z] RUNDE 11
+SONG:  The Cranberries – Zombie  (1994)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1993 und 1998 (slot 4)
+    Prüfung:   1993 < 1994 < 1998 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1979, 1983, 1985, 1993, 1998, 2001, 2009, 2016, 2020]
+[2026-04-24T07:01:19Z] OK       id=00444 2007  Fergie – Big Girls Don't Cry
+
+============================================================
+[2026-04-24T07:01:52Z] RUNDE 12
+SONG:  Fergie – Big Girls Don't Cry  (2007)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1979 (slot 0)
+    Prüfung:   2007 < 1979 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1979, 1983, 1985, 1993, 1994, 1998, 2001, 2009, 2016, 2020]
+[2026-04-24T07:02:04Z] OK       id=00408 1992  Ace of Base – All That She Wants
+
+============================================================
+[2026-04-24T07:02:25Z] RUNDE 13
+SONG:  Ace of Base – All That She Wants  (1992)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1985 und 1993 (slot 3)
+    Prüfung:   1985 < 1992 < 1993 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1979, 1983, 1985, 1993, 1994, 1998, 2001, 2009, 2016, 2020]
+[2026-04-24T07:05:35Z] OK       id=00252 1997  Hanson – MMMBop
+
+============================================================
+[2026-04-24T07:06:07Z] RUNDE 1
+SONG:  Hanson – MMMBop  (1997)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 1989 (slot 1)
+    Prüfung:   1997 > 1989 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1989]
+[2026-04-24T07:06:19Z] OK       id=00505 2022  Meghan Trainor – Made You Look
+
+============================================================
+[2026-04-24T07:06:44Z] RUNDE 2
+SONG:  Meghan Trainor – Made You Look  (2022)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   nach 1997 (slot 2)
+    Prüfung:   2022 > 1997 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1989, 1997]
+[2026-04-24T07:06:56Z] OK       id=00497 2019  Dua Lipa – Don't Start Now
+
+============================================================
+[2026-04-24T07:07:28Z] RUNDE 3
+SONG:  Dua Lipa – Don't Start Now  (2019)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1997 und 2022 (slot 2)
+    Prüfung:   1997 < 2019 < 2022 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1989, 1997, 2022]
+[2026-04-24T07:07:40Z] OK       id=00204 1984  Van Halen – Jump
+
+============================================================
+[2026-04-24T07:08:13Z] RUNDE 4
+SONG:  Van Halen – Jump  (1984)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1989 (slot 0)
+    Prüfung:   1984 < 1989 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1989, 1997, 2019, 2022]
+[2026-04-24T07:08:24Z] OK       id=00281 2006  Beyoncé – Irreplaceable
+
+============================================================
+[2026-04-24T07:08:57Z] RUNDE 5
+SONG:  Beyoncé – Irreplaceable  (2006)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1984 (slot 0)
+    Prüfung:   2006 < 1984 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1984, 1989, 1997, 2019, 2022]
+[2026-04-24T07:09:09Z] OK       id=00145 2000  U2 – Beautiful Day
+
+============================================================
+[2026-04-24T07:09:28Z] RUNDE 6
+SONG:  U2 – Beautiful Day  (2000)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1997 und 2019 (slot 3)
+    Prüfung:   1997 < 2000 < 2019 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1984, 1989, 1997, 2019, 2022]
+[2026-04-24T07:09:40Z] OK       id=00053 1991  Nirvana – Smells Like Teen Spirit
+
+============================================================
+[2026-04-24T07:09:51Z] RUNDE 7
+SONG:  Nirvana – Smells Like Teen Spirit  (1991)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2000 und 2019 (slot 4)
+    Prüfung:   2000 < 1991 < 2019 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1984, 1989, 1997, 2000, 2019, 2022]
+[2026-04-24T07:10:03Z] OK       id=00057 2011  LMFAO – Party Rock Anthem
+
+============================================================
+[2026-04-24T07:10:17Z] RUNDE 8
+SONG:  LMFAO – Party Rock Anthem  (2011)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2000 und 2019 (slot 4)
+    Prüfung:   2000 < 2011 < 2019 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1984, 1989, 1997, 2000, 2019, 2022]
+[2026-04-24T07:10:28Z] OK       id=00358 1975  The Four Seasons – December, 1963 (Oh, What a Night)
+
+============================================================
+[2026-04-24T07:11:01Z] RUNDE 9
+SONG:  The Four Seasons – December, 1963 (Oh, What a Night)  (1975)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1984 (slot 0)
+    Prüfung:   1975 < 1984 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1984, 1989, 1997, 2000, 2011, 2019, 2022]
+[2026-04-24T07:11:13Z] OK       id=00381 1987  Midnight Oil – Beds Are Burning
+
+============================================================
+[2026-04-24T07:11:45Z] RUNDE 10
+SONG:  Midnight Oil – Beds Are Burning  (1987)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1997 und 2000 (slot 4)
+    Prüfung:   1997 < 1987 < 2000 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1975, 1984, 1989, 1997, 2000, 2011, 2019, 2022]
+[2026-04-24T07:11:57Z] OK       id=00356 1970  The Jackson 5 – I Want You Back
+
+============================================================
+[2026-04-24T07:12:30Z] RUNDE 11
+SONG:  The Jackson 5 – I Want You Back  (1970)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1975 (slot 0)
+    Prüfung:   1970 < 1975 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1975, 1984, 1989, 1997, 2000, 2011, 2019, 2022]
+[2026-04-24T07:12:42Z] OK       id=00426 1999  Darude – Sandstorm
+
+============================================================
+[2026-04-24T07:13:14Z] RUNDE 12
+SONG:  Darude – Sandstorm  (1999)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1989 und 1997 (slot 4)
+    Prüfung:   1989 < 1999 < 1997 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1970, 1975, 1984, 1989, 1997, 2000, 2011, 2019, 2022]
+[2026-04-24T07:13:26Z] OK       id=00350 1976  Thin Lizzy – The Boys Are Back in Town
+
+============================================================
+[2026-04-24T07:13:59Z] RUNDE 13
+SONG:  Thin Lizzy – The Boys Are Back in Town  (1976)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1970 (slot 0)
+    Prüfung:   1976 < 1970 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1970, 1975, 1984, 1989, 1997, 2000, 2011, 2019, 2022]
+[2026-04-24T07:14:10Z] OK       id=00288 2008  Kings of Leon – Use Somebody
+
+============================================================
+[2026-04-24T07:14:43Z] RUNDE 14
+SONG:  Kings of Leon – Use Somebody  (2008)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1970 (slot 0)
+    Prüfung:   2008 < 1970 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1970, 1975, 1984, 1989, 1997, 2000, 2011, 2019, 2022]
+[2026-04-24T07:14:55Z] OK       id=00191 1978  Village People – YMCA
+
+============================================================
+[2026-04-24T07:15:03Z] RUNDE 15
+SONG:  Village People – YMCA  (1978)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 1970 (slot 0)
+    Prüfung:   1978 < 1970 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1970, 1975, 1984, 1989, 1997, 2000, 2011, 2019, 2022]
+[2026-04-24T07:17:29Z] OK       id=00080 1988  N.W.A – Straight Outta Compton
+
+============================================================
+[2026-04-24T07:18:02Z] RUNDE 1
+SONG:  N.W.A – Straight Outta Compton  (1988)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   vor 2007 (slot 0)
+    Prüfung:   1988 < 2007 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [2007]
+[2026-04-24T07:18:13Z] OK       id=00436 2002  No Doubt – Hella Good
+
+============================================================
+[2026-04-24T07:18:25Z] RUNDE 2
+SONG:  No Doubt – Hella Good  (2002)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 1988 und 2007 (slot 1)
+    Prüfung:   1988 < 2002 < 2007 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 2007]
+[2026-04-24T07:18:36Z] OK       id=00278 2005  James Blunt – You're Beautiful
+
+============================================================
+[2026-04-24T07:18:47Z] RUNDE 3
+SONG:  James Blunt – You're Beautiful  (2005)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2002 und 2007 (slot 2)
+    Prüfung:   2002 < 2005 < 2007 → ✓
+    Ergebnis:  RICHTIG ✓
+    Timeline:  [1988, 2002, 2007]
+[2026-04-24T07:18:59Z] OK       id=00483 2015  Shawn Mendes – Stitches
+
+============================================================
+[2026-04-24T07:19:09Z] RUNDE 4
+SONG:  Shawn Mendes – Stitches  (2015)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2002 und 2005 (slot 2)
+    Prüfung:   2002 < 2015 < 2005 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 2002, 2005, 2007]
+[2026-04-24T07:19:21Z] OK       id=00417 1995  Montell Jordan – This Is How We Do It
+
+============================================================
+[2026-04-24T07:19:30Z] RUNDE 5
+SONG:  Montell Jordan – This Is How We Do It  (1995)
+============================================================
+  Spieler Alexopolus:
+    Antwort:   zwischen 2002 und 2005 (slot 2)
+    Prüfung:   2002 < 1995 < 2005 → ✗
+    Ergebnis:  FALSCH  ✗
+    Timeline:  [1988, 2002, 2005, 2007]
+[2026-04-24T07:19:42Z] OK       id=00079 1972  Stevie Wonder – Superstition

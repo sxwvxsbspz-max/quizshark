@@ -25,7 +25,7 @@
 .sng-ctrl__currentTile .sng-ctrl__fixedYear {
   font-size: 1.1rem;
   font-weight: 900;
-  color: rgba(255,255,255,0.95);
+  color: #fff;
   font-variant-numeric: tabular-nums;
   flex: 0 0 auto;
   min-width: 42px;
@@ -36,7 +36,7 @@
   min-width: 0;
   font-size: 0.82rem;
   font-weight: 500;
-  color: rgba(255,255,255,0.85);
+  color: #fff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -58,7 +58,8 @@ button { font-family: inherit; }
   --tileBg:    rgba(255,255,255,0.14);
   --tileRadius:12px;
   --tileH:     33px;
-  --gap:       6px;
+  --tileHOrig: 33px;
+  --gap:       4px;
 }
 
 /* =========================================================
@@ -160,6 +161,11 @@ button { font-family: inherit; }
 
 .sng-ctrl__tileArtist { font-weight: 700; }
 
+.sng-ctrl__currentTile .sng-ctrl__currentLabel {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
 /* =========================================================
    TIMER BAR
    ========================================================= */
@@ -202,7 +208,7 @@ button { font-family: inherit; }
 .sng-ctrl__currentTile {
   width: 100%;
   flex: 0 0 auto;
-  height: var(--tileH);
+  height: calc(var(--tileHOrig) * 1.5);
   border-radius: var(--tileRadius);
   display: flex;
   align-items: center;
@@ -215,6 +221,7 @@ button { font-family: inherit; }
   cursor: grab;
   position: relative;
   z-index: 1;
+  color: #fff;
   transition: background 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
 }
 .sng-ctrl__currentTile:active { cursor: grabbing; }
@@ -346,7 +353,7 @@ button { font-family: inherit; }
   height: var(--tileH);
   border-radius: var(--tileRadius);
   background: rgba(255,255,255,0.22);
-  border: 2px solid rgba(255,255,255,0.55);
+  border: none;
   padding: 3px 12px;
   display: flex;
   align-items: center;
@@ -396,7 +403,7 @@ button { font-family: inherit; }
    ========================================================= */
 .sng-ctrl__confirm {
   width: min(600px, 96vw);
-  padding: 16px 22px;
+  padding: 11px 22px;
   border-radius: 18px;
   font-family: "Nunito", Arial, sans-serif;
   font-size: 1.18rem; font-weight: 900;

@@ -29,9 +29,9 @@ html, body {
   --green:     #39FF14;
   --red:       #FF2E2E;
   --tileW:     100%;          /* Tiles füllen die gesamte Panel-Breite */
-  --tileH:     1.6vw;         /* Fallback-Min, Content treibt tatsächliche Höhe */
+  --tileH:     1.28vw;        /* Fallback-Min, Content treibt tatsächliche Höhe */
   --tileRadius:1.04vw;        /* 40px */
-  --gap:       0.52vw;        /* 20px */
+  --gap:       0.36vw;        /* 20px → −30% */
   --pad:       1.82vw;        /* 70px Innenabstand des Panels */
 }
 
@@ -68,17 +68,65 @@ html, body {
   justify-content: space-between;
 }
 
+/* LEFT GROUP: wraps Timer-Panel + Timeline-Panel with small inner gap */
+.ps__leftGroup {
+  flex: 1;
+  display: flex;
+  gap: 0.52vw;
+  align-items: flex-start;
+  height: calc(100vh - 4.16vw);
+}
+
+/* LEFT-NARROW: Timer + Track-Label Panel */
+.ps__timerPanel {
+  flex: 0 0 9.50vw;
+  width: 9.50vw;
+  height: 100%;
+  border-radius: var(--tileRadius);
+  background: var(--white20);
+  box-shadow: 0 0.57vw 1.56vw rgba(0,0,0,0.35);
+  overflow: hidden;
+}
+
+.ps__timerPanelInner {
+  width: 100%; height: 100%;
+  padding: var(--pad);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.04vw;
+}
+
+.ps__trackLabelWrap {
+  flex: 1 1 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ps__trackLabel {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 11.2rem;
+  font-weight: 700;
+  color: var(--white20);
+  white-space: nowrap;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+
 /* LEFT Panel */
 .ps__panel {
   flex: 1;
-  height: calc(100vh - 4.16vw);
+  height: 100%;
   border-radius: var(--tileRadius);
   background: var(--white20);
   box-shadow: 0 0.57vw 1.56vw rgba(0,0,0,0.35);
   display: flex;
   align-items: stretch;
   justify-content: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .ps__panelInner {
@@ -91,14 +139,14 @@ html, body {
 
 /* RIGHT sidebar – 1:1 aus soundyear */
 .ps__sidebar {
-  width: 52.08vw;
+  width: 43.27vw;
   height: calc(100vh - 4.16vw);
   display: flex;
   align-items: flex-start;
 }
 
 .ps__players {
-  width: 43.22vw;
+  width: 34.41vw;
   display: flex;
   flex-direction: column;
   gap: 0.52vw;
@@ -116,8 +164,8 @@ html, body {
 
 /* Answer-Box links (zeigt Jahresspanne) */
 .ps__answerBox {
-  flex: 0 0 21.61vw;
-  width: 21.61vw;
+  flex: 0 0 12.80vw;
+  width: 12.80vw;
   height: 3.64vw;
   border-radius: 1.04vw;
   background: rgba(255,255,255,0.12);
@@ -174,11 +222,13 @@ html, body {
 .ps__player.is-answered .ps__playerCard {
   border-color: rgba(255,255,255,0.70);
 }
-.ps__player.is-correct .ps__playerCard {
+.ps__player.is-correct .ps__playerCard,
+.ps__player.is-correct .ps__answerBox {
   border-color: var(--green);
   box-shadow: 0 0 0.52vw rgba(57,255,20,0.55), 0 0 1.04vw rgba(57,255,20,0.85);
 }
-.ps__player.is-wrong .ps__playerCard {
+.ps__player.is-wrong .ps__playerCard,
+.ps__player.is-wrong .ps__answerBox {
   border-color: var(--red);
   box-shadow: 0 0 0.52vw rgba(255,46,46,0.45), 0 0 1.04vw rgba(255,46,46,0.75);
 }
@@ -227,8 +277,8 @@ html, body {
 
 .ps__timer {
   flex: 0 0 auto;
-  width: 7.81vw;
-  height: 7.81vw;
+  width: 5.86vw;
+  height: 5.86vw;
   border-radius: 999px;
   --p: 0%;
   background: conic-gradient(
@@ -244,7 +294,7 @@ html, body {
 
 .sng__timelineWrap {
   flex: 1 1 auto;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,24 +318,22 @@ html, body {
 .sng__tile {
   box-sizing: border-box;
   width: var(--tileW);
-  min-height: var(--tileH);
+  height: 2.59vw;
   border-radius: var(--tileRadius);
-  padding: 0.1vw 1.3vw;
+  padding: 0.08vw 1.3vw;
   line-height: 1;
   display: flex;
   align-items: center;
-  gap: 1.04vw;
+  gap: 1.3vw;
   transition: transform 400ms cubic-bezier(.34,1.56,.64,1),
               box-shadow 300ms ease,
-              background 300ms ease,
-              border-color 300ms ease;
+              background 300ms ease;
   position: relative;
 }
 
 /* Weißes Tile: Anker oder bereits gespielt */
 .sng__tile--white {
   background: rgba(255,255,255,0.18);
-  border: 0.22vw solid rgba(255,255,255,0.35);
 }
 
 /* Gelbes Tile: aktuell gespielter Song */
@@ -298,12 +346,10 @@ html, body {
 /* Grün (richtig) / Rot (falsch) während Auflösung */
 .sng__tile--green {
   background: rgba(57,255,20,0.25);
-  border: 0.22vw solid var(--green);
   box-shadow: 0 0 1.3vw rgba(57,255,20,0.5);
 }
 .sng__tile--red {
   background: rgba(255,46,46,0.22);
-  border: 0.22vw solid var(--red);
   box-shadow: 0 0 1.3vw rgba(255,46,46,0.45);
 }
 
@@ -321,24 +367,23 @@ html, body {
    ---------------------------------------------------------------- */
 
 .sng__tileYear {
-  font-size: 5.8rem; font-weight: 900;
+  font-size: 4.7rem; font-weight: 900;
   font-variant-numeric: tabular-nums;
   color: rgba(255,255,255,0.95);
   flex: 0 0 auto;
-  min-width: 6vw;
 }
 
 /* Einzeilig: Interpret — Titel */
 .sng__tileOneLine {
   flex: 1 1 auto;
   min-width: 0;
-  font-size: 4rem; font-weight: 500;
+  font-size: 3.2rem; font-weight: 500;
   color: rgba(255,255,255,0.90);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
 .sng__tileAnchorLabel {
-  font-size: 3.2rem; font-weight: 400;
+  font-size: 2.56rem; font-weight: 400;
   color: rgba(255,255,255,1.0);
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -351,7 +396,6 @@ html, body {
 
 .sng__tileYearSlot {
   flex: 0 0 auto;
-  min-width: 6vw;
   display: flex;
   align-items: center;
 }
@@ -362,7 +406,7 @@ html, body {
 
 .sng__eq {
   flex: 0 0 auto;
-  width: 5.5vw; height: 5.8rem;
+  width: 4.4vw; height: 4.64rem;
   overflow: visible;
 }
 

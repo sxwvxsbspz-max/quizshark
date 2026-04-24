@@ -143,6 +143,33 @@ function updateHeader(playersRanked, gainedMap, opts = {}) {
 }
 
 // ----------------------------------------------------------------
+// Tile height auto-scaling
+// ----------------------------------------------------------------
+const BASE_TILE_H   = 33;       // matches --tileHOrig
+const YELLOW_TILE_H = BASE_TILE_H * 1.5;
+const MIN_TILE_H    = 18;
+const TILE_GAP      = 4;        // matches --gap
+
+function adjustTileHeight() {
+  const area = document.querySelector('.sng-ctrl__area');
+  if (!area) return;
+
+  const nFixed  = playerTimeline.length;
+  const nTotal  = nFixed + 1;   // +1 for yellow tile
+  const gaps    = (nTotal - 1) * TILE_GAP;
+  const availH  = area.clientHeight - 4; // 4 = padding-bottom
+
+  let tileH = BASE_TILE_H;
+  if (nFixed > 0) {
+    const spaceForFixed = availH - YELLOW_TILE_H - gaps;
+    const ideal = spaceForFixed / nFixed;
+    tileH = Math.min(BASE_TILE_H, Math.max(MIN_TILE_H, ideal));
+  }
+
+  document.documentElement.style.setProperty('--tileH', `${tileH}px`);
+}
+
+// ----------------------------------------------------------------
 // Timeline building
 // ----------------------------------------------------------------
 
@@ -164,7 +191,7 @@ function buildYellowTileHTML() {
   };
 
   const stateClass = stateClassMap[yellowState] || 'sng-ctrl__currentTile--yellow';
-  const lockedCls = (locked && yellowState === 'playing') ? ' sng-ctrl__currentTile--locked' : '';
+  const lockedCls = (locked && !hasSubmitted && yellowState === 'playing') ? ' sng-ctrl__currentTile--locked' : '';
   const submittedCls = (hasSubmitted && yellowState === 'playing')
     ? ' sng-ctrl__currentTile--submitted'
     : '';
@@ -180,7 +207,7 @@ function buildYellowTileHTML() {
   } else {
     contentHTML = `
       ${buildEqSvg()}
-      <div class="sng-ctrl__fixedOneLine">Aktueller Song</div>
+      <div class="sng-ctrl__fixedOneLine sng-ctrl__currentLabel">Aktueller Song</div>
     `;
   }
 
@@ -221,6 +248,7 @@ function buildFixedTileHTML(tile) {
 
 function renderTimeline() {
   if (!ctrlTimeline) return;
+  adjustTileHeight();
 
   const clampedSlot = Math.max(0, Math.min(playerTimeline.length, currentSlot));
   let html = '';
@@ -288,6 +316,7 @@ function onDragMove(e) {
 
   if (newSlot !== currentSlot) {
     currentSlot = newSlot;
+    socket.emit('module_event', { action: 'update_draft', payload: { slot_index: currentSlot } });
     renderTimeline();
   }
 }
@@ -357,6 +386,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const playerId = localStorage.getItem(LS_PLAYER_ID_KEY);
   const runId    = localStorage.getItem(LS_RUN_ID_KEY);
   if (playerId) socket.emit('resume_player', { player_id: playerId, run_id: runId || '' });
+
+  const area = document.querySelector('.sng-ctrl__area');
+  if (area && typeof ResizeObserver !== 'undefined') {
+    new ResizeObserver(() => renderTimeline()).observe(area);
+  }
 });
 
 showTitle();
@@ -410,21 +444,22 @@ socket.on('reveal_player_answers', () => {
   stopTimebar();
 });
 
-socket.on('unveil_correct', () => {
+socket.on('unveil_correct', data => {
   lockUI();
   stopTimebar();
+  yellowReveal = {
+    year:   data.correct_year,
+    title:  data.title  || '',
+    artist: data.artist || '',
+  };
+  renderTimeline();
 });
 
 socket.on('show_resolution', data => {
   const myId = localStorage.getItem(LS_PLAYER_ID_KEY);
   const res  = (data.player_results || {})[myId];
 
-  yellowState  = res && res.correct ? 'correct' : 'wrong';
-  yellowReveal = {
-    year:   data.correct_year,
-    title:  data.title  || '',
-    artist: data.artist || '',
-  };
+  yellowState = res && res.correct ? 'correct' : 'wrong';
 
   renderTimeline();
 });
