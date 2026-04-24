@@ -10,7 +10,7 @@ from engine.audio.resolve_audio import resolve_audio_ref
 # ---------- Konfiguration ----------
 POINTS_CORRECT       = 50
 MAX_ROUNDS           = 14
-MAX_CORRECT_WINS     = 9    # Spiel endet sobald ein Spieler so viele richtige hat
+MAX_CORRECT_WINS     = 10   # Spiel endet sobald ein Spieler so viele richtige hat
 ANCHOR_YEAR_MARGIN   = 10   # Ausgangsjahr: frühestens ältester+10, spätestens neuester-10
 
 TIMING_INTRO           = 3.0   # show_question → open_answers

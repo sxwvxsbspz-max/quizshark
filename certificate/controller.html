@@ -1,0 +1,401 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+<div class="ps certificate-controller">
+
+  <!-- INTRO SCREEN -->
+  <div id="title-screen" class="certificate-controller__screen" style="display:none;">
+    <div class="certificate-controller__bg" aria-hidden="true">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="100%" height="100%"
+        viewBox="0 0 1600 900"
+        preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="certificate-controller-bg-grad-intro">
+            <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+            <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+            <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+          </linearGradient>
+
+          <path id="certificate-controller-wave-intro" fill="url(#certificate-controller-bg-grad-intro)"
+            d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+            s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859
+            s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+        </defs>
+
+        <g>
+          <use xlink:href="#certificate-controller-wave-intro" opacity=".3">
+            <animateTransform attributeName="transform" type="translate"
+              dur="10s" values="270 230; -334 180; 270 230"
+              keyTimes="0; .5; 1" repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#certificate-controller-wave-intro" opacity=".6">
+            <animateTransform attributeName="transform" type="translate"
+              dur="8s" values="-270 230;243 220;-270 230"
+              keyTimes="0; .6; 1" repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#certificate-controller-wave-intro" opacity=".9">
+            <animateTransform attributeName="transform" type="translate"
+              dur="6s" values="0 230;-140 200;0 230"
+              keyTimes="0; .4; 1" repeatCount="indefinite" />
+          </use>
+        </g>
+      </svg>
+    </div>
+
+    <div class="certificate-controller__wrap">
+      <div class="certificate-controller__shell">
+
+        <img
+          class="certificate-controller__logo"
+          src="/pre_lobby/media/quizshark.png"
+          alt="QuizShark"
+        />
+
+        <div class="certificate-controller__card certificate-controller__card--intro">
+          <div class="certificate-controller__cardInner">
+            <div class="certificate-controller__headline">CERTIFICATE</div>
+            <div class="certificate-controller__subtitle">Gleich geht's weiter</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- COUNTDOWN SCREEN -->
+  <div id="countdown-screen" class="certificate-controller__screen" style="display:none;">
+    <div class="certificate-controller__bg" aria-hidden="true">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="100%" height="100%"
+        viewBox="0 0 1600 900"
+        preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="certificate-controller-bg-grad-countdown">
+            <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+            <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+            <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+          </linearGradient>
+
+          <path id="certificate-controller-wave-countdown" fill="url(#certificate-controller-bg-grad-countdown)"
+            d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+            s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859
+            s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+        </defs>
+
+        <g>
+          <use xlink:href="#certificate-controller-wave-countdown" opacity=".3">
+            <animateTransform attributeName="transform" type="translate"
+              dur="10s" values="270 230; -334 180; 270 230"
+              keyTimes="0; .5; 1" repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#certificate-controller-wave-countdown" opacity=".6">
+            <animateTransform attributeName="transform" type="translate"
+              dur="8s" values="-270 230;243 220;-270 230"
+              keyTimes="0; .6; 1" repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#certificate-controller-wave-countdown" opacity=".9">
+            <animateTransform attributeName="transform" type="translate"
+              dur="6s" values="0 230;-140 200;0 230"
+              keyTimes="0; .4; 1" repeatCount="indefinite" />
+          </use>
+        </g>
+      </svg>
+    </div>
+
+    <div class="certificate-controller__wrap">
+      <div class="certificate-controller__shell">
+
+        <img
+          class="certificate-controller__logo"
+          src="/pre_lobby/media/quizshark.png"
+          alt="QuizShark"
+        />
+
+        <div class="certificate-controller__card" aria-live="polite">
+          <div class="certificate-controller__cardInner">
+            <div class="certificate-controller__headline">CERTIFICATE</div>
+            <div id="certificate-time" class="certificate-controller__time">05:00</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<style>
+  html {
+    font-size: 16px;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .ps, .ps * {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url("../../static/fonts/Nunito-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url("../../static/fonts/Nunito-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url("../../static/fonts/Nunito-Black.ttf") format("truetype");
+    font-weight: 900;
+  }
+
+  :root {
+    --bg: #00167a;
+    --white16: rgba(255,255,255,0.16);
+    --white95: rgba(255,255,255,0.95);
+    --cardRadius: 18px;
+    --shellW: 560px;
+    --shellPad: 18px;
+  }
+
+  .ps.certificate-controller {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: "Nunito", Arial, sans-serif;
+    color: #fff;
+    background: var(--bg);
+  }
+
+  .certificate-controller__screen {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .certificate-controller__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .certificate-controller__bg svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #08263c;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(14, 65, 102, 0.86),
+      #0e4166
+    );
+  }
+
+  .certificate-controller__wrap {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    padding: var(--shellPad);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .certificate-controller__shell {
+    width: min(var(--shellW), 92vw);
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .certificate-controller__logo {
+    grid-row: 1;
+    width: min(62vw, 360px);
+    height: auto;
+    display: block;
+    align-self: center;
+  }
+
+  .certificate-controller__card {
+    grid-row: 2;
+    width: 100%;
+    padding: 36px 24px;
+    background: var(--white16);
+    border-radius: var(--cardRadius);
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .certificate-controller__card--intro {
+    min-height: 0px;
+  }
+
+  .certificate-controller__cardInner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    text-align: center;
+  }
+
+  .certificate-controller__headline {
+    width: 100%;
+    margin: 0;
+    font-size: 2.45rem;
+    line-height: 1;
+    font-weight: 900;
+    color: var(--white95);
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+
+  .certificate-controller__time {
+    width: 100%;
+    margin: 0;
+    font-size: 4.15rem;
+    line-height: 0.95;
+    font-weight: 900;
+    color: #ffffff;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .certificate-controller__subtitle {
+    width: 100%;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+    color: rgba(255,255,255,0.92);
+    text-align: center;
+  }
+</style>
+
+<script>
+  function getSelfPlayerId() {
+    return (
+      localStorage.getItem('blitzquiz_player_id') ||
+      localStorage.getItem('player_id') ||
+      localStorage.getItem('playerId') ||
+      sessionStorage.getItem('blitzquiz_player_id') ||
+      sessionStorage.getItem('player_id') ||
+      sessionStorage.getItem('playerId') ||
+      null
+    );
+  }
+
+  function getSelfRunId() {
+    return (
+      localStorage.getItem('blitzquiz_run_id') ||
+      sessionStorage.getItem('blitzquiz_run_id') ||
+      null
+    );
+  }
+
+  function registerController() {
+    socket.emit('register_controller', {
+      player_id: getSelfPlayerId() || "",
+      run_id: getSelfRunId() || ""
+    });
+  }
+
+  registerController();
+  socket.on('connect', () => {
+    registerController();
+  });
+
+  const titleScreen = document.getElementById('title-screen');
+  const countdownScreen = document.getElementById('countdown-screen');
+  const timeEl = document.getElementById('certificate-time');
+
+  let serverOffsetMs = 0;
+  let certificateEndsAtMs = null;
+  let timerInterval = null;
+
+  function nowSyncedMs() {
+    return Date.now() + serverOffsetMs;
+  }
+
+  function parseIsoToMs(iso) {
+    const ms = Date.parse(iso);
+    return Number.isFinite(ms) ? ms : null;
+  }
+
+  function formatRemaining(msLeft) {
+    const totalSeconds = Math.max(0, Math.ceil(msLeft / 1000));
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    return String(minutes).padStart(2, '0') + ':' + String(seconds).padStart(2, '0');
+  }
+
+  function showIntro() {
+    if (titleScreen) titleScreen.style.display = '';
+    if (countdownScreen) countdownScreen.style.display = 'none';
+  }
+
+  function showCountdown() {
+    if (titleScreen) titleScreen.style.display = 'none';
+    if (countdownScreen) countdownScreen.style.display = '';
+  }
+
+  function renderTime() {
+    if (!timeEl || certificateEndsAtMs === null) return;
+
+    const msLeft = Math.max(0, certificateEndsAtMs - nowSyncedMs());
+    timeEl.textContent = formatRemaining(msLeft);
+
+    if (msLeft <= 0 && timerInterval) {
+      clearInterval(timerInterval);
+      timerInterval = null;
+    }
+  }
+
+  socket.on('server_time', (data) => {
+    const serverNow = Number(data && data.server_now);
+    if (!Number.isFinite(serverNow)) return;
+    serverOffsetMs = serverNow - Date.now();
+    renderTime();
+  });
+
+  socket.on('certificate_intro', () => {
+    showIntro();
+  });
+
+  socket.on('certificate_countdown', (data) => {
+    certificateEndsAtMs = parseIsoToMs(data && data.ends_at);
+
+    showCountdown();
+    renderTime();
+
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = setInterval(renderTime, 250);
+  });
+
+  showIntro();
+</script>
+{% endblock %}

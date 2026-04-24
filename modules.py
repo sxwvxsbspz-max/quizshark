@@ -122,6 +122,9 @@ def get_modules():
         "pause": {
             "logic": "pause.logic:PauseLogic",
         },
+        "certificate": {
+            "logic": "certificate.logic:CertificateLogic",
+        },
         "yourcategory": {
             "logic": "yourcategory.logic:YourCategoryLogic",
         },
