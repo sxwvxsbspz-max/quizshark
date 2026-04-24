@@ -18,7 +18,8 @@ TIMING_ANSWER        = 25.0  # Antwortzeit
 TIMING_REVEAL        = 2.0   # close_answers → reveal_player_answers
 TIMING_UNVEIL        = 1.5   # reveal → unveil_correct
 TIMING_RESOLUTION    = 1.2   # unveil → show_resolution
-TIMING_SCORING       = 3.0   # show_resolution → show_scoring
+TIMING_SHOW_RESULT   = 5.0   # show_resolution → show_result (wenn TV grün/rot zeigt)
+TIMING_SCORING       = 8.0   # show_resolution → show_scoring (inkl. Jahres-Audio + Tile-Flug + 2s Pause)
 TIMING_SCORE_UPDATE  = 2.0   # show_scoring → apply_scoring_update
 TIMING_NEXT_ROUND    = 2.0   # apply_scoring_update → nächste Runde
 
@@ -488,7 +489,11 @@ class SongsterLogic:
             "tv_timeline":      self.tv_timeline,
             "player_timelines": self.player_timelines,
         })
+        self._after(TIMING_SHOW_RESULT, self._show_result, player_results)
         self._after(TIMING_SCORING, self._show_scoring)
+
+    def _show_result(self, player_results):
+        self._emit_all("show_result", {"player_results": player_results})
 
     def _show_scoring(self):
         q_year = self.current_q["year"]

@@ -124,6 +124,8 @@ let currentYellowArtist     = null;
 let currentYellowPlacedYear = null;   // Jahr das nach der Runde gelb bleibt
 let currentPlayerOrder      = [];
 let maxTvPlayers            = 12;
+let yearAnnounceAudio       = null;   // läuft noch während show_resolution kommt
+let pendingScoreGained      = false;  // wurde in show_scoring gesetzt
 
 // ----------------------------------------------------------------
 // Player sidebar
@@ -343,7 +345,9 @@ socket.on('reveal_player_answers', data => {
 });
 
 socket.on('unveil_correct', data => {
-  playSfxOnce('unveil_correct.mp3');
+  yearAnnounceAudio = new Audio(`${SFX_BASE}/year-${data.correct_year}.mp3`);
+  yearAnnounceAudio.volume = 1.0;
+  yearAnnounceAudio.play().catch(() => {});
   stopQuestionAudio();
 
   currentYellowYear   = data.correct_year;
@@ -366,30 +370,38 @@ socket.on('unveil_correct', data => {
 });
 
 socket.on('show_resolution', data => {
-  playSfxOnce('show_resolution.mp3');
+  const correctYear   = data.correct_year;
+  const playerResults = data.player_results || {};
+  const newTvTimeline = data.tv_timeline || [];
 
-  const correctYear     = data.correct_year;
-  const playerResults   = data.player_results || {};
-  const newTvTimeline   = data.tv_timeline || [];
+  const doReveal = () => {
+    playSfxOnce('show_resolution.mp3');
+    Object.entries(playerResults).forEach(([pid, res]) => {
+      const row = document.getElementById(`player-${pid}`);
+      if (!row) return;
+      row.classList.remove('is-answered');
+      if (res.correct) row.classList.add('is-correct');
+      else             row.classList.add('is-wrong');
+    });
+  };
 
-  // Spieler grün/rot markieren
-  Object.entries(playerResults).forEach(([pid, res]) => {
-    const row = document.getElementById(`player-${pid}`);
-    if (!row) return;
-    row.classList.remove('is-answered');
-    if (res.correct) row.classList.add('is-correct');
-    else             row.classList.add('is-wrong');
-  });
+  const doFly = () => {
+    playSfxOnce('swoosh.mp3');
+    _flyYellowTile(newTvTimeline, correctYear, () => setTimeout(doReveal, 2000));
+  };
 
-  // FLIP-Animation: gelbes Tile fliegt an korrekte Position
-  _flyYellowTile(newTvTimeline, correctYear);
+  if (yearAnnounceAudio && !yearAnnounceAudio.ended) {
+    yearAnnounceAudio.addEventListener('ended', doFly, { once: true });
+  } else {
+    doFly();
+  }
 });
 
-function _flyYellowTile(newTvTimeline, correctYear) {
+function _flyYellowTile(newTvTimeline, correctYear, onLanded) {
   const currentTile = document.getElementById('tile-current');
   if (!currentTile) {
-    // Kein gelbes Tile vorhanden → einfach neu rendern
     redrawTimeline(newTvTimeline, false, null);
+    if (onLanded) onLanded();
     return;
   }
 
@@ -438,6 +450,7 @@ function _flyYellowTile(newTvTimeline, correctYear) {
           targetTile.classList.add('sng__tile--yellow');
           targetTile.style.visibility = 'visible';
         }
+        if (onLanded) onLanded();
       }, { once: true });
     });
   });
@@ -447,8 +460,8 @@ socket.on('show_scoring', data => {
   const gained = data.gained || {};
   clearScorePops();
 
-  const anyPoints = Object.values(gained).some(g => Number(g) > 0);
-  if (anyPoints) {
+  pendingScoreGained = Object.values(gained).some(g => Number(g) > 0);
+  if (pendingScoreGained) {
     playSfxOnce('pointsunveiled.mp3');
     Object.entries(gained).forEach(([pid, g]) => {
       if (Number(g) > 0) {
@@ -466,7 +479,10 @@ socket.on('show_scoring', data => {
 socket.on('apply_scoring_update', data => {
   clearScorePops();
   updateScores(data.players_ranked || []);
-  playSfxOnce('pointsupdated.mp3');
+  if (pendingScoreGained) {
+    playSfxOnce('pointsupdated.mp3');
+    pendingScoreGained = false;
+  }
 });
 
 // ----------------------------------------------------------------

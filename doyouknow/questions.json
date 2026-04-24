@@ -1,29 +1,15 @@
 [
     {
-        "id": "dyk005",
-        "category": "Natur",
-        "question": "Nenne ein Säugetier, das Eier legt.",
+        "id": "dyk020",
+        "category": "Geschichte",
+        "question": "Nenne ein Land, in dem während des 20. Jahrhunderts eine Revolution stattgefunden hat.",
         "image": "",
-        "lastplayed": ""
+        "lastplayed": "2026-04-24T10:20:47Z"
     },
     {
         "id": "dyk003",
         "category": "Geografie",
         "question": "Nenne eine Hauptstadt in Asien außer Peking und Tokio.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk001",
-        "category": "Geografie",
-        "question": "Nenne einen Fluss in Südamerika außer dem Amazonas.",
-        "image": "",
-        "lastplayed": ""
-    },
-    {
-        "id": "dyk004",
-        "category": "Natur",
-        "question": "Nenne ein Tier, das sowohl an Land als auch im Wasser lebt.",
         "image": "",
         "lastplayed": ""
     },
@@ -35,9 +21,16 @@
         "lastplayed": ""
     },
     {
-        "id": "dyk020",
-        "category": "Geschichte",
-        "question": "Nenne ein Land, in dem während des 20. Jahrhunderts eine Revolution stattgefunden hat.",
+        "id": "dyk001",
+        "category": "Geografie",
+        "question": "Nenne einen Fluss in Südamerika außer dem Amazonas.",
+        "image": "",
+        "lastplayed": ""
+    },
+    {
+        "id": "dyk005",
+        "category": "Natur",
+        "question": "Nenne ein Säugetier, das Eier legt.",
         "image": "",
         "lastplayed": ""
     },
@@ -47,13 +40,6 @@
         "question": "Nenne ein chemisches Element, das bei Raumtemperatur flüssig ist.",
         "image": "",
         "lastplayed": "2026-04-22T13:43:20Z"
-    },
-    {
-        "id": "dyk012",
-        "category": "Geschichte",
-        "question": "Nenne ein Land, das im Ersten Weltkrieg auf Seiten der Entente kämpfte.",
-        "image": "",
-        "lastplayed": "2026-04-24T08:02:48Z"
     },
     {
         "id": "dyk002",
@@ -138,5 +124,19 @@
         "question": "Nenne eine Sportart, bei der man einen Schläger benutzt.",
         "image": "",
         "lastplayed": "2026-04-24T08:02:18Z"
+    },
+    {
+        "id": "dyk012",
+        "category": "Geschichte",
+        "question": "Nenne ein Land, das im Ersten Weltkrieg auf Seiten der Entente kämpfte.",
+        "image": "",
+        "lastplayed": "2026-04-24T08:02:48Z"
+    },
+    {
+        "id": "dyk004",
+        "category": "Natur",
+        "question": "Nenne ein Tier, das sowohl an Land als auch im Wasser lebt.",
+        "image": "",
+        "lastplayed": "2026-04-24T10:20:19Z"
     }
 ]

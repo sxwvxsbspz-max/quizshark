@@ -455,7 +455,11 @@ socket.on('unveil_correct', data => {
   renderTimeline();
 });
 
-socket.on('show_resolution', data => {
+socket.on('show_resolution', () => {
+  // Farbe bleibt gelb bis show_result kommt (TV zeigt erst dann grün/rot)
+});
+
+socket.on('show_result', data => {
   const myId = localStorage.getItem(LS_PLAYER_ID_KEY);
   const res  = (data.player_results || {})[myId];
 
