@@ -1,6 +1,6 @@
 # --- FILE: ./app.py ---
 
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template, request, send_from_directory, send_file
 from flask_socketio import SocketIO, emit, join_room
 from gamestate import GameState
 
@@ -155,6 +155,35 @@ def media(filename):
 def playerdata(filename):
     playerdata_dir = os.path.join(app.root_path, "playerdata")
     return send_from_directory(playerdata_dir, filename)
+
+# =========================
+# CERTIFICATE DOWNLOAD
+# =========================
+@app.route('/certificate/download/<player_id>')
+def certificate_download(player_id):
+    import io
+    from certificate.generate import generate_certificate
+
+    player = game.players.get(player_id)
+    if not player:
+        return ("Spieler nicht gefunden", 404)
+
+    name = player.get('name', 'Spieler')
+
+    sorted_ids = sorted(
+        game.players,
+        key=lambda pid: game.players[pid].get('score', 0),
+        reverse=True,
+    )
+    rank = (sorted_ids.index(player_id) + 1) if player_id in sorted_ids else 0
+
+    img_bytes = generate_certificate(name=name, rank=rank)
+    return send_file(
+        io.BytesIO(img_bytes),
+        mimetype='image/png',
+        as_attachment=True,
+        download_name=f'QuizShark_Urkunde_{name}.png',
+    )
 
 # =========================
 # ADMIN (Testseite: /admin -> /admin/admin.html)

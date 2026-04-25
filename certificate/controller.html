@@ -121,6 +121,15 @@
           </div>
         </div>
 
+        <a
+          id="download-btn"
+          class="certificate-controller__downloadBtn"
+          href="#"
+          target="_blank"
+        >
+          Urkunde herunterladen
+        </a>
+
       </div>
     </div>
   </div>
@@ -294,6 +303,23 @@
     color: rgba(255,255,255,0.92);
     text-align: center;
   }
+
+  .certificate-controller__downloadBtn {
+    grid-row: 3;
+    align-self: center;
+    display: inline-block;
+    padding: 14px 28px;
+    background: rgba(255,255,255,0.15);
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 14px;
+    color: #fff;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  }
 </style>
 
 <script>
@@ -395,6 +421,13 @@
     if (timerInterval) clearInterval(timerInterval);
     timerInterval = setInterval(renderTime, 250);
   });
+
+  // Download-Button mit Player-ID verknüpfen
+  const downloadBtn = document.getElementById('download-btn');
+  const selfPlayerId = getSelfPlayerId();
+  if (downloadBtn && selfPlayerId) {
+    downloadBtn.href = '/certificate/download/' + selfPlayerId;
+  }
 
   showIntro();
 </script>
