@@ -12,7 +12,7 @@ FONTS_DIR = os.path.join(os.path.dirname(BASE_DIR), 'static', 'fonts')
 BG_GENERAL  = os.path.join(MEDIA_DIR, 'certificategeneral.png')
 BG_GOLD     = os.path.join(MEDIA_DIR, 'certificategold.png')
 BG_SILVER   = os.path.join(MEDIA_DIR, 'certificatesilver.png')
-QB_PATH     = os.path.join(MEDIA_DIR, 'questionbubble.png')
+QUESTIONBUBBLE_PATH = os.path.join(MEDIA_DIR, 'questionbubble.png')
 GOLD_PATH   = os.path.join(MEDIA_DIR, 'gold.png')
 SILVER_PATH = os.path.join(MEDIA_DIR, 'silver.png')
 
@@ -28,8 +28,13 @@ IMG_W      = 1091
 LINE_RIGHT = IMG_W - 55        # rechter Rand der Linie
 MAX_TEXT_W = LINE_RIGHT - TEXT_X
 
-QB_W          = 30   # Breite questionbubble.png
-QB_GAP        = 200  # Abstand: untere Linie → Oberkante questionbubble
+QUESTIONBUBBLE_W            = 40    # Breite questionbubble.png
+QUESTIONBUBBLE_Y            = 1200  # Fixe Y-Position der questionbubble
+QUESTIONBUBBLE_TEXT_GAP     = 10    # Abstand: rechter Rand questionbubble → "#QuizShark"
+QUESTIONBUBBLE_HASHTAG_Y    = 1207  # Fixe Y-Position "#QuizShark"
+QUESTIONBUBBLE_SUB_Y        = 1255  # Fixe Y-Position "Can you beat me?"
+QUESTIONBUBBLE_HASHTAG_SIZE = 33    # Schriftgröße "#QuizShark"
+QUESTIONBUBBLE_SUB_SIZE     = 33    # Schriftgröße "Can you beat me?"
 LOGO_W        = 420  # Breite des QuizShark-Logos
 LOGO_X        = 60   # Abstand von links
 LOGO_Y        = 50   # Abstand von oben
@@ -130,10 +135,22 @@ def build_certificate(name, rank, date_str):
     _gradient_line(img, TEXT_X, LINE_RIGHT, bot_line_y)
     draw.text((TEXT_X, date_y),       date_str,      font=font_date,  fill=DIM)
 
-    qb_src = Image.open(QB_PATH).convert('RGBA')
-    qb_h   = round(QB_W * qb_src.height / qb_src.width)
-    qb_src = qb_src.resize((QB_W, qb_h), Image.LANCZOS)
-    img.paste(qb_src, (TEXT_X, bot_line_y + QB_GAP), qb_src)
+    questionbubble_src  = Image.open(QUESTIONBUBBLE_PATH).convert('RGBA')
+    questionbubble_h    = round(QUESTIONBUBBLE_W * questionbubble_src.height / questionbubble_src.width)
+    questionbubble_src  = questionbubble_src.resize((QUESTIONBUBBLE_W, questionbubble_h), Image.LANCZOS)
+    img.paste(questionbubble_src, (TEXT_X, QUESTIONBUBBLE_Y), questionbubble_src)
+
+    font_hashtag  = ImageFont.truetype(FONT_BOLD, QUESTIONBUBBLE_HASHTAG_SIZE)
+    hashtag_bbox  = font_hashtag.getbbox("#QuizShark")
+    hashtag_x     = TEXT_X + QUESTIONBUBBLE_W + QUESTIONBUBBLE_TEXT_GAP
+    hashtag_y     = QUESTIONBUBBLE_HASHTAG_Y - hashtag_bbox[1]
+    draw.text((hashtag_x, hashtag_y), "#QuizShark", font=font_hashtag, fill=WHITE)
+
+    questionbubble_color = questionbubble_src.getpixel((QUESTIONBUBBLE_W // 2, questionbubble_h // 2))[:3]
+    font_sub  = ImageFont.truetype(FONT_REG, QUESTIONBUBBLE_SUB_SIZE)
+    sub_bbox  = font_sub.getbbox("Can you beat me?")
+    sub_y     = QUESTIONBUBBLE_SUB_Y - sub_bbox[1]
+    draw.text((TEXT_X, sub_y), "Can you beat me?", font=font_sub, fill=questionbubble_color)
 
     buf = io.BytesIO()
     img.save(buf, format='PNG', optimize=True)
